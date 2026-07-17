@@ -9,15 +9,16 @@
   <style>
     body{font-family:"Hiragino Maru Gothic ProN","Yu Gothic","Noto Sans JP",sans-serif;min-height:100svh;padding:clamp(28px,7vw,90px);background:var(--offwhite)}
     header{max-width:1050px;margin:auto}.brand{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--purple);color:white;font:700 24px Georgia}h1{margin:22px 0 12px;font:600 clamp(44px,7vw,86px)/1.15 Georgia,"Yu Mincho",serif}.lead{color:var(--grey);font-size:clamp(17px,2vw,25px);line-height:1.8}
-    main{max-width:1050px;margin:50px auto 0;display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.card{position:relative;min-height:430px;padding:clamp(24px,4vw,46px);border-radius:34px;overflow:hidden;color:inherit;text-decoration:none;box-shadow:0 22px 60px rgba(41,23,18,.1);transition:transform .25s}.card:hover{transform:translateY(-6px)}.card:first-child{background:var(--yellow)}.card:last-child{background:var(--purple);color:white}.tag{font-size:12px;font-weight:900;letter-spacing:.12em}.card h2{font:600 clamp(30px,4vw,52px)/1.4 Georgia,"Yu Mincho",serif}.card p{max-width:31em;line-height:1.8}.arrow{position:absolute;right:30px;bottom:26px;font-size:34px}.dots{position:absolute;right:-45px;top:-45px;width:190px;height:190px;border-radius:50%;background:rgba(255,255,255,.22);box-shadow:0 0 0 45px rgba(255,255,255,.1)}
+    main{max-width:1050px;margin:50px auto 0;display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.card{position:relative;min-height:430px;padding:clamp(24px,4vw,46px);border-radius:34px;overflow:hidden;color:inherit;text-decoration:none;box-shadow:0 22px 60px rgba(41,23,18,.1);transition:transform .25s}.card:hover{transform:translateY(-6px)}.kotori-card{background:var(--yellow)}.team-card{background:var(--purple);color:white}.risu-card{grid-column:1/-1;background:var(--orange);color:white}.tag{font-size:12px;font-weight:900;letter-spacing:.12em}.card h2{font:600 clamp(30px,4vw,52px)/1.4 Georgia,"Yu Mincho",serif}.card p{max-width:31em;line-height:1.8}.arrow{position:absolute;right:30px;bottom:26px;font-size:34px}.dots{position:absolute;right:-45px;top:-45px;width:190px;height:190px;border-radius:50%;background:rgba(255,255,255,.22);box-shadow:0 0 0 45px rgba(255,255,255,.1)}
     footer{max-width:1050px;margin:34px auto;color:var(--grey);font-size:12px}@media(max-width:700px){main{grid-template-columns:1fr}.card{min-height:350px}}
   </style>
 </head>
 <body>
   <header><span class="brand">H</span><h1>HugMap Stories</h1><p class="lead">子どもの「ことば」と「できる」を、<br />ヒーローたちと一緒に見つける絵本。</p></header>
   <main>
-    <a class="card" href="stories/mouikkai/index.html"><span class="dots"></span><span class="tag">KOTORI STORY</span><h2>ことりせんせい、<br />ぼくの「もういっかい」<br />きこえた？</h2><p>ことばになる前の、目・手・身体のおはなし。</p><span class="arrow">→</span></a>
-    <a class="card" href="stories/hero-team/index.html"><span class="dots"></span><span class="tag">HERO TEAM</span><h2>きょうは、<br />だれの出番かな？</h2><p>朝から夜まで、8人のヒーローが「できる方法」をつなぐ一日。</p><span class="arrow">→</span></a>
+    <a class="card kotori-card" href="stories/mouikkai/index.html"><span class="dots"></span><span class="tag">KOTORI STORY</span><h2>ことりせんせい、<br />ぼくの「もういっかい」<br />きこえた？</h2><p>ことばになる前の、目・手・身体のおはなし。</p><span class="arrow">→</span></a>
+    <a class="card team-card" href="stories/hero-team/index.html"><span class="dots"></span><span class="tag">HERO TEAM</span><h2>きょうは、<br />だれの出番かな？</h2><p>朝から夜まで、8人のヒーローが「できる方法」をつなぐ一日。</p><span class="arrow">→</span></a>
+    <a class="card risu-card" href="stories/body-wonders/index.html"><span class="dots"></span><span class="tag">からだのふしぎ編 ①</span><h2>りすせんせい、<br />ぼくのからだは<br />なにをさがしているの？</h2><p>感覚を決めつけず、見る・安全を確かめる・環境を変えるおはなし。</p><span class="arrow">→</span></a>
   </main>
   <footer>HugMap Stories prototype series</footer>
 </body>
