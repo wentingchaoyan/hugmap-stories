@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f1f0" />
+    <meta name="description" content="ことばにならなくても、気持ちはここにある。HugMapのデジタル絵本。" />
+    <title>ことりせんせい、ぼくの「もういっかい」きこえた？</title>
+    <link rel="stylesheet" href="../../shared/base.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-story-pages="12">
+    <header class="story-header" aria-label="絵本の操作">
+      <a class="brand" href="#cover" aria-label="物語の最初へ">
+        <span class="brand-mark">H</span><span>HugMap Stories</span>
+      </a>
+      <div class="header-actions">
+        <button class="control" id="textToggle" type="button" aria-pressed="false">文字を大きく</button>
+        <button class="control" id="motionToggle" type="button" aria-pressed="false">動きを減らす</button>
+      </div>
+    </header>
+
+    <nav class="progress" aria-label="物語の進み具合">
+      <span id="progressLabel">はじまり</span>
+      <span class="progress-track" aria-hidden="true"><span id="progressFill"></span></span>
+      <span id="progressCount">0 / 12</span>
+    </nav>
+
+    <main id="story">
+      <section class="panel cover" id="cover" data-step="0" aria-labelledby="title">
+        <div class="paper-noise" aria-hidden="true"></div>
+        <div class="cover-copy">
+          <p class="eyebrow">HugMap Stories</p>
+          <h1 id="title">ことりせんせい、<br />ぼくの「もういっかい」<br />きこえた？</h1>
+          <p class="cover-lead">ぼくは まいにち、<br />からだじゅうで おはなししている。</p>
+          <a class="start-link" href="#scene-1">スクロールして おはなしを読む <span>↓</span></a>
+        </div>
+        <div class="cover-art" aria-hidden="true">
+          <div class="sun-wash"></div>
+          <img class="character boku cover-boku" src="assets/boku-1.png" alt="" />
+          <img class="character kotori cover-kotori" src="assets/kotori.png" alt="" />
+          <div class="bubble bubble-a"></div><div class="bubble bubble-b"></div><div class="bubble bubble-c"></div>
+        </div>
+      </section>
+
+      <section class="panel scene warm" id="scene-1" data-step="1">
+        <div class="scene-copy left">
+          <p class="scene-number">1</p>
+          <p class="story-text">ぼくは、まだ<br />ことばを たくさん いわない。<br />でもね。<br /><strong>からだじゅうで おはなししている。</strong></p>
+        </div>
+        <div class="scene-art garden" aria-hidden="true">
+          <div class="tree-crown"></div><div class="tree-trunk"></div>
+          <img class="character boku boku-main" src="assets/boku-1.png" alt="" />
+          <div class="bubble bubble-a"></div><div class="bubble bubble-d"></div><div class="bubble bubble-e"></div>
+        </div>
+      </section>
+
+      <section class="panel scene lavender" id="scene-2" data-step="2">
+        <div class="scene-copy left">
+          <p class="scene-number">2</p>
+          <p class="story-text">りょうてを のばして、<br />ママを みあげる。</p>
+          <p class="quote dark-quote">「だっこして」って<br />いっているんだ。</p>
+        </div>
+        <div class="scene-art" aria-hidden="true">
+          <img class="character boku boku-action" src="assets/boku-2-hug.png" alt="" />
+          <div class="mama-arms mama-hug"></div>
+        </div>
+      </section>
+
+      <section class="panel scene sky" id="scene-3" data-step="3">
+        <div class="scene-copy right">
+          <p class="scene-number">3</p>
+          <p class="sound-word">「だっこ？」</p>
+          <p class="story-text">ママが きいて、<br />すこし まってくれた。<br />ぼくは にっこり。<br /><strong>つたわった！</strong></p>
+        </div>
+        <div class="scene-art" aria-hidden="true">
+          <img class="character boku boku-action" src="assets/boku-2-hug.png" alt="" />
+          <div class="hug-glow"></div>
+        </div>
+      </section>
+
+      <section class="panel scene muted" id="scene-4" data-step="4">
+        <div class="scene-copy left">
+          <p class="scene-number">4</p>
+          <p class="voice-word wiggle-word">ふり<br />ふり</p>
+          <p class="story-text">たのしい おとが きこえたら、<br />あたまも からだも<br /><strong>わくわく。</strong><br />これも ぼくの おはなし。</p>
+        </div>
+        <div class="scene-art" aria-hidden="true">
+          <img class="character boku boku-action" src="assets/boku-3-excited-clean.png" alt="" />
+        </div>
+      </section>
+
+      <section class="panel scene dusk" id="scene-5" data-step="5">
+        <div class="scene-copy right light-copy">
+          <p class="scene-number">5</p>
+          <p class="dialogue">でも、いやな ときは——</p>
+          <p class="story-text">かおを そむける。<br />てを とめる。<br />からだを かたくする。</p>
+          <p class="quote">「いや」「まって」<br />なのかもしれない。</p>
+        </div>
+        <div class="scene-art" aria-hidden="true">
+          <img class="character boku boku-action" src="assets/boku-4-no-clean.png" alt="" />
+        </div>
+      </section>
+
+      <section class="panel scene moon" id="scene-6" data-step="6">
+        <div class="scene-copy left light-copy">
+          <p class="scene-number">6</p>
+          <p class="speaker">あるひ、だいすきな<br />おんがくが とまりました。</p>
+          <p class="quote">ぼくは ママの そでを<br />そっと ひきました。<br /><strong>「こっち。こっちだよ」</strong></p>
+        </div>
+        <div class="scene-art" aria-hidden="true">
+          <div class="moon-disc"></div>
+          <img class="character boku boku-lead" src="assets/boku-5-lead-headfix-final.png" alt="" />
+        </div>
+      </section>
+
+      <section class="panel scene yellow" id="scene-7" data-step="7">
+        <div class="scene-copy right effort-copy">
+          <p class="scene-number">7</p>
+          <p class="speaker">ついたのは、<br />おんがくえほんの ところ。</p>
+          <p class="story-text">ちいさな ボタンに<br />ゆびを おきました。<br />でも、ぼくの ちからでは<br /><strong>おせません。</strong></p>
+          <p class="quote dark-quote">ママの かおを みる。<br /><strong>「いっしょに おして。もういっかい」</strong></p>
+        </div>
+        <div class="scene-art" aria-hidden="true">
+          <img class="character boku boku-book" src="assets/boku-6-book-together-final.png" alt="" />
+        </div>
+      </section>
+
+      <section class="panel scene cream" id="scene-8" data-step="8">
+        <div class="scene-copy center wide-copy conflict-copy">
+          <p class="scene-number">8</p>
+          <p class="dialogue dark-dialogue">「おなかが すいたの？」<br />「ちがう おもちゃ？」</p>
+          <p class="story-text">ママも いっしょうけんめい。<br />でも、まだ わかりません。</p>
+          <p class="quote dark-quote">ぼくは もっと つよく<br />そでを ひきました。</p>
+          <p class="story-text closing-line"><strong>ぼくの おはなし、どこに いっちゃったの？</strong></p>
+        </div>
+      </section>
+
+      <section class="panel scene card-scene" id="scene-9" data-step="9">
+        <div class="scene-copy left">
+          <p class="scene-number">9</p>
+          <p class="speaker">そのとき、ことりせんせいが<br />やってきました。</p>
+          <p class="quote dark-quote">「だいじょうぶ。<br />きみの めと てと<br />からだの ことばも、<br /><strong>ぼくには きこえるよ。</strong>」</p>
+        </div>
+        <div class="scene-art" aria-hidden="true">
+          <img class="character kotori kotori-card" src="assets/kotori.png" alt="" />
+          <img class="character boku boku-with-kotori" src="assets/boku-1.png" alt="" />
+        </div>
+      </section>
+
+      <section class="panel scene quiet" id="scene-10" data-step="10">
+        <div class="scene-copy right">
+          <p class="scene-number">10</p>
+          <p class="story-text">そでを ひく。<br />えほんへ いく。<br />ボタンに ゆびを おく。<br />ママを みる。</p>
+          <p class="quote dark-quote">ことりせんせいは、<br /><strong>まえと あと</strong>を みて、<br />そっと まちました。</p>
+        </div>
+        <div class="scene-art" aria-hidden="true">
+          <img class="character kotori teacher-large" src="assets/kotori.png" alt="" />
+          <div class="three-signals four-signals"><span>そで</span><span>えほん</span><span>ボタン</span><span>みる</span></div>
+        </div>
+      </section>
+
+      <section class="panel scene sunrise" id="scene-11" data-step="11">
+        <div class="scene-copy left">
+          <p class="scene-number">11</p>
+          <p class="quote dark-quote">「いっしょに ボタンを おして、<br />この おんがくを<br /><strong>もういっかい</strong>、かな？」</p>
+          <p class="story-text">ことりせんせいは<br />きめつけないで、<br /><strong>ぼくに きいてくれました。</strong></p>
+        </div>
+        <div class="scene-art" aria-hidden="true">
+          <div class="sun-disc"></div>
+          <img class="character kotori kotori-card" src="assets/kotori.png" alt="" />
+          <div class="touch-glow"><span class="loop-mark">↻</span><span>もういっかい</span></div>
+        </div>
+      </section>
+
+      <section class="panel scene finale" id="scene-12" data-step="12">
+        <div class="finale-art" aria-hidden="true">
+          <img class="character boku finale-boku" src="assets/boku-6-book-together-final.png" alt="" />
+          <img class="character kotori finale-kotori" src="assets/kotori.png" alt="" />
+          <img class="character fukurou finale-fukurou" src="assets/fukurou.png" alt="" />
+          <div class="bubble bubble-a"></div><div class="bubble bubble-b"></div><div class="bubble bubble-c"></div><div class="bubble bubble-d"></div>
+        </div>
+        <div class="scene-copy center finale-copy">
+          <p class="sound-word">ママも ぼくを みて、<br />すこし まってから ききました。</p>
+          <p class="final-words">「いっしょに おして、もういっかい？」<br />ぼくは にっこり。あたまを ふりふり。<br />ママと ぼくの ゆびで、ぽちっ。<br /><strong>きこえた！ ぼくの「てつだって」と「もういっかい」。</strong></p>
+        </div>
+      </section>
+
+      <section class="panel afterword" id="afterword" data-step="13">
+        <div class="afterword-card">
+          <img src="assets/pocket.png" alt="ぽけっとさん" />
+          <div>
+            <p class="eyebrow">おはなしの あとに</p>
+            <h2>いつもの仕草にある「ことば」を、<br />一緒に見つけよう。</h2>
+            <p>手を伸ばす、顔をそむける、袖を引く、物と人を交互に見る。同じ仕草でも、場面によって意味は変わります。まずは「見る・待つ・たしかめる」。HugMapでは、お子さんの表情や動き、その前後の出来事から、伝えたいことと関わり方を一緒に考えます。</p>
+            <ol class="support-steps" aria-label="ことりせんせいの三つのヒント">
+              <li><b>見る</b><span>視線・手・身体と、その前後を見る</span></li>
+              <li><b>待つ</b><span>次のサインが出るまで、少し待つ</span></li>
+              <li><b>たしかめる</b><span>「もう一回かな？」と本人に聞く</span></li>
+            </ol>
+            <button class="primary-button" id="openBuilder" type="button">ことりせんせいとサインを見つける</button>
+            <button class="text-button" id="restart" type="button">もういちど読む</button>
+          </div>
+        </div>
+        <p class="disclaimer">この絵本は一般的な情報をもとにした作品です。聞こえや発達について心配がある場合は、小児科・言語聴覚士などの専門職にご相談ください。</p>
+      </section>
+    </main>
+
+    <dialog id="builderDialog" aria-labelledby="builderTitle">
+      <form method="dialog" class="builder">
+        <button class="close-button" value="close" aria-label="閉じる">×</button>
+        <p class="eyebrow">HugMap・ことりせんせい</p>
+        <h2 id="builderTitle">お子さんは、どんな方法で<br />伝えていますか？</h2>
+        <fieldset>
+          <legend>今見られる伝え方を選んでください</legend>
+          <div class="choice-grid">
+            <label><input type="checkbox" value="手を伸ばす" /><span>🙌<b>てを のばす</b></span></label>
+            <label><input type="checkbox" value="頭を振る" /><span>😊<b>あたまを ふる</b></span></label>
+            <label><input type="checkbox" value="顔をそむける" /><span>↪<b>かおを そむける</b></span></label>
+            <label><input type="checkbox" value="袖を引く" /><span>☝<b>そでを ひく</b></span></label>
+            <label><input type="checkbox" value="視線を送る" /><span>👀<b>かおを みる</b></span></label>
+            <label><input type="checkbox" value="声を出す" /><span>♪<b>こえを だす</b></span></label>
+            <label><input type="checkbox" value="物と人を交互に見る" /><span>↔<b>ものと ひとを みる</b></span></label>
+            <label><input type="checkbox" value="動きを止める" /><span>•••<b>うごきを とめる</b></span></label>
+          </div>
+        </fieldset>
+        <button class="primary-button" id="makeMiniBook" type="button">この内容で作ってみる</button>
+        <div class="mini-result" id="miniResult" hidden aria-live="polite"></div>
+        <a class="app-link" href="https://withuai.com/services.html" target="_blank" rel="noopener">もっとことりせんせいに相談する<br /><strong>HugMapアプリを見る →</strong></a>
+      </form>
+    </dialog>
+
+    <script src="../../shared/story-runtime.js"></script>
+    <script src="story.js"></script>
+  </body>
+</html>

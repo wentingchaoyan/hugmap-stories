@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "repository": "withu",
+    "commit": "9d48da957c2ea5ab1da21ed7fb4cefa3dd653d9f",
+    "syncedAt": "2026-07-17"
+  },
+  "policy": {
+    "mode": "approved-copy",
+    "note": "Files are copied intentionally so published stories do not change when the app repository changes. Review visual and role changes before syncing again."
+  },
+  "characters": [
+    { "id": "kotori", "file": "characters/kotori.png", "source": "src/images/persona/persona_kotori.png", "sha256": "d2d722ead9cbe646545032d784224156da5d59c84bdef3d62bf9a698ccdb95c0" },
+    { "id": "risu", "file": "characters/risu.png", "source": "src/images/persona/persona_risu.png", "sha256": "1b49b56e0fa53026ba62637e151ec7fc36909d54082ac3623e0fede715420356" },
+    { "id": "usagi", "file": "characters/usagi.png", "source": "src/images/persona/persona_usagi.png", "sha256": "661b331c59ad49acf6190c81edfda09a113ac5ad03c34196338d66e3d697f3d8" },
+    { "id": "fukurou", "file": "characters/fukurou.png", "source": "src/images/persona/persona_fukurou.png", "sha256": "69968a275653aa9d2c0ba8bd904ef32a2b52fd711b54f0aca7cec9778f1e261e" },
+    { "id": "kuma", "file": "characters/kuma.png", "source": "src/images/persona/persona_kuma.png", "sha256": "fd4b56f279e0909efc803e25b718ad1a1e2058e148f2f48cad6ff5e629b2210f" },
+    { "id": "zou", "file": "characters/zou.png", "source": "src/images/persona/persona_zou.png", "sha256": "8c28f455078e3132093761baaa87c06e985bf5f5c4bdfe413d679c382a4aa964" },
+    { "id": "kaba", "file": "characters/kaba.png", "source": "src/images/persona/persona_kaba.png", "sha256": "c8a37b03b325215d12368895014a08fd28b2b792efe0043c78a45656bc071aa7" },
+    { "id": "pocket", "file": "characters/pocket.png", "source": "src/images/persona/persona_kangaroo.png", "sha256": "b1d0405c4f5e9b86b44a296c0cc87bf6741e44bb65de889afb18c4381894eda2" }
+  ]
+}

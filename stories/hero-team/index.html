@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#f4f1f0" />
+  <meta name="description" content="子どもの一日をHugMapの先生たちがそれぞれの力で支えるデジタル絵本。" />
+  <title>HugMapヒーローズ — きょうは、だれの出番かな？</title>
+  <link rel="stylesheet" href="../../shared/base.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-story-pages="9">
+  <header class="story-header">
+    <a class="brand" href="#cover"><span class="brand-mark">H</span><span>HugMap Stories</span></a>
+    <div class="header-actions">
+      <button id="textToggle" class="control" type="button" aria-pressed="false">文字を大きく</button>
+      <button id="motionToggle" class="control" type="button" aria-pressed="false">動きを減らす</button>
+    </div>
+  </header>
+
+  <nav class="progress" aria-label="物語の進み具合">
+    <span id="progressLabel">はじまり</span>
+    <span class="progress-track"><span id="progressFill"></span></span>
+    <span id="progressCount">0 / 9</span>
+  </nav>
+
+  <main>
+    <section class="panel cover" id="cover" data-step="0">
+      <div class="copy cover-copy">
+        <p class="eyebrow">HugMap Heroes</p>
+        <h1>きょうは、<br />だれの出番かな？</h1>
+        <p class="lead">ぼくを かえるんじゃない。<br />ぼくに あう「できる」を<br />いっしょに みつける ヒーローたち。</p>
+        <a class="start" href="#morning">おはなしを読む <span>↓</span></a>
+      </div>
+      <div class="team-orbit" aria-hidden="true">
+        <img class="hero h1" src="../../shared/characters/kotori.png" alt="" />
+        <img class="hero h2" src="../../shared/characters/risu.png" alt="" />
+        <img class="hero h3" src="../../shared/characters/usagi.png" alt="" />
+        <img class="hero h4" src="../../shared/characters/fukurou.png" alt="" />
+        <img class="hero h5" src="../../shared/characters/zou.png" alt="" />
+        <img class="hero h6" src="../../shared/characters/kaba.png" alt="" />
+        <img class="hero h7" src="../../shared/characters/kuma.png" alt="" />
+        <img class="hero h8" src="../../shared/characters/pocket.png" alt="" />
+        <div class="team-heart">H</div>
+      </div>
+    </section>
+
+    <section class="panel episode risu" id="morning" data-step="1">
+      <div class="copy">
+        <p class="time">あさ・きがえ</p>
+        <h2>ボタンが つまめない。</h2>
+        <p class="story">やりたいのに、ゆびが うまく うごかない。<br />「できない」って いわれると、かなしいな。</p>
+        <blockquote>「できないんじゃないよ。<br /><strong>やりやすい かたち</strong>を さがそう」</blockquote>
+        <div class="power"><b>りすせんせいの力</b><span>動きを小さく分け、道具や環境を整える</span></div>
+      </div>
+      <div class="art" aria-hidden="true"><div class="prop buttons"><i></i><i></i><i></i></div><img src="../../shared/characters/risu.png" alt="" /></div>
+    </section>
+
+    <section class="panel episode usagi right" id="stairs" data-step="2">
+      <div class="copy">
+        <p class="time">とうえん・かいだん</p>
+        <h2>おちそうで こわい。</h2>
+        <p class="story">みんなは どんどん のぼるけど、<br />ぼくの あしは まだ じゅんびちゅう。</p>
+        <blockquote>「はやさより、<br /><strong>あんしんできる 一歩</strong>から」</blockquote>
+        <div class="power"><b>うさぎせんせいの力</b><span>身体を支え、小さな成功を積み重ねる</span></div>
+      </div>
+      <div class="art" aria-hidden="true"><div class="prop steps"><i></i><i></i><i></i></div><img src="../../shared/characters/usagi.png" alt="" /></div>
+    </section>
+
+    <section class="panel episode zou" id="activity" data-step="3">
+      <div class="copy">
+        <p class="time">かつどう・みんなのせつめい</p>
+        <h2>ことばだけでは、わからない。</h2>
+        <p class="story">なにを、どの じゅんばんで するのかな。<br />みんなが はじめても、ぼくは うごけない。</p>
+        <blockquote>「おなじ ゴールでも、<br /><strong>みえる道</strong>が あっていい」</blockquote>
+        <div class="power"><b>ぞうせんせいの力</b><span>絵や具体物で、学びへの別の道をつくる</span></div>
+      </div>
+      <div class="art" aria-hidden="true"><div class="prop board"><i></i><i></i><i></i></div><img src="../../shared/characters/zou.png" alt="" /></div>
+    </section>
+
+    <section class="panel episode kaba right" id="lunch" data-step="4">
+      <div class="copy">
+        <p class="time">おひる・ごはん</p>
+        <h2>くちに いれると、びっくりする。</h2>
+        <p class="story">かたさ、におい、おおきさ。<br />「たべない」には、わけが あるんだ。</p>
+        <blockquote>「れんしゅうの まえに、<br /><strong>あんしんして たべる</strong>こと」</blockquote>
+        <div class="power"><b>かばせんせいの力</b><span>食べやすい姿勢・形・量と安全を探す</span></div>
+      </div>
+      <div class="art" aria-hidden="true"><div class="prop bowl"><i></i></div><img src="../../shared/characters/kaba.png" alt="" /></div>
+    </section>
+
+    <section class="panel episode kotori" id="play" data-step="5">
+      <div class="copy">
+        <p class="time">あそび・ともだち</p>
+        <h2>いっしょに あそびたい。</h2>
+        <p class="story">おもちゃと ともだちを こうごに みる。<br />でも、ぼくの おさそいは まだ みつからない。</p>
+        <blockquote>「めも、てもしぐさも、<br /><strong>ぜんぶ おはなし</strong>だよ」</blockquote>
+        <div class="power"><b>ことりせんせいの力</b><span>ことばになる前のコミュニケーションを見つける</span></div>
+      </div>
+      <div class="art" aria-hidden="true"><div class="prop bubbles"><i></i><i></i></div><img src="../../shared/characters/kotori.png" alt="" /></div>
+    </section>
+
+    <section class="panel episode fukurou right" id="change" data-step="6">
+      <div class="copy">
+        <p class="time">かえり・よていへんこう</p>
+        <h2>きゅうに かわると、こわい。</h2>
+        <p class="story">いつもの みちが とおれない。<br />ぼくは とまって、ないて、うごけなくなった。</p>
+        <blockquote>「こまった行動には、<br /><strong>こまっている 理由</strong>が ある」</blockquote>
+        <div class="power"><b>ふくろうせんせいの力</b><span>出来事・行動・必要な助けをつないで考える</span></div>
+      </div>
+      <div class="art" aria-hidden="true"><div class="prop cards"><i></i><i></i><i></i></div><img src="../../shared/characters/fukurou.png" alt="" /></div>
+    </section>
+
+    <section class="panel episode kuma" id="health" data-step="7">
+      <div class="copy">
+        <p class="time">おうち・いつもとちがう</p>
+        <h2>きょうは、なんだか しんどい。</h2>
+        <p class="story">ことばで「いたい」と いえなくても、<br />ねむりや うごきが いつもと ちがう。</p>
+        <blockquote>「あんしんすることも、<br /><strong>そうだんすること</strong>も だいじ」</blockquote>
+        <div class="power"><b>くませんせいの力</b><span>いつもとの違いを整理し、健康相談へつなぐ</span></div>
+      </div>
+      <div class="art" aria-hidden="true"><div class="prop pulse"><i></i></div><img src="../../shared/characters/kuma.png" alt="" /></div>
+    </section>
+
+    <section class="panel episode pocket right" id="record" data-step="8">
+      <div class="copy">
+        <p class="time">よる・きょうのきろく</p>
+        <h2>きょうの「できた」を、なくさない。</h2>
+        <p class="story">ママが みつけたこと。<br />せんせいと うまくいったこと。<br />ぼくが つたえたこと。</p>
+        <blockquote>「たいせつなこと、<br /><strong>ポケットに しまっておくね</strong>」</blockquote>
+        <div class="power"><b>ぽけっとさんの力</b><span>気づきや記録を預かり、次の支援者へつなぐ</span></div>
+      </div>
+      <div class="art" aria-hidden="true"><div class="prop notes"><i></i><i></i><i></i></div><img src="../../shared/characters/pocket.png" alt="" /></div>
+    </section>
+
+    <section class="panel finale" id="team" data-step="9">
+      <div class="mini-team" aria-hidden="true">
+        <img src="../../shared/characters/kotori.png" alt="" /><img src="../../shared/characters/risu.png" alt="" />
+        <img src="../../shared/characters/usagi.png" alt="" /><img src="../../shared/characters/fukurou.png" alt="" />
+        <img src="../../shared/characters/zou.png" alt="" /><img src="../../shared/characters/kaba.png" alt="" />
+        <img src="../../shared/characters/kuma.png" alt="" /><img src="../../shared/characters/pocket.png" alt="" />
+      </div>
+      <div class="final-copy">
+        <p class="eyebrow">HugMap Heroes</p>
+        <h2>ぼくを かえるために<br />くるんじゃない。</h2>
+        <p>ぼくが ぼくの ままで、<br />できる ほうほうを<br />いっしょに みつけてくれる。</p>
+        <strong>きょうは、だれの 出番かな？</strong>
+      </div>
+    </section>
+
+    <section class="panel afterword" id="afterword" data-step="10">
+      <div class="after-card">
+        <img src="../../shared/characters/pocket.png" alt="ぽけっとさん" />
+        <div>
+          <p class="eyebrow">おはなしの あとに</p>
+          <h2>困りごとに合う先生と、<br />できる方法を探そう。</h2>
+          <p>ことば、手や感覚、身体、こころ、学び、食事、健康。HugMapでは、今気になることから相談する先生を選べます。まだ何に困っているか分からなくても大丈夫です。</p>
+          <a class="primary" href="https://withuai.com/services.html" target="_blank" rel="noopener">HugMapで先生を見つける</a>
+          <button id="restart" class="restart" type="button">もういちど読む</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="../../shared/story-runtime.js"></script>
+</body>
+</html>
