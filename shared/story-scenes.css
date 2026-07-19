@@ -20,3 +20,44 @@
 @media(prefers-reduced-motion:reduce){.panel .copy,.panel .art,.panel :is(.toy-list,.cards,.lenses,.week,.growth-path,.clue-stack,.support-kit,.meeting-art,.team-art)>*{opacity:1!important;filter:none!important;transform:none!important;transition:none!important}}
 
 @media(max-width:760px){.story-scenes-ready .panel[data-motion="2"]:not(.is-story-visible) .art,.story-scenes-ready .panel[data-motion="3"]:not(.is-story-visible) .art{filter:blur(3px);transform:none}.story-scenes-ready .panel[data-motion]:not(.is-story-visible) .copy{transform:translateY(8px)}}
+
+/* スマホでは「余白に文字を重ねる」見開きから、本文→絵の二段構成へ切り替える。 */
+@media(max-width:760px){
+  body[data-story-type] .panel:not(.afterword){
+    display:grid!important;
+    grid-template-columns:minmax(0,1fr)!important;
+    grid-template-rows:auto minmax(270px,42svh)!important;
+    align-items:stretch!important;
+    align-content:start!important;
+    gap:18px!important;
+    min-height:100svh;
+    height:auto!important;
+  }
+  body[data-story-type] .panel:not(.afterword)>:is(.copy,.scene-copy,.cover-copy,.final-copy){
+    position:relative!important;
+    inset:auto!important;
+    grid-column:1!important;
+    grid-row:1!important;
+    width:100%!important;
+    max-width:none!important;
+    margin:0!important;
+    align-self:start!important;
+  }
+  body[data-story-type] .panel:not(.afterword)>:is(.art,.scene-art,.cover-art,.finale-art,.team-orbit,.mini-team){
+    position:relative!important;
+    inset:auto!important;
+    grid-column:1!important;
+    grid-row:2!important;
+    width:100%!important;
+    min-width:0!important;
+    min-height:270px!important;
+    height:auto!important;
+    margin:0!important;
+    align-self:stretch!important;
+  }
+  body[data-story-type] .panel:not(.afterword)>:is(.copy,.scene-copy,.cover-copy,.final-copy)+:is(.art,.scene-art,.cover-art,.finale-art,.team-orbit,.mini-team){
+    margin-top:0!important;
+  }
+  body[data-story-type] .finale:not(.afterword){justify-content:start!important;text-align:left}
+  body[data-story-type] .finale:not(.afterword)>:is(.copy,.scene-copy,.final-copy){text-align:left}
+}
