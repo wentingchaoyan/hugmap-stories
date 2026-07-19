@@ -5,3 +5,29 @@
 /* ヒーロー紹介もカードではなく、背景の流れの中で読ませる。 */
 .panel:not(.afterword):before{content:"";position:absolute;z-index:1;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.6),rgba(255,255,255,.3) 38%,transparent 59%);pointer-events:none}.episode.right:not(.afterword):before{background:linear-gradient(270deg,rgba(255,255,255,.6),rgba(255,255,255,.3) 38%,transparent 59%)}.panel:not(.afterword) .copy{padding:clamp(8px,1.5vw,20px) 0;background:transparent;border-radius:0;box-shadow:none;backdrop-filter:none}.episode blockquote{padding-block:10px}.fukurou:not(.afterword):before{background:linear-gradient(90deg,rgba(125,39,65,.95),rgba(125,39,65,.72) 39%,transparent 62%)}.fukurou .copy{background:transparent}.power{width:min(420px,100%);background:rgba(255,255,255,.42);box-shadow:none}.fukurou .power{background:rgba(255,255,255,.13)}.finale:before{background:linear-gradient(0deg,rgba(125,39,65,.97),rgba(125,39,65,.76) 42%,transparent 69%)}
 @media(max-width:760px){.panel:not(.afterword):before,.episode.right:not(.afterword):before,.fukurou:not(.afterword):before{background:linear-gradient(180deg,rgba(255,255,255,.9),rgba(255,255,255,.68) 44%,transparent 64%)}.fukurou:not(.afterword):before{background:linear-gradient(180deg,rgba(125,39,65,.97),rgba(125,39,65,.82) 46%,transparent 66%)}.panel:not(.afterword) .copy,.episode.right:not(.afterword) .copy{padding:4px 2px}.finale:before{background:linear-gradient(0deg,rgba(125,39,65,.98),rgba(125,39,65,.84) 51%,transparent 74%)}}
+
+/* 全ページを同じ紙の上に置き、先生ごとの差はページ端で消える淡い光だけにする。 */
+.cover,.episode,.finale{background:var(--story-paper,#f7f4ef)!important}
+.episode{--scene-accent:var(--purple);--scene-wash:rgba(125,39,65,.09);background:radial-gradient(circle at 76% 48%,var(--scene-wash),transparent 47%),var(--story-paper,#f7f4ef)!important}
+.episode.right{background:radial-gradient(circle at 24% 48%,var(--scene-wash),transparent 47%),var(--story-paper,#f7f4ef)!important}
+.risu{--scene-accent:#a38e28;--scene-wash:rgba(215,200,98,.2)}
+.usagi{--scene-accent:#7d2741;--scene-wash:rgba(125,39,65,.1)}
+.zou{--scene-accent:#d16b2d;--scene-wash:rgba(255,81,27,.1)}
+.kaba{--scene-accent:#9f596a;--scene-wash:rgba(159,89,106,.11)}
+.kotori{--scene-accent:#d85c2c;--scene-wash:rgba(255,81,27,.12)}
+.fukurou{--scene-accent:#7d2741;--scene-wash:rgba(125,39,65,.13)}
+.kuma{--scene-accent:#816c66;--scene-wash:rgba(129,108,102,.1)}
+.pocket{--scene-accent:#a38e28;--scene-wash:rgba(215,200,98,.18)}
+.episode .time,.episode .power b{color:var(--scene-accent)!important}
+.fukurou .copy,.fukurou .power span{color:var(--ink)!important}
+.power,.fukurou .power{width:min(420px,100%);padding:8px 0 8px 16px;border-left:2px solid var(--scene-accent);border-radius:0;background:transparent!important;box-shadow:none}
+.finale{color:var(--ink);background:radial-gradient(ellipse at 50% 24%,rgba(125,39,65,.12),transparent 54%),var(--story-paper,#f7f4ef)!important}
+.finale:before{background:linear-gradient(0deg,rgba(247,244,239,.99),rgba(247,244,239,.72) 44%,transparent 72%)}
+.final-copy .eyebrow{color:var(--purple)}
+.final-copy strong{color:var(--orange)}
+
+@media(max-width:760px){
+  .episode,.episode.right{background:radial-gradient(circle at 50% 78%,var(--scene-wash),transparent 43%),var(--story-paper,#f7f4ef)!important}
+  .fukurou:not(.afterword):before{background:linear-gradient(180deg,rgba(255,255,255,.9),rgba(255,255,255,.68) 44%,transparent 64%)}
+  .finale:before{background:linear-gradient(180deg,rgba(247,244,239,.94),rgba(247,244,239,.7) 44%,transparent 68%)}
+}
