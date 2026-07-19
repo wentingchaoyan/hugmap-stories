@@ -319,3 +319,29 @@ legend { font-weight: 800; margin-bottom: 14px; }
   .dusk .scene-copy .small-note,.moon .scene-copy .small-note{color:rgba(255,255,255,.82)!important}
   #scene-3 .scene-copy,#scene-5 .scene-copy{max-width:none!important}
 }
+
+/* 物語全体を一枚の紙としてつなぎ、感情の差はページ端で消える淡い光で示す。 */
+.cover,.scene,.finale{--scene-wash:rgba(125,39,65,.06);background:radial-gradient(circle at 76% 48%,var(--scene-wash),transparent 48%),var(--story-paper,#f7f4ef)!important;color:var(--ink)!important}
+.scene:has(.scene-copy.right){background:radial-gradient(circle at 24% 48%,var(--scene-wash),transparent 48%),var(--story-paper,#f7f4ef)!important}
+.warm,.sky,.cream,.quiet{--scene-wash:rgba(215,200,98,.12)}
+.lavender,.muted,.card-scene{--scene-wash:rgba(125,39,65,.08)}
+.yellow,.sunrise{--scene-wash:rgba(215,200,98,.2)}
+.dusk{--scene-wash:rgba(125,39,65,.14)}
+.moon{--scene-wash:rgba(125,39,65,.18)}
+.dusk .scene-copy,.moon .scene-copy,.light-copy{color:var(--ink)!important;text-shadow:none!important}
+.dusk::before,.moon::before,.dusk:has(.scene-copy.right)::before{background:linear-gradient(90deg,rgba(255,255,255,.7),rgba(255,255,255,.28) 39%,transparent 62%)}
+.dusk:has(.scene-copy.right)::before{background:linear-gradient(270deg,rgba(255,255,255,.7),rgba(255,255,255,.28) 39%,transparent 62%)}
+.fading-bubble{border-color:rgba(125,39,65,.24)}
+.emotion-rings{border-color:rgba(125,39,65,.06);box-shadow:0 0 0 70px rgba(125,39,65,.035),0 0 0 140px rgba(125,39,65,.02)}
+.moon-disc{background:rgba(125,39,65,.1)}
+.feeling-drop{background:rgba(125,39,65,.06);box-shadow:0 0 0 70px rgba(125,39,65,.025)}
+.listening-space{color:rgba(125,39,65,.48)}
+.signals span{padding:10px 4px;border:0;border-bottom:1px solid rgba(125,39,65,.3);border-radius:0;background:transparent}
+.message-card,.waiting-card,.touch-glow{padding:12px;background:transparent;border:0;border-left:3px solid var(--orange);border-radius:0;box-shadow:none}
+.touch-glow{filter:drop-shadow(0 12px 24px rgba(255,81,27,.16))}
+
+@media(max-width:760px){
+  .cover,.scene,.scene:has(.scene-copy.right),.finale{background:radial-gradient(circle at 50% 78%,var(--scene-wash),transparent 44%),var(--story-paper,#f7f4ef)!important}
+  .dusk::before,.moon::before,.dusk:has(.scene-copy.right)::before{background:linear-gradient(180deg,rgba(255,255,255,.92),rgba(255,255,255,.68) 45%,transparent 66%)}
+  .dusk .scene-copy,.moon .scene-copy,.dusk .scene-copy .small-note,.moon .scene-copy .small-note{color:var(--ink)!important;text-shadow:none!important}
+}
