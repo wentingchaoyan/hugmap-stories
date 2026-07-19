@@ -32,7 +32,9 @@ hugmap-stories/
 3. `<body data-story-pages="ページ数">` を設定する。
 4. 各パネルに連番の `data-step` を付ける。
 5. `planning/character-roles.md` と `planning/content-sync.md` に従う。
-6. `planning/story-backlog.md` の状態を更新する。
+6. `planning/story-design-principles.md` を参照し、作品タイプと動きの強さを決める。
+7. 各作品の `script.md` にページの役割・絵・動き・補足情報を記録する。
+8. `planning/story-backlog.md` の状態を更新する。
 
 ## ブランチと公開
 
