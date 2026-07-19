@@ -1,0 +1,22 @@
+/* 台本の動きレベルを、全作品で同じ意味にする。JSが動く時だけ初期状態を隠す。 */
+.story-scenes-ready .panel[data-motion] .copy,.story-scenes-ready .panel[data-motion] .art{transition:opacity .72s ease,filter .9s ease,transform .9s cubic-bezier(.2,.7,.2,1)}
+.story-scenes-ready .panel[data-motion="1"]:not(.is-story-visible) .copy{opacity:0;transform:translateY(12px)}
+.story-scenes-ready .panel[data-motion="1"]:not(.is-story-visible) .art{opacity:.5;filter:blur(2px)}
+.story-scenes-ready .panel[data-motion="2"]:not(.is-story-visible) .copy{opacity:0;transform:translateY(18px)}
+.story-scenes-ready .panel[data-motion="2"]:not(.is-story-visible) .art{opacity:.24;filter:blur(5px);transform:scale(.985)}
+.story-scenes-ready .panel[data-motion="3"]:not(.is-story-visible) .copy{opacity:0;transform:translateY(24px)}
+.story-scenes-ready .panel[data-motion="3"]:not(.is-story-visible) .art{opacity:.12;filter:blur(8px);transform:scale(1.025)}
+.story-scenes-ready .panel.is-story-visible .copy,.story-scenes-ready .panel.is-story-visible .art{opacity:1;filter:none;transform:none}
+
+/* 台本で「順番に見せる」とした情報だけを累積表示する。 */
+.story-scenes-ready .panel[data-sequence]:not(.is-story-visible) :is(.toy-list,.cards,.lenses,.week,.growth-path,.clue-stack,.support-kit,.meeting-art,.team-art)>*{opacity:0}
+.story-scenes-ready .panel[data-sequence] :is(.toy-list,.cards,.lenses,.week,.growth-path,.clue-stack,.support-kit,.meeting-art,.team-art)>*{transition:opacity .48s ease}
+.story-scenes-ready .panel[data-sequence].is-story-visible :is(.toy-list,.cards,.lenses,.week,.growth-path,.clue-stack,.support-kit,.meeting-art,.team-art)>*{opacity:1}
+.story-scenes-ready .panel[data-sequence].is-story-visible :is(.toy-list,.cards,.lenses,.week,.growth-path,.clue-stack,.support-kit,.meeting-art,.team-art)>*:nth-child(2){transition-delay:.12s}.story-scenes-ready .panel[data-sequence].is-story-visible :is(.toy-list,.cards,.lenses,.week,.growth-path,.clue-stack,.support-kit,.meeting-art,.team-art)>*:nth-child(3){transition-delay:.24s}.story-scenes-ready .panel[data-sequence].is-story-visible :is(.toy-list,.cards,.lenses,.week,.growth-path,.clue-stack,.support-kit,.meeting-art,.team-art)>*:nth-child(4){transition-delay:.36s}.story-scenes-ready .panel[data-sequence].is-story-visible :is(.toy-list,.cards,.lenses,.week,.growth-path,.clue-stack,.support-kit,.meeting-art,.team-art)>*:nth-child(5){transition-delay:.48s}.story-scenes-ready .panel[data-sequence].is-story-visible :is(.toy-list,.cards,.lenses,.week,.growth-path,.clue-stack,.support-kit,.meeting-art,.team-art)>*:nth-child(6){transition-delay:.6s}
+
+/* 比較・安全説明・後書きは常に即時表示。 */
+.panel[data-motion="0"] .copy,.panel[data-motion="0"] .art,.afterword .copy,.afterword .art{opacity:1!important;filter:none!important;transform:none!important;transition:none!important}
+.reduce-motion .panel .copy,.reduce-motion .panel .art,.reduce-motion .panel :is(.toy-list,.cards,.lenses,.week,.growth-path,.clue-stack,.support-kit,.meeting-art,.team-art)>*{opacity:1!important;filter:none!important;transform:none!important;transition:none!important}
+@media(prefers-reduced-motion:reduce){.panel .copy,.panel .art,.panel :is(.toy-list,.cards,.lenses,.week,.growth-path,.clue-stack,.support-kit,.meeting-art,.team-art)>*{opacity:1!important;filter:none!important;transform:none!important;transition:none!important}}
+
+@media(max-width:760px){.story-scenes-ready .panel[data-motion="2"]:not(.is-story-visible) .art,.story-scenes-ready .panel[data-motion="3"]:not(.is-story-visible) .art{filter:blur(3px);transform:none}.story-scenes-ready .panel[data-motion]:not(.is-story-visible) .copy{transform:translateY(8px)}}
