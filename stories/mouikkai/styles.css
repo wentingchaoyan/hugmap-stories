@@ -304,3 +304,18 @@ legend { font-weight: 800; margin-bottom: 14px; }
 /* 白い説明カードを外し、場面とことばを一枚の絵としてつなぐ。 */
 .scene::before,.cover::before{content:"";position:absolute;z-index:1;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.62),rgba(255,255,255,.3) 38%,transparent 60%);pointer-events:none}.scene:has(.scene-copy.right)::before{background:linear-gradient(270deg,rgba(255,255,255,.62),rgba(255,255,255,.3) 38%,transparent 60%)}.scene-copy,.scene-copy.center,.cover-copy{padding:clamp(8px,1.5vw,20px) 0;margin-left:0;background:transparent;border-radius:0;box-shadow:none;backdrop-filter:none}.scene-copy.center{padding-inline:clamp(12px,3vw,38px)}.dusk::before,.moon::before{background:linear-gradient(90deg,rgba(125,39,65,.96),rgba(125,39,65,.74) 39%,transparent 62%)}.dusk:has(.scene-copy.right)::before{background:linear-gradient(270deg,rgba(125,39,65,.96),rgba(125,39,65,.74) 39%,transparent 62%)}.light-copy{background:transparent;box-shadow:none}.finale::before{background:linear-gradient(0deg,rgba(244,241,240,.98),rgba(244,241,240,.84) 40%,transparent 64%)}.finale-copy{background:transparent;text-shadow:0 2px 18px rgba(255,255,255,.8)}
 @media(max-width:760px){.scene::before,.cover::before,.scene:has(.scene-copy.right)::before{background:linear-gradient(180deg,rgba(255,255,255,.91),rgba(255,255,255,.69) 44%,transparent 64%)}.dusk::before,.moon::before,.dusk:has(.scene-copy.right)::before{background:linear-gradient(180deg,rgba(125,39,65,.97),rgba(125,39,65,.82) 46%,transparent 67%)}.scene-copy,.scene-copy.center,.cover-copy,.finale .scene-copy{padding:4px 2px;border-radius:0}.finale::before{background:linear-gradient(0deg,rgba(244,241,240,.98),rgba(244,241,240,.88) 46%,transparent 69%)}}
+
+/* スマホでは説明カードを完全に外し、ことばと絵を同じ紙面の上下に置く。 */
+@media(max-width:760px){
+  .cover-copy,.scene-copy,.scene-copy.right,.scene-copy.center,.finale .scene-copy{
+    padding:0!important;
+    background:transparent!important;
+    border-radius:0!important;
+    box-shadow:none!important;
+    backdrop-filter:none!important;
+  }
+  .scene:not(.dusk):not(.moon) .scene-copy{color:var(--ink)!important;text-shadow:none}
+  .dusk .scene-copy,.moon .scene-copy{color:#fff!important;text-shadow:0 2px 14px rgba(41,23,18,.2)}
+  .dusk .scene-copy .small-note,.moon .scene-copy .small-note{color:rgba(255,255,255,.82)!important}
+  #scene-3 .scene-copy,#scene-5 .scene-copy{max-width:none!important}
+}
