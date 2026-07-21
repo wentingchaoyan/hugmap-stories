@@ -1,5 +1,7 @@
 # HugMap Stories
 
+[English README](README.en.md)
+
 HugMapの公式キャラクターと支援方針をもとにした、独立公開可能な静的デジタル絵本サイトです。
 
 アプリ本体の `withu` リポジトリとは分離し、公開中の絵本がアプリ側の変更で突然変わらない構成にしています。キャラクター、デザイン、FAQ、Activityは制作時に参照・同期しますが、本番アプリのファイルやデータベースには直接依存しません。
@@ -24,6 +26,8 @@ hugmap-stories/
 ## ローカルで読む
 
 `index.html` をブラウザーで開いてください。ビルド工程はありません。
+
+英語版は `en/index.html` から読めます。日本語原稿を更新した場合は、手訳を管理する `scripts/build_english.py` を更新してから `python3 scripts/build_english.py` を実行してください。
 
 ## 新しい作品を追加する
 

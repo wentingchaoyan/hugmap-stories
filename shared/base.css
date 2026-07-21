@@ -31,3 +31,12 @@ button { color: inherit; }
     transition-duration: .001ms !important;
   }
 }
+/* Language navigation shared by the Japanese and English story editions. */
+.language-switch {
+  margin-right: .65rem;
+  color: currentColor;
+  font-size: .78rem;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+}

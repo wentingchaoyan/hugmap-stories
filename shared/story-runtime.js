@@ -47,3 +47,10 @@ if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
   motionToggle?.setAttribute("aria-pressed", "true");
   if (motionToggle) motionToggle.textContent = "動きをもどす";
 }
+
+const languageLink = document.createElement("a");
+languageLink.href = `../../en/stories/${location.pathname.split("/").filter(Boolean).at(-2)}/index.html`;
+languageLink.textContent = "English";
+languageLink.lang = "en";
+languageLink.className = "language-switch";
+document.querySelector(".story-header > div")?.prepend(languageLink);
