@@ -1,0 +1,12 @@
+.prototype-label { align-self:center; padding:6px 10px; border-radius:999px; background:var(--yellow); color:var(--ink); font-size:10px; font-weight:900; letter-spacing:.08em; }
+.language-switch { display:none; }
+.story-text.compact { font-size:clamp(21px,2.7vw,40px); line-height:1.55; }
+.theory-copy { border:3px solid var(--yellow); }
+.theory-copy .story-text { margin-top:24px; font-size:clamp(20px,2.5vw,36px); }
+.gaze-art { display:flex; align-items:center; justify-content:center; gap:clamp(10px,2vw,28px); padding:10%; }
+.gaze-art span { display:grid; place-items:center; width:clamp(95px,12vw,160px); aspect-ratio:1; border-radius:50%; background:white; border:3px solid var(--purple); color:var(--purple); font-size:clamp(18px,2vw,28px); font-weight:900; box-shadow:0 16px 35px rgba(41,23,18,.1); }
+.gaze-art i { color:var(--orange); font:normal clamp(28px,4vw,56px)/1 Georgia,serif; }
+.gaze-art .pause { color:var(--purple); letter-spacing:.2em; }
+.bubble-field .bubble { border-color:rgba(125,39,65,.24); }
+.large-text .story-text.compact { font-size:clamp(27px,3.3vw,48px); }
+@media(max-width:760px){.prototype-label{display:none}.gaze-art{inset:55% 0 0!important;padding:4%;gap:8px}.gaze-art span{width:82px}.theory-copy{width:100%!important}.theory-copy .quote{font-size:clamp(20px,5.8vw,29px)}.bubble-field .boku-main{height:min(42vh,360px)}}

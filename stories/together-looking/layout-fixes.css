@@ -1,0 +1,15 @@
+@media (min-width: 761px) {
+  .panel:not(.afterword) {
+    height: 100svh;
+    min-height: 100svh;
+  }
+
+  .panel:not(.afterword) .art {
+    min-height: 0;
+    height: 100svh;
+  }
+
+  .cover h1 {
+    font-size: clamp(40px, 4.2vw, 60px);
+  }
+}

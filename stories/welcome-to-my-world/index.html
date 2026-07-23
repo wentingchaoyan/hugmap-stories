@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4f1f0">
+  <meta name="description" content="子どもの興味を中断せず、同じ世界へ入ることから始まるHugMapのデジタル絵本。">
+  <title>ぼくの世界へ、ようこそ。｜HugMap Stories</title>
+  <link rel="stylesheet" href="../../shared/base.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="compact.css">
+</head>
+<body data-story-pages="12" data-story-type="empathy">
+  <header class="story-header" aria-label="絵本の操作">
+    <a class="brand" href="#cover"><span>H</span>HugMap Stories</a>
+    <div><button id="textToggle" type="button" aria-pressed="false">文字を大きく</button><button id="motionToggle" type="button" aria-pressed="false">動きを減らす</button></div>
+  </header>
+  <nav class="progress" aria-label="物語の進み具合"><span id="progressLabel">はじまり</span><i><b id="progressFill"></b></i><span id="progressCount">0 / 12</span></nav>
+
+  <main>
+    <section class="panel cover" id="cover" data-step="0" data-role="invitation" data-motion="1">
+      <div class="copy"><p class="eyebrow">HUGMAP STORIES・同じ世界から始める</p><h1>ぼくの世界へ、<br>ようこそ。</h1><p class="lead">ぼくが 見ているものを、<br>いっしょに 見てくれたら。</p><a href="#carpet">おはなしを読む ↓</a></div>
+      <div class="art cover-art" aria-hidden="true"><div class="world-ring"></div><img class="child" src="../body-wonders/assets/boku-reference.png" alt=""><img class="teacher cover-risu" src="../../shared/characters/risu.png" alt=""><img class="teacher cover-kotori" src="../../shared/characters/kotori.png" alt=""><img class="teacher cover-fukurou" src="../../shared/characters/fukurou.png" alt=""></div>
+    </section>
+
+    <section class="panel paper" id="carpet" data-step="1" data-role="experience" data-motion="1">
+      <div class="copy"><p class="num">1</p><p class="story">ぼくは カーペットの<br>ほそい せんを 見ていた。</p><p class="small">ゆびで、すーっ。<br>まがって、くるん。もういちど。</p></div>
+      <div class="art carpet-art" aria-hidden="true"><div class="carpet-lines"><i></i><i></i><i></i><i></i></div><img class="child low" src="../body-wonders/assets/boku-reference.png" alt=""></div>
+    </section>
+
+    <section class="panel right warm" id="task" data-step="2" data-role="experience" data-motion="0">
+      <div class="copy"><p class="num">2</p><p class="dialogue">「あかい つみきを<br>はこに いれて」</p><p class="story">先生の こえが した。</p><p class="small">でも、ぼくの ゆびは<br>せんの つづきを たどっていた。</p></div>
+      <div class="art task-art" aria-hidden="true"><div class="block red">■</div><div class="box-shape">ここへ</div><span class="far-arrow">→</span></div>
+    </section>
+
+    <section class="panel tension" id="redirect" data-step="3" data-role="experience" data-motion="1">
+      <div class="copy"><p class="num">3</p><p class="story">つみきが ぼくの まえに<br>やってきた。</p><p class="dialogue">「こっちを 見て」<br>「つぎは これ」</p><p class="small">ぼくの せんが、見えなくなった。</p></div>
+      <div class="art interruption" aria-hidden="true"><div class="carpet-lines faded"><i></i><i></i><i></i></div><div class="block red big">■</div></div>
+    </section>
+
+    <section class="panel right dusk" id="quiet" data-step="4" data-role="experience" data-motion="0">
+      <div class="copy dark-copy"><p class="num">4</p><p class="story">ぼくは うごきを とめた。<br>こえも しまった。</p><p class="small">やりたくないんじゃない。<br>どこから はじめればいいか、<br>わからなくなった。</p></div>
+      <div class="art quiet-art" aria-hidden="true"><img class="child" src="../weekly-clues/assets/overwhelmed.png" alt=""><div class="closed-world"></div></div>
+    </section>
+
+    <section class="panel paper" id="question" data-step="5" data-role="experience" data-motion="1">
+      <div class="copy"><p class="num">5</p><p class="story">「どうしたら、<br>この子は やるのかな」</p><p class="small">大人たちが こまっていると、<br>ふくろう先生が やってきた。</p></div>
+      <div class="art teacher-stage" aria-hidden="true"><img class="teacher solo" src="../../shared/characters/fukurou.png" alt=""><div class="question-mark">？</div></div>
+    </section>
+
+    <section class="panel right discovery" id="why" data-step="6" data-role="awareness" data-motion="1">
+      <div class="copy"><p class="num">6</p><p class="dialogue">「“なにを させる？”の まえに、<br><strong>“なにを 見ている？”</strong>を<br>さがしてみよう」</p><p class="story">ふくろう先生は、<br>ぼくの 目の さきを 見た。</p></div>
+      <div class="art teacher-stage" aria-hidden="true"><img class="teacher solo" src="../../shared/characters/fukurou.png" alt=""><div class="gaze-line"></div><div class="tiny-carpet"><i></i><i></i></div></div>
+    </section>
+
+    <section class="panel warm" id="join" data-step="7" data-role="awareness" data-motion="2">
+      <div class="copy"><p class="num">7</p><p class="story">りす先生が、となりに すわった。</p><p class="small">ぼくの せんを とらない。<br>ぼくの ゆびを うごかさない。</p><p class="sound">すーっ。くるん。</p><p class="quote">りす先生も、じぶんの ゆびで<br>となりの せんを たどった。</p></div>
+      <div class="art join-art" aria-hidden="true"><div class="carpet-lines"><i></i><i></i><i></i><i></i></div><img class="teacher solo" src="../../shared/characters/risu.png" alt=""></div>
+    </section>
+
+    <section class="panel right discovery" id="signal" data-step="8" data-role="awareness" data-motion="2">
+      <div class="copy"><p class="num">8</p><p class="story">ぼくの ゆびが、とまった。</p><p class="small">りす先生の ゆびを見る。<br>りす先生の かおを見る。<br>ぼくは また、せんを たどる。</p><p class="dialogue"><strong>「いっしょに、かな？」</strong></p></div>
+      <div class="art teacher-stage pair" aria-hidden="true"><img class="teacher risu" src="../../shared/characters/risu.png" alt=""><img class="teacher kotori" src="../../shared/characters/kotori.png" alt=""><div class="signal-chain"><span>ゆび</span><i>→</i><span>かお</span><i>→</i><span>せん</span></div></div>
+    </section>
+
+    <section class="panel theory" id="relationship" data-step="9" data-role="theory" data-motion="1">
+      <div class="copy center"><p class="num">9</p><p class="story">ことり先生が いった。</p><blockquote>「こちらの 世界へ よぶ まえに、<br><strong>まず、ぼくたちが<br>きみの 世界へ はいろう。</strong>」</blockquote><p class="small">同じものを 見る。同じおもしろさを 分けあう。<br>ことばも 学びも、その あいだから はじまる。</p></div>
+      <div class="art team-art" aria-hidden="true"><div class="world-ring bright"></div><img class="teacher fukurou" src="../../shared/characters/fukurou.png" alt=""><img class="teacher risu" src="../../shared/characters/risu.png" alt=""><img class="teacher kotori" src="../../shared/characters/kotori.png" alt=""></div>
+    </section>
+
+    <section class="panel right paper" id="home" data-step="10" data-role="experience-again" data-motion="1">
+      <div class="copy"><p class="num">10</p><p class="stage">つぎの ひ。おうちで。</p><p class="story">ぼくが カーペットに すわると、<br>ママも となりに すわった。</p><p class="small">「なにしてるの？」と きかない。<br>「こっち」と ひっぱらない。</p></div>
+      <div class="art home-art" aria-hidden="true"><div class="carpet-lines"><i></i><i></i><i></i><i></i></div><div class="mama-hand">☝</div><img class="child low" src="../body-wonders/assets/boku-reference.png" alt=""></div>
+    </section>
+
+    <section class="panel warm" id="together" data-step="11" data-role="experience-again" data-motion="2">
+      <div class="copy"><p class="num">11</p><p class="sound">すーっ。</p><p class="story">ママの ゆびが、<br>となりの せんを すすむ。</p><p class="small">ぼくは ママの ゆびを 見た。<br>ママを 見た。にっこりした。</p><p class="sound small-sound">くるん。</p></div>
+      <div class="art shared-lines" aria-hidden="true"><div class="path path-one"></div><div class="path path-two"></div><span class="finger one">●</span><span class="finger two">●</span></div>
+    </section>
+
+    <section class="panel finale" id="welcome" data-step="12" data-role="experience-again" data-motion="3">
+      <div class="art finale-art" aria-hidden="true"><div class="world-ring bright"></div><img class="child" src="../mouikkai/assets/boku-3-excited-clean.png" alt=""><img class="teacher fukurou" src="../../shared/characters/fukurou.png" alt=""><img class="teacher risu" src="../../shared/characters/risu.png" alt=""><img class="teacher kotori" src="../../shared/characters/kotori.png" alt=""></div>
+      <div class="copy center finale-copy"><p class="story">ママは ぼくを<br>つれていかなかった。</p><p class="ending">ママが きてくれた。<br><strong>ぼくの 世界へ、ようこそ。</strong></p></div>
+    </section>
+
+    <section class="panel afterword" id="afterword" data-step="13" data-role="guidance" data-motion="0">
+      <div class="after-card"><img src="../../shared/characters/fukurou.png" alt="ふくろう先生"><div><p class="eyebrow">おはなしの あとに</p><h2>気を引く前に、<br>その子の注意を見つけよう。</h2><p>子どもが見ているもの、触れているもの、繰り返している動きには、興味や身体の心地よさが隠れていることがあります。すぐに中断せず、隣で同じものを見たり、似た動きをしたりしてみます。</p><ol><li><b>気づく</b><span>その子はいま、何に注意を向けている？</span></li><li><b>加わる</b><span>取り上げず、隣で同じ楽しさを試してみる</span></li><li><b>待つ</b><span>視線・表情・動きの変化を待つ</span></li><li><b>招く</b><span>つながってから、新しい遊びをそっと添える</span></li></ol><p class="note">一つの関わりですべてが変わるわけではありません。嫌がる様子があればやめ、本人のペースを大切にします。</p><button id="restart" type="button">もういちど読む</button></div></div>
+    </section>
+  </main>
+  <script src="../../shared/story-runtime.js"></script>
+</body>
+</html>

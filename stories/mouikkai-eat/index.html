@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f1f0" />
+    <meta name="description" content="Experience、Awareness、Theory、Experience againの流れで描くHugMapの試作絵本。" />
+    <title>ことりせんせい、ぼくの「もういっかい」きこえた？ — EAT＋E版</title>
+    <link rel="stylesheet" href="../../shared/base.css" />
+    <link rel="stylesheet" href="../mouikkai/styles.css?v=20260719-3" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../../shared/story-scenes.css" />
+  </head>
+  <body data-story-pages="12" data-story-type="empathy">
+    <header class="story-header" aria-label="絵本の操作">
+      <a class="brand" href="#cover" aria-label="物語の最初へ"><span class="brand-mark">H</span><span>HugMap Stories</span></a>
+      <div class="header-actions">
+        <span class="prototype-label">EAT＋E 試作版</span>
+        <button class="control" id="textToggle" type="button" aria-pressed="false">文字を大きく</button>
+        <button class="control" id="motionToggle" type="button" aria-pressed="false">動きを減らす</button>
+      </div>
+    </header>
+
+    <nav class="progress" aria-label="物語の進み具合">
+      <span id="progressLabel">はじまり</span><span class="progress-track" aria-hidden="true"><span id="progressFill"></span></span><span id="progressCount">0 / 12</span>
+    </nav>
+
+    <main id="story">
+      <section class="panel cover" id="cover" data-step="0" data-role="invitation" data-motion="1" aria-labelledby="title">
+        <div class="cover-copy">
+          <p class="eyebrow">HugMap Stories · EAT＋E prototype</p>
+          <h1 id="title">ことりせんせい、<br />ぼくの「もういっかい」<br />きこえた？</h1>
+          <p class="cover-lead">ことばになる まえから、<br />ぼくの おはなしは はじまっている。</p>
+          <a class="start-link" href="#scene-1">おはなしを読む <span>↓</span></a>
+        </div>
+        <div class="cover-art" aria-hidden="true"><div class="sun-wash"></div><img class="character boku cover-boku" src="../mouikkai/assets/boku-1.png" alt="" /><img class="character kotori cover-kotori" src="../mouikkai/assets/kotori.png" alt="" /></div>
+      </section>
+
+      <section class="panel scene moon" id="scene-1" data-step="1" data-role="experience" data-motion="1">
+        <div class="scene-copy left light-copy"><p class="scene-number">1</p><p class="speaker">だいすきな おんがくが、</p><p class="sound-word">ぴたり。</p><p class="story-text">とまった。</p></div>
+        <div class="scene-art" aria-hidden="true"><div class="moon-disc"></div><img class="character boku boku-lead" src="../mouikkai/assets/boku-3-excited-clean.png" alt="" /></div>
+      </section>
+
+      <section class="panel scene dusk" id="scene-2" data-step="2" data-role="experience" data-motion="1">
+        <div class="scene-copy right light-copy"><p class="scene-number">2</p><p class="story-text">ぼくは ママの そでを<br />そっと ひいた。</p><p class="quote">ママ、こっち。</p></div>
+        <div class="scene-art" aria-hidden="true"><img class="character boku boku-lead" src="../mouikkai/assets/boku-5-lead-headfix-final.png" alt="" /></div>
+      </section>
+
+      <section class="panel scene yellow" id="scene-3" data-step="3" data-role="experience" data-motion="0">
+        <div class="scene-copy left"><p class="scene-number">3</p><p class="story-text">えほんの ところで とまる。<br />ちいさな ボタンに<br />ゆびを おく。</p><p class="quote dark-quote">でも、おせない。</p></div>
+        <div class="scene-art" aria-hidden="true"><img class="character boku boku-book" src="../mouikkai/assets/boku-6-book-together-final.png" alt="" /></div>
+      </section>
+
+      <section class="panel scene cream" id="scene-4" data-step="4" data-role="experience" data-motion="1">
+        <div class="scene-copy right"><p class="scene-number">4</p><p class="story-text">ボタンを みる。<br />ママを みる。<br />もういちど、ボタンを みる。</p><p class="quote dark-quote">ママは まだ、わからない。</p></div>
+        <div class="scene-art gaze-art" aria-hidden="true"><span>えほん</span><i>→</i><span>ママ</span><i>→</i><span>えほん</span></div>
+      </section>
+
+      <section class="panel scene muted" id="scene-5" data-step="5" data-role="experience" data-motion="1">
+        <div class="scene-copy left"><p class="scene-number">5</p><p class="dialogue dark-dialogue">「おなか すいた？」<br />「ちがう おもちゃ？」</p><p class="story-text">ママも いっしょうけんめい。<br />ぼくも いっしょうけんめい。</p></div>
+        <div class="scene-art" aria-hidden="true"><img class="character boku boku-action" src="../mouikkai/assets/boku-4-no-clean.png" alt="" /></div>
+      </section>
+
+      <section class="panel scene moon" id="scene-6" data-step="6" data-role="experience" data-motion="1">
+        <div class="scene-copy center light-copy"><p class="scene-number">6</p><p class="story-text">ぼくは もっと つよく<br />そでを ひいた。</p><p class="quote">こんなに おはなししているのに。<br /><strong>ぼくの「もういっかい」、どこへ いったの？</strong></p></div>
+      </section>
+
+      <section class="panel scene card-scene" id="scene-7" data-step="7" data-role="awareness" data-motion="2" data-sequence>
+        <div class="scene-copy right"><p class="scene-number">7</p><p class="speaker">ことりせんせいは、さいしょから たどった。</p><p class="story-text compact">そでを ひく。<br />えほんへ いく。<br />ボタンに ゆびを おく。<br />ママを みる。</p><p class="quote dark-quote"><strong>ひとつじゃなくて、つながってる。</strong></p></div>
+        <div class="scene-art" aria-hidden="true"><img class="character kotori teacher-large" src="../mouikkai/assets/kotori.png" alt="" /><div class="three-signals four-signals"><span>そで</span><span>えほん</span><span>ボタン</span><span>みる</span></div></div>
+      </section>
+
+      <section class="panel scene sunrise" id="scene-8" data-step="8" data-role="awareness" data-motion="1">
+        <div class="scene-copy left"><p class="scene-number">8</p><p class="quote dark-quote">「ママ。さいごに この子が<br />見たものは、なあに？」</p><p class="story-text">ママは ぼくの めを たどった。<br />その さきに、ボタンが あった。</p></div>
+        <div class="scene-art" aria-hidden="true"><img class="character kotori kotori-card" src="../mouikkai/assets/kotori.png" alt="" /><div class="touch-glow"><span class="loop-mark">↻</span><span>もういっかい？</span></div></div>
+      </section>
+
+      <section class="panel scene quiet" id="scene-9" data-step="9" data-role="theory" data-motion="0">
+        <div class="scene-copy center wide-copy theory-copy"><p class="scene-number">9</p><p class="quote dark-quote">「ことばに なる まえの おはなしは、<br /><strong>め、て、からだ、そして できごとの つながり</strong>に<br />かくれていることが あるよ」</p><p class="story-text">みる。まつ。<br />それから、きいて たしかめる。</p></div>
+      </section>
+
+      <section class="panel scene warm" id="scene-10" data-step="10" data-role="experience-again" data-motion="1">
+        <div class="scene-copy right"><p class="scene-number">10</p><p class="speaker">つぎの ひ。</p><p class="story-text">しゃぼんだまが、<br />ぴたりと とまった。</p><p class="quote dark-quote">ぼくは ママの そでを ひいた。</p></div>
+        <div class="scene-art bubble-field" aria-hidden="true"><img class="character boku boku-main" src="../mouikkai/assets/boku-1.png" alt="" /><div class="bubble bubble-a"></div><div class="bubble bubble-b"></div><div class="bubble bubble-d"></div></div>
+      </section>
+
+      <section class="panel scene lavender" id="scene-11" data-step="11" data-role="experience-again" data-motion="1">
+        <div class="scene-copy left"><p class="scene-number">11</p><p class="story-text">ぼくは つえを みる。<br />ママを みる。</p><p class="quote dark-quote">ママは すぐに こたえない。<br /><strong>ぼくの つづきを まっている。</strong></p></div>
+        <div class="scene-art gaze-art" aria-hidden="true"><span>つえ</span><i>→</i><span>ママ</span><i class="pause">…</i></div>
+      </section>
+
+      <section class="panel scene finale" id="scene-12" data-step="12" data-role="experience-again" data-motion="3">
+        <div class="finale-art bubble-field" aria-hidden="true"><img class="character boku finale-boku" src="../mouikkai/assets/boku-3-excited-clean.png" alt="" /><div class="bubble bubble-a"></div><div class="bubble bubble-b"></div><div class="bubble bubble-c"></div><div class="bubble bubble-d"></div><div class="bubble bubble-f"></div></div>
+        <div class="scene-copy center finale-copy"><p class="sound-word">「もういっかい、かな？」</p><p class="final-words">ぼくは にっこり。からだを ふりふり。<br />ママが ふうっ。ぼくも ふうっ。<br /><strong>ぼくの おはなしから、ふたりの しゃぼんだまが うまれた。</strong></p></div>
+      </section>
+
+      <section class="panel afterword" id="afterword" data-step="13" data-role="guidance" data-motion="0">
+        <div class="afterword-card"><img src="../mouikkai/assets/kotori.png" alt="ことりせんせい" /><div><p class="eyebrow">おはなしの あとに</p><h2>仕草を一つずつ訳すより、<br />「つながり」を見てみよう。</h2><p>袖を引いた、その前には何があった？ そのあと、どこへ行き、何を見た？ ことばになる前のサインは、いくつかの行動のつながりとして見えてくることがあります。意味は決めつけず、「もう一回かな？」と本人の反応を待って確かめます。</p><ol class="support-steps"><li><b>たどる</b><span>行動の前とあとをつなげて見る</span></li><li><b>待つ</b><span>次の視線や動きが出るまで少し待つ</span></li><li><b>たしかめる</b><span>短いことばで問い、本人の反応を見る</span></li></ol><button class="text-button" id="restart" type="button">もういちど読む</button></div></div>
+        <p class="disclaimer">この絵本は一般的な情報をもとにした作品です。聞こえや発達について心配がある場合は、小児科・言語聴覚士などの専門職にご相談ください。</p>
+      </section>
+    </main>
+    <script src="../../shared/story-runtime.js"></script>
+    <script src="../../shared/story-scenes.js"></script>
+  </body>
+</html>

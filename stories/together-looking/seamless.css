@@ -1,0 +1,117 @@
+/*
+ * Series layout: one continuous white spread.
+ * The illustration is not a rectangular second column; its quiet paper edge
+ * dissolves into the same canvas that carries the story text.
+ */
+:root {
+  --spread-white: #fffdf8;
+}
+
+body,
+.panel,
+.tone-paper,
+.tone-warm,
+.tone-discovery,
+.tone-tension,
+.finale {
+  background: var(--spread-white) !important;
+  color: var(--ink) !important;
+}
+
+.panel,
+.panel.right {
+  grid-template-columns: 43% 57%;
+}
+
+.panel.right {
+  grid-template-columns: 57% 43%;
+}
+
+.panel:not(.afterword) .art,
+.panel.right:not(.afterword) .art,
+.closing .art {
+  grid-column: 1 / 3;
+  grid-row: 1;
+  width: 100%;
+  height: 100svh;
+  min-height: 0;
+  background: var(--spread-white);
+  pointer-events: none;
+}
+
+.panel:not(.afterword) .art img {
+  position: absolute;
+  inset: 0 0 0 auto;
+  width: 72%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.12) 8%, #000 34%, #000 100%);
+  mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.12) 8%, #000 34%, #000 100%);
+}
+
+.panel.right:not(.afterword) .art img {
+  inset: 0 auto 0 0;
+  -webkit-mask-image: linear-gradient(270deg, transparent 0%, rgba(0,0,0,.12) 8%, #000 34%, #000 100%);
+  mask-image: linear-gradient(270deg, transparent 0%, rgba(0,0,0,.12) 8%, #000 34%, #000 100%);
+}
+
+.panel:not(.afterword) .copy {
+  background: transparent !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+
+.closing .copy {
+  grid-column: 1;
+  align-self: center;
+  padding-bottom: var(--pad);
+  background: transparent !important;
+}
+
+.closing .copy strong,
+.finale .copy strong {
+  color: var(--orange);
+}
+
+.sound.light,
+.small.light {
+  color: var(--purple);
+}
+
+@media (max-width: 760px) {
+  body[data-story-type] .panel:not(.afterword),
+  body[data-story-type] .panel.right:not(.afterword) {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto minmax(320px, 47svh) !important;
+    background: var(--spread-white) !important;
+  }
+
+  body[data-story-type] .panel:not(.afterword) > .art,
+  body[data-story-type] .panel.right:not(.afterword) > .art,
+  body[data-story-type] .closing:not(.afterword) > .art {
+    grid-column: 1 !important;
+    grid-row: 2 !important;
+    min-height: 320px !important;
+    height: auto !important;
+    background: var(--spread-white) !important;
+  }
+
+  .panel:not(.afterword) .art img,
+  .panel.right:not(.afterword) .art img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(180deg, transparent 0%, rgba(0,0,0,.55) 9%, #000 24%, #000 100%);
+    mask-image: linear-gradient(180deg, transparent 0%, rgba(0,0,0,.55) 9%, #000 24%, #000 100%);
+  }
+
+  body[data-story-type] .closing:not(.afterword) > .copy {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    background: var(--spread-white) !important;
+    color: var(--ink) !important;
+  }
+}

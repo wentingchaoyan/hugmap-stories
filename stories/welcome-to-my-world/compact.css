@@ -1,0 +1,18 @@
+#join .copy,
+#together .copy { padding: clamp(18px, 2.3vw, 28px); }
+
+#join .story,
+#together .story { font-size: clamp(23px, 2.55vw, 38px); }
+
+#join .small,
+#join .quote,
+#together .small { font-size: clamp(15px, 1.45vw, 20px); line-height: 1.65; }
+
+#join .sound,
+#together .sound { font-size: clamp(34px, 4.5vw, 58px); }
+
+#together .small-sound { font-size: clamp(28px, 3.5vw, 44px); }
+
+#relationship .copy { padding: clamp(18px, 2.4vw, 30px); }
+#relationship .story { font-size: clamp(22px, 2.5vw, 36px); }
+#relationship blockquote { margin: 16px 0; padding: 18px; font-size: clamp(19px, 2vw, 29px); }
