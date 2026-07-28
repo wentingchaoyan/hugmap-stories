@@ -8,7 +8,7 @@
 
 新しい絵本を企画するときは、次の順で確認する。
 
-1. [`world-character-bible.md`](world-character-bible.md)
+1. [`world-and-character-guide.md`](world-and-character-guide.md)
    シリーズが何を信じ、各先生が何を見つけるか。
 2. [`world-space-story-map.md`](world-space-story-map.md)
    先生たちが暮らす場所と、場所を移動する物語線。
@@ -27,7 +27,7 @@
 
 | ファイル | 決めること | 書かないこと |
 |---|---|---|
-| [`world-character-bible.md`](world-character-bible.md) | 世界の価値観、シリーズの約束、各先生の核・見つけ方・関係 | 詳細な画面構成、顔パーツ、制作日程 |
+| [`world-and-character-guide.md`](world-and-character-guide.md) | 世界の価値観、シリーズの約束、各先生の核・見つけ方・関係 | 詳細な画面構成、顔パーツ、制作日程 |
 | [`world-space-story-map.md`](world-space-story-map.md) | HugMapの家、遊びの場所、担当動物、空間的な物語線 | キャラクターの口調全文、EATの詳細説明 |
 | [`character-expression-guide.md`](character-expression-guide.md) | 仕草、動き、距離、発言意図、道具 | 世界観の再説明、部屋の詳細設計 |
 | [`story-narrative-guide.md`](story-narrative-guide.md) | 視点、三幕、EAT＋E、本文とあとがきの分担 | キャラクター造形、CSS・UI仕様 |
@@ -60,7 +60,7 @@
 ```text
 実際の親子・支援者の声と安全性
 ↓
-world-character-bible.md の価値観
+world-and-character-guide.md の価値観
 ↓
 world-space-story-map.md と character-expression-guide.md
 ↓
@@ -79,7 +79,7 @@ story-design-principles.md
 
 | 追加したい情報 | 更新先 |
 |---|---|
-| シリーズの信念、先生の役割、チーム関係 | `world-character-bible.md` |
+| シリーズの信念、先生の役割、チーム関係 | `world-and-character-guide.md` |
 | 部屋、遊び、行き先、移動ルート | `world-space-story-map.md` |
 | 仕草、発言、距離、持ち物 | `character-expression-guide.md` |
 | 目、眉、口などの描画方法 | `character-facial-expression-reference.md` |

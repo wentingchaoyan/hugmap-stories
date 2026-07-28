@@ -4,7 +4,7 @@
 対象: HugMapの家、遊びの場所、担当する動物、場所を移動する物語線
 役割: **場所と空間的な物語線の正本**
 
-世界全体とキャラクターの信念は [`world-character-bible.md`](world-character-bible.md)、仕草、発言、道具は [`character-expression-guide.md`](character-expression-guide.md)、読者の理解が進む構造は [`story-narrative-guide.md`](story-narrative-guide.md) を参照する。
+世界全体とキャラクターの信念は [`world-and-character-guide.md`](world-and-character-guide.md)、仕草、発言、道具は [`character-expression-guide.md`](character-expression-guide.md)、読者の理解が進む構造は [`story-narrative-guide.md`](story-narrative-guide.md) を参照する。
 
 ## 1. この文書の目的
 
