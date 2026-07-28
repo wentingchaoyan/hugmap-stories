@@ -36,6 +36,8 @@
 
 ### ビジュアル補助資料
 
+- [`line-sticker-concept.md`](line-sticker-concept.md): メイン3人のLINEスタンプ企画、文言、仕草、試作範囲。
+
 | ファイル | 役割 | 扱い |
 |---|---|---|
 | [`character-facial-expression-reference.md`](character-facial-expression-reference.md) | 顔、視線、眉、口、動物固有パーツの描画基準 | `character-expression-guide.md`を絵へ翻訳する補助資料 |
