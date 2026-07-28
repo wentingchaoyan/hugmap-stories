@@ -2,6 +2,9 @@
 
 作成日: 2026-07-19  
 対象: HugMapの発達支援絵本・デジタル絵本
+役割: **視点、読後変化、三幕、EAT＋Eの正本**
+
+世界観とキャラクターの信念は [`world-character-bible.md`](world-character-bible.md)、場所を移動する物語線は [`world-space-story-map.md`](world-space-story-map.md)、画面と動きは [`story-design-principles.md`](story-design-principles.md) を参照する。
 
 ## 1. このガイドの目的
 
@@ -32,7 +35,7 @@
 
 ### 2.2 ビジュアルデザインガイド
 
-別文書として、次の内容を扱う。
+[`story-design-principles.md`](story-design-principles.md) で、次の内容を扱う。
 
 - 一画面一見開き
 - 絵と文章の余白

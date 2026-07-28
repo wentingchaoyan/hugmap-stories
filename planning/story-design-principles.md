@@ -1,8 +1,12 @@
 # HugMap Stories 設計原則
 
+役割: **デジタル絵本の画面・動き・UI設計の正本**
+
 ## 目的
 
 この文書は、作品ごとの個性を残しながら、HugMap Stories全体を同じ編集思想で制作するための判断基準です。参考作品の表現を外見ごと複製せず、物語の目的に応じて使い分けます。
+
+視点、三幕、EAT＋Eは [`story-narrative-guide.md`](story-narrative-guide.md)、キャラクターの仕草と距離は [`character-expression-guide.md`](character-expression-guide.md) を参照する。
 
 ## 6つの共通原則
 

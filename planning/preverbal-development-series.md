@@ -1,5 +1,9 @@
 # ことば以前の発達を伝える絵本シリーズ企画
 
+役割: **「ことば以前の発達」シリーズ固有の企画資料**
+
+シリーズ共通の設定を変更する場合は、本書ではなく [`world-character-bible.md`](world-character-bible.md) または [`story-narrative-guide.md`](story-narrative-guide.md) を更新する。
+
 作成日: 2026-07-19  
 対象テーマ: 共同注意、模倣、指差し・コミュニケーション意図、探求遊び、ごっこ遊び、社会的参照
 

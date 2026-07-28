@@ -20,7 +20,7 @@ hugmap-stories/
 │   ├── mouikkai/
 │   └── hero-team/
 ├── content/references/        # FAQ・Activityから選定した静的な制作資料
-└── planning/                  # キャラクター設定・次作候補・同期方針
+└── planning/                  # 世界観・物語・ビジュアル・制作運用の正本と企画
 ```
 
 ## ローカルで読む
@@ -35,10 +35,11 @@ hugmap-stories/
 2. `../../shared/base.css` と `../../shared/story-runtime.js` を読み込む。
 3. `<body data-story-pages="ページ数">` を設定する。
 4. 各パネルに連番の `data-step` を付ける。
-5. `planning/character-roles.md` と `planning/content-sync.md` に従う。
-6. `planning/story-design-principles.md` を参照し、作品タイプと動きの強さを決める。
-7. 各作品の `script.md` にページの役割・絵・動き・補足情報を記録する。
-8. `planning/story-backlog.md` の状態を更新する。
+5. `planning/README.md` の順番で、世界観、キャラクター、物語、画面設計を確認する。
+6. `planning/content-sync.md` に従い、専門情報と素材の出典を確認する。
+7. `planning/story-design-principles.md` を参照し、作品タイプと動きの強さを決める。
+8. 各作品の `script.md` にページの役割・絵・動き・補足情報を記録する。
+9. `planning/story-backlog.md` の状態を更新する。
 
 ## ブランチと公開
 
