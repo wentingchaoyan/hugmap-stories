@@ -35,6 +35,7 @@
     figcaption{padding:12px 14px 14px}
     figcaption b{display:block;font-size:14px}
     figcaption span{display:block;margin-top:4px;color:var(--muted);font-size:11px;line-height:1.55}
+    .reference{display:inline-flex;margin-bottom:7px;padding:4px 8px;border-radius:999px;background:#f1eadf;color:var(--purple);font-size:10px;font-weight:800;letter-spacing:.02em}
     .finalists{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
     .candidate{position:relative;padding:18px;background:var(--card);border:2px solid transparent;border-radius:24px;box-shadow:0 12px 34px rgba(41,23,18,.07);transition:.2s ease}
     .candidate.selected{border-color:var(--purple);box-shadow:0 12px 34px rgba(125,39,65,.15)}
@@ -104,13 +105,13 @@
     <section aria-labelledby="animals-title">
       <div class="section-head">
         <h2 id="animals-title">動物の3案</h2>
-        <p class="hint">静かな記号／動いて遊ぶ記号／キャラクター型を比較</p>
+        <p class="hint">参考作品は模倣対象ではなく、観察する造形原則を示します</p>
       </div>
       <div class="gallery animals">
-        <figure class="study"><button data-full="style-studies/main-three-symbolic-pose-sheet-v1.png"><img src="style-studies/main-three-symbolic-pose-sheet-v1.png" alt="動物の記号型試作"></button><figcaption><b>1. 記号型</b><span>形が強く、子どもの内面を邪魔しにくい。</span></figcaption></figure>
-        <figure class="study"><button data-full="style-studies/main-three-playful-graphic-symbol-pose-sheet-v1.png"><img src="style-studies/main-three-playful-graphic-symbol-pose-sheet-v1.png" alt="動いて遊ぶ記号型の動物試作"></button><figcaption><b>2. 動いて遊ぶ記号型</b><span>単純な形に、反復・位置・小さな動きを加える。</span></figcaption></figure>
-        <figure class="study"><button data-full="style-studies/main-three-animated-pose-sheet-v1.png"><img src="style-studies/main-three-animated-pose-sheet-v1.png" alt="動物のキャラクター・アニメーション型試作"></button><figcaption><b>3. キャラクター型</b><span>個性と動きが明快。先生が目立ちすぎる可能性。</span></figcaption></figure>
-        <figure class="study"><button data-full="style-studies/main-three-collage-pose-sheet-v1.png"><img src="style-studies/main-three-collage-pose-sheet-v1.png" alt="動物のコラージュ・素材型試作"></button><figcaption><b>4. コラージュ・素材型</b><span>絵本の温度が高い。小サイズでは素材感が消える。</span></figcaption></figure>
+        <figure class="study"><button data-full="style-studies/main-three-symbolic-pose-sheet-v1.png"><img src="style-studies/main-three-symbolic-pose-sheet-v1.png" alt="動物の記号型試作"></button><figcaption><small class="reference">参考：ミッフィー</small><b>1. 静かな記号型</b><span>正面性、限定色、固定に近い表情。形が強く、子どもの内面を邪魔しにくい。</span></figcaption></figure>
+        <figure class="study"><button data-full="style-studies/main-three-playful-graphic-symbol-pose-sheet-v1.png"><img src="style-studies/main-three-playful-graphic-symbol-pose-sheet-v1.png" alt="動いて遊ぶ記号型の動物試作"></button><figcaption><small class="reference">参考：五味太郎</small><b>2. 動いて遊ぶ記号型</b><span>単純な形に、反復、大小、位置、発見、小さな動きを加える。</span></figcaption></figure>
+        <figure class="study"><button data-full="style-studies/main-three-animated-pose-sheet-v1.png"><img src="style-studies/main-three-animated-pose-sheet-v1.png" alt="動物のキャラクター・アニメーション型試作"></button><figcaption><small class="reference">参考：アンパンマン</small><b>3. キャラクター型</b><span>シルエット、表情、手足の動きが明快。先生が目立ちすぎる可能性。</span></figcaption></figure>
+        <figure class="study"><button data-full="style-studies/main-three-collage-pose-sheet-v1.png"><img src="style-studies/main-three-collage-pose-sheet-v1.png" alt="動物のコラージュ・素材型試作"></button><figcaption><small class="reference">参考：『はらぺこあおむし』</small><b>4. コラージュ・素材型</b><span>塗った薄紙、切り口、色の重なり。絵本の温度が高いが、小サイズでは素材感が消える。</span></figcaption></figure>
       </div>
     </section>
 
