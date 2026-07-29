@@ -35,7 +35,7 @@
 | 5 | `assets/scene-05-risu-observes.png` | りす先生は同じ目線へ下がり、触れずに観察する |
 | 6〜8 | `assets/scene-07-child-chooses.png` | 子どもが手で「おしまい」を示し、りす先生も動きを止める |
 | 9 | `assets/scene-09-kuma-checks.png` | くま先生は自分の胸に手を当て、子どもへ触れずに呼吸と顔色を見る |
-| 10 | `assets/scene-10-mama-slows.png` | ママが少し離れて座り、自分の声・姿勢・速さを緩める |
+| 10 | `assets/scene-10-mama-slows-sketch-v1.png` | 線画試作。ママが少し離れて座り、自分の声・姿勢・速さを緩める。笑顔やアイコンタクトを成功の印にせず、肩、手、距離で示す |
 | 11 | `assets/scene-11-kotori-listens.png` | 肩と手が緩んだ子どもの小さな返事を、ことり先生が待って聴く |
 
 ## 用語と安全の境界
