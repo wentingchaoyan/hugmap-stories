@@ -23,6 +23,7 @@
 
 作品候補と制作を管理
 ├─ story-backlog.md　　✍️ 心が動くもので、scriptを自分で書いてみる
+├─ series-values-story-shortlist.md
 ├─ preverbal-development-series.md
 ├─ line-sticker-concept.md
 ├─ three-day-character-pose-assignment.md
@@ -89,6 +90,7 @@
 | ファイル | 役割 | 開く場面 | 完了後 |
 |---|---|---|---|
 | [`story-backlog.md`](story-backlog.md) | 完成作、試作、キャラクター別の物語の種、横断テーマ、優先順位を管理する | 次に作る一冊や担当動物を選ぶとき | 作品化したら状態と作品パスを更新する |
+| [`series-values-story-shortlist.md`](series-values-story-shortlist.md) | バックログからシリーズ共通の価値観を表現しやすい代表作候補を選ぶ | シリーズの入口や代表サンプルを決めるとき | 採用後は作品別台本へ移し、候補の状態は`story-backlog.md`で更新する |
 | [`preverbal-development-series.md`](preverbal-development-series.md) | 「ことば以前の発達」に限定したシリーズ企画、発達テーマ、作品候補を管理する | 発語以外の理解・伝達を扱う作品を企画するとき | 採用した物語は`story-backlog.md`と作品別台本へつなぐ |
 | [`line-sticker-concept.md`](line-sticker-concept.md) | メイン3人のLINEスタンプ企画、文言、仕草、試作範囲を管理する | スタンプ制作・外注・商品展開を考えるとき | 正式素材の保存先と状態を追記する |
 | [`three-day-character-pose-assignment.md`](three-day-character-pose-assignment.md) | 基本立ち、専門性ポーズ、チーム場面を作る3日間の作業計画 | キャラクター素材制作を短期アサインするとき | 完了後は制作履歴として残す |
@@ -124,6 +126,7 @@
 | 表情やポーズを描きたい | `character-expression-guide.md` | `character-facial-expression-reference.md` |
 | 画風を決めたい | `visual-style-decision.html` | `visual-style-decision.md`、`open-decisions.md` |
 | 新しい絵本を企画したい | `story-backlog.md` | `story-narrative-guide.md` |
+| シリーズの代表作を選びたい | `series-values-story-shortlist.md` | `world-and-character-guide.md` |
 | 一冊の台本を書きたい | `story-narrative-guide.md` | `stories/<story-slug>/script.md` |
 | HTML絵本を作りたい | `story-design-principles.md` | 既存作品の`index.html` |
 | 専門情報を確認したい | `content-sync.md` | `withu`側の正本 |
