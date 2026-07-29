@@ -8,13 +8,13 @@
 
 ```text
 世界の土台
-├─ world-and-character-guide.md
+├─ world-and-character-guide.md　⭐️⭐️⭐️　達成したい世界および人物の特徴
 └─ world-space-story-map.md
 
 キャラクターを絵と行動へ翻訳
 ├─ character-expression-guide.md
 ├─ character-facial-expression-reference.md
-├─ visual-style-decision.md / .html
+├─ visual-style-decision.md / .html　⭐️⭐️⭐️　動物と人間の絵のスタイルの組み合わせ方
 └─ visual-reference-shortlist.md
 
 一冊の物語を設計
@@ -22,11 +22,11 @@
 └─ story-design-principles.md
 
 作品候補と制作を管理
-├─ story-backlog.md
+├─ story-backlog.md　　✍️ 心が動くもので、scriptを自分で書いてみる
 ├─ preverbal-development-series.md
 ├─ line-sticker-concept.md
 ├─ three-day-character-pose-assignment.md
-└─ open-decisions.md
+└─ open-decisions.md　　⭐️⭐️⭐️　文書のスタイル、ストーリの入り方
 
 外部情報と同期
 └─ content-sync.md
