@@ -1,8 +1,49 @@
-# HugMap Stories planning ガイド
+# HugMap Stories planning インデックス
 
 このディレクトリは、HugMap Storiesの世界観、キャラクター、物語、画面設計、企画、制作運用を管理する。
 
 同じ内容を複数のファイルへ書かず、変更する内容に応じて一つの「正本」を更新する。
+
+## 0. planning全体の構造
+
+```text
+世界の土台
+├─ world-and-character-guide.md
+└─ world-space-story-map.md
+
+キャラクターを絵と行動へ翻訳
+├─ character-expression-guide.md
+├─ character-facial-expression-reference.md
+├─ visual-style-decision.md / .html
+└─ visual-reference-shortlist.md
+
+一冊の物語を設計
+├─ story-narrative-guide.md
+└─ story-design-principles.md
+
+作品候補と制作を管理
+├─ story-backlog.md
+├─ preverbal-development-series.md
+├─ line-sticker-concept.md
+├─ three-day-character-pose-assignment.md
+└─ open-decisions.md
+
+外部情報と同期
+└─ content-sync.md
+
+試作画像
+├─ style-studies/
+└─ line-sticker-prototypes/
+```
+
+ファイルの種類:
+
+| 種類 | 意味 |
+|---|---|
+| **正本** | シリーズ共通の決定事項を書く。内容を変えると複数作品へ影響する |
+| **企画・管理** | 作品候補、進行、未決事項を管理する。決定後は正本へ反映する |
+| **補助資料** | 正本を描画や制作へ翻訳する。正本そのものは上書きしない |
+| **試作** | 比較・検討用。正式デザインとして直接流用しない |
 
 ## 1. 最初に読む順番
 
@@ -21,42 +62,75 @@
 6. [`content-sync.md`](content-sync.md)
    `withu` の専門情報・素材をどう参照し、公開用へ同期するか。
 
-## 2. ファイルの役割
+## 2. 全ファイルの役割
 
-### 正本
+### 2.1 シリーズ共通の正本
 
-| ファイル | 決めること | 書かないこと |
+| ファイル | 役割 | 開く場面 | 書かないこと |
+|---|---|---|---|
+| [`world-and-character-guide.md`](world-and-character-guide.md) | 世界の価値観、シリーズの約束、メイン・サブの区別、各先生の信念・関心・強みの裏返し・チーム関係を決める | キャラクターの核を追加・変更するとき | 詳細な画面構成、顔パーツ、制作日程 |
+| [`world-space-story-map.md`](world-space-story-map.md) | HugMapの家、遊びの場所、担当動物、場所を移動する物語線を決める | 新しい部屋、遊び、移動ルートを考えるとき | キャラクターの口調全文、物語の台詞 |
+| [`character-expression-guide.md`](character-expression-guide.md) | 仕草、動き、距離、発言意図、象徴道具、代表ポーズを決める | 一場面で先生が何をするか描くとき | 世界観の再説明、部屋の詳細設計 |
+| [`story-narrative-guide.md`](story-narrative-guide.md) | 子どもの視点、三幕、EAT＋E、問いと余白、本文とあとがきの役割を決める | 台本の流れと言葉を組み立てるとき | キャラクター造形、CSS・UI仕様 |
+| [`story-design-principles.md`](story-design-principles.md) | 一画面一意味、余白、情報階層、色、動き、アクセシビリティを決める | HTML絵本の画面を設計・レビューするとき | 世界観、キャラクターの新設定、作品テーマ |
+| [`content-sync.md`](content-sync.md) | `withu`の専門情報・公式素材・出典の参照元と同期手順を決める | 専門知識を台本やあとがきへ反映するとき | 作品の物語判断、キャラクターの新設定 |
+
+### 2.2 キャラクターと画風の補助資料
+
+| ファイル | 役割 | 開く場面 | 扱い |
 |---|---|---|
-| [`world-and-character-guide.md`](world-and-character-guide.md) | 世界の価値観、シリーズの約束、各先生の核・見つけ方・関係 | 詳細な画面構成、顔パーツ、制作日程 |
-| [`world-space-story-map.md`](world-space-story-map.md) | HugMapの家、遊びの場所、担当動物、空間的な物語線 | キャラクターの口調全文、EATの詳細説明 |
-| [`character-expression-guide.md`](character-expression-guide.md) | 仕草、動き、距離、発言意図、道具 | 世界観の再説明、部屋の詳細設計 |
-| [`story-narrative-guide.md`](story-narrative-guide.md) | 視点、三幕、EAT＋E、本文とあとがきの分担 | キャラクター造形、CSS・UI仕様 |
-| [`story-design-principles.md`](story-design-principles.md) | 画面、余白、情報階層、動き、アクセシビリティ | 世界観、キャラクター設定、作品テーマ |
-| [`content-sync.md`](content-sync.md) | 外部情報・公式素材の参照元と同期手順 | 作品の物語判断、キャラクターの新設定 |
+| [`character-facial-expression-reference.md`](character-facial-expression-reference.md) | 顔、視線、眉、口、耳、羽、尻尾などの描画基準 | 表情差分やイラスト発注資料を作るとき | `character-expression-guide.md`を絵へ翻訳する。性格の正本ではない |
+| [`visual-reference-shortlist.md`](visual-reference-shortlist.md) | ポーズ、距離、余白を研究する外部絵本・作家の観察点 | 参考作品を探すとき | 模倣用・画風の正本として使わない |
+| [`visual-style-decision.md`](visual-style-decision.md) | 人物4案×動物3案から候補を絞り、判断理由と評価軸を残す | 画風を比較・決定するとき | 決定後も判断履歴として残す |
+| [`visual-style-decision.html`](visual-style-decision.html) | 上記の画像を一画面で比較し、候補A/Bとメモをブラウザ上で確認する | 複数画像を見ながら話し合うとき | メモはブラウザ内保存。決定事項はMarkdownまたは正本へ移す |
 
-### ビジュアル補助資料
+### 2.3 作品企画・進行管理
 
-- [`line-sticker-concept.md`](line-sticker-concept.md): メイン3人のLINEスタンプ企画、文言、仕草、試作範囲。
-
-| ファイル | 役割 | 扱い |
-|---|---|---|
-| [`character-facial-expression-reference.md`](character-facial-expression-reference.md) | 顔、視線、眉、口、動物固有パーツの描画基準 | `character-expression-guide.md`を絵へ翻訳する補助資料 |
-| [`visual-reference-shortlist.md`](visual-reference-shortlist.md) | ポーズ、距離、余白を研究する外部参考資料 | 模倣用・設定の正本として使わない |
-| [`visual-style-decision.md`](visual-style-decision.md)・[`HTML比較ボード`](visual-style-decision.html) | 人物4案と動物3案を比較し、最終候補を絞る意思決定シート | 決定後は判断理由の履歴として残す |
-| [`three-day-character-pose-assignment.md`](three-day-character-pose-assignment.md) | キャラクター素材を作るための短期作業計画 | 完了後は履歴。世界設定を上書きしない |
-| `style-studies/` | 画風比較用の試作画像 | 正式デザインではない |
-
-### 作品企画・進行管理
-
-| ファイル | 役割 |
-|---|---|
-| [`preverbal-development-series.md`](preverbal-development-series.md) | 「ことば以前の発達」シリーズの企画と作品候補 |
-| [`story-backlog.md`](story-backlog.md) | 作品候補、優先順位、制作状態 |
-| [`open-decisions.md`](open-decisions.md) | 会議メモ、未採用の提案、判断待ち。決定済み設定の正本ではない |
+| ファイル | 役割 | 開く場面 | 完了後 |
+|---|---|---|---|
+| [`story-backlog.md`](story-backlog.md) | 完成作、試作、キャラクター別の物語の種、横断テーマ、優先順位を管理する | 次に作る一冊や担当動物を選ぶとき | 作品化したら状態と作品パスを更新する |
+| [`preverbal-development-series.md`](preverbal-development-series.md) | 「ことば以前の発達」に限定したシリーズ企画、発達テーマ、作品候補を管理する | 発語以外の理解・伝達を扱う作品を企画するとき | 採用した物語は`story-backlog.md`と作品別台本へつなぐ |
+| [`line-sticker-concept.md`](line-sticker-concept.md) | メイン3人のLINEスタンプ企画、文言、仕草、試作範囲を管理する | スタンプ制作・外注・商品展開を考えるとき | 正式素材の保存先と状態を追記する |
+| [`three-day-character-pose-assignment.md`](three-day-character-pose-assignment.md) | 基本立ち、専門性ポーズ、チーム場面を作る3日間の作業計画 | キャラクター素材制作を短期アサインするとき | 完了後は制作履歴として残す |
+| [`open-decisions.md`](open-decisions.md) | 会議メモ、比較中の案、メンタリングで聞くこと、判断待ちを一元管理する | まだ決めていない事項を追加・確認するとき | 決定したら該当する正本へ移し、ここには決定日と反映先だけ残す |
 
 各作品固有の決定は、`stories/<story-slug>/script.md` に置く。企画ファイルや個別台本から、シリーズ共通設定を無断で変更しない。
 
-## 3. 判断が衝突したとき
+### 2.4 試作画像とフォルダ
+
+| パス | 内容 | 正式利用 |
+|---|---|---|
+| [`style-studies/`](style-studies/) | 人物と動物の画風、統一感、ポーズを比較する画像群 | **不可**。正式決定前の試作 |
+| [`main-three-symbolic-pose-sheet-v1.png`](style-studies/main-three-symbolic-pose-sheet-v1.png) | ことり・りす・うさぎの記号型3ポーズ | 画風候補Aの比較用 |
+| [`main-three-animated-pose-sheet-v1.png`](style-studies/main-three-animated-pose-sheet-v1.png) | メイン3人のキャラクター・アニメーション型3ポーズ | 画風候補Bの比較用 |
+| [`main-three-collage-pose-sheet-v1.png`](style-studies/main-three-collage-pose-sheet-v1.png) | メイン3人のコラージュ・素材型3ポーズ | 紙素材と絵本の温度の比較用 |
+| [`child-symbolic-study-v1.png`](style-studies/child-symbolic-study-v1.png) | 人物の記号・アイコン型 | 人物4案の比較用 |
+| [`child-animated-study-v1.png`](style-studies/child-animated-study-v1.png) | 人物のキャラクター・アニメーション型 | 人物4案の比較用 |
+| [`child-watercolor-life-study-v1.png`](style-studies/child-watercolor-life-study-v1.png) | 人物の水彩・生活描写型 | 人物4案の比較用 |
+| [`child-line-sketch-study-v1.png`](style-studies/child-line-sketch-study-v1.png) | 人物の線画・スケッチ型 | 現在の人物第一候補 |
+| [`boy-kotori-unified-style-v1.png`](style-studies/boy-kotori-unified-style-v1.png) | 子どもとことり先生を同一画風へ寄せた初期試作 | 過去比較 |
+| [`boy-matched-to-animal-style-v2.png`](style-studies/boy-matched-to-animal-style-v2.png) | 子どもを既存動物の画風へ寄せた初期試作 | 過去比較 |
+| [`line-sticker-prototypes/`](line-sticker-prototypes/) | LINEスタンプのシート試作 | 正式スタンプではない |
+| [`main-three-nine-sticker-sheet-v1.png`](line-sticker-prototypes/main-three-nine-sticker-sheet-v1.png) | メイン3人×3種の9スタンプ試作 | 文言・ポーズ・縮小時の確認用 |
+
+試作画像から採用する要素は、必ず文章化して該当する正本へ移す。画像だけを暗黙の仕様にしない。
+
+## 3. 目的から探す
+
+| 今したいこと | 最初に開く | 次に開く |
+|---|---|---|
+| 世界観を説明したい | `world-and-character-guide.md` | `world-space-story-map.md` |
+| 一人の先生を深めたい | `world-and-character-guide.md` | `character-expression-guide.md` |
+| 表情やポーズを描きたい | `character-expression-guide.md` | `character-facial-expression-reference.md` |
+| 画風を決めたい | `visual-style-decision.html` | `visual-style-decision.md`、`open-decisions.md` |
+| 新しい絵本を企画したい | `story-backlog.md` | `story-narrative-guide.md` |
+| 一冊の台本を書きたい | `story-narrative-guide.md` | `stories/<story-slug>/script.md` |
+| HTML絵本を作りたい | `story-design-principles.md` | 既存作品の`index.html` |
+| 専門情報を確認したい | `content-sync.md` | `withu`側の正本 |
+| 未決事項を相談したい | `open-decisions.md` | 関係する正本 |
+| LINEスタンプを作りたい | `line-sticker-concept.md` | `character-expression-guide.md` |
+
+## 4. 判断が衝突したとき
 
 次の優先順位で判断する。
 
@@ -78,7 +152,7 @@ story-design-principles.md
 
 参考画像や過去作品が正本と異なる場合、参考画像や過去作品をそのまま正解にしない。
 
-## 4. 情報を追加する場所
+## 5. 情報を追加する場所
 
 | 追加したい情報 | 更新先 |
 |---|---|
@@ -92,8 +166,11 @@ story-design-principles.md
 | 次に作る作品と優先順位 | `story-backlog.md` |
 | 会議で出た未決定の提案 | `open-decisions.md` |
 | withuとの同期、出典、専門情報 | `content-sync.md` |
+| 画風の比較結果・採点 | `visual-style-decision.md` |
+| 画風の未決事項 | `open-decisions.md` |
+| LINEスタンプの文言・商品企画 | `line-sticker-concept.md` |
 
-## 5. 重複を防ぐルール
+## 6. 重複を防ぐルール
 
 - 別ファイルの内容が必要な場合、要約を再掲せずリンクする。
 - 一覧表は、一覧を管理する正本に一つだけ置く。
@@ -102,7 +179,7 @@ story-design-principles.md
 - 参考作品の名称は、模倣指示ではなく「何を観察するか」とセットで記録する。
 - 試作画像は正式デザインと明確に区別する。
 
-## 6. 新しい作品を始めるチェック
+## 7. 新しい作品を始めるチェック
 
 1. 実際の生活場面と、保護者のリアルな疑問がある。
 2. 最初から専門用語やEATを当てはめていない。
