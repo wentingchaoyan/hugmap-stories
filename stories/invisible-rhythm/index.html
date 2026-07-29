@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#f7f4ef" />
+  <meta name="description" content="呼吸、身体のリズム、感覚の選び方を、子どもの視点とりす先生の観察から描くHugMapのデジタル絵本。" />
+  <title>いっしょのリズムは、どこにある？</title>
+  <link rel="stylesheet" href="../../shared/base.css" />
+  <link rel="stylesheet" href="../../shared/story-palette.css" />
+  <link rel="stylesheet" href="../../shared/story-scenes.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-story-pages="12" data-story-type="hybrid">
+  <header class="story-header">
+    <a class="brand" href="#cover"><span>H</span>HugMap Stories</a>
+    <div>
+      <button id="textToggle" type="button" aria-pressed="false">文字を大きく</button>
+      <button id="motionToggle" type="button" aria-pressed="false">動きを減らす</button>
+    </div>
+  </header>
+  <nav class="progress" aria-label="物語の進み具合">
+    <span id="progressLabel">はじまり</span><i><b id="progressFill"></b></i><span id="progressCount">0 / 12</span>
+  </nav>
+
+  <main>
+    <section class="panel cover" id="cover" data-step="0" data-role="question" data-motion="1">
+      <div class="rhythm-lines cover-lines" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <div class="copy">
+        <p class="eyebrow">からだのふしぎ編・感覚とつながり</p>
+        <h1>いっしょの<br>リズムは、<br>どこに ある？</h1>
+        <p class="lead">ママの いき。ぼくの いき。<br>おなじじゃない。だけど——</p>
+        <a href="#busy-room">おはなしを読む ↓</a>
+      </div>
+      <img class="scene-illustration cover-illustration" src="assets/scene-12-rhythms-meet.png" alt="" />
+    </section>
+
+    <section class="panel right" id="busy-room" data-step="1" data-role="daily-life" data-motion="1">
+      <div class="sensory-field" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="copy">
+        <p class="num">1</p>
+        <p class="story">たのしい おへや。</p>
+        <p class="small">おんがく。あかり。あしおと。<br>カーテン。つみき。みんなの こえ。</p>
+        <blockquote>ひとつずつなら、<br>すきなのに。</blockquote>
+      </div>
+      <img class="scene-illustration overload-illustration" src="assets/scene-01-overload.png" alt="" />
+    </section>
+
+    <section class="panel" id="body-runs" data-step="2" data-role="body" data-motion="2">
+      <div class="copy">
+        <p class="num">2</p>
+        <p class="sound">とっ とっ とっ</p>
+        <p class="story compact">いきが はやい。<br>かたが ぎゅっ。<br>ゆびが くるくる。<br>まばたき、ぱちぱち。</p>
+        <blockquote>ぼくの からだが、<br><strong>さきに はしりだした。</strong></blockquote>
+      </div>
+      <div class="pulse-rings" aria-hidden="true"></div>
+      <img class="scene-illustration overload-illustration close-illustration" src="assets/scene-01-overload.png" alt="" />
+    </section>
+
+    <section class="panel tone-tension right" id="too-fast-words" data-step="3" data-role="conflict" data-motion="1">
+      <div class="copy">
+        <p class="num">3</p>
+        <p class="dialogue">「おちついて」<br>「だいじょうぶ」</p>
+        <p class="small">ママも いっしょうけんめい。<br>でも その ことばも、<br>いまは はやくて つかまらない。</p>
+        <blockquote>こえが、<br>また ひとつ ふえた。</blockquote>
+      </div>
+      <img class="scene-illustration overload-illustration quiet-illustration" src="assets/scene-01-overload.png" alt="" />
+      <div class="word-waves" aria-hidden="true"><span></span><span></span><span></span></div>
+    </section>
+
+    <section class="panel question-page" id="question" data-step="4" data-role="question" data-motion="0">
+      <div class="copy center">
+        <p class="num">4</p>
+        <p class="question-text">ぼくの からだだけ、<br><strong>はしって いるの？</strong></p>
+      </div>
+      <img class="scene-illustration overload-illustration question-illustration" src="assets/scene-01-overload.png" alt="" />
+    </section>
+
+    <section class="panel right tone-discovery" id="detective" data-step="5" data-role="mentor" data-motion="2">
+      <div class="copy">
+        <p class="num">5</p>
+        <p class="story">りすせんせいは、<br>なにかを たす まえに、</p>
+        <blockquote>「いま、なにが<br><strong>いっぱい なのかな？」</strong></blockquote>
+        <p class="small">みみ。め。はだ。からだ。<br>ひとつずつ、みていった。</p>
+      </div>
+      <img class="scene-illustration observe-illustration" src="assets/scene-05-risu-observes.png" alt="子どもと同じ高さで様子を見るりすせんせい" />
+    </section>
+
+    <section class="panel" id="less" data-step="6" data-role="reduce" data-motion="0">
+      <div class="quiet-wash" aria-hidden="true"></div>
+      <div class="copy">
+        <p class="num">6</p>
+        <p class="story">おとを ちいさく。<br>あかりを すこし。<br>ことばを ひとつ。<br>ひととの あいだを ひろく。</p>
+        <blockquote>たす まえに、<br><strong>へらして みる。</strong></blockquote>
+      </div>
+      <img class="scene-illustration choice-illustration" src="assets/scene-07-child-chooses.png" alt="" />
+    </section>
+
+    <section class="panel right" id="choose" data-step="7" data-role="choose" data-motion="0">
+      <div class="choice-shapes" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <div class="copy">
+        <p class="num">7</p>
+        <p class="small">ぼくの からだは、ときどき<br><strong>「もっと かんじたい」</strong>を さがす。</p>
+        <p class="story compact">くるまを おす？<br>クッションに ぎゅっ？<br>テントで ひとやすみ？</p>
+        <p class="small">それとも、<br>いまは なにも しない？</p>
+        <blockquote>ぼくの からだに、<br><strong>きいて みる。</strong></blockquote>
+      </div>
+      <img class="scene-illustration choice-illustration reverse-illustration" src="assets/scene-07-child-chooses.png" alt="感覚の選択肢を子どもと一緒に見るりすせんせい" />
+    </section>
+
+    <section class="panel tone-paper" id="finish" data-step="8" data-role="stop" data-motion="0">
+      <div class="copy">
+        <p class="num">8</p>
+        <p class="story">かおを そむける。<br>からだを はなす。<br>てを とめる。</p>
+        <blockquote>それも、ぼくの<br><strong>「おしまい」。</strong></blockquote>
+        <p class="small">りすせんせいも、いっしょに とまった。</p>
+      </div>
+      <img class="scene-illustration choice-illustration stop-illustration" src="assets/scene-07-child-chooses.png" alt="手でおしまいを伝え、いっしょに止まる子どもとりすせんせい" />
+    </section>
+
+    <section class="panel right tone-warm" id="safety" data-step="9" data-role="safety" data-motion="0">
+      <div class="copy">
+        <p class="num">9</p>
+        <p class="story">くませんせいは、<br>いきと かおいろ、<br>いたい ところ、<br>いつもとの ちがいを みた。</p>
+        <blockquote>「かんかく」だけで、<br><strong>きめないために。</strong></blockquote>
+      </div>
+      <img class="scene-illustration safety-illustration" src="assets/scene-09-kuma-checks.png" alt="子どもに触れず、呼吸や顔色を確かめるくませんせい" />
+    </section>
+
+    <section class="panel" id="mama-slows" data-step="10" data-role="coregulation" data-motion="1">
+      <div class="rhythm-lines slow-lines" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="copy">
+        <p class="num">10</p>
+        <p class="story">ママは、ぼくに<br>「ゆっくり いきして」と<br>いわなかった。</p>
+        <p class="small">じぶんの こえを ちいさく。<br>うごきを ゆっくり。<br>すこし はなれて、となりに すわった。</p>
+        <blockquote>ママが まず、<br><strong>じぶんの はやさを ゆるめた。</strong></blockquote>
+      </div>
+      <img class="scene-illustration mama-illustration" src="assets/scene-10-mama-slows.png" alt="少し離れて隣に座り、自分の速さを緩めるママ" />
+    </section>
+
+    <section class="panel right tone-discovery" id="small-answer" data-step="11" data-role="response" data-motion="2">
+      <div class="copy">
+        <p class="num">11</p>
+        <p class="story">ぼくは まだ、<br>ママと おなじ いきじゃない。</p>
+        <p class="small">でも、かたの ぎゅっが<br>すこし ほどけた。<br>まばたきが、ひとつ ゆっくり。</p>
+        <blockquote>ことりせんせいは、<br><strong>その ちいさな へんじを きいた。</strong></blockquote>
+      </div>
+      <img class="scene-illustration kotori-illustration" src="assets/scene-11-kotori-listens.png" alt="子どもの小さな身体の返事を待って聴くことりせんせい" />
+    </section>
+
+    <section class="panel finale" id="finale" data-step="12" data-role="ending" data-motion="3">
+      <div class="rhythm-lines meeting-lines" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <div class="copy center">
+        <p class="ending">ママの いき。<br>ぼくの いき。</p>
+        <p class="ending"><strong>おなじじゃない。</strong></p>
+        <p class="ending">でも、ときどき、<br>あいだで あう。</p>
+        <p class="last-line">ぼくの リズムは、<br><strong>ここに いた。</strong></p>
+      </div>
+      <img class="scene-illustration finale-illustration" src="assets/scene-12-rhythms-meet.png" alt="" />
+    </section>
+
+    <section class="panel afterword" id="afterword" data-step="13" data-role="guidance" data-motion="0">
+      <div class="after-card">
+        <img src="../../shared/characters/risu.png" alt="りすせんせい" />
+        <div>
+          <p class="eyebrow">おはなしの あとに</p>
+          <h2>感覚は、増やすだけではありません。</h2>
+          <h3>Sensory Seeker――もっと感覚を探すこと</h3>
+          <p>何度も跳ぶ、回る、押す、物へ強く触れる、大きな音や強い匂いを繰り返し確かめるなど、身体が「もっとはっきり感じたい」と感覚を探すように見えることがあります。これはSensory Seeker（感覚を求める傾向）と表現されることがありますが、診断名ではありません。行動を一律に止めたり、「刺激が足りない」と決めたりせず、いつ、どこで、何の前後に起き、本人の参加や安全にどう影響しているかを見ます。</p>
+          <p>同じ子が、動きや圧はもっと欲しがりながら、音や光は避けることもあります。日によって「もっと」と「もう十分」が変わることもあります。求める子・避ける子という固定的なタイプに分けず、感覚の種類とそのときの身体の状態を一つずつ確かめます。</p>
+          <h3>Sensory Diet――暮らしの中の個別の感覚方略</h3>
+          <p>「感覚ダイエット」は食事制限ではなく、生活への参加を助けるため、必要な感覚活動や環境調整を一日の中へ個別に組み合わせる考え方です。Sensory Seekerへ刺激をたくさん与える方法でも、誰にでも同じ活動を行う処方でもありません。生活上の目標と本人の選択を中心に、減らす・加える・変える・休む・終えるを一つずつ試し、反応を確かめます。必要に応じて作業療法士などへ相談してください。</p>
+          <p>呼吸や身体のリズムには自律神経が関係しますが、特定の呼吸、揺れ、圧刺激で「迷走神経が整う」「必ず落ち着く」とは限りません。子どもへ同じ呼吸を求めず、大人がまず声、速さ、距離を調整します。呼吸の異常、顔色や意識の変化、痛み、普段との大きな違いがある場合は、感覚の問題と決めず医療機関へ相談してください。</p>
+          <ul class="support-list">
+            <li><b>減らす</b><span>音、光、言葉、人との距離</span></li>
+            <li><b>選ぶ</b><span>押す、引く、包む、何もしない</span></li>
+            <li><b>終える</b><span>顔、身体、手、AACの「おしまい」</span></li>
+          </ul>
+          <details class="references">
+            <summary>この絵本の参考資料</summary>
+            <ul>
+              <li><a href="https://publications.aap.org/pediatrics/article/129/6/1186/32067/Sensory-Integration-Therapies-for-Children-With" target="_blank" rel="noopener">American Academy of Pediatrics: Sensory Integration Therapies</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/41321460/" target="_blank" rel="noopener">Systematic review of sensory-based interventions, 2015–2024</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/40193295/" target="_blank" rel="noopener">Ayres Sensory Integration with children: systematic review of randomized trials</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/39480309/" target="_blank" rel="noopener">Parent–child coregulation: systematic review</a></li>
+            </ul>
+          </details>
+          <a class="primary" href="https://withuai.com/hugmap_faq_public_v1.html" target="_blank" rel="noopener">このテーマに関係する質問を見る</a>
+          <button id="restart" type="button">もういちど読む</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="../../shared/story-runtime.js"></script>
+  <script src="../../shared/story-scenes.js"></script>
+</body>
+</html>
