@@ -42,6 +42,7 @@
 |---|---|---|
 | [`character-facial-expression-reference.md`](character-facial-expression-reference.md) | 顔、視線、眉、口、動物固有パーツの描画基準 | `character-expression-guide.md`を絵へ翻訳する補助資料 |
 | [`visual-reference-shortlist.md`](visual-reference-shortlist.md) | ポーズ、距離、余白を研究する外部参考資料 | 模倣用・設定の正本として使わない |
+| [`visual-style-decision.md`](visual-style-decision.md)・[`HTML比較ボード`](visual-style-decision.html) | 人物4案と動物3案を比較し、最終候補を絞る意思決定シート | 決定後は判断理由の履歴として残す |
 | [`three-day-character-pose-assignment.md`](three-day-character-pose-assignment.md) | キャラクター素材を作るための短期作業計画 | 完了後は履歴。世界設定を上書きしない |
 | `style-studies/` | 画風比較用の試作画像 | 正式デザインではない |
 

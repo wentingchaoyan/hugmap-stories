@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4f0e8">
+  <title>HugMap Stories｜画風比較ボード</title>
+  <style>
+    :root{
+      --paper:#f4f0e8;--card:#fffdf8;--ink:#291712;--muted:#746a65;
+      --purple:#7d2741;--orange:#e85322;--yellow:#d7c862;--line:rgba(41,23,18,.14)
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:"Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif}
+    button,textarea{font:inherit}
+    .page{width:min(1500px,96vw);margin:auto;padding:32px 0 80px}
+    header{display:flex;align-items:end;justify-content:space-between;gap:28px;margin-bottom:28px}
+    .eyebrow{margin:0 0 7px;color:var(--purple);font-size:11px;font-weight:800;letter-spacing:.16em}
+    h1{margin:0;font:600 clamp(30px,4vw,54px)/1.25 Georgia,"Yu Mincho",serif}
+    .lead{max-width:42em;margin:8px 0 0;color:var(--muted);font-size:14px;line-height:1.8}
+    .doc-link{flex:none;color:var(--purple);font-size:13px;font-weight:800}
+    section{margin-top:32px}
+    .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:20px;margin-bottom:12px}
+    h2{margin:0;font:600 clamp(23px,2.6vw,36px)/1.4 Georgia,"Yu Mincho",serif}
+    .hint{margin:0;color:var(--muted);font-size:12px}
+    .gallery{display:grid;gap:12px}
+    .gallery.children{grid-template-columns:repeat(4,minmax(0,1fr))}
+    .gallery.animals{grid-template-columns:repeat(3,minmax(0,1fr))}
+    figure{margin:0}
+    .study{position:relative;overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:0 8px 24px rgba(41,23,18,.05)}
+    .study button{display:block;width:100%;padding:0;border:0;background:transparent;cursor:zoom-in}
+    .study img{display:block;width:100%;aspect-ratio:1.65/1;object-fit:contain;background:#fff}
+    .animals .study img{aspect-ratio:1/1}
+    figcaption{padding:12px 14px 14px}
+    figcaption b{display:block;font-size:14px}
+    figcaption span{display:block;margin-top:4px;color:var(--muted);font-size:11px;line-height:1.55}
+    .finalists{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .candidate{position:relative;padding:18px;background:var(--card);border:2px solid transparent;border-radius:24px;box-shadow:0 12px 34px rgba(41,23,18,.07);transition:.2s ease}
+    .candidate.selected{border-color:var(--purple);box-shadow:0 12px 34px rgba(125,39,65,.15)}
+    .candidate-head{display:flex;align-items:start;justify-content:space-between;gap:16px;margin-bottom:14px}
+    .candidate h3{margin:0;font:600 24px/1.4 Georgia,"Yu Mincho",serif}
+    .candidate p{margin:5px 0 0;color:var(--muted);font-size:13px;line-height:1.7}
+    .select{flex:none;padding:9px 14px;border:1px solid var(--purple);border-radius:999px;background:white;color:var(--purple);font-size:12px;font-weight:800;cursor:pointer}
+    .selected .select{background:var(--purple);color:white}
+    .pair{display:grid;grid-template-columns:1fr 1.15fr;gap:8px}
+    .pair button{padding:0;border:0;background:white;cursor:zoom-in}
+    .pair img{display:block;width:100%;height:250px;object-fit:contain}
+    .ratings{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:12px}
+    .rating{padding:10px;border-radius:12px;background:#f5f0e8;text-align:center}
+    .rating b{display:block;color:var(--purple);font-size:18px}
+    .rating span{color:var(--muted);font-size:10px}
+    .recommendation{display:grid;grid-template-columns:minmax(0,.85fr) minmax(340px,1.15fr);gap:24px;padding:24px;border-radius:24px;background:#30201c;color:white}
+    .recommendation h2{color:#f2df8c}
+    .formula{margin:16px 0 0;padding:16px;border-left:3px solid var(--orange);font:600 17px/1.8 Georgia,"Yu Mincho",serif}
+    .notes label{display:block;margin-bottom:8px;color:#f2df8c;font-size:12px;font-weight:800}
+    textarea{width:100%;min-height:140px;padding:14px;border:1px solid rgba(255,255,255,.3);border-radius:14px;background:rgba(255,255,255,.08);color:white;line-height:1.7;resize:vertical}
+    .save-state{min-height:1.4em;margin:6px 0 0;color:#d9ccc7;font-size:11px}
+    dialog{width:min(1200px,94vw);max-height:94vh;padding:10px;border:0;border-radius:20px;background:#fff;box-shadow:0 28px 90px rgba(0,0,0,.35)}
+    dialog::backdrop{background:rgba(23,15,12,.72)}
+    dialog img{display:block;width:100%;max-height:84vh;object-fit:contain}
+    dialog button{position:absolute;right:16px;top:16px;width:38px;height:38px;border:0;border-radius:50%;background:var(--ink);color:white;font-size:20px;cursor:pointer}
+    @media(max-width:1000px){
+      .gallery.children{grid-template-columns:repeat(2,1fr)}
+      .pair{grid-template-columns:1fr}.pair img{height:auto}
+      .recommendation{grid-template-columns:1fr}
+    }
+    @media(max-width:700px){
+      .page{width:min(94vw,620px);padding-top:20px}
+      header,.section-head{align-items:start;flex-direction:column}
+      .gallery.children,.gallery.animals,.finalists{grid-template-columns:1fr}
+      .study img,.animals .study img{aspect-ratio:auto}
+      .candidate-head{flex-direction:column}
+      .ratings{grid-template-columns:repeat(3,1fr)}
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div>
+        <p class="eyebrow">HUGMAP STORIES · VISUAL STYLE BOARD</p>
+        <h1>人物4案 × 動物3案を、<br>一画面で比べる。</h1>
+        <p class="lead">画像を押すと拡大できます。現在の好みを出発点に、下段では「線画の人物」と組み合わせる動物を2案に絞っています。</p>
+      </div>
+      <a class="doc-link" href="visual-style-decision.md">判断理由をMarkdownで読む →</a>
+    </header>
+
+    <section aria-labelledby="children-title">
+      <div class="section-head">
+        <h2 id="children-title">人物の4案</h2>
+        <p class="hint">現在の好み：線画・スケッチ型</p>
+      </div>
+      <div class="gallery children">
+        <figure class="study"><button data-full="style-studies/child-symbolic-study-v1.png"><img src="style-studies/child-symbolic-study-v1.png" alt="人物の記号・アイコン型試作"></button><figcaption><b>1. 記号・アイコン型</b><span>小さくても読みやすい。身体の微細な変化は減る。</span></figcaption></figure>
+        <figure class="study"><button data-full="style-studies/child-animated-study-v1.png"><img src="style-studies/child-animated-study-v1.png" alt="人物のキャラクター・アニメーション型試作"></button><figcaption><b>2. キャラクター型</b><span>出来事は明快。感情を説明しすぎない調整が必要。</span></figcaption></figure>
+        <figure class="study"><button data-full="style-studies/child-watercolor-life-study-v1.png"><img src="style-studies/child-watercolor-life-study-v1.png" alt="人物の水彩・生活描写型試作"></button><figcaption><b>3. 水彩・生活描写型</b><span>生活の空気と身体を描ける。背景量の管理が必要。</span></figcaption></figure>
+        <figure class="study"><button data-full="style-studies/child-line-sketch-study-v1.png"><img src="style-studies/child-line-sketch-study-v1.png" alt="人物の線画・スケッチ型試作"></button><figcaption><b>4. 線画・スケッチ型</b><span>思考、時間、複数の可能性に強い。現在の第一候補。</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section aria-labelledby="animals-title">
+      <div class="section-head">
+        <h2 id="animals-title">動物の3案</h2>
+        <p class="hint">記号型とキャラクター型を最終比較</p>
+      </div>
+      <div class="gallery animals">
+        <figure class="study"><button data-full="style-studies/main-three-symbolic-pose-sheet-v1.png"><img src="style-studies/main-three-symbolic-pose-sheet-v1.png" alt="動物の記号型試作"></button><figcaption><b>1. 記号型</b><span>形が強く、子どもの内面を邪魔しにくい。</span></figcaption></figure>
+        <figure class="study"><button data-full="style-studies/main-three-animated-pose-sheet-v1.png"><img src="style-studies/main-three-animated-pose-sheet-v1.png" alt="動物のキャラクター・アニメーション型試作"></button><figcaption><b>2. キャラクター型</b><span>個性と動きが明快。先生が目立ちすぎる可能性。</span></figcaption></figure>
+        <figure class="study"><button data-full="style-studies/main-three-collage-pose-sheet-v1.png"><img src="style-studies/main-three-collage-pose-sheet-v1.png" alt="動物のコラージュ・素材型試作"></button><figcaption><b>3. コラージュ・素材型</b><span>絵本の温度が高い。小サイズでは素材感が消える。</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section aria-labelledby="final-title">
+      <div class="section-head">
+        <h2 id="final-title">最終候補を横並びで見る</h2>
+        <p class="hint">選択はこのブラウザ内に保存されます</p>
+      </div>
+      <div class="finalists">
+        <article class="candidate" data-choice="A">
+          <div class="candidate-head"><div><h3>A｜線画人物＋記号動物</h3><p>静かな子どもの思考と、覚えやすい先生。</p></div><button class="select" type="button">Aを選ぶ</button></div>
+          <div class="pair">
+            <button data-full="style-studies/child-line-sketch-study-v1.png"><img src="style-studies/child-line-sketch-study-v1.png" alt="線画の人物"></button>
+            <button data-full="style-studies/main-three-symbolic-pose-sheet-v1.png"><img src="style-studies/main-three-symbolic-pose-sheet-v1.png" alt="記号型の動物"></button>
+          </div>
+          <div class="ratings"><div class="rating"><b>5</b><span>世界観</span></div><div class="rating"><b>5</b><span>小画面</span></div><div class="rating"><b>5</b><span>再現性</span></div></div>
+        </article>
+        <article class="candidate" data-choice="B">
+          <div class="candidate-head"><div><h3>B｜線画人物＋キャラクター動物</h3><p>静かな子どもと、よく動く先生。</p></div><button class="select" type="button">Bを選ぶ</button></div>
+          <div class="pair">
+            <button data-full="style-studies/child-line-sketch-study-v1.png"><img src="style-studies/child-line-sketch-study-v1.png" alt="線画の人物"></button>
+            <button data-full="style-studies/main-three-animated-pose-sheet-v1.png"><img src="style-studies/main-three-animated-pose-sheet-v1.png" alt="キャラクター型の動物"></button>
+          </div>
+          <div class="ratings"><div class="rating"><b>4</b><span>世界観</span></div><div class="rating"><b>4</b><span>小画面</span></div><div class="rating"><b>3</b><span>再現性</span></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="recommendation" aria-labelledby="recommendation-title">
+      <div>
+        <p class="eyebrow">CURRENT RECOMMENDATION</p>
+        <h2 id="recommendation-title">形はA、動きの設計だけB。</h2>
+        <p class="formula">人物＝細い線＋限定色＋小さな連続動作<br>動物＝単純な記号形＋身体で読める動き<br>共通＝同じ白い紙＋同じ限定色＋弱い影</p>
+      </div>
+      <div class="notes">
+        <label for="decision-note">見たときの感覚、迷い、次の試作で確かめたいこと</label>
+        <textarea id="decision-note" placeholder="例：Aの静けさが好き。ただし、ことりの羽の動きはBくらい欲しい。"></textarea>
+        <p class="save-state" id="save-state" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="lightbox">
+    <button type="button" aria-label="閉じる">×</button>
+    <img src="" alt="">
+  </dialog>
+
+  <script>
+    const storageKey = "hugmap-visual-style-decision";
+    const noteKey = "hugmap-visual-style-note";
+    const candidates = [...document.querySelectorAll(".candidate")];
+    const note = document.querySelector("#decision-note");
+    const state = document.querySelector("#save-state");
+    const lightbox = document.querySelector("#lightbox");
+    const lightboxImage = lightbox.querySelector("img");
+
+    function selectCandidate(choice) {
+      candidates.forEach(card => {
+        const selected = card.dataset.choice === choice;
+        card.classList.toggle("selected", selected);
+        card.querySelector(".select").textContent = selected ? `${choice}を選択中` : `${card.dataset.choice}を選ぶ`;
+      });
+      localStorage.setItem(storageKey, choice);
+    }
+
+    candidates.forEach(card => card.querySelector(".select").addEventListener("click", () => selectCandidate(card.dataset.choice)));
+    document.querySelectorAll("[data-full]").forEach(button => button.addEventListener("click", () => {
+      lightboxImage.src = button.dataset.full;
+      lightboxImage.alt = button.querySelector("img").alt;
+      lightbox.showModal();
+    }));
+    lightbox.querySelector("button").addEventListener("click", () => lightbox.close());
+    lightbox.addEventListener("click", event => { if (event.target === lightbox) lightbox.close(); });
+    note.value = localStorage.getItem(noteKey) || "";
+    note.addEventListener("input", () => {
+      localStorage.setItem(noteKey, note.value);
+      state.textContent = "メモをこのブラウザに保存しました。";
+      window.clearTimeout(note.saveTimer);
+      note.saveTimer = window.setTimeout(() => state.textContent = "", 1800);
+    });
+    selectCandidate(localStorage.getItem(storageKey) || "A");
+  </script>
+</body>
+</html>
