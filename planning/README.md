@@ -27,7 +27,7 @@
 ├─ preverbal-development-series.md
 ├─ line-sticker-concept.md
 ├─ three-day-character-pose-assignment.md
-└─ open-decisions.md　　⭐️⭐️⭐️　文書のスタイル、ストーリの入り方
+└─ open-decisions.md　　⭐️⭐️⭐️　未決の制作軸、名前、国際展開、ストーリーの入り方
 
 外部情報と同期
 └─ content-sync.md
@@ -168,6 +168,7 @@ story-design-principles.md
 | 実話や一冊だけの展開 | 作品別 `script.md` |
 | 次に作る作品と優先順位 | `story-backlog.md` |
 | 会議で出た未決定の提案 | `open-decisions.md` |
+| キャラクターの国際名、命名規則、即時認識の未決事項 | `open-decisions.md` |
 | withuとの同期、出典、専門情報 | `content-sync.md` |
 | 画風の比較結果・採点 | `visual-style-decision.md` |
 | 画風の未決事項 | `open-decisions.md` |

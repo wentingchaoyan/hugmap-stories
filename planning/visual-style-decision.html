@@ -36,6 +36,13 @@
     figcaption b{display:block;font-size:14px}
     figcaption span{display:block;margin-top:4px;color:var(--muted);font-size:11px;line-height:1.55}
     .reference{display:inline-flex;margin-bottom:7px;padding:4px 8px;border-radius:999px;background:#f1eadf;color:var(--purple);font-size:10px;font-weight:800;letter-spacing:.02em}
+    .personality-panel{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:0 8px 24px rgba(41,23,18,.05)}
+    .personality-table{width:100%;min-width:780px;border-collapse:collapse;font-size:12px;line-height:1.65}
+    .personality-table th,.personality-table td{padding:13px 15px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+    .personality-table tr:last-child th,.personality-table tr:last-child td{border-bottom:0}
+    .personality-table thead th{background:#eee7dc;color:var(--purple);font-size:10px;letter-spacing:.04em}
+    .personality-table tbody th{width:92px;font-size:14px;white-space:nowrap}
+    .personality-table b{color:var(--purple)}
     .finalists{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
     .candidate{position:relative;padding:18px;background:var(--card);border:2px solid transparent;border-radius:24px;box-shadow:0 12px 34px rgba(41,23,18,.07);transition:.2s ease}
     .candidate.selected{border-color:var(--purple);box-shadow:0 12px 34px rgba(125,39,65,.15)}
@@ -83,7 +90,7 @@
     <header>
       <div>
         <p class="eyebrow">HUGMAP STORIES · VISUAL STYLE BOARD</p>
-        <h1>人物4案 × 動物3案を、<br>一画面で比べる。</h1>
+        <h1>人物4案 × 動物4案を、<br>一画面で比べる。</h1>
         <p class="lead">画像を押すと拡大できます。現在の好みを出発点に、下段では「線画の人物」と組み合わせる動物を2案に絞っています。</p>
       </div>
       <a class="doc-link" href="visual-style-decision.md">判断理由をMarkdownで読む →</a>
@@ -104,14 +111,31 @@
 
     <section aria-labelledby="animals-title">
       <div class="section-head">
-        <h2 id="animals-title">動物の3案</h2>
+        <h2 id="animals-title">動物の4案</h2>
         <p class="hint">参考作品は模倣対象ではなく、観察する造形原則を示します</p>
       </div>
       <div class="gallery animals">
         <figure class="study"><button data-full="style-studies/main-three-symbolic-pose-sheet-v1.png"><img src="style-studies/main-three-symbolic-pose-sheet-v1.png" alt="動物の記号型試作"></button><figcaption><small class="reference">参考：ミッフィー</small><b>1. 静かな記号型</b><span>正面性、限定色、固定に近い表情。形が強く、子どもの内面を邪魔しにくい。</span></figcaption></figure>
-        <figure class="study"><button data-full="style-studies/main-three-playful-graphic-symbol-pose-sheet-v1.png"><img src="style-studies/main-three-playful-graphic-symbol-pose-sheet-v1.png" alt="動いて遊ぶ記号型の動物試作"></button><figcaption><small class="reference">参考：五味太郎</small><b>2. 動いて遊ぶ記号型</b><span>単純な形に、反復、大小、位置、発見、小さな動きを加える。</span></figcaption></figure>
+        <figure class="study"><button data-full="style-studies/main-three-playful-graphic-symbol-pose-sheet-v2.png"><img src="style-studies/main-three-playful-graphic-symbol-pose-sheet-v2.png" alt="子どもの反応に合わせて行動を変える、動いて遊ぶ記号型の動物試作"></button><figcaption><small class="reference">参考：五味太郎</small><b>2. 動いて遊ぶ記号型</b><span>反復と小さな動きに加え、子どもを見て「待つ・選び直す・合わせる」性格まで描く。</span></figcaption></figure>
         <figure class="study"><button data-full="style-studies/main-three-animated-pose-sheet-v1.png"><img src="style-studies/main-three-animated-pose-sheet-v1.png" alt="動物のキャラクター・アニメーション型試作"></button><figcaption><small class="reference">参考：アンパンマン</small><b>3. キャラクター型</b><span>シルエット、表情、手足の動きが明快。先生が目立ちすぎる可能性。</span></figcaption></figure>
         <figure class="study"><button data-full="style-studies/main-three-collage-pose-sheet-v1.png"><img src="style-studies/main-three-collage-pose-sheet-v1.png" alt="動物のコラージュ・素材型試作"></button><figcaption><small class="reference">参考：『はらぺこあおむし』</small><b>4. コラージュ・素材型</b><span>塗った薄紙、切り口、色の重なり。絵本の温度が高いが、小サイズでは素材感が消える。</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section aria-labelledby="personality-title">
+      <div class="section-head">
+        <h2 id="personality-title">性格が見えるかの確認軸</h2>
+        <p class="hint">得意なポーズだけでなく、子どもを見てどう変わるかを見る</p>
+      </div>
+      <div class="personality-panel">
+        <table class="personality-table">
+          <thead><tr><th>先生</th><th>3場面の流れ</th><th>伝えたい性格</th><th>強みの裏返し</th><th>絵で確認すること</th></tr></thead>
+          <tbody>
+            <tr><th>ことり</th><td><b>気づく → まねる → 待つ</b></td><td>傾聴、ミラーリング、辛抱強さ</td><td>待ちすぎる</td><td>オレンジの合図が一方通行ではなく、子どもとの間を往復しているか</td></tr>
+            <tr><th>りす</th><td><b>観察 → 出しすぎる → 選んで戻す</b></td><td>探究心、発明、環境調整</td><td>試しすぎる、いたずら心</td><td>道具の多さではなく、子どもの選択を受けて道具を減らす姿まで見えるか</td></tr>
+            <tr><th>うさぎ</th><td><b>張り切る → 気づく → 相手に合わせる</b></td><td>元気、応援、伴走</td><td>応援しすぎる</td><td>見るだけ、少し触る、休むことも「参加」として受け止めているか</td></tr>
+          </tbody>
+        </table>
       </div>
     </section>
 
@@ -138,10 +162,10 @@
           <div class="ratings"><div class="rating"><b>4</b><span>世界観</span></div><div class="rating"><b>4</b><span>小画面</span></div><div class="rating"><b>3</b><span>再現性</span></div></div>
         </article>
         <article class="candidate" data-choice="C">
-          <div class="candidate-head"><div><h3>C｜線画人物＋動いて遊ぶ記号動物</h3><p>静かな子どもと、発見・反復・小さな動きのある先生。</p></div><button class="select" type="button">Cを選ぶ</button></div>
+          <div class="candidate-head"><div><h3>C｜線画人物＋動いて遊ぶ記号動物</h3><p>静かな子どもと、その反応を受けて待つ・選び直す・合わせる先生。</p></div><button class="select" type="button">Cを選ぶ</button></div>
           <div class="pair">
             <button data-full="style-studies/child-line-sketch-study-v1.png"><img src="style-studies/child-line-sketch-study-v1.png" alt="線画の人物"></button>
-            <button data-full="style-studies/main-three-playful-graphic-symbol-pose-sheet-v1.png"><img src="style-studies/main-three-playful-graphic-symbol-pose-sheet-v1.png" alt="動いて遊ぶ記号型の動物"></button>
+            <button data-full="style-studies/main-three-playful-graphic-symbol-pose-sheet-v2.png"><img src="style-studies/main-three-playful-graphic-symbol-pose-sheet-v2.png" alt="子どもの反応に合わせて行動を変える、動いて遊ぶ記号型の動物"></button>
           </div>
           <div class="ratings"><div class="rating"><b>5</b><span>世界観</span></div><div class="rating"><b>5</b><span>小画面</span></div><div class="rating"><b>4</b><span>再現性</span></div></div>
         </article>
