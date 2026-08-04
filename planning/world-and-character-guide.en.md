@@ -2,124 +2,124 @@
 
 Created: 2026-07-22  
 Scope: The animal teachers who appear in HugMap Stories and the shared world of the series  
-Role: **The source of truth for the series values, promises, and each teacher's core way of noticing**
+Purpose: **The definitive guide to the series' values, creative principles, and the distinctive lens each teacher brings**
 
-## 1. What This File Defines
+## 1. Purpose of This Guide
 
-This file is a concise bible for understanding the series as a whole through comparison. Rather than repeating the same explanations in separate character documents, it manages shared attributes in tables.
+This concise reference brings the series' shared world and characters into one place. The tables make it easy to compare characters without repeating the same background in every character document.
 
-Detailed guidance is divided among the following sources of truth.
+For more detailed guidance, refer to the following documents.
 
-| What you need to know | Reference |
+| Topic | Reference |
 |---|---|
-| Gestures, movement, intent behind speech, and symbolic tools | [`character-expression-guide.md`](character-expression-guide.md) |
-| Drawing standards for faces, gaze, eyebrows, and mouths | [`character-facial-expression-reference.md`](character-facial-expression-reference.md) |
-| The HugMap House, its places, and story paths through space | [`world-space-story-map.md`](world-space-story-map.md) |
+| Gestures, movement, the intention behind dialogue, and symbolic objects | [`character-expression-guide.md`](character-expression-guide.md) |
+| Visual standards for faces, gaze, eyebrows, and mouths | [`character-facial-expression-reference.md`](character-facial-expression-reference.md) |
+| The HugMap House, its spaces, and the way stories move through them | [`world-space-story-map.md`](world-space-story-map.md) |
 | Point of view, three-act structure, and EAT + E | [`story-narrative-guide.md`](story-narrative-guide.md) |
 | Open decisions and proposals from meetings | [`open-decisions.md`](open-decisions.md) |
 
-## 2. The World of the Series
+## 2. The World of HugMap Stories
 
-HugMap Stories is not about fixing what a child cannot do.
+HugMap Stories is not about fixing children or focusing on what they cannot do.
 
-The child is already looking, feeling, trying, and reaching out. The animal teachers notice these small signals so caregivers can recognize the growth already taking place.
+Children are already observing, feeling, experimenting, and trying to communicate. The animal teachers notice these small signals and help caregivers see the growth that is already unfolding.
 
-The three words that describe how the series should feel to children and caregivers are **notice, connect, and grow**.
+The experience of the series can be summed up in three words: **notice, connect, grow**.
 
-The teachers are not a rescue team that appears only when something goes wrong. They are always nearby in everyday life. When a caregiver pauses and wonders, “Why might this be happening?”, the teacher with the way of noticing that fits the moment steps forward.
+The teachers are not a rescue squad that appears only when something goes wrong. They stay close to the rhythms of family life. When a caregiver pauses and wonders, “I wonder why?”, the teacher whose perspective best fits the moment steps forward.
 
-The teachers live together in one open place called the “HugMap House.” It contains places for resting, sensing, moving, making, communicating, thinking, and connecting. These places are not stages that rank development. They are destinations that help a family choose the kind of support needed in that moment.
+The teachers live together in the open and welcoming **HugMap House**. It has spaces to rest, sense, move, make, communicate, think, and connect. These spaces do not represent levels of development. Each offers a different kind of support, and families can visit whichever one feels right in the moment.
 
 ```text
-The animals are always close to everyday life.
-When a caregiver pauses and wonders, “Why might this be happening?”,
-the teacher with the clues needed for that moment steps forward.
+The animals are always close by in everyday life.
+When a caregiver pauses and wonders, “I wonder why?”,
+the teacher who can shed light on that moment steps forward.
 
 “See Your Child. See Yourself. Grow Together.”
-Growth moves in both directions between child and caregiver.
+Children and caregivers grow together.
 
 “The Expert in Your Child Is You. We Help You See It.”
-Caregivers rediscover their own expertise as the people who know their child best.
+Caregivers rediscover the knowledge and insight they already hold as the people who know their child best.
 
 “Stories Where Every Child Finds Their Way.”
-The series respects diversity and individuality.
+Every child's path is different, and every path matters.
 ```
 
-**Make complexity understandable.**
+**Making complexity easier to understand.**
 
-HugMap transforms developmental support, medical knowledge, nutrition, sensory processing, communication, movement, and related expertise into stories that children and caregivers can access.
+HugMap translates complex knowledge—from developmental support and medicine to nutrition, sensory processing, communication, and movement—into stories that feel approachable and relevant to family life.
 
-Professional knowledge is not delivered as a lecture. It is expressed through the animal teachers' different ways of seeing.
+Expertise never arrives as a lecture. It comes to life through the different perspectives of the animal teachers.
 
-## 3. What the Series Believes
+## 3. Our Core Beliefs
 
 | Belief | How it appears in stories |
 |---|---|
 | The child is already engaging with the world | Place small signals in the illustrations from the beginning |
-| Every action has a reason that makes sense to the child | Look at what happens before and after, and at the child's response, rather than judging the surface action |
-| Look for fitting conditions rather than one correct answer | Change the environment, tools, distance, speed, or way of communicating |
-| The child does not have to try hard at everything | Recognize resting, refusing, and watching as valid choices |
-| Enjoyment can be an entrance to learning | Let play begin with something that may look unimportant to an adult |
+| A child's actions make sense from their point of view | Look beyond the surface: notice what happens before and after, and how the child responds |
+| There is no single right answer; the goal is to find what works for this child | Adjust the environment, tools, distance, pace, or way of communicating |
+| Children do not have to push through everything | Treat resting, saying no, and simply watching as valid choices |
+| Enjoyment opens the door to learning | Let play begin with something an adult might otherwise overlook |
 | Strengths can grow | Do not make overcoming difficulties the only goal |
 | Growth can be celebrated with others | Create moments in which caregivers notice small changes |
-| Possibility should not be supported by one person alone | Connect teachers with one another, the family, and appropriate professionals |
+| No one should have to nurture a child's possibilities alone | Connect the teachers, family, and appropriate professionals |
 
-## 4. Shared Promises of the Series
+## 4. Creative Commitments
 
-- Do not treat a child as a representative of a problem.
-- Do not let a teacher declare what the child feels.
+- Never reduce a child to a problem or diagnosis.
+- Never have a teacher claim to know exactly what a child is feeling.
 - Check an interpretation against the child's response.
-- Do not use speech, speed, frequency, or finishing an entire meal as the only measures of success.
+- Do not treat speech, speed, frequency, or finishing a meal as the only measures of success.
 - Do not rush to erase sadness or difficulty with positive language.
 - Do not suggest that one adjustment solves everything.
-- Do not use a picture book as a substitute for needed medical care, developmental consultation, or specialist support.
+- Never present a story as a substitute for medical care, developmental consultation, or specialist support when these are needed.
 - End by returning the scene to the family's daily life rather than with a teacher's explanation.
 - Help caregivers notice the next signal even when the teachers or the app are not present.
 
-## 5. The Axes That Distinguish the Characters
+## 5. What Makes Each Character Distinct
 
-The teachers are not defined only by professional titles. Their individuality is defined through two questions.
+The teachers are not defined by professional titles alone. Their individuality begins with two questions:
 
 > What does this teacher notice first in the child's world?
 >
-> How does the teacher test or confirm that clue?
+> How do they explore and make sense of what they notice?
 
-For a character to be distinct, every teacher must be able to find a different clue in the same scene.
+For each character to earn a distinct place in the cast, they must notice something different in the same scene.
 
 ## 6. Character Quick Reference
 
-Characters are arranged in columns and the most important points of comparison in rows. This is the starting point for character decisions across the series.
+The following tables provide an at-a-glance comparison of the cast and serve as the starting point for character decisions across the series.
 
 ### Main Characters
 
-#### Highest priority: the character core
+#### Start here: the character core
 
-Read this table first. The differences among the three teachers should be clear from this table alone. Even if a new idea or story agrees with the specialist information below, do not adopt it if it contradicts this core.
+This table should make the differences among the three lead teachers clear on its own. A new idea may fit a teacher's area of expertise, but it should not be used if it contradicts this core characterization.
 
-| Axis | Kotori Sensei | Risu Sensei | Usagi Sensei |
+| Point of comparison | Kotori Sensei | Risu Sensei | Usagi Sensei |
 |---|---|---|---|
 | **Character archetype** | Listener | Detective and inventor | Encouraging companion |
-| **Three words at first glance** | Gentle, talkative, musical | Curious, skillful, inventive | Energetic, playful, adventurous |
-| **What they believe** | Communication begins before words, and language grows through this back-and-forth exchange | Changing tools and surroundings increases the number of ways a child can do something | Participation has an amount, speed, and method that fit each child |
+| **Immediate impression** | Gentle, expressive, musical | Curious, dexterous, inventive | Energetic, playful, adventurous |
+| **What they believe** | Communication begins before words, and language grows through shared back-and-forth | When tools or surroundings change, new ways of doing and participating become possible | Every child has their own comfortable level, pace, and way of participating |
 | **What they look at first** | Eyes, voice, gestures, body orientation, pauses | Touching, gripping, smelling, repeating | Posture, foot placement, balance, fatigue |
-| **What they discover** | The child's attempt to reach someone | The sensations the body is seeking and ways the child can participate | The effort inside a single step |
-| **Basic movement** | Wait and listen | Investigate and make | Move together |
-| **Strengths** | Waiting, mirroring, asking | Finding clues, testing ideas, and adjusting | Making small challenges enjoyable and encouraging |
+| **What they discover** | The child's effort to reach and connect with someone | What sensations the child's body is seeking and how they can participate | The effort and courage within each small step |
+| **Signature action** | Wait and listen | Investigate and make | Move alongside |
+| **Strengths** | Waiting, mirroring, and inviting a response | Finding clues, trying ideas, and adapting | Making small challenges feel enjoyable and achievable |
 | **Endearing weakness** | **Easygoing**—waits too long | **Mischievous**—tries too many things | **Overenthusiastic**—encourages too much |
 
-Kotori Sensei receives expression before it becomes speech and supports reciprocal interaction and language growth. Risu Sensei changes the conditions created by tools and surroundings. Usagi Sensei expands the amount, speed, and method of participation. These distinctions keep the three roles from overlapping.
+Kotori Sensei responds to expression before it becomes spoken language, nurturing both connection and communication. Risu Sensei adapts tools and surroundings to open up new possibilities. Usagi Sensei helps each child find a comfortable level, pace, and way to participate. These distinctions keep the three roles clear and complementary.
 
-#### The minimum three scenes that show personality visually
+#### Three essential beats for showing personality visually
 
-Do not explain personality only through possessions or signature poses. Show it through **the teacher changing their own behavior in response to the child**. Use the following sequence as the foundation for a single character sheet, a picture-book spread, or a short animation.
+Personality should not rely on props or signature poses alone. Show it through **the way a teacher adjusts their own behavior in response to the child**. The following three-beat sequences can anchor a character sheet, picture-book spread, or short animation.
 
 | Teacher | Three-scene sequence | Moment that reveals personality | Moment that makes the weakness endearing | Repeated visual motif |
 |---|---|---|---|---|
-| Kotori Sensei | **Notice → mirror → wait** | Receives a small sound, pointing gesture, gaze, or pause and responds in the same form | Does not rush the response and waits a little too long | Orange dots traveling back and forth; folded wings |
-| Risu Sensei | **Observe → bring out too much → choose and put back** | Reselects tools or surroundings in response to the child's reaction | Gets inspired and spreads out too many tools, but can put away what is unnecessary | Purple parts; two choices; toolbox |
-| Usagi Sensei | **Get excited → notice → match the child** | Matches the child's preferred form of participation, such as watching, touching briefly, or resting | Cheers too loudly, then crouches down and makes the voice and movement smaller | Yellow ball; footprints; low posture |
+| Kotori Sensei | **Notice → mirror → wait** | Notices a small sound, pointing gesture, glance, or pause and responds in kind | Gives the child plenty of time to respond—and sometimes waits just a little too long | Orange dots traveling back and forth; folded wings |
+| Risu Sensei | **Observe → bring out too much → choose and put back** | Reconsiders the tools or surroundings in response to the child's reaction | Gets carried away and lays out too many tools, then recognizes what is unnecessary and puts it away | Purple parts; two choices; toolbox |
+| Usagi Sensei | **Get excited → notice → follow the child's lead** | Adapts to the child's preferred way of participating—watching, touching briefly, or taking a break | Cheers too loudly, then crouches down and softens both voice and movement | Yellow ball; footprints; low posture |
 
-Choose asymmetrical design features from these three-scene behaviors rather than deciding physical traits first. The current preferred options are: Kotori Sensei—a body tilted diagonally to one side with two marks on one wing; Risu Sensei—a spiral pocket on one side with a hand that takes things out and puts them back; Usagi Sensei—one foot stepping forward, followed by returning to the child's side and crouching. See [`open-decisions.md`](./open-decisions.md#追加パターン性格がつくるいつもの片側) for detailed comparisons and unresolved decisions.
+Let these three-beat behaviors guide any asymmetry in the character designs, rather than choosing physical traits in isolation. Current leading ideas are: Kotori Sensei—a sideways tilt and two marks on one wing; Risu Sensei—a spiral pocket on one side and a hand that repeatedly takes objects out and puts them back; Usagi Sensei—one foot stepping forward, followed by a return to the child's side and a crouch. See [`open-decisions.md`](./open-decisions.md#追加パターン性格がつくるいつもの片側) for detailed comparisons and unresolved decisions.
 
 Avoid:
 
@@ -128,78 +128,78 @@ Avoid:
 - Depicting Usagi Sensei as a teacher who keeps encouraging until the child succeeds.
 - Letting the teacher solve the problem alone without a response from the child.
 
-#### Next reference: story, specialist, and production information
+#### Story, specialist, and production guidance
 
-Use the table below when assigning stories and defining daily-life situations or professional boundaries. It does not define the characters' personalities; it translates the core above into actual works.
+Use the table below when assigning stories or defining everyday situations and professional boundaries. It does not define personality; it shows how the character core translates into individual stories.
 
-| Axis | Kotori Sensei | Risu Sensei | Usagi Sensei |
+| Point of comparison | Kotori Sensei | Risu Sensei | Usagi Sensei |
 |---|---|---|---|
-| **Story entrance** | Communicate and connect | Sense, test, and adapt | Move and try |
-| **Themes of interest** | Hearing, use of residual hearing, voice, speech sounds, phonology, vocabulary, grammar, conversation, joint attention, imitation, AAC, oral development and language | The five senses, sensory regulation, fine motor skills, hand-eye coordination, tools, exploratory play | Posture, balance, strength, endurance, body mechanics, outdoor play |
-| **Common daily-life challenges** | Missing when someone calls, language developing slowly, speech that is hard to understand, difficulty communicating requests or refusals, difficulty sustaining a conversation | Dressing, utensils, pencils, scissors, buttons, toileting, joining play, fatigue from sound, light, or touch | Unstable sitting or standing, frequent falls, difficulty with stairs or transfers, fatigue, difficulty joining playground activities or outings |
+| **Story doorway** | Communicating and connecting | Sensing, exploring, and adapting | Moving and taking part |
+| **Themes of interest** | Hearing and making the most of available hearing, voice, speech sounds, phonology, vocabulary, grammar, conversation, joint attention, imitation, AAC, oral development, and language | The five senses, sensory regulation, fine motor skills, hand-eye coordination, tools, exploratory play | Posture, balance, strength, endurance, body mechanics, outdoor play |
+| **Common daily-life challenges** | Not responding when called, language developing slowly, speech that is hard to understand, difficulty communicating requests or refusals, difficulty sustaining a conversation | Dressing, using utensils, holding a pencil, cutting with scissors, fastening buttons, toileting, joining play, fatigue from sound, light, or touch | Unstable sitting or standing, frequent falls, difficulty with stairs or transfers, fatigue, difficulty joining playground activities or outings |
 | **Specialist strengths** | Observing hearing, listening, mirroring, expanding language, AAC, and connecting to hearing or speech-language assessment when needed | Activity analysis, breaking down actions, adjusting sensory and environmental conditions, assistive tools, and creating participation in play and daily activities | Observing posture, mobility, and walking; grading activities; adjusting footing, support, and mobility aids; planning endurance and rest |
 | **Primary symbols** | Speech bubbles, soft lines, bell, song | Toolbox, fabric, brush, tongs | Yellow ball, footprints, low platform |
 | **Teachers who complement them** | Fukurou, Usagi | Kotori, Kuma | Kuma, Kotori |
 
-The main three stay close to children in everyday life and serve as the entrance to the series. Their different movements—waiting, investigating and making, and moving together—give stories their rhythm.
+The three lead characters stay close to children in everyday life and welcome families into the series. Their contrasting actions—waiting and listening, investigating and making, and moving alongside—give the stories their rhythm.
 
 ### Supporting Characters
 
-| Axis | Fukurou Sensei | Kuma Sensei | Zou Sensei | Kaba Sensei | Pocket |
+| Point of comparison | Fukurou Sensei | Kuma Sensei | Zou Sensei | Kaba Sensei | Pocket |
 |---|---|---|---|---|---|
-| **Character archetype** | Analyst and meeting facilitator | Protector and school nurse | Translator and mapmaker | Patient cooking companion and nutrition guide | Recorder who passes the baton |
-| **Three words at first glance** | Calm, thoughtful, convincing | Warm, cautious, reassuring | Clear, organized, discovering | Delicious, unhurried, persistent | Dependable, concise, connecting |
-| **Story entrance** | Think and look for reasons | Rest and protect the body | Anticipate and make information understandable | Eat and attend to safety | Record and pass forward |
-| **Themes of interest** | What happens before and after behavior, emotional regulation, attention, impulses, transitions, waiting, environment, functional communication | Health, sleep, breathing, pain, seizures, medication, bowel movements, growth, safety, rest, medical collaboration | Understanding, attention, memory, order, time, literacy, numeracy, choices, predictability, accessible learning | Feeding, swallowing, oral movement, taste, smell, texture, appetite, nutrition, hydration, posture, safety and comfort at meals | Family hopes, observation records, support plans, coordination across welfare, education, and healthcare, starting preschool or school, transitions and handoffs |
-| **Common daily-life challenges** | Distress after schedule changes, difficulty waiting, distractibility, impulsive movement, actions that look like self-injury or aggression, difficulty regulating emotions | Difficulty communicating pain, poor sleep, fatigue, breathing or bowel problems, seizures and medication, behavior that reflects a change from the child's usual state | Spoken directions do not remain available, stopping during multistep tasks, difficulty understanding time or order, difficulty with reading, writing, or numbers | Choking, coughing, overstuffing the mouth, difficulty chewing, long meals, extremely limited foods, inadequate hydration or nutrition, tension at the table | Information being lost across home, preschool, school, and healthcare; support differing from person to person; accommodations being lost during transitions |
-| **Specialist strengths** | Observing antecedents and consequences, forming hypotheses about the function of behavior, adjusting the environment, short instructions, previews, alternative communication, strategy meetings | Checking changes from baseline and warning signs, rest, health records, and connection to appropriate medical, dental, nursing, or other care | Task analysis, adjusting information load, pictures, text, real objects, models, schedules, steps, timers, and visible choices | Nutrition support beginning with the life the person wants, choice and participation in cooking, observation of food, body, and daily conditions, feeding and swallowing, posture, and interdisciplinary collaboration including nutrition and medicine | Separating facts from interpretation, summarizing family hopes, sharing support strategies, meetings, transition planning, and connection to appropriate services |
-| **What they look at first** | What happened before and after, who was present, the place, and the result | Color, breathing, pain, and differences from usual | Directions, sequence, choices, predictability | Texture, temperature, posture, refusal | Small changes, facts, discoveries |
+| **Character archetype** | Analyst and thoughtful facilitator | Protector and caring health guide | Translator and mapmaker | Patient cooking companion and nutrition guide | Record keeper and bridge-builder |
+| **Immediate impression** | Calm, thoughtful, perceptive | Warm, cautious, reassuring | Clear, organized, illuminating | Food-loving, unhurried, patient | Dependable, concise, connected |
+| **Story doorway** | Thinking and looking for reasons | Resting and caring for the body | Making information clear and predictable | Eating with choice, comfort, and safety | Recording and carrying insights forward |
+| **Themes of interest** | What happens before and after behavior, emotional regulation, attention, impulse control, transitions, waiting, environment, functional communication | Health, sleep, breathing, pain, seizures, medication, bowel movements, growth, safety, rest, medical collaboration | Understanding, attention, memory, sequence, time, literacy, numeracy, choices, predictability, accessible learning | Feeding, swallowing, oral movement, taste, smell, texture, appetite, nutrition, hydration, posture, safety and comfort at meals | Family hopes, observation records, support plans, coordination across social services, education, and healthcare, starting preschool or school, transitions and handoffs |
+| **Common daily-life challenges** | Distress after a change in plans, difficulty waiting, distractibility, impulsive movement, actions that may look like self-injury or aggression, difficulty regulating emotions | Difficulty communicating pain, poor sleep, fatigue, breathing or bowel problems, seizures and medication, behavior that reflects a change from the child's usual state | Difficulty retaining spoken directions, getting stuck during multistep tasks, difficulty understanding time or sequence, challenges with reading, writing, or numbers | Choking, coughing, putting too much food in the mouth, difficulty chewing, lengthy meals, a very restricted range of foods, inadequate hydration or nutrition, tension at the table | Information being lost between home, preschool, school, and healthcare; support varying from one person to another; accommodations being lost during transitions |
+| **Specialist strengths** | Observing what happens before and after behavior, forming hypotheses about its purpose, adjusting the environment, using short instructions and previews, offering alternative ways to communicate, and facilitating strategy meetings | Recognizing changes from the child's usual baseline and potential warning signs, supporting rest and health tracking, and connecting families with appropriate medical, dental, nursing, or other care | Breaking tasks into manageable parts, adjusting the amount of information, and using pictures, text, real objects, models, schedules, step-by-step guides, timers, and visible choices | Grounding nutrition support in the life the child and family want, supporting choice and participation in cooking, observing food, body, and everyday conditions, and coordinating feeding, swallowing, posture, nutrition, and medical perspectives | Separating observation from interpretation, summarizing family hopes, sharing effective support strategies, facilitating meetings and transitions, and connecting families with appropriate services |
+| **What they look at first** | What happened before and after, who was present, where it happened, and what followed | Complexion, breathing, signs of pain, and anything different from usual | Directions, sequence, choices, and predictability | Texture, temperature, posture, and signs of refusal | Small changes, observable facts, and emerging insights |
 | **What they discover** | Reasons for behavior and needed support | What is different from usual | Another path to understanding | Conditions that make it possible to engage with food | Discoveries that might otherwise disappear |
-| **What they believe** | Looking before and after reveals how to help | Differences can be messages from the body | Sometimes the form of communication does not fit | Eating should support the life the person wants and their power to choose. “No” is communication too | Recording and passing information forward connects support |
+| **What they believe** | Looking at what happens before and after can reveal how to help | A change from the usual may be the body's way of signaling a need | Sometimes the information—not the child—needs a different format | Eating should support the life a person wants and their right to choose. “No” is communication too | When insights are recorded and carried forward, support stays connected |
 | **Strengths** | Organizing antecedents and consequences and comparing hypotheses | Protecting health and safety | Making schedules and choices visible | Respecting refusal and staying patiently alongside | Recording facts and passing them on |
-| **Endearing weakness** | **Overly analytical**—thinks too much | **A worrier**—stops too much | **Compulsively organized**—shows too much | **Tenacious**—stays with something too long | **Compulsive note-taker**—records too much |
+| **Endearing weakness** | **Overly analytical**—can think for too long | **A worrier**—can be too quick to put on the brakes | **An enthusiastic organizer**—can put too much information on display | **Tenacious**—can stay with something for too long | **An avid note-taker**—can record more than anyone needs |
 | **Primary symbols** | Three cards, clock, strategy board | Stethoscope, blanket, rest area | Picture cards, schedule board, thick pencil | Small spoon, cup, tasting plate | Pouch, notebook, pencil, date card |
 | **Teachers who complement them** | Kotori, Usagi | Usagi, Risu | Kotori, Fukurou | Kuma, Risu | Kotori, Fukurou |
 
-Supporting characters are not lower in rank. They add another perspective needed in a scene and can become the lead character for a specific theme. Pocket connects multiple stories through records and handoffs.
+“Supporting” does not mean less important. These characters bring an additional perspective to a scene and may take the lead when a story centers on their area. Pocket connects stories by preserving insights and carrying them from one person or setting to the next.
 
-Weaknesses are not deficiencies in ability. They are biases that appear when a strength is used too much. First show the strength helping, then reveal its reverse side. Another teacher should not reject it, but add a different perspective that balances it. See [`character-expression-guide.md`](character-expression-guide.md) for gestures, voice, and specific dialogue.
+The characters' weaknesses are not deficits in ability. They are what happens when a strength goes a little too far. Show the strength helping first, then reveal its flipside. Another teacher should never dismiss that perspective; they should add a different one that restores balance. See [`character-expression-guide.md`](character-expression-guide.md) for gestures, voice, and specific dialogue.
 
 ### Family Characters
 
 #### The Older Sister
 
-The older sister is not a support professional like the animal teachers. She is another child who lives in the same home, plays together, and sometimes makes mistakes.
+The older sister is not a helper or specialist like the animal teachers. She is a child in the same family: she plays with her younger brother, shares everyday life with him, and sometimes gets things wrong.
 
-| Axis | Definition |
+| Point of comparison | Definition |
 |---|---|
 | **Place in the family** | The protagonist's older sister; age and name are undecided |
-| **Character archetype** | Caring and conscientious, with her own desire to “do things properly” |
-| **Three words at first glance** | Responsible, stylish, meddlesome |
+| **Character archetype** | Caring and conscientious, with a strong desire to get things “just right” |
+| **Immediate impression** | Responsible, stylish, a little meddlesome |
 | **What she likes** | Choosing clothes and accessories, thinking about combinations, helping someone get ready |
 | **Basic movement** | Straightens collars or belongings, prepares first, shows her younger brother how to do something |
 | **Strength** | Notices small changes and prepares things that may be needed before anyone asks |
-| **Reverse side of the strength** | Helps too much and tries too hard to arrange things correctly |
+| **When that strength goes too far** | Helps too much and tries too hard to make everything just right |
 | **Endearing weakness** | Loves fashion, but wears mismatched socks when she is in a hurry |
 | **Visual motif** | Socks with different colors or patterns; sometimes she does not notice at first |
-| **Role in stories** | Tries things alongside her brother from a viewpoint closer to his than an adult's. Gradually learns to ask him rather than speaking for him |
+| **Role in stories** | Tries things alongside her brother and sees the world from a perspective closer to his than an adult's. Over time, she learns to ask what he wants instead of speaking for him |
 
-Do not depict the older sister's caring nature as an obligation to support the family. She may have days when she does not help, makes mistakes, or chooses her own play first. Her mismatched socks are not a sign of sloppiness, but a personal, humorous detail within her seriousness and love of fashion.
+Her caring nature must never become an obligation to support the family. Some days she does not help; sometimes she makes mistakes or chooses her own play first. Her mismatched socks are not a sign of carelessness, but a warm, humorous detail that sits alongside her seriousness and love of fashion.
 
 ### Boundaries Between Specialist Themes
 
 | Theme | Teachers who primarily observe it | How the setting handles it |
 |---|---|---|
 | Responds to loud sounds but misses quiet sounds or word endings | Kotori + Kuma | Do not say the child only needs to listen harder. Observe volume, distance, background noise, differences between ears, and frequency; connect to a pediatric hearing specialist when needed |
-| Loud sounds are painful or the child avoids particular sounds | Risu + Kuma | Do not assume a hearing-loss issue. Check sensory load, physical responses, and environmental conditions |
-| Understands pictures, spoken language, or real objects differently | Zou + Kotori + Risu | Do not place the child in a fixed “visual learner” or “auditory learner” category. Try multiple forms for each task and compare responses in understanding and participation |
+| Loud sounds are painful or the child avoids particular sounds | Risu + Kuma | Do not assume hearing loss. Consider sensory load, physical responses, and environmental conditions |
+| Responds differently to pictures, spoken language, and real objects | Zou + Kotori + Risu | Do not assign the child a fixed label such as “visual learner” or “auditory learner.” Try several forms for each task and compare how each affects understanding and participation |
 | Relationships among breath, voice, lips, tongue, jaw, and speech | Kotori + Kaba + Kuma | Kotori considers breathing, voice, resonance, articulation, and language; Kaba considers coordination of sucking, chewing, swallowing, and breathing; Kuma checks the body and safety |
-| Clumsiness, sensory over- or under-responsivity, or difficulty with daily activities | Risu + Usagi + Zou | Risu considers activity and sensation, Usagi posture and mobility, and Zou understanding of steps. Begin with where participation is difficult in daily life rather than with a diagnosis |
-| Meltdowns, running away, hitting, or self-injury | Fukurou + Kotori + Kuma | Do not focus only on stopping the challenging action. Check what happened before and after, what the child may be communicating, pain or health, and immediate safety together |
+| Clumsiness, high or low sensitivity to sensory input, or difficulty with everyday activities | Risu + Usagi + Zou | Risu considers the activity and sensory experience, Usagi looks at posture and mobility, and Zou considers whether the steps are clear. Begin with where participation becomes difficult in daily life, not with a diagnosis |
+| Meltdowns, running away, hitting, or self-injury | Fukurou + Kotori + Kuma | Do not focus only on stopping the behavior. Consider what happened before and after, what the child may be communicating, possible pain or health concerns, and immediate safety |
 | Choking, coughing, wet voice, prolonged meals, or concern about growth | Kaba + Kuma + Kotori | Do not treat this only as picky eating. Connect to professionals as a safety concern involving swallowing, breathing, nutrition, digestion, and oral function |
 | Can do something at home but finds it difficult at preschool, or support is not handed over | Pocket + the relevant teacher | Briefly record facts in each place, conditions that helped, and the child and family's hopes so support can remain consistent |
 
-Do not isolate oral exercises and present them as universal training. Keep experiences close to the intended activity: actual sounds and words for speech, and actual food forms and safe conditions for eating.
+Do not present isolated oral-motor exercises as a universal solution. Keep practice connected to its purpose: use real sounds and words for speech, and real foods in safe, appropriate forms and conditions for eating.
 
 References:
 
@@ -213,7 +213,7 @@ References:
 - [Japanese Physical Therapy Association: Children's Motor Development and DCD](https://www.japanpt.or.jp/about_pt/therapy/tools/enjoyyourlife/kodomo/)
 - [National Rehabilitation Center for Persons with Disabilities: Connecting to Support](https://www.rehab.go.jp/ddis/aware/nursery/support/)
 
-## 7. How the Teachers See the Same Scene Differently
+## 7. One Scene, Different Perspectives
 
 Example: A child repeatedly pushes a toy train.
 
@@ -222,62 +222,61 @@ Example: A child repeatedly pushes a toy train.
 | Kotori Sensei | After looking at the train, the child briefly looks at another person's face |
 | Risu Sensei | The child is checking the wheels' vibration, pushing force, and differences in sound |
 | Usagi Sensei | The child maintains the same posture and adjusts pushing force |
-| Fukurou Sensei | What preceded the repetition and what response followed it |
+| Fukurou Sensei | What happened before the repetition and what response followed it |
 | Kuma Sensei | Whether there is fatigue, pain, or a difference from usual |
 | Zou Sensei | Whether the order of play or its next step could be made visible |
 | Kaba Sensei | Whether there is a relationship with oral movement, breathing, or sensation |
-| Pocket | Records as facts when, where, and what changed |
+| Pocket | The observable facts: when and where it happened, and what changed |
 
-## 8. Collaboration Within the Team
+## 8. How the Teachers Work Together
 
-| Teacher who noticed first | When another perspective is needed |
+| First perspective | A helpful second perspective |
 |---|---|
-| Kotori Sensei | Risu for the body and sensation; Fukurou for organizing behavior |
+| Kotori Sensei | Risu for sensory and physical factors; Fukurou for patterns surrounding the behavior |
 | Risu Sensei | Usagi for movement and posture; Kuma for safety and health |
 | Usagi Sensei | Risu for sensation; Kotori for confirming the child's wishes |
-| Fukurou Sensei | Kotori for receiving feelings; Usagi for a small action |
+| Fukurou Sensei | Kotori for tuning in to feelings and communication; Usagi for finding one small next step |
 | Kuma Sensei | Usagi for a safe challenge; Risu for environmental adjustment |
 | Zou Sensei | Kotori for communication; Fukurou for organizing information |
 | Kaba Sensei | Risu for sensation and tools; Kuma for health and safety |
-| Pocket | Fukurou for choosing what to record; Kotori for dialogue in the present moment |
+| Pocket | Fukurou for deciding what matters most to record; Kotori for staying present in the conversation |
 
-The teachers do not negate one another. Instead of saying, “That perspective is wrong,” they say, “Let's add this way of seeing too.”
+The teachers do not contradict or dismiss one another. Instead of saying, “That perspective is wrong,” they say, “Let's look at it this way too.”
 
-## 9. The Shared Story Engine
+## 9. The Story Engine
 
 ```text
-1. The child's everyday life and a moment that moves the heart
-2. An event that looks like a problem to an adult
-3. The relevant teacher finds a clue unique to that teacher
-4. The environment, tool, distance, or communication is changed slightly
-5. The interpretation is checked against the child's response
-6. The caregiver notices growth that was already present
-7. The story returns to daily life and leaves behind a way of seeing that can be used again
+1. Begin in the child's everyday life with a moment that stirs an emotion
+2. Something happens that an adult may see as a problem
+3. The teacher whose perspective fits the moment notices a distinctive clue
+4. Someone makes a small change to the environment, tool, distance, pace, or communication
+5. They watch the child's response and reconsider what the clue might mean
+6. The caregiver recognizes growth that was there all along
+7. The story returns to everyday life, leaving the caregiver with a perspective they can use again
 ```
 
-This is not a formula that fixes the plot. It is a story engine for checking the values of the series. [`world-space-story-map.md`](world-space-story-map.md) is the source of truth for movement through space; [`story-narrative-guide.md`](story-narrative-guide.md) is the source of truth for point of view, three-act structure, and EAT + E.
+This is not a rigid plot formula. It is a framework for keeping each story true to the values of the series. For spatial journeys, see [`world-space-story-map.md`](world-space-story-map.md). For point of view, three-act structure, and EAT + E, see [`story-narrative-guide.md`](story-narrative-guide.md).
 
-## 10. Conditions for Beginning a New Work
+## 10. Before Developing a New Story
 
 ```text
-A real voice
+A real voice or lived experience
 ↓
 One central event
 ↓
 What the child is already doing
 ↓
-The discovery we want the caregiver to make
+What we hope the caregiver will notice
 ↓
 The first clue to observe
 ↓
-The teacher responsible for the story
+The teacher whose perspective fits the story
 ```
 
-Do not begin with a theme or framework. Begin with a real voice and a specific scene.
+Do not begin with an abstract theme or framework. Begin with a real voice and a specific moment from everyday life.
 
-## 11. Materials to Develop Next
+## 11. Resources to Develop Next
 
-- A scene collection that accumulates real voices
-- A guide to distance and dialogue among the teachers as a team
-- A planning sheet for deciding which teacher should receive a true story
-
+- A scene library drawn from real voices and lived experiences
+- A guide to physical distance, relationships, and dialogue within the teaching team
+- A planning sheet for matching a real story with the teacher whose perspective fits it best
