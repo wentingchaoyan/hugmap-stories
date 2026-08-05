@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HugMap キャラクター制作プロセス</title>
+  <title>HugMap キャラクター造形の検討記録</title>
   <style>
     :root { --paper:#f6f2ee; --card:#fffdfb; --ink:#332a27; --muted:#817773; --line:#ddd5d0; --orange:#ef6a3a; --wine:#8b294b; --yellow:#eabf45; --green:#63816e; }
     * { box-sizing:border-box; }
@@ -44,9 +44,9 @@
 </head>
 <body>
   <header>
-    <h1>キャラクター制作の思考プロセス</h1>
-    <p>番号は完成度ではなく検討順です。前半で造形と画風を広げ、後半で性格・表情・ポーズを検証し、最後に選定ポーズへ色を適用しています。</p>
-    <div class="flow" aria-label="制作工程"><div>画風を広げる</div><div>形を比べる</div><div>性格を動かす</div><div>顔を削る</div><div>選定して色を置く</div></div>
+    <h1>キャラクター造形の検討記録</h1>
+    <p>番号は完成度ではなく、判断を重ねた順番です。別系統の画風比較と現在の造形本流を分け、骨格、関わり方、識別性、誇張、配色の順に、何を残して何を見直したかを追えるようにしています。</p>
+    <div class="flow" aria-label="制作工程"><div>画風を比較する</div><div>共通骨格を選ぶ</div><div>代表ポーズを選ぶ</div><div>性格差を確かめる</div><div>色を試す</div></div>
   </header>
   <nav aria-label="表示対象">
     <button data-filter="all" aria-pressed="true">すべて</button>
@@ -60,22 +60,20 @@
   <dialog id="viewer"><button aria-label="閉じる">×</button><img alt=""></dialog>
   <script>
     const characterSteps = [
-      ["front-personality-five-sketches", "正面の性格候補", "正面だけで第一印象と性格差を探した。"],
-      ["character-design-step-1-roughs", "Step 1：比率とシルエット", "共通骨格を保ちながら、種族と性格に必要な比率差を比較した。"],
-      ["character-design-step-2-line-face-study", "Step 2：線と顔位置", "線の揺れ、顔パーツの高さ、間隔を比較した。まだ正式線画ではない。"],
-      ["character-face-personality-exploration-labeled", "顔から性格を読む", "怒りや悲しみへ誤読されず、性格が顔に残る範囲を探索した。"],
-      ["character-emotion-pose-combined", "感情とポーズ", "顔だけに頼らず、視線、手足、重心を組み合わせた。"],
-      ["character-design-prompt-b-step-1-emotional-roughs", "Prompt B：感情ラフ", "相手の前でどう存在するかを8場面に広げた。"],
-      ["character-design-prompt-b-step-1-emotional-roughs-labeled", "感情ラフに性格語を付与", "見た目から読める性格を言葉にして、誤読を確認した。"],
-      ["character-design-prompt-b-step-1-emotional-roughs-dialogue", "場面の言葉を重ねる", "ポーズが実際の関わり方や台詞と一致するかを確かめた。"],
-      ["facial-parts-catalog-v1", "顔パーツを分解", "目、眉、口を部品として比較し、感情への適性を整理した。"],
-      ["facial-parts-catalog-v2-simple", "顔パーツを点と線へ削減", "小サイズでも使える最小限の記号へ情報を減らした。"],
-      ["facial-parts-catalog-v3-handdrawn", "手描き線を戻す", "単純化を保ちつつ、揺れ、欠け、筆圧差を加えた。"]
+      ["character-design-step-1-roughs", "比率とシルエットを比較する", "シリーズ共通の骨格を出発点に、種族と性格に必要な比率差だけを比較した。"],
+      ["character-design-step-2-line-face-study", "線と顔の基準を探る", "比率を大きく変えず、線の揺れと顔パーツの高さ・間隔が印象へ与える差を確かめた。"],
+      ["character-face-personality-exploration-labeled", "顔から性格が伝わるか確かめる", "観察や集中が怒り・悲しみ・困惑へ見えない範囲を探り、基本顔の方向を絞った。"],
+      ["character-emotion-pose-combined", "顔と身体の反応を組み合わせる", "顔だけに性格を背負わせず、視線、手足、重心を合わせて関わり方を表した。"],
+      ["character-design-prompt-b-step-1-emotional-roughs", "関わり方を8場面へ広げる", "相手の前で、近づく・待つ・気づく・働きかける瞬間を広げ、性格の核を探した。"],
+      ["character-design-prompt-b-step-1-emotional-roughs-dialogue", "場面の言葉で役割を確認する", "各ポーズへ実際の声かけを重ね、姿勢と役割が同じ方向を向いているか確認した。"],
+      ["facial-parts-catalog-v1", "顔をパーツへ分解する", "目、眉、口を部品として比較し、どの組み合わせがどの感情に向くか整理した。"],
+      ["facial-parts-catalog-v2-simple", "顔を点と線まで削る", "小さな画面でも読み取れるよう、重複する線を減らして最小限の記号へ整理した。"],
+      ["facial-parts-catalog-v3-handdrawn", "単純な顔へ手描き感を戻す", "簡略化した構造を維持しながら、揺れ、欠け、筆圧差で温度を加えた。"]
     ];
     const specs = {
-      kotori:{ label:"ことり先生", desc:"聞く・返す・待つ。現在の代表候補は「聞く」。", files:["v2","v1","v1","v2","v1","v1","v1","v1","v1","v2","v3"] },
-      risu:{ label:"りす先生", desc:"観察・試す・選び直す。現在の代表候補は「ひらめく」。", files:["v1","v1","v1","v2","v1","v1","v1","v1","v1","v2","v3"] },
-      usagi:{ label:"うさぎ先生", desc:"誘う・気づく・合わせる。現在の代表候補は「誘う」。", files:["v1","v1","v1","v2","v1","v1","v1","v1","v1","v2","v3"] }
+      kotori:{ label:"ことり先生", desc:"聞く・返す・待つ。現在の代表候補は「聞く」。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"] },
+      risu:{ label:"りす先生", desc:"観察・試す・選び直す。現在の代表候補は「ひらめく」。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"] },
+      usagi:{ label:"うさぎ先生", desc:"誘う・気づく・合わせる。現在の代表候補は「誘う」。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"] }
     };
     const sections = [];
     Object.entries(specs).forEach(([key,spec]) => {
@@ -85,24 +83,21 @@
         const version=spec.files[index];
         const basename=step[0].startsWith("facial-parts") ? step[0] : `${step[0]}-${version}`;
         items.push({n:number++, title:step[1], note:step[2], file:`outputs/characters/${key}/${String(number-1).padStart(2,"0")}-${key}-${basename}.png`});
-        if(key==="usagi" && index===4) items.push({n:number++, title:"感情とポーズの再調整", note:"頭身変化を抑え、元の造形を維持して表情と動作を調整した。", file:`outputs/characters/usagi/${String(number-1).padStart(2,"0")}-usagi-character-emotion-pose-combined-v2.png`});
+        if(key==="usagi" && index===3) items.push({n:number++, title:"感情とポーズの再調整", note:"頭身変化を抑え、元の造形を維持して表情と動作を調整した。", file:`outputs/characters/usagi/${String(number-1).padStart(2,"0")}-usagi-character-emotion-pose-combined-v2.png`});
       });
       sections.push({key,label:spec.label,desc:spec.desc,items});
     });
-    sections.unshift({key:"groups",label:"3匹合同の検討",desc:"画風の広い比較から、相談画面、性格誇張、代表ポーズの配色へ絞り込んだ。",items:[
-      {n:1,title:"静かな記号型",note:"小画面での識別性と、感情を読み込める余白を検討。",file:"outputs/groups/01-main-three-symbolic-pose-sheet-v1.png"},
-      {n:2,title:"キャラクター・アニメーション型",note:"表情と大きな動きの明快さを検討。",file:"outputs/groups/02-main-three-animated-pose-sheet-v1.png"},
-      {n:3,title:"コラージュ・素材型",note:"紙素材と絵本らしい温度を比較。",file:"outputs/groups/03-main-three-collage-pose-sheet-v1.png"},
-      {n:4,title:"動いて遊ぶ記号型",note:"単純な形のまま、小さな行動変化を追加。",file:"outputs/groups/04-main-three-playful-graphic-symbol-pose-sheet-v1.png"},
-      {n:5,title:"相手に合わせる動き",note:"待つ、選び直す、合わせるという関係性まで追加。",file:"outputs/groups/05-main-three-playful-graphic-symbol-pose-sheet-v2.png"},
-      {n:6,title:"観察的な手描きスケッチ",note:"余白、細線、複数の小場面へ画風を絞った。",file:"outputs/groups/06-main-three-animated-observational-sketch-v1.png"},
-      {n:7,title:"3匹の共通骨格",note:"頭身と簡略化レベルを統一し、性格差を15%以内へ整理。",file:"outputs/groups/07-main-three-character-design-step-1-unified-v2.png"},
-      {n:8,title:"相談画面の並び方",note:"3匹が相談相手として並ぶ表情と距離を比較。",file:"outputs/groups/08-main-three-consultation-group-pose-options-v1.png"},
-      {n:9,title:"りすの性格を再調整",note:"似て見えた選択肢を、観察・工夫・提案へ分けた。",file:"outputs/groups/09-main-three-consultation-group-pose-options-v2.png"},
-      {n:10,title:"性格の誇張探索",note:"顔、種族パーツ、重心、統合案で比較。ポーズ差が強すぎる課題が残った。",file:"outputs/groups/10-main-three-prompt-b-step-2-personality-exaggeration-v1.png",status:"検討資料"},
-      {n:11,title:"顔だけの性格探索",note:"ポーズを固定したが、差を抑えすぎて同じ表情に見えた失敗比較。",file:"outputs/groups/11-main-three-prompt-b-step-2-facial-personality-study-v1.png",status:"保留",statusClass:"hold"},
-      {n:12,title:"配色だけの初期見本",note:"色は確認できたが、参照画像へ造形が引っ張られたため正式候補から除外。",file:"outputs/groups/12-main-three-representative-pose-color-study-v1.png",status:"非採用",statusClass:"hold"},
-      {n:13,title:"選定ポーズへ配色",note:"ことり＝聞く、りす＝ひらめく、うさぎ＝誘う。元の造形を維持して色を適用。",file:"outputs/groups/13-main-three-selected-emotional-poses-color-study-v1.png",status:"現在地",statusClass:"current"}
+    sections.unshift({key:"groups",label:"別系統で画風の可能性を比べる",desc:"現在の造形を選ぶ前に、記号性、動き、素材感という異なる強みを比較した探索群。ここで形を決めず、STEP 05から別の造形本流を始めた。",items:[
+      {n:1,title:"記号性を優先した方向",note:"表情を抑えた単純な形で、小画面の識別性と読み手が感情を受け取る余白を確かめた。",file:"outputs/groups/01-main-three-symbolic-pose-sheet-v1.png"},
+      {n:2,title:"動きの明快さを優先した方向",note:"表情と手足を大きく動かし、出来事がすぐ伝わる利点と、先生が目立ちすぎる課題を確認した。",file:"outputs/groups/02-main-three-animated-pose-sheet-v1.png"},
+      {n:3,title:"紙の素材感を優先した方向",note:"切り紙や色の重なりが生む絵本らしい温度と、小画面で素材感が弱まる課題を比較した。",file:"outputs/groups/03-main-three-collage-pose-sheet-v1.png"},
+      {n:4,title:"記号性に小さな動きを加える方向",note:"単純な形を保ったまま、反復する仕草で性格を見せられるか試した。",file:"outputs/groups/04-main-three-playful-graphic-symbol-pose-sheet-v1.png"}
+    ]},{key:"groups",label:"現在の造形を選び、役割へつなげる",desc:"画風比較とは別に共通骨格を定め、代表する関わり方、キャラクター同士の識別性、性格の誇張、配色の順で具体化した本流。",items:[
+      {n:5,title:"共通骨格の推奨案を選ぶ",note:"各行の第3案を推奨。共通の簡略化レベルを保ちながら、うさぎの耳、りすの安定した身体、ことりの頭身に必要な差を残した。",file:"outputs/groups/05-main-three-character-design-step-1-unified-v2.png",status:"推奨選定",statusClass:"current"},
+      {n:6,title:"役割を表す代表ポーズを選ぶ",note:"ことり2「聞く」、りす4「ひらめく」、うさぎ1「誘う」を推奨。骨格の次に、各先生が相手へどう関わるかを選んだ。",file:"outputs/groups/06-main-three-emotional-roughs-dialogue-overview-v1.png",status:"推奨選定",statusClass:"current"},
+      {n:7,title:"りすの見分けやすさを見直す",note:"3案が似て見えたため、観察する、工夫する、提案するの違いが身体から読めるよう選択肢を作り直した。",file:"outputs/groups/07-main-three-consultation-group-pose-options-v2.png"},
+      {n:8,title:"性格をどこで誇張するか比べる",note:"顔、耳・翼・しっぽ、重心のどこを強めると性格が伝わるか比較した。ポーズ差へ偏ったため、正式案ではなく判断材料として残す。",file:"outputs/groups/08-main-three-prompt-b-step-2-personality-exaggeration-v1.png",status:"検討資料"},
+      {n:9,title:"選定ポーズを共通骨格に揃えて配色する",note:"STEP 05の推奨骨格へ頭身・胴体幅・手足の大きさを合わせ直したうえで、ことり＝黄、りす＝橙、うさぎ＝白とワイン紫を適用。ポーズの意味を保ちながら、3匹を同じシリーズとして整えた。",file:"outputs/groups/09-main-three-selected-emotional-poses-color-study-v1.png",status:"現在地",statusClass:"current"}
     ]});
     sections.push({key:"children",label:"人物との画風統一",desc:"動物だけが目立たないよう、子どもの描き方と同一画面での相性を比較した。",items:[
       {n:1,title:"人物の記号型",note:"小サイズの読みやすさを確認。",file:"outputs/children/01-child-symbolic-study-v1.png"},
