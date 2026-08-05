@@ -37,6 +37,9 @@
 │  ├─ references/
 │  ├─ prompts/
 │  └─ outputs/
+│     ├─ characters/{usagi,kotori,risu}/
+│     ├─ groups/
+│     └─ children/
 └─ line-sticker-prototypes/
 ```
 
@@ -108,16 +111,16 @@
 | パス | 内容 | 正式利用 |
 |---|---|---|
 | [`style-studies/`](style-studies/) | 参照資料、制作Prompt、生成物を役割別に管理する | **不可**。正式決定前の試作 |
-| [`style-studies/outputs/`](style-studies/outputs/) | 人物と動物の画風、統一感、ポーズを比較する生成画像群 | **不可**。正式決定前の試作 |
-| [`main-three-symbolic-pose-sheet-v1.png`](style-studies/outputs/main-three-symbolic-pose-sheet-v1.png) | ことり・りす・うさぎの記号型3ポーズ | 画風候補Aの比較用 |
-| [`main-three-animated-pose-sheet-v1.png`](style-studies/outputs/main-three-animated-pose-sheet-v1.png) | メイン3人のキャラクター・アニメーション型3ポーズ | 画風候補Bの比較用 |
-| [`main-three-collage-pose-sheet-v1.png`](style-studies/outputs/main-three-collage-pose-sheet-v1.png) | メイン3人のコラージュ・素材型3ポーズ | 紙素材と絵本の温度の比較用 |
-| [`child-symbolic-study-v1.png`](style-studies/outputs/child-symbolic-study-v1.png) | 人物の記号・アイコン型 | 人物4案の比較用 |
-| [`child-animated-study-v1.png`](style-studies/outputs/child-animated-study-v1.png) | 人物のキャラクター・アニメーション型 | 人物4案の比較用 |
-| [`child-watercolor-life-study-v1.png`](style-studies/outputs/child-watercolor-life-study-v1.png) | 人物の水彩・生活描写型 | 人物4案の比較用 |
-| [`child-line-sketch-study-v1.png`](style-studies/outputs/child-line-sketch-study-v1.png) | 人物の線画・スケッチ型 | 現在の人物第一候補 |
-| [`boy-kotori-unified-style-v1.png`](style-studies/outputs/boy-kotori-unified-style-v1.png) | 子どもとことり先生を同一画風へ寄せた初期試作 | 過去比較 |
-| [`boy-matched-to-animal-style-v2.png`](style-studies/outputs/boy-matched-to-animal-style-v2.png) | 子どもを既存動物の画風へ寄せた初期試作 | 過去比較 |
+| [`style-studies/outputs/`](style-studies/outputs/) | キャラクター別、3匹合同、人物別に分類した生成画像群 | **不可**。正式決定前の試作 |
+| [`main-three-symbolic-pose-sheet-v1.png`](style-studies/outputs/groups/main-three-symbolic-pose-sheet-v1.png) | ことり・りす・うさぎの記号型3ポーズ | 画風候補Aの比較用 |
+| [`main-three-animated-pose-sheet-v1.png`](style-studies/outputs/groups/main-three-animated-pose-sheet-v1.png) | メイン3人のキャラクター・アニメーション型3ポーズ | 画風候補Bの比較用 |
+| [`main-three-collage-pose-sheet-v1.png`](style-studies/outputs/groups/main-three-collage-pose-sheet-v1.png) | メイン3人のコラージュ・素材型3ポーズ | 紙素材と絵本の温度の比較用 |
+| [`child-symbolic-study-v1.png`](style-studies/outputs/children/child-symbolic-study-v1.png) | 人物の記号・アイコン型 | 人物4案の比較用 |
+| [`child-animated-study-v1.png`](style-studies/outputs/children/child-animated-study-v1.png) | 人物のキャラクター・アニメーション型 | 人物4案の比較用 |
+| [`child-watercolor-life-study-v1.png`](style-studies/outputs/children/child-watercolor-life-study-v1.png) | 人物の水彩・生活描写型 | 人物4案の比較用 |
+| [`child-line-sketch-study-v1.png`](style-studies/outputs/children/child-line-sketch-study-v1.png) | 人物の線画・スケッチ型 | 現在の人物第一候補 |
+| [`boy-kotori-unified-style-v1.png`](style-studies/outputs/children/boy-kotori-unified-style-v1.png) | 子どもとことり先生を同一画風へ寄せた初期試作 | 過去比較 |
+| [`boy-matched-to-animal-style-v2.png`](style-studies/outputs/children/boy-matched-to-animal-style-v2.png) | 子どもを既存動物の画風へ寄せた初期試作 | 過去比較 |
 | [`line-sticker-prototypes/`](line-sticker-prototypes/) | LINEスタンプのシート試作 | 正式スタンプではない |
 | [`main-three-nine-sticker-sheet-v1.png`](line-sticker-prototypes/main-three-nine-sticker-sheet-v1.png) | メイン3人×3種の9スタンプ試作 | 文言・ポーズ・縮小時の確認用 |
 

@@ -278,7 +278,7 @@ HugMapでは、この方法を**制御された不完全さ**として検討す�
 
 左右差を身体の造形だけに置かず、**その先生が繰り返す行動によって片側に重心が生まれる**設計も比較する。これは飾りを後から足すのではなく、人物像、愛嬌のある弱点、物語中の行動を一つの形へまとめる方法である。
 
-比較試作（未生成）: `style-studies/outputs/main-three-personality-asymmetry-pose-sheet-v1.png`
+比較試作（未生成）: `style-studies/outputs/groups/main-three-personality-asymmetry-pose-sheet-v1.png`
 
 | 置き場所 | 固定度 | 向いている役割 | 弱点 |
 |---|---:|---|---|

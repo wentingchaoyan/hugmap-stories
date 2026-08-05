@@ -645,19 +645,19 @@
 
 太い輪郭、平面色、小さな目と口、抑えた表情で構成する。縮小時の識別性と、読み手が感情を受け取る余白を検証する。
 
-![メイン3人の記号型ポーズ比較](style-studies/outputs/main-three-symbolic-pose-sheet-v1.png)
+![メイン3人の記号型ポーズ比較](style-studies/outputs/groups/main-three-symbolic-pose-sheet-v1.png)
 
 **キャラクター・アニメーション型の試作**
 
 丸い量感、分かりやすい感情、大きなジェスチャーで構成する。役割の即時性と、スタンプや動画へ展開したときの動かしやすさを検証する。
 
-![メイン3人のキャラクター・アニメーション型ポーズ比較](style-studies/outputs/main-three-animated-pose-sheet-v1.png)
+![メイン3人のキャラクター・アニメーション型ポーズ比較](style-studies/outputs/groups/main-three-animated-pose-sheet-v1.png)
 
 **コラージュ・素材型の試作**
 
 手で塗った薄紙、ちぎった輪郭、色面の重なり、紙の余白で構成する。身体性と絵本らしい温度が出る一方、縮小時には紙の繊維や細い道具が見えにくくなる。
 
-![メイン3人のコラージュ・素材型ポーズ比較](style-studies/outputs/main-three-collage-pose-sheet-v1.png)
+![メイン3人のコラージュ・素材型ポーズ比較](style-studies/outputs/groups/main-three-collage-pose-sheet-v1.png)
 
 #### 用途別の使い分け
 
