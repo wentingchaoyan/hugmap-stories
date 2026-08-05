@@ -13,7 +13,7 @@ For more detailed guidance, refer to the following documents.
 | Topic | Reference |
 |---|---|
 | Gestures, movement, the intention behind dialogue, and symbolic objects | [`character-expression-guide.md`](character-expression-guide.md) |
-| Visual standards for faces, gaze, eyebrows, and mouths | [`character-facial-expression-reference.md`](character-facial-expression-reference.md) |
+| Visual standards for faces, gaze, eyebrows, and mouths | [`character-facial-expression-reference.md`](style-studies/references/character-facial-expression-reference.md) |
 | The HugMap House, its spaces, and the way stories move through them | [`world-space-story-map.md`](world-space-story-map.md) |
 | Point of view, three-act structure, and EAT + E | [`story-narrative-guide.md`](story-narrative-guide.md) |
 | Open decisions and proposals from meetings | [`open-decisions.md`](open-decisions.md) |

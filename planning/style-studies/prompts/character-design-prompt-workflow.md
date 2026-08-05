@@ -61,7 +61,7 @@
 - 線と塗りの基本
 - 避ける表現
 
-詳細なキャラクター設定は [`world-and-character-guide.md`](world-and-character-guide.md) を参照する。
+詳細なキャラクター設定は [`world-and-character-guide.md`](../../world-and-character-guide.md) を参照する。
 
 ### 固定ブロック例――うさぎ先生
 

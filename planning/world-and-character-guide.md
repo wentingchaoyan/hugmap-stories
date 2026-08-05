@@ -28,7 +28,7 @@
 | 知りたいこと | 参照先 |
 |---|---|
 | 仕草、動き、発言意図、象徴道具 | [`character-expression-guide.md`](character-expression-guide.md) |
-| 顔、視線、眉、口の描画基準 | [`character-facial-expression-reference.md`](character-facial-expression-reference.md) |
+| 顔、視線、眉、口の描画基準 | [`character-facial-expression-reference.md`](style-studies/references/character-facial-expression-reference.md) |
 | HugMapの家、場所、空間を移動する物語線 | [`world-space-story-map.md`](world-space-story-map.md) |
 | 視点、三幕、EAT＋E | [`story-narrative-guide.md`](story-narrative-guide.md) |
 | 未決事項、会議から出た提案 | [`open-decisions.md`](open-decisions.md) |

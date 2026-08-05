@@ -61,7 +61,7 @@ Prompt B: 性格がまだ形に出ていない時、差を大きく探索して�
 完成されたベクター線、過剰な毛並み、強い陰影は避ける。
 ```
 
-設定内容は [`world-and-character-guide.md`](world-and-character-guide.md) を参照する。
+設定内容は [`world-and-character-guide.md`](../../world-and-character-guide.md) を参照する。
 
 ---
 

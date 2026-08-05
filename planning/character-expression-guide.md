@@ -77,7 +77,7 @@
 
 - シリーズの価値観、先生の核、チーム関係：[`world-and-character-guide.md`](world-and-character-guide.md)
 - HugMapの家、遊びの場所、担当動物：[`world-space-story-map.md`](world-space-story-map.md)
-- 顔、視線、眉、口の描画基準：[`character-facial-expression-reference.md`](character-facial-expression-reference.md)
+- 顔、視線、眉、口の描画基準：[`character-facial-expression-reference.md`](style-studies/references/character-facial-expression-reference.md)
 
 本書は、それらの設定を絵本内の仕草、動き、距離、発言、道具へ翻訳する。
 
@@ -645,19 +645,19 @@
 
 太い輪郭、平面色、小さな目と口、抑えた表情で構成する。縮小時の識別性と、読み手が感情を受け取る余白を検証する。
 
-![メイン3人の記号型ポーズ比較](style-studies/main-three-symbolic-pose-sheet-v1.png)
+![メイン3人の記号型ポーズ比較](style-studies/outputs/main-three-symbolic-pose-sheet-v1.png)
 
 **キャラクター・アニメーション型の試作**
 
 丸い量感、分かりやすい感情、大きなジェスチャーで構成する。役割の即時性と、スタンプや動画へ展開したときの動かしやすさを検証する。
 
-![メイン3人のキャラクター・アニメーション型ポーズ比較](style-studies/main-three-animated-pose-sheet-v1.png)
+![メイン3人のキャラクター・アニメーション型ポーズ比較](style-studies/outputs/main-three-animated-pose-sheet-v1.png)
 
 **コラージュ・素材型の試作**
 
 手で塗った薄紙、ちぎった輪郭、色面の重なり、紙の余白で構成する。身体性と絵本らしい温度が出る一方、縮小時には紙の繊維や細い道具が見えにくくなる。
 
-![メイン3人のコラージュ・素材型ポーズ比較](style-studies/main-three-collage-pose-sheet-v1.png)
+![メイン3人のコラージュ・素材型ポーズ比較](style-studies/outputs/main-three-collage-pose-sheet-v1.png)
 
 #### 用途別の使い分け
 

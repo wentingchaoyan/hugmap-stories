@@ -5,7 +5,7 @@
 用途: キャラクターシート、絵本、Web用素材、ポーズラフの表情設計
 役割: **顔と表情を描くためのビジュアル補助資料**
 
-身体、距離、発言意図の正本は [`character-expression-guide.md`](character-expression-guide.md) とする。本書は、その設定を顔パーツへ翻訳する。
+身体、距離、発言意図の正本は [`character-expression-guide.md`](../../character-expression-guide.md) とする。本書は、その設定を顔パーツへ翻訳する。
 
 ## 1. 基本原則
 

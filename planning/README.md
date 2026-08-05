@@ -32,8 +32,11 @@
 外部情報と同期
 └─ content-sync.md
 
-試作画像
+画風・キャラクター制作資料
 ├─ style-studies/
+│  ├─ references/
+│  ├─ prompts/
+│  └─ outputs/
 └─ line-sticker-prototypes/
 ```
 
@@ -80,8 +83,10 @@
 
 | ファイル | 役割 | 開く場面 | 扱い |
 |---|---|---|
-| [`character-facial-expression-reference.md`](character-facial-expression-reference.md) | 顔、視線、眉、口、耳、羽、尻尾などの描画基準 | 表情差分やイラスト発注資料を作るとき | `character-expression-guide.md`を絵へ翻訳する。性格の正本ではない |
-| [`visual-reference-shortlist.md`](visual-reference-shortlist.md) | ポーズ、距離、余白を研究する外部絵本・作家の観察点 | 参考作品を探すとき | 模倣用・画風の正本として使わない |
+| [`character-facial-expression-reference.md`](style-studies/references/character-facial-expression-reference.md) | 顔、視線、眉、口、耳、羽、尻尾などの描画基準 | 表情差分やイラスト発注資料を作るとき | `character-expression-guide.md`を絵へ翻訳する。性格の正本ではない |
+| [`visual-reference-shortlist.md`](style-studies/references/visual-reference-shortlist.md) | ポーズ、距離、余白を研究する外部絵本・作家の観察点 | 参考作品を探すとき | 模倣用・画風の正本として使わない |
+| [`character-design-prompt-workflow.md`](style-studies/prompts/character-design-prompt-workflow.md) | 6工程でキャラクター制作を安定させるPrompt A | 形が決まった後に色・三面図・応用へ進むとき | 正本の設定を変更しない |
+| [`character-design-exploration-prompt-workflow.md`](style-studies/prompts/character-design-exploration-prompt-workflow.md) | 性格を誇張してから削るPrompt B | 性格がまだ形に出ていないとき | Prompt Aを置き換えない |
 | [`visual-style-decision.md`](visual-style-decision.md) | 人物4案×動物3案から候補を絞り、判断理由と評価軸を残す | 画風を比較・決定するとき | 決定後も判断履歴として残す |
 | [`visual-style-decision.html`](visual-style-decision.html) | 上記の画像を一画面で比較し、候補A/Bとメモをブラウザ上で確認する | 複数画像を見ながら話し合うとき | メモはブラウザ内保存。決定事項はMarkdownまたは正本へ移す |
 
@@ -102,16 +107,17 @@
 
 | パス | 内容 | 正式利用 |
 |---|---|---|
-| [`style-studies/`](style-studies/) | 人物と動物の画風、統一感、ポーズを比較する画像群 | **不可**。正式決定前の試作 |
-| [`main-three-symbolic-pose-sheet-v1.png`](style-studies/main-three-symbolic-pose-sheet-v1.png) | ことり・りす・うさぎの記号型3ポーズ | 画風候補Aの比較用 |
-| [`main-three-animated-pose-sheet-v1.png`](style-studies/main-three-animated-pose-sheet-v1.png) | メイン3人のキャラクター・アニメーション型3ポーズ | 画風候補Bの比較用 |
-| [`main-three-collage-pose-sheet-v1.png`](style-studies/main-three-collage-pose-sheet-v1.png) | メイン3人のコラージュ・素材型3ポーズ | 紙素材と絵本の温度の比較用 |
-| [`child-symbolic-study-v1.png`](style-studies/child-symbolic-study-v1.png) | 人物の記号・アイコン型 | 人物4案の比較用 |
-| [`child-animated-study-v1.png`](style-studies/child-animated-study-v1.png) | 人物のキャラクター・アニメーション型 | 人物4案の比較用 |
-| [`child-watercolor-life-study-v1.png`](style-studies/child-watercolor-life-study-v1.png) | 人物の水彩・生活描写型 | 人物4案の比較用 |
-| [`child-line-sketch-study-v1.png`](style-studies/child-line-sketch-study-v1.png) | 人物の線画・スケッチ型 | 現在の人物第一候補 |
-| [`boy-kotori-unified-style-v1.png`](style-studies/boy-kotori-unified-style-v1.png) | 子どもとことり先生を同一画風へ寄せた初期試作 | 過去比較 |
-| [`boy-matched-to-animal-style-v2.png`](style-studies/boy-matched-to-animal-style-v2.png) | 子どもを既存動物の画風へ寄せた初期試作 | 過去比較 |
+| [`style-studies/`](style-studies/) | 参照資料、制作Prompt、生成物を役割別に管理する | **不可**。正式決定前の試作 |
+| [`style-studies/outputs/`](style-studies/outputs/) | 人物と動物の画風、統一感、ポーズを比較する生成画像群 | **不可**。正式決定前の試作 |
+| [`main-three-symbolic-pose-sheet-v1.png`](style-studies/outputs/main-three-symbolic-pose-sheet-v1.png) | ことり・りす・うさぎの記号型3ポーズ | 画風候補Aの比較用 |
+| [`main-three-animated-pose-sheet-v1.png`](style-studies/outputs/main-three-animated-pose-sheet-v1.png) | メイン3人のキャラクター・アニメーション型3ポーズ | 画風候補Bの比較用 |
+| [`main-three-collage-pose-sheet-v1.png`](style-studies/outputs/main-three-collage-pose-sheet-v1.png) | メイン3人のコラージュ・素材型3ポーズ | 紙素材と絵本の温度の比較用 |
+| [`child-symbolic-study-v1.png`](style-studies/outputs/child-symbolic-study-v1.png) | 人物の記号・アイコン型 | 人物4案の比較用 |
+| [`child-animated-study-v1.png`](style-studies/outputs/child-animated-study-v1.png) | 人物のキャラクター・アニメーション型 | 人物4案の比較用 |
+| [`child-watercolor-life-study-v1.png`](style-studies/outputs/child-watercolor-life-study-v1.png) | 人物の水彩・生活描写型 | 人物4案の比較用 |
+| [`child-line-sketch-study-v1.png`](style-studies/outputs/child-line-sketch-study-v1.png) | 人物の線画・スケッチ型 | 現在の人物第一候補 |
+| [`boy-kotori-unified-style-v1.png`](style-studies/outputs/boy-kotori-unified-style-v1.png) | 子どもとことり先生を同一画風へ寄せた初期試作 | 過去比較 |
+| [`boy-matched-to-animal-style-v2.png`](style-studies/outputs/boy-matched-to-animal-style-v2.png) | 子どもを既存動物の画風へ寄せた初期試作 | 過去比較 |
 | [`line-sticker-prototypes/`](line-sticker-prototypes/) | LINEスタンプのシート試作 | 正式スタンプではない |
 | [`main-three-nine-sticker-sheet-v1.png`](line-sticker-prototypes/main-three-nine-sticker-sheet-v1.png) | メイン3人×3種の9スタンプ試作 | 文言・ポーズ・縮小時の確認用 |
 
