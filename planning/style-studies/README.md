@@ -2,6 +2,8 @@
 
 キャラクターと画風の検討資料を、役割ごとに分けて保存する。
 
+制作順と各試作の判断は [`output-process.html`](output-process.html) で一覧できる。画像ファイル先頭の番号は、各フォルダー内での検討順を表す。
+
 ```text
 style-studies/
 ├─ references/  外部作品の観察点と、表情設計の参照資料

@@ -25,7 +25,7 @@
 
 ## 2. 共通する人物表現
 
-![人物の線画・スケッチ型試作](style-studies/outputs/children/child-line-sketch-study-v1.png)
+![人物の線画・スケッチ型試作](style-studies/outputs/children/04-child-line-sketch-study-v1.png)
 
 人物は細い線と少ない色で描き、表情を大きく説明しない。指、肩、視線、身体の向き、小さな連続場面によって、子どもの考えや保護者の迷いを見せる。
 
@@ -44,7 +44,7 @@
 
 ## 3. 候補A――線画の人物＋記号型の動物
 
-![動物の記号型試作](style-studies/outputs/groups/main-three-symbolic-pose-sheet-v1.png)
+![動物の記号型試作](style-studies/outputs/groups/01-main-three-symbolic-pose-sheet-v1.png)
 
 ### 見え方
 
@@ -70,7 +70,7 @@
 
 ## 4. 候補B――線画の人物＋キャラクター型の動物
 
-![動物のキャラクター・アニメーション型試作](style-studies/outputs/groups/main-three-animated-pose-sheet-v1.png)
+![動物のキャラクター・アニメーション型試作](style-studies/outputs/groups/02-main-three-animated-pose-sheet-v1.png)
 
 ### 見え方
 
@@ -96,7 +96,7 @@
 
 ## 5. 候補C――線画の人物＋動いて遊ぶ記号型の動物
 
-![子どもの反応を受けて行動を変える動物の試作](style-studies/outputs/groups/main-three-playful-graphic-symbol-pose-sheet-v2.png)
+![子どもの反応を受けて行動を変える動物の試作](style-studies/outputs/groups/05-main-three-playful-graphic-symbol-pose-sheet-v2.png)
 
 ### 見え方
 
@@ -182,8 +182,8 @@
 
 | 記号・アイコン型 | キャラクター・アニメーション型 |
 |---|---|
-| ![人物の記号型試作](style-studies/outputs/children/child-symbolic-study-v1.png) | ![人物のキャラクター型試作](style-studies/outputs/children/child-animated-study-v1.png) |
+| ![人物の記号型試作](style-studies/outputs/children/01-child-symbolic-study-v1.png) | ![人物のキャラクター型試作](style-studies/outputs/children/02-child-animated-study-v1.png) |
 
 | 水彩・生活描写型 | 線画・スケッチ型 |
 |---|---|
-| ![人物の水彩型試作](style-studies/outputs/children/child-watercolor-life-study-v1.png) | ![人物の線画型試作](style-studies/outputs/children/child-line-sketch-study-v1.png) |
+| ![人物の水彩型試作](style-studies/outputs/children/03-child-watercolor-life-study-v1.png) | ![人物の線画型試作](style-studies/outputs/children/04-child-line-sketch-study-v1.png) |
