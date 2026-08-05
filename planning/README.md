@@ -124,7 +124,7 @@
 | [`06-main-three-emotional-roughs-dialogue-overview-v1.png`](style-studies/outputs/groups/06-main-three-emotional-roughs-dialogue-overview-v1.png) | 3匹それぞれの役割を表す感情・ポーズ候補 | 代表ポーズの推奨選定 |
 | [`07-main-three-consultation-group-pose-options-v2.png`](style-studies/outputs/groups/07-main-three-consultation-group-pose-options-v2.png) | 相談画面で並べる際のポーズと、りすの再調整案 | 3匹の見分けやすさの確認 |
 | [`08-main-three-prompt-b-step-2-personality-exaggeration-v1.png`](style-studies/outputs/groups/08-main-three-prompt-b-step-2-personality-exaggeration-v1.png) | 顔・身体・重心による性格の誇張比較 | 正式案ではなく検討資料 |
-| [`09-main-three-selected-emotional-poses-color-study-v1.png`](style-studies/outputs/groups/09-main-three-selected-emotional-poses-color-study-v1.png) | 推奨骨格へ代表ポーズと配色を統合 | 現在地。完成デザインではない |
+| [`09-main-three-selected-emotional-poses-color-study-v2.png`](style-studies/outputs/groups/09-main-three-selected-emotional-poses-color-study-v2.png) | 推奨骨格へ代表ポーズと配色を統合し、りすの白い口元を比較 | 現在地。完成デザインではない |
 | [`01-child-symbolic-study-v1.png`](style-studies/outputs/children/01-child-symbolic-study-v1.png) | 人物の記号・アイコン型 | 人物4案の比較用 |
 | [`02-child-animated-study-v1.png`](style-studies/outputs/children/02-child-animated-study-v1.png) | 人物のキャラクター・アニメーション型 | 人物4案の比較用 |
 | [`03-child-watercolor-life-study-v1.png`](style-studies/outputs/children/03-child-watercolor-life-study-v1.png) | 人物の水彩・生活描写型 | 人物4案の比較用 |
