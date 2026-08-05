@@ -34,6 +34,8 @@
 
 画風・キャラクター制作資料
 ├─ style-studies/
+│  ├─ README.md
+│  ├─ output-process.html　⭐️⭐️⭐️　探索から現在地までを画像でたどる
 │  ├─ references/
 │  ├─ prompts/
 │  └─ outputs/
@@ -92,6 +94,8 @@
 | [`character-design-exploration-prompt-workflow.md`](style-studies/prompts/character-design-exploration-prompt-workflow.md) | 性格を誇張してから削るPrompt B | 性格がまだ形に出ていないとき | Prompt Aを置き換えない |
 | [`visual-style-decision.md`](visual-style-decision.md) | 人物4案×動物3案から候補を絞り、判断理由と評価軸を残す | 画風を比較・決定するとき | 決定後も判断履歴として残す |
 | [`visual-style-decision.html`](visual-style-decision.html) | 上記の画像を一画面で比較し、候補A/Bとメモをブラウザ上で確認する | 複数画像を見ながら話し合うとき | メモはブラウザ内保存。決定事項はMarkdownまたは正本へ移す |
+| [`style-studies/README.md`](style-studies/README.md) | 画風・キャラクター試作の保存先、番号、更新ルールを示す | 画像を追加・整理するとき | 制作判断そのものは`output-process.html`で確認する |
+| [`style-studies/output-process.html`](style-studies/output-process.html) | 3匹合同・各キャラクター・人物の探索順、採否、推奨案、現在地を画像で一覧化する | 試作の前後関係や採用理由を確認するとき | 現在地はSTEP 09。正式仕様は正本へ文章で反映する |
 
 ### 2.3 作品企画・進行管理
 
@@ -115,6 +119,12 @@
 | [`01-main-three-symbolic-pose-sheet-v1.png`](style-studies/outputs/groups/01-main-three-symbolic-pose-sheet-v1.png) | ことり・りす・うさぎの記号型3ポーズ | 画風候補Aの比較用 |
 | [`02-main-three-animated-pose-sheet-v1.png`](style-studies/outputs/groups/02-main-three-animated-pose-sheet-v1.png) | メイン3人のキャラクター・アニメーション型3ポーズ | 画風候補Bの比較用 |
 | [`03-main-three-collage-pose-sheet-v1.png`](style-studies/outputs/groups/03-main-three-collage-pose-sheet-v1.png) | メイン3人のコラージュ・素材型3ポーズ | 紙素材と絵本の温度の比較用 |
+| [`04-main-three-playful-graphic-symbol-pose-sheet-v1.png`](style-studies/outputs/groups/04-main-three-playful-graphic-symbol-pose-sheet-v1.png) | 記号性を保ちながら動きと手描き感を加えた比較 | 別系統の画風探索 |
+| [`05-main-three-character-design-step-1-unified-v2.png`](style-studies/outputs/groups/05-main-three-character-design-step-1-unified-v2.png) | 3匹の共通骨格候補と推奨案 | 頭身・胴体幅・手足の比率の基準 |
+| [`06-main-three-emotional-roughs-dialogue-overview-v1.png`](style-studies/outputs/groups/06-main-three-emotional-roughs-dialogue-overview-v1.png) | 3匹それぞれの役割を表す感情・ポーズ候補 | 代表ポーズの推奨選定 |
+| [`07-main-three-consultation-group-pose-options-v2.png`](style-studies/outputs/groups/07-main-three-consultation-group-pose-options-v2.png) | 相談画面で並べる際のポーズと、りすの再調整案 | 3匹の見分けやすさの確認 |
+| [`08-main-three-prompt-b-step-2-personality-exaggeration-v1.png`](style-studies/outputs/groups/08-main-three-prompt-b-step-2-personality-exaggeration-v1.png) | 顔・身体・重心による性格の誇張比較 | 正式案ではなく検討資料 |
+| [`09-main-three-selected-emotional-poses-color-study-v1.png`](style-studies/outputs/groups/09-main-three-selected-emotional-poses-color-study-v1.png) | 推奨骨格へ代表ポーズと配色を統合 | 現在地。完成デザインではない |
 | [`01-child-symbolic-study-v1.png`](style-studies/outputs/children/01-child-symbolic-study-v1.png) | 人物の記号・アイコン型 | 人物4案の比較用 |
 | [`02-child-animated-study-v1.png`](style-studies/outputs/children/02-child-animated-study-v1.png) | 人物のキャラクター・アニメーション型 | 人物4案の比較用 |
 | [`03-child-watercolor-life-study-v1.png`](style-studies/outputs/children/03-child-watercolor-life-study-v1.png) | 人物の水彩・生活描写型 | 人物4案の比較用 |
@@ -134,6 +144,7 @@
 | 一人の先生を深めたい | `world-and-character-guide.md` | `character-expression-guide.md` |
 | 表情やポーズを描きたい | `character-expression-guide.md` | `character-facial-expression-reference.md` |
 | 画風を決めたい | `visual-style-decision.html` | `visual-style-decision.md`、`open-decisions.md` |
+| キャラクター造形の現在地を見たい | `style-studies/output-process.html` | `style-studies/README.md`、`character-expression-guide.md` |
 | 新しい絵本を企画したい | `story-backlog.md` | `story-narrative-guide.md` |
 | シリーズの代表作を選びたい | `series-values-story-shortlist.md` | `world-and-character-guide.md` |
 | 一冊の台本を書きたい | `story-narrative-guide.md` | `stories/<story-slug>/script.md` |
