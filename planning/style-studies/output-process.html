@@ -101,6 +101,7 @@
       {n:9,title:"選定ポーズを共通骨格に揃えて配色する",note:"STEP 05の推奨骨格へ頭身・胴体幅・手足の大きさを合わせ、ことり＝黄、りす＝橙、うさぎ＝白とワイン紫を適用。りすは鼻と口の周囲だけに白いマズルを加え、顔の識別性も比較している。",file:"outputs/groups/09-main-three-selected-emotional-poses-color-study-v2.png",status:"現在地",statusClass:"current"}
     ]});
     sections.push({key:"handdrawn-line",label:"手描き線の揺れと崩し方を比べる",desc:"整った造形を保ちながら、線の揺れ、筆圧差、途切れ、重ね描き、身体の非対称をどこまで加えると温度が生まれるかを比較した追加検討。",items:[
+      {stepLabel:"REFERENCE",title:"線の表情マップ",note:"曲率、太さ、揺れ、角、強弱を、暖かい・冷たい・可愛い・元気・手仕事・緊張感の6方向で整理した判断基準。",file:"outputs/handdrawn-line-study/reference-line-expression-map.svg",status:"基準"},
       {n:1,title:"鉛筆の手仕事感を強める",note:"5体の構成を維持し、鉛筆の揺れ、線圧のむら、かすれ、重ね描きを加えた。",file:"outputs/handdrawn-line-study/01-rabbit-pencil-rustic.png"},
       {n:2,title:"一発描きのペン線へ置き換える",note:"太く不均一な線、省略した手足、少し困った表情で、素朴な愛嬌を試した。",file:"outputs/handdrawn-line-study/02-rabbit-loose-pen.png"},
       {n:3,title:"性格ポーズへ線だけを適用する",note:"6つの性格とポーズを維持したまま、整った輪郭へ手描き線を加えた初期案。線幅以外の差が弱い課題が残った。",file:"outputs/handdrawn-line-study/03-rabbit-personality-clean.png",status:"初期案"},
@@ -127,7 +128,8 @@
       section.items.forEach(item=>{
         const card=document.createElement("article"); card.dataset.category=section.key;
         const status=item.status||"探索";
-        card.innerHTML=`<button class="image-button" data-src="${item.file}" aria-label="${item.title}を拡大"><img src="${item.file}" alt="${item.title}" loading="lazy"></button><div class="info"><div class="meta"><span class="number">STEP ${String(item.n).padStart(2,"0")}</span><span class="status ${item.statusClass||""}">${status}</span></div><h3>${item.title}</h3><p class="note">${item.note}</p><code>${item.file.split("/").pop()}</code></div>`;
+        const stepLabel=item.stepLabel||`STEP ${String(item.n).padStart(2,"0")}`;
+        card.innerHTML=`<button class="image-button" data-src="${item.file}" aria-label="${item.title}を拡大"><img src="${item.file}" alt="${item.title}" loading="lazy"></button><div class="info"><div class="meta"><span class="number">${stepLabel}</span><span class="status ${item.statusClass||""}">${status}</span></div><h3>${item.title}</h3><p class="note">${item.note}</p><code>${item.file.split("/").pop()}</code></div>`;
         grid.appendChild(card);
       });
       root.appendChild(node);

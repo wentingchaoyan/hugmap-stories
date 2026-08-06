@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">線の表情マップ</title>
+  <desc id="desc">暖かい、冷たい、可愛い、元気、手仕事、緊張感の六つの線表現を比較する図</desc>
+  <rect width="1200" height="720" fill="#fffdfb"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Hiragino Sans','Yu Gothic',sans-serif" fill="#332a27">
+    <text x="60" y="65" font-size="34" font-weight="700">線の表情マップ</text>
+    <text x="60" y="102" font-size="19" fill="#817773">曲率・太さ・揺れ・角・強弱で、同じ線にも異なる印象が生まれる</text>
+    <g transform="translate(60 145)">
+      <g><text y="32" font-size="23" font-weight="700">暖かい・親しみ</text><text y="60" font-size="16" fill="#817773">丸い／少し揺れる／中太</text><path d="M0 150 C45 70 90 205 145 112 C195 30 245 205 305 105" fill="none" stroke="#332a27" stroke-width="9" stroke-linecap="round"/></g>
+      <g transform="translate(395 0)"><text y="32" font-size="23" font-weight="700">冷たい・理性的</text><text y="60" font-size="16" fill="#817773">直線／精密／細い</text><path d="M0 165 L62 82 L120 145 L190 65 L245 140 L305 76" fill="none" stroke="#332a27" stroke-width="3"/></g>
+      <g transform="translate(790 0)"><text y="32" font-size="23" font-weight="700">可愛い・やわらかい</text><text y="60" font-size="16" fill="#817773">大きな丸み／太い／短い</text><path d="M0 155 C25 55 115 55 145 150 C168 212 260 205 305 115" fill="none" stroke="#332a27" stroke-width="14" stroke-linecap="round"/></g>
+      <g transform="translate(0 280)"><text y="32" font-size="23" font-weight="700">元気・ポップ</text><text y="60" font-size="16" fill="#817773">跳ねる／強弱／方向変化</text><path d="M0 175 Q28 45 65 150 Q92 220 120 70 Q155 205 190 115 Q225 35 255 165 Q280 205 305 90" fill="none" stroke="#332a27" stroke-width="10" stroke-linecap="round"/></g>
+      <g transform="translate(395 280)"><text y="32" font-size="23" font-weight="700">手仕事・素朴</text><text y="60" font-size="16" fill="#817773">揺れ／かすれ／不均一</text><path d="M0 145 C38 132 52 163 92 142 C132 118 158 168 200 137 C245 105 270 163 305 130" fill="none" stroke="#332a27" stroke-width="8" stroke-linecap="round" stroke-dasharray="55 5 27 3"/></g>
+      <g transform="translate(790 280)"><text y="32" font-size="23" font-weight="700">強い・緊張感</text><text y="60" font-size="16" fill="#817773">鋭角／太い／急な折れ</text><path d="M0 185 L62 55 L105 175 L172 52 L215 185 L270 48 L305 150" fill="none" stroke="#332a27" stroke-width="12" stroke-linejoin="miter"/></g>
+    </g>
+  </g>
+</svg>

@@ -25,6 +25,7 @@
 ├─ story-backlog.md　　✍️ 心が動くもので、scriptを自分で書いてみる
 ├─ series-values-story-shortlist.md
 ├─ preverbal-development-series.md
+├─ character-naming-strategy.md　国際名の命名規則、参考調査、候補評価
 ├─ line-sticker-concept.md
 ├─ three-day-character-pose-assignment.md
 └─ open-decisions.md　　⭐️⭐️⭐️　未決の制作軸、名前、国際展開、ストーリーの入り方
@@ -104,6 +105,7 @@
 | [`story-backlog.md`](story-backlog.md) | 完成作、試作、キャラクター別の物語の種、横断テーマ、優先順位を管理する | 次に作る一冊や担当動物を選ぶとき | 作品化したら状態と作品パスを更新する |
 | [`series-values-story-shortlist.md`](series-values-story-shortlist.md) | バックログからシリーズ共通の価値観を表現しやすい代表作候補を選ぶ | シリーズの入口や代表サンプルを決めるとき | 採用後は作品別台本へ移し、候補の状態は`story-backlog.md`で更新する |
 | [`preverbal-development-series.md`](preverbal-development-series.md) | 「ことば以前の発達」に限定したシリーズ企画、発達テーマ、作品候補を管理する | 発語以外の理解・伝達を扱う作品を企画するとき | 採用した物語は`story-backlog.md`と作品別台本へつなぐ |
+| [`character-naming-strategy.md`](character-naming-strategy.md) | 国際作品・日本作品の命名構造、HugMapの命名規則、候補評価、音声テストを管理する | メイン・サブの固有名候補を作り、比較するとき | 正式決定後は名前と呼称を`world-and-character-guide.md`へ反映する |
 | [`line-sticker-concept.md`](line-sticker-concept.md) | メイン3人のLINEスタンプ企画、文言、仕草、試作範囲を管理する | スタンプ制作・外注・商品展開を考えるとき | 正式素材の保存先と状態を追記する |
 | [`three-day-character-pose-assignment.md`](three-day-character-pose-assignment.md) | 基本立ち、専門性ポーズ、チーム場面を作る3日間の作業計画 | キャラクター素材制作を短期アサインするとき | 完了後は制作履歴として残す |
 | [`open-decisions.md`](open-decisions.md) | 会議メモ、比較中の案、メンタリングで聞くこと、判断待ちを一元管理する | まだ決めていない事項を追加・確認するとき | 決定したら該当する正本へ移し、ここには決定日と反映先だけ残す |
@@ -151,6 +153,7 @@
 | HTML絵本を作りたい | `story-design-principles.md` | 既存作品の`index.html` |
 | 専門情報を確認したい | `content-sync.md` | `withu`側の正本 |
 | 未決事項を相談したい | `open-decisions.md` | 関係する正本 |
+| キャラクターの国際名を考えたい | `character-naming-strategy.md` | `open-decisions.md`、`world-and-character-guide.md` |
 | LINEスタンプを作りたい | `line-sticker-concept.md` | `character-expression-guide.md` |
 
 ## 4. 判断が衝突したとき
@@ -188,7 +191,8 @@ story-design-principles.md
 | 実話や一冊だけの展開 | 作品別 `script.md` |
 | 次に作る作品と優先順位 | `story-backlog.md` |
 | 会議で出た未決定の提案 | `open-decisions.md` |
-| キャラクターの国際名、命名規則、即時認識の未決事項 | `open-decisions.md` |
+| キャラクターの国際名、命名規則、参考調査、候補評価 | `character-naming-strategy.md` |
+| 命名について最終判断を待っている事項 | `open-decisions.md` |
 | withuとの同期、出典、専門情報 | `content-sync.md` |
 | 画風の比較結果・採点 | `visual-style-decision.md` |
 | 画風の未決事項 | `open-decisions.md` |

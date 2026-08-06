@@ -53,28 +53,49 @@ Expertise never arrives as a lecture. It comes to life through the different per
 
 ## 3. Our Core Beliefs
 
-| Belief | How it appears in stories |
-|---|---|
-| The child is already engaging with the world | Place small signals in the illustrations from the beginning |
-| A child's actions make sense from their point of view | Look beyond the surface: notice what happens before and after, and how the child responds |
-| There is no single right answer; the goal is to find what works for this child | Adjust the environment, tools, distance, pace, or way of communicating |
-| Children do not have to push through everything | Treat resting, saying no, and simply watching as valid choices |
-| Enjoyment opens the door to learning | Let play begin with something an adult might otherwise overlook |
-| Strengths can grow | Do not make overcoming difficulties the only goal |
-| Growth can be celebrated with others | Create moments in which caregivers notice small changes |
-| No one should have to nurture a child's possibilities alone | Connect the teachers, family, and appropriate professionals |
+```text
+Notice → Check → Adjust → Nurture → Connect
+```
+
+|  | What we believe | How it appears in stories |
+|---:|---|---|
+| 1 | **Children are engaging with the world before their communication becomes words or highly visible actions** | Place small signals—gaze, breathing, posture, repetition, and distance—in the story from the beginning |
+| 2 | **Actions and changes in the body can offer clues about the relationship among the child, their surroundings, and their experiences** | Do not assign meaning too quickly; check what happened before and after, health and sensory factors, and the child's response |
+| 3 | **Before trying to change the child, we can look together for conditions and forms of participation that fit** | Adjust the environment, tools, distance, pace, and communication; preserve options to rest, say no, watch, or join only part of an activity |
+| 4 | **Safety, interests, strengths, and curiosity can open the way to learning and growth** | Show becoming absorbed, trying again voluntarily, and discovering a personal way—not only overcoming a difficulty |
+| 5 | **Growth and possibility can be supported and shared, with the child at the center, alongside family, peers, teachers, and appropriate professionals** | No single teacher solves everything; connect people when needed and let the family carry a small change and a new question back into daily life |
+
+### How the spotlight shifts with age
+
+The beliefs do not become more or less important with age. What changes is how signals appear, how meaning is checked, how the child participates in choices, and who is involved.
+
+**● = often in the foreground　○ = always important**
+
+| Belief | Infancy | Early childhood | Preschool to school age |
+|---|:---:|:---:|:---:|
+| Already engaging | ● | ○ | ○ |
+| Check through signals | ● | ● | ○ |
+| Find fitting conditions and participation | ○ | ● | ● |
+| Grow through interests and strengths | ○ | ● | ● |
+| Support together | ● | ○ | ● |
+
+```text
+Adults notice → Try together while watching the child's response → The child takes a growing role in choosing and reflecting
+```
+
+Age is a guide, not a fixed developmental pathway or achievement standard. Choice is present from infancy; what expands over time is how it is expressed and how far the child participates in decisions.
 
 ## 4. Creative Commitments
 
-- Never reduce a child to a problem or diagnosis.
-- Never have a teacher claim to know exactly what a child is feeling.
-- Check an interpretation against the child's response.
-- Do not treat speech, speed, frequency, or finishing a meal as the only measures of success.
-- Do not rush to erase sadness or difficulty with positive language.
-- Do not suggest that one adjustment solves everything.
-- Never present a story as a substitute for medical care, developmental consultation, or specialist support when these are needed.
-- End by returning the scene to the family's daily life rather than with a teacher's explanation.
-- Help caregivers notice the next signal even when the teachers or the app are not present.
+These commitments do not become weaker for younger audiences; only the amount of language and the mode of expression change. Above all, **dignity, safety, and the child's agency take priority over narrative appeal or educational impact**.
+
+1. **Portray the child as a whole person.** Never reduce a child to a diagnosis, problem, or source of inspiration. Give them interests, relationships, choices, and ordinary personal habits.
+2. **Do not claim certainty about feelings or the meaning of behavior.** A teacher should not speak for the child and stop there; check an interpretation against what happened before and after and how the child responds.
+3. **Do not define success in only one way.** Speech, speed, frequency, finishing a meal, or doing the same thing as the group are not the only measures. Saying no, resting, partial participation, using tools, and communicating differently also matter.
+4. **Do not rush difficult feelings away.** Do not cover sadness, anger, fatigue, or difficulty with positive language or a quick solution.
+5. **Do not imply that one adjustment solves everything.** No strategy or teacher is universal; leave room for approaches that do not fit, harder days, and readjustment.
+6. **Connect families with appropriate support.** Never present a story or app as a substitute for medical care, developmental consultation, or specialist support when these are needed.
+7. **Return the story to everyday family life.** End with a small question or way of noticing that the family can explore next, rather than with the teacher's explanation. Do not place responsibility for observation and support on one caregiver alone.
 
 ## 5. What Makes Each Character Distinct
 
