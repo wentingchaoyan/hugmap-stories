@@ -23,6 +23,24 @@ hugmap-stories/
 └── planning/                  # 世界観・物語・ビジュアル・制作運用の正本と企画
 ```
 
+## Planningの入口
+
+制作資料の役割と読む順番は [`planning/README.md`](planning/README.md) にまとめています。主な正本・検討資料は次のとおりです。
+
+| 確認したいこと | 参照先 |
+|---|---|
+| シリーズの価値観、先生の人物像、年齢・性別 | [`planning/world-and-character-guide.md`](planning/world-and-character-guide.md) |
+| キャラクターの国際名、候補比較、除外履歴 | [`planning/character-naming-strategy.md`](planning/character-naming-strategy.md) |
+| まだ決めていない制作判断 | [`planning/open-decisions.md`](planning/open-decisions.md) |
+| 次に作る物語とキャラクター別の種 | [`planning/story-backlog.md`](planning/story-backlog.md) |
+| 画風と制作方法の比較 | [`planning/visual-style-decision.md`](planning/visual-style-decision.md) |
+
+### 現在の命名候補
+
+メイン3匹の現在の第一候補は、ことり先生 **Mimo／ミモ**、りす先生 **Luke／ルーク**、うさぎ先生 **Gen／ゲン**です。いずれも正式名ではなく、絵との一致、子どもの記憶、各言語での発音、既存名称・商標を確認する前の比較候補です。
+
+比較中の候補と外した理由は `character-naming-strategy.md` に集約し、正式決定後に `world-and-character-guide.md` と作品へ反映します。
+
 ## ローカルで読む
 
 `index.html` をブラウザーで開いてください。ビルド工程はありません。

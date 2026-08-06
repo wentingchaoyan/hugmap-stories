@@ -18,6 +18,24 @@ hugmap-stories/
 └── planning/                  # Character, story, and synchronization guidance
 ```
 
+## Planning entry points
+
+See [`planning/README.md`](planning/README.md) for the role and reading order of the planning documents.
+
+| Question | Source |
+|---|---|
+| Series values, teacher profiles, age, and gender | [`planning/world-and-character-guide.md`](planning/world-and-character-guide.md) |
+| International character names, comparisons, and rejected options | [`planning/character-naming-strategy.md`](planning/character-naming-strategy.md) |
+| Decisions that are still open | [`planning/open-decisions.md`](planning/open-decisions.md) |
+| Story priorities and character-specific ideas | [`planning/story-backlog.md`](planning/story-backlog.md) |
+| Visual-style and production-method comparisons | [`planning/visual-style-decision.md`](planning/visual-style-decision.md) |
+
+### Current naming candidates
+
+The current first-round candidates for the three main teachers are **Mimo** for the bird, **Luke** for the squirrel, and **Gen** for the rabbit. These are not official names. They still require testing with the artwork and children, pronunciation checks across languages, and existing-name and trademark screening.
+
+Comparisons and reasons for rejecting earlier options are maintained in `character-naming-strategy.md`. Official names will be copied to `world-and-character-guide.md` and the stories only after a decision is made.
+
 ## Read locally
 
 Open `index.html` for Japanese or `en/index.html` for English. No build step is required to read the checked-in pages.
