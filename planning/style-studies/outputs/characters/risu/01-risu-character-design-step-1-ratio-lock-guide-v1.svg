@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1560" height="1008" viewBox="0 0 1560 1008">
+  <image width="1560" height="1008" xlink:href="01-risu-character-design-step-1-roughs-v1.png"/>
+  <defs>
+    <style>
+      .lock { fill:none; stroke:#2878a8; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; }
+      .guide { fill:none; stroke:#2878a8; stroke-width:2.5; stroke-dasharray:10 8; opacity:.9; }
+      .face { fill:none; stroke:#8b294b; stroke-width:3; stroke-dasharray:7 7; }
+      .ear { fill:none; stroke:#d88a28; stroke-width:4; }
+      .label { font-family:-apple-system,BlinkMacSystemFont,'Hiragino Sans','Yu Gothic',sans-serif; fill:#332a27; font-size:20px; }
+      .small { font-size:16px; fill:#675e5a; }
+    </style>
+  </defs>
+
+  <!-- Selected third silhouette: immutable outer geometry -->
+  <rect x="1015" y="86" width="370" height="440" rx="26" fill="#fffdfb" fill-opacity=".08" stroke="#2878a8" stroke-width="3" stroke-dasharray="14 10"/>
+  <path class="lock" d="M1082 258 C1080 211 1109 191 1160 190 C1211 191 1241 211 1240 258 C1248 305 1222 339 1160 342 C1098 339 1074 305 1082 258"/>
+  <path class="lock" d="M1046 357 C1021 390 1020 451 1048 484 C1080 510 1238 512 1270 484 C1297 450 1294 390 1269 357"/>
+
+  <!-- Ear lock zones -->
+  <ellipse class="ear" cx="1107" cy="177" rx="25" ry="31" transform="rotate(-13 1107 177)"/>
+  <ellipse class="ear" cx="1214" cy="177" rx="25" ry="31" transform="rotate(13 1214 177)"/>
+
+  <!-- Proportion and face anchors -->
+  <line class="guide" x1="1160" y1="143" x2="1160" y2="505"/>
+  <line class="face" x1="1088" y1="283" x2="1228" y2="283"/>
+  <line class="face" x1="1118" y1="314" x2="1202" y2="314"/>
+  <circle cx="1126" cy="283" r="7" fill="#8b294b"/>
+  <circle cx="1195" cy="283" r="7" fill="#8b294b"/>
+  <circle cx="1160" cy="314" r="7" fill="#8b294b"/>
+
+  <!-- Head/body ratio ruler -->
+  <path class="guide" d="M1350 157 h18 M1359 157 V360 M1350 360 h18 M1350 360 h18 M1359 360 V505 M1350 505 h18"/>
+  <text class="small" x="1380" y="255">頭</text>
+  <text class="small" x="1380" y="438">身体</text>
+
+  <!-- Legend -->
+  <g transform="translate(1040 555)">
+    <rect width="445" height="136" rx="18" fill="#fffdfb" fill-opacity=".94" stroke="#ddd5d0"/>
+    <text class="label" x="20" y="34">第3案｜固定する造形</text>
+    <line x1="22" y1="59" x2="64" y2="59" class="lock"/><text class="small" x="78" y="65">頭・頬・顎・身体の外形</text>
+    <line x1="22" y1="88" x2="64" y2="88" class="ear"/><text class="small" x="78" y="94">耳の位置・大きさ・毛束</text>
+    <line x1="22" y1="117" x2="64" y2="117" class="face"/><text class="small" x="78" y="123">目・鼻・口の基準位置</text>
+  </g>
+</svg>

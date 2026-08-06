@@ -73,7 +73,7 @@
     ];
     const specs = {
       kotori:{ label:"ことり先生", desc:"聞く・返す・待つ。現在の代表候補は「聞く」。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"] },
-      risu:{ label:"りす先生", desc:"観察・試す・選び直す。現在の代表候補は「ひらめく」。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"] },
+      risu:{ label:"りす先生", desc:"観察・試す・選び直す。現在の代表候補は「ひらめく」。STEP 01の第3案を固定造形とし、青＝外形、橙＝耳、赤紫＝顔パーツ位置のガイドを重ねている。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"], overrides:{0:"outputs/characters/risu/01-risu-character-design-step-1-ratio-lock-guide-v1.png"} },
       usagi:{ label:"うさぎ先生", desc:"誘う・気づく・合わせる。現在の代表候補は「誘う」。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"] }
     };
     const sections = [];
@@ -83,7 +83,8 @@
       characterSteps.forEach((step,index) => {
         const version=spec.files[index];
         const basename=step[0].startsWith("facial-parts") ? step[0] : `${step[0]}-${version}`;
-        items.push({n:number++, title:step[1], note:step[2], file:`outputs/characters/${key}/${String(number-1).padStart(2,"0")}-${key}-${basename}.png`});
+        const defaultFile=`outputs/characters/${key}/${String(number).padStart(2,"0")}-${key}-${basename}.png`;
+        items.push({n:number++, title:step[1], note:step[2], file:spec.overrides?.[index]||defaultFile});
         if(key==="usagi" && index===3) items.push({n:number++, title:"感情とポーズの再調整", note:"頭身変化を抑え、元の造形を維持して表情と動作を調整した。", file:`outputs/characters/usagi/${String(number-1).padStart(2,"0")}-usagi-character-emotion-pose-combined-v2.png`});
       });
       sections.push({key,label:spec.label,desc:spec.desc,items});
