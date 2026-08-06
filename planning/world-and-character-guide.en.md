@@ -98,6 +98,7 @@ This table should make the differences among the three lead teachers clear on it
 
 | Point of comparison | Kotori Sensei | Risu Sensei | Usagi Sensei |
 |---|---|---|---|
+| **Age and gender** | Around 29; female | Around 41; male | 33–36; gender not specified |
 | **Character archetype** | Listener | Detective and inventor | Encouraging companion |
 | **Immediate impression** | Gentle, expressive, musical | Curious, dexterous, inventive | Energetic, playful, adventurous |
 | **What they believe** | Communication begins before words, and language grows through shared back-and-forth | When tools or surroundings change, new ways of doing and participating become possible | Every child has their own comfortable level, pace, and way of participating |
