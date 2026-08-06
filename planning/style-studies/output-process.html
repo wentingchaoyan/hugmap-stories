@@ -50,6 +50,7 @@
   </header>
   <nav aria-label="表示対象">
     <button data-filter="groups" aria-pressed="true">現在の造形</button>
+    <button data-filter="handdrawn-line" aria-pressed="false">手描き線の検討</button>
     <button data-filter="style-options" aria-pressed="false">別系統の画風</button>
     <button data-filter="kotori" aria-pressed="false">ことり</button>
     <button data-filter="risu" aria-pressed="false">りす</button>
@@ -98,6 +99,16 @@
       {n:7,title:"りすの見分けやすさを見直す",note:"3案が似て見えたため、観察する、工夫する、提案するの違いが身体から読めるよう選択肢を作り直した。",file:"outputs/groups/07-main-three-consultation-group-pose-options-v2.png"},
       {n:8,title:"性格をどこで誇張するか比べる",note:"ことりは「小さなサインを聞き、返事を待つ慎重さ」、りすは「観察からひらめき、すぐ試したくなる好奇心」、うさぎは「先に誘い、相手へ合わせ直す快活さ」を表現。顔、翼・しっぽ・耳、重心のどこを強めると各性格が伝わるか比較した。ポーズ差へ偏ったため、正式案ではなく判断材料として残す。",file:"outputs/groups/08-main-three-prompt-b-step-2-personality-exaggeration-v1.png",status:"検討資料"},
       {n:9,title:"選定ポーズを共通骨格に揃えて配色する",note:"STEP 05の推奨骨格へ頭身・胴体幅・手足の大きさを合わせ、ことり＝黄、りす＝橙、うさぎ＝白とワイン紫を適用。りすは鼻と口の周囲だけに白いマズルを加え、顔の識別性も比較している。",file:"outputs/groups/09-main-three-selected-emotional-poses-color-study-v2.png",status:"現在地",statusClass:"current"}
+    ]});
+    sections.push({key:"handdrawn-line",label:"手描き線の揺れと崩し方を比べる",desc:"整った造形を保ちながら、線の揺れ、筆圧差、途切れ、重ね描き、身体の非対称をどこまで加えると温度が生まれるかを比較した追加検討。",items:[
+      {n:1,title:"鉛筆の手仕事感を強める",note:"5体の構成を維持し、鉛筆の揺れ、線圧のむら、かすれ、重ね描きを加えた。",file:"outputs/handdrawn-line-study/01-rabbit-pencil-rustic.png"},
+      {n:2,title:"一発描きのペン線へ置き換える",note:"太く不均一な線、省略した手足、少し困った表情で、素朴な愛嬌を試した。",file:"outputs/handdrawn-line-study/02-rabbit-loose-pen.png"},
+      {n:3,title:"性格ポーズへ線だけを適用する",note:"6つの性格とポーズを維持したまま、整った輪郭へ手描き線を加えた初期案。線幅以外の差が弱い課題が残った。",file:"outputs/handdrawn-line-study/03-rabbit-personality-clean.png",status:"初期案"},
+      {n:4,title:"身体の重心まで崩して性格を出す",note:"輪郭だけでなく、左右差、手足の省略、姿勢の傾き、身振りを変えて性格差を強めた。",file:"outputs/handdrawn-line-study/04-rabbit-personality-loose.png",status:"方向性"},
+      {n:5,title:"ことりの8ポーズへ展開する",note:"丸い素体の反復を避け、頭身、翼、足、重心をポーズごとに描き分けた。",file:"outputs/handdrawn-line-study/05-bird-gesture-loose.png"},
+      {n:6,title:"りすの8動作へ展開する",note:"作業着と渦巻きの尻尾を保ち、動作に合わせて姿勢、手、体型の揺れを加えた。",file:"outputs/handdrawn-line-study/06-squirrel-action-loose.png"},
+      {n:7,title:"3種の比較表へ控えめに適用する",note:"共通骨格を優先したため、元画像との差が線の太さへ偏った案。",file:"outputs/handdrawn-line-study/07-unified-study-subtle.png",status:"控えめ"},
+      {n:11,title:"線の崩れをもう一段強める",note:"中間的な造形を維持し、途切れ、重なり、不完全な接続、描き直し跡を強めた現在の比較候補。",file:"outputs/handdrawn-line-study/11-unified-study-line-pass-2.png",status:"現在地",statusClass:"current"}
     ]});
     sections.push({key:"children",label:"人物との画風統一",desc:"動物だけが目立たないよう、子どもの描き方と同一画面での相性を比較した。",items:[
       {n:1,title:"人物の記号型",note:"小サイズの読みやすさを確認。",file:"outputs/children/01-child-symbolic-study-v1.png"},
