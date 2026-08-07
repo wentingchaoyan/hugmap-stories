@@ -26,6 +26,10 @@
     article[hidden] { display:none; }
     .image-button { display:block; width:100%; padding:0; border:0; background:#faf7f4; cursor:zoom-in; }
     article img { display:block; width:100%; height:210px; object-fit:contain; background:#faf7f4; }
+    .comparison-legend { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:1px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); background:var(--line); }
+    .comparison-legend span { min-width:0; padding:9px 6px; background:#faf7f4; text-align:center; }
+    .comparison-legend strong { display:block; font-size:11px; line-height:1.35; }
+    .comparison-legend small { display:block; margin-top:4px; color:var(--muted); font-size:9px; line-height:1.35; }
     .info { display:flex; flex:1; flex-direction:column; padding:16px; }
     .meta { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:10px; }
     .number { color:var(--orange); font-size:12px; font-weight:800; letter-spacing:.08em; }
@@ -39,7 +43,7 @@
     dialog::backdrop { background:rgba(35,26,23,.7); }
     dialog img { display:block; width:100%; max-height:82vh; object-fit:contain; background:#faf7f4; }
     dialog button { position:absolute; top:12px; right:12px; width:40px; height:40px; border:1px solid var(--line); border-radius:50%; background:rgba(255,253,251,.94); font-size:22px; cursor:pointer; }
-    @media (max-width:680px) { .flow { grid-template-columns:1fr; }.flow div:not(:last-child)::after { content:"↓"; top:auto; right:50%; bottom:-13px; } article img { height:190px; } }
+    @media (max-width:680px) { .flow { grid-template-columns:1fr; }.flow div:not(:last-child)::after { content:"↓"; top:auto; right:50%; bottom:-13px; } article img { height:190px; } .comparison-legend { grid-template-columns:repeat(2,minmax(0,1fr)); } }
   </style>
 </head>
 <body>
@@ -94,8 +98,9 @@
       {n:2,title:"動きの明快さを優先した方向",note:"表情と手足を大きく動かし、出来事がすぐ伝わる利点と、先生が目立ちすぎる課題を確認した。",file:"outputs/groups/02-main-three-animated-pose-sheet-v1.png"},
       {n:3,title:"紙の素材感を優先した方向",note:"切り紙や色の重なりが生む絵本らしい温度と、小画面で素材感が弱まる課題を比較した。",file:"outputs/groups/03-main-three-collage-pose-sheet-v1.png"},
       {n:4,title:"記号性に小さな動きを加える方向",note:"単純な形を保ったまま、反復する仕草で性格を見せられるか試した。",file:"outputs/groups/04-main-three-playful-graphic-symbol-pose-sheet-v1.png"}
-    ]},{key:"groups",label:"現在の造形を選び、役割へつなげる",desc:"画風比較とは別に共通骨格を定め、代表する関わり方、キャラクター同士の識別性、性格の誇張、配色の順で具体化した本流。",items:[
-      {n:5,title:"共通骨格の推奨案を選ぶ",note:"各行の第3案を推奨。共通の簡略化レベルを保ちながら、うさぎの耳、りすの安定した身体、ことりの頭身に必要な差を残した。",file:"outputs/groups/05-main-three-character-design-step-1-unified-v2.png",status:"推奨選定",statusClass:"current"},
+    ]},{key:"groups",label:"現在の造形を選び、役割へつなげる",desc:"代表的なアニメーション表現から造形原理を抽出して比較し、共通骨格、関わり方、識別性、性格の誇張、配色の順で具体化した本流。固有作品のキャラクターは写さず、比率、線、目、手足、シルエットの設計差だけを判断材料にしている。",items:[
+      {stepLabel:"REFERENCE 応用",title:"頭部形状を現在の三人へ適用する",note:"添付された三人の造形、服、ポーズを固定し、頭部だけを横方向に比較。各行は、上＝うさぎ先生、中＝ことり先生、下＝りす先生。最右列は、うさぎ＝丸＋下側の頬、ことり＝頬を膨らませない縦長の卵形、りす＝縦楕円＋短く前へ出る口元としている。",file:"outputs/groups/05b-main-three-head-shape-application-comparison-v1.png",legend:'<span><strong>正円</strong><small>幼い・無垢・親しみ</small></span><span><strong>縦長の楕円</strong><small>静か・繊細・慎重</small></span><span><strong>頬を出した形</strong><small>温かい・社交的・安心</small></span><span><strong>角の丸い四角</strong><small>実務的・安定・信頼</small></span><span><strong>役割別の推奨形</strong><small>固有性と役割を優先</small></span>',status:"実キャラ比較",statusClass:"hold"},
+      {n:5,stepLabel:"STEP 05B",title:"比較から共通骨格の推奨案を選ぶ",note:"従来案では各行の第3案を推奨。新しい4系統の比較を踏まえ、共通骨格は単一作品へ寄せず、幾何学的な識別性、外線と内線の差、非対称なシルエット、控えめな眉・まぶた演技を組み合わせる。うさぎの耳、りすの安定した身体、ことりの頭身差は維持する。",file:"outputs/groups/05-main-three-character-design-step-1-unified-v2.png",status:"暫定選定",statusClass:"current"},
       {n:6,title:"役割を表す代表ポーズを選ぶ",note:"ことり2「聞く」、りす4「ひらめく」、うさぎ1「誘う」を推奨。骨格の次に、各先生が相手へどう関わるかを選んだ。",file:"outputs/groups/06-main-three-emotional-roughs-dialogue-overview-v1.png",status:"推奨選定",statusClass:"current"},
       {n:7,title:"りすの見分けやすさを見直す",note:"3案が似て見えたため、観察する、工夫する、提案するの違いが身体から読めるよう選択肢を作り直した。",file:"outputs/groups/07-main-three-consultation-group-pose-options-v2.png"},
       {n:8,title:"性格をどこで誇張するか比べる",note:"ことりは「小さなサインを聞き、返事を待つ慎重さ」、りすは「観察からひらめき、すぐ試したくなる好奇心」、うさぎは「先に誘い、相手へ合わせ直す快活さ」を表現。顔、翼・しっぽ・耳、重心のどこを強めると各性格が伝わるか比較した。ポーズ差へ偏ったため、正式案ではなく判断材料として残す。",file:"outputs/groups/08-main-three-prompt-b-step-2-personality-exaggeration-v1.png",status:"検討資料"},
@@ -130,7 +135,7 @@
         const card=document.createElement("article"); card.dataset.category=section.key;
         const status=item.status||"探索";
         const stepLabel=item.stepLabel||`STEP ${String(item.n).padStart(2,"0")}`;
-        card.innerHTML=`<button class="image-button" data-src="${item.file}" aria-label="${item.title}を拡大"><img src="${item.file}" alt="${item.title}" loading="lazy"></button><div class="info"><div class="meta"><span class="number">${stepLabel}</span><span class="status ${item.statusClass||""}">${status}</span></div><h3>${item.title}</h3><p class="note">${item.note}</p><code>${item.file.split("/").pop()}</code></div>`;
+        card.innerHTML=`<button class="image-button" data-src="${item.file}" aria-label="${item.title}を拡大"><img src="${item.file}" alt="${item.title}" loading="lazy"></button>${item.legend?`<div class="comparison-legend" aria-label="頭部形状が与える印象">${item.legend}</div>`:""}<div class="info"><div class="meta"><span class="number">${stepLabel}</span><span class="status ${item.statusClass||""}">${status}</span></div><h3>${item.title}</h3><p class="note">${item.note}</p><code>${item.file.split("/").pop()}</code></div>`;
         grid.appendChild(card);
       });
       root.appendChild(node);
