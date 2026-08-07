@@ -31,6 +31,8 @@
     .comparison-legend strong { display:block; font-size:11px; line-height:1.35; }
     .comparison-legend small { display:block; margin-top:4px; color:var(--muted); font-size:9px; line-height:1.35; }
     .grid.compare-grid { grid-template-columns:1fr; max-width:1400px; }
+    .grid.body-grid { grid-template-columns:1fr; max-width:1400px; }
+    .body-grid article img { height:auto; max-height:820px; }
     .before-after { display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--line); }
     .compare-panel { min-width:0; background:#faf7f4; }
     .compare-heading { display:flex; align-items:baseline; justify-content:space-between; gap:12px; padding:12px 16px; border-bottom:1px solid var(--line); background:var(--card); }
@@ -64,6 +66,7 @@
   <nav aria-label="表示対象">
     <button data-filter="groups" aria-pressed="true">現在の造形</button>
     <button data-filter="head-shape" aria-pressed="false">頭部 Before / After</button>
+    <button data-filter="body-shape" aria-pressed="false">体型</button>
     <button data-filter="handdrawn-line" aria-pressed="false">手描き線の検討</button>
     <button data-filter="style-options" aria-pressed="false">別系統の画風</button>
     <button data-filter="kotori" aria-pressed="false">Mimo</button>
@@ -121,6 +124,17 @@
       {stepLabel:"GEN",title:"Gen先生｜うさぎ：一般的な丸頭から、安定して伴走する応援者へ",beforeFile:"outputs/head-shape-comparison/02-usagi-before-generic-round-head.png",afterFile:"outputs/characters/usagi/11-usagi-supporter-emotion-acting-sheet-v1.png",beforeLabel:"均一な丸頭",afterLabel:"丸角四角＋低い頬",note:"旧案は動きが明快だが、ポーズごとに頭が円形へ戻りやすい。新案は側面を縦に保ち、目より下の頬を最も広く、顎を短く平らに固定。快活な上半身を支える安心感が生まれた。",points:["側面を縦に保つ","低い頬を最幅にする","短く広い顎で安定"]},
       {stepLabel:"LUKE",title:"Luke先生｜リス：丸い発明家から、観察する成人の探偵へ",beforeFile:"outputs/head-shape-comparison/03-risu-before-round-head.png",afterFile:"outputs/characters/risu/12-risu-detective-inventor-acting-sheet-v1.png",beforeLabel:"丸い共通頭部",afterLabel:"縦長の豆形＋短い口元",note:"旧案は道具とポーズで役割を説明していたが、顔だけでは幼く見えやすい。新案は頭を縦長にし、目を三人で最小に、頬と口元を控えめにして、観察・比較・考え直す41歳の人格を顔へ移した。",points:["横幅より縦を長く","小さな目を低めに配置","小耳と短い口元を固定"]}
     ]});
+    sections.push({key:"body-shape",label:"年齢・性表現による体型パターン",desc:"色、服、表情の影響を外し、動物別に体型の輪郭を比較した。横軸は子ども・若者・成人・高齢、縦軸は女性的・中性的・男性的な性表現。年齢差を主軸に、子どもの丸く短い身体、若者の細く長い身体、成人の厚み、高齢期の腹部・腰・脚のふくよかさを強調した。頭部は頭部形状 Before / After の推奨After案を適用している。",bodyGrid:true,items:[
+      {stepLabel:"推奨年齢",title:"三人の年齢差を体型へ反映する",note:"Mimo＝27歳の軽く高い重心、Gen＝39歳の安定した中央重心、Luke＝52歳の厚く低い重心として並べた強調案。全員を成人の同じ素体にせず、胴体幅、腹部、手足の厚み、接地感を段階的に変えている。Lukeの大柄さは年齢差を確認するために強めた比較値で、正式化の際は役割とのバランスを見て調整する。",file:"outputs/body-shape/00-main-three-recommended-age-body-lineup-v1.png",status:"年齢差の推奨案",statusClass:"current"},
+      {stepLabel:"MIMO 27",title:"Mimo先生｜選定体型を8つの傾聴動作へ展開",note:"細い雫形の胴体、長く細い脚、高い重心、縦長のAfter頭部を固定。聞く、身を寄せる、待つ、返す、考える各動作で、前屈や着座時にも丸い幼鳥素体へ戻らないかを確認した。",file:"outputs/body-shape/04-kotori-age27-body-acting-sheet-v1.png",status:"動作展開",statusClass:"current"},
+      {stepLabel:"GEN 39",title:"Gen先生｜選定体型を8つの応援動作へ展開",note:"肩と腰がほぼ同幅の丸角台形、中央のお腹、太い腿、大きな足、低めの重心を固定。立つ、踏み出す、しゃがむ、座る各動作でも、柔らかい成人の身体量と安定感を維持した。",file:"outputs/body-shape/05-usagi-age39-body-acting-sheet-v2.png",status:"動作展開",statusClass:"current"},
+      {stepLabel:"GEN 26",title:"Gen先生｜20代の若い成人として8つの応援動作へ展開",note:"性別非明示の中性的な体型を保ちながら、39歳版より胴体、腕、腿を軽くし、脚を長く、重心を少し高くした若年案。大きな足と長い腕、低い頬のAfter頭部は維持し、若さを幼さではなく動きの伸びと軽快さで表した。",file:"outputs/body-shape/05-usagi-age26-body-acting-sheet-v3.png",status:"20代案",statusClass:"current"},
+      {stepLabel:"LUKE 52",title:"Luke先生｜選定体型を8つの観察・発明動作へ展開",note:"広い上半身、厚い前腕、ふくよかな腹部、太い腿、短い脚、低い重心と大きな尻尾を固定。観察、比較、ひらめき、道具を試す場面で、前屈やしゃがみ時にも52歳の身体量を保った。",file:"outputs/body-shape/06-risu-age52-body-acting-sheet-v1.png",status:"動作展開",statusClass:"current"},
+      {stepLabel:"LUKE 35",title:"Luke先生｜30代女性として8つの観察・発明動作へ展開",note:"35歳の成人女性として、肩と腕を軽くし、腹部の厚みを抑え、胴体と脚を少し長くした若年案。腰から腿へ広がる下重心の輪郭、縦長のAfter頭部、大きな尻尾を保ち、観察、比較、ひらめき、道具を試す役割を維持した。",file:"outputs/body-shape/06-risu-age35-female-body-acting-sheet-v4.png",status:"30代女性案",statusClass:"current"},
+      {stepLabel:"GEN",title:"Gen先生｜うさぎ：低い頬の頭部と体型変化",note:"片耳を折った非対称性、目より下が広い頬、短く平らな顎を全年齢で維持。身体は、子どもの丸く短い形から、若者の細長さ、成人の安定、高齢期の腹部と腰まわりの厚みへ変化させた。",file:"outputs/body-shape/01-usagi-body-age-gender-after-head-v1.png",status:"体型案",statusClass:"current"},
+      {stepLabel:"LUKE",title:"Luke先生｜リス：縦長頭部と体型変化",note:"側面の立つ縦長頭部、小さく低い目、短い口元を全年齢で維持。大きな渦巻き尻尾とともに、若者の高い重心から、成人・高齢期の低く安定した重心へ移行させた。",file:"outputs/body-shape/02-risu-body-age-gender-after-head-v1.png",status:"体型案",statusClass:"current"},
+      {stepLabel:"MIMO",title:"Mimo先生｜小鳥：縦長の卵形頭部と体型変化",note:"頬を膨らませない縦長の卵形頭部、小さな目、菱形のくちばしを全年齢で維持。身長差だけでなく胴体輪郭を変え、子ども＝球形、若者＝細い雫形、成人＝胸郭から下腹部へ広がる卵形、高齢＝下側に重心のある幅広い洋梨形として描き分けた。",file:"outputs/body-shape/03-kotori-body-age-gender-after-head-v2.png",status:"体型案 v2",statusClass:"current"}
+    ]});
     sections.push({key:"handdrawn-line",label:"手描き線の揺れと崩し方を比べる",desc:"整った造形を保ちながら、線の揺れ、筆圧差、途切れ、重ね描き、身体の非対称をどこまで加えると温度が生まれるかを比較した追加検討。",items:[
       {stepLabel:"REFERENCE",title:"線の表情マップ",note:"曲率、太さ、揺れ、角、強弱を、暖かい・冷たい・可愛い・元気・手仕事・緊張感の6方向で整理した判断基準。",file:"outputs/handdrawn-line-study/reference-line-expression-map.svg",status:"基準"},
       {n:1,title:"鉛筆の手仕事感を強める",note:"5体の構成を維持し、鉛筆の揺れ、線圧のむら、かすれ、重ね描きを加えた。",file:"outputs/handdrawn-line-study/01-rabbit-pencil-rustic.png"},
@@ -144,7 +158,7 @@
     const root=document.getElementById("process");
     sections.forEach(section=>{
       const node=document.createElement("section"); node.dataset.section=section.key;
-      node.innerHTML=`<h2>${section.label}</h2><p>${section.desc}</p><div class="grid ${section.compare?"compare-grid":""}"></div>`;
+      node.innerHTML=`<h2>${section.label}</h2><p>${section.desc}</p><div class="grid ${section.compare?"compare-grid":""} ${section.bodyGrid?"body-grid":""}"></div>`;
       const grid=node.querySelector(".grid");
       section.items.forEach(item=>{
         const card=document.createElement("article"); card.dataset.category=section.key;
