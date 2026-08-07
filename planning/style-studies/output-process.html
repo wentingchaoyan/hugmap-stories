@@ -66,9 +66,9 @@
     <button data-filter="head-shape" aria-pressed="false">頭部 Before / After</button>
     <button data-filter="handdrawn-line" aria-pressed="false">手描き線の検討</button>
     <button data-filter="style-options" aria-pressed="false">別系統の画風</button>
-    <button data-filter="kotori" aria-pressed="false">ことり</button>
-    <button data-filter="risu" aria-pressed="false">りす</button>
-    <button data-filter="usagi" aria-pressed="false">うさぎ</button>
+    <button data-filter="kotori" aria-pressed="false">Mimo</button>
+    <button data-filter="risu" aria-pressed="false">Luke</button>
+    <button data-filter="usagi" aria-pressed="false">Gen</button>
     <button data-filter="children" aria-pressed="false">人物</button>
   </nav>
   <main id="process"></main>
@@ -86,9 +86,9 @@
       ["facial-parts-catalog-v3-handdrawn", "単純な顔へ手描き感を戻す", "簡略化した構造を維持しながら、揺れ、欠け、筆圧差で温度を加えた。"]
     ];
     const specs = {
-      kotori:{ label:"ことり先生", desc:"聞く・返す・待つ。現在の代表候補は「聞く」。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"] },
-      risu:{ label:"りす先生", desc:"観察・試す・選び直す。現在の代表候補は「ひらめく」。STEP 01の第3案を固定造形とし、青＝外形、橙＝耳、赤紫＝顔パーツ位置のガイドを重ねている。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"], overrides:{0:"outputs/characters/risu/01-risu-character-design-step-1-ratio-lock-guide-v1.png"} },
-      usagi:{ label:"うさぎ先生", desc:"誘う・気づく・合わせる。現在の代表候補は「誘う」。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"] }
+      kotori:{ label:"Mimo先生｜小鳥", desc:"聞く・返す・待つ。現在の代表候補は「聞く」。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"] },
+      risu:{ label:"Luke先生｜リス", desc:"観察・試す・選び直す。現在の代表候補は「ひらめく」。STEP 01の第3案を固定造形とし、青＝外形、橙＝耳、赤紫＝顔パーツ位置のガイドを重ねている。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"], overrides:{0:"outputs/characters/risu/01-risu-character-design-step-1-ratio-lock-guide-v1.png"} },
+      usagi:{ label:"Gen先生｜うさぎ", desc:"誘う・気づく・合わせる。現在の代表候補は「誘う」。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"] }
     };
     const sections = [];
     Object.entries(specs).forEach(([key,spec]) => {
@@ -109,17 +109,17 @@
       {n:3,title:"紙の素材感を優先した方向",note:"切り紙や色の重なりが生む絵本らしい温度と、小画面で素材感が弱まる課題を比較した。",file:"outputs/groups/03-main-three-collage-pose-sheet-v1.png"},
       {n:4,title:"記号性に小さな動きを加える方向",note:"単純な形を保ったまま、反復する仕草で性格を見せられるか試した。",file:"outputs/groups/04-main-three-playful-graphic-symbol-pose-sheet-v1.png"}
     ]},{key:"groups",label:"現在の造形を選び、役割へつなげる",desc:"代表的なアニメーション表現から造形原理を抽出して比較し、共通骨格、関わり方、識別性、性格の誇張、配色の順で具体化した本流。固有作品のキャラクターは写さず、比率、線、目、手足、シルエットの設計差だけを判断材料にしている。",items:[
-      {stepLabel:"REFERENCE 応用",title:"頭部形状を現在の三人へ適用する",note:"添付された三人の造形、服、ポーズを固定し、頭部だけを横方向に比較。各行は、上＝うさぎ先生、中＝ことり先生、下＝りす先生。最右列は、うさぎ＝丸＋下側の頬、ことり＝頬を膨らませない縦長の卵形、りす＝縦楕円＋短く前へ出る口元としている。",file:"outputs/groups/05b-main-three-head-shape-application-comparison-v1.png",legend:'<span><strong>正円</strong><small>幼い・無垢・親しみ</small></span><span><strong>縦長の楕円</strong><small>静か・繊細・慎重</small></span><span><strong>頬を出した形</strong><small>温かい・社交的・安心</small></span><span><strong>角の丸い四角</strong><small>実務的・安定・信頼</small></span><span><strong>役割別の推奨形</strong><small>固有性と役割を優先</small></span>',status:"実キャラ比較",statusClass:"hold"},
-      {n:5,stepLabel:"STEP 05B",title:"比較から共通骨格の推奨案を選ぶ",note:"従来案では各行の第3案を推奨。新しい4系統の比較を踏まえ、共通骨格は単一作品へ寄せず、幾何学的な識別性、外線と内線の差、非対称なシルエット、控えめな眉・まぶた演技を組み合わせる。うさぎの耳、りすの安定した身体、ことりの頭身差は維持する。",file:"outputs/groups/05-main-three-character-design-step-1-unified-v2.png",status:"暫定選定",statusClass:"current"},
-      {n:6,title:"役割を表す代表ポーズを選ぶ",note:"ことり2「聞く」、りす4「ひらめく」、うさぎ1「誘う」を推奨。骨格の次に、各先生が相手へどう関わるかを選んだ。",file:"outputs/groups/06-main-three-emotional-roughs-dialogue-overview-v1.png",status:"推奨選定",statusClass:"current"},
-      {n:7,title:"りすの見分けやすさを見直す",note:"3案が似て見えたため、観察する、工夫する、提案するの違いが身体から読めるよう選択肢を作り直した。",file:"outputs/groups/07-main-three-consultation-group-pose-options-v2.png"},
-      {n:8,title:"性格をどこで誇張するか比べる",note:"ことりは「小さなサインを聞き、返事を待つ慎重さ」、りすは「観察からひらめき、すぐ試したくなる好奇心」、うさぎは「先に誘い、相手へ合わせ直す快活さ」を表現。顔、翼・しっぽ・耳、重心のどこを強めると各性格が伝わるか比較した。ポーズ差へ偏ったため、正式案ではなく判断材料として残す。",file:"outputs/groups/08-main-three-prompt-b-step-2-personality-exaggeration-v1.png",status:"検討資料"},
-      {n:9,title:"選定ポーズを共通骨格に揃えて配色する",note:"STEP 05の推奨骨格へ頭身・胴体幅・手足の大きさを合わせ、ことり＝黄、りす＝橙、うさぎ＝白とワイン紫を適用。りすは鼻と口の周囲だけに白いマズルを加え、顔の識別性も比較している。",file:"outputs/groups/09-main-three-selected-emotional-poses-color-study-v2.png",status:"現在地",statusClass:"current"}
+      {stepLabel:"REFERENCE 応用",title:"頭部形状を現在の三人へ適用する",note:"添付された三人の造形、服、ポーズを固定し、頭部だけを横方向に比較。各行は、上＝Gen、中＝Mimo、下＝Luke。最右列は、Gen＝丸＋下側の頬、Mimo＝頬を膨らませない縦長の卵形、Luke＝縦楕円＋短く前へ出る口元としている。",file:"outputs/groups/05b-main-three-head-shape-application-comparison-v1.png",legend:'<span><strong>正円</strong><small>幼い・無垢・親しみ</small></span><span><strong>縦長の楕円</strong><small>静か・繊細・慎重</small></span><span><strong>頬を出した形</strong><small>温かい・社交的・安心</small></span><span><strong>角の丸い四角</strong><small>実務的・安定・信頼</small></span><span><strong>役割別の推奨形</strong><small>固有性と役割を優先</small></span>',status:"実キャラ比較",statusClass:"hold"},
+      {n:5,stepLabel:"STEP 05B",title:"比較から共通骨格の推奨案を選ぶ",note:"従来案では各行の第3案を推奨。新しい4系統の比較を踏まえ、共通骨格は単一作品へ寄せず、幾何学的な識別性、外線と内線の差、非対称なシルエット、控えめな眉・まぶた演技を組み合わせる。Genの耳、Lukeの安定した身体、Mimoの頭身差は維持する。",file:"outputs/groups/05-main-three-character-design-step-1-unified-v2.png",status:"暫定選定",statusClass:"current"},
+      {n:6,title:"役割を表す代表ポーズを選ぶ",note:"Mimo 2「聞く」、Luke 4「ひらめく」、Gen 1「誘う」を推奨。骨格の次に、各先生が相手へどう関わるかを選んだ。",file:"outputs/groups/06-main-three-emotional-roughs-dialogue-overview-v1.png",status:"推奨選定",statusClass:"current"},
+      {n:7,title:"Lukeの見分けやすさを見直す",note:"3案が似て見えたため、観察する、工夫する、提案するの違いが身体から読めるよう選択肢を作り直した。",file:"outputs/groups/07-main-three-consultation-group-pose-options-v2.png"},
+      {n:8,title:"性格をどこで誇張するか比べる",note:"Mimoは「小さなサインを聞き、返事を待つ慎重さ」、Lukeは「観察からひらめき、すぐ試したくなる好奇心」、Genは「先に誘い、相手へ合わせ直す快活さ」を表現。顔、翼・しっぽ・耳、重心のどこを強めると各性格が伝わるか比較した。ポーズ差へ偏ったため、正式案ではなく判断材料として残す。",file:"outputs/groups/08-main-three-prompt-b-step-2-personality-exaggeration-v1.png",status:"検討資料"},
+      {n:9,title:"選定ポーズを共通骨格に揃えて配色する",note:"STEP 05の推奨骨格へ頭身・胴体幅・手足の大きさを合わせ、Mimo＝黄、Luke＝橙、Gen＝白とワイン紫を適用。Lukeは鼻と口の周囲だけに白いマズルを加え、顔の識別性も比較している。",file:"outputs/groups/09-main-three-selected-emotional-poses-color-study-v2.png",status:"現在地",statusClass:"current"}
     ]});
     sections.push({key:"head-shape",label:"頭部形状の Before / After",desc:"身体演技の内容を大きく変えず、頭部モデルだけを役割に合わせて固定した比較。左が従来の丸い共通頭部、右が現在の推奨頭部。頭の縦横比、頬、顎、目の位置が人格の読み取りへどう影響するかを確認する。",compare:true,items:[
-      {stepLabel:"KOTORI",title:"ことり先生：丸い小鳥から、静かに受け取る傾聴者へ",beforeFile:"outputs/head-shape-comparison/01-kotori-before-round-head.png",afterFile:"outputs/characters/kotori/10-kotori-listener-emotion-acting-sheet-v1.png",beforeLabel:"正円に近い頭",afterLabel:"縦長の卵形",note:"旧案は親しみやすい一方、幼い小鳥や一般的なマスコットに見えやすい。新案は頬を膨らませず縦方向へ流し、目の大きさを固定。静かに聴き、待つ若い大人の印象を強めた。",points:["縦方向へ伸ばす","頬を足さない","まぶたと傾きで傾聴"]},
-      {stepLabel:"USAGI",title:"うさぎ先生：一般的な丸頭から、安定して伴走する応援者へ",beforeFile:"outputs/head-shape-comparison/02-usagi-before-generic-round-head.png",afterFile:"outputs/characters/usagi/11-usagi-supporter-emotion-acting-sheet-v1.png",beforeLabel:"均一な丸頭",afterLabel:"丸角四角＋低い頬",note:"旧案は動きが明快だが、ポーズごとに頭が円形へ戻りやすい。新案は側面を縦に保ち、目より下の頬を最も広く、顎を短く平らに固定。快活な上半身を支える安心感が生まれた。",points:["側面を縦に保つ","低い頬を最幅にする","短く広い顎で安定"]},
-      {stepLabel:"RISU",title:"りす先生：丸い発明家から、観察する成人の探偵へ",beforeFile:"outputs/head-shape-comparison/03-risu-before-round-head.png",afterFile:"outputs/characters/risu/12-risu-detective-inventor-acting-sheet-v1.png",beforeLabel:"丸い共通頭部",afterLabel:"縦長の豆形＋短い口元",note:"旧案は道具とポーズで役割を説明していたが、顔だけでは幼く見えやすい。新案は頭を縦長にし、目を三人で最小に、頬と口元を控えめにして、観察・比較・考え直す41歳の人格を顔へ移した。",points:["横幅より縦を長く","小さな目を低めに配置","小耳と短い口元を固定"]}
+      {stepLabel:"MIMO",title:"Mimo先生｜小鳥：丸い小鳥から、静かに受け取る傾聴者へ",beforeFile:"outputs/head-shape-comparison/01-kotori-before-round-head.png",afterFile:"outputs/characters/kotori/10-kotori-listener-emotion-acting-sheet-v1.png",beforeLabel:"正円に近い頭",afterLabel:"縦長の卵形",note:"旧案は親しみやすい一方、幼い小鳥や一般的なマスコットに見えやすい。新案は頬を膨らませず縦方向へ流し、目の大きさを固定。静かに聴き、待つ若い大人の印象を強めた。",points:["縦方向へ伸ばす","頬を足さない","まぶたと傾きで傾聴"]},
+      {stepLabel:"GEN",title:"Gen先生｜うさぎ：一般的な丸頭から、安定して伴走する応援者へ",beforeFile:"outputs/head-shape-comparison/02-usagi-before-generic-round-head.png",afterFile:"outputs/characters/usagi/11-usagi-supporter-emotion-acting-sheet-v1.png",beforeLabel:"均一な丸頭",afterLabel:"丸角四角＋低い頬",note:"旧案は動きが明快だが、ポーズごとに頭が円形へ戻りやすい。新案は側面を縦に保ち、目より下の頬を最も広く、顎を短く平らに固定。快活な上半身を支える安心感が生まれた。",points:["側面を縦に保つ","低い頬を最幅にする","短く広い顎で安定"]},
+      {stepLabel:"LUKE",title:"Luke先生｜リス：丸い発明家から、観察する成人の探偵へ",beforeFile:"outputs/head-shape-comparison/03-risu-before-round-head.png",afterFile:"outputs/characters/risu/12-risu-detective-inventor-acting-sheet-v1.png",beforeLabel:"丸い共通頭部",afterLabel:"縦長の豆形＋短い口元",note:"旧案は道具とポーズで役割を説明していたが、顔だけでは幼く見えやすい。新案は頭を縦長にし、目を三人で最小に、頬と口元を控えめにして、観察・比較・考え直す41歳の人格を顔へ移した。",points:["横幅より縦を長く","小さな目を低めに配置","小耳と短い口元を固定"]}
     ]});
     sections.push({key:"handdrawn-line",label:"手描き線の揺れと崩し方を比べる",desc:"整った造形を保ちながら、線の揺れ、筆圧差、途切れ、重ね描き、身体の非対称をどこまで加えると温度が生まれるかを比較した追加検討。",items:[
       {stepLabel:"REFERENCE",title:"線の表情マップ",note:"曲率、太さ、揺れ、角、強弱を、暖かい・冷たい・可愛い・元気・手仕事・緊張感の6方向で整理した判断基準。",file:"outputs/handdrawn-line-study/reference-line-expression-map.svg",status:"基準"},
@@ -127,8 +127,8 @@
       {n:2,title:"一発描きのペン線へ置き換える",note:"太く不均一な線、省略した手足、少し困った表情で、素朴な愛嬌を試した。",file:"outputs/handdrawn-line-study/02-rabbit-loose-pen.png"},
       {n:3,title:"性格ポーズへ線だけを適用する",note:"6つの性格とポーズを維持したまま、整った輪郭へ手描き線を加えた初期案。線幅以外の差が弱い課題が残った。",file:"outputs/handdrawn-line-study/03-rabbit-personality-clean.png",status:"初期案"},
       {n:4,title:"身体の重心まで崩して性格を出す",note:"輪郭だけでなく、左右差、手足の省略、姿勢の傾き、身振りを変えて性格差を強めた。",file:"outputs/handdrawn-line-study/04-rabbit-personality-loose.png",status:"方向性"},
-      {n:5,title:"ことりの8ポーズへ展開する",note:"丸い素体の反復を避け、頭身、翼、足、重心をポーズごとに描き分けた。",file:"outputs/handdrawn-line-study/05-bird-gesture-loose.png"},
-      {n:6,title:"りすの8動作へ展開する",note:"作業着と渦巻きの尻尾を保ち、動作に合わせて姿勢、手、体型の揺れを加えた。",file:"outputs/handdrawn-line-study/06-squirrel-action-loose.png"},
+      {n:5,title:"Mimoの8ポーズへ展開する",note:"丸い素体の反復を避け、頭身、翼、足、重心をポーズごとに描き分けた。",file:"outputs/handdrawn-line-study/05-bird-gesture-loose.png"},
+      {n:6,title:"Lukeの8動作へ展開する",note:"作業着と渦巻きの尻尾を保ち、動作に合わせて姿勢、手、体型の揺れを加えた。",file:"outputs/handdrawn-line-study/06-squirrel-action-loose.png"},
       {n:7,title:"3種の比較表へ控えめに適用する",note:"共通骨格を優先したため、元画像との差が線の太さへ偏った案。",file:"outputs/handdrawn-line-study/07-unified-study-subtle.png",status:"控えめ"},
       {n:11,title:"線の崩れをもう一段強める",note:"中間的な造形を維持し、途切れ、重なり、不完全な接続、描き直し跡を強めた現在の比較候補。",file:"outputs/handdrawn-line-study/11-unified-study-line-pass-2.png",status:"現在地",statusClass:"current"}
     ]});
@@ -137,7 +137,7 @@
       {n:2,title:"人物のキャラクター型",note:"感情と出来事の明快さを確認。",file:"outputs/children/02-child-animated-study-v1.png"},
       {n:3,title:"人物の水彩型",note:"生活場面の温度と背景量を確認。",file:"outputs/children/03-child-watercolor-life-study-v1.png"},
       {n:4,title:"人物の線画型",note:"思考、時間、余白を表現できる現在の第一候補。",file:"outputs/children/04-child-line-sketch-study-v1.png",status:"第一候補",statusClass:"current"},
-      {n:5,title:"子ども＋ことりの統一",note:"人物と動物を同じ線の密度へ近づけた初期試作。",file:"outputs/children/05-boy-kotori-unified-style-v1.png"},
+      {n:5,title:"子ども＋Mimoの統一",note:"人物と動物を同じ線の密度へ近づけた初期試作。",file:"outputs/children/05-boy-kotori-unified-style-v1.png"},
       {n:6,title:"人物を動物側へ合わせる",note:"動物の画風へ人物を寄せた場合の違和感を比較。",file:"outputs/children/06-boy-matched-to-animal-style-v2.png"}
     ]});
 
