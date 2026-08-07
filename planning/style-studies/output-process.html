@@ -30,6 +30,15 @@
     .comparison-legend span { min-width:0; padding:9px 6px; background:#faf7f4; text-align:center; }
     .comparison-legend strong { display:block; font-size:11px; line-height:1.35; }
     .comparison-legend small { display:block; margin-top:4px; color:var(--muted); font-size:9px; line-height:1.35; }
+    .grid.compare-grid { grid-template-columns:1fr; max-width:1400px; }
+    .before-after { display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--line); }
+    .compare-panel { min-width:0; background:#faf7f4; }
+    .compare-heading { display:flex; align-items:baseline; justify-content:space-between; gap:12px; padding:12px 16px; border-bottom:1px solid var(--line); background:var(--card); }
+    .compare-heading strong { color:var(--wine); font-size:13px; letter-spacing:.08em; }
+    .compare-heading span { color:var(--muted); font-size:11px; }
+    .before-after .image-button img { height:360px; }
+    .change-points { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; margin:0 0 14px; }
+    .change-points span { padding:9px 10px; border:1px solid var(--line); border-radius:10px; background:#faf7f4; color:var(--muted); font-size:11px; line-height:1.5; }
     .info { display:flex; flex:1; flex-direction:column; padding:16px; }
     .meta { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:10px; }
     .number { color:var(--orange); font-size:12px; font-weight:800; letter-spacing:.08em; }
@@ -43,7 +52,7 @@
     dialog::backdrop { background:rgba(35,26,23,.7); }
     dialog img { display:block; width:100%; max-height:82vh; object-fit:contain; background:#faf7f4; }
     dialog button { position:absolute; top:12px; right:12px; width:40px; height:40px; border:1px solid var(--line); border-radius:50%; background:rgba(255,253,251,.94); font-size:22px; cursor:pointer; }
-    @media (max-width:680px) { .flow { grid-template-columns:1fr; }.flow div:not(:last-child)::after { content:"↓"; top:auto; right:50%; bottom:-13px; } article img { height:190px; } .comparison-legend { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media (max-width:680px) { .flow { grid-template-columns:1fr; }.flow div:not(:last-child)::after { content:"↓"; top:auto; right:50%; bottom:-13px; } article img { height:190px; } .comparison-legend { grid-template-columns:repeat(2,minmax(0,1fr)); } .before-after { grid-template-columns:1fr; } .before-after .image-button img { height:260px; } .change-points { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -54,6 +63,7 @@
   </header>
   <nav aria-label="表示対象">
     <button data-filter="groups" aria-pressed="true">現在の造形</button>
+    <button data-filter="head-shape" aria-pressed="false">頭部 Before / After</button>
     <button data-filter="handdrawn-line" aria-pressed="false">手描き線の検討</button>
     <button data-filter="style-options" aria-pressed="false">別系統の画風</button>
     <button data-filter="kotori" aria-pressed="false">ことり</button>
@@ -106,6 +116,11 @@
       {n:8,title:"性格をどこで誇張するか比べる",note:"ことりは「小さなサインを聞き、返事を待つ慎重さ」、りすは「観察からひらめき、すぐ試したくなる好奇心」、うさぎは「先に誘い、相手へ合わせ直す快活さ」を表現。顔、翼・しっぽ・耳、重心のどこを強めると各性格が伝わるか比較した。ポーズ差へ偏ったため、正式案ではなく判断材料として残す。",file:"outputs/groups/08-main-three-prompt-b-step-2-personality-exaggeration-v1.png",status:"検討資料"},
       {n:9,title:"選定ポーズを共通骨格に揃えて配色する",note:"STEP 05の推奨骨格へ頭身・胴体幅・手足の大きさを合わせ、ことり＝黄、りす＝橙、うさぎ＝白とワイン紫を適用。りすは鼻と口の周囲だけに白いマズルを加え、顔の識別性も比較している。",file:"outputs/groups/09-main-three-selected-emotional-poses-color-study-v2.png",status:"現在地",statusClass:"current"}
     ]});
+    sections.push({key:"head-shape",label:"頭部形状の Before / After",desc:"身体演技の内容を大きく変えず、頭部モデルだけを役割に合わせて固定した比較。左が従来の丸い共通頭部、右が現在の推奨頭部。頭の縦横比、頬、顎、目の位置が人格の読み取りへどう影響するかを確認する。",compare:true,items:[
+      {stepLabel:"KOTORI",title:"ことり先生：丸い小鳥から、静かに受け取る傾聴者へ",beforeFile:"outputs/head-shape-comparison/01-kotori-before-round-head.png",afterFile:"outputs/characters/kotori/10-kotori-listener-emotion-acting-sheet-v1.png",beforeLabel:"正円に近い頭",afterLabel:"縦長の卵形",note:"旧案は親しみやすい一方、幼い小鳥や一般的なマスコットに見えやすい。新案は頬を膨らませず縦方向へ流し、目の大きさを固定。静かに聴き、待つ若い大人の印象を強めた。",points:["縦方向へ伸ばす","頬を足さない","まぶたと傾きで傾聴"]},
+      {stepLabel:"USAGI",title:"うさぎ先生：一般的な丸頭から、安定して伴走する応援者へ",beforeFile:"outputs/head-shape-comparison/02-usagi-before-generic-round-head.png",afterFile:"outputs/characters/usagi/11-usagi-supporter-emotion-acting-sheet-v1.png",beforeLabel:"均一な丸頭",afterLabel:"丸角四角＋低い頬",note:"旧案は動きが明快だが、ポーズごとに頭が円形へ戻りやすい。新案は側面を縦に保ち、目より下の頬を最も広く、顎を短く平らに固定。快活な上半身を支える安心感が生まれた。",points:["側面を縦に保つ","低い頬を最幅にする","短く広い顎で安定"]},
+      {stepLabel:"RISU",title:"りす先生：丸い発明家から、観察する成人の探偵へ",beforeFile:"outputs/head-shape-comparison/03-risu-before-round-head.png",afterFile:"outputs/characters/risu/12-risu-detective-inventor-acting-sheet-v1.png",beforeLabel:"丸い共通頭部",afterLabel:"縦長の豆形＋短い口元",note:"旧案は道具とポーズで役割を説明していたが、顔だけでは幼く見えやすい。新案は頭を縦長にし、目を三人で最小に、頬と口元を控えめにして、観察・比較・考え直す41歳の人格を顔へ移した。",points:["横幅より縦を長く","小さな目を低めに配置","小耳と短い口元を固定"]}
+    ]});
     sections.push({key:"handdrawn-line",label:"手描き線の揺れと崩し方を比べる",desc:"整った造形を保ちながら、線の揺れ、筆圧差、途切れ、重ね描き、身体の非対称をどこまで加えると温度が生まれるかを比較した追加検討。",items:[
       {stepLabel:"REFERENCE",title:"線の表情マップ",note:"曲率、太さ、揺れ、角、強弱を、暖かい・冷たい・可愛い・元気・手仕事・緊張感の6方向で整理した判断基準。",file:"outputs/handdrawn-line-study/reference-line-expression-map.svg",status:"基準"},
       {n:1,title:"鉛筆の手仕事感を強める",note:"5体の構成を維持し、鉛筆の揺れ、線圧のむら、かすれ、重ね描きを加えた。",file:"outputs/handdrawn-line-study/01-rabbit-pencil-rustic.png"},
@@ -129,13 +144,18 @@
     const root=document.getElementById("process");
     sections.forEach(section=>{
       const node=document.createElement("section"); node.dataset.section=section.key;
-      node.innerHTML=`<h2>${section.label}</h2><p>${section.desc}</p><div class="grid"></div>`;
+      node.innerHTML=`<h2>${section.label}</h2><p>${section.desc}</p><div class="grid ${section.compare?"compare-grid":""}"></div>`;
       const grid=node.querySelector(".grid");
       section.items.forEach(item=>{
         const card=document.createElement("article"); card.dataset.category=section.key;
         const status=item.status||"探索";
         const stepLabel=item.stepLabel||`STEP ${String(item.n).padStart(2,"0")}`;
-        card.innerHTML=`<button class="image-button" data-src="${item.file}" aria-label="${item.title}を拡大"><img src="${item.file}" alt="${item.title}" loading="lazy"></button>${item.legend?`<div class="comparison-legend" aria-label="頭部形状が与える印象">${item.legend}</div>`:""}<div class="info"><div class="meta"><span class="number">${stepLabel}</span><span class="status ${item.statusClass||""}">${status}</span></div><h3>${item.title}</h3><p class="note">${item.note}</p><code>${item.file.split("/").pop()}</code></div>`;
+        if(item.beforeFile){
+          const points=(item.points||[]).map(point=>`<span>${point}</span>`).join("");
+          card.innerHTML=`<div class="before-after"><div class="compare-panel"><div class="compare-heading"><strong>BEFORE</strong><span>${item.beforeLabel}</span></div><button class="image-button" data-src="${item.beforeFile}" aria-label="${item.title}の変更前を拡大"><img src="${item.beforeFile}" alt="${item.title}の変更前" loading="lazy"></button></div><div class="compare-panel"><div class="compare-heading"><strong>AFTER</strong><span>${item.afterLabel}</span></div><button class="image-button" data-src="${item.afterFile}" aria-label="${item.title}の変更後を拡大"><img src="${item.afterFile}" alt="${item.title}の変更後" loading="lazy"></button></div></div><div class="info"><div class="meta"><span class="number">${stepLabel}</span><span class="status current">頭部固定</span></div><h3>${item.title}</h3><div class="change-points">${points}</div><p class="note">${item.note}</p><code>${item.beforeFile.split("/").pop()} → ${item.afterFile.split("/").pop()}</code></div>`;
+        }else{
+          card.innerHTML=`<button class="image-button" data-src="${item.file}" aria-label="${item.title}を拡大"><img src="${item.file}" alt="${item.title}" loading="lazy"></button>${item.legend?`<div class="comparison-legend" aria-label="頭部形状が与える印象">${item.legend}</div>`:""}<div class="info"><div class="meta"><span class="number">${stepLabel}</span><span class="status ${item.statusClass||""}">${status}</span></div><h3>${item.title}</h3><p class="note">${item.note}</p><code>${item.file.split("/").pop()}</code></div>`;
+        }
         grid.appendChild(card);
       });
       root.appendChild(node);
