@@ -6,6 +6,8 @@
 
 決定の記録先: [`open-decisions.md`](open-decisions.md)
 
+成人マスコットの年齢表現、頭部識別、成人性の分担は、[`character-age-and-recognition-policy.md`](character-age-and-recognition-policy.md)を参照する。
+
 ## 1. 今回決めること
 
 絵本、アイコン、LINEスタンプへ展開できる共通の画風を決める。
