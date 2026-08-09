@@ -83,11 +83,12 @@
           <li><span class="decision-state">決定</span>無難な造形は親しみやすい一方で記憶に残りにくいため、頭の輪郭、比率、頬、顎を三人それぞれに特徴づける。</li>
           <li><span class="decision-state hold">保留</span>年齢・性別による体型差も検討したが、可愛さが弱くなったため身体への直接反映はいったん戻し、After頭部と共通の柔らかい素体を採用する。</li>
           <li><span class="decision-state">FIX</span>代表ポーズによって三人の役割と感情を伝える方針は確定する。</li>
+          <li><span class="decision-state">FIX</span>After頭部とC案の身体比率を使い、正面・側面・背面のニュートラル三面図と、全高・頭部寸法・中心軸・接地線のpx基準を固定する。</li>
         </ol>
       </div>
       <div class="decision-panel todo-panel">
         <h2>TODO｜次の制作</h2>
-        <p>上記を確定後、正面・側面・背面の三面図を作成して頭身、顔パーツ、耳・翼・尻尾の位置を固定し、その後に色を付ける。</p>
+        <p>三面図とpx基準をもとに、正面・側面・背面で服、顔パーツ、耳・翼・尻尾の接続を微調整し、最終配色を固定する。</p>
       </div>
     </div>
   </aside>
@@ -145,7 +146,8 @@
       {n:6,title:"役割を表す代表ポーズを選ぶ",note:"Mimo 2「聞く」、Luke 4「ひらめく」、Gen 1「誘う」を推奨。骨格の次に、各先生が相手へどう関わるかを選んだ。",file:"outputs/groups/06-main-three-emotional-roughs-dialogue-overview-v1.png",status:"推奨選定",statusClass:"current"},
       {n:7,title:"Lukeの見分けやすさを見直す",note:"3案が似て見えたため、観察する、工夫する、提案するの違いが身体から読めるよう選択肢を作り直した。",file:"outputs/groups/07-main-three-consultation-group-pose-options-v2.png"},
       {n:8,title:"性格をどこで誇張するか比べる",note:"Mimoは「小さなサインを聞き、返事を待つ慎重さ」、Lukeは「観察からひらめき、すぐ試したくなる好奇心」、Genは「先に誘い、相手へ合わせ直す快活さ」を表現。顔、翼・しっぽ・耳、重心のどこを強めると各性格が伝わるか比較した。ポーズ差へ偏ったため、正式案ではなく判断材料として残す。",file:"outputs/groups/08-main-three-prompt-b-step-2-personality-exaggeration-v1.png",status:"検討資料"},
-      {n:9,title:"選定ポーズを共通骨格に揃えて配色する",note:"STEP 05の推奨骨格へ頭身・胴体幅・手足の大きさを合わせ、Mimo＝黄、Luke＝橙、Gen＝白とワイン紫を適用。Lukeは鼻と口の周囲だけに白いマズルを加え、顔の識別性も比較している。",file:"outputs/groups/09-main-three-selected-emotional-poses-color-study-v2.png",status:"現在地",statusClass:"current"}
+      {n:9,title:"選定ポーズを共通骨格に揃えて配色する",note:"STEP 05の推奨骨格へ頭身・胴体幅・手足の大きさを合わせ、Mimo＝黄、Luke＝橙、Gen＝白とワイン紫を適用。Lukeは鼻と口の周囲だけに白いマズルを加え、顔の識別性も比較している。",file:"outputs/groups/09-main-three-selected-emotional-poses-color-study-v2.png",status:"配色比較",statusClass:"hold"},
+      {n:12,title:"After頭部とC案の比率を三面図へ固定する",note:"Mimo、Gen、Lukeをポーズのない正面・側面・背面へ展開。正面図を計測基準に、全高、耳・冠羽を除く頭部の縦横寸法、三方向の中心軸、頭頂・顎・接地位置をpx単位で可視化した。1536×1024上の基準値はMimo＝全高293px・頭98×128px、Gen＝全高313px・頭142×110px、Luke＝全高280px・頭92×99px。",file:"outputs/groups/12-main-three-after-head-neutral-turnaround-measurement-guide-v1.png",status:"三面図・寸法基準FIX",statusClass:"current"}
     ]});
     sections.push({key:"head-shape",label:"頭部特徴あり",desc:"無難な共通頭部は記憶に残りにくいため、身体演技を維持したまま頭部だけを役割に合わせて特徴づけた比較。左が従来の丸い共通頭部、右が現在の推奨頭部。頭の縦横比、頬、顎、目の位置が人格の読み取りへどう影響するかを確認する。",compare:true,items:[
       {stepLabel:"MIMO",title:"Mimo先生｜小鳥：丸い小鳥から、静かに受け取る傾聴者へ",beforeFile:"outputs/head-shape-comparison/01-kotori-before-round-head.png",afterFile:"outputs/characters/kotori/10-kotori-listener-emotion-acting-sheet-v1.png",beforeLabel:"正円に近い頭",afterLabel:"縦長の卵形",note:"旧案は親しみやすい一方、幼い小鳥や一般的なマスコットに見えやすい。新案は頬を膨らませず縦方向へ流し、目の大きさを固定。静かに聴き、待つ若い大人の印象を強めた。",points:["縦方向へ伸ばす","頬を足さない","まぶたと傾きで傾聴"]},
