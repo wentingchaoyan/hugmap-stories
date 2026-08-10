@@ -74,7 +74,7 @@
   <header>
     <h1>キャラクター造形の検討記録</h1>
     <p>番号は完成度ではなく、判断を重ねた順番です。別系統の画風比較と現在の造形本流を分け、骨格、関わり方、識別性、誇張、配色の順に、何を残して何を見直したかを追えるようにしています。</p>
-    <div class="flow" aria-label="制作工程"><div>無難な造形を確認</div><div>代表ポーズをFIX</div><div>頭部を特徴づける</div><div>体型差を保留</div><div>三面図を固定</div><div>色を決める</div></div>
+    <div class="flow" aria-label="制作工程"><div>無難な造形を確認</div><div>代表ポーズをFIX</div><div>頭部を特徴づける</div><div>C案の身体をFIX</div><div>頭部と配色をFIX</div><div>三面図・px基準をFIX</div></div>
   </header>
   <aside class="decision-summary" aria-labelledby="decision-title">
     <div class="decision-summary-inner">
@@ -82,14 +82,15 @@
         <h2 id="decision-title">意思決定</h2>
         <ol>
           <li><span class="decision-state">決定</span>無難な造形は親しみやすい一方で記憶に残りにくいため、頭の輪郭、比率、頬、顎を三人それぞれに特徴づける。</li>
-          <li><span class="decision-state hold">保留</span>年齢・性別による体型差も検討したが、可愛さが弱くなったため身体への直接反映はいったん戻し、After頭部と共通の柔らかい素体を採用する。</li>
+          <li><span class="decision-state">FIX</span>年齢・性別による大きな体型差は直接反映せず、頭部を保ちながら胴体と手足を小さくしたC案の柔らかい素体を採用する。</li>
           <li><span class="decision-state">FIX</span>代表ポーズによって三人の役割と感情を伝える方針は確定する。</li>
-          <li><span class="decision-state">FIX</span>After頭部とC案の身体比率を使い、正面・側面・背面のニュートラル三面図と、全高・頭部寸法・中心軸・接地線のpx基準を固定する。</li>
+          <li><span class="decision-state">FIX</span>Lukeは柔らかい縦長頭部、豆形の白い口元、#FF511Bの毛色、グレージュのベストを最終造形とする。</li>
+          <li><span class="decision-state">FIX</span>三人の正面・側面・背面を無彩色の線画で統一し、Lukeの白い口元、耳、ベスト、尻尾の接続とpx寸法を更新する。</li>
         </ol>
       </div>
       <div class="decision-panel todo-panel">
         <h2>TODO｜次の制作</h2>
-        <p>三面図とpx基準をもとに、正面・側面・背面で服、顔パーツ、耳・翼・尻尾の接続を微調整し、最終配色を固定する。</p>
+        <p>更新した三面図とpx基準をもとに、32px前後の顔＋肩表示で三人の識別性を確認する。あわせてLukeの8動作で頭部、白面、耳、ベスト、尻尾が基準造形から崩れていないか最終確認する。</p>
       </div>
     </div>
   </aside>
@@ -120,7 +121,7 @@
     ];
     const specs = {
       kotori:{ label:"Mimo先生｜小鳥", desc:"聞く・返す・待つ。現在の代表候補は「聞く」。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"] },
-      risu:{ label:"Luke先生｜リス", desc:"観察・試す・選び直す。現在の代表候補は「ひらめく」。STEP 01の第3案を固定造形とし、青＝外形、橙＝耳、赤紫＝顔パーツ位置のガイドを重ねている。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"], overrides:{0:"outputs/characters/risu/01-risu-character-design-step-1-ratio-lock-guide-v1.png"} },
+      risu:{ label:"Luke先生｜リス", desc:"観察・試す・選び直す。代表ポーズは「ひらめく」。初期の縦長頭部を見直し、現在は柔らかい縦長頭部、豆形の白い口元、#FF511Bの毛色、グレージュのベストを固定造形としている。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"], overrides:{0:"outputs/characters/risu/01-risu-character-design-step-1-ratio-lock-guide-v1.png"} },
       usagi:{ label:"Gen先生｜うさぎ", desc:"誘う・気づく・合わせる。現在の代表候補は「誘う」。", files:["v1","v1","v2","v1","v1","v1","v1","v2","v3"] }
     };
     const sections = [];
@@ -150,11 +151,11 @@
       {n:9,title:"選定ポーズを共通骨格に揃えて配色する",note:"STEP 05の推奨骨格へ頭身・胴体幅・手足の大きさを合わせ、Mimo＝黄、Luke＝橙、Gen＝白とワイン紫を適用。Lukeは鼻と口の周囲だけに白いマズルを加え、顔の識別性も比較している。",file:"outputs/groups/09-main-three-selected-emotional-poses-color-study-v2.png",status:"配色比較",statusClass:"hold"}
     ]});
     sections.push({key:"head-shape",label:"頭部特徴あり",desc:"無難な共通頭部は記憶に残りにくいため、身体演技を維持したまま頭部だけを役割に合わせて特徴づけた比較。左が従来の丸い共通頭部、右が現在の推奨頭部。頭の縦横比、頬、顎、目の位置が人格の読み取りへどう影響するかを確認する。",compare:true,items:[
-      {stepLabel:"COLOR LINEUP",title:"頭部特徴と現在の配色を三人で確認する",note:"Mimoの落ち着いた黄、Genの白とワイン、Lukeの柔らかい頭部・豆形の白い口元・#FF511Bの毛色を一枚に統合。三人を同じ接地線へ並べ、頭部の識別性と色面の強さを確認する現在の比較案。",file:"outputs/groups/26-main-three-head-color-lineup-ff511b-v1.png",status:"配色・頭部比較",statusClass:"current"},
-      {n:12,title:"三人の基準造形を三面図とpx寸法で確定する",note:"Mimo、Gen、Lukeをポーズのない正面・側面・背面へ展開。正面図を計測基準に、全高、耳・冠羽を除く頭部の縦横寸法、三方向の中心軸、頭頂・顎・接地位置をpx単位で可視化した。1536×1024上の基準値はMimo＝全高293px・頭98×128px、Gen＝全高313px・頭142×110px、Luke＝全高280px・頭92×99px。",file:"outputs/groups/12-main-three-after-head-neutral-turnaround-measurement-guide-v1.png",status:"三面図・寸法基準FIX",statusClass:"current"},
+      {stepLabel:"COLOR LINEUP",title:"三人の頭部特徴と配色を最終決定する",note:"Mimoの落ち着いた黄、Genの白とワイン、Lukeの柔らかい縦長頭部・豆形の白い口元・#FF511Bの毛色を一枚に統合。三人を同じ接地線へ並べ、造形と配色の両方を最終案として固定した。",file:"outputs/groups/26-main-three-head-color-lineup-ff511b-v1.png",status:"造形・配色FIX",statusClass:"current"},
+      {n:12,title:"三人の三面図とpx寸法を無彩色線画で統一する",note:"Mimo、Gen、Lukeを同じ無彩色の線画、中心軸、頭部ガイド、接地線で統一。Lukeは柔らかい縦長頭部、豆形の口元境界、C案の身体、ベスト、腰から接続する尻尾へ更新した。基準値はMimo＝全高293px・頭98×128px、Gen＝全高313px・頭142×110px、Luke＝全高280px・頭112×105px。",file:"outputs/groups/12-main-three-after-head-neutral-turnaround-measurement-guide-v1.png",status:"三面図・px基準FIX",statusClass:"current"},
       {stepLabel:"MIMO",title:"Mimo先生｜小鳥：丸い小鳥から、静かに受け取る傾聴者へ",beforeFile:"outputs/head-shape-comparison/01-kotori-before-round-head.png",afterFile:"outputs/characters/kotori/10-kotori-listener-emotion-acting-sheet-v1.png",beforeLabel:"正円に近い頭",afterLabel:"縦長の卵形",note:"旧案は親しみやすい一方、幼い小鳥や一般的なマスコットに見えやすい。新案は頬を膨らませず縦方向へ流し、目の大きさを固定。静かに聴き、待つ若い大人の印象を強めた。",points:["縦方向へ伸ばす","頬を足さない","まぶたと傾きで傾聴"]},
       {stepLabel:"GEN",title:"Gen先生｜うさぎ：一般的な丸頭から、安定して伴走する応援者へ",beforeFile:"outputs/head-shape-comparison/02-usagi-before-generic-round-head.png",afterFile:"outputs/characters/usagi/11-usagi-supporter-emotion-acting-sheet-v1.png",beforeLabel:"均一な丸頭",afterLabel:"丸角四角＋低い頬",note:"旧案は動きが明快だが、ポーズごとに頭が円形へ戻りやすい。新案は側面を縦に保ち、目より下の頬を最も広く、顎を短く平らに固定。快活な上半身を支える安心感が生まれた。",points:["側面を縦に保つ","低い頬を最幅にする","短く広い顎で安定"]},
-      {stepLabel:"LUKE",title:"Luke先生｜リス：丸い発明家から、観察する成人の探偵へ",beforeFile:"outputs/head-shape-comparison/03-risu-before-round-head.png",afterFile:"outputs/characters/risu/12-risu-detective-inventor-acting-sheet-v1.png",beforeLabel:"丸い共通頭部",afterLabel:"縦長の豆形＋短い口元",note:"旧案は道具とポーズで役割を説明していたが、顔だけでは幼く見えやすい。新案は頭を縦長にし、目を三人で最小に、頬と口元を控えめにして、観察・比較・考え直す41歳の人格を顔へ移した。",points:["横幅より縦を長く","小さな目を低めに配置","小耳と短い口元を固定"]}
+      {stepLabel:"LUKE",title:"Luke先生｜リス：硬い縦長頭部から、柔らかい観察者へ",beforeFile:"outputs/head-shape-comparison/03-risu-before-round-head.png",afterFile:"outputs/characters/risu/31-risu-final-soft-head-ff511b-v1.png",beforeLabel:"丸い共通頭部",afterLabel:"柔らかい縦長＋豆形の白面",note:"初期の丸頭と、その後の細く硬い縦長頭部を見直した。現在は成人らしい縦長感を残しながら頭頂・側面・頬・顎を滑らかにつなぎ、豆形の白い口元と小さく低い目で、観察・比較・考え直す35歳の人格を固定している。",points:["縦長感と柔らかさを両立","豆形の白面で口元を整理","#FF511Bとグレージュを固定"]}
     ]});
     sections.push({key:"body-shape",label:"年齢・性表現による体型パターン",desc:"色、服、表情の影響を外し、動物別に体型の輪郭を比較した。横軸は子ども・若者・成人・高齢、縦軸は女性的・中性的・男性的な性表現。年齢差を主軸に、子どもの丸く短い身体、若者の細く長い身体、成人の厚み、高齢期の腹部・腰・脚のふくよかさを強調した。頭部は頭部形状 Before / After の推奨After案を適用している。",bodyGrid:true,items:[
       {stepLabel:"現在案",title:"After頭部と8動作の実寸で三人を並べる",note:"年齢・性別による体型差はいったん外し、各8動作シートの代表立ち姿を基準に、頭身だけでなく画像上の表示サイズも再現した。1536×1024の並びではMimo約345px、Gen約460px、Luke約350pxの全高を目安に、全身を均等縮小して同じ接地線へ配置。Mimoは大きく見えたため一段縮小し、内部の頭身と細い身体は維持した。",file:"outputs/body-shape/00-main-three-after-head-cute-body-lineup-v2.png",status:"8動作の実寸へ統一",statusClass:"current"},
@@ -164,7 +165,7 @@
       {type:"note",label:"現在地｜C案を動作へ展開",text:"Mimo 27歳、Gen 26歳、Luke 35歳女性を基準に、頭部100％、胴体82％、腕と脚85％を選定。足先、耳、翼端、尻尾は維持し、胸郭・腹部・骨盤の柔らかな連結も残したまま、次の8ポーズへ展開した。"},
       {stepLabel:"MIMO 27・C",title:"Mimo先生｜C案を8つの傾聴動作へ展開",note:"縦長のAfter頭部を固定し、胴体82％、翼と脚85％、足先と冠羽100％で展開。聞く、身を寄せる、待つ、返す、考える各動作で、コンパクトになっても丸い幼鳥素体へ戻らないよう三つの胴体量感を維持した。",file:"outputs/body-shape/09-kotori-age27-option-c-acting-sheet-v1.png",status:"C案・動作展開",statusClass:"current"},
       {stepLabel:"GEN 26・C",title:"Gen先生｜C案を8つの応援動作へ展開",note:"低い頬が最幅、短く広い平らな顎、やや離れた目を頭部基準として固定。胴体82％に対して腕と脚を約72％、手を80％まで縮め、大きな足は100％で維持。8動作すべてで頭身の小ささが明確に見えるよう再調整した。",file:"outputs/body-shape/10-usagi-age26-option-c-acting-sheet-v3.png",status:"C案・手足再調整",statusClass:"current"},
-      {stepLabel:"LUKE 35・C",title:"Luke先生｜C案を8つの観察・発明動作へ展開",note:"頬を出さない縦横比1.20〜1.25の細い頭、最小で低い目、短く前へ出る口元を固定。胴体82％に対して腕と脚を約72％、手を78％まで縮め、大きな尻尾は100％で維持。道具を使う動作でも手足が長く戻らないよう再調整した。",file:"outputs/body-shape/11-risu-age35-female-option-c-acting-sheet-v3.png",status:"C案・手足再調整",statusClass:"current"},
+      {stepLabel:"LUKE 35・FINAL",title:"Luke先生｜最終造形を8つの観察・発明動作へ展開",note:"C案のコンパクトな身体比率を維持しながら、柔らかい縦長頭部、豆形の白い口元、#FF511B、グレージュのベストを8動作へ反映。観察、しゃがんで調べる、比較する、ひらめく、道具を探す、発見に反応する、試す、選び直す場面でも頭部・白面・尻尾の識別性を保った。",file:"outputs/characters/risu/33-risu-final-soft-head-color-acting-sheet-v1.png",status:"最新版・8動作FIX",statusClass:"current"},
       {type:"note",label:"見送った案｜旧年齢設定とC以前の身体比率",text:"ここからは見送った中間案。旧推奨年齢のGen 39歳・Luke 52歳、C以前のMimo 27歳・Gen 26歳・Luke 35歳の大きな身体比率は、成人の貫禄は出た一方で、身体と手足が硬く見えた。年齢そのものはMimo 27歳のように維持した場合もあるが、素体比率は上のC案へ更新した。"},
       {stepLabel:"旧・推奨年齢",title:"旧設定で三人の年齢差を強く表す",note:"Mimo＝27歳、Gen＝39歳、Luke＝52歳として、胴体幅、腹部、手足の厚み、接地感を段階的に変えた初期の年齢強調案。現在はGen 26歳、Luke 35歳女性へ更新し、身体比率もC案へ移行したため見送った。",file:"outputs/body-shape/00-main-three-recommended-age-body-lineup-v1.png",status:"見送った年齢案",statusClass:"hold"},
       {stepLabel:"MIMO 27",title:"Mimo先生｜選定体型を8つの傾聴動作へ展開",note:"細い雫形の胴体、長く細い脚、高い重心、縦長のAfter頭部を固定。聞く、身を寄せる、待つ、返す、考える各動作で、前屈や着座時にも丸い幼鳥素体へ戻らないかを確認した。",file:"outputs/body-shape/04-kotori-age27-body-acting-sheet-v1.png",status:"見送った身体比率",statusClass:"hold"},
