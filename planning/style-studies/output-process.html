@@ -90,7 +90,7 @@
       </div>
       <div class="decision-panel todo-panel">
         <h2>TODO｜次の制作</h2>
-        <p>32px前後の顔＋肩表示とLukeの8動作への反映は完了。次は実際の画面背景上で32px表示を確認し、額毛・眉・白い口元が潰れる場合だけ線幅と明度差を調整する。</p>
+        <p>頭部造形と配色の確認は完了。次はMimo、Luke、Genについて、役割を表しながら対話を誘う代表ポーズを一人一点ずつ固定する。</p>
       </div>
     </div>
   </aside>
@@ -153,7 +153,7 @@
     sections.push({key:"head-shape",label:"頭部特徴あり",desc:"無難な共通頭部は記憶に残りにくいため、身体演技を維持したまま頭部だけを役割に合わせて特徴づけた比較。左が従来の丸い共通頭部、右が現在の推奨頭部。頭の縦横比、頬、顎、目の位置が人格の読み取りへどう影響するかを確認する。",compare:true,items:[
       {stepLabel:"COLOR LINEUP",title:"配色・頭部比較",note:"頭部特徴と現在の配色を三人で確認する。Lukeは#FF511Bの毛色、柔らかい縦長頭部、豆形の白い口元、小さな三本の額毛、細い眉、開いたベスト、縦長のお腹の白塗りを採用案として反映した。",file:"outputs/groups/26-main-three-head-color-lineup-ff511b-v1.png",status:"造形・配色FIX",statusClass:"current"},
       {n:12,title:"三人の三面図とpx寸法を無彩色線画で統一する",note:"Mimo、Gen、Lukeを同じ無彩色の線画、中心軸、頭部ガイド、接地線で統一。Lukeは柔らかい縦長頭部、豆形の口元境界、C案の身体、ベスト、腰から接続する尻尾へ更新した。基準値はMimo＝全高293px・頭98×128px、Gen＝全高313px・頭142×110px、Luke＝全高280px・頭112×105px。",file:"outputs/groups/12-main-three-after-head-neutral-turnaround-measurement-guide-v1.png",status:"三面図・px基準FIX",statusClass:"current"},
-      {stepLabel:"32PX CHECK",title:"顔＋肩で三人の最小表示を確認する",note:"三人を約32px相当まで縮小し、頭部輪郭と顔の識別性を比較。Lukeは三本の額毛、眉、豆形の白い口元、開いたベストの襟元が小表示でも残るかを確認する。",file:"outputs/groups/25-main-three-final-face-shoulders-32px-preview-v1.png",status:"小表示確認",statusClass:"current"},
+      {stepLabel:"CONSULTATION ICON",title:"相談を誘う代表ポーズと頭部記号を確認する",note:"アプリの相談入口を想定し、顔と識別記号を大きく保ちながら正方形へ収まりやすい代表ポーズを比較する。Mimoは身体を傾けて話を受け取り、Lukeは二つの素材を示して選択を待ち、Genは身体を低くして一緒の一歩を誘う。",file:"outputs/groups/43-main-three-consultation-square-icon-pose-comparison-v1.png",status:"相談アイコン候補",statusClass:"current"},
       {stepLabel:"MIMO",title:"Mimo先生｜小鳥：丸い小鳥から、静かに受け取る傾聴者へ",beforeFile:"outputs/head-shape-comparison/01-kotori-before-round-head.png",afterFile:"outputs/characters/kotori/10-kotori-listener-emotion-acting-sheet-v1.png",beforeLabel:"正円に近い頭",afterLabel:"縦長の卵形",note:"旧案は親しみやすい一方、幼い小鳥や一般的なマスコットに見えやすい。新案は頬を膨らませず縦方向へ流し、目の大きさを固定。静かに聴き、待つ若い大人の印象を強めた。",points:["縦方向へ伸ばす","頬を足さない","まぶたと傾きで傾聴"]},
       {stepLabel:"GEN",title:"Gen先生｜うさぎ：一般的な丸頭から、安定して伴走する応援者へ",beforeFile:"outputs/head-shape-comparison/02-usagi-before-generic-round-head.png",afterFile:"outputs/characters/usagi/11-usagi-supporter-emotion-acting-sheet-v1.png",beforeLabel:"均一な丸頭",afterLabel:"丸角四角＋低い頬",note:"旧案は動きが明快だが、ポーズごとに頭が円形へ戻りやすい。新案は側面を縦に保ち、目より下の頬を最も広く、顎を短く平らに固定。快活な上半身を支える安心感が生まれた。",points:["側面を縦に保つ","低い頬を最幅にする","短く広い顎で安定"]},
       {stepLabel:"LUKE",title:"Luke先生｜リス：硬い縦長頭部から、柔らかい観察者へ",beforeFile:"outputs/head-shape-comparison/03-risu-before-round-head.png",afterFile:"outputs/characters/risu/41-risu-final-soft-head-monochrome-acting-sheet-v1.png",beforeLabel:"丸い共通頭部",afterLabel:"固定頭部を白黒8動作で確認",note:"初期の丸頭と、その後の細く硬い縦長頭部を見直した。現在は成人らしい縦長感を残しながら頭頂・側面・頬・顎を滑らかにつなぎ、豆形の白い口元、小さな三本の額毛、細い眉を白黒8動作で維持。頭部比較ではMimo・Genと同じ無彩色に揃え、配色の影響を外して輪郭と顔の識別性を確認する。",points:["縦長感と柔らかさを8動作で維持","三本の額毛・眉・豆形の白面を固定","無彩色で頭部特徴だけを比較"]}
