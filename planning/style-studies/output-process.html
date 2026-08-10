@@ -42,7 +42,8 @@
     .comparison-legend span { min-width:0; padding:9px 6px; background:#faf7f4; text-align:center; }
     .comparison-legend strong { display:block; font-size:11px; line-height:1.35; }
     .comparison-legend small { display:block; margin-top:4px; color:var(--muted); font-size:9px; line-height:1.35; }
-    .grid.compare-grid { grid-template-columns:1fr; max-width:1400px; }
+    .grid.compare-grid { grid-template-columns:repeat(2,minmax(0,1fr)); max-width:1400px; }
+    .grid.compare-grid article:has(.before-after) { grid-column:1/-1; }
     .grid.body-grid { grid-template-columns:1fr; max-width:1400px; }
     .body-grid article img { height:auto; max-height:820px; }
     .before-after { display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--line); }
@@ -66,7 +67,7 @@
     dialog::backdrop { background:rgba(35,26,23,.7); }
     dialog img { display:block; width:100%; max-height:82vh; object-fit:contain; background:#faf7f4; }
     dialog button { position:absolute; top:12px; right:12px; width:40px; height:40px; border:1px solid var(--line); border-radius:50%; background:rgba(255,253,251,.94); font-size:22px; cursor:pointer; }
-    @media (max-width:680px) { .flow { grid-template-columns:1fr; }.flow div:not(:last-child)::after { content:"↓"; top:auto; right:50%; bottom:-13px; } .decision-summary-inner { grid-template-columns:1fr; } article img { height:190px; } .comparison-legend { grid-template-columns:repeat(2,minmax(0,1fr)); } .before-after { grid-template-columns:1fr; } .before-after .image-button img { height:260px; } .change-points { grid-template-columns:1fr; } }
+    @media (max-width:680px) { .flow { grid-template-columns:1fr; }.flow div:not(:last-child)::after { content:"↓"; top:auto; right:50%; bottom:-13px; } .decision-summary-inner { grid-template-columns:1fr; } article img { height:190px; } .grid.compare-grid { grid-template-columns:1fr; } .comparison-legend { grid-template-columns:repeat(2,minmax(0,1fr)); } .before-after { grid-template-columns:1fr; } .before-after .image-button img { height:260px; } .change-points { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -150,7 +151,7 @@
     ]});
     sections.push({key:"head-shape",label:"頭部特徴あり",desc:"無難な共通頭部は記憶に残りにくいため、身体演技を維持したまま頭部だけを役割に合わせて特徴づけた比較。左が従来の丸い共通頭部、右が現在の推奨頭部。頭の縦横比、頬、顎、目の位置が人格の読み取りへどう影響するかを確認する。",compare:true,items:[
       {stepLabel:"COLOR LINEUP",title:"頭部特徴と現在の配色を三人で確認する",note:"Mimoの落ち着いた黄、Genの白とワイン、Lukeの柔らかい頭部・豆形の白い口元・#FF511Bの毛色を一枚に統合。三人を同じ接地線へ並べ、頭部の識別性と色面の強さを確認する現在の比較案。",file:"outputs/groups/26-main-three-head-color-lineup-ff511b-v1.png",status:"配色・頭部比較",statusClass:"current"},
-      {n:12,title:"After頭部とC案の比率を三面図へ固定する",note:"Mimo、Gen、Lukeをポーズのない正面・側面・背面へ展開。正面図を計測基準に、全高、耳・冠羽を除く頭部の縦横寸法、三方向の中心軸、頭頂・顎・接地位置をpx単位で可視化した。1536×1024上の基準値はMimo＝全高293px・頭98×128px、Gen＝全高313px・頭142×110px、Luke＝全高280px・頭92×99px。",file:"outputs/groups/12-main-three-after-head-neutral-turnaround-measurement-guide-v1.png",status:"三面図・寸法基準FIX",statusClass:"current"},
+      {n:12,title:"三人の基準造形を三面図とpx寸法で確定する",note:"Mimo、Gen、Lukeをポーズのない正面・側面・背面へ展開。正面図を計測基準に、全高、耳・冠羽を除く頭部の縦横寸法、三方向の中心軸、頭頂・顎・接地位置をpx単位で可視化した。1536×1024上の基準値はMimo＝全高293px・頭98×128px、Gen＝全高313px・頭142×110px、Luke＝全高280px・頭92×99px。",file:"outputs/groups/12-main-three-after-head-neutral-turnaround-measurement-guide-v1.png",status:"三面図・寸法基準FIX",statusClass:"current"},
       {stepLabel:"MIMO",title:"Mimo先生｜小鳥：丸い小鳥から、静かに受け取る傾聴者へ",beforeFile:"outputs/head-shape-comparison/01-kotori-before-round-head.png",afterFile:"outputs/characters/kotori/10-kotori-listener-emotion-acting-sheet-v1.png",beforeLabel:"正円に近い頭",afterLabel:"縦長の卵形",note:"旧案は親しみやすい一方、幼い小鳥や一般的なマスコットに見えやすい。新案は頬を膨らませず縦方向へ流し、目の大きさを固定。静かに聴き、待つ若い大人の印象を強めた。",points:["縦方向へ伸ばす","頬を足さない","まぶたと傾きで傾聴"]},
       {stepLabel:"GEN",title:"Gen先生｜うさぎ：一般的な丸頭から、安定して伴走する応援者へ",beforeFile:"outputs/head-shape-comparison/02-usagi-before-generic-round-head.png",afterFile:"outputs/characters/usagi/11-usagi-supporter-emotion-acting-sheet-v1.png",beforeLabel:"均一な丸頭",afterLabel:"丸角四角＋低い頬",note:"旧案は動きが明快だが、ポーズごとに頭が円形へ戻りやすい。新案は側面を縦に保ち、目より下の頬を最も広く、顎を短く平らに固定。快活な上半身を支える安心感が生まれた。",points:["側面を縦に保つ","低い頬を最幅にする","短く広い顎で安定"]},
       {stepLabel:"LUKE",title:"Luke先生｜リス：丸い発明家から、観察する成人の探偵へ",beforeFile:"outputs/head-shape-comparison/03-risu-before-round-head.png",afterFile:"outputs/characters/risu/12-risu-detective-inventor-acting-sheet-v1.png",beforeLabel:"丸い共通頭部",afterLabel:"縦長の豆形＋短い口元",note:"旧案は道具とポーズで役割を説明していたが、顔だけでは幼く見えやすい。新案は頭を縦長にし、目を三人で最小に、頬と口元を控えめにして、観察・比較・考え直す41歳の人格を顔へ移した。",points:["横幅より縦を長く","小さな目を低めに配置","小耳と短い口元を固定"]}
