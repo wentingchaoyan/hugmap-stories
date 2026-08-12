@@ -5,7 +5,7 @@
   </style>
   <rect width="1536" height="1536" fill="#fffdfa"/>
   <g transform="translate(0 256)">
-  <image href="48-main-three-small-mascot-age-height-front-gate-v2-gen-face-lock.png" width="1536" height="1024"/>
+  <image href="48-main-three-small-mascot-age-height-front-gate-v3-gen-luke-face-lock.png" width="1536" height="1024"/>
   <line class="guide" x1="112" y1="849" x2="1460" y2="849"/>
 
   <!-- MIMO: visible line-envelope measurements on the 1536×1024 source PNG -->
@@ -34,10 +34,10 @@
   <!-- LUKE -->
   <line class="m total" x1="1010" y1="291" x2="1010" y2="849"/><line class="tick total" x1="1000" y1="291" x2="1021" y2="291"/><line class="tick total" x1="1000" y1="849" x2="1021" y2="849"/>
   <text class="label t-total" x="1022" y="312">全高 558px</text>
-  <line class="m head" x1="1066" y1="359" x2="1271" y2="359"/><line class="tick head" x1="1066" y1="349" x2="1066" y2="369"/><line class="tick head" x1="1271" y1="349" x2="1271" y2="369"/>
-  <text class="label small t-head" x="1094" y="342">頭幅 205px</text>
-  <line class="m head" x1="1284" y1="359" x2="1284" y2="580"/><line class="tick head" x1="1274" y1="359" x2="1294" y2="359"/><line class="tick head" x1="1274" y1="580" x2="1294" y2="580"/>
-  <text class="label small t-head" x="1295" y="454">頭高 221px</text>
+  <line class="m head" x1="1084" y1="353" x2="1270" y2="353"/><line class="tick head" x1="1084" y1="343" x2="1084" y2="363"/><line class="tick head" x1="1270" y1="343" x2="1270" y2="363"/>
+  <text class="label small t-head" x="1100" y="336">頭幅 186px</text>
+  <line class="m head" x1="1284" y1="353" x2="1284" y2="580"/><line class="tick head" x1="1274" y1="353" x2="1294" y2="353"/><line class="tick head" x1="1274" y1="580" x2="1294" y2="580"/>
+  <text class="label small t-head" x="1295" y="454">頭高 227px</text>
   <line class="m part" x1="1040" y1="578" x2="1040" y2="723"/><line class="tick part" x1="1030" y1="578" x2="1050" y2="578"/><line class="tick part" x1="1030" y1="723" x2="1050" y2="723"/>
   <text class="label small t-part" x="1052" y="716">ベスト丈 145px</text>
   <text class="label small t-part" x="1210" y="749">腕長 160px</text>
