@@ -33,6 +33,7 @@
     .process-note { grid-column:1/-1; padding:17px 18px; border:1px solid var(--line); border-left:4px solid var(--wine); border-radius:14px; background:rgba(255,253,251,.76); }
     .process-note strong { display:block; margin-bottom:7px; color:var(--wine); font-size:11px; letter-spacing:.1em; }
     .process-note p { max-width:1040px; margin:0; color:var(--muted); font-size:12px; line-height:1.8; }
+    .process-note a { color:var(--wine); text-underline-offset:3px; }
     .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:18px; }
     article { display:flex; flex-direction:column; min-width:0; overflow:hidden; border:1px solid var(--line); border-radius:18px; background:var(--card); }
     article[hidden] { display:none; }
@@ -74,7 +75,7 @@
   <header>
     <h1>キャラクター造形の検討記録</h1>
     <p>番号は完成度ではなく、判断を重ねた順番です。別系統の画風比較と現在の造形本流を分け、骨格、関わり方、識別性、誇張、配色の順に、何を残して何を見直したかを追えるようにしています。</p>
-    <div class="flow" aria-label="制作工程"><div>無難な造形を確認</div><div>代表ポーズをFIX</div><div>頭部を特徴づける</div><div>C案の身体をFIX</div><div>頭部と配色をFIX</div><div>三面図・px基準をFIX</div></div>
+    <div class="flow" aria-label="制作工程"><div>無難な造形を確認</div><div>代表ポーズをFIX</div><div>頭部を特徴づける</div><div>C案の身体をFIX</div><div>頭部と配色をFIX</div><div>SMALL MASCOTを白黒検証</div></div>
   </header>
   <aside class="decision-summary" aria-labelledby="decision-title">
     <div class="decision-summary-inner">
@@ -86,16 +87,19 @@
           <li><span class="decision-state">FIX</span>代表ポーズによって三人の役割と感情を伝える方針は確定する。</li>
           <li><span class="decision-state">FIX</span>Lukeは柔らかい縦長頭部、豆形の白い口元、小さな三本の額毛、細い眉、#FF511Bの毛色、開いたグレージュのベスト、縦長のお腹の白塗りを最終造形とする。白い毛部分は三人共通の温かい白 #FFF8EC を使う。</li>
           <li><span class="decision-state">FIX</span>三人の正面・側面・背面を無彩色の線画で統一し、Lukeの固定造形とpx寸法を更新する。</li>
+          <li><span class="decision-state">FEEDBACK</span>2026-08-12 たかさんfeedback：服へWith UのUマークを付け、手は指を描き分けない柔らかな塊にする。まずSMALL MASCOTを白黒で検証し、世界観を固めてから配色へ進む。</li>
         </ol>
       </div>
       <div class="decision-panel todo-panel">
         <h2>TODO｜次の制作</h2>
-        <p>頭部造形と配色の確認は完了。次はMimo、Luke、Genについて、役割を表しながら対話を誘う代表ポーズを一人一点ずつ固定する。</p>
+        <p>SMALL MASCOTの1x pxロックを正本として、全高・頭部・腕／翼・服丈を変えずに各ポーズへ展開する。Mimoは短丈トップ48px、Genは裾を少し下げた短丈トップ60pxで、二人とも下衣なし。三人のUは胸元14px。Genは腕64px、Lukeは腕56px・ベスト可視72pxを下限とする。</p>
       </div>
     </div>
   </aside>
   <nav aria-label="表示対象">
-    <button data-filter="groups" aria-pressed="true">無難な造形</button>
+    <button data-filter="feedback-20260812" aria-pressed="true">8/12 feedback</button>
+    <button data-filter="pooh-reference" aria-pressed="false">Pooh演技reference</button>
+    <button data-filter="groups" aria-pressed="false">無難な造形</button>
     <button data-filter="head-shape" aria-pressed="false">頭部特徴あり</button>
     <button data-filter="body-shape" aria-pressed="false">体型</button>
     <button data-filter="handdrawn-line" aria-pressed="false">手描き線の検討</button>
@@ -137,7 +141,20 @@
       });
       sections.push({key,label:spec.label,desc:spec.desc,items});
     });
-    sections.unshift({key:"style-options",label:"別系統で画風の可能性を比べる",desc:"現在の造形を選ぶ前に、記号性、動き、素材感という異なる強みを比較した探索群。ここで形を決めず、STEP 05から別の造形本流を始めた。",items:[
+    sections.unshift({key:"feedback-20260812",label:"2026-08-12 たかさんfeedback｜SMALL MASCOT",desc:"配色の魅力に頼らず、三人が同じ世界に住む小さなマスコットとして成立するかを白黒で先に確認する。服にはWith UのUマークを共通記号として置き、動物の手は指や爪を描き分けず、腕から続く丸い塊として扱う。線は完成品の均一さより、描いた人の気配が残ることを優先する。",bodyGrid:true,items:[
+      {type:"note",label:"今回の適用ルール",text:"① Mimoは48px、Genは裾を少し下げた60pxの短丈トップにし、下衣を付けず丸い身体を見せる。② Uは三人とも左胸14pxのワンポイントに統一する。③ 翼端・前足・手先は、指を描かない一続きの柔らかな塊にする。④ SMALL MASCOTの比率・線・余白を白黒で先に揃え、色は世界観が固まってから加える。⑤ 均一な太線、滑らかなグラデーション、左右対称、整いすぎた反復は避け、線圧差、かすれ、重なり、小さな左右差を残す。"},
+      {stepLabel:"LOWER HEM + TOP ONLY",title:"Genはズボン線だけを外し、Tシャツの裾を少し下げる",note:"v3の衣装バランスを土台に、Genのウエスト・脚口などズボンを示す線だけを削除。Tシャツの裾は腹部中央寄りまで下げ、上着だけの構成を保ちながら裸の面積を抑えた。胸元の小さなU、長い腕、耳・顔・足の固有性は維持。MimoとLukeは変更していない。",file:"outputs/groups/45-main-three-small-mascot-with-u-monochrome-v5-gen-lower-hem-top-only.png",status:"裾下げ・下衣なし",statusClass:"current"},
+      {stepLabel:"POSE + EXPRESSION CURRENT",title:"AFTER頭部と最新px身体を統合した12ポーズ",note:"頭部は『頭部特徴あり』のAFTERを正本にし、Mimo＝縦長卵形、Gen＝縦側面・低い頬・短い平顎、Luke＝柔らかな縦長頭・三本の額毛・細眉・豆形口元を固定。身体・衣装・腕長は47のpx基準を使用した。Mimo＝気づく・聞く・待つ・返す、Gen＝誘う・気づく・合わせる・小さく祝う、Luke＝観察・比較・ひらめく・試す。指を描かない丸い手先も全ポーズで維持。",file:"outputs/groups/46-main-three-small-mascot-pose-expression-monochrome-v6-after-heads-current.png",status:"AFTER頭部＋px身体",statusClass:"current"},
+      {stepLabel:"1x PIXEL LOCK v4",title:"Genの裾を下げた上着だけのpx基準へ更新",note:"Mimo＝全高224px・頭74×96px・翼48px・短丈トップ48px、Gen＝全高240px・頭108×84px・腕64px以上・短丈トップ60px・下衣なし、Luke＝全高216px・頭84×80px・腕56px以上・ベスト可視72px。Uは三人とも胸元14pxで固定する。以降のポーズは、この量感を拡縮せず回転・曲げだけで作る。",file:"outputs/groups/47-main-three-small-mascot-pixel-lock-v4-gen-lower-hem.png",status:"裾下げpx基準FIX",statusClass:"current"}
+    ]},{key:"pooh-reference",label:"Winnie-the-Poohから学ぶ感情・ポーズ設計",desc:"Pooh固有の造形やDisney版の配色を模倣せず、原作挿絵と公式映像から、顔より先に身体で感情を伝える演技の仕組みを抽出した。HugMapでは重心、頭の角度、腕全体、視線、小道具、相手との距離へ翻訳する。",items:[
+      {stepLabel:"DIRECT IMAGE REFERENCE",title:"原作の直接画像と添付例を一枚で比較",note:"添付例からは、単独ポーズと複数人ポーズを同じ面で比べる構成、歩く・抱える・見る・渡すなど動詞の幅、小道具・相手・環境との接触を参考にした。下段はProject Gutenberg版の原作挿絵7点。気づく、歩く、詰まる、一緒に見る、運ぶ、考える→試す、並んで進むを直接画像で確認できる。完成キャラクターへPooh固有の形・服・顔・構図は流用しない。",file:"outputs/references/pooh/08-pooh-direct-image-reference-sheet-v1.png",status:"直接画像reference",statusClass:"current"},
+      {type:"note",label:"REFERENCE SCOPE｜借りるのは演技の仕組みだけ",text:"参考にするのは、気づくときに視線が先行する、考えるときに身体を小さく畳む、小道具で目的を見せる、相手との距離で関係を描くという原則。Pooh固有の輪郭、体型、顔、赤い服、黄色い配色、挿絵の構図はコピーしない。詳細版：<a href=\"references/pooh-emotion-pose-reference.md\">pooh-emotion-pose-reference.md</a>"},
+      {type:"note",label:"INSIGHT 01–02｜顔は最後・1ポーズ1動詞",text:"最初に重心、頭の角度、腕の位置、相手との距離を決める。顔を隠しても「聞く・考える・誘う・試す」が読めることを採用条件にする。一枚へ複数の感情を盛らず、動詞を一つに限定する。"},
+      {type:"note",label:"INSIGHT 03–05｜表情を大きくせず、身体と視線を動かす",text:"感情の強さは目や口ではなく、身体の開き、傾き、腕の移動量で調整する。手を復活させず、肩から先端までの一続きの腕を寄せる・開く・下げる・浮かせる。視線は身体より先に相手や目的物へ向ける。"},
+      {type:"note",label:"INSIGHT 06–08｜小道具・間・距離",text:"小道具は一場面一種類。待つ・考える場面は閉じた姿勢と余白で「間」を作り、笑顔で埋めない。支援者は真正面から迫らず、斜め向き、低い重心、半歩分の距離で『一緒にいるが急かさない』を表す。"},
+      {type:"note",label:"HUGMAP APPLICATION｜pxロックと同時に守る",text:"Mimoは頭の傾きと翼の寄せ方で聞く。Genは腕64pxとシャツ可視56pxを保ったまま、胴体の前傾と腕全体の方向で誘う。Lukeは腕56pxとベスト可視72pxを保ち、指差しを使わず頭・眉・腕全体が少し浮くことでひらめきを示す。"},
+      {type:"note",label:"SOURCES",text:"<a href=\"https://www.gutenberg.org/cache/epub/67098/pg67098-images.html\">Project Gutenberg｜Winnie-the-Pooh</a> ／ <a href=\"https://www.gutenberg.org/cache/epub/73011/pg73011-images.html\">The House at Pooh Corner</a> ／ <a href=\"https://winniethepooh.disney.com/\">Disney公式</a> ／ <a href=\"https://www.ehshepard.com/\">E. H. Shepard公式</a>"}
+    ]},{key:"style-options",label:"別系統で画風の可能性を比べる",desc:"現在の造形を選ぶ前に、記号性、動き、素材感という異なる強みを比較した探索群。ここで形を決めず、STEP 05から別の造形本流を始めた。",items:[
       {n:1,title:"記号性を優先した方向",note:"表情を抑えた単純な形で、小画面の識別性と読み手が感情を受け取る余白を確かめた。",file:"outputs/groups/01-main-three-symbolic-pose-sheet-v1.png"},
       {n:2,title:"動きの明快さを優先した方向",note:"表情と手足を大きく動かし、出来事がすぐ伝わる利点と、先生が目立ちすぎる課題を確認した。",file:"outputs/groups/02-main-three-animated-pose-sheet-v1.png"},
       {n:3,title:"紙の素材感を優先した方向",note:"切り紙や色の重なりが生む絵本らしい温度と、小画面で素材感が弱まる課題を比較した。",file:"outputs/groups/03-main-three-collage-pose-sheet-v1.png"},
@@ -230,7 +247,7 @@
       document.querySelectorAll("nav button").forEach(b=>b.setAttribute("aria-pressed",String(b===button)));
       document.querySelectorAll("section").forEach(section=>section.hidden=section.dataset.section!==filter);
     }));
-    document.querySelectorAll("section").forEach(section=>section.hidden=section.dataset.section!=="groups");
+    document.querySelectorAll("section").forEach(section=>section.hidden=section.dataset.section!=="feedback-20260812");
     const viewer=document.getElementById("viewer"), viewerImage=viewer.querySelector("img");
     document.addEventListener("click",event=>{ const button=event.target.closest(".image-button"); if(!button)return; viewerImage.src=button.dataset.src; viewerImage.alt=button.querySelector("img").alt; viewer.showModal(); });
     viewer.querySelector("button").addEventListener("click",()=>viewer.close());
