@@ -25,8 +25,8 @@
     .character{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:clamp(14px,3vw,30px);padding:clamp(30px,6vw,58px)}
     .character.reverse .copy{grid-column:2}.character.reverse .visual{grid-column:1;grid-row:1}
     .name{margin-top:7px;font:600 clamp(42px,8vw,70px)/.98 Georgia,serif;letter-spacing:.045em}.role{margin-top:13px;font-size:13px;font-weight:700;letter-spacing:.1em}
-    .focus{margin-top:30px;font:500 clamp(19px,3vw,27px)/1.65 Georgia,"Yu Mincho",serif}.belief{margin-top:22px;padding-top:14px;border-top:1px solid var(--rule);font:500 12px/1.75 Georgia,"Yu Mincho",serif;color:#49443f}
-    .weakness{margin-top:7px;font-size:11px;line-height:1.65;color:var(--soft)}
+    .quote{margin-top:30px;font:500 clamp(20px,3.2vw,28px)/1.65 Georgia,"Yu Mincho",serif}.focus{margin-top:16px;font-size:12px;line-height:1.75;color:var(--soft)}
+    .belief{margin-top:18px;padding-top:13px;border-top:1px solid var(--rule);font:500 12px/1.75 Georgia,"Yu Mincho",serif;color:#49443f}.weakness{margin-top:7px;font-size:11px;line-height:1.65;color:var(--soft)}
     .visual{position:relative;z-index:1;display:grid;place-items:center;min-width:0}.visual:before{content:"";position:absolute;inset:-12% -10% -4%;background:linear-gradient(102deg,transparent 22%,#fff 50%,transparent 78%);clip-path:polygon(44% 0,56% 0,94% 100%,6% 100%);opacity:.55}
     .visual img{position:relative;width:100%;max-height:78svh;object-fit:contain;mix-blend-mode:multiply;filter:contrast(1.03)}
     .team{display:grid;grid-template-rows:43% 57%;padding:36px clamp(22px,6vw,54px) 0;text-align:center}.team .copy{align-self:center}
@@ -36,8 +36,8 @@
     @media(max-width:560px){
       .opening,.character{grid-template-columns:1fr 1fr;padding:26px 16px;gap:10px}.wishes{gap:14px;font-size:clamp(12px,3.4vw,15px)}
       .promises{grid-template-columns:1fr}.promise{min-height:50svh;padding:34px 22px}.promise h2{font-size:26px}.promise p:last-child{font-size:11px}
-      .kicker{font-size:9px}.name{font-size:clamp(28px,8vw,38px)}.role{margin-top:8px;font-size:9px}.focus{margin-top:16px;font-size:clamp(13px,3.2vw,16px)}
-      .belief{margin-top:13px;padding-top:9px;font-size:9px}.weakness{font-size:8px}.visual{overflow:hidden}.visual img{max-height:70svh}
+      .kicker{font-size:9px}.name{font-size:clamp(28px,8vw,38px)}.role{margin-top:8px;font-size:9px}.quote{margin-top:16px;font-size:clamp(13px,3.2vw,16px)}.focus{margin-top:9px;font-size:8px}
+      .belief{margin-top:10px;padding-top:8px;font-size:9px}.weakness{font-size:8px}.visual{overflow:hidden}.visual img{max-height:70svh}
       .team{padding-inline:16px}.team h2{font-size:30px}.team .lead{font-size:13px}
     }
   </style>
@@ -58,17 +58,17 @@
   </section>
 
   <section class="character mimo">
-    <div class="copy"><p class="kicker">FIRST ENTRANCE · 傾聴者</p><h2 class="name">MIMO</h2><p class="role">やさしい · おしゃべり · 歌う</p><p class="focus">目、声、仕草、間。<br>届こうとしているものを、聴く。</p><p class="belief">ことばの前から伝え合いは始まり、そのやりとりの中でことばも育つ。</p><p class="weakness">のんきで、返事を少し待ちすぎる。</p></div>
+    <div class="copy"><p class="kicker">FIRST ENTRANCE · 傾聴者</p><h2 class="name">MIMO</h2><p class="role">やさしい · おしゃべり · 歌う</p><p class="quote">「うん、届いたよ。<br>続きをきかせて。」</p><p class="focus">目、声、仕草、間。<br>ことばになる前の「伝えたい」を聴く。</p><p class="belief">ことばの前から、伝え合いは始まっている。</p><p class="weakness">ただ、ときどきのんきに待ちすぎる。</p></div>
     <div class="visual"><img src="../series-trailer-prototype/assets/02-mimo.png" alt="小さなサインに耳を澄ますMIMO"></div>
   </section>
 
   <section class="character reverse luke">
-    <div class="copy"><p class="kicker">SECOND ENTRANCE · 探偵兼発明家</p><h2 class="name">LUKE</h2><p class="role">好奇心 · 器用 · ひらめき</p><p class="focus">触る、握る、匂う、繰り返す。<br>身体が探す手がかりを、調べる。</p><p class="belief">道具と環境を変えると、その子の「できる形」は増やせる。</p><p class="weakness">いたずら好きで、ひらめくと試しすぎる。</p></div>
+    <div class="copy"><p class="kicker">SECOND ENTRANCE · 探偵兼発明家</p><h2 class="name">LUKE</h2><p class="role">好奇心 · 器用 · ひらめき</p><p class="quote">「同じに見えて、<br>少し違うね。」</p><p class="focus">触る、握る、匂う、繰り返す。<br>身体が探している手がかりを調べる。</p><p class="belief">道具と環境が変われば、「できる形」は増やせる。</p><p class="weakness">ただ、ひらめくと試しすぎる。</p></div>
     <div class="visual"><img src="../series-trailer-prototype/assets/03-luke-single.png" alt="道具箱から手がかりを選び直すLUKE"></div>
   </section>
 
   <section class="character gen">
-    <div class="copy"><p class="kicker">THIRD ENTRANCE · 伴走型の応援者</p><h2 class="name">GEN</h2><p class="role">元気 · 楽しい · 挑戦</p><p class="focus">姿勢、足元、バランス、疲れ方。<br>一歩の中のがんばりに、合わせる。</p><p class="belief">参加には、その子に合う量・速さ・方法がある。</p><p class="weakness">張り切り屋で、つい応援しすぎる。</p></div>
+    <div class="copy"><p class="kicker">THIRD ENTRANCE · 伴走型の応援者</p><h2 class="name">GEN</h2><p class="role">元気 · 楽しい · 挑戦</p><p class="quote">「あっ、速かった？<br>ここから一緒に。」</p><p class="focus">姿勢、足元、バランス、疲れ方。<br>その子の一歩へ、速さを合わせる。</p><p class="belief">参加には、その子に合う量・速さ・方法がある。</p><p class="weakness">ただ、張り切ると応援しすぎる。</p></div>
     <div class="visual"><img src="../series-trailer-prototype/assets/04-gen.png" alt="足跡を残しながら走って登場するGEN"></div>
   </section>
 
