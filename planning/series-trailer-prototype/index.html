@@ -10,7 +10,11 @@
     html{scroll-behavior:smooth}
     body{margin:0;background:#e9e5df;color:var(--ink);font-family:"Hiragino Sans","Yu Gothic",sans-serif}
     main{width:min(100%,760px);margin:auto;background:var(--paper);box-shadow:0 0 40px #0002}
-    section{position:relative;min-height:100svh;display:grid;align-items:center;overflow:hidden;border-bottom:1px solid var(--rule)}
+    section{position:relative;min-height:100svh;display:grid;align-items:center;overflow:hidden;border-bottom:1px solid var(--rule);background-color:var(--paper)}
+    section:before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.18;background-image:radial-gradient(circle at 18% 24%,#8d81731a 0 .55px,transparent .8px),radial-gradient(circle at 76% 68%,#fff8 0 .65px,transparent .95px),repeating-linear-gradient(7deg,transparent 0 7px,#776b5e0a 8px,transparent 9px 17px);background-size:9px 9px,13px 13px,100% 19px;mix-blend-mode:multiply}
+    section:nth-of-type(2):before,section:nth-of-type(4):before{opacity:.08;background-size:12px 12px,17px 17px,100% 24px}
+    section:nth-of-type(3):before{opacity:.14;background-position:3px 1px,0 4px,0 0}
+    section:nth-of-type(5):before{opacity:.2;background-position:0 2px,5px 0,0 3px}
     img{display:block;max-width:100%;filter:contrast(1.03)}
     .copy{position:relative;z-index:1;padding:8vw clamp(28px,7vw,72px);max-width:34em}
     .right .copy{margin-left:auto;width:56%}.left .copy{width:56%}
