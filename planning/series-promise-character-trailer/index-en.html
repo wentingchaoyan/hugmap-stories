@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HugMap Stories | What We Value and Three Guides</title>
+  <style>
+    :root{--ink:#282522;--paper:#faf8f4;--soft:#716961;--rule:#d8d2ca}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}
+    body{margin:0;background:#e7e2dc;color:var(--ink);font-family:Arial,"Helvetica Neue",sans-serif}
+    main{width:min(100%,760px);margin:auto;background:var(--paper);box-shadow:0 0 40px #0002}
+    section{position:relative;min-height:100svh;overflow:hidden;border-bottom:1px solid var(--rule);background:var(--paper)}
+    section:before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.14;background-image:radial-gradient(circle at 18% 24%,#8d81731a 0 .55px,transparent .8px),repeating-linear-gradient(7deg,transparent 0 8px,#776b5e0a 9px,transparent 10px 19px);background-size:10px 10px,100% 20px}
+    p,h1,h2{margin:0}.copy{position:relative;z-index:2}.kicker{font:600 11px/1.5 Georgia,serif;letter-spacing:.18em;color:var(--soft)}
+    .opening{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:clamp(14px,3vw,30px);padding:clamp(28px,6vw,58px)}
+    .opening img{position:relative;width:100%;max-height:78svh;object-fit:contain;mix-blend-mode:multiply;filter:contrast(1.03)}
+    .wishes{display:grid;gap:26px;font:500 clamp(18px,3.4vw,27px)/1.55 Georgia,serif}.wishes p:before{content:"— ";color:var(--soft)}.personal-note{margin-top:30px;font:500 12px/1.7 Georgia,serif;color:var(--soft)}
+    .promise-intro{display:grid;place-items:center;padding:clamp(34px,8vw,80px);text-align:center}
+    .promise-intro h1{margin-top:18px;font:600 clamp(36px,7vw,62px)/1.2 Georgia,serif}.promise-intro h1 .second-line{display:block;font-size:.72em;white-space:normal}
+    .promise-intro .lead{margin:28px auto 0;max-width:26em;font:500 clamp(17px,3vw,24px)/1.65 Georgia,serif}
+    .promises{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);padding:1px}.promises-title{grid-column:1/-1;padding:clamp(30px,6vw,54px);text-align:center;background:var(--paper);font:600 clamp(27px,5vw,42px)/1.25 Georgia,serif}.promise:last-child{grid-column:1/-1;min-height:24svh;text-align:center}.promise:last-child p:last-child{max-width:42em;margin-inline:auto}
+    .promise{display:grid;align-content:center;min-height:28svh;padding:clamp(24px,5vw,44px);background:var(--paper)}
+    .promise .no{font:600 12px/1 Georgia,serif;color:var(--soft);letter-spacing:.12em}.promise h2{margin-top:15px;font:600 clamp(25px,4.5vw,38px)/1.25 Georgia,serif}
+    .promise p:last-child{margin-top:18px;font-size:13px;line-height:1.8;color:var(--soft)}
+    .character{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:clamp(14px,3vw,30px);padding:clamp(30px,6vw,58px)}
+    .character.reverse .copy{grid-column:2}.character.reverse .visual{grid-column:1;grid-row:1}
+    .name{margin-top:7px;font:600 clamp(42px,8vw,70px)/.98 Georgia,serif;letter-spacing:.02em}.name small{margin-left:.35em;font:500 .26em/1 sans-serif;letter-spacing:.08em}.english-name{margin-top:7px;font:600 10px/1.4 Georgia,serif;letter-spacing:.18em;color:var(--soft)}.role{margin-top:10px;font-size:13px;font-weight:700;letter-spacing:.1em}
+    .quote{margin-top:30px;font:500 clamp(20px,3.2vw,28px)/1.5 Georgia,serif}.focus{margin-top:16px;font-size:12px;line-height:1.65;color:var(--soft)}
+    .weakness{margin-top:13px;padding-top:10px;border-top:1px solid var(--rule);font-size:11px;line-height:1.65;color:var(--soft)}
+    .visual{position:relative;z-index:1;display:grid;place-items:center;min-width:0}.visual:before{content:"";position:absolute;inset:-12% -10% -4%;background:linear-gradient(102deg,transparent 22%,#fff 50%,transparent 78%);clip-path:polygon(44% 0,56% 0,94% 100%,6% 100%);opacity:.55}
+    .visual img{position:relative;width:100%;max-height:78svh;object-fit:contain;mix-blend-mode:multiply;filter:contrast(1.03)}
+    .team{display:grid;grid-template-rows:43% 57%;padding:36px clamp(22px,6vw,54px) 0;text-align:center}.team .copy{align-self:center}
+    .team h2{margin-top:12px;font:600 clamp(33px,7vw,58px)/1.2 Georgia,serif}.team .lead{margin:18px auto 0;max-width:27em;font:500 clamp(15px,2.7vw,21px)/1.6 Georgia,serif}
+    .team img{width:min(100%,650px);height:100%;margin:auto;object-fit:contain;mix-blend-mode:multiply;filter:contrast(1.03)}
+    .ending{display:grid;place-items:center;padding:clamp(34px,8vw,80px);text-align:center}.ending h2{margin-top:16px;font:600 clamp(35px,7vw,62px)/1.2 Georgia,serif}.ending .lead{margin:26px auto 0;max-width:27em;font:500 clamp(17px,3vw,23px)/1.65 Georgia,serif}.ending .title{margin-top:44px;font:600 13px/1.6 Georgia,serif;letter-spacing:.16em}
+    .evidence{min-height:auto;padding:28px clamp(22px,6vw,54px);font-size:10px;line-height:1.8;color:var(--soft)}.evidence strong{color:var(--ink)}
+    @media(max-width:560px){
+      .opening,.character{grid-template-columns:1fr 1fr;padding:26px 16px;gap:10px}.wishes{gap:14px;font-size:clamp(12px,3.4vw,15px)}.personal-note{margin-top:18px;font-size:9px}
+      .promise-intro h1 .second-line{font-size:clamp(19px,5.6vw,28px)}.promises{grid-template-columns:1fr}.promise,.promise:last-child{grid-column:auto;min-height:24svh;padding:28px 22px;text-align:left}.promise h2{font-size:25px}.promise p:last-child{font-size:11px}
+      .kicker{font-size:9px}.name{font-size:clamp(28px,8vw,38px)}.role{margin-top:8px;font-size:9px}.quote{margin-top:16px;font-size:clamp(13px,3.2vw,16px)}.focus{margin-top:9px;font-size:8px}
+      .weakness{margin-top:10px;padding-top:8px;font-size:8px}.visual{overflow:hidden}.visual img{max-height:70svh}
+      .team{padding-inline:16px}.team h2{font-size:30px}.team .lead{font-size:13px}
+    }
+  </style>
+</head>
+<body><main>
+  <section class="opening">
+    <div class="copy"><div class="wishes"><p>I wish I could communicate more with my child.</p><p>I wish my child could have some way to join in activities with other children.</p><p>I wish my child could find more ways to play and explore.</p></div><p class="personal-note">These are some of my wishes as a mother.<br>What are yours?</p></div>
+    <img src="../series-trailer-prototype/assets/01-wishes.png" alt="Three simple drawings representing communication, participation, and expanding play">
+  </section>
+
+  <section class="promise-intro"><div class="copy"><p class="kicker">WHERE HUGMAP STORIES BEGINS</p><h1>Before we look at what’s hard for a child, <span class="second-line">let’s notice what they’re already showing us.</span></h1><p class="lead">Children are already noticing, feeling, trying, and reaching out.</p></div></section>
+
+  <section class="character mimo">
+    <div class="copy"><h2 class="name">MIMO<small>Guide</small></h2><p class="role">gentle · chatty · musical</p><p class="quote">“I hear you.<br>Want to tell me more?”</p><p class="focus">Mimo notices a child’s gaze, sounds, gestures, and pauses—the ways they communicate before words.</p><p class="weakness">Easygoing Mimo sometimes waits a little too long.</p></div>
+    <div class="visual"><img src="../series-trailer-prototype/assets/02-mimo.png" alt="Mimo listening closely for a small sign"></div>
+  </section>
+
+  <section class="character reverse luke">
+    <div class="copy"><h2 class="name">LUKE<small>Guide</small></h2><p class="role">curious · inventive · hands-on</p><p class="quote">“They look alike,<br>but they don’t feel the same.”</p><p class="focus">Luke notices how a child touches, holds, smells, and repeats things, then finds tools and surroundings that work better.</p><p class="weakness">When inspiration strikes, Luke sometimes tries too many ideas at once.</p></div>
+    <div class="visual"><img src="../series-trailer-prototype/assets/03-luke-single.png" alt="Luke choosing another clue from a toolbox"></div>
+  </section>
+
+  <section class="character gen">
+    <div class="copy"><h2 class="name">GEN<small>Guide</small></h2><p class="role">energetic · playful · ready to try</p><p class="quote">“Oops, too fast?<br>Let’s slow down and start together.”</p><p class="focus">Gen notices posture, footing, balance, and tiredness, then changes the pace or the way a child takes part.</p><p class="weakness">Enthusiastic Gen sometimes cheers a little too loudly.</p></div>
+    <div class="visual"><img src="../series-trailer-prototype/assets/04-gen.png" alt="Gen running in and matching a trail of smaller footsteps"></div>
+  </section>
+
+  <section class="promises" aria-label="Five things HugMap values">
+    <h2 class="promises-title">Five Things HugMap Values</h2>
+    <article class="promise"><p class="no">01</p><h2>Communication is more than words.</h2><p>A child’s gaze, sounds, gestures, and posture can all tell us something.</p></article>
+    <article class="promise"><p class="no">02</p><h2>Behavior has meaning. Environment matters.</h2><p>We don’t assume we know why. We watch how the child responds and try changing the tools, surroundings, pace, or way we communicate.</p></article>
+    <article class="promise"><p class="no">03</p><h2>It’s okay not to do it all.</h2><p>Resting, saying no, watching, or joining for just one part are meaningful choices too.</p></article>
+    <article class="promise"><p class="no">04</p><h2>Safety, joy, and curiosity come first.</h2><p>What a child enjoys and does well can open the door to learning and growth.</p></article>
+    <article class="promise"><p class="no">05</p><h2>Children grow with support around them.</h2><p>With the child at the center, families, friends, guides, and professionals can connect and celebrate each small step together.</p></article>
+  </section>
+
+  <section class="team">
+    <div class="copy"><h2>Different strengths.<br>One shared purpose.</h2><p class="lead">At HugMap, we bring different perspectives together to help each child and family find what works for them.</p></div>
+    <img src="../cinematic-character-intro/assets/final-cast-poses.png" alt="Mimo, Luke, and Gen in their signature poses">
+  </section>
+
+  <section class="ending"><div class="copy"><h2>Notice every small sign.<br>Celebrate every small step.</h2><p class="lead">Each one can open a new possibility.<br>Small signs and small steps can shape what comes next.</p><p class="title">HUGMAP STORIES<br>See the signs. Take the next step. Grow together.</p></div></section>
+
+  <aside class="evidence"><strong>About the ideas behind this series:</strong> We draw on guidance and research from organizations in Japan and abroad on communication, sensory needs and everyday participation, movement development, and safety. We translate that knowledge into stories that children and families can understand. The series is not based on one theory alone; key sources are listed in our production guide.</aside>
+</main></body>
+</html>
