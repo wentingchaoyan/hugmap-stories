@@ -18,11 +18,12 @@
     .lights i{background:linear-gradient(104deg,transparent 26%,#fff 49%,transparent 72%);clip-path:polygon(44% 0,56% 0,93% 100%,7% 100%)}
     .character{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;padding:clamp(30px,6vw,58px);gap:clamp(14px,3vw,30px)}
     .character.reverse{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.character.reverse .copy{grid-column:2}.character.reverse .visual{grid-column:1;grid-row:1}
-    .copy{position:relative;z-index:2}.name{margin-top:8px;font:600 clamp(42px,8vw,70px)/1.1 Georgia,"Yu Mincho",serif}
-    .verb{margin-top:9px;font-size:14px;font-weight:700;letter-spacing:.12em}
-    .dialogue{margin-top:34px;font:500 clamp(19px,3vw,27px)/1.75 Georgia,"Yu Mincho",serif}
-    .aside{margin-top:14px;font-size:12px;color:var(--soft)}
-    .belief{margin-top:8px;font:500 13px/1.65 Georgia,"Yu Mincho",serif}
+    .copy{position:relative;z-index:2}.name{margin-top:7px;font:600 clamp(42px,8vw,70px)/.98 Georgia,serif;letter-spacing:.045em}
+    .verb{margin-top:13px;font-size:13px;font-weight:700;line-height:1.55;letter-spacing:.1em}
+    .dialogue{margin-top:30px;font:500 clamp(20px,3vw,28px)/1.65 Georgia,"Yu Mincho",serif}
+    .details{margin-top:22px;padding-top:14px;border-top:1px solid var(--rule)}
+    .aside{font-size:11px;line-height:1.65;color:var(--soft)}
+    .belief{margin-top:7px;font:500 12px/1.7 Georgia,"Yu Mincho",serif;color:#49443f}
     .visual{position:relative;z-index:1;display:grid;place-items:center;min-width:0}
     .visual:before{content:"";position:absolute;inset:-12% -10% -4%;background:linear-gradient(102deg,transparent 22%,#fff 50%,transparent 78%);clip-path:polygon(44% 0,56% 0,94% 100%,6% 100%);opacity:.58}
     .visual img{position:relative;display:block;width:100%;max-height:78svh;object-fit:contain;mix-blend-mode:multiply;filter:contrast(1.03)}
@@ -34,8 +35,8 @@
     @media(max-width:560px){
       .character,.character.reverse{grid-template-columns:minmax(0,1fr) minmax(0,1fr);padding:26px 16px;gap:10px}
       .kicker{font-size:9px}.name{font-size:clamp(28px,8vw,38px)}
-      .verb{font-size:9px}.dialogue{margin-top:14px;font-size:clamp(12px,3.2vw,16px);line-height:1.65}.aside{font-size:9px}
-      .belief{font-size:9px}
+      .verb{margin-top:8px;font-size:9px}.dialogue{margin-top:16px;font-size:clamp(13px,3.2vw,16px);line-height:1.6}
+      .details{margin-top:13px;padding-top:9px}.aside{font-size:8px}.belief{margin-top:5px;font-size:9px}
       .visual{min-width:0;overflow:hidden}.visual img{width:100%;max-height:70svh}
       .transition{font-size:16px}.team{padding-inline:16px}.team .dialogue{font-size:14px}.team h2{font-size:30px}
     }
@@ -48,19 +49,19 @@
   </section>
 
   <section class="character mimo">
-    <div class="copy"><p class="kicker">FIRST ENTRANCE · 傾聴者</p><h2 class="name">ミモ</h2><p class="verb">やさしい · おしゃべり · 歌う</p><p class="dialogue">「うん、届いたよ。<br>続きをきかせて。」</p><p class="aside">返事を急がず、ときどき待ちすぎる。</p><p class="belief">ことばの前から、伝え合いは始まっている。</p></div>
+    <div class="copy"><p class="kicker">FIRST ENTRANCE · 傾聴者</p><h2 class="name">MIMO</h2><p class="verb">やさしい · おしゃべり · 歌う</p><p class="dialogue">目、声、仕草、間。<br>届こうとしているものを、聴く。</p><div class="details"><p class="aside">のんきで、返事を少し待ちすぎる。</p><p class="belief">ことばの前から伝え合いは始まり、そのやりとりの中でことばも育つ。</p></div></div>
     <div class="visual"><img src="../series-trailer-prototype/assets/02-mimo.png" alt="小さなサインに耳を澄ますミモ"></div>
     <p class="transition">· ）　すっ</p>
   </section>
 
   <section class="character reverse luke">
-    <div class="copy"><p class="kicker">SECOND ENTRANCE · 探偵兼発明家</p><h2 class="name">ルーク</h2><p class="verb">好奇心 · 器用 · ひらめき</p><p class="dialogue">「同じに見えて、<br>少し違うね。」</p><p class="aside">ひらめくと試しすぎる。でも、ちゃんと戻せる。</p><p class="belief">道具と環境が変われば、「できる形」は増やせる。</p></div>
-    <div class="visual"><img src="../series-trailer-prototype/assets/03-luke-v2.png" alt="道具箱から手がかりを探すルーク"></div>
+    <div class="copy"><p class="kicker">SECOND ENTRANCE · 探偵兼発明家</p><h2 class="name">LUKE</h2><p class="verb">好奇心 · 器用 · ひらめき</p><p class="dialogue">触る、握る、匂う、繰り返す。<br>身体が探す手がかりを、調べる。</p><div class="details"><p class="aside">いたずら好きで、ひらめくと試しすぎる。</p><p class="belief">道具と環境を変えると、その子の「できる形」は増やせる。</p></div></div>
+    <div class="visual"><img src="../series-trailer-prototype/assets/03-luke-single.png" alt="道具箱から手がかりを選び直すルーク"></div>
     <p class="transition">ころん　きゅっ</p>
   </section>
 
   <section class="character gen">
-    <div class="copy"><p class="kicker">THIRD ENTRANCE · 伴走する応援者</p><h2 class="name">ゲン</h2><p class="verb">元気 · 楽しい · 挑戦</p><p class="dialogue">「あっ、速かった？<br>ここから一緒に。」</p><p class="aside">張り切りすぎたら、低くなって待ち直す。</p><p class="belief">参加には、合う量・速さ・方法がある。</p></div>
+    <div class="copy"><p class="kicker">THIRD ENTRANCE · 伴走型の応援者</p><h2 class="name">GEN</h2><p class="verb">元気 · 楽しい · 挑戦</p><p class="dialogue">姿勢、足元、バランス、疲れ方。<br>一歩の中のがんばりに、合わせる。</p><div class="details"><p class="aside">張り切り屋で、つい応援しすぎる。</p><p class="belief">参加には、その子に合う量・速さ・方法がある。</p></div></div>
     <div class="visual"><img src="../series-trailer-prototype/assets/04-gen.png" alt="足跡を残しながら走って登場するゲン"></div>
     <p class="transition">たっ　…　とん</p>
   </section>
