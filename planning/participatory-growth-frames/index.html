@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HugMap｜子どもとキャラクターでつくる成長フレーム</title>
+  <style>
+    :root {
+      --paper:#f6f2ee;
+      --card:#fffdfb;
+      --ink:#332a27;
+      --muted:#786f6a;
+      --line:#ddd4ce;
+      --gen:#e5b73b;
+      --mimo:#ed8152;
+      --luke:#7d667f;
+      --wine:#7d2741;
+    }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif; }
+    header { padding:clamp(42px,8vw,88px) max(22px,6vw) 42px; background:linear-gradient(145deg,#fffdfb 0%,#f4eee9 68%,#eee7e1 100%); border-bottom:1px solid var(--line); }
+    .eyebrow { margin:0 0 14px; color:var(--wine); font-size:11px; font-weight:800; letter-spacing:.18em; }
+    h1 { max-width:940px; margin:0; font:600 clamp(32px,5.8vw,64px)/1.25 Georgia,"Yu Mincho",serif; letter-spacing:.01em; }
+    .lead { max-width:790px; margin:24px 0 0; color:var(--muted); font-size:clamp(14px,2vw,18px); line-height:1.9; }
+    .principle { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); max-width:960px; margin:34px 0 0; border:1px solid var(--line); border-radius:18px; overflow:hidden; background:rgba(255,253,251,.74); }
+    .principle span { padding:17px 20px; border-right:1px solid var(--line); font-size:12px; line-height:1.6; }
+    .principle span:last-child { border-right:0; }
+    .principle strong { display:block; margin-bottom:4px; color:var(--wine); font-size:10px; letter-spacing:.1em; }
+    nav { position:sticky; top:0; z-index:10; display:flex; gap:8px; padding:12px max(18px,5vw); overflow-x:auto; background:rgba(246,242,238,.94); border-bottom:1px solid var(--line); backdrop-filter:blur(12px); }
+    nav a { flex:0 0 auto; padding:9px 15px; border:1px solid var(--line); border-radius:999px; background:var(--card); color:var(--ink); font-size:12px; font-weight:700; text-decoration:none; }
+    nav a[href="#gen"] { border-color:#d4b45a; }
+    nav a[href="#mimo"] { border-color:#dfa189; }
+    nav a[href="#luke"] { border-color:#ad9caf; }
+    main { padding:34px max(20px,5vw) 100px; }
+    section { max-width:1500px; margin:0 auto 72px; scroll-margin-top:76px; }
+    .section-head { display:grid; grid-template-columns:minmax(0,1fr) minmax(260px,.75fr); gap:26px; align-items:end; margin-bottom:22px; padding-top:18px; }
+    .character-name { display:flex; align-items:center; gap:13px; margin:0; font:600 clamp(30px,4.5vw,49px)/1.2 Georgia,"Yu Mincho",serif; }
+    .dot { width:13px; height:13px; border-radius:50%; background:var(--accent); box-shadow:0 0 0 6px color-mix(in srgb,var(--accent) 18%,transparent); }
+    .section-head p { margin:10px 0 0; color:var(--muted); font-size:13px; line-height:1.8; }
+    .character-rule { padding:14px 16px; border-left:3px solid var(--accent); background:color-mix(in srgb,var(--accent) 8%,var(--card)); border-radius:0 12px 12px 0; color:var(--muted); font-size:12px; line-height:1.75; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
+    article { min-width:0; overflow:hidden; border:1px solid var(--line); border-radius:20px; background:var(--card); box-shadow:0 8px 26px rgba(54,39,32,.05); }
+    .visual { display:block; width:100%; padding:0; border:0; background:#faf7f4; cursor:zoom-in; }
+    .visual img { display:block; width:100%; aspect-ratio:1; object-fit:cover; }
+    .content { padding:17px 18px 19px; }
+    .kind { display:inline-flex; align-items:center; gap:6px; margin-bottom:9px; color:var(--accent); font-size:10px; font-weight:800; letter-spacing:.1em; }
+    h3 { margin:0; font-size:18px; line-height:1.45; }
+    .scene { margin:8px 0 15px; color:var(--muted); font-size:12px; line-height:1.75; }
+    .development { margin:0; padding:13px 14px; border-radius:13px; background:color-mix(in srgb,var(--accent) 8%,#fff); font-size:11px; line-height:1.7; }
+    .development strong { display:block; margin-bottom:3px; color:var(--ink); font-size:10px; letter-spacing:.06em; }
+    .pose { margin:12px 0 0; color:var(--muted); font-size:10px; line-height:1.6; }
+    .pose strong { color:var(--ink); }
+    .gen { --accent:var(--gen); }
+    .mimo { --accent:var(--mimo); }
+    .luke { --accent:var(--luke); }
+    dialog { width:min(94vw,1120px); max-height:94vh; padding:0; border:0; border-radius:18px; background:var(--card); box-shadow:0 30px 90px rgba(40,25,20,.3); }
+    dialog::backdrop { background:rgba(35,27,24,.72); }
+    dialog img { display:block; width:100%; max-height:88vh; object-fit:contain; background:#faf7f4; }
+    dialog button { position:absolute; top:12px; right:12px; width:42px; height:42px; border:1px solid var(--line); border-radius:50%; background:rgba(255,253,251,.94); color:var(--ink); font-size:22px; cursor:pointer; }
+    footer { padding:26px max(20px,5vw) 42px; border-top:1px solid var(--line); color:var(--muted); font-size:10px; line-height:1.7; }
+    @media (max-width:980px) { .grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .section-head { grid-template-columns:1fr; gap:12px; } }
+    @media (max-width:620px) { .principle { grid-template-columns:1fr; } .principle span { border-right:0; border-bottom:1px solid var(--line); } .principle span:last-child { border-bottom:0; } .grid { grid-template-columns:1fr; } article { border-radius:16px; } .content { padding:15px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="eyebrow">HUGMAP PARTICIPATORY GROWTH FRAMES</p>
+    <h1>子どもの姿が入って、<br>はじめて物語になる。</h1>
+    <p class="lead">淡い人型は、お子さんの写真が入る位置とポーズを示す枠です。子どもの身体や仕草をキャラクターが受け取り、二人の間に視線、動き、形が生まれることで完成します。</p>
+    <div class="principle" aria-label="設計原則">
+      <span><strong>01｜CHILD</strong>子どもの身体動詞が起点</span>
+      <span><strong>02｜RESPONSE</strong>キャラクターが小さく返す</span>
+      <span><strong>03｜TOGETHER</strong>二人で一つの形をつくる</span>
+    </div>
+  </header>
+
+  <nav aria-label="キャラクターへ移動">
+    <a href="#gen">ゲン｜動く・休む</a>
+    <a href="#mimo">ミモ｜伝える・つながる</a>
+    <a href="#luke">ルーク｜触る・作る</a>
+  </nav>
+
+  <main>
+    <section id="gen" class="gen">
+      <div class="section-head">
+        <div><h2 class="character-name"><span class="dot"></span>ゲン｜うさぎ先生</h2><p>姿勢、足元、バランス、疲れ方を見て、その子の速さと参加方法へ合わせます。</p></div>
+        <div class="character-rule">子どもが前。ゲンは横か一歩後ろ。立つ、歩く、休むを優劣にせず、同じ時間を一緒に過ごします。</div>
+      </div>
+      <div class="grid">
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/gen-frame-prone-dialogue.png" alt="うつ伏せの子どもと同じ高さで向き合うゲン"></button><div class="content"><span class="kind">LOW VIEW</span><h3>ひくいところで、こんにちは</h3><p class="scene">子どもがうつ伏せになると、ゲンも同じ高さへ。二人の視線が小さなボールで出会います。</p><p class="development"><strong>軽く見る発達</strong>うつ伏せで前腕を支えにする／頭を上げる／目の前の物を見る</p><p class="pose"><strong>写真の姿勢：</strong>うつ伏せ・頭を上げた横向きまたは正面</p></div></article>
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/gen-frame-seated-reach.png" alt="座って手を伸ばす子どもへゲンがリボンを返す"></button><div class="content"><span class="kind">REACH</span><h3>ここまで、とどいた</h3><p class="scene">伸ばした手の先へ、ゲンが短いリボンを返します。子どもの腕とゲンの腕が一本の線になります。</p><p class="development"><strong>軽く見る発達</strong>座った姿勢を保つ／斜めへ手を伸ばす／目と手を一緒に使う</p><p class="pose"><strong>写真の姿勢：</strong>座位・片手を斜め上へ伸ばす</p></div></article>
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/gen-frame-balance-mirror.png" alt="片足でバランスをとる子どもとゲン"></button><div class="content"><span class="kind">BALANCE</span><h3>おなじ傾き</h3><p class="scene">子どもの身体の傾きを、ゲンが反対側から小さく返します。二人で一つの天秤になります。</p><p class="development"><strong>軽く見る発達</strong>片足へ体重を移す／腕でバランスをとる／姿勢を調整する</p><p class="pose"><strong>写真の姿勢：</strong>両腕を横へ・片足を少し上げる</p></div></article>
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/gen-frame-ball-exchange.png" alt="足でボールを送り合う子どもとゲン"></button><div class="content"><span class="kind">BALL</span><h3>そっちへ、どうぞ</h3><p class="scene">子どもの足とゲンの足の間にボールを置き、送る・受け取るの往復をつくります。</p><p class="development"><strong>軽く見る発達</strong>片足で立つ／足を前へ出す／ボールへ足を合わせる</p><p class="pose"><strong>写真の姿勢：</strong>横向き・片足をボールへ向ける</p></div></article>
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/gen-frame-relax-looking-up.png" alt="仰向けで並んでくつろぐ子どもとゲン"></button><div class="content"><span class="kind">REST</span><h3>並んで空を見る</h3><p class="scene">何かを頑張る時間ではなく、同じ場所で一緒に休む時間を残します。</p><p class="development"><strong>軽く見る発達</strong>仰向けで身体を休める／視線を上へ向ける／安心して静かに過ごす</p><p class="pose"><strong>写真の姿勢：</strong>仰向け。手足の位置は自由</p></div></article>
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/gen-frame-relax-leaning-together.png" alt="並んで座って寄りかかる子どもとゲン"></button><div class="content"><span class="kind">REST</span><h3>寄りかかって、ひと休み</h3><p class="scene">子どもが少し後ろへ寄りかかると、ゲンも同じ角度で隣へ座ります。</p><p class="development"><strong>軽く見る発達</strong>座る／手で身体を支える／自分に合う姿勢で休む</p><p class="pose"><strong>写真の姿勢：</strong>床座り・両手を後ろへ</p></div></article>
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/gen-frame-relax-watching-together.png" alt="うつ伏せで同じ小さな物を見る子どもとゲン"></button><div class="content"><span class="kind">CURIOSITY</span><h3>同じ小さなものを見る</h3><p class="scene">虫や葉っぱ、おもちゃなど、子どもの興味の先へゲンも並びます。</p><p class="development"><strong>軽く見る発達</strong>興味のある物を見続ける／同じ対象へ注意を向ける／楽な姿勢を選ぶ</p><p class="pose"><strong>写真の姿勢：</strong>うつ伏せ・頬や顎を手に置く</p></div></article>
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/gen-frame-follow-walking.png" alt="歩く子どもの後ろからついていくゲン"></button><div class="content"><span class="kind">FOLLOW</span><h3>歩く子どもの、二歩あと</h3><p class="scene">子どもが行き先を決め、ゲンは同じ方向へ後ろからついていきます。</p><p class="development"><strong>軽く見る発達</strong>前へ歩く／左右へ体重を移す／自分のペースで移動する</p><p class="pose"><strong>写真の姿勢：</strong>歩く後ろ姿。日常の写真をそのまま使える</p></div></article>
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/gen-frame-follow-stairs.png" alt="階段を上る子どもの一段後ろをついていくゲン"></button><div class="content"><span class="kind">FOLLOW</span><h3>階段の、一段あと</h3><p class="scene">子どもが先に一段上り、ゲンは触れずに一段後ろから同じ速度で進みます。</p><p class="development"><strong>軽く見る発達</strong>段差へ足を上げる／片足で身体を支える／手すりを使って進む</p><p class="pose"><strong>写真の姿勢：</strong>安全な階段を上る後ろ姿</p></div></article>
+      </div>
+    </section>
+
+    <section id="mimo" class="mimo">
+      <div class="section-head">
+        <div><h2 class="character-name"><span class="dot"></span>ミモ｜ことり先生</h2><p>目、声、仕草、間から、ことばになる前の「伝えたい」を受け取ります。</p></div>
+        <div class="character-rule">ミモから話を始めず、子どもの指、物、声を起点にします。返事は同じか、少し小さく。</div>
+      </div>
+      <div class="grid">
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/mimo-frame-shared-pointing.png" alt="子どもの指差した先を一緒に見るミモ"></button><div class="content"><span class="kind">SHARED LOOK</span><h3>みつけたものを、いっしょに</h3><p class="scene">子どもの指差しを受けて、ミモも同じ先を見ます。指先と二人の視線で三角形ができます。</p><p class="development"><strong>軽く見る発達</strong>指差す／視線と指を同じ方向へ向ける／面白い物を誰かと共有する</p><p class="pose"><strong>写真の姿勢：</strong>片腕を伸ばして指差す</p></div></article>
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/mimo-frame-show-and-receive.png" alt="子どもが見せた物を受け取るミモ"></button><div class="content"><span class="kind">SHOW</span><h3>「みて」を受け取る</h3><p class="scene">子どもが見せた物をミモは取らず、一緒に見ます。好きな物が二人をつなぎます。</p><p class="development"><strong>軽く見る発達</strong>好きな物を見せる／腕を相手へ伸ばす／同じ物へ注意を向ける</p><p class="pose"><strong>写真の姿勢：</strong>物を胸の前から相手へ差し出す</p></div></article>
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/mimo-frame-voice-pingpong.png" alt="子どもの声へ小さな声を返すミモ"></button><div class="content"><span class="kind">VOICE</span><h3>声のピンポン</h3><p class="scene">子どもの口から届いた音へ、ミモが小さく音を返します。声の大小より往復を見ます。</p><p class="development"><strong>軽く見る発達</strong>声を出す／笑う／喃語や音をまねる／交互にやりとりする</p><p class="pose"><strong>写真の姿勢：</strong>横顔または斜め顔・口が開いた瞬間</p></div></article>
+      </div>
+    </section>
+
+    <section id="luke" class="luke">
+      <div class="section-head">
+        <div><h2 class="character-name"><span class="dot"></span>ルーク｜りす先生</h2><p>触る、握る、繰り返す様子から、合う道具や参加の形を探します。</p></div>
+        <div class="character-rule">道具で子どもの動作を代行しません。子どもの指先や線がなければ、ルークの道具も完成しない構図にします。</div>
+      </div>
+      <div class="grid">
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/luke-frame-tiny-discovery.png" alt="子どもの指先へ虫眼鏡を合わせるルーク"></button><div class="content"><span class="kind">DISCOVER</span><h3>その小さなもの、発見</h3><p class="scene">子どもがつまんだ小さな物が、ルークの虫眼鏡の中心になります。</p><p class="development"><strong>軽く見る発達</strong>親指と人差し指でつまむ／小さな物へ狙いを合わせる／手元を観察する</p><p class="pose"><strong>写真の姿勢：</strong>胸の前で小さな物をつまむ</p></div></article>
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/luke-frame-shared-build.png" alt="子どもの積み木へ屋根を添えるルーク"></button><div class="content"><span class="kind">BUILD</span><h3>さいごの一個は、いっしょに</h3><p class="scene">子どもが置くブロックとルークの部品が、一つの構造物になります。</p><p class="development"><strong>軽く見る発達</strong>積み木を置く／位置と向きを合わせる／形を組み合わせて作る</p><p class="pose"><strong>写真の姿勢：</strong>座る・膝立ちで積み木を置く</p></div></article>
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/luke-frame-shared-line.png" alt="子どもの描いた線を続けるルーク"></button><div class="content"><span class="kind">DRAW</span><h3>線のつづきは、こっち</h3><p class="scene">子どもの線を正さず、ルークがその先へ短い線を返して一つの輪を作ります。</p><p class="development"><strong>軽く見る発達</strong>クレヨンを握る／紙へ線を残す／手を動かして線を続ける</p><p class="pose"><strong>写真の姿勢：</strong>紙へクレヨンで線を描く手元</p></div></article>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="viewer"><button type="button" aria-label="閉じる">×</button><img alt=""></dialog>
+  <footer>発達要素の文言は、写真から見える姿を軽く振り返るためのものです。達成判定、診断、標準時期との比較を目的としません。</footer>
+  <script>
+    const viewer = document.querySelector('#viewer');
+    const viewerImage = viewer.querySelector('img');
+    document.querySelectorAll('.visual').forEach((button) => {
+      button.addEventListener('click', () => {
+        const image = button.querySelector('img');
+        viewerImage.src = image.src;
+        viewerImage.alt = image.alt;
+        viewer.showModal();
+      });
+    });
+    viewer.querySelector('button').addEventListener('click', () => viewer.close());
+    viewer.addEventListener('click', (event) => { if (event.target === viewer) viewer.close(); });
+  </script>
+</body>
+</html>
