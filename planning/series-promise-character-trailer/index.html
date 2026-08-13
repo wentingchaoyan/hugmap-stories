@@ -18,7 +18,7 @@
     .promise-intro{display:grid;place-items:center;padding:clamp(34px,8vw,80px);text-align:center}
     .promise-intro h1{margin-top:18px;font:600 clamp(36px,7vw,62px)/1.35 Georgia,"Yu Mincho",serif}.promise-intro h1 .second-line{display:block;font-size:.72em;white-space:nowrap}
     .promise-intro .lead{margin:28px auto 0;max-width:26em;font:500 clamp(17px,3vw,24px)/1.8 Georgia,"Yu Mincho",serif}
-    .promises{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);padding:1px}.promises-title{grid-column:1/-1;padding:clamp(30px,6vw,54px);text-align:center;background:var(--paper);font:600 clamp(27px,5vw,42px)/1.4 Georgia,"Yu Mincho",serif}
+    .promises{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);padding:1px}.promises-title{grid-column:1/-1;padding:clamp(30px,6vw,54px);text-align:center;background:var(--paper);font:600 clamp(27px,5vw,42px)/1.4 Georgia,"Yu Mincho",serif}.promise:last-child{grid-column:1/-1;min-height:24svh;text-align:center}.promise:last-child p:last-child{max-width:42em;margin-inline:auto}
     .promise{display:grid;align-content:center;min-height:28svh;padding:clamp(24px,5vw,44px);background:var(--paper)}
     .promise .no{font:600 12px/1 Georgia,serif;color:var(--soft);letter-spacing:.12em}.promise h2{margin-top:15px;font:600 clamp(25px,4.5vw,38px)/1.45 Georgia,"Yu Mincho",serif}
     .promise p:last-child{margin-top:18px;font-size:13px;line-height:1.8;color:var(--soft)}
@@ -36,7 +36,7 @@
     .evidence{min-height:auto;padding:28px clamp(22px,6vw,54px);font-size:10px;line-height:1.8;color:var(--soft)}.evidence strong{color:var(--ink)}
     @media(max-width:560px){
       .opening,.character{grid-template-columns:1fr 1fr;padding:26px 16px;gap:10px}.wishes{gap:14px;font-size:clamp(12px,3.4vw,15px)}.personal-note{margin-top:18px;font-size:9px}
-      .promise-intro h1 .second-line{font-size:clamp(19px,5.6vw,28px)}.promises{grid-template-columns:1fr}.promise{min-height:24svh;padding:28px 22px}.promise h2{font-size:25px}.promise p:last-child{font-size:11px}
+      .promise-intro h1 .second-line{font-size:clamp(19px,5.6vw,28px)}.promises{grid-template-columns:1fr}.promise,.promise:last-child{grid-column:auto;min-height:24svh;padding:28px 22px;text-align:left}.promise h2{font-size:25px}.promise p:last-child{font-size:11px}
       .kicker{font-size:9px}.name{font-size:clamp(28px,8vw,38px)}.role{margin-top:8px;font-size:9px}.quote{margin-top:16px;font-size:clamp(13px,3.2vw,16px)}.focus{margin-top:9px;font-size:8px}
       .weakness{margin-top:10px;padding-top:8px;font-size:8px}.visual{overflow:hidden}.visual img{max-height:70svh}
       .team{padding-inline:16px}.team h2{font-size:30px}.team .lead{font-size:13px}
@@ -66,16 +66,13 @@
     <div class="visual"><img src="../series-trailer-prototype/assets/04-gen.png" alt="足跡を残しながら走って登場するGEN"></div>
   </section>
 
-  <section class="promises" aria-label="HugMapが大切にする8つのこと">
-    <h2 class="promises-title">HugMapが大切にする、8つのこと</h2>
-    <article class="promise"><p class="no">01</p><h2>子どもはすでに、世界と関わっている。</h2><p>目、声、仕草、姿勢。ことばや目立つ行動になる前にも、関わりは始まっています。</p></article>
-    <article class="promise"><p class="no">02</p><h2>行動には、本人なりの理由がある。</h2><p>意味を決めつけず、その前後や本人の反応を見ながら確かめます。</p></article>
-    <article class="promise"><p class="no">03</p><h2>一つの正解より、合う条件を探す。</h2><p>人だけを変えず、道具、環境、速さ、伝え方も変えてみます。</p></article>
-    <article class="promise"><p class="no">04</p><h2>全部頑張らなくてよい。</h2><p>休む、断る、見る、一部分だけ参加することも、大切な選択です。</p></article>
-    <article class="promise"><p class="no">05</p><h2>楽しさは、学びの入口になる。</h2><p>安心できること、好きなこと、得意なこと、好奇心から始めます。</p></article>
-    <article class="promise"><p class="no">06</p><h2>強みは伸ばせる。</h2><p>できないことだけでなく、夢中になることや、その子なりの方法を見つけます。</p></article>
-    <article class="promise"><p class="no">07</p><h2>成長は、周囲と祝える。</h2><p>小さな変化を、本人、家族、仲間、先生と分かち合います。</p></article>
-    <article class="promise"><p class="no">08</p><h2>可能性は、一人で支えない。</h2><p>本人を中心に、家族、仲間、先生、専門家が必要なところでつながります。</p></article>
+  <section class="promises" aria-label="HugMapが大切にする5つのこと">
+    <h2 class="promises-title">HugMapが大切にする、5つのこと</h2>
+    <article class="promise"><p class="no">01</p><h2>子どもは、もう世界と関わっている。</h2><p>目、声、仕草、姿勢。ことばになる前にも、やりとりは始まっています。</p></article>
+    <article class="promise"><p class="no">02</p><h2>行動を手がかりに、合う条件を探す。</h2><p>理由を決めつけず、本人の反応を見ながら、道具、環境、速さ、伝え方を変えてみます。</p></article>
+    <article class="promise"><p class="no">03</p><h2>全部頑張らなくてよい。</h2><p>休む、断る、見る、一部分だけ参加することも、大切な選択です。</p></article>
+    <article class="promise"><p class="no">04</p><h2>好き・得意・好奇心から始める。</h2><p>楽しいことや夢中になれることは、その子らしい学びと成長の入口になります。</p></article>
+    <article class="promise"><p class="no">05</p><h2>成長と可能性を、みんなで支える。</h2><p>本人を中心に、家族、仲間、先生、専門家がつながり、小さな変化を一緒に喜びます。</p></article>
   </section>
 
   <section class="team">
