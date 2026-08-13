@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HugMap Stories｜シリーズ予告・白黒試作</title>
+  <style>
+    :root{--ink:#282522;--paper:#faf8f4;--soft:#736c66;--rule:#d8d2ca}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:#e9e5df;color:var(--ink);font-family:"Hiragino Sans","Yu Gothic",sans-serif}
+    main{width:min(100%,760px);margin:auto;background:var(--paper);box-shadow:0 0 40px #0002}
+    section{position:relative;min-height:100svh;display:grid;align-items:center;overflow:hidden;border-bottom:1px solid var(--rule)}
+    img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:contrast(1.03)}
+    .mobile-art{display:none}
+    .copy{position:relative;z-index:1;padding:8vw clamp(28px,7vw,72px);max-width:34em}
+    .right .copy{margin-left:auto;width:56%}.left .copy{width:56%}
+    .luke .copy{align-self:start;margin-top:3vh;width:50%}
+    .kicker{font:600 12px/1.5 Georgia,serif;letter-spacing:.18em;color:var(--soft)}
+    h1,h2,p{margin:0}
+    h1{font:600 clamp(43px,9vw,76px)/1.25 Georgia,"Yu Mincho",serif;letter-spacing:.02em}
+    h2{font:600 clamp(37px,7vw,62px)/1.25 Georgia,"Yu Mincho",serif}
+    .role{margin-top:15px;font-size:14px;font-weight:700;letter-spacing:.08em}
+    .line{margin-top:28px;font:500 clamp(19px,3.6vw,28px)/1.8 Georgia,"Yu Mincho",serif}
+    .wish-list{display:grid;gap:30px;font:500 clamp(19px,3.5vw,27px)/1.75 Georgia,"Yu Mincho",serif}
+    .wish-list p:before{content:"— ";color:var(--soft)}
+    .opening{grid-template-columns:52% 48%;background:var(--paper)}
+    .opening img{position:relative;grid-column:2;width:100%;height:100%;object-fit:contain;object-position:center}
+    .opening img,.ending img{mix-blend-mode:multiply}
+    .opening .copy{grid-column:1;grid-row:1;width:100%;align-self:center}
+    .ending{display:grid;grid-template-rows:52% 48%;align-items:stretch;background:var(--paper)}
+    .ending img{position:relative;inset:auto;grid-row:2;width:100%;height:100%;object-position:center center;object-fit:contain}
+    .ending .copy{position:relative;grid-row:1;height:auto;padding:3vh 30px 20px;width:100%;max-width:680px;margin:auto;text-align:center;background:var(--paper)}
+    .ending h1{font-size:clamp(40px,7vw,64px)}
+    .ending .line{margin:18px auto 0;font-size:clamp(17px,2.7vw,22px);max-width:25em}
+    .ending h1{margin-top:16px}.ending .line{max-width:23em}
+    .note{padding:28px;font-size:12px;line-height:1.8;color:var(--soft);text-align:center}
+    @media(max-width:600px){
+      section,.opening,.ending{min-height:100svh;display:grid;grid-template-columns:1fr;grid-template-rows:1fr;align-items:stretch;background:var(--paper);isolation:isolate}
+      section>img,.opening img,.ending img{position:absolute;z-index:0;object-fit:contain;mix-blend-mode:multiply}
+      section>img.desktop-art{display:none}
+      section>img.mobile-art{display:block}
+      section>.copy,.right .copy,.left .copy,.opening .copy,.ending .copy,.luke .copy{position:relative;z-index:1;grid-column:1;grid-row:1;width:100%;height:auto;max-width:none;margin:0;padding:24px 24px 0;align-self:start;background:none}
+      .opening img.mobile-art{inset:auto -4px 10px auto;width:55%;height:auto;max-height:70%}
+      .opening .copy{max-width:88%;padding:24px 22px 0}
+      .wish-list{max-width:17em;gap:14px;font-size:18px;line-height:1.65}
+      .right .copy{text-align:left}
+      h2{font-size:clamp(32px,9vw,44px)}
+      .role{margin-top:8px;font-size:12px}
+      .line{margin-top:10px;font-size:16px;line-height:1.65;max-width:21em}
+      section:not(.opening):not(.ending)>img.mobile-art{inset:auto -4% 8px auto;width:94%;height:auto;max-height:66%}
+      section:not(.opening):not(.ending) .copy{max-width:90%}
+      .luke img.mobile-art{width:86%;max-height:64%}
+      .ending .copy{padding:20px 20px 0;text-align:center}
+      .ending img.mobile-art{inset:auto -2% 4px auto;width:104%;height:auto;max-height:56%}
+      .ending h1{font-size:clamp(32px,8.5vw,44px)}
+      .ending .line{max-width:20em;margin-inline:auto}
+      section:not(.opening):not(.ending) .copy:after{content:"";display:block;width:46px;height:1px;margin-top:18px;background:var(--ink);opacity:.25}
+    }
+  </style>
+</head>
+<body>
+<main>
+  <section class="left opening">
+    <img class="desktop-art" src="assets/01-wishes-landscape-v2.png" alt="やりとり、参加、遊びの広がりを表す三つの抽象的な線画">
+    <img class="mobile-art" src="assets/01-wishes-mobile.png" alt="">
+    <div class="copy">
+      <p class="kicker">THREE WISHES</p>
+      <div class="wish-list">
+        <p>もっと、やりとりができたら。</p>
+        <p>園の活動に、その子なりの形で参加できたら。</p>
+        <p>好きな遊びが、もう少し広がったら。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="left">
+    <img class="desktop-art" src="assets/02-mimo.png" alt="小さなサインに耳を澄ませるミモ">
+    <img class="mobile-art" src="assets/02-mimo-mobile.png" alt="">
+    <div class="copy">
+      <p class="kicker">MIMO</p>
+      <h2>ミモは、<br>聴く。</h2>
+      <p class="role">小さな「伝えたい」を聴く先生</p>
+      <p class="line">「新しいことを教える前に、もう始まっているやりとりを見てみよう。」</p>
+    </div>
+  </section>
+
+  <section class="right luke">
+    <img class="desktop-art" src="assets/03-luke-v2.png" alt="二つの道具を比べ、不要なものを箱へ戻すルーク">
+    <img class="mobile-art" src="assets/03-luke-mobile.png" alt="">
+    <div class="copy">
+      <p class="kicker">LUKE</p>
+      <h2>ルークは、<br>探す。</h2>
+      <p class="role">手がかりから、合う方法を探す先生</p>
+      <p class="line">「いま好きなことの隣に、次の遊びがあるかもしれないね。」</p>
+    </div>
+  </section>
+
+  <section class="left">
+    <img class="desktop-art" src="assets/04-gen.png" alt="小さな足跡へ歩幅を合わせるゲン">
+    <img class="mobile-art" src="assets/04-gen-mobile.png" alt="">
+    <div class="copy">
+      <p class="kicker">GEN</p>
+      <h2>ゲンは、<br>合わせる。</h2>
+      <p class="role">その人に合う参加へ合わせる先生</p>
+      <p class="line">「全部じゃなくても、その人に合う参加の形はつくれるよ。」</p>
+    </div>
+  </section>
+
+  <section class="ending">
+    <img class="desktop-art" src="assets/05-together-landscape-v2.png" alt="いくつもの道の入口に全身で立つミモ、ルーク、ゲン">
+    <img class="mobile-art" src="assets/05-together-mobile.png" alt="">
+    <div class="copy">
+      <p class="kicker">LISTEN · EXPLORE · ADAPT</p>
+      <h1>聴く。探す。<br>合わせる。</h1>
+      <p class="line">見つけ方の違う3人の先生と、今あるサインから次の「できる形」を一緒に探す。</p>
+      <p class="role">HugMap Stories｜小さなサインから、世界をひらく。</p>
+    </div>
+  </section>
+
+  <p class="note">8/12 feedback の白黒 SMALL MASCOTを参照したシリーズ予告試作。画像は正式素材ではありません。</p>
+</main>
+</body>
+</html>
