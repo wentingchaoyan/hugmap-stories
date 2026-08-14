@@ -33,6 +33,7 @@
     nav a[href="#mimo"] { border-color:#dfa189; }
     nav a[href="#luke"] { border-color:#ad9caf; }
     nav a[href="#relationship"] { border-color:#91a98c; }
+    #character-nav { top:63px; }
     main { padding:34px max(20px,5vw) 100px; }
     section { max-width:1500px; margin:0 auto 72px; scroll-margin-top:76px; }
     .section-head { display:grid; grid-template-columns:minmax(0,1fr) minmax(260px,.75fr); gap:26px; align-items:end; margin-bottom:22px; padding-top:18px; }
@@ -60,16 +61,43 @@
     .mimo { --accent:var(--mimo); }
     .luke { --accent:var(--luke); }
     .relationship { --accent:#718c6d; }
+    .families { --accent:var(--wine); }
+    .family-intro { max-width:900px; margin:-4px 0 24px; color:var(--muted); font-size:13px; line-height:1.85; }
+    .family-grid { display:grid; gap:28px; }
+    .axis-lane { padding:20px; border:1px solid var(--line); border-radius:22px; background:rgba(255,255,255,.42); }
+    .axis-head { display:flex; align-items:flex-start; justify-content:space-between; gap:18px; margin-bottom:15px; }
+    .axis-title { margin:0; font-size:19px; letter-spacing:.02em; }
+    .axis-note { max-width:620px; margin:0; color:var(--muted); font-size:11px; line-height:1.65; }
+    .axis-cards { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
+    .family-card { display:grid; grid-template-columns:132px minmax(0,1fr); min-height:260px; overflow:hidden; border:1px solid var(--line); border-radius:20px; background:var(--card); box-shadow:0 8px 26px rgba(54,39,32,.05); }
+    .family-card img { width:132px; height:100%; min-height:260px; object-fit:contain; background:#faf7f4; }
+    .family-copy { min-width:0; padding:16px; }
+    .family-label { display:block; margin-bottom:7px; color:var(--wine); font-size:9px; font-weight:800; letter-spacing:.12em; }
+    .family-meta { display:flex; flex-wrap:wrap; gap:6px; margin:1px 0 3px; }
+    .family-meta span { padding:4px 8px; border-radius:999px; background:#f3eeea; color:#66574f; font-size:10px; font-weight:750; }
+    .family-meta .count { background:#eee5df; color:var(--wine); }
+    .family-card h3 { font-size:17px; }
+    .family-flow { margin:7px 0 12px; color:var(--muted); font-size:10px; line-height:1.65; }
+    .family-question { margin:0 0 9px; padding-top:10px; border-top:1px solid var(--line); font-size:11px; font-weight:700; line-height:1.6; }
+    .answers { display:flex; flex-wrap:wrap; gap:5px; }
+    .answers span { padding:5px 7px; border:1px solid color-mix(in srgb,var(--wine) 24%,var(--line)); border-radius:999px; background:#fff9fa; color:#6f5060; font-size:9px; line-height:1.25; }
+    .all-frames-note { margin:0 auto 42px; max-width:1500px; padding:17px 19px; border:1px solid var(--line); border-radius:16px; background:var(--card); color:var(--muted); font-size:12px; line-height:1.75; }
+    .view-tabs { position:sticky; top:0; z-index:12; display:flex; justify-content:center; gap:8px; padding:12px max(20px,5vw); border-bottom:1px solid var(--line); background:rgba(251,248,245,.94); backdrop-filter:blur(12px); }
+    .view-tab { padding:10px 18px; border:1px solid var(--line); border-radius:999px; background:var(--card); color:var(--muted); font:inherit; font-size:12px; font-weight:750; cursor:pointer; }
+    .view-tab[aria-selected="true"] { border-color:var(--wine); background:var(--wine); color:#fff; }
+    body[data-view="axes"] .character-view, body[data-view="axes"] #character-nav { display:none; }
+    body[data-view="characters"] .axis-view { display:none; }
     dialog { width:min(94vw,1120px); max-height:94vh; padding:0; border:0; border-radius:18px; background:var(--card); box-shadow:0 30px 90px rgba(40,25,20,.3); }
     dialog::backdrop { background:rgba(35,27,24,.72); }
     dialog img { display:block; width:100%; max-height:88vh; object-fit:contain; background:#faf7f4; }
     dialog button { position:absolute; top:12px; right:12px; width:42px; height:42px; border:1px solid var(--line); border-radius:50%; background:rgba(255,253,251,.94); color:var(--ink); font-size:22px; cursor:pointer; }
     footer { padding:26px max(20px,5vw) 42px; border-top:1px solid var(--line); color:var(--muted); font-size:10px; line-height:1.7; }
+    @media (max-width:1180px) { .axis-cards { grid-template-columns:repeat(2,minmax(0,1fr)); } }
     @media (max-width:980px) { .grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .section-head { grid-template-columns:1fr; gap:12px; } }
-    @media (max-width:620px) { .principle { grid-template-columns:1fr; } .principle span { border-right:0; border-bottom:1px solid var(--line); } .principle span:last-child { border-bottom:0; } .grid { grid-template-columns:1fr; } article { border-radius:16px; } .content { padding:15px; } }
+    @media (max-width:620px) { .principle { grid-template-columns:1fr; } .principle span { border-right:0; border-bottom:1px solid var(--line); } .principle span:last-child { border-bottom:0; } .grid,.axis-cards { grid-template-columns:1fr; } .axis-lane { padding:14px; } .axis-head { display:block; } .axis-note { margin-top:6px; } .family-card { grid-template-columns:108px minmax(0,1fr); } .family-card img { width:108px; } article { border-radius:16px; } .content { padding:15px; } }
   </style>
 </head>
-<body>
+<body data-view="axes">
   <header>
     <p class="eyebrow">HUGMAP PARTICIPATORY GROWTH FRAMES</p>
     <h1>子どもの姿が入って、<br>はじめて物語になる。</h1>
@@ -81,7 +109,12 @@
     </div>
   </header>
 
-  <nav aria-label="キャラクターへ移動">
+  <div class="view-tabs" role="tablist" aria-label="フレームの見方">
+    <button class="view-tab" type="button" role="tab" data-view-target="axes" aria-selected="true">発達軸から見る</button>
+    <button class="view-tab" type="button" role="tab" data-view-target="characters" aria-selected="false">キャラクターから見る</button>
+  </div>
+
+  <nav id="character-nav" aria-label="キャラクターへ移動">
     <a href="#gen">ゲン｜動く・休む</a>
     <a href="#mimo">ミモ｜伝える・つながる</a>
     <a href="#luke">ルーク｜触る・作る</a>
@@ -89,7 +122,34 @@
   </nav>
 
   <main>
-    <section id="gen" class="gen">
+    <section id="families" class="families axis-view">
+      <div class="section-head">
+        <div><h2 class="character-name"><span class="dot"></span>遊びの家族と、保護者への質問</h2><p>似たカードを一つの遊びの流れとして見て、写真に写らない意図や繰り返し方は、保護者の観察から受け取ります。</p></div>
+        <div class="character-rule">画像は「写真で見える姿勢」の代表です。選択肢は達成判定ではなく、今日どんな楽しみ方だったかを複数選べる問いとして使います。</div>
+      </div>
+      <p class="family-intro">発達は一本の階段ではないため、15の入口を5つの並行する軸に分けています。軸同士には前後関係をつけず、各軸の中だけを、おおよそ「入口から複雑な遊びへ」と並べます。近い遊びを選び、代表フレームで写真を撮ったあと、一問だけ答えることで、その子らしい方法を記録できます。</p>
+      <div class="family-grid">
+        <article class="family-card"><img src="../participatory-growth-frame-studies/gen-frame-rolling-mirror.png" alt="寝返り途中の代表フレーム"><div class="family-copy"><span class="family-label">01｜からだと姿勢</span><h3>身体の形が変わる</h3><p class="family-flow">仰向け → 手足が中央へ → 寝返り → うつ伏せ → 座る</p><p class="family-question">今日は、どんな身体の使い方をしていましたか？</p><div class="answers"><span>手足を見つけた</span><span>横を向いた</span><span>寝返った</span><span>頭を上げた</span><span>座って支えた</span></div></div></article>
+        <article class="family-card"><img src="../participatory-growth-frame-studies/gen-frame-follow-walking.png" alt="移動遊びの代表フレーム"><div class="family-copy"><span class="family-label">02｜移動する</span><h3>行きたい方へ進む</h3><p class="family-flow">ハイハイ → くぐる → 歩く → 階段 → 走る → 跳ぶ</p><p class="family-question">今日は、どうやって移動していましたか？</p><div class="answers"><span>手と膝で進んだ</span><span>狭い所をくぐった</span><span>歩いた</span><span>段差を進んだ</span><span>走った</span><span>跳んだ</span></div></div></article>
+        <article class="family-card"><img src="../participatory-growth-frame-studies/gen-frame-wait-turn-slide.png" alt="公園と順番待ちの代表フレーム"><div class="family-copy"><span class="family-label">03｜公園と順番</span><h3>見る、待つ、やってみる</h3><p class="family-flow">立ち止まる → 観察する → 並んで待つ → 滑る・揺れる</p><p class="family-question">遊具へ近づいたとき、どんな様子でしたか？</p><div class="answers"><span>まず見ていた</span><span>まだ進まなかった</span><span>前の子を待った</span><span>番に気づいた</span><span>自分から始めた</span></div></div></article>
+        <article class="family-card"><img src="../participatory-growth-frame-studies/gen-frame-ball-roll.png" alt="ボール遊びの代表フレーム"><div class="family-copy"><span class="family-label">04｜ボール</span><h3>離す、送る、受ける</h3><p class="family-flow">見る → 離す → 転がす → 蹴る → 投げる → 受ける</p><p class="family-question">今日は、ボールをどう楽しんでいましたか？</p><div class="answers"><span>動きを見た</span><span>手を離した</span><span>転がした</span><span>蹴った</span><span>投げた</span><span>受けようとした</span><span>交互に続けた</span></div></div></article>
+        <article class="family-card"><img src="../participatory-growth-frame-studies/mimo-frame-shared-pointing.png" alt="注意を共有する代表フレーム"><div class="family-copy"><span class="family-label">05｜見る・伝える</span><h3>興味の先を分け合う</h3><p class="family-flow">目で追う → 見続ける → 指差す → 見せる → 一緒に見る</p><p class="family-question">興味のあるものを、どう伝えていましたか？</p><div class="answers"><span>見つめた</span><span>目で追った</span><span>指差した</span><span>持ってきた</span><span>見せた</span><span>一緒に見た</span></div></div></article>
+        <article class="family-card"><img src="../participatory-growth-frame-studies/mimo-frame-child-leads-imitation.png" alt="子どもが見本になる模倣の代表フレーム"><div class="family-copy"><span class="family-label">06｜まねる・生み出す</span><h3>こんどは、わたしが見本</h3><p class="family-flow">表情・声 → 身体 → 道具 → 他児 → 後から再現 → 自分の形</p><p class="family-question">どんな「まね」が起きていましたか？</p><div class="answers"><span>表情</span><span>声や音</span><span>身体の動き</span><span>道具の使い方</span><span>他の子の遊び</span><span>後から再現</span><span>自分の動きを加えた</span></div></div></article>
+        <article class="family-card"><img src="../participatory-growth-frame-studies/gen-frame-hide-and-seek.png" alt="かくれんぼの代表フレーム"><div class="family-copy"><span class="family-label">07｜隠す・見つける</span><h3>見えなくても、つづいている</h3><p class="family-flow">隠れた物を探す → 自分が隠れる → 相手を探す → 交代する</p><p class="family-question">今日は、どちらを楽しんでいましたか？</p><div class="answers"><span>隠れた物を探した</span><span>自分が隠れた</span><span>見つかるのを待った</span><span>相手を探した</span><span>役を交代した</span></div></div></article>
+        <article class="family-card"><img src="../participatory-growth-frame-studies/mimo-frame-pretend-cooking.png" alt="ごっこ遊びの代表フレーム"><div class="family-copy"><span class="family-label">08｜ごっこ</span><h3>ふりから物語へ</h3><p class="family-flow">飲食のふり → 相手へする → 見立てる → 手順 → 役割 → 物語</p><p class="family-question">遊びの中で、どんな物語がありましたか？</p><div class="answers"><span>飲食のふり</span><span>人形へした</span><span>別の物に見立てた</span><span>手順を続けた</span><span>役になった</span><span>役を分けた</span><span>物語を続けた</span></div></div></article>
+        <article class="family-card"><img src="../participatory-growth-frame-studies/luke-frame-sand-texture.png" alt="感覚遊びの代表フレーム"><div class="family-copy"><span class="family-label">09｜感覚遊び</span><h3>触り方を自分で選ぶ</h3><p class="family-flow">触れる → 握る → 落とす → 押す → 移す → 繰り返す・やめる</p><p class="family-question">どんな触り方をしていましたか？</p><div class="answers"><span>触れた</span><span>握った</span><span>落とした</span><span>押した</span><span>丸めた</span><span>移した</span><span>繰り返した</span><span>やめることを選んだ</span></div></div></article>
+        <article class="family-card"><img src="../participatory-growth-frame-studies/luke-frame-button-sound.png" alt="原因と結果を確かめる代表フレーム"><div class="family-copy"><span class="family-label">10｜探求・原因と結果</span><h3>こうしたら、どうなる？</h3><p class="family-flow">動かす → 変化を見る → 繰り返す → 方法を変える → 予想する</p><p class="family-question">動かしたあと、どんな様子でしたか？</p><div class="answers"><span>変化を見た</span><span>もう一度した</span><span>違う方法を試した</span><span>結果を待った</span><span>次を予想していた</span></div></div></article>
+        <article class="family-card"><img src="../participatory-growth-frame-studies/luke-frame-arrange-pretend-train.png" alt="積み木を並べて見立てる代表フレーム"><div class="family-copy"><span class="family-label">11｜積み木・構成</span><h3>ならべたら、何かになった</h3><p class="family-flow">運ぶ → 入れる → 置く → 積む → 並べる → 見立てる → 計画・共同</p><p class="family-question">今日は、積み木をどう使っていましたか？</p><div class="answers"><span>運んだ</span><span>入れた</span><span>一個置いた</span><span>積んだ</span><span>並べた</span><span>何かに見立てた</span><span>作る物を決めた</span><span>一緒に作った</span></div></div></article>
+        <article class="family-card"><img src="../participatory-growth-frame-studies/luke-frame-coloring.png" alt="描く遊びの代表フレーム"><div class="family-copy"><span class="family-label">12｜描く・作る</span><h3>跡から、形と物語へ</h3><p class="family-flow">点 → 往復 → 線 → 円や形 → 色を広げる → 描いた物を語る</p><p class="family-question">紙の上で、何を楽しんでいましたか？</p><div class="answers"><span>点をつけた</span><span>手を往復した</span><span>線を描いた</span><span>形をまねた</span><span>色を広げた</span><span>物らしい形</span><span>名前をつけた</span></div></div></article>
+        <article class="family-card"><img src="../participatory-growth-frame-studies/luke-frame-page-turn.png" alt="本を見る遊びの代表フレーム"><div class="family-copy"><span class="family-label">13｜本・ことば</span><h3>めくる先に、ことばがある</h3><p class="family-flow">見る → めくる → 指差す → 名前を聞く・言う → 予想 → 語り直す</p><p class="family-question">本を見ながら、何をしていましたか？</p><div class="answers"><span>絵を見た</span><span>ページをめくった</span><span>指差した</span><span>名前を聞いた</span><span>ことばを言った</span><span>次を予想した</span><span>お話を語った</span></div></div></article>
+        <article class="family-card"><img src="../participatory-growth-frame-studies/together-frame-self-feeding-table.png" alt="日常生活の代表フレーム"><div class="family-copy"><span class="family-label">14｜日常生活</span><h3>自分でする、助けを求める</h3><p class="family-flow">食べる・飲む → 着る → 片づける → 手伝いを求める</p><p class="family-question">今日は、どこを自分でしていましたか？</p><div class="answers"><span>口へ運んだ</span><span>コップを持った</span><span>袖へ手を通した</span><span>物を戻した</span><span>手伝いを求めた</span><span>途中まで自分でした</span></div></div></article>
+        <article class="family-card"><img src="../participatory-growth-frame-studies/relationship-frame-children-offer-and-wait.png" alt="関係とルールの代表フレーム"><div class="family-copy"><span class="family-label">15｜関係・ルール</span><h3>求める、応える、待つ</h3><p class="family-flow">求める → 渡す → 応答を待つ → 順番 → 助ける → 一緒に作る</p><p class="family-question">相手との間で、何が起きていましたか？</p><div class="answers"><span>求めた</span><span>応えてもらった</span><span>渡した</span><span>待った</span><span>順番を守った</span><span>助けを提案した</span><span>一緒に作った</span></div></div></article>
+      </div>
+    </section>
+
+    <p class="all-frames-note character-view"><strong>ここでは、写真姿勢をキャラクターから選べます。</strong><br>同じ遊びの細かな段階は「発達軸から見る」タブの質問で記録し、身体の形や撮影場面が明確に異なるときだけ、別のフレームを選びます。</p>
+
+    <section id="gen" class="gen character-view">
       <div class="section-head">
         <div><h2 class="character-name"><span class="dot"></span>ゲン｜うさぎ先生</h2><p>姿勢、足元、バランス、疲れ方を見て、その子の速さと参加方法へ合わせます。</p></div>
         <div class="character-rule">子どもが前。ゲンは横か一歩後ろ。立つ、歩く、休むを優劣にせず、同じ時間を一緒に過ごします。</div>
@@ -125,7 +185,7 @@
       </div>
     </section>
 
-    <section id="mimo" class="mimo">
+    <section id="mimo" class="mimo character-view">
       <div class="section-head">
         <div><h2 class="character-name"><span class="dot"></span>ミモ｜ことり先生</h2><p>目、声、仕草、間から、ことばになる前の「伝えたい」を受け取ります。</p></div>
         <div class="character-rule">ミモから話を始めず、子どもの指、物、声を起点にします。返事は同じか、少し小さく。</div>
@@ -143,10 +203,11 @@
         <article><button class="visual"><img src="../participatory-growth-frame-studies/mimo-frame-pretend-phone.png" alt="おもちゃの電話で話す子どもの声を受け取るミモ"></button><div class="content"><span class="role role-together">TOGETHER</span><span class="kind">PRETEND PHONE</span><h3>もしもし、きこえる？</h3><p class="scene">子どもがおもちゃを耳へ当てて声を出すと、ミモが会話の向こう側になります。話したことばの数より、話す・聞くの交代を残します。</p><p class="development"><strong>二人の間で起きていること</strong>電話をするふりをする／一語や短いことばで伝える／相手の返事を待って聞く</p><p class="pose"><strong>写真の姿勢：</strong>座る・立つ姿勢で、おもちゃの電話を片耳へ当て、口を開いて話す。大人は撮影側</p></div></article>
         <article><button class="visual"><img src="../participatory-growth-frame-studies/mimo-frame-pretend-cooking.png" alt="料理を作ってミモへ差し出す子ども"></button><div class="content"><span class="role role-together">TOGETHER</span><span class="kind">PRETEND COOKING</span><h3>できたよ、ひとくちどうぞ</h3><p class="scene">子どもが鍋を混ぜて取り分けると、ミモが客として一皿を受け取ります。</p><p class="development"><strong>二人の間で起きていること</strong>料理をするふりをする／手順をつなげる／作った物を相手へ勧める</p><p class="pose"><strong>写真の姿勢：</strong>座る・膝立ちで、一方の手で鍋を混ぜ、もう一方を相手へ伸ばす。大人は撮影側</p></div></article>
         <article><button class="visual"><img src="../participatory-growth-frame-studies/mimo-frame-rhythm-copy.png" alt="太鼓のリズムをミモが翼で返す"></button><div class="content"><span class="role role-together">TOGETHER</span><span class="kind">RHYTHM COPY</span><h3>同じリズム、かえってきた</h3><p class="scene">子どもが太鼓を叩くと、ミモが二つの翼を合わせて同じ間を返します。</p><p class="development"><strong>二人の間で起きていること</strong>手のひらで叩く／音と間を聞く／相手のリズムをまねて返す</p><p class="pose"><strong>写真の姿勢：</strong>座って太鼓の前へ両手を置き、片手が面へ触れた瞬間。大人は撮影側</p></div></article>
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/mimo-frame-child-leads-imitation.png" alt="子どもが考えた片足と腕の形をミモがまねる"></button><div class="content"><span class="role role-together">TOGETHER</span><span class="kind">CHILD LEADS</span><h3>こんどは、わたしが見本</h3><p class="scene">子どもが自分で考えた身体の形をつくると、ミモがその形を翼と片足で返します。まねる側と見本になる側が入れ替わります。</p><p class="development"><strong>二人の間で起きていること</strong>自分から動きを生み出す／相手が見ていることを意識する／役割を交代してまねる</p><p class="pose"><strong>写真の姿勢：</strong>片腕を頭の上、反対の腕を横へ伸ばし、片膝を上げて止まる。大人は撮影側</p></div></article>
       </div>
     </section>
 
-    <section id="luke" class="luke">
+    <section id="luke" class="luke character-view">
       <div class="section-head">
         <div><h2 class="character-name"><span class="dot"></span>ルーク｜りす先生</h2><p>触る、握る、繰り返す様子から、合う道具や参加の形を探します。</p></div>
         <div class="character-rule">道具で子どもの動作を代行しません。子どもの指先や線がなければ、ルークの道具も完成しない構図にします。</div>
@@ -165,6 +226,7 @@
         <article><button class="visual"><img src="../participatory-growth-frame-studies/luke-frame-find-pair.png" alt="同じ絵のカードを見つける子どもと見比べるルーク"></button><div class="content"><span class="role role-milestone">MILESTONE</span><span class="kind">FIND THE PAIR</span><h3>おなじ、みつけた</h3><p class="scene">子どもが選んだ一枚を持ち上げると、床の一枚と同じ絵がそろいます。ルークは正解を指ささず、二つの間へ視線を向けます。</p><p class="development"><strong>この姿勢・動作で見えること</strong>見た特徴を覚える／同じものを二つ見つける／違うものから選び分ける</p><p class="pose"><strong>写真の姿勢：</strong>座って一枚のカードや靴下を胸の前へ持ち、床の同じものを見る。大人は撮影側</p></div></article>
         <article><button class="visual"><img src="../participatory-growth-frame-studies/luke-frame-sticker-paste.png" alt="台紙からシールをはがして紙へ貼る子どもの指先を見るルーク"></button><div class="content"><span class="role role-milestone">MILESTONE</span><span class="kind">PEEL &amp; STICK</span><h3>ぺりっ、ここにしよう</h3><p class="scene">子どもがシールの端をつまんではがし、自分で選んだ場所へ運びます。ルークは何も持たず、小さな端から貼る場所までを目で追います。</p><p class="development"><strong>この姿勢・動作で見えること</strong>薄い端をつまむ／片手で台紙を押さえる／位置を選んで指で押しつける</p><p class="pose"><strong>写真の姿勢：</strong>座って片手で台紙を押さえ、反対の手でシールの端をつまむ。大人は撮影側</p></div></article>
         <article><button class="visual"><img src="../participatory-growth-frame-studies/luke-frame-shared-build.png" alt="崩れた積み木からもう一度作る子どものそばで待つルーク"></button><div class="content"><span class="role role-together">TOGETHER</span><span class="kind">BUILD &amp; TRY AGAIN</span><h3>くずれても、ここから</h3><p class="scene">崩れた積み木から、子どもが次の一個を選んで置きます。ルークは部品も答えも持たず、同じ高さで続きを待ちます。</p><p class="development"><strong>二人の間で起きていること</strong>積み木を置く／崩れたあとに試し直す／自分の方法で続きを作る</p><p class="pose"><strong>写真の姿勢：</strong>座る・膝立ちで、積み木を一つ持って中央へ置く</p></div></article>
+        <article><button class="visual"><img src="../participatory-growth-frame-studies/luke-frame-arrange-pretend-train.png" alt="横一列に並べた積み木を電車に見立てる子どもとルーク"></button><div class="content"><span class="role role-milestone">MILESTONE</span><span class="kind">ARRANGE &amp; PRETEND</span><h3>ならべたら、電車になった</h3><p class="scene">子どもが最後の一個を横一列の端へ置くと、点線のレールが現れ、積み木の列が電車になります。ルークは答えを足さず、子どもの見立てを見ています。</p><p class="development"><strong>この姿勢・動作で見えること</strong>物を同じ方向へ並べる／間隔や向きを調整する／並べた形へ新しい意味を与える</p><p class="pose"><strong>写真の姿勢：</strong>膝立ちで積み木を一つ持ち、横一列の端へ置く。大人は撮影側</p></div></article>
         <article><button class="visual"><img src="../participatory-growth-frame-studies/luke-frame-shared-line.png" alt="子どもの描いた線を続けるルーク"></button><div class="content"><span class="kind">DRAW</span><h3>線のつづきは、こっち</h3><p class="scene">子どもの線を正さず、ルークがその先へ短い線を返して一つの輪を作ります。</p><p class="development"><strong>軽く見る発達</strong>クレヨンを握る／紙へ線を残す／手を動かして線を続ける</p><p class="pose"><strong>写真の姿勢：</strong>紙へクレヨンで線を描く手元</p></div></article>
         <article><button class="visual"><img src="../participatory-growth-frame-studies/luke-frame-page-turn.png" alt="子どもがめくる一枚の先を待つルーク"></button><div class="content"><span class="role role-milestone">MILESTONE</span><span class="kind">PAGE TURN</span><h3>つぎのページは、その手から</h3><p class="scene">子どもが一枚だけつまんで持ち上げると、ルークは手を出さず、現れる続きを待ちます。</p><p class="development"><strong>この姿勢・動作で見えること</strong>ページの端をつまむ／一枚ずつ持ち上げる／反対の手で本を支える</p><p class="pose"><strong>写真の姿勢：</strong>座って本を開き、片手で一枚の端を持ち上げる。大人は撮影側</p></div></article>
         <article><button class="visual"><img src="../participatory-growth-frame-studies/luke-frame-coloring.png" alt="色を塗る子どもの手元を見るルーク"></button><div class="content"><span class="role role-milestone">MILESTONE</span><span class="kind">COLORING</span><h3>この色、ここまできた</h3><p class="scene">子どもの手が紙の上を往復し、選んだ色が少しずつ広がります。ルークは完成の形を決めず、その端を見ています。</p><p class="development"><strong>この姿勢・動作で見えること</strong>クレヨンを握る／手首と腕を往復させる／色を選んで面を埋める</p><p class="pose"><strong>写真の姿勢：</strong>座って紙へ手を置き、クレヨンを紙面へ接触させる。大人は撮影側</p></div></article>
@@ -173,7 +235,7 @@
       </div>
     </section>
 
-    <section id="relationship" class="relationship">
+    <section id="relationship" class="relationship character-view">
       <div class="section-head">
         <div><h2 class="character-name"><span class="dot"></span>関係の中で育つ</h2><p>一人の技能ではなく、求める、応える、待つ、一緒につくるといった二人の間の発達を残します。</p></div>
         <div class="character-rule">先生は答えを代行しません。人と人の間を空けたまま、横や一歩後ろから安心、安全、待てる時間を守ります。</div>
@@ -192,6 +254,101 @@
   <dialog id="viewer"><button type="button" aria-label="閉じる">×</button><img alt=""></dialog>
   <footer>発達要素の文言は、写真から見える姿を軽く振り返るためのものです。達成判定、診断、標準時期との比較を目的としません。</footer>
   <script>
+    const characterSections = new Set(['gen', 'mimo', 'luke', 'relationship']);
+    const setView = (view) => {
+      document.body.dataset.view = view;
+      document.querySelectorAll('.view-tab').forEach((button) => {
+        button.setAttribute('aria-selected', String(button.dataset.viewTarget === view));
+      });
+    };
+    document.querySelectorAll('.view-tab').forEach((button) => {
+      button.addEventListener('click', () => {
+        const view = button.dataset.viewTarget;
+        setView(view);
+        const targetId = view === 'axes' ? 'families' : 'gen';
+        history.replaceState(null, '', `#${targetId}`);
+        document.querySelector(`#${targetId}`).scrollIntoView({ behavior:'smooth', block:'start' });
+      });
+    });
+    document.querySelectorAll('#character-nav a').forEach((link) => {
+      link.addEventListener('click', () => setView('characters'));
+    });
+    const viewFromHash = () => setView(characterSections.has(location.hash.slice(1)) ? 'characters' : 'axes');
+    window.addEventListener('hashchange', viewFromHash);
+    viewFromHash();
+
+    const familyStats = {
+      'からだと姿勢': ['粗大運動・姿勢', 8],
+      '見る・伝える': ['言語・コミュニケーション', 5],
+      '感覚遊び': ['感覚・微細運動', 3],
+      '探求・原因と結果': ['認知・問題解決', 7],
+      '移動する': ['粗大運動・移動', 9],
+      '隠す・見つける': ['認知・対人遊び', 2],
+      'まねる・生み出す': ['模倣・社会認知', 4],
+      'ボール': ['協調運動・対人', 3],
+      '本・ことば': ['言語・認知', 1],
+      '日常生活': ['適応・セルフケア', 4],
+      '積み木・構成': ['構成・空間認知', 2],
+      '描く・作る': ['微細運動・表現', 3],
+      '公園と順番': ['粗大運動・自己調整', 4],
+      'ごっこ': ['象徴遊び・言語', 5],
+      '関係・ルール': ['社会性・情緒', 5]
+    };
+    const familyAxes = [
+      {
+        code: 'A',
+        title: '身体・姿勢・移動',
+        note: '姿勢を保つことから、自分で移動し、物や遊具に合わせて身体を調整する流れ。',
+        families: ['からだと姿勢', '移動する', 'ボール', '公園と順番']
+      },
+      {
+        code: 'B',
+        title: '感覚・認知・探索',
+        note: '触って確かめることから、因果を試し、見えない物を探し、物を構成する流れ。言葉の発達とは並行します。',
+        families: ['感覚遊び', '探求・原因と結果', '隠す・見つける', '積み木・構成']
+      },
+      {
+        code: 'C',
+        title: 'コミュニケーション・模倣・象徴',
+        note: '視線や身振りの共有、まね、絵やことば、ふりと物語へ深まる流れ。',
+        families: ['見る・伝える', 'まねる・生み出す', '本・ことば', 'ごっこ']
+      },
+      {
+        code: 'D',
+        title: '手指・生活・表現',
+        note: '手を使って自分でする経験と、跡や色を残して表す経験。ほかの軸と重なりながら育ちます。',
+        families: ['日常生活', '描く・作る']
+      },
+      {
+        code: 'E',
+        title: '社会性・情緒・関係',
+        note: '求める、応えてもらう、待つ、助ける、一緒につくるという、人との間の発達。',
+        families: ['関係・ルール']
+      }
+    ];
+    const familyGrid = document.querySelector('.family-grid');
+    const familyCards = new Map([...document.querySelectorAll('.family-card')].map((card) => {
+      const name = card.querySelector('.family-label').textContent.split('｜').pop();
+      return [name, card];
+    }));
+    familyAxes.forEach((axis) => {
+      const lane = document.createElement('section');
+      lane.className = 'axis-lane';
+      const axisCount = axis.families.reduce((total, name) => total + familyStats[name][1], 0);
+      lane.innerHTML = `<div class="axis-head"><div><span class="family-label">AXIS ${axis.code}</span><h3 class="axis-title">${axis.title}｜${axisCount}枚</h3></div><p class="axis-note">${axis.note}</p></div><div class="axis-cards"></div>`;
+      const cards = lane.querySelector('.axis-cards');
+      axis.families.forEach((name, index) => {
+        const card = familyCards.get(name);
+        const [domain, count] = familyStats[name];
+        const meta = document.createElement('div');
+        meta.className = 'family-meta';
+        meta.innerHTML = `<span>発達分野｜${domain}</span><span class="count">${count}枚</span>`;
+        card.querySelector('h3').after(meta);
+        card.querySelector('.family-label').textContent = `${axis.code}${index + 1}｜${name}`;
+        cards.appendChild(card);
+      });
+      familyGrid.appendChild(lane);
+    });
     const developmentOrder = {
       gen: [
         'gen-frame-relax-looking-up.png',
@@ -230,6 +387,7 @@
         'mimo-frame-show-and-receive.png',
         'mimo-frame-imitation-arms-up.png',
         'mimo-frame-rhythm-copy.png',
+        'mimo-frame-child-leads-imitation.png',
         'mimo-frame-freeze-notice.png',
         'mimo-frame-hidden-find.png',
         'mimo-frame-pretend-feeding.png',
@@ -254,6 +412,7 @@
         'luke-frame-shared-line.png',
         'luke-frame-coloring.png',
         'luke-frame-shared-build.png',
+        'luke-frame-arrange-pretend-train.png',
         'luke-frame-clean-up.png'
       ],
       relationship: [
@@ -283,7 +442,7 @@
         'milestone-frame-pull-to-stand.png'
       ])
     };
-    document.querySelectorAll('article').forEach((card) => {
+    document.querySelectorAll('#gen .grid article, #mimo .grid article, #luke .grid article, #relationship .grid article').forEach((card) => {
       const filename = card.querySelector('img').src.split('/').pop();
       const role = cardRoles.cheer.has(filename) ? 'cheer' : cardRoles.milestone.has(filename) ? 'milestone' : 'together';
       if (!card.querySelector('.role')) {
