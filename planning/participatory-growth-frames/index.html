@@ -153,6 +153,45 @@
   <dialog id="viewer"><button type="button" aria-label="閉じる">×</button><img alt=""></dialog>
   <footer>発達要素の文言は、写真から見える姿を軽く振り返るためのものです。達成判定、診断、標準時期との比較を目的としません。</footer>
   <script>
+    const developmentOrder = {
+      gen: [
+        'gen-frame-relax-looking-up.png',
+        'gen-frame-prone-dialogue.png',
+        'gen-frame-relax-watching-together.png',
+        'gen-frame-relax-leaning-together.png',
+        'gen-frame-seated-reach.png',
+        'milestone-frame-pull-to-stand.png',
+        'gen-frame-follow-walking.png',
+        'cheer-frame-pause-before-trying.png',
+        'gen-frame-follow-stairs.png',
+        'gen-frame-balance-mirror.png',
+        'gen-frame-ball-exchange.png'
+      ],
+      mimo: [
+        'mimo-frame-voice-pingpong.png',
+        'mimo-frame-shared-pointing.png',
+        'mimo-frame-show-and-receive.png'
+      ],
+      luke: [
+        'luke-frame-tiny-discovery.png',
+        'luke-frame-shared-line.png',
+        'luke-frame-shared-build.png',
+        'cheer-frame-try-again-together.png'
+      ],
+      relationship: [
+        'relationship-frame-ask-to-be-held.png',
+        'relationship-frame-parent-first-step.png',
+        'together-frame-self-feeding-table.png',
+        'relationship-frame-children-offer-and-wait.png',
+        'relationship-frame-children-repair-together.png',
+        'relationship-frame-children-build-together.png'
+      ]
+    };
+    Object.entries(developmentOrder).forEach(([sectionId, filenames]) => {
+      const grid = document.querySelector(`#${sectionId} .grid`);
+      const cards = new Map([...grid.querySelectorAll('article')].map((card) => [card.querySelector('img').src.split('/').pop(), card]));
+      filenames.forEach((filename) => { if (cards.has(filename)) grid.appendChild(cards.get(filename)); });
+    });
     const cardRoles = {
       cheer: new Set([
         'gen-frame-relax-looking-up.png','gen-frame-relax-leaning-together.png','gen-frame-follow-walking.png','gen-frame-follow-stairs.png',
