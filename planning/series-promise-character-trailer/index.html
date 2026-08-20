@@ -15,10 +15,15 @@
     .opening{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:clamp(14px,3vw,30px);padding:clamp(28px,6vw,58px)}
     .opening img{position:relative;width:100%;max-height:78svh;object-fit:contain;mix-blend-mode:multiply;filter:contrast(1.03)}
     .wishes{display:grid;gap:26px;font:500 clamp(18px,3.4vw,27px)/1.7 Georgia,"Yu Mincho",serif}.wishes p:before{content:"— ";color:var(--soft)}.personal-note{margin-top:30px;font:500 12px/1.8 Georgia,"Yu Mincho",serif;color:var(--soft)}
-    .mother-story{min-height:auto;padding:clamp(250px,55vw,440px) clamp(28px,8vw,72px) clamp(42px,8vw,84px);background-color:var(--paper);background-image:linear-gradient(to bottom,rgba(250,248,244,.08) 0,rgba(250,248,244,.16) 18rem,var(--paper) 29rem),url("assets/mother-story-background.png");background-repeat:no-repeat;background-position:center top;background-size:100% auto}
+    .mother-story{padding:clamp(42px,8vw,84px) clamp(28px,8vw,72px);background:var(--paper)}
     .mother-story .copy{max-width:40em;margin:auto}.mother-story h1{margin-top:14px;font:600 clamp(27px,5vw,44px)/1.55 Georgia,"Yu Mincho",serif}
-    .mother-story .story-body{margin-top:34px;columns:2;column-gap:clamp(28px,6vw,52px);font:500 13px/2 Georgia,"Yu Mincho",serif;color:#46403b}
-    .mother-story .story-body p{margin:0 0 1.45em;break-inside:avoid}.mother-story .story-body p:first-child::first-letter{font-size:1.8em;line-height:1}
+    .mother-story .story-body{max-width:100%;margin:38px auto 0;font:500 14px/2.1 Georgia,"Yu Mincho",serif;color:#46403b}
+    .mother-story .story-row{height:clamp(42rem,72svh,54rem);overflow-x:auto;overflow-y:hidden;writing-mode:vertical-rl;text-orientation:mixed}
+    .mother-story .story-row p{margin:0 0 0 1.7em}.mother-story .story-row:first-child p:first-of-type::first-letter{font-size:1.8em;line-height:1}
+    .mother-story .story-row h2{margin:0 0 0 1.35em;padding-top:.2em;border-top:1px solid var(--rule);font:600 18px/1.7 Georgia,"Yu Mincho",serif;letter-spacing:.08em;color:var(--ink)}
+    .story-illustration-page{display:grid;place-items:center;padding:0;background:var(--paper)}
+    .story-illustration-page figure{width:100%;margin:0}.story-illustration-page img{display:block;width:100%;height:auto;mix-blend-mode:multiply}
+    .mother-story .story-body strong{font-size:1.12em;line-height:1.8;font-weight:700;color:var(--ink)}
     .promise-intro{display:grid;place-items:center;padding:clamp(34px,8vw,80px);text-align:center}
     .promise-intro h1{font:600 clamp(36px,7vw,62px)/1.35 Georgia,"Yu Mincho",serif}.promise-intro h1 .second-line{display:block;margin-top:clamp(22px,4vw,38px);font-size:.72em;white-space:nowrap}
     .promise-intro .lead{margin:28px auto 0;max-width:26em;font:500 clamp(17px,3vw,24px)/1.8 Georgia,"Yu Mincho",serif}
@@ -39,7 +44,7 @@
     .ending{display:grid;place-items:center;padding:clamp(34px,8vw,80px);text-align:center}.ending h2{margin-top:16px;font:600 clamp(35px,7vw,62px)/1.35 Georgia,"Yu Mincho",serif}.ending .lead{margin:26px auto 0;max-width:27em;font:500 clamp(17px,3vw,23px)/1.8 Georgia,"Yu Mincho",serif}.ending .title{margin-top:44px;font:600 13px/1.6 Georgia,serif;letter-spacing:.16em}
     .evidence{min-height:auto;padding:28px clamp(22px,6vw,54px);font-size:10px;line-height:1.8;color:var(--soft)}.evidence strong{color:var(--ink)}
     @media(max-width:560px){
-      .mother-story{padding:clamp(250px,55vw,440px) 22px 38px}.mother-story .story-body{columns:1;font-size:12px;line-height:1.95}
+      .mother-story{padding:38px 22px}.mother-story .story-body{margin-top:30px;font-size:12px;line-height:2}.mother-story .story-row{height:50rem}.mother-story .story-row p{margin:0 0 0 1.6em}
       .opening,.character{grid-template-columns:1fr 1fr;padding:26px 16px;gap:10px}.wishes{gap:14px;font-size:clamp(12px,3.4vw,15px)}.personal-note{margin-top:18px;font-size:9px}
       .promise-intro h1 .second-line{font-size:clamp(19px,5.6vw,28px)}.promises{grid-template-columns:1fr}.promise,.promise:last-child{grid-column:auto;min-height:24svh;padding:28px 22px;text-align:left}.promise h2{font-size:25px}.promise p:last-child{font-size:11px}
       .kicker{font-size:9px}.name{font-size:clamp(28px,8vw,38px)}.role{margin-top:8px;font-size:9px}.quote{margin-top:16px;font-size:clamp(13px,3.2vw,16px)}.focus{margin-top:9px;font-size:8px}
@@ -54,15 +59,34 @@
       <p class="kicker">A MOTHER'S STORY</p>
       <h1>「平均」って、なんだろう。<br>発達って難しい。</h1>
       <div class="story-body">
-        <p>4歳のダウン症の子どもを育てる母親です。子どもが生まれる前は、ずっとIT業界で働き、何事にも懸命に取り組んできました。子育ても同じように頑張ってきました。その分、悲しさも嬉しさもいっぱい味わってきました。</p>
-        <p>子どもが生まれ、障害が分かってすぐ、できる限りのことをしようと動き始めました。ここの先生が良いと言われ、仕事を休み、2時間かけて通いました。けれど、着いた先で子どもが不機嫌になり、30分のリハビリを5分もまともに受けられませんでした。自宅にいるほうが機嫌良く過ごせそうだったので、福祉課に電話して訪問支援をお願いしました。返ってきた答えは、「専門職が少なく、空きがありません」でした。</p>
-        <p>2、3か月が経ち、ようやくSTの担当が決まりました。でも、なぜかうまくいきません。先生はいろいろなパズルやカードを持ってきましたが、子どもはまったく興味を示しません。なぜだろうと思っているうちに、その先生は成人を主に支援してきた言語聴覚士で、子どもとのやりとりや関係づくりに慣れていないのだと感じました。子どもがようやく興味を示した遊びに私が反応しようとしたときには、チェックリストを進めるように、先生はもう次のおもちゃを試していました。</p>
-        <p>先生から見たら、うちの子はあれこれできないのでしょう。でも、本当は私から見たら、いろいろとできています。なぜ、その本人を見ていないのだろう。</p>
-        <p>そんな中、保育園から届いた写真を見ると、クラスメイトのみんなが遊んでいるそばで、彼はいつもぽつんと座り、ぽかんとしていました。目の前には、おもちゃも置かれていません。「もう少しできるはず」と内心思う一方で、発達の遅い彼を日々見てもらい、先生たちにたくさん迷惑をかけているとも感じていたので、その気持ちはなかなか伝えられませんでした。</p>
-        <p>障害児を育てる親にとって、もう一つ直面する課題は、きょうだい児でしょう。うちも同様で、今も鮮明に覚えているのは、小学校3年生のお姉ちゃんが薄々と弟の障害に気づき、涙ながらに母親の私に怒鳴ったことです。「健くんは、もう年中なのにあれこれできない。本当に小学生になれるの？」</p>
-        <p>こんな心配をしたのは彼女だけではありません。通っている教会でも、息子と1歳違いの近所の子が、無邪気に私に「健くんはなぜこんなに遅いの？　健くんの病気は治せるの？」と聞きました。いろいろな動物のように、足が速い子もいれば遅い子もいて、健くんは亀なんだよと言いましたが、心のどこかでは悲しかったです。その子の保護者は病気としてその子に教えていましたが、本当は「病気ではない、ただスピードが違う」とその子に言いたかった。でも、言えませんでした。</p>
-        <p>でも、嬉しい出来事も日々たくさんありました。どんどんいたずらをするようになった彼は、あっという間に部屋を散らかします。お花のサインは、一度教えたらできました。ピアノの曲にはまり、音を流してほしいと、私の手を強く引っ張ります。嫌いな食事を出すと、顔を勢いよく横にそむけます。作業療法士と体を使ってたくさん遊んだときには、満面の笑みを見せてくれました。</p>
-        <p>いろいろな出来事を通して、なぜこうなっているのだろうと思うと、世の中には平均値やあるべき姿を強く求める傾向があることに気づきました。この年齢でこれができないとダメ、というようなチェックリストばかりです。でも、本当は彼に注目してほしい。彼の成長に気づいてほしい。支援者以外の、近くにいる人たちにも、発達にはいろいろなスピードがあることを知ってもらいたい。こんな気持ちで、このプロダクトを作っていました。</p>
+        <div class="story-row">
+        <h2>この子に合う支援は、どこにある？</h2>
+        <p>4歳のダウン症の子どもを育てる母親です。子どもが生まれる前は、IT業界で働き、何事にも懸命に取り組んできました。<strong>子育ても同じように頑張ってきました。</strong>その分、悲しさも嬉しさもいっぱい味わいました。</p>
+        <p>障害が分かってすぐ、<strong>できる限りのことをしよう</strong>と動き始めました。良い先生がいると聞き、仕事を休んで2時間かけて通いました。でも、着いた先で子どもが不機嫌になり、<strong>30分のリハビリを5分も受けられませんでした。</strong>自宅なら機嫌良く過ごせそうだと訪問支援を頼みましたが、答えは「専門職が少なく、空きがありません」でした。</p>
+        <p>2、3か月後、ようやくSTの担当が決まりました。先生はパズルやカードを持ってきましたが、<strong>子どもは興味を示しません。</strong>成人を主に支援してきた先生は、子どもとの関係づくりに慣れていないようでした。子どもがやっと興味を示したときには、チェックリストを進めるように、もう次のおもちゃを試していました。</p>
+        <h2>その子自身を、見ているだろうか。</h2>
+        <p>先生から見たら、うちの子はあれこれできないのでしょう。でも、私には、いろいろとできている姿が見えます。<strong>なぜ、その本人を見ていないのだろう。</strong></p>
+        <p>保育園から届く写真では、みんなが遊ぶそばで、彼はいつもぽつんと座っていました。目の前には、おもちゃもありません。<strong>「もう少しできるはず」</strong>と思う一方、発達の遅い彼を日々見てもらっている申し訳なさから、その気持ちを伝えられませんでした。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="story-illustration-page">
+    <figure><img src="assets/mother-story-background.png" alt="壁に額を寄せ、考え込む母親の線画"></figure>
+  </section>
+
+  <section class="mother-story story-closing">
+    <div class="copy">
+      <div class="story-body">
+        <div class="story-row">
+        <h2>違いを、どう伝えたらいいのだろう。</h2>
+        <p>もう一つの課題は、きょうだい児です。小学校3年生のお姉ちゃんは弟の障害に気づき、涙ながらに私へ怒鳴りました。「健くんは、もう年中なのにあれこれできない。本当に小学生になれるの？」</p>
+        <p>教会では、息子と1歳違いの子に「なぜこんなに遅いの？　病気は治せるの？」と聞かれました。足が速い動物も遅い動物もいて、健くんは亀なんだよと答えましたが、悲しさが残りました。本当は<strong>「病気ではない、ただスピードが違う」</strong>と言いたかった。でも、言えませんでした。</p>
+        <h2>成長は、どこに隠れているのだろう。</h2>
+        <p>嬉しい出来事もたくさんありました。いたずらを覚え、部屋をあっという間に散らかします。<strong>お花のサインは、一度教えたらできました。</strong>好きな曲を流してほしいと私の手を引き、嫌いな食事には顔をそむけます。作業療法士と体を使って遊ぶと、<strong>満面の笑みを見せてくれました。</strong></p>
+        <p>こうした日々から、世の中は平均値や「あるべき姿」を強く求めていると気づきました。「この年齢なら、これができる」というチェックリストばかりです。でも、<strong>本当は彼に注目してほしい。彼の成長に気づいてほしい。</strong>身近な人にも、発達にはいろいろなスピードがあると知ってほしい。そんな思いで、このプロダクトを作っています。</p>
+        </div>
       </div>
     </div>
   </section>
