@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>HugMap Stories｜シリーズの約束と3人の主人公</title>
   <style>
-    :root{--ink:#282522;--paper:#faf8f4;--soft:#716961;--rule:#d8d2ca}
+    :root{--ink:#282522;--paper:#faf8f4;--soft:#716961;--rule:#d8d2ca;--hope:#b5672f}
     *{box-sizing:border-box}html{scroll-behavior:smooth}
     body{margin:0;background:#e7e2dc;color:var(--ink);font-family:"Hiragino Sans","Yu Gothic",sans-serif}
     main{width:min(100%,760px);margin:auto;background:var(--paper);box-shadow:0 0 40px #0002}
@@ -17,13 +17,13 @@
     .wishes{display:grid;gap:26px;font:500 clamp(18px,3.4vw,27px)/1.7 Georgia,"Yu Mincho",serif}.wishes p:before{content:"— ";color:var(--soft)}.personal-note{margin-top:30px;font:500 12px/1.8 Georgia,"Yu Mincho",serif;color:var(--soft)}
     .mother-story{padding:clamp(42px,8vw,84px) clamp(28px,8vw,72px);background:var(--paper)}
     .mother-story .copy{max-width:40em;margin:auto}.mother-story h1{margin-top:14px;font:600 clamp(27px,5vw,44px)/1.55 Georgia,"Yu Mincho",serif}
-    .mother-story .story-body{max-width:100%;margin:38px auto 0;font:500 14px/2.1 Georgia,"Yu Mincho",serif;color:#46403b}
-    .mother-story .story-row{height:clamp(42rem,72svh,54rem);overflow-x:auto;overflow-y:visible;writing-mode:vertical-rl;text-orientation:mixed}
-    .mother-story .story-row p{height:100%;margin:0 0 0 1.7em}.mother-story .story-row:first-child p:first-of-type::first-letter{font-size:1.8em;line-height:1}
-    .mother-story .story-row h2{height:100%;margin:0 0 0 1.35em;padding-top:.2em;border-top:1px solid var(--rule);font:600 18px/1.7 Georgia,"Yu Mincho",serif;letter-spacing:.08em;color:var(--ink)}
+    .keyword-cloud{display:flex;flex-wrap:wrap;align-content:center;align-items:baseline;justify-content:center;gap:.08em .22em;min-height:62svh;margin-top:28px;font-family:Georgia,"Yu Mincho",serif;line-height:.96;text-align:center}
+    .keyword-cloud span{display:inline-block;font-size:clamp(18px,3.2vw,28px);font-weight:600;letter-spacing:-.05em;color:var(--ink)}
+    .keyword-cloud .sm{font-size:clamp(12px,2vw,17px);font-weight:500;color:var(--soft)}.keyword-cloud .md{font-size:clamp(21px,4.2vw,34px)}.keyword-cloud .lg{font-size:clamp(34px,7vw,58px);font-weight:700}.keyword-cloud .xl{font-size:clamp(47px,10vw,82px);font-weight:700}
+    .keyword-cloud .hope{color:var(--hope)}.keyword-cloud .tilt-left{transform:rotate(-2deg)}.keyword-cloud .tilt-right{transform:rotate(2deg)}.keyword-cloud .break{flex-basis:100%;height:0}.keyword-cloud .phrase{letter-spacing:-.08em}
+    .story-closing .keyword-cloud{margin-top:0}.story-key{margin-top:26px;font:600 10px/1.7 Georgia,serif;letter-spacing:.12em;color:var(--soft);text-align:center}.story-key .hope{color:var(--hope)}
     .story-illustration-page{display:grid;place-items:center;padding:0;background:var(--paper)}
     .story-illustration-page figure{width:100%;margin:0}.story-illustration-page img{display:block;width:100%;height:auto;mix-blend-mode:multiply}
-    .mother-story .story-body strong{font-size:1.12em;line-height:1.8;font-weight:700;color:var(--ink)}
     .promise-intro{display:grid;place-items:center;padding:clamp(34px,8vw,80px);text-align:center}
     .promise-intro h1{font:600 clamp(36px,7vw,62px)/1.35 Georgia,"Yu Mincho",serif}.promise-intro h1 .second-line{display:block;margin-top:clamp(22px,4vw,38px);font-size:.72em;white-space:nowrap}
     .promise-intro .lead{margin:28px auto 0;max-width:26em;font:500 clamp(17px,3vw,24px)/1.8 Georgia,"Yu Mincho",serif}
@@ -44,7 +44,7 @@
     .ending{display:grid;place-items:center;padding:clamp(34px,8vw,80px);text-align:center}.ending h2{margin-top:16px;font:600 clamp(35px,7vw,62px)/1.35 Georgia,"Yu Mincho",serif}.ending .lead{margin:26px auto 0;max-width:27em;font:500 clamp(17px,3vw,23px)/1.8 Georgia,"Yu Mincho",serif}.ending .title{margin-top:44px;font:600 13px/1.6 Georgia,serif;letter-spacing:.16em}
     .evidence{min-height:auto;padding:28px clamp(22px,6vw,54px);font-size:10px;line-height:1.8;color:var(--soft)}.evidence strong{color:var(--ink)}
     @media(max-width:560px){
-      .mother-story{padding:38px 22px}.mother-story .story-body{margin-top:30px;font-size:12px;line-height:2}.mother-story .story-row{height:50rem}.mother-story .story-row p{margin:0 0 0 1.6em}
+      .mother-story{padding:38px 22px}.keyword-cloud{min-height:68svh;gap:.14em .25em}.keyword-cloud span{font-size:clamp(14px,4.2vw,21px)}.keyword-cloud .sm{font-size:clamp(10px,3vw,14px)}.keyword-cloud .md{font-size:clamp(18px,5.7vw,27px)}.keyword-cloud .lg{font-size:clamp(27px,8.5vw,42px)}.keyword-cloud .xl{font-size:clamp(38px,12vw,58px)}
       .opening,.character{grid-template-columns:1fr 1fr;padding:26px 16px;gap:10px}.wishes{gap:14px;font-size:clamp(12px,3.4vw,15px)}.personal-note{margin-top:18px;font-size:9px}
       .promise-intro h1 .second-line{font-size:clamp(19px,5.6vw,28px)}.promises{grid-template-columns:1fr}.promise,.promise:last-child{grid-column:auto;min-height:24svh;padding:28px 22px;text-align:left}.promise h2{font-size:25px}.promise p:last-child{font-size:11px}
       .kicker{font-size:9px}.name{font-size:clamp(28px,8vw,38px)}.role{margin-top:8px;font-size:9px}.quote{margin-top:16px;font-size:clamp(13px,3.2vw,16px)}.focus{margin-top:9px;font-size:8px}
@@ -58,17 +58,17 @@
     <div class="copy">
       <p class="kicker">A MOTHER'S STORY</p>
       <h1>「平均」って、なんだろう。<br>発達って難しい。</h1>
-      <div class="story-body">
-        <div class="story-row">
-        <h2>この子に合う支援は、どこ？</h2>
-        <p>4歳のダウン症の子どもを育てる母親です。以前はIT業界で働き、何事にも懸命に取り組んできました。<strong>子育ても同じように頑張ってきました。</strong>悲しさも嬉しさもいっぱい味わいました。</p>
-        <p>障害が分かってすぐ、<strong>できる限りのことをしよう</strong>と動き始めました。良い先生がいると聞き、仕事を休んで2時間かけて通いました。でも、子どもが不機嫌になり、<strong>30分のリハビリを5分も受けられませんでした。</strong>自宅での訪問支援を頼みましたが、答えは「専門職が少なく、空きがありません」でした。</p>
-        <p>2、3か月後、ようやくSTの担当が決まりました。先生はパズルやカードを持ってきましたが、<strong>子どもは興味を示しません。</strong>先生は成人支援が中心で、子どもとの関係づくりに慣れていないようで、子どもがやっと興味を示したときには、チェックリストを進めるように、もう次のおもちゃを試していました。</p>
-        <h2>その子自身を、見ている？</h2>
-        <p>先生から見たら、うちの子はあれこれできないのでしょう。でも、私には、いろいろとできている姿が見えます。<strong>なぜ、その本人を見ていないのだろう。</strong></p>
-        <p>保育園から届く写真では、みんなが遊ぶそばで、彼はいつもぽつんと座り、目の前におもちゃもありません。<strong>「もう少しできるはず」</strong>と思う一方、日々見てもらう申し訳なさから、その気持ちを伝えられませんでした。</p>
-        </div>
+      <div class="keyword-cloud" aria-label="支援を探す中で母親が感じた言葉">
+        <span class="lg tilt-left">できる限り</span><span class="sm">良い先生がいると聞いて</span>
+        <span class="md">2時間かけて</span><span class="xl">5分</span><span>受けられなかった</span>
+        <span class="break"></span><span class="lg phrase">空きがありません</span><span class="sm">2、3か月待って</span><span class="md">ようやくST</span>
+        <span>パズル</span><span>カード</span><span class="lg">興味を示さない</span>
+        <span class="sm phrase">やっと興味を示した、そのとき</span><span class="xl tilt-right">次のおもちゃ</span>
+        <span class="break"></span><span class="md">チェックリスト</span><span class="sm">できないことばかり</span>
+        <span class="xl phrase">本人を見ている？</span><span>ぽつん</span><span class="lg">もう少しできるはず</span>
+        <span class="sm">伝えたい</span><span class="md">でも、伝えられない</span>
       </div>
+      <p class="story-key">大きな文字は、何度も心に浮かんだ言葉。</p>
     </div>
   </section>
 
@@ -78,16 +78,17 @@
 
   <section class="mother-story story-closing">
     <div class="copy">
-      <div class="story-body">
-        <div class="story-row">
-        <h2>違いを、どう伝えたらいいのだろう。</h2>
-        <p>もう一つの課題は、きょうだい児です。小学校3年生のお姉ちゃんは弟の障害に気づき、涙ながらに私へ怒鳴りました。「健くんは、もう年中なのにあれこれできない。本当に小学生になれるの？」</p>
-        <p>教会では、息子と1歳違いの子に「なぜこんなに遅いの？　病気は治せるの？」と聞かれました。足が速い動物も遅い動物もいて、健くんは亀なんだよと答えましたが、悲しさが残りました。本当は<strong>「病気ではない、ただスピードが違う」</strong>と言いたかった。でも、言えませんでした。</p>
-        <h2>成長は、どこに隠れているのだろう。</h2>
-        <p>嬉しい出来事もたくさんありました。いたずらを覚え、部屋をあっという間に散らかします。<strong>お花のサインは、一度教えたらできました。</strong>好きな曲を流してほしいと私の手を引き、嫌いな食事には顔をそむけます。作業療法士と体を使って遊ぶと、<strong>満面の笑みを見せてくれました。</strong></p>
-        <p>こうした日々から、世の中は平均値や「あるべき姿」を強く求めていると気づきました。「この年齢なら、これができる」というチェックリストばかりです。でも、<strong>本当は彼に注目してほしい。彼の成長に気づいてほしい。</strong>身近な人にも、発達にはいろいろなスピードがあると知ってほしい。そんな思いで、このプロダクトを作っています。</p>
-        </div>
+      <div class="keyword-cloud" aria-label="周囲の視線と、子どもたちが見つけた成長">
+        <span class="md">もう年中なのに</span><span class="xl">小学生になれる？</span>
+        <span>なぜ遅いの？</span><span class="sm">病気は治せるの？</span><span class="lg phrase">スピードが違う</span>
+        <span class="break"></span><span class="sm">舐められないように気をつけて</span><span class="lg">警戒される</span><span class="md hope">もう舐めていない</span>
+        <span class="xl">境界線</span><span class="sm">大人は離れて見る</span><span class="lg hope">子どもたちは近づく</span>
+        <span class="hope">健くんを見つける</span><span class="md hope">ピアノをそっと置く</span><span class="lg hope">押してくれる</span><span class="hope">一緒に笑う</span>
+        <span class="break"></span><span>更衣室の視線</span><span class="lg">じろじろ見られる</span><span class="sm">電車で声を出すかもしれない</span><span class="md">出かけないほうを選ぶ</span>
+        <span class="break"></span><span class="md hope">一度でできたサイン</span><span class="hope">私の手を引く</span><span class="hope">嫌なら顔をそむける</span>
+        <span class="lg hope">満面の笑み</span><span class="xl hope phrase tilt-left">成長は、もう始まっている</span>
       </div>
+      <p class="story-key"><span class="hope">琥珀色は、本人と子どもたちが見つけた「もう始まっていること」。</span></p>
     </div>
   </section>
 
