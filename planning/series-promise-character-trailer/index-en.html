@@ -12,9 +12,6 @@
     section{position:relative;min-height:100svh;overflow:hidden;border-bottom:1px solid var(--rule);background:var(--paper)}
     section:before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.14;background-image:radial-gradient(circle at 18% 24%,#8d81731a 0 .55px,transparent .8px),repeating-linear-gradient(7deg,transparent 0 8px,#776b5e0a 9px,transparent 10px 19px);background-size:10px 10px,100% 20px}
     p,h1,h2{margin:0}.copy{position:relative;z-index:2}.kicker{font:600 11px/1.5 Georgia,serif;letter-spacing:.18em;color:var(--soft)}
-    .opening{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:clamp(14px,3vw,30px);padding:clamp(28px,6vw,58px)}
-    .opening img{position:relative;width:100%;max-height:78svh;object-fit:contain;mix-blend-mode:multiply;filter:contrast(1.03)}
-    .wishes{display:grid;gap:26px;font:500 clamp(18px,3.4vw,27px)/1.55 Georgia,serif}.wishes p:before{content:"— ";color:var(--soft)}.personal-note{margin-top:30px;font:500 12px/1.7 Georgia,serif;color:var(--soft)}
     .mother-story{padding:clamp(42px,8vw,84px) clamp(28px,8vw,72px);background:var(--paper)}
     .mother-story .copy{max-width:40em;margin:auto}.mother-story h1{margin-top:14px;font:600 clamp(27px,5vw,44px)/1.2 Georgia,serif}
     .keyword-cloud{display:flex;flex-wrap:wrap;align-content:center;align-items:baseline;justify-content:center;gap:.12em .26em;min-height:62svh;margin-top:28px;font-family:Georgia,serif;line-height:.94;text-align:center}
@@ -23,11 +20,12 @@
     .keyword-cloud .hope{color:var(--hope)}.keyword-cloud .tilt-left{transform:rotate(-2deg)}.keyword-cloud .tilt-right{transform:rotate(2deg)}.keyword-cloud .break{flex-basis:100%;height:0}.keyword-cloud .phrase{letter-spacing:-.065em}
     .story-illustration-page{display:grid;place-items:center;padding:0;background:var(--paper)}.story-illustration-page figure{width:100%;margin:0}.story-illustration-page img{display:block;width:100%;height:auto;mix-blend-mode:multiply}
     .story-closing .keyword-cloud{margin-top:0}.story-key{margin-top:26px;font:600 10px/1.7 Georgia,serif;letter-spacing:.1em;color:var(--soft);text-align:center}.story-key .hope{color:var(--hope)}
-    .story-coda{display:grid;place-items:center;padding:clamp(40px,9vw,88px);text-align:center}.story-coda .copy{max-width:35em}.story-coda .time{font:600 clamp(42px,10vw,82px)/1 Georgia,serif;color:var(--hope)}.story-coda h2{margin-top:28px;font:600 clamp(25px,5vw,42px)/1.3 Georgia,serif}.story-coda .lead{margin:28px auto 0;font:500 clamp(14px,2.5vw,19px)/1.75 Georgia,serif;color:var(--soft)}.story-coda .purpose{margin-top:32px;font:700 clamp(18px,3.3vw,26px)/1.5 Georgia,serif;color:var(--hope)}
-    .promise-intro{display:grid;place-items:center;padding:clamp(34px,8vw,80px);text-align:center}
-    .promise-intro h1{font:600 clamp(36px,7vw,62px)/1.2 Georgia,serif}.promise-intro h1 .second-line{display:block;margin-top:clamp(22px,4vw,38px);font-size:.72em;white-space:normal}
-    .promise-intro .lead{margin:28px auto 0;max-width:26em;font:500 clamp(17px,3vw,24px)/1.65 Georgia,serif}
-    .promises{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);padding:1px}.promises-title{grid-column:1/-1;padding:clamp(30px,6vw,54px);text-align:center;background:var(--paper);font:600 clamp(27px,5vw,42px)/1.25 Georgia,serif}.promise:last-child{grid-column:1/-1;min-height:24svh;text-align:center}.promise:last-child p:last-child{max-width:42em;margin-inline:auto}
+    .story-coda{display:grid;place-items:center;padding:clamp(40px,9vw,88px);text-align:center}.story-coda .copy{max-width:35em}.story-coda .time{font:600 clamp(30px,7vw,56px)/1.15 Georgia,serif;color:var(--hope)}.story-coda h2{margin-top:28px;font:600 clamp(25px,5vw,42px)/1.3 Georgia,serif}.story-coda .lead{margin:28px auto 0;font:500 clamp(14px,2.5vw,19px)/1.75 Georgia,serif;color:var(--soft)}.story-coda .lead+.lead{margin-top:14px}.story-coda .purpose{margin-top:32px;font:700 clamp(18px,3.3vw,26px)/1.5 Georgia,serif;color:var(--hope)}
+    .promise-intro{display:grid;grid-template-columns:.86fr 1.14fr;align-items:center;gap:clamp(14px,3vw,28px);padding:clamp(34px,7vw,68px)}
+    .promise-intro .promise-art{position:relative;width:100%;max-height:82svh;object-fit:contain;mix-blend-mode:multiply;filter:contrast(1.03)}.promise-intro .copy{text-align:left}
+    .promise-intro h1{font:600 clamp(27px,4.5vw,42px)/1.2 Georgia,serif}.promise-intro h1 .second-line{display:block;margin-top:clamp(16px,2.6vw,24px);font-size:.72em;white-space:normal}
+    .possibilities{display:grid;gap:10px;margin-top:26px;font:600 clamp(13px,2.2vw,17px)/1.5 Georgia,serif}.possibilities p:before{content:"— ";color:var(--hope)}.promise-intro .lead{margin-top:24px;font:500 12px/1.7 Georgia,serif;color:var(--soft)}
+    .promises{display:grid;grid-template-columns:1fr 1fr;gap:0;background:var(--paper);padding:0}.promises-title{grid-column:1/-1;padding:clamp(30px,6vw,54px);text-align:center;background:var(--paper);font:600 clamp(27px,5vw,42px)/1.25 Georgia,serif}.promise:last-child{grid-column:1/-1;min-height:24svh;text-align:center}.promise:last-child p:last-child{max-width:42em;margin-inline:auto}
     .promise{display:grid;align-content:center;min-height:28svh;padding:clamp(24px,5vw,44px);background:var(--paper)}
     .promise .no{font:600 12px/1 Georgia,serif;color:var(--soft);letter-spacing:.12em}.promise h2{margin-top:15px;font:600 clamp(25px,4.5vw,38px)/1.25 Georgia,serif}
     .promise p:last-child{margin-top:18px;font-size:13px;line-height:1.8;color:var(--soft)}
@@ -45,8 +43,7 @@
     .evidence{min-height:auto;padding:28px clamp(22px,6vw,54px);font-size:10px;line-height:1.8;color:var(--soft)}.evidence strong{color:var(--ink)}
     @media(max-width:560px){
       .mother-story{padding:38px 22px}.keyword-cloud{min-height:68svh;gap:.16em .27em}.keyword-cloud span{font-size:clamp(14px,4.2vw,21px)}.keyword-cloud .sm{font-size:clamp(10px,3vw,14px)}.keyword-cloud .md{font-size:clamp(18px,5.7vw,27px)}.keyword-cloud .lg{font-size:clamp(27px,8.5vw,42px)}.keyword-cloud .xl{font-size:clamp(38px,12vw,58px)}
-      .opening,.character{grid-template-columns:1fr 1fr;padding:26px 16px;gap:10px}.wishes{gap:14px;font-size:clamp(12px,3.4vw,15px)}.personal-note{margin-top:18px;font-size:9px}
-      .promise-intro h1 .second-line{font-size:clamp(19px,5.6vw,28px)}.promises{grid-template-columns:1fr}.promise,.promise:last-child{grid-column:auto;min-height:24svh;padding:28px 22px;text-align:left}.promise h2{font-size:25px}.promise p:last-child{font-size:11px}
+      .character{grid-template-columns:1fr 1fr;padding:26px 16px;gap:10px}.promise-intro{grid-template-columns:1fr;padding:30px 22px;text-align:center}.promise-intro .promise-art{width:55%;max-height:27svh;margin:auto}.promise-intro .copy{text-align:center}.promise-intro h1 .second-line{font-size:clamp(18px,5.4vw,27px)}.possibilities{gap:7px;margin-top:18px;font-size:12px}.promise-intro .lead{margin-top:16px;font-size:10px}.promises{grid-template-columns:1fr}.promise,.promise:last-child{grid-column:auto;min-height:24svh;padding:28px 22px;text-align:left}.promise h2{font-size:25px}.promise p:last-child{font-size:11px}
       .kicker{font-size:9px}.name{font-size:clamp(28px,8vw,38px)}.role{margin-top:8px;font-size:9px}.quote{margin-top:16px;font-size:clamp(13px,3.2vw,16px)}.focus{margin-top:9px;font-size:8px}
       .weakness{margin-top:10px;padding-top:8px;font-size:8px}.visual{overflow:hidden}.visual img{max-height:70svh}
       .team{padding-inline:16px}.team h2{font-size:30px}.team .lead{font-size:13px}
@@ -113,19 +110,32 @@
 
   <section class="story-coda">
     <div class="copy">
-      <p class="time">Four years later.</p>
-      <h2>What once felt overwhelming<br>has slowly grown lighter.</h2>
-      <p class="lead">But somewhere, a new mother or father<br>may be standing where I once stood.</p>
-      <p class="purpose">So fewer families have to face the same isolation and detours.<br>So I can pass a map back to those just beginning.<br>This is why I keep building.</p>
+      <p class="time">Now that my child is four.</p>
+      <h2>The worries haven’t disappeared.<br>Maybe eighty percent are still here.</h2>
+      <p class="lead">What changed was not how much I worry,<br>but how I see.<br>Professionals and parents each bring<br>a perspective—and a bias.</p>
+      <p class="lead">The beginning can be the loneliest part.<br>But development continues,<br>and the questions change shape.</p>
+      <p class="lead">The next milestone. Preschool or school.<br>How to explain. The next choice.</p>
+      <p class="purpose">Whenever the child’s “now” changes,<br>we can change how we look together.<br><br>So I keep asking<br>what might be possible next.</p>
     </div>
   </section>
 
-  <section class="opening">
-    <div class="copy"><div class="wishes"><p>There may be more ways for us to connect.</p><p>Their own way of joining may already be there.</p><p>Their favorite play may be opening the next door.</p></div><p class="personal-note">Not only wish for more.<br>Notice the small signs already here.</p></div>
-    <img src="../series-trailer-prototype/assets/01-wishes.png" alt="Three simple drawings representing communication, participation, and expanding play">
+  <section class="promise-intro">
+    <img class="promise-art" src="../series-trailer-prototype/assets/01-wishes.png" alt="Three simple drawings representing communication, participation, and expanding play">
+    <div class="copy">
+      <h1>At HugMap,<span class="second-line">before what a child can’t do,<br>we notice what has already begun.</span></h1>
+      <div class="possibilities"><p>There may be more ways for us to connect.</p><p>Their own way of joining may already be there.</p><p>Their favorite play may be opening the next door.</p></div>
+      <p class="lead">Children are already noticing, feeling, trying, and reaching out.<br>Instead of ending with what a child cannot do, we draw the next map from each small sign.</p>
+    </div>
   </section>
 
-  <section class="promise-intro"><div class="copy"><h1>At HugMap,<span class="second-line">before what a child can’t do,<br>we notice what has already begun.</span></h1><p class="lead">Children are already noticing, feeling,<br>trying, and reaching out.</p></div></section>
+  <section class="promises" aria-label="Five things HugMap values">
+    <h2 class="promises-title">Five Things HugMap Values</h2>
+    <article class="promise"><p class="no">01</p><h2>Communication is more than words.</h2><p>A child’s gaze, sounds, gestures, and posture can all tell us something.</p></article>
+    <article class="promise"><p class="no">02</p><h2>Behavior has meaning. Environment matters.</h2><p>We don’t assume we know why. We watch how the child responds and try changing the tools, surroundings, pace, or way we communicate.</p></article>
+    <article class="promise"><p class="no">03</p><h2>It’s okay not to do it all.</h2><p>Resting, saying no, watching, or joining for just one part are meaningful choices too.</p></article>
+    <article class="promise"><p class="no">04</p><h2>Safety, joy, and curiosity come first.</h2><p>What a child enjoys and does well can open the door to learning and growth.</p></article>
+    <article class="promise"><p class="no">05</p><h2>Children grow with support around them.</h2><p>With the child at the center, families, friends, guides, and professionals can connect and celebrate each small step together.</p></article>
+  </section>
 
   <section class="character mimo">
     <div class="copy"><h2 class="name">MIMO<small>Guide</small></h2><p class="role">gentle · chatty · musical</p><p class="quote">“I hear you.<br>Want to tell me more?”</p><p class="focus">Mimo notices a child’s gaze, sounds, gestures, and pauses—the ways they communicate before words.</p><p class="weakness">Easygoing Mimo sometimes waits a little too long.</p></div>
@@ -140,15 +150,6 @@
   <section class="character gen">
     <div class="copy"><h2 class="name">GEN<small>Guide</small></h2><p class="role">energetic · playful · ready to try</p><p class="quote">“Oops, too fast?<br>Let’s slow down and start together.”</p><p class="focus">Gen notices posture, footing, balance, and tiredness, then changes the pace or the way a child takes part.</p><p class="weakness">Enthusiastic Gen sometimes cheers a little too loudly.</p></div>
     <div class="visual"><img src="../series-trailer-prototype/assets/04-gen.png" alt="Gen running in and matching a trail of smaller footsteps"></div>
-  </section>
-
-  <section class="promises" aria-label="Five things HugMap values">
-    <h2 class="promises-title">Five Things HugMap Values</h2>
-    <article class="promise"><p class="no">01</p><h2>Communication is more than words.</h2><p>A child’s gaze, sounds, gestures, and posture can all tell us something.</p></article>
-    <article class="promise"><p class="no">02</p><h2>Behavior has meaning. Environment matters.</h2><p>We don’t assume we know why. We watch how the child responds and try changing the tools, surroundings, pace, or way we communicate.</p></article>
-    <article class="promise"><p class="no">03</p><h2>It’s okay not to do it all.</h2><p>Resting, saying no, watching, or joining for just one part are meaningful choices too.</p></article>
-    <article class="promise"><p class="no">04</p><h2>Safety, joy, and curiosity come first.</h2><p>What a child enjoys and does well can open the door to learning and growth.</p></article>
-    <article class="promise"><p class="no">05</p><h2>Children grow with support around them.</h2><p>With the child at the center, families, friends, guides, and professionals can connect and celebrate each small step together.</p></article>
   </section>
 
   <section class="team">

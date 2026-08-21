@@ -12,9 +12,6 @@
     section{position:relative;min-height:100svh;overflow:hidden;border-bottom:1px solid var(--rule);background:var(--paper)}
     section:before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.14;background-image:radial-gradient(circle at 18% 24%,#8d81731a 0 .55px,transparent .8px),repeating-linear-gradient(7deg,transparent 0 8px,#776b5e0a 9px,transparent 10px 19px);background-size:10px 10px,100% 20px}
     p,h1,h2{margin:0}.copy{position:relative;z-index:2}.kicker{font:600 11px/1.5 Georgia,serif;letter-spacing:.18em;color:var(--soft)}
-    .opening{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:clamp(14px,3vw,30px);padding:clamp(28px,6vw,58px)}
-    .opening img{position:relative;width:100%;max-height:78svh;object-fit:contain;mix-blend-mode:multiply;filter:contrast(1.03)}
-    .wishes{display:grid;gap:26px;font:500 clamp(18px,3.4vw,27px)/1.7 Georgia,"Yu Mincho",serif}.wishes p:before{content:"— ";color:var(--soft)}.personal-note{margin-top:30px;font:500 12px/1.8 Georgia,"Yu Mincho",serif;color:var(--soft)}
     .mother-story{padding:clamp(42px,8vw,84px) clamp(28px,8vw,72px);background:var(--paper)}
     .mother-story .copy{max-width:40em;margin:auto}.mother-story h1{margin-top:14px;font:600 clamp(27px,5vw,44px)/1.55 Georgia,"Yu Mincho",serif}
     .keyword-cloud{display:flex;flex-wrap:wrap;align-content:center;align-items:baseline;justify-content:center;gap:.08em .22em;min-height:62svh;margin-top:28px;font-family:Georgia,"Yu Mincho",serif;line-height:.96;text-align:center}
@@ -22,13 +19,14 @@
     .keyword-cloud .sm{font-size:clamp(12px,2vw,17px);font-weight:500;color:var(--soft)}.keyword-cloud .md{font-size:clamp(21px,4.2vw,34px)}.keyword-cloud .lg{font-size:clamp(34px,7vw,58px);font-weight:700}.keyword-cloud .xl{font-size:clamp(47px,10vw,82px);font-weight:700}
     .keyword-cloud .hope{color:var(--hope)}.keyword-cloud .tilt-left{transform:rotate(-2deg)}.keyword-cloud .tilt-right{transform:rotate(2deg)}.keyword-cloud .break{flex-basis:100%;height:0}.keyword-cloud .phrase{letter-spacing:-.08em}
     .story-closing .keyword-cloud{margin-top:0}.story-key{margin-top:26px;font:600 10px/1.7 Georgia,serif;letter-spacing:.12em;color:var(--soft);text-align:center}.story-key .hope{color:var(--hope)}
-    .story-coda{display:grid;place-items:center;padding:clamp(40px,9vw,88px);text-align:center}.story-coda .copy{max-width:35em}.story-coda .time{font:600 clamp(42px,10vw,82px)/1 Georgia,"Yu Mincho",serif;color:var(--hope)}.story-coda h2{margin-top:28px;font:600 clamp(25px,5vw,42px)/1.55 Georgia,"Yu Mincho",serif}.story-coda .lead{margin:28px auto 0;font:500 clamp(14px,2.5vw,19px)/2 Georgia,"Yu Mincho",serif;color:var(--soft)}.story-coda .purpose{margin-top:32px;font:700 clamp(18px,3.3vw,26px)/1.7 Georgia,"Yu Mincho",serif;color:var(--hope)}
+    .story-coda{display:grid;place-items:center;padding:clamp(40px,9vw,88px);text-align:center}.story-coda .copy{max-width:35em}.story-coda .time{white-space:nowrap;font:600 clamp(20px,6vw,48px)/1.2 Georgia,"Yu Mincho",serif;color:var(--hope)}.story-coda h2{margin-top:28px;white-space:nowrap;font:600 clamp(17px,4.5vw,38px)/1.55 Georgia,"Yu Mincho",serif}.story-coda .lead{margin:28px auto 0;font:500 clamp(14px,2.5vw,19px)/2 Georgia,"Yu Mincho",serif;color:var(--soft)}.story-coda .lead+.lead{margin-top:14px}.story-coda .purpose{margin-top:32px;font:700 clamp(18px,3.3vw,26px)/1.7 Georgia,"Yu Mincho",serif;color:var(--hope)}
     .story-illustration-page{display:grid;place-items:center;padding:0;background:var(--paper)}
     .story-illustration-page figure{width:100%;margin:0}.story-illustration-page img{display:block;width:100%;height:auto;mix-blend-mode:multiply}
-    .promise-intro{display:grid;place-items:center;padding:clamp(34px,8vw,80px);text-align:center}
-    .promise-intro h1{font:600 clamp(36px,7vw,62px)/1.35 Georgia,"Yu Mincho",serif}.promise-intro h1 .second-line{display:block;margin-top:clamp(22px,4vw,38px);font-size:.72em;white-space:nowrap}
-    .promise-intro .lead{margin:28px auto 0;max-width:26em;font:500 clamp(17px,3vw,24px)/1.8 Georgia,"Yu Mincho",serif}
-    .promises{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);padding:1px}.promises-title{grid-column:1/-1;padding:clamp(30px,6vw,54px);text-align:center;background:var(--paper);font:600 clamp(27px,5vw,42px)/1.4 Georgia,"Yu Mincho",serif}.promise:last-child{grid-column:1/-1;min-height:24svh;text-align:center}.promise:last-child p:last-child{max-width:42em;margin-inline:auto}
+    .promise-intro{display:grid;grid-template-columns:.86fr 1.14fr;align-items:center;gap:clamp(14px,3vw,28px);padding:clamp(34px,7vw,68px)}
+    .promise-intro .promise-art{position:relative;width:100%;max-height:82svh;object-fit:contain;mix-blend-mode:multiply;filter:contrast(1.03)}.promise-intro .copy{text-align:left}
+    .promise-intro h1{font:600 clamp(27px,4.5vw,42px)/1.35 Georgia,"Yu Mincho",serif}.promise-intro h1 .second-line{display:block;margin-top:clamp(16px,2.6vw,24px);font-size:.72em;white-space:nowrap}
+    .possibilities{display:grid;gap:10px;margin-top:26px;font:600 clamp(13px,2.2vw,17px)/1.65 Georgia,"Yu Mincho",serif}.possibilities p:before{content:"— ";color:var(--hope)}.promise-intro .lead{margin-top:24px;font:500 12px/1.8 Georgia,"Yu Mincho",serif;color:var(--soft)}
+    .promises{display:grid;grid-template-columns:1fr 1fr;gap:0;background:var(--paper);padding:0}.promises-title{grid-column:1/-1;padding:clamp(30px,6vw,54px);text-align:center;background:var(--paper);font:600 clamp(27px,5vw,42px)/1.35 Georgia,"Yu Mincho",serif}.promises-title span{white-space:nowrap}.promise:last-child{grid-column:1/-1;min-height:24svh;text-align:center}.promise:last-child p:last-child{max-width:42em;margin-inline:auto}
     .promise{display:grid;align-content:center;min-height:28svh;padding:clamp(24px,5vw,44px);background:var(--paper)}
     .promise .no{font:600 12px/1 Georgia,serif;color:var(--soft);letter-spacing:.12em}.promise h2{margin-top:15px;font:600 clamp(25px,4.5vw,38px)/1.45 Georgia,"Yu Mincho",serif}
     .promise p:last-child{margin-top:18px;font-size:13px;line-height:1.8;color:var(--soft)}
@@ -46,8 +44,7 @@
     .evidence{min-height:auto;padding:28px clamp(22px,6vw,54px);font-size:10px;line-height:1.8;color:var(--soft)}.evidence strong{color:var(--ink)}
     @media(max-width:560px){
       .mother-story{padding:38px 22px}.keyword-cloud{min-height:68svh;gap:.14em .25em}.keyword-cloud span{font-size:clamp(14px,4.2vw,21px)}.keyword-cloud .sm{font-size:clamp(10px,3vw,14px)}.keyword-cloud .md{font-size:clamp(18px,5.7vw,27px)}.keyword-cloud .lg{font-size:clamp(27px,8.5vw,42px)}.keyword-cloud .xl{font-size:clamp(38px,12vw,58px)}
-      .opening,.character{grid-template-columns:1fr 1fr;padding:26px 16px;gap:10px}.wishes{gap:14px;font-size:clamp(12px,3.4vw,15px)}.personal-note{margin-top:18px;font-size:9px}
-      .promise-intro h1 .second-line{font-size:clamp(19px,5.6vw,28px)}.promises{grid-template-columns:1fr}.promise,.promise:last-child{grid-column:auto;min-height:24svh;padding:28px 22px;text-align:left}.promise h2{font-size:25px}.promise p:last-child{font-size:11px}
+      .character{grid-template-columns:1fr 1fr;padding:26px 16px;gap:10px}.promise-intro{grid-template-columns:1fr;padding:30px 22px;text-align:center}.promise-intro .promise-art{width:55%;max-height:27svh;margin:auto}.promise-intro .copy{text-align:center}.promise-intro h1 .second-line{font-size:clamp(18px,5.4vw,27px)}.possibilities{gap:7px;margin-top:18px;font-size:12px}.promise-intro .lead{margin-top:16px;font-size:10px}.promises{grid-template-columns:1fr}.promise,.promise:last-child{grid-column:auto;min-height:24svh;padding:28px 22px;text-align:left}.promise h2{font-size:25px}.promise p:last-child{font-size:11px}
       .kicker{font-size:9px}.name{font-size:clamp(28px,8vw,38px)}.role{margin-top:8px;font-size:9px}.quote{margin-top:16px;font-size:clamp(13px,3.2vw,16px)}.focus{margin-top:9px;font-size:8px}
       .weakness{margin-top:10px;padding-top:8px;font-size:8px}.visual{overflow:hidden}.visual img{max-height:70svh}
       .team{padding-inline:16px}.team h2{font-size:30px}.team .lead{font-size:13px}
@@ -114,19 +111,32 @@
 
   <section class="story-coda">
     <div class="copy">
-      <p class="time">4年後。</p>
-      <h2>あの頃の苦しさは、<br>少しずつ軽くなった。</h2>
-      <p class="lead">でも今も、新しく母親や父親になった人が、<br>同じ場所で迷っているかもしれない。</p>
-      <p class="purpose">同じ孤立や遠回りを、繰り返さないために。<br>少し先から、地図を手渡すために。<br>このプロジェクトを続ける。</p>
+      <p class="time">子どもが4歳になった今。</p>
+      <h2>悩みが消えたわけではない。<br>たぶん、今も8割くらいある。</h2>
+      <p class="lead">変わったのは、悩みの量より、<br>見方だった。<br>専門家にも、保護者にも、<br>それぞれの視点とバイアスがある。</p>
+      <p class="lead">初めて向き合うときが、<br>いちばん心細い。<br>でも、その先も、<br>発達と問いは続いていく。</p>
+      <p class="lead">次の発達。園や学校。<br>周囲への伝え方。新しい選択。</p>
+      <p class="purpose">その子の「今」が変わるたび、<br>一緒に見方を更新する。<br><br>だから、今も、<br>次の可能性を問い続ける。</p>
     </div>
   </section>
 
-  <section class="opening">
-    <div class="copy"><div class="wishes"><p>もっと、やりとり<br>できるかもしれない。</p><p>その子なりの参加が、<br>もう始まっている<br>かもしれない。</p><p>好きな遊びの中に、<br>次の扉がある<br>かもしれない。</p></div><p class="personal-note">願うだけでなく、<br>もう始まっている小さなサインを見つけたい。</p></div>
-    <img src="../series-trailer-prototype/assets/01-wishes.png" alt="やりとり、参加、遊びの広がりを表す三つの線画">
+  <section class="promise-intro">
+    <img class="promise-art" src="../series-trailer-prototype/assets/01-wishes.png" alt="やりとり、参加、遊びの広がりを表す三つの線画">
+    <div class="copy">
+      <h1>HugMapは、<span class="second-line">できないことより先に、<br>もう始まっていることを見ます。</span></h1>
+      <div class="possibilities"><p>もっと、やりとりできるかもしれない。</p><p>その子なりの参加が、もう始まっているかもしれない。</p><p>好きな遊びの中に、次の扉があるかもしれない。</p></div>
+      <p class="lead">子どもはもう、見て、感じて、試して、伝えようとしています。<br>問いを「できない」の確認で終わらせず、小さなサインから次の地図を描きます。</p>
+    </div>
   </section>
 
-  <section class="promise-intro"><div class="copy"><h1>HugMapは、<span class="second-line">できないことより先に、<br>もう始まっていることを見ます。</span></h1><p class="lead">子どもはもう、見て、感じて、<br>試して、伝えようとしています。</p></div></section>
+  <section class="promises" aria-label="HugMapが大切にする5つのこと">
+    <h2 class="promises-title">HugMapが大切にする、<br><span>5つのこと</span></h2>
+    <article class="promise"><p class="no">01</p><h2>やりとりは、ことばだけではない。</h2><p>目、声、仕草、姿勢。ことばになる前にも、小さなサインは表れています。</p></article>
+    <article class="promise"><p class="no">02</p><h2>行動には理由がある。できる形は、環境次第。</h2><p>理由を決めつけず、本人の反応を見ながら、道具、環境、速さ、伝え方を変えてみます。</p></article>
+    <article class="promise"><p class="no">03</p><h2>全部頑張らなくてよい。</h2><p>休む、断る、見る、一部分だけ参加することも、大切な選択です。</p></article>
+    <article class="promise"><p class="no">04</p><h2>好き・得意・好奇心から始める。</h2><p>楽しいことや夢中になれることは、その子らしい学びと成長の入口になります。</p></article>
+    <article class="promise"><p class="no">05</p><h2>成長と可能性を、みんなで支える。</h2><p>本人を中心に、家族、仲間、先生、専門家がつながり、小さな変化を一緒に喜びます。</p></article>
+  </section>
 
   <section class="character mimo">
     <div class="copy"><h2 class="name">ミモ<small>せんせい</small></h2><p class="english-name">MIMO</p><p class="role">やさしい · おしゃべり · 歌う</p><p class="quote">「うん、届いたよ。<br>続きをきかせて。」</p><p class="focus">目、声、仕草、間から、ことばになる前の「伝えたい」を受け取ります。</p><p class="weakness">のんきで、ときどき待ちすぎます。</p></div>
@@ -141,15 +151,6 @@
   <section class="character gen">
     <div class="copy"><h2 class="name">ゲン<small>せんせい</small></h2><p class="english-name">GEN</p><p class="role">元気 · 楽しい · 挑戦</p><p class="quote">「あっ、速かった？<br>ここから一緒に。」</p><p class="focus">姿勢、足元、バランス、疲れ方を見て、参加の速さや方法を合わせます。</p><p class="weakness">張り切ると、ときどき応援しすぎます。</p></div>
     <div class="visual"><img src="../series-trailer-prototype/assets/04-gen.png" alt="足跡を残しながら走って登場するGEN"></div>
-  </section>
-
-  <section class="promises" aria-label="HugMapが大切にする5つのこと">
-    <h2 class="promises-title">HugMapが大切にする、5つのこと</h2>
-    <article class="promise"><p class="no">01</p><h2>やりとりは、ことばだけではない。</h2><p>目、声、仕草、姿勢。ことばになる前にも、小さなサインは表れています。</p></article>
-    <article class="promise"><p class="no">02</p><h2>行動には理由がある。できる形は、環境次第。</h2><p>理由を決めつけず、本人の反応を見ながら、道具、環境、速さ、伝え方を変えてみます。</p></article>
-    <article class="promise"><p class="no">03</p><h2>全部頑張らなくてよい。</h2><p>休む、断る、見る、一部分だけ参加することも、大切な選択です。</p></article>
-    <article class="promise"><p class="no">04</p><h2>好き・得意・好奇心から始める。</h2><p>楽しいことや夢中になれることは、その子らしい学びと成長の入口になります。</p></article>
-    <article class="promise"><p class="no">05</p><h2>成長と可能性を、みんなで支える。</h2><p>本人を中心に、家族、仲間、先生、専門家がつながり、小さな変化を一緒に喜びます。</p></article>
   </section>
 
   <section class="team">
