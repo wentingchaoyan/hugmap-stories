@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>からだと運動の発達ガイド</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap');
+
+    :root {
+      --bg:#F4F1F0; --surface:#FFFFFF; --ink:#291712; --muted:#8D8380;
+      --border:#DCD5D2; --purple:#7D2741; --orange:#FF511B; --yellow:#D7C862;
+      --purple-bg:#f1e3e7; --orange-bg:#ffe6dc; --yellow-bg:#f8f3dd;
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif; line-height:1.7; }
+    .page { max-width:1120px; margin:0 auto; padding:48px 24px 80px; }
+    h1,h2,h3 { font-family:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Yu Gothic",sans-serif; }
+    h1 { margin:0 0 12px; font-size:clamp(28px,4vw,40px); line-height:1.35; }
+    .lede { max-width:68ch; margin:0 0 20px; color:var(--muted); font-size:15.5px; }
+    .nav-links,.legend { display:flex; flex-wrap:wrap; gap:10px; }
+    .nav-links { margin-bottom:18px; }
+    .nav-links a,.legend-chip { display:inline-flex; align-items:center; gap:8px; padding:7px 13px; border:1px solid var(--border); border-radius:999px; background:var(--surface); color:var(--ink); font-size:12px; font-weight:700; text-decoration:none; }
+    .dot { width:9px; height:9px; border-radius:50%; }
+    .principle { margin-top:24px; padding:16px 18px; border:1px solid var(--border); border-left:4px solid var(--purple); border-radius:12px; background:var(--surface); font-size:13.5px; }
+    .principle strong { color:var(--purple); }
+    section.track { margin-top:46px; }
+    .track-head { display:flex; align-items:baseline; gap:12px; margin-bottom:18px; padding-bottom:10px; border-bottom:2px solid var(--track-color); }
+    .track-head h2 { margin:0; color:var(--track-color); font-size:21px; }
+    .track-desc { color:var(--muted); font-size:13px; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(310px,1fr)); gap:18px; }
+    .card { display:flex; flex-direction:column; gap:10px; padding:16px 20px 18px; border:1px solid var(--border); border-radius:14px; background:var(--surface); }
+    .gallery { display:flex; gap:8px; overflow-x:auto; padding-bottom:3px; scrollbar-width:thin; }
+    .gallery figure { flex:0 0 148px; margin:0; }
+    .gallery img { display:block; width:148px; height:148px; object-fit:cover; border:1px solid var(--border); border-radius:10px; background:var(--bg); }
+    .gallery figcaption { margin-top:5px; color:var(--muted); font-size:10px; line-height:1.35; }
+    .card-top { display:flex; align-items:flex-start; gap:11px; }
+    .step { flex:none; display:grid; place-items:center; width:30px; height:30px; border-radius:50%; background:color-mix(in srgb,var(--band) 16%,white); color:var(--band); font-weight:700; }
+    .card h3 { margin:1px 0 0; font-size:17px; line-height:1.5; }
+    .category { display:inline-block; align-self:flex-start; margin:0; padding:3px 9px; border-radius:999px; background:color-mix(in srgb,var(--band) 10%,white); color:var(--band); font-size:10px; font-weight:700; letter-spacing:.04em; }
+    .aim { margin:0; font-size:14.5px; }
+    .fact { display:flex; gap:8px; align-items:flex-start; font-size:13px; line-height:1.55; }
+    .fact::before { content:"●"; flex:none; color:var(--band); font-size:8px; margin-top:5px; }
+    .hint { margin-top:auto; padding:11px 13px; border:1px solid var(--border); border-radius:10px; background:#fff; font-size:13px; }
+    .hint strong { display:block; margin-bottom:2px; color:var(--band); font-size:11px; letter-spacing:.04em; }
+    footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--border); color:var(--muted); font-size:12.5px; }
+    @media (max-width:520px) { .page{padding:32px 16px 64px}.track-head{display:block}.track-desc{display:block;margin-top:4px}.cards{grid-template-columns:1fr}.gallery figure,.gallery img{width:136px;height:136px} }
+  </style>
+</head>
+<body>
+<main class="page">
+  <header>
+    <div class="nav-links"><a href="developmental-guide-cards.html">ことばとコミュニケーション</a><a href="occupational-development-guide-cards.html">遊びと暮らし</a><a href="index.html#gen">すべての参加型フレーム</a></div>
+    <h1>からだと運動の発達ガイド</h1>
+    <p class="lede">仰向けで身体を見つけるところから、寝返り、座る、移動する、立つ、歩く、走る、遊具へ。ゲンの32場面を、家庭で見つけやすい15の姿に整理しました。早い・遅いを判定する表ではなく、その子が今使っている身体の支え方や動き方を見つけるためのガイドです。</p>
+    <div class="legend"><span class="legend-chip"><span class="dot" style="background:var(--purple)"></span>姿勢と身体の土台をつくる</span><span class="legend-chip"><span class="dot" style="background:var(--orange)"></span>移動と立位を試す</span><span class="legend-chip"><span class="dot" style="background:var(--yellow)"></span>全身遊びへ広げる</span></div>
+    <p class="principle"><strong>保護者が見るポイント：</strong>運動発達は全員が同じ一本道を通るわけではありません。ハイハイとつかまり立ちの順序などは前後します。できた形だけでなく、「どこで身体を支えたか」「自分から向きを変えたか」「休むことを選べたか」を見ます。</p>
+  </header>
+
+  <section class="track" style="--track-color:var(--purple);--band:var(--purple)"><div class="track-head"><h2>姿勢と身体の土台をつくる</h2><span class="track-desc">休む・身体の中央を見つける・向きを変える・頭と体幹を支える</span></div><div class="cards">
+    <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/gen-frame-relax-looking-up.png" alt="仰向けで休む"><figcaption>並んで空を見る</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-relax-leaning-together.png" alt="手で支えて座って休む"><figcaption>寄りかかって、ひと休み</figcaption></figure></div><div class="card-top"><span class="step">1</span><h3>楽な姿勢で身体を休める</h3></div><span class="category">休む・整える</span><p class="aim">仰向けになる、手で支える、自分に合う姿勢を選ぶ</p><div class="fact">力を抜ける姿勢を見つける</div><div class="fact">動く時間と休む時間を行き来する</div><div class="hint"><strong>保護者へのヒント</strong>練習を続ける前に、落ち着ける姿勢を確保します。休むことも身体を調整する大切な力です。</div></article>
+    <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/gen-frame-supine-feet-mirror.png" alt="仰向けで足をつかむ"><figcaption>あし、みつけた</figcaption></figure></div><div class="card-top"><span class="step">2</span><h3>身体の中央で手足が出会う</h3></div><span class="category">身体を知る</span><p class="aim">膝を曲げる、足を持つ、左右を中央へ集める</p><div class="fact">自分の身体へ注意を向ける</div><div class="fact">お腹側で手足を一緒に使う</div><div class="hint"><strong>保護者へのヒント</strong>足を持たせるのではなく、見つけやすい服装や姿勢を作ります。手が膝や足へ近づく過程を待ちます。</div></article>
+    <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/gen-frame-rolling-mirror.png" alt="横向きへ寝返る"><figcaption>ころん、をいっしょに</figcaption></figure></div><div class="card-top"><span class="step">3</span><h3>身体の向きを変える</h3></div><span class="category">寝返り</span><p class="aim">脚を反対側へ運び、肩と腰の向きを変える</p><div class="fact">左右へ体重を移す</div><div class="fact">仰向けから横向き・うつ伏せへつなぐ</div><div class="hint"><strong>保護者へのヒント</strong>身体を回して完成させず、見たい物を少し横へ置きます。肩や腰が自分から動き始めるのを待ちます。</div></article>
+    <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/gen-frame-prone-dialogue.png" alt="うつ伏せで頭を上げる"><figcaption>ひくいところで、こんにちは</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-relax-watching-together.png" alt="うつ伏せで同じものを見る"><figcaption>同じ小さなものを見る</figcaption></figure></div><div class="card-top"><span class="step">4</span><h3>うつ伏せで前を見る</h3></div><span class="category">頭と体幹を支える</span><p class="aim">前腕で支える、頭を上げる、見続ける</p><div class="fact">胸や腕へ体重を預ける</div><div class="fact">興味のある物へ顔と視線を向ける</div><div class="hint"><strong>保護者へのヒント</strong>長時間より、機嫌のよい短い時間を重ねます。保護者も床へ下り、同じ高さで視線の行き先になります。</div></article>
+    <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/gen-frame-seated-reach.png" alt="座って斜めへ手を伸ばす"><figcaption>ここまで、とどいた</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-ball-roll.png" alt="座ってボールを転がす"><figcaption>ころころ、そっちへ</figcaption></figure></div><div class="card-top"><span class="step">5</span><h3>座って手を自由にする</h3></div><span class="category">座位</span><p class="aim">座位を保つ、斜め・前へ手を伸ばす、物を離す</p><div class="fact">体幹で姿勢を保ちながら腕を動かす</div><div class="fact">倒れそうな方向へ身体を調整する</div><div class="hint"><strong>保護者へのヒント</strong>「一人座り」の形だけでなく、手を伸ばしたあとに戻れるかを見ます。必要なら腰の近くを支えます。</div></article>
+  </div></section>
+
+  <section class="track" style="--track-color:var(--orange);--band:var(--orange)"><div class="track-head"><h2>移動と立位を試す</h2><span class="track-desc">手足で支える・前へ進む・立つ・体重を移す・段差へ合わせる</span></div><div class="cards">
+    <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/gen-frame-crawling-chase.png" alt="手と膝で進む"><figcaption>まって、ゲン</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-tunnel-through.png" alt="トンネルをくぐる"><figcaption>むこうまで、くぐった</figcaption></figure></div><div class="card-top"><span class="step">6</span><h3>手足で支えて進む</h3></div><span class="category">床での移動</span><p class="aim">両手と膝で支える、交互に動かす、狭い場所を進む</p><div class="fact">左右へ体重を移しながら前へ進む</div><div class="fact">身体の幅や高さを空間へ合わせる</div><div class="hint"><strong>保護者へのヒント</strong>速さやフォームを直すより、行きたい物や人を少し先に置きます。ずりばいなど、その子の移動方法も大切にします。</div></article>
+    <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/milestone-frame-pull-to-stand.png" alt="台につかまって立つ"><figcaption>立てた手は、まだここに</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-supported-twist.png" alt="つかまりながら身体をひねる"><figcaption>つかまったまま、くるり</figcaption></figure></div><div class="card-top"><span class="step">7</span><h3>手で支えて立つ</h3></div><span class="category">つかまり立ち</span><p class="aim">支持面へ手を置く、足へ体重を移す、立位で向きを変える</p><div class="fact">膝と股関節を伸ばして身体を持ち上げる</div><div class="fact">片手を残し、胸や顔を横へ向ける</div><div class="hint"><strong>保護者へのヒント</strong>引き上げず、安定した低い台を用意します。立った後に自分で座り直せる環境も確保します。</div></article>
+    <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/gen-frame-push-car.png" alt="手押し車を押して進む"><figcaption>押す道の、少し前</figcaption></figure></div><div class="card-top"><span class="step">8</span><h3>支えを動かしながら一歩出す</h3></div><span class="category">支え歩き</span><p class="aim">両手で押す、身体を前へ運ぶ、足を交互に出す</p><div class="fact">手の支えと足の動きを一緒に使う</div><div class="fact">動く支持物へ身体の速さを合わせる</div><div class="hint"><strong>保護者へのヒント</strong>重く安定した手押し車を使い、大人はすぐ支えられる位置へ。進ませるより、止まれる速さを選びます。</div></article>
+    <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/gen-frame-follow-walking.png" alt="自分で歩く"><figcaption>歩く子どもの、二歩あと</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-child-leads-rabbit.png" alt="手を引いて行き先を示す"><figcaption>こっち、いっしょに</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-dressing-sleeve.png" alt="袖へ腕を通す"><figcaption>おてて、でてきた</figcaption></figure></div><div class="card-top"><span class="step">9</span><h3>歩いて行き先と活動を選ぶ</h3></div><span class="category">歩行と生活</span><p class="aim">左右へ体重を移す、方向を決める、立位を生活へ使う</p><div class="fact">自分のペースで目的地へ移動する</div><div class="fact">移動した先で人や衣服へ手を使う</div><div class="hint"><strong>保護者へのヒント</strong>手を引いて進路を決めず、子どもの二歩あとを歩きます。歩行を生活の選択や伝達につなげます。</div></article>
+    <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/gen-frame-squat-and-pick-up.png" alt="しゃがんで物を拾う"><figcaption>しゃがんだ先に、みつけた</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-follow-stairs.png" alt="階段を上る"><figcaption>階段の、一段あと</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-descend-stairs.png" alt="手すりで階段を下りる"><figcaption>おりる足を、一段下で</figcaption></figure></div><div class="card-top"><span class="step">10</span><h3>高さを変えて戻る</h3></div><span class="category">しゃがむ・段差</span><p class="aim">膝を曲げる、片足で支える、上り下りする</p><div class="fact">立位から腰を下げ、もう一度立つ</div><div class="fact">足場を見ながら段差へ足を運ぶ</div><div class="hint"><strong>保護者へのヒント</strong>上りより下りの方が調整を多く求めることがあります。手すりを使い、一段ずつ、必ず手の届く位置で見守ります。</div></article>
+  </div></section>
+
+  <section class="track" style="--track-color:var(--yellow);--band:#9b8619"><div class="track-head"><h2>全身遊びへ広げる</h2><span class="track-desc">速さ・両足・片足・道具・揺れ・高さを遊びの中で調整する</span></div><div class="cards">
+    <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/gen-frame-follow-running.png" alt="走る"><figcaption>走る子どもの、そのあとを</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-two-foot-jump.png" alt="両足で跳ぶ"><figcaption>ぴょん、の少しあと</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-balance-mirror.png" alt="片足で立つ"><figcaption>おなじ傾き</figcaption></figure></div><div class="card-top"><span class="step">11</span><h3>速さ、跳ぶ、片足を試す</h3></div><span class="category">走る・跳ぶ・バランス</span><p class="aim">地面を蹴る、両足を離す、片足へ体重を移す</p><div class="fact">腕と脚を使って速さや着地を調整する</div><div class="fact">腕を広げて身体の傾きを戻す</div><div class="hint"><strong>保護者へのヒント</strong>高く・長くより、自分から始めて止まれることを大切にします。大人は少し遅れて同じ動きを返します。</div></article>
+    <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/gen-frame-ball-exchange.png" alt="足でボールを送る"><figcaption>そっちへ、どうぞ</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-throw-receive.png" alt="ボールを投げる"><figcaption>とんできた、受け取った</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-tricycle.png" alt="三輪車をこぐ"><figcaption>こぐ足の、そのあとを</figcaption></figure></div><div class="card-top"><span class="step">12</span><h3>道具へ身体を合わせる</h3></div><span class="category">ボール・乗り物</span><p class="aim">狙う、蹴る、投げる、こぐ、方向を変える</p><div class="fact">手足の動きを物の位置へ合わせる</div><div class="fact">左右を交互に使って進行方向を調整する</div><div class="hint"><strong>保護者へのヒント</strong>成功する距離と大きさから始めます。受ける形を強制せず、送る・追う・止める楽しさを往復させます。</div></article>
+    <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/gen-frame-park-slide.png" alt="滑り台を滑る"><figcaption>すべる先で、待ってる</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-park-swing.png" alt="ブランコで揺れる"><figcaption>ゆれる形を、となりで</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-horizontal-bar-hang.png" alt="鉄棒へぶら下がる"><figcaption>にぎった手で、ぶらーん</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-trampoline.png" alt="トランポリンで跳ぶ"><figcaption>しずんで、ぽん</figcaption></figure></div><div class="card-top"><span class="step">13</span><h3>揺れ、高さ、重力と遊ぶ</h3></div><span class="category">遊具</span><p class="aim">姿勢を保つ、握る、傾ける、着地を準備する</p><div class="fact">動く面や重力へ身体を合わせる</div><div class="fact">楽しい・怖いの境界を自分で確かめる</div><div class="hint"><strong>保護者へのヒント</strong>回数や高さを増やす前に、子どもの表情と「もう一回／おしまい」を確認します。必ず安全範囲内で見守ります。</div></article>
+    <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/cheer-frame-pause-before-trying.png" alt="遊具の前で立ち止まる"><figcaption>一歩手前で、いっしょに見る</figcaption></figure><figure><img src="../participatory-growth-frame-studies/gen-frame-wait-turn-slide.png" alt="滑り台の順番を待つ"><figcaption>ゲンが降りたら、つぎはわたし</figcaption></figure></div><div class="card-top"><span class="step">14</span><h3>動く前に見て、待つ</h3></div><span class="category">安全と自己調整</span><p class="aim">観察する、まだ進まない、順番と距離を保つ</p><div class="fact">自分のタイミングで活動へ入る</div><div class="fact">相手の動きが終わるまで身体を止める</div><div class="hint"><strong>保護者へのヒント</strong>迷っている時間を消さず、一緒に見ます。「やらない」も選択です。遊具では出口が空いたことを一緒に確認します。</div></article>
+    <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/gen-frame-hide-and-seek.png" alt="身体を隠して待つ"><figcaption>みつけて、ここだよ</figcaption></figure></div><div class="card-top"><span class="step">15</span><h3>身体を使って人と遊ぶ</h3></div><span class="category">全身のやりとり</span><p class="aim">隠れる、止まる、待つ、役割を交代する</p><div class="fact">身体の位置を空間の中で調整する</div><div class="fact">動く・止まるを相手との遊びへ使う</div><div class="hint"><strong>保護者へのヒント</strong>見つける速さより、隠れて待つ期待を共有します。追いかけ遊びでも、子どもが止まれば大人も止まります。</div></article>
+  </div></section>
+
+  <footer>ゲンの参加型成長フレーム32場面を、家庭で見つけやすい15の姿へ再構成しています。番号は厳密な年齢順や必須経路ではありません。子どもによって順序、得意な姿勢、移動方法は異なります。転倒・遊具・小物を扱う場面では、安全な環境と大人の見守りを優先してください。</footer>
+</main>
+</body>
+</html>
