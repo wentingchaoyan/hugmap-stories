@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>遊びと暮らしの発達ガイド</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap');
+
+    :root {
+      --bg:#F4F1F0; --surface:#FFFFFF; --ink:#291712; --muted:#8D8380;
+      --border:#DCD5D2; --purple:#7D2741; --orange:#FF511B; --yellow:#D7C862;
+      --purple-bg:#f1e3e7; --orange-bg:#ffe6dc; --yellow-bg:#f8f3dd;
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif; line-height:1.7; }
+    .page { max-width:1120px; margin:0 auto; padding:48px 24px 80px; }
+    h1,h2,h3 { font-family:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Yu Gothic",sans-serif; }
+    h1 { margin:0 0 12px; font-size:clamp(28px,4vw,40px); line-height:1.35; }
+    .lede { max-width:68ch; margin:0 0 20px; color:var(--muted); font-size:15.5px; }
+    .nav-links,.legend { display:flex; flex-wrap:wrap; gap:10px; }
+    .nav-links { margin-bottom:18px; }
+    .nav-links a,.legend-chip { display:inline-flex; align-items:center; gap:8px; padding:7px 13px; border:1px solid var(--border); border-radius:999px; background:var(--surface); color:var(--ink); font-size:12px; font-weight:700; text-decoration:none; }
+    .dot { width:9px; height:9px; border-radius:50%; }
+    .principle { margin-top:24px; padding:16px 18px; border:1px solid var(--border); border-left:4px solid var(--purple); border-radius:12px; background:var(--surface); font-size:13.5px; }
+    .principle strong { color:var(--purple); }
+    section.track { margin-top:46px; }
+    .track-head { display:flex; align-items:baseline; gap:12px; margin-bottom:18px; padding-bottom:10px; border-bottom:2px solid var(--track-color); }
+    .track-head h2 { margin:0; color:var(--track-color); font-size:21px; }
+    .track-desc { color:var(--muted); font-size:13px; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(310px,1fr)); gap:18px; }
+    .card { display:flex; flex-direction:column; gap:10px; padding:16px 20px 18px; border:1px solid var(--border); border-radius:14px; background:var(--surface); }
+    .gallery { display:flex; gap:8px; overflow-x:auto; padding-bottom:3px; scrollbar-width:thin; }
+    .gallery figure { flex:0 0 148px; margin:0; }
+    .gallery img { display:block; width:148px; height:148px; object-fit:cover; border:1px solid var(--border); border-radius:10px; background:var(--bg); }
+    .gallery figcaption { margin-top:5px; color:var(--muted); font-size:10px; line-height:1.35; }
+    .card-top { display:flex; align-items:flex-start; gap:11px; }
+    .step { flex:none; display:grid; place-items:center; width:30px; height:30px; border-radius:50%; background:color-mix(in srgb,var(--band) 16%,white); color:var(--band); font-weight:700; }
+    .card h3 { margin:1px 0 0; font-size:17px; line-height:1.5; }
+    .category { display:inline-block; align-self:flex-start; margin:0; padding:3px 9px; border-radius:999px; background:color-mix(in srgb,var(--band) 10%,white); color:var(--band); font-size:10px; font-weight:700; letter-spacing:.04em; }
+    .aim { margin:0; font-size:14.5px; }
+    .fact { display:flex; gap:8px; align-items:flex-start; font-size:13px; line-height:1.55; }
+    .fact::before { content:"●"; flex:none; color:var(--band); font-size:8px; margin-top:5px; }
+    .hint { margin-top:auto; padding:11px 13px; border:1px solid var(--border); border-radius:10px; background:#fff; font-size:13px; }
+    .hint strong { display:block; margin-bottom:2px; color:var(--band); font-size:11px; letter-spacing:.04em; }
+    footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--border); color:var(--muted); font-size:12.5px; }
+    @media (max-width:520px) { .page{padding:32px 16px 64px}.track-head{display:block}.track-desc{display:block;margin-top:4px}.cards{grid-template-columns:1fr}.gallery figure,.gallery img{width:136px;height:136px} }
+  </style>
+</head>
+<body>
+<main class="page">
+  <header>
+    <div class="nav-links">
+      <a href="developmental-guide-cards.html">ことばとコミュニケーション</a>
+      <a href="index.html#luke">すべての参加型フレーム</a>
+    </div>
+    <h1>遊びと暮らしの発達ガイド</h1>
+    <p class="lede">触る、手を伸ばす、入れる、作る、片づける。OTの視点を、家庭の遊びや生活で見つけやすい15の姿に整理しました。できた・できないを判定する表ではなく、その子に合う感覚、道具、姿勢、参加の仕方を見つけるためのガイドです。</p>
+    <div class="legend">
+      <span class="legend-chip"><span class="dot" style="background:var(--purple)"></span>からだと感覚の土台をつくる</span>
+      <span class="legend-chip"><span class="dot" style="background:var(--orange)"></span>手を使って試す</span>
+      <span class="legend-chip"><span class="dot" style="background:var(--yellow)"></span>遊びと暮らしへ広げる</span>
+    </div>
+    <p class="principle"><strong>保護者が見るポイント：</strong>完成の上手さよりも、「自分から近づいた」「方法を変えた」「もう一度やった」「やめることを選んだ」を大切にします。同じカードが複数の力に関係するときも、家庭で見つけやすい主分類を一つだけ表示しています。</p>
+  </header>
+
+  <section class="track" style="--track-color:var(--purple);--band:var(--purple)">
+    <div class="track-head"><h2>からだと感覚の土台をつくる</h2><span class="track-desc">興味を向ける・触る・変化に気づく・自分に合う方法を選ぶ</span></div>
+    <div class="cards">
+      <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/luke-frame-reach-for-toy.png" alt="おもちゃへ手を伸ばす"><figcaption>ほしいものへ、両手がいく</figcaption></figure></div><div class="card-top"><span class="step">1</span><h3>興味のあるものへ近づく</h3></div><span class="category">感覚・探索遊び</span><p class="aim">見る、身体を向ける、手を伸ばす</p><div class="fact">目と手を一緒に使って距離を合わせる</div><div class="fact">届く姿勢を自分で探す</div><div class="hint"><strong>保護者へのヒント</strong>すぐ手渡さず、少し手を伸ばせば触れられる距離に置きます。難しいときは物ではなく姿勢を支えます。</div></article>
+      <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/luke-frame-sand-texture.png" alt="砂へ触れる"><figcaption>さらさら、手のなか</figcaption></figure><figure><img src="../participatory-growth-frame-studies/luke-frame-clay-press.png" alt="粘土を押す"><figcaption>むぎゅっ、形がかわった</figcaption></figure></div><div class="card-top"><span class="step">2</span><h3>触り方を自分で選ぶ</h3></div><span class="category">感覚・探索遊び</span><p class="aim">触れる、握る、押す、離れる</p><div class="fact">素材ごとの感触や力の違いに気づく</div><div class="fact">続ける・休む・やめるを自分で選ぶ</div><div class="hint"><strong>保護者へのヒント</strong>手全体、指一本、道具越しなど、入り口を複数用意します。無理に触らせず、見ている参加も認めます。</div></article>
+      <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/luke-frame-water-pour.png" alt="器から水を注ぐ"><figcaption>ながれた先を、いっしょに</figcaption></figure></div><div class="card-top"><span class="step">3</span><h3>動き続けるものを追う</h3></div><span class="category">感覚・探索遊び</span><p class="aim">傾ける、流れを見る、変化を味わう</p><div class="fact">両手で器を持ち、傾きを調整する</div><div class="fact">水の流れと着いた場所を目で追う</div><div class="hint"><strong>保護者へのヒント</strong>少量の水と小さな器から始めます。こぼれたことより、どこを見てどう持ち直したかを言葉にします。</div></article>
+      <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/luke-frame-button-sound.png" alt="音の出るボタンを押す"><figcaption>おしたら、きこえた</figcaption></figure><figure><img src="../participatory-growth-frame-studies/luke-frame-release-drop.png" alt="ボールを離して落とす"><figcaption>はなしたら、どこへいく？</figcaption></figure><figure><img src="../participatory-growth-frame-studies/luke-frame-ramp-roll.png" alt="坂でボールを転がす"><figcaption>ころがした先で、待ってる</figcaption></figure></div><div class="card-top"><span class="step">4</span><h3>こうしたら、どうなる？</h3></div><span class="category">感覚・探索遊び</span><p class="aim">自分の動きと結果をつなげる</p><div class="fact">押す・離すと、音や動きが生まれる</div><div class="fact">同じ方法を繰り返し、結果を確かめる</div><div class="hint"><strong>保護者へのヒント</strong>結果を先に見せず、子どもの動きのあとに一緒に待ちます。「鳴ったね」「下まで行ったね」と短く返します。</div></article>
+      <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/luke-frame-tiny-discovery.png" alt="小さなものをつまんで見る"><figcaption>その小さなもの、発見</figcaption></figure></div><div class="card-top"><span class="step">5</span><h3>小さな違いへ目と指を合わせる</h3></div><span class="category">感覚・探索遊び</span><p class="aim">見つける、狙う、つまむ、観察する</p><div class="fact">小さな対象へ注意を向け続ける</div><div class="fact">親指と指先で位置を合わせる</div><div class="hint"><strong>保護者へのヒント</strong>見つけたものの名前を急いで教えるより、「どこにあった？」「小さいね」と発見を共有します。小物は誤飲に注意します。</div></article>
+    </div>
+  </section>
+
+  <section class="track" style="--track-color:var(--orange);--band:var(--orange)">
+    <div class="track-head"><h2>手を使って試す</h2><span class="track-desc">持つ・離す・両手を分けて使う・位置や向きを合わせる</span></div>
+    <div class="cards">
+      <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/luke-frame-put-in-look.png" alt="物を容器へ入れる"><figcaption>いれた先を、のぞこう</figcaption></figure></div><div class="card-top"><span class="step">6</span><h3>中へ入れて、もう一度見つける</h3></div><span class="category">組み立てる</span><p class="aim">持って運ぶ、位置を合わせる、中を見る</p><div class="fact">物と容器の位置関係をつかむ</div><div class="fact">中と外、あると見えないを確かめる</div><div class="hint"><strong>保護者へのヒント</strong>最初は口の広い容器を使います。入れ方を直すより、子どもがのぞく時間を待ちます。</div></article>
+      <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/luke-frame-clothespin.png" alt="洗濯ばさみをつまんで外す"><figcaption>つまんで、はずす</figcaption></figure></div><div class="card-top"><span class="step">7</span><h3>片手で支え、もう一方で動かす</h3></div><span class="category">暮らしの中で</span><p class="aim">つまむ、押し開く、両手を違う役にする</p><div class="fact">一方の手で布を安定させる</div><div class="fact">親指と指で道具の力を調整する</div><div class="hint"><strong>保護者へのヒント</strong>弱い力で開く大きめの洗濯ばさみから始めます。数をこなすより、一つを自分で外す経験を大切にします。</div></article>
+      <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/luke-frame-shape-sorter.png" alt="型はめの向きを合わせる"><figcaption>どの向きなら、入るかな</figcaption></figure></div><div class="card-top"><span class="step">8</span><h3>形と穴を見比べる</h3></div><span class="category">組み立てる</span><p class="aim">選ぶ、合わせる、回して試す</p><div class="fact">形、位置、向きの違いを見る</div><div class="fact">入らないときに方法を変える</div><div class="hint"><strong>保護者へのヒント</strong>正しい穴を指ささず、「どっち向きかな」と待ちます。少し回せたことも試し直しとして受け取ります。</div></article>
+      <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/luke-frame-find-pair.png" alt="同じ絵のカードを見つける"><figcaption>おなじ、みつけた</figcaption></figure></div><div class="card-top"><span class="step">9</span><h3>同じところを見つける</h3></div><span class="category">見比べる・考える</span><p class="aim">覚える、比べる、選び分ける</p><div class="fact">見た特徴を少しの間覚えておく</div><div class="fact">複数の中から同じものを探す</div><div class="hint"><strong>保護者へのヒント</strong>カード以外に、靴下やスプーンでも遊べます。最初は違いの大きい二組から始めます。</div></article>
+      <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/luke-frame-jigsaw-last-piece.png" alt="パズルの最後の一枚を合わせる"><figcaption>あと一枚、どの向き？</figcaption></figure><figure><img src="../participatory-growth-frame-studies/luke-frame-shared-build.png" alt="積み木をもう一度置く"><figcaption>くずれても、ここから</figcaption></figure></div><div class="card-top"><span class="step">10</span><h3>部分をつないで全体を作る</h3></div><span class="category">組み立てる</span><p class="aim">空いた場所を見る、置く、試し直す</p><div class="fact">部分と全体を行き来して見る</div><div class="fact">崩れたり入らなかったりしても次を選ぶ</div><div class="hint"><strong>保護者へのヒント</strong>完成を急がず、一つ少ない状態や大きなピースを用意します。崩れたときは直さず、次に選んだ一個を見守ります。</div></article>
+      <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/luke-frame-arrange-pretend-train.png" alt="積み木を並べて電車に見立てる"><figcaption>ならべたら、電車になった</figcaption></figure><figure><img src="../participatory-growth-frame-studies/luke-frame-toy-car-road.png" alt="道に沿ってミニカーを動かす"><figcaption>道のつづきは、そっち</figcaption></figure></div><div class="card-top"><span class="step">11</span><h3>並べた形へ意味を加える</h3></div><span class="category">組み立てる</span><p class="aim">並べる、道を作る、見立てる</p><div class="fact">方向や間隔を調整して構成する</div><div class="fact">できた形から遊びの物語を始める</div><div class="hint"><strong>保護者へのヒント</strong>「電車を作ろう」と先に決めず、子どもが並べたあとで「長くなったね」と形を受け取ります。</div></article>
+    </div>
+  </section>
+
+  <section class="track" style="--track-color:var(--yellow);--band:#9b8619">
+    <div class="track-head"><h2>遊びと暮らしへ広げる</h2><span class="track-desc">道具を使う・表現する・順番に進める・生活へ参加する</span></div>
+    <div class="cards">
+      <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/luke-frame-sticker-paste.png" alt="シールをはがして貼る"><figcaption>ぺりっ、ここにしよう</figcaption></figure><figure><img src="../participatory-growth-frame-studies/luke-frame-paper-tear.png" alt="紙を両手でちぎる"><figcaption>びりっ、線がひらいた</figcaption></figure><figure><img src="../participatory-growth-frame-studies/luke-frame-paper-fold.png" alt="紙の端を合わせて折る"><figcaption>はしとはし、会えた</figcaption></figure></div><div class="card-top"><span class="step">12</span><h3>素材を両手で変える</h3></div><span class="category">描く・作る</span><p class="aim">はがす、ちぎる、合わせる、折る</p><div class="fact">左右の手を別々の役割で使う</div><div class="fact">素材の変化を見ながら力を続ける</div><div class="hint"><strong>保護者へのヒント</strong>完成形より、一回はがせた、一つ折れた経験を残します。紙に小さな切れ目を入れるなど始めやすさを調整します。</div></article>
+      <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/luke-frame-one-snip.png" alt="はさみで紙を一回切る"><figcaption>ちょきん、ここまで</figcaption></figure><figure><img src="../participatory-growth-frame-studies/luke-frame-paper-collage.png" alt="紙片を貼ってつなぐ"><figcaption>ここに貼ったら、つながった</figcaption></figure></div><div class="card-top"><span class="step">13</span><h3>道具を使ってつなげる</h3></div><span class="category">描く・作る</span><p class="aim">開閉する、支える、位置を決めて貼る</p><div class="fact">道具を持つ手と材料を支える手を分ける</div><div class="fact">自分で選んだ場所へ素材を置く</div><div class="hint"><strong>保護者へのヒント</strong>はさみは短冊の一回切りから。手を添えて完成させるより、安全な材料と姿勢を準備します。</div></article>
+      <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/luke-frame-shared-line.png" alt="クレヨンで線を描く"><figcaption>線のつづきは、こっち</figcaption></figure><figure><img src="../participatory-growth-frame-studies/luke-frame-coloring.png" alt="選んだ色を塗る"><figcaption>この色、ここまできた</figcaption></figure></div><div class="card-top"><span class="step">14</span><h3>跡、線、色で表す</h3></div><span class="category">描く・作る</span><p class="aim">握る、動かす、跡を見る、選んで広げる</p><div class="fact">自分の手の動きが跡になることを楽しむ</div><div class="fact">色や動かし方を自分で選ぶ</div><div class="hint"><strong>保護者へのヒント</strong>形を描かせる前に、点、往復、長い線を楽しみます。「何を描いたの？」と決めず、「ここまで色が来たね」と過程を返します。</div></article>
+      <article class="card"><div class="gallery"><figure><img src="../participatory-growth-frame-studies/luke-frame-page-turn.png" alt="本のページを一枚めくる"><figcaption>つぎのページは、その手から</figcaption></figure><figure><img src="../participatory-growth-frame-studies/luke-frame-clean-up.png" alt="最後の積み木を片づける"><figcaption>さいごの一個、おうちへ</figcaption></figure><figure><img src="../participatory-growth-frame-studies/luke-frame-pretend-cleaning.png" alt="親子で掃除ごっこをする"><figcaption>みつけたところを、きれいに</figcaption></figure></div><div class="card-top"><span class="step">15</span><h3>暮らしの流れへ参加する</h3></div><span class="category">暮らしの中で</span><p class="aim">一つ進める、終える、役割を持つ</p><div class="fact">本や道具を丁寧に扱い、次へ進める</div><div class="fact">片づけや家事の一部分を自分で担う</div><div class="hint"><strong>保護者へのヒント</strong>全部を任せる必要はありません。「最後の一個」「テーブルを一か所拭く」など、始まりと終わりが見える小さな役割を渡します。</div></article>
+    </div>
+  </section>
+
+  <footer>ルークの参加型成長フレーム26場面を、家庭で見つけやすい15の姿へ再構成しています。年齢順・合否判定ではありません。感覚の好み、姿勢、道具の大きさ、環境によって現れ方は変わります。</footer>
+</main>
+</body>
+</html>
