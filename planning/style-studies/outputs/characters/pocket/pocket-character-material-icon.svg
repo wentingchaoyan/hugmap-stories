@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Pocket material-style icon</title>
+  <desc id="desc">An orange pocket mascot with a white record card, circle left eye, angle right eye, and one lifted corner.</desc>
+  <g transform="rotate(3 128 136)">
+    <!-- Record card: one broad shape, readable at small sizes. -->
+    <rect x="72" y="30" width="120" height="76" rx="16" fill="#FFFFFF"/>
+
+    <!-- Pocket body. The top notch keeps the opening functional rather than mouth-like. -->
+    <path fill="#FF511B" d="M48 72c0-13.3 10.7-24 24-24h112c13.3 0 24 10.7 24 24v112c0 13.3-10.7 24-24 24h-16c-3.8 0-7.4-1.8-9.7-4.9l-4.8-6.4c-2.8-3.7-8.2-4.1-11.5-.8l-5.5 5.5a12 12 0 0 1-17 0l-5.5-5.5c-3.3-3.3-8.7-2.9-11.5.8l-4.8 6.4A12 12 0 0 1 88 208H72c-13.3 0-24-10.7-24-24V72Z"/>
+
+    <!-- Opening: a single white inset line, not a mouth. -->
+    <path d="M64 80c24 13 104 13 128 0" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity=".96"/>
+
+    <!-- Asymmetric symbol eyes: viewer-left ○, viewer-right <. -->
+    <path fill="#FFFFFF" fill-rule="evenodd" d="M102 110a16 16 0 1 1 0 32 16 16 0 0 1 0-32Zm0 8a8 8 0 1 0 0 16 8 8 0 0 0 0-16Z"/>
+    <path fill="#FFFFFF" d="M171 110a6 6 0 0 1 3.8 10.7l-7.2 5.8 7.2 5.8a6 6 0 0 1-7.6 9.4l-13-10.5a6 6 0 0 1 0-9.4l13-10.5a6 6 0 0 1 3.8-1.3Z"/>
+
+  </g>
+</svg>

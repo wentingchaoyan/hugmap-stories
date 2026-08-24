@@ -17,6 +17,6 @@
     { "id": "kuma", "file": "characters/kuma.png", "source": "src/images/persona/persona_kuma.png", "sha256": "fd4b56f279e0909efc803e25b718ad1a1e2058e148f2f48cad6ff5e629b2210f" },
     { "id": "zou", "file": "characters/zou.png", "source": "src/images/persona/persona_zou.png", "sha256": "8c28f455078e3132093761baaa87c06e985bf5f5c4bdfe413d679c382a4aa964" },
     { "id": "kaba", "file": "characters/kaba.png", "source": "src/images/persona/persona_kaba.png", "sha256": "c8a37b03b325215d12368895014a08fd28b2b792efe0043c78a45656bc071aa7" },
-    { "id": "pocket", "file": "characters/pocket.png", "source": "src/images/persona/persona_kangaroo.png", "sha256": "b1d0405c4f5e9b86b44a296c0cc87bf6741e44bb65de889afb18c4381894eda2" }
+    { "id": "pocket", "file": "characters/pocket.png", "source": "planning/style-studies/outputs/characters/pocket/pocket-character-material-icon.png", "sha256": "f4c4b043d158e45096f4b9f69506ceb4812fe48815baba573292d8888ac632ba" }
   ]
 }
