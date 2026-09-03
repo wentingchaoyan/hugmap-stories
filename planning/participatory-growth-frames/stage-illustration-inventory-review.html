@@ -1,0 +1,1278 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Stage × Illustration Visual Review</title>
+<style>
+:root{--white:#fff;--ink:#291712;--orange:#FF511B;--yellow:#D7C862;--gray:#DCD5D2;--purple:#7D2741;--paper:#F4F1F0;--muted:#8b817d;--green:#60795f}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;line-height:1.6}button,input{font:inherit}.hero{padding:42px max(24px,5vw) 28px;background:var(--white);border-bottom:1px solid var(--gray)}.eyebrow{color:var(--orange);font-size:11px;font-weight:900;letter-spacing:.13em}.hero h1{font-size:clamp(26px,4vw,42px);line-height:1.15;margin:8px 0 12px}.hero p{max-width:780px;color:var(--muted);font-size:13px}.stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.stat{background:var(--paper);border-radius:14px;padding:9px 13px;font-size:11px}.stat b{font-size:19px;margin-right:4px}.toolbar{position:sticky;top:0;z-index:20;padding:10px max(20px,4vw);background:rgba(244,241,240,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--gray)}.category-nav,.filters{display:flex;gap:7px;overflow:auto;scrollbar-width:none}.category-nav{padding-bottom:8px}.category-nav a{flex:none;color:var(--ink);background:var(--white);border-left:4px solid var(--nav);border-radius:10px;padding:7px 10px;font-size:11px;font-weight:800;text-decoration:none}.filters button{flex:none;border:1px solid var(--gray);background:var(--white);color:var(--ink);border-radius:999px;padding:6px 11px;font-size:11px;font-weight:700}.filters button.active{background:var(--ink);border-color:var(--ink);color:#fff}.search{margin-left:auto;min-width:210px;border:1px solid var(--gray);background:#fff;border-radius:999px;padding:6px 12px;font-size:11px}.filter-row{display:flex;gap:10px}.content{max-width:1440px;margin:auto;padding:10px max(20px,4vw) 80px}.category{scroll-margin-top:105px;margin-top:32px}.category-head{display:flex;align-items:center;gap:13px;padding:18px 20px;background:var(--cat);color:#fff;border-radius:22px}.cat-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.2);font-size:23px}.category-head span{font-size:9px;font-weight:900;letter-spacing:.12em}.category-head h2{margin:0;font-size:24px}.category-head p{margin:0;font-size:11px;opacity:.8}.cat-count{margin-left:auto;text-align:right;font-size:10px}.cat-count b{font-size:17px}.subdomain{margin:22px 0 36px}.sub-head{display:flex;align-items:end;justify-content:space-between;border-bottom:1px solid var(--gray);padding:0 4px 8px}.sub-head span{font-size:9px;color:var(--cat);font-weight:900;letter-spacing:.12em}.sub-head h3{margin:1px 0 0;font-size:18px}.sub-head b{font-size:10px;color:var(--muted)}.stage-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(390px,1fr));gap:14px;margin-top:13px}.stage-card{min-width:0;background:#fff;border:1px solid #e2dcda;border-radius:18px;overflow:hidden}.stage-card[data-status=missing]{border:2px dashed #c69484}.stage-card[data-status=dense]{border-color:var(--yellow)}.stage-head{display:flex;justify-content:space-between;gap:12px;padding:14px 16px 11px}.breadcrumb{display:block;color:var(--muted);font-size:9px}.stage-head h4{margin:2px 0 0;font-size:16px;line-height:1.35}.count{height:max-content;flex:none;border-radius:999px;padding:4px 8px;font-size:9px;font-weight:900}.count.missing{background:#f7ded6;color:#9d3b22}.count.thin{background:#f6edc7;color:#755d18}.count.enough{background:#e2ecdf;color:#466344}.count.dense{background:var(--yellow);color:var(--ink)}.visuals{display:flex;gap:9px;overflow-x:auto;padding:0 15px 14px;scroll-snap-type:x proximity}.visual{flex:0 0 176px;margin:0;scroll-snap-align:start}.image-wrap,.candidate-art{position:relative;width:176px;aspect-ratio:1;border-radius:13px;overflow:hidden;background:#f7f5f4;border:1px solid var(--gray)}.image-wrap img{width:100%;height:100%;object-fit:cover;display:block}.broken-label{display:none;position:absolute;inset:0;padding:16px;place-items:center;text-align:center;color:var(--muted);font-size:10px}.broken .broken-label{display:grid}.image-wrap em{position:absolute;right:7px;top:7px;background:var(--yellow);color:var(--ink);font-style:normal;font-size:8px;font-weight:900;padding:3px 6px;border-radius:999px}.visual figcaption{padding:6px 2px 0;line-height:1.35}.visual figcaption b,.visual figcaption span,.visual figcaption code{display:block}.visual figcaption b{font-size:11px}.visual figcaption span{font-size:9px;color:var(--muted)}.visual figcaption code{margin-top:3px;font-size:7px;color:#aaa;word-break:break-all}.candidate-art{display:grid;place-content:center;text-align:center;border:2px dashed #d6aaa0;background:#fff8f5;color:var(--orange)}.candidate-art span{display:grid;place-items:center;margin:auto;width:30px;height:30px;border-radius:50%;background:#ffe2d8;font-weight:900}.candidate-art b{margin-top:5px;font-size:10px}.candidate p{margin:6px 2px 0;font-size:10px;line-height:1.45}.stage-foot{padding:10px 15px 14px;border-top:1px solid #eee9e7}.stage-id{display:block;color:#aaa;font-size:8px;word-break:break-all}.stage-foot details{font-size:9px;color:var(--muted);margin-top:6px}.stage-foot ul{margin:5px 0;padding-left:18px}.review-check{display:flex;gap:7px;align-items:center;margin-top:9px;font-size:10px;font-weight:700}.review-check input{accent-color:var(--orange)}.hidden{display:none!important}.empty{display:none;padding:50px;text-align:center;color:var(--muted)}@media(max-width:600px){.stage-grid{grid-template-columns:1fr}.stage-card{border-radius:14px}.visual{flex-basis:148px}.image-wrap,.candidate-art{width:148px}.search{min-width:130px}.category-head{padding:14px}.category-head h2{font-size:20px}}
+</style></head><body>
+<header class="hero"><span class="eyebrow">CONTENT MODEL VISUAL AUDIT</span><h1>発達stageとイラストの<br>見え方を精査する</h1><p>category → sub domain → stage → illustrationを、現在の直接紐づきで可視化しています。0枚には生成候補、別stageから使える画像には再利用候補を表示します。枚数だけでなく、同じstage内の場面の幅と観察レンズの一貫性を確認してください。</p><div class="stats"><span class="stat"><b>6</b>categories</span><span class="stat"><b>59</b>stages</span><span class="stat"><b>125</b>illustrations</span><span class="stat"><b>5</b>0枚</span><span class="stat"><b>22</b>1枚</span><span class="stat"><b>32</b>2枚以上</span></div></header>
+<div class="toolbar"><nav class="category-nav"><a href="#heart" style="--nav:#7D2741">こころ・人との関わり</a><a href="#body" style="--nav:#FF511B">からだを動かす</a><a href="#hand" style="--nav:#8B6C28">感覚・手・道具</a><a href="#talk" style="--nav:#377987">伝える・ことば</a><a href="#think" style="--nav:#6C7B52">遊ぶ・考える</a><a href="#daily" style="--nav:#6B557D">毎日のこと</a></nav><div class="filter-row"><div class="filters"><button class="active" data-filter="all">すべて</button><button data-filter="missing">0枚</button><button data-filter="thin">1枚</button><button data-filter="enough">2〜6枚</button><button data-filter="dense">7枚以上</button></div><input class="search" id="search" placeholder="stageを検索"></div></div>
+<main class="content"><section class="category" id="heart" style="--cat:#7D2741"><div class="category-head"><div class="cat-icon">♡</div><div><span>CATEGORY 01</span><h2>こころ・人との関わり</h2><p>案内役：フクロウ</p></div><div class="cat-count"><b>7</b> stages<br><b>14</b> illustrations</div></div><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>安心と気持ち</h3></div><b>2 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="enough" data-search="こころ・人との関わり 安心と気持ち 声や表情を交わす">
+        <header class="stage-head">
+          <div><span class="breadcrumb">こころ・人との関わり › 安心と気持ち</span><h4>声や表情を交わす</h4></div>
+          <span class="count enough">4枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/relationship-frame-spin-together.png" alt="ぐるぐる、いっしょに" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>relationship-frame-spin-together.png</code></span></div>
+      <figcaption><b>ぐるぐる、いっしょに</b><span>ふれあいで遊ぶ（高い高い・ぐるぐる・こちょこちょ）</span><code>relationship-frame-spin-together.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/relationship-frame-tickle-pause.png" alt="こちょこちょ、もういっかい？" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>relationship-frame-tickle-pause.png</code></span></div>
+      <figcaption><b>こちょこちょ、もういっかい？</b><span>ふれあいで遊ぶ（高い高い・ぐるぐる・こちょこちょ）</span><code>relationship-frame-tickle-pause.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/relationship-frame-parent-hand-play.png" alt="手と手、おなじかたち" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>relationship-frame-parent-hand-play.png</code></span></div>
+      <figcaption><b>手と手、おなじかたち</b><span>ふれあいで遊ぶ（高い高い・ぐるぐる・こちょこちょ）</span><code>relationship-frame-parent-hand-play.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/relationship-frame-lift-play.png" alt="たかい、たかい。もういっかい" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>relationship-frame-lift-play.png</code></span></div>
+      <figcaption><b>たかい、たかい。もういっかい</b><span>ふれあいで遊ぶ（高い高い・ぐるぐる・こちょこちょ）</span><code>relationship-frame-lift-play.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440004</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="thin" data-search="こころ・人との関わり 安心と気持ち 安心を取り戻す方法を見つける">
+        <header class="stage-head">
+          <div><span class="breadcrumb">こころ・人との関わり › 安心と気持ち</span><h4>安心を取り戻す方法を見つける</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/relationship-frame-deep-breath.png" alt="いっしょに、ゆっくり呼吸" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>relationship-frame-deep-breath.png</code></span></div>
+      <figcaption><b>いっしょに、ゆっくり呼吸</b><span>安心を取り戻す方法を見つける</span><code>relationship-frame-deep-breath.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>安心できる人や物へ近づく</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">660e8400-e29b-41d4-a716-446655440011</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>同じものを一緒に見る</h3></div><b>1 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="thin" data-search="こころ・人との関わり 同じものを一緒に見る 同じものを一緒に見る">
+        <header class="stage-head">
+          <div><span class="breadcrumb">こころ・人との関わり › 同じものを一緒に見る</span><h4>同じものを一緒に見る</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-shared-pointing.png" alt="ひとことから、同じものを見る" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-shared-pointing.png</code></span></div>
+      <figcaption><b>ひとことから、同じものを見る</b><span>同じものを一緒に見る</span><code>mimo-frame-shared-pointing.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>大人の視線の先を一緒に見る</p></div>
+    <div class="visual candidate"><div class="candidate-art"><span>2</span><b>生成候補</b></div><p>見つけた物と大人の顔を見比べる</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440022</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>まねから広げる</h3></div><b>1 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="enough" data-search="こころ・人との関わり まねから広げる 動きや声をまねする">
+        <header class="stage-head">
+          <div><span class="breadcrumb">こころ・人との関わり › まねから広げる</span><h4>動きや声をまねする</h4></div>
+          <span class="count enough">3枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-child-leads-imitation.png" alt="そのかたち、かえすよ" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-child-leads-imitation.png</code></span></div>
+      <figcaption><b>そのかたち、かえすよ</b><span>まねる</span><code>mimo-frame-child-leads-imitation.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-imitation-arms-up.png" alt="おなじポーズ、できた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-imitation-arms-up.png</code></span></div>
+      <figcaption><b>おなじポーズ、できた</b><span>まねる</span><code>mimo-frame-imitation-arms-up.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-rhythm-copy.png" alt="同じリズム、かえってきた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-rhythm-copy.png</code></span></div>
+      <figcaption><b>同じリズム、かえってきた</b><span>まねる</span><code>mimo-frame-rhythm-copy.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440023</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>人と遊ぶ</h3></div><b>3 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="thin" data-search="こころ・人との関わり 人と遊ぶ そばで同じように遊ぶ">
+        <header class="stage-head">
+          <div><span class="breadcrumb">こころ・人との関わり › 人と遊ぶ</span><h4>そばで同じように遊ぶ</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/relationship-frame-children-parallel-sand.png" alt="同じ砂場、それぞれの遊び" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>relationship-frame-children-parallel-sand.png</code></span></div>
+      <figcaption><b>同じ砂場、それぞれの遊び</b><span>並んで遊ぶ（並行遊び）</span><code>relationship-frame-children-parallel-sand.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>他の子のそばで、似た積み木や道具を使って遊ぶ</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">660e8400-e29b-41d4-a716-446655440007</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="こころ・人との関わり 人と遊ぶ 相手と一緒に遊ぶ">
+        <header class="stage-head">
+          <div><span class="breadcrumb">こころ・人との関わり › 人と遊ぶ</span><h4>相手と一緒に遊ぶ</h4></div>
+          <span class="count enough">2枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-parent-child-pretend-meal.png" alt="いっしょに、ごはんを並べよう" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-parent-child-pretend-meal.png</code></span></div>
+      <figcaption><b>いっしょに、ごはんを並べよう</b><span>一緒に遊ぶ（協同遊び）</span><code>mimo-frame-parent-child-pretend-meal.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/relationship-frame-children-build-together.png" alt="ふたりで、ひとつの橋" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>relationship-frame-children-build-together.png</code></span></div>
+      <figcaption><b>ふたりで、ひとつの橋</b><span>一緒に遊ぶ（協同遊び）</span><code>relationship-frame-children-build-together.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">660e8400-e29b-41d4-a716-446655440008</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="こころ・人との関わり 人と遊ぶ 順番や決まりに参加する">
+        <header class="stage-head">
+          <div><span class="breadcrumb">こころ・人との関わり › 人と遊ぶ</span><h4>順番や決まりに参加する</h4></div>
+          <span class="count enough">2枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-wait-turn-slide.png" alt="すべり台、つぎはわたし" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-wait-turn-slide.png</code></span></div>
+      <figcaption><b>すべり台、つぎはわたし</b><span>順番・待つ</span><code>gen-frame-wait-turn-slide.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-hide-and-seek.png" alt="みつけて、ここだよ" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-hide-and-seek.png</code></span></div>
+      <figcaption><b>みつけて、ここだよ</b><span>順番・待つ</span><code>gen-frame-hide-and-seek.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">660e8400-e29b-41d4-a716-446655440010</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section></section><section class="category" id="body" style="--cat:#FF511B"><div class="category-head"><div class="cat-icon">↗</div><div><span>CATEGORY 02</span><h2>からだを動かす</h2><p>案内役：ゲン</p></div><div class="cat-count"><b>8</b> stages<br><b>32</b> illustrations</div></div><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>姿勢をつくる</h3></div><b>3 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="enough" data-search="からだを動かす 姿勢をつくる あおむけで体を動かす">
+        <header class="stage-head">
+          <div><span class="breadcrumb">からだを動かす › 姿勢をつくる</span><h4>あおむけで体を動かす</h4></div>
+          <span class="count enough">3枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-relax-looking-up.png" alt="仰向けで頭をまんなかに保ち、Genと並んで空を見る" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-relax-looking-up.png</code></span></div>
+      <figcaption><b>並んで空を見る</b><span>あおむけで、頭をまんなかに保つ</span><code>gen-frame-relax-looking-up.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-supine-hands-midline.png" alt="仰向けで両手を身体のまんなかへ集める赤ちゃんとGen" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-supine-hands-midline.png</code></span></div>
+      <figcaption><b>まんなかで、手が会った</b><span>両手を身体のまんなかへ集める</span><code>gen-frame-supine-hands-midline.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-supine-feet-mirror.png" alt="あし、みつけた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-supine-feet-mirror.png</code></span></div>
+      <figcaption><b>あし、みつけた</b><span>手を足まで伸ばす</span><code>gen-frame-supine-feet-mirror.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440006</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="からだを動かす 姿勢をつくる うつ伏せで顔や体を上げる">
+        <header class="stage-head">
+          <div><span class="breadcrumb">からだを動かす › 姿勢をつくる</span><h4>うつ伏せで顔や体を上げる</h4></div>
+          <span class="count enough">2枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-prone-dialogue.png" alt="ひくいところで、こんにちは" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-prone-dialogue.png</code></span></div>
+      <figcaption><b>ひくいところで、こんにちは</b><span>うつ伏せで前を見る</span><code>gen-frame-prone-dialogue.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-relax-watching-together.png" alt="同じ小さなものを見る" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-relax-watching-together.png</code></span></div>
+      <figcaption><b>同じ小さなものを見る</b><span>うつ伏せで前を見る</span><code>gen-frame-relax-watching-together.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440007</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="からだを動かす 姿勢をつくる 座って遊ぶ">
+        <header class="stage-head">
+          <div><span class="breadcrumb">からだを動かす › 姿勢をつくる</span><h4>座って遊ぶ</h4></div>
+          <span class="count enough">3枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-seated-reach.png" alt="ここまで、とどいた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-seated-reach.png</code></span></div>
+      <figcaption><b>ここまで、とどいた</b><span>座って手を自由にする</span><code>gen-frame-seated-reach.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-ball-roll.png" alt="ころころ、そっちへ" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-ball-roll.png</code></span></div>
+      <figcaption><b>ころころ、そっちへ</b><span>座って手を自由にする</span><code>gen-frame-ball-roll.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-relax-leaning-together.png" alt="寄りかかって、ひと休み" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-relax-leaning-together.png</code></span></div>
+      <figcaption><b>寄りかかって、ひと休み</b><span>座って手を自由にする</span><code>gen-frame-relax-leaning-together.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440008</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>立つ・移動する</h3></div><b>3 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="enough" data-search="からだを動かす 立つ・移動する 床で向きを変え、移動する">
+        <header class="stage-head">
+          <div><span class="breadcrumb">からだを動かす › 立つ・移動する</span><h4>床で向きを変え、移動する</h4></div>
+          <span class="count enough">3枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-rolling-mirror.png" alt="ころん、をいっしょに" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-rolling-mirror.png</code></span></div>
+      <figcaption><b>ころん、をいっしょに</b><span>向きを変える（寝返り）</span><code>gen-frame-rolling-mirror.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-crawling-chase.png" alt="まって、ゲン" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-crawling-chase.png</code></span></div>
+      <figcaption><b>まって、ゲン</b><span>手足で支えて進む</span><code>gen-frame-crawling-chase.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-tunnel-through.png" alt="むこうまで、くぐった" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-tunnel-through.png</code></span></div>
+      <figcaption><b>むこうまで、くぐった</b><span>手足で支えて進む</span><code>gen-frame-tunnel-through.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">660e8400-e29b-41d4-a716-446655440002</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="からだを動かす 立つ・移動する 立って体を支える">
+        <header class="stage-head">
+          <div><span class="breadcrumb">からだを動かす › 立つ・移動する</span><h4>立って体を支える</h4></div>
+          <span class="count enough">3枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/milestone-frame-pull-to-stand.png" alt="立てた手は、まだここに" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>milestone-frame-pull-to-stand.png</code></span></div>
+      <figcaption><b>立てた手は、まだここに</b><span>手で支えて立つ</span><code>milestone-frame-pull-to-stand.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-supported-twist.png" alt="つかまったまま、くるり" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-supported-twist.png</code></span></div>
+      <figcaption><b>つかまったまま、くるり</b><span>手で支えて立つ</span><code>gen-frame-supported-twist.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/cheer-frame-pause-before-trying.png" alt="立ったまま、足場を見る" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>cheer-frame-pause-before-trying.png</code></span></div>
+      <figcaption><b>立ったまま、足場を見る</b><span>一人で立つ</span><code>cheer-frame-pause-before-trying.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440009</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="からだを動かす 立つ・移動する 歩いて移動する">
+        <header class="stage-head">
+          <div><span class="breadcrumb">からだを動かす › 立つ・移動する</span><h4>歩いて移動する</h4></div>
+          <span class="count enough">4枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-push-car.png" alt="押す道の、少し前" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-push-car.png</code></span></div>
+      <figcaption><b>押す道の、少し前</b><span>支えを動かして一歩、そして歩く</span><code>gen-frame-push-car.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-follow-walking.png" alt="歩く子どもの、二歩あと" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-follow-walking.png</code></span></div>
+      <figcaption><b>歩く子どもの、二歩あと</b><span>支えを動かして一歩、そして歩く</span><code>gen-frame-follow-walking.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/relationship-frame-parent-first-step.png" alt="ここまで、おいで" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>relationship-frame-parent-first-step.png</code></span></div>
+      <figcaption><b>ここまで、おいで</b><span>支えを動かして一歩、そして歩く</span><code>relationship-frame-parent-first-step.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-child-leads-rabbit.png" alt="こっち、いっしょに" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-child-leads-rabbit.png</code></span></div>
+      <figcaption><b>こっち、いっしょに</b><span>支えを動かして一歩、そして歩く</span><code>gen-frame-child-leads-rabbit.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440010</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>走る・跳ぶ・バランス</h3></div><b>2 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="enough" data-search="からだを動かす 走る・跳ぶ・バランス 高さを変えて進む">
+        <header class="stage-head">
+          <div><span class="breadcrumb">からだを動かす › 走る・跳ぶ・バランス</span><h4>高さを変えて進む</h4></div>
+          <span class="count enough">6枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-squat-and-pick-up.png" alt="しゃがんだ先に、みつけた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-squat-and-pick-up.png</code></span></div>
+      <figcaption><b>しゃがんだ先に、みつけた</b><span>しゃがむ・段差を進む</span><code>gen-frame-squat-and-pick-up.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-follow-stairs.png" alt="階段の、一段あと" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-follow-stairs.png</code></span></div>
+      <figcaption><b>階段の、一段あと</b><span>しゃがむ・段差を進む</span><code>gen-frame-follow-stairs.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-descend-stairs.png" alt="おりる足を、一段下で" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-descend-stairs.png</code></span></div>
+      <figcaption><b>おりる足を、一段下で</b><span>しゃがむ・段差を進む</span><code>gen-frame-descend-stairs.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-follow-running.png" alt="走る子どもの、そのあとを" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-follow-running.png</code></span></div>
+      <figcaption><b>走る子どもの、そのあとを</b><span>走る・跳ぶ・バランス</span><code>gen-frame-follow-running.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-two-foot-jump.png" alt="ぴょん、の少しあと" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-two-foot-jump.png</code></span></div>
+      <figcaption><b>ぴょん、の少しあと</b><span>走る・跳ぶ・バランス</span><code>gen-frame-two-foot-jump.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-balance-mirror.png" alt="おなじ傾き" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-balance-mirror.png</code></span></div>
+      <figcaption><b>おなじ傾き</b><span>走る・跳ぶ・バランス</span><code>gen-frame-balance-mirror.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440011</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="dense" data-search="からだを動かす 走る・跳ぶ・バランス ボール・乗り物・遊具で遊ぶ">
+        <header class="stage-head">
+          <div><span class="breadcrumb">からだを動かす › 走る・跳ぶ・バランス</span><h4>ボール・乗り物・遊具で遊ぶ</h4></div>
+          <span class="count dense">8枚・過密確認</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-ball-exchange.png" alt="そっちへ、どうぞ" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-ball-exchange.png</code></span></div>
+      <figcaption><b>そっちへ、どうぞ</b><span>ボール・乗り物</span><code>gen-frame-ball-exchange.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-throw-receive.png" alt="とんできた、受け取った" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-throw-receive.png</code></span></div>
+      <figcaption><b>とんできた、受け取った</b><span>ボール・乗り物</span><code>gen-frame-throw-receive.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-ball-roll.png" alt="ころころ、そっちへ" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-ball-roll.png</code></span></div>
+      <figcaption><b>ころころ、そっちへ</b><span>ボール・乗り物</span><code>gen-frame-ball-roll.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-tricycle.png" alt="こぐ足の、そのあとを" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-tricycle.png</code></span></div>
+      <figcaption><b>こぐ足の、そのあとを</b><span>ボール・乗り物</span><code>gen-frame-tricycle.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-park-slide.png" alt="すべる先で、待ってる" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-park-slide.png</code></span></div>
+      <figcaption><b>すべる先で、待ってる</b><span>遊具（揺れ・高さ・重力）</span><code>gen-frame-park-slide.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-park-swing.png" alt="ゆれる形を、となりで" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-park-swing.png</code></span></div>
+      <figcaption><b>ゆれる形を、となりで</b><span>遊具（揺れ・高さ・重力）</span><code>gen-frame-park-swing.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-horizontal-bar-hang.png" alt="にぎった手で、ぶらーん" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-horizontal-bar-hang.png</code></span></div>
+      <figcaption><b>にぎった手で、ぶらーん</b><span>遊具（揺れ・高さ・重力）</span><code>gen-frame-horizontal-bar-hang.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-trampoline.png" alt="しずんで、ぽん" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-trampoline.png</code></span></div>
+      <figcaption><b>しずんで、ぽん</b><span>遊具（揺れ・高さ・重力）</span><code>gen-frame-trampoline.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">660e8400-e29b-41d4-a716-446655440015</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section></section><section class="category" id="hand" style="--cat:#8B6C28"><div class="category-head"><div class="cat-icon">◇</div><div><span>CATEGORY 03</span><h2>感覚・手・道具</h2><p>案内役：ルーク</p></div><div class="cat-count"><b>10</b> stages<br><b>24</b> illustrations</div></div><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>見る・聞く・感じる</h3></div><b>2 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="missing" data-search="感覚・手・道具 見る・聞く・感じる 動くものを目で追う">
+        <header class="stage-head">
+          <div><span class="breadcrumb">感覚・手・道具 › 見る・聞く・感じる</span><h4>動くものを目で追う</h4></div>
+          <span class="count missing">0枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual reuse-visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-bubble-play.png" alt="再利用候補 mimo-frame-bubble-play.png" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-bubble-play.png</code></span><em>再利用候補</em></div>
+      <figcaption><b>別の見方で再利用</b><code>mimo-frame-bubble-play.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>大人の顔がゆっくり左右へ動く</p></div>
+    <div class="visual candidate"><div class="candidate-art"><span>2</span><b>生成候補</b></div><p>音の出るおもちゃが視野の中を動く</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440001</code>
+          <details><summary>データ上の注記</summary><ul><li>再利用後の最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="missing" data-search="感覚・手・道具 見る・聞く・感じる 声や音に気づく">
+        <header class="stage-head">
+          <div><span class="breadcrumb">感覚・手・道具 › 見る・聞く・感じる</span><h4>声や音に気づく</h4></div>
+          <span class="count missing">0枚</span>
+        </header>
+        <div class="visuals">
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>後ろからの家族の声に表情や体で応じる</p></div>
+    <div class="visual candidate"><div class="candidate-art"><span>2</span><b>生成候補</b></div><p>生活音がすると動きを止めて聞く</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440002</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 2場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>感覚遊び・素材に触れる</h3></div><b>1 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="enough" data-search="感覚・手・道具 感覚遊び・素材に触れる 触り方や感じ方を自分で選ぶ">
+        <header class="stage-head">
+          <div><span class="breadcrumb">感覚・手・道具 › 感覚遊び・素材に触れる</span><h4>触り方や感じ方を自分で選ぶ</h4></div>
+          <span class="count enough">4枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-sand-texture.png" alt="さらさら、手のなか" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-sand-texture.png</code></span></div>
+      <figcaption><b>さらさら、手のなか</b><span>触り方を自分で選ぶ（感覚遊び）</span><code>luke-frame-sand-texture.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-clay-press.png" alt="むぎゅっ、形がかわった" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-clay-press.png</code></span></div>
+      <figcaption><b>むぎゅっ、形がかわった</b><span>触り方を自分で選ぶ（感覚遊び）</span><code>luke-frame-clay-press.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-shake-sound.png" alt="ふったら、音がした" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-shake-sound.png</code></span></div>
+      <figcaption><b>ふったら、音がした</b><span>触り方を自分で選ぶ（感覚遊び）</span><code>luke-frame-shake-sound.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-oral-exploration-teether.png" alt="口でも、形を確かめる" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-oral-exploration-teether.png</code></span></div>
+      <figcaption><b>口でも、形を確かめる</b><span>触り方を自分で選ぶ（感覚遊び）</span><code>gen-frame-oral-exploration-teether.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440038</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>持つ・入れる・取り出す</h3></div><b>4 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="missing" data-search="感覚・手・道具 持つ・入れる・取り出す 見ながら手を伸ばす">
+        <header class="stage-head">
+          <div><span class="breadcrumb">感覚・手・道具 › 持つ・入れる・取り出す</span><h4>見ながら手を伸ばす</h4></div>
+          <span class="count missing">0枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual reuse-visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-reach-for-toy.png" alt="再利用候補 luke-frame-reach-for-toy.png" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-reach-for-toy.png</code></span><em>再利用候補</em></div>
+      <figcaption><b>別の見方で再利用</b><code>luke-frame-reach-for-toy.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>目の前のおもちゃへ視線と手を向ける</p></div>
+    <div class="visual candidate"><div class="candidate-art"><span>2</span><b>生成候補</b></div><p>大人が差し出した物を見て手を伸ばす</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440012</code>
+          <details><summary>データ上の注記</summary><ul><li>再利用後の最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="感覚・手・道具 持つ・入れる・取り出す にぎる・指でつまむ">
+        <header class="stage-head">
+          <div><span class="breadcrumb">感覚・手・道具 › 持つ・入れる・取り出す</span><h4>にぎる・指でつまむ</h4></div>
+          <span class="count enough">4枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-tiny-discovery.png" alt="その小さなもの、発見" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-tiny-discovery.png</code></span></div>
+      <figcaption><b>その小さなもの、発見</b><span>小さな違いへ目と指を合わせる（つまむ）</span><code>luke-frame-tiny-discovery.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-clothespin.png" alt="つまんで、はずす" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-clothespin.png</code></span></div>
+      <figcaption><b>つまんで、はずす</b><span>小さな違いへ目と指を合わせる（つまむ）</span><code>luke-frame-clothespin.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-lift-large-ball.png" alt="大きなボールを両手で握り、持ち上げる" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-lift-large-ball.png</code></span></div>
+      <figcaption><b>ぎゅっと持って、持ち上げた</b><span>手のひらと両手で、大きな物を持つ</span><code>luke-frame-lift-large-ball.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-hand-to-hand-transfer.png" alt="積み木を片方の手から反対の手へ持ち替える" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-hand-to-hand-transfer.png</code></span></div>
+      <figcaption><b>こっちの手から、あっちの手へ</b><span>持ち替える・片手で持ちながら反対の手を使う</span><code>luke-frame-hand-to-hand-transfer.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440013</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="感覚・手・道具 持つ・入れる・取り出す 運ぶ・離す・容器に入れる">
+        <header class="stage-head">
+          <div><span class="breadcrumb">感覚・手・道具 › 持つ・入れる・取り出す</span><h4>運ぶ・離す・容器に入れる</h4></div>
+          <span class="count enough">4枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-put-in-look.png" alt="いれた先を、のぞこう" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-put-in-look.png</code></span></div>
+      <figcaption><b>いれた先を、のぞこう</b><span>中へ入れて、取り出す</span><code>luke-frame-put-in-look.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-water-pour.png" alt="ながれた先を、いっしょに" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-water-pour.png</code></span></div>
+      <figcaption><b>ながれた先を、いっしょに</b><span>中へ入れて、取り出す</span><code>luke-frame-water-pour.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-release-drop.png" alt="はなしたら、どこへいく？" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-release-drop.png</code></span></div>
+      <figcaption><b>はなしたら、どこへいく？</b><span>中へ入れて、取り出す</span><code>luke-frame-release-drop.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-clean-up.png" alt="さいごの一個、おうちへ" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-clean-up.png</code></span></div>
+      <figcaption><b>さいごの一個、おうちへ</b><span>中へ入れて、取り出す</span><code>luke-frame-clean-up.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440015</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="感覚・手・道具 持つ・入れる・取り出す 両手を一緒に使う">
+        <header class="stage-head">
+          <div><span class="breadcrumb">感覚・手・道具 › 持つ・入れる・取り出す</span><h4>両手を一緒に使う</h4></div>
+          <span class="count enough">4枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-reach-for-toy.png" alt="ほしいものへ、両手がいく" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-reach-for-toy.png</code></span></div>
+      <figcaption><b>ほしいものへ、両手がいく</b><span>手を伸ばす・両手を使う</span><code>luke-frame-reach-for-toy.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-bead-threading.png" alt="ひもに、すーっと通せた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-bead-threading.png</code></span></div>
+      <figcaption><b>ひもに、すーっと通せた</b><span>両手を使って動かす</span><code>luke-frame-bead-threading.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-spiral-turning-toy.png" alt="くるくる回すと、下りてきた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-spiral-turning-toy.png</code></span></div>
+      <figcaption><b>くるくる回すと、下りてきた</b><span>両手を使って動かす</span><code>luke-frame-spiral-turning-toy.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-page-turn.png" alt="つぎのページは、その手から" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-page-turn.png</code></span></div>
+      <figcaption><b>つぎのページは、その手から</b><span>両手を使って動かす</span><code>luke-frame-page-turn.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">660e8400-e29b-41d4-a716-446655440003</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>積み木・パズルを動かす</h3></div><b>1 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="thin" data-search="感覚・手・道具 積み木・パズルを動かす 積む・はめる・形を作る">
+        <header class="stage-head">
+          <div><span class="breadcrumb">感覚・手・道具 › 積み木・パズルを動かす</span><h4>積む・はめる・形を作る</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-shared-build.png" alt="持って、離して、もう一度" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-shared-build.png</code></span></div>
+      <figcaption><b>持って、離して、もう一度</b><span>積み木を持つ・離す・合わせる</span><code>luke-frame-shared-build.png</code></figcaption>
+    </figure>
+    <figure class="visual reuse-visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-shared-build.png" alt="再利用候補 luke-frame-shared-build.png" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-shared-build.png</code></span><em>再利用候補</em></div>
+      <figcaption><b>別の見方で再利用</b><code>luke-frame-shared-build.png</code></figcaption>
+    </figure>
+    <figure class="visual reuse-visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-arrange-pretend-train.png" alt="再利用候補 luke-frame-arrange-pretend-train.png" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-arrange-pretend-train.png</code></span><em>再利用候補</em></div>
+      <figcaption><b>別の見方で再利用</b><code>luke-frame-arrange-pretend-train.png</code></figcaption>
+    </figure>
+    <figure class="visual reuse-visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-toy-car-road.png" alt="再利用候補 luke-frame-toy-car-road.png" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-toy-car-road.png</code></span><em>再利用候補</em></div>
+      <figcaption><b>別の見方で再利用</b><code>luke-frame-toy-car-road.png</code></figcaption>
+    </figure>
+    <figure class="visual reuse-visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-shape-sorter.png" alt="再利用候補 luke-frame-shape-sorter.png" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-shape-sorter.png</code></span><em>再利用候補</em></div>
+      <figcaption><b>別の見方で再利用</b><code>luke-frame-shape-sorter.png</code></figcaption>
+    </figure>
+    <figure class="visual reuse-visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-jigsaw-last-piece.png" alt="再利用候補 luke-frame-jigsaw-last-piece.png" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-jigsaw-last-piece.png</code></span><em>再利用候補</em></div>
+      <figcaption><b>別の見方で再利用</b><code>luke-frame-jigsaw-last-piece.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440016</code>
+          <details><summary>データ上の注記</summary><ul><li>現在は「積む・並べる・組み立てる」または「形を見比べる」に紐づいている。</li><li>このstageでは完成物や問題解決ではなく、「持つ・離す・向きを調整する」という手の操作を見る。</li><li>新規画像は不要。既存の積み木場面を別illustration行で再利用し、手の操作向けのdevelopment_itemへ紐づけた。</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>描く・切る・工作する</h3></div><b>2 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="enough" data-search="感覚・手・道具 描く・切る・工作する 描く・線や形をまねる">
+        <header class="stage-head">
+          <div><span class="breadcrumb">感覚・手・道具 › 描く・切る・工作する</span><h4>描く・線や形をまねる</h4></div>
+          <span class="count enough">2枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-shared-line.png" alt="線のつづきは、こっち" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-shared-line.png</code></span></div>
+      <figcaption><b>線のつづきは、こっち</b><span>跡・線・色で表す（描く）</span><code>luke-frame-shared-line.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-coloring.png" alt="この色、ここまできた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-coloring.png</code></span></div>
+      <figcaption><b>この色、ここまできた</b><span>跡・線・色で表す（描く）</span><code>luke-frame-coloring.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440018</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="感覚・手・道具 描く・切る・工作する 切る・貼る・紙で作る">
+        <header class="stage-head">
+          <div><span class="breadcrumb">感覚・手・道具 › 描く・切る・工作する</span><h4>切る・貼る・紙で作る</h4></div>
+          <span class="count enough">5枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-paper-tear.png" alt="びりっ、線がひらいた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-paper-tear.png</code></span></div>
+      <figcaption><b>びりっ、線がひらいた</b><span>切る・貼る・紙で作る</span><code>luke-frame-paper-tear.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-sticker-paste.png" alt="ぺりっ、ここにしよう" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-sticker-paste.png</code></span></div>
+      <figcaption><b>ぺりっ、ここにしよう</b><span>切る・貼る・紙で作る</span><code>luke-frame-sticker-paste.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-paper-fold.png" alt="はしとはし、会えた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-paper-fold.png</code></span></div>
+      <figcaption><b>はしとはし、会えた</b><span>切る・貼る・紙で作る</span><code>luke-frame-paper-fold.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-paper-collage.png" alt="ここに貼ったら、つながった" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-paper-collage.png</code></span></div>
+      <figcaption><b>ここに貼ったら、つながった</b><span>切る・貼る・紙で作る</span><code>luke-frame-paper-collage.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-one-snip.png" alt="ちょきん、ここまで" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-one-snip.png</code></span></div>
+      <figcaption><b>ちょきん、ここまで</b><span>切る・貼る・紙で作る</span><code>luke-frame-one-snip.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440017</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section></section><section class="category" id="talk" style="--cat:#377987"><div class="category-head"><div class="cat-icon">○</div><div><span>CATEGORY 04</span><h2>伝える・ことば</h2><p>案内役：ミモ</p></div><div class="cat-count"><b>14</b> stages<br><b>25</b> illustrations</div></div><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>ことば以外で伝える</h3></div><b>4 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="thin" data-search="伝える・ことば ことば以外で伝える 視線や指さしで知らせる">
+        <header class="stage-head">
+          <div><span class="breadcrumb">伝える・ことば › ことば以外で伝える</span><h4>視線や指さしで知らせる</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-shared-pointing.png" alt="みつけたものを、いっしょに" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-shared-pointing.png</code></span></div>
+      <figcaption><b>みつけたものを、いっしょに</b><span>指さし・共同注意</span><code>mimo-frame-shared-pointing.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>好きなものを見た後、大人の顔を見て共有する</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440025</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="伝える・ことば ことば以外で伝える 身ぶりやサインで伝える">
+        <header class="stage-head">
+          <div><span class="breadcrumb">伝える・ことば › ことば以外で伝える</span><h4>身ぶりやサインで伝える</h4></div>
+          <span class="count enough">6枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-show-and-receive.png" alt="みてを受け取る" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-show-and-receive.png</code></span></div>
+      <figcaption><b>みてを受け取る</b><span>物や身ぶりで伝える</span><code>mimo-frame-show-and-receive.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-child-leads-rabbit.png" alt="こっち、いっしょに" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-child-leads-rabbit.png</code></span></div>
+      <figcaption><b>こっち、いっしょに</b><span>物や身ぶりで伝える</span><code>gen-frame-child-leads-rabbit.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/relationship-frame-children-offer-and-wait.png" alt="どうぞ、のあとを待つ" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>relationship-frame-children-offer-and-wait.png</code></span></div>
+      <figcaption><b>どうぞ、のあとを待つ</b><span>物や身ぶりで伝える</span><code>relationship-frame-children-offer-and-wait.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-wave-response.png" alt="ばいばい、かえってきた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-wave-response.png</code></span></div>
+      <figcaption><b>ばいばい、かえってきた</b><span>挨拶する</span><code>mimo-frame-wave-response.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-peace-sign.png" alt="ふたつの指、ふたつの羽" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-peace-sign.png</code></span></div>
+      <figcaption><b>ふたつの指、ふたつの羽</b><span>挨拶する</span><code>mimo-frame-peace-sign.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/relationship-frame-ask-to-be-held.png" alt="だっこして、が届いた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>relationship-frame-ask-to-be-held.png</code></span></div>
+      <figcaption><b>だっこして、が届いた</b><span>物や身ぶりで伝える</span><code>relationship-frame-ask-to-be-held.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440026</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="伝える・ことば ことば以外で伝える 表情や声で気持ちを伝える">
+        <header class="stage-head">
+          <div><span class="breadcrumb">伝える・ことば › ことば以外で伝える</span><h4>表情や声で気持ちを伝える</h4></div>
+          <span class="count enough">2枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-emotion-expression.png" alt="顔に、気持ちがあらわれた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-emotion-expression.png</code></span></div>
+      <figcaption><b>顔に、気持ちがあらわれた</b><span>気持ちに気づく・合わせる</span><code>mimo-frame-emotion-expression.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/relationship-frame-children-repair-together.png" alt="手をのばして、もういちど" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>relationship-frame-children-repair-together.png</code></span></div>
+      <figcaption><b>手をのばして、もういちど</b><span>気持ちに気づく・合わせる</span><code>relationship-frame-children-repair-together.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440027</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="伝える・ことば ことば以外で伝える 「いや」と「これ」を伝える">
+        <header class="stage-head">
+          <div><span class="breadcrumb">伝える・ことば › ことば以外で伝える</span><h4>「いや」と「これ」を伝える</h4></div>
+          <span class="count enough">3枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-refusal-boundary.png" alt="いらない、も届いている" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-refusal-boundary.png</code></span></div>
+      <figcaption><b>いらない、も届いている</b><span>断る・選ぶ</span><code>mimo-frame-refusal-boundary.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-choice-response.png" alt="こっちにする、が届いた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-choice-response.png</code></span></div>
+      <figcaption><b>こっちにする、が届いた</b><span>断る・選ぶ</span><code>mimo-frame-choice-response.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-request-sign.png" alt="ちょうだい、と手で伝える" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-request-sign.png</code></span></div>
+      <figcaption><b>ちょうだい、と手で伝える</b><span>断る・選ぶ</span><code>mimo-frame-request-sign.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">660e8400-e29b-41d4-a716-446655440004</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>ことばを受け取る</h3></div><b>4 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="thin" data-search="伝える・ことば ことばを受け取る 表情や周りの様子から分かる">
+        <header class="stage-head">
+          <div><span class="breadcrumb">伝える・ことば › ことばを受け取る</span><h4>表情や周りの様子から分かる</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-social-referencing.png" alt="大人の顔を見て、確かめる" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-social-referencing.png</code></span></div>
+      <figcaption><b>大人の顔を見て、確かめる</b><span>大人の表情・声を手がかりにする</span><code>mimo-frame-social-referencing.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>初めての遊具の前で大人の顔を確かめる</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440029</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="thin" data-search="伝える・ことば ことばを受け取る 身近なことばが分かる">
+        <header class="stage-head">
+          <div><span class="breadcrumb">伝える・ことば › ことばを受け取る</span><h4>身近なことばが分かる</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-body-parts-song.png" alt="頭、肩、ひざ、ポン" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-body-parts-song.png</code></span></div>
+      <figcaption><b>頭、肩、ひざ、ポン</b><span>ことばを理解する</span><code>mimo-frame-body-parts-song.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>「くつ」などのことばと実物を結びつける</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440030</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="thin" data-search="伝える・ことば ことばを受け取る 短いことばを聞いて動く">
+        <header class="stage-head">
+          <div><span class="breadcrumb">伝える・ことば › ことばを受け取る</span><h4>短いことばを聞いて動く</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-routine-shoe-message.png" alt="くつを持って、玄関へ" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-routine-shoe-message.png</code></span></div>
+      <figcaption><b>くつを持って、玄関へ</b><span>短いことばを聞いて動く</span><code>mimo-frame-routine-shoe-message.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>「赤いボールをどうぞ」のような短いことばに応じる</p></div>
+    <div class="visual candidate"><div class="candidate-art"><span>2</span><b>生成候補</b></div><p>写真や実物を手がかりに短い依頼を受け取る</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440031</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="伝える・ことば ことばを受け取る 少し長い話や手順が分かる">
+        <header class="stage-head">
+          <div><span class="breadcrumb">伝える・ことば › ことばを受け取る</span><h4>少し長い話や手順が分かる</h4></div>
+          <span class="count enough">2枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-three-step-entry.png" alt="つぎは、かばん" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-three-step-entry.png</code></span></div>
+      <figcaption><b>つぎは、かばん</b><span>少し長い話や手順が分かる</span><code>mimo-frame-three-step-entry.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-two-picture-schedule.png" alt="しまったら、手を洗おう" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-two-picture-schedule.png</code></span></div>
+      <figcaption><b>しまったら、手を洗おう</b><span>少し長い話や手順が分かる</span><code>mimo-frame-two-picture-schedule.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440032</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>ことばで伝える</h3></div><b>6 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="thin" data-search="伝える・ことば ことばで伝える いろいろな声を出して楽しむ">
+        <header class="stage-head">
+          <div><span class="breadcrumb">伝える・ことば › ことばで伝える</span><h4>いろいろな声を出して楽しむ</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-voice-pingpong.png" alt="声のピンポン" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-voice-pingpong.png</code></span></div>
+      <figcaption><b>声のピンポン</b><span>声でやりとりする</span><code>mimo-frame-voice-pingpong.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>動物や乗り物の音を自分の声で試す</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440034</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="伝える・ことば ことばで伝える 一つのことばで伝える">
+        <header class="stage-head">
+          <div><span class="breadcrumb">伝える・ことば › ことばで伝える</span><h4>一つのことばで伝える</h4></div>
+          <span class="count enough">2枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-aac-one-word.png" alt="ひとつ選んで、届いた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-aac-one-word.png</code></span></div>
+      <figcaption><b>ひとつ選んで、届いた</b><span>一つのことばで伝える</span><code>mimo-frame-aac-one-word.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-one-word-more.png" alt="もういちど、が届いた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-one-word-more.png</code></span></div>
+      <figcaption><b>もういちど、が届いた</b><span>一つのことばで伝える</span><code>mimo-frame-one-word-more.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440035</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="missing" data-search="伝える・ことば ことばで伝える ことばをつないで伝える">
+        <header class="stage-head">
+          <div><span class="breadcrumb">伝える・ことば › ことばで伝える</span><h4>ことばをつないで伝える</h4></div>
+          <span class="count missing">0枚</span>
+        </header>
+        <div class="visuals">
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>写真を見ながら「パパ いた」のようにことばをつなぐ</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440036</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 2場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="thin" data-search="伝える・ことば ことばで伝える 少し長いことばで伝える">
+        <header class="stage-head">
+          <div><span class="breadcrumb">伝える・ことば › ことばで伝える</span><h4>少し長いことばで伝える</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-choice-with-reason.png" alt="これがいい、だってね" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-choice-with-reason.png</code></span></div>
+      <figcaption><b>これがいい、だってね</b><span>少し長いことばで伝える</span><code>mimo-frame-choice-with-reason.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>今日の出来事を写真と短い文で伝える</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440037</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="伝える・ことば ことばで伝える 会話を行き来させる">
+        <header class="stage-head">
+          <div><span class="breadcrumb">伝える・ことば › ことばで伝える</span><h4>会話を行き来させる</h4></div>
+          <span class="count enough">2枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-shared-reading.png" alt="絵本を見ながら、ことばを行き来" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-shared-reading.png</code></span></div>
+      <figcaption><b>絵本を見ながら、ことばを行き来</b><span>会話・質問応答</span><code>mimo-frame-shared-reading.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-turn-taking-cards.png" alt="カードを置いて、つぎの番" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-turn-taking-cards.png</code></span></div>
+      <figcaption><b>カードを置いて、つぎの番</b><span>会話・質問応答</span><code>mimo-frame-turn-taking-cards.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">660e8400-e29b-41d4-a716-446655440005</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="伝える・ことば ことばで伝える 出来事や考えを伝える">
+        <header class="stage-head">
+          <div><span class="breadcrumb">伝える・ことば › ことばで伝える</span><h4>出来事や考えを伝える</h4></div>
+          <span class="count enough">2枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-experience-feeling.png" alt="あのときの気持ちも、いっしょに" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-experience-feeling.png</code></span></div>
+      <figcaption><b>あのときの気持ちも、いっしょに</b><span>出来事や考えを伝える</span><code>mimo-frame-experience-feeling.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-three-photo-story.png" alt="はじめ、つぎ、それから" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-three-photo-story.png</code></span></div>
+      <figcaption><b>はじめ、つぎ、それから</b><span>出来事や考えを伝える</span><code>mimo-frame-three-photo-story.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">660e8400-e29b-41d4-a716-446655440006</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section></section><section class="category" id="think" style="--cat:#6C7B52"><div class="category-head"><div class="cat-icon">✦</div><div><span>CATEGORY 05</span><h2>遊ぶ・考える</h2><p>案内役：フクロウ／ルーク</p></div><div class="cat-count"><b>13</b> stages<br><b>21</b> illustrations</div></div><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>気づく・取り組む</h3></div><b>2 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="thin" data-search="遊ぶ・考える 気づく・取り組む 気になるものを見つめる">
+        <header class="stage-head">
+          <div><span class="breadcrumb">遊ぶ・考える › 気づく・取り組む</span><h4>気になるものを見つめる</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/fukurou-frame-baby-hand-gaze.png" alt="自分の手をじっと見つめる赤ちゃんをフクロウが静かに見守る" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>fukurou-frame-baby-hand-gaze.png</code></span></div>
+      <figcaption><b>この手、なんだろう</b><span>自分の手をじっと見つめる</span><code>fukurou-frame-baby-hand-gaze.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>2</span><b>生成候補</b></div><p>家族の顔や手元をじっと見る</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440003</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="thin" data-search="遊ぶ・考える 気づく・取り組む 好きな遊びに取り組む">
+        <header class="stage-head">
+          <div><span class="breadcrumb">遊ぶ・考える › 気づく・取り組む</span><h4>好きな遊びに取り組む</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-bubble-play.png" alt="ふわふわ、どこまで" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-bubble-play.png</code></span></div>
+      <figcaption><b>ふわふわ、どこまで</b><span>見る・聞く・気づく</span><code>mimo-frame-bubble-play.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440020</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>覚える・探す</h3></div><b>3 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="thin" data-search="遊ぶ・考える 覚える・探す 見えなくなったものを探す">
+        <header class="stage-head">
+          <div><span class="breadcrumb">遊ぶ・考える › 覚える・探す</span><h4>見えなくなったものを探す</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-hidden-find.png" alt="めくった先に、いた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-hidden-find.png</code></span></div>
+      <figcaption><b>めくった先に、いた</b><span>隠す・見つける</span><code>mimo-frame-hidden-find.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>音のするおもちゃを箱や布の下から探す</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440021</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="missing" data-search="遊ぶ・考える 覚える・探す 覚えて、思い出す">
+        <header class="stage-head">
+          <div><span class="breadcrumb">遊ぶ・考える › 覚える・探す</span><h4>覚えて、思い出す</h4></div>
+          <span class="count missing">0枚</span>
+        </header>
+        <div class="visuals">
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>前に遊んだ場所へ自分から向かう</p></div>
+    <div class="visual candidate"><div class="candidate-art"><span>2</span><b>生成候補</b></div><p>昨日見たものを写真から見つける</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440043</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 2場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="thin" data-search="遊ぶ・考える 覚える・探す 位置や方向に気づく">
+        <header class="stage-head">
+          <div><span class="breadcrumb">遊ぶ・考える › 覚える・探す</span><h4>位置や方向に気づく</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-spatial-position.png" alt="上・下・中、どこにある？" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-spatial-position.png</code></span></div>
+      <figcaption><b>上・下・中、どこにある？</b><span>位置・方向</span><code>luke-frame-spatial-position.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>「椅子の下」などの場所を手がかりに物を探す</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440044</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>遊びを広げる</h3></div><b>3 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="enough" data-search="遊ぶ・考える 遊びを広げる こうしたらどうなるか試す">
+        <header class="stage-head">
+          <div><span class="breadcrumb">遊ぶ・考える › 遊びを広げる</span><h4>こうしたらどうなるか試す</h4></div>
+          <span class="count enough">2枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-button-sound.png" alt="おしたら、きこえた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-button-sound.png</code></span></div>
+      <figcaption><b>おしたら、きこえた</b><span>こうしたら、どうなる？（原因と結果）</span><code>luke-frame-button-sound.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-ramp-roll.png" alt="ころがした先で、待ってる" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-ramp-roll.png</code></span></div>
+      <figcaption><b>ころがした先で、待ってる</b><span>こうしたら、どうなる？（原因と結果）</span><code>luke-frame-ramp-roll.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440039</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="遊ぶ・考える 遊びを広げる 積む・並べる・組み立てる">
+        <header class="stage-head">
+          <div><span class="breadcrumb">遊ぶ・考える › 遊びを広げる</span><h4>積む・並べる・組み立てる</h4></div>
+          <span class="count enough">3枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-shared-build.png" alt="くずれても、ここから" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-shared-build.png</code></span></div>
+      <figcaption><b>くずれても、ここから</b><span>部分をつないで全体を作る（積む・並べる）</span><code>luke-frame-shared-build.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-arrange-pretend-train.png" alt="ならべたら、電車になった" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-arrange-pretend-train.png</code></span></div>
+      <figcaption><b>ならべたら、電車になった</b><span>部分をつないで全体を作る（積む・並べる）</span><code>luke-frame-arrange-pretend-train.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-toy-car-road.png" alt="道のつづきは、そっち" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-toy-car-road.png</code></span></div>
+      <figcaption><b>道のつづきは、そっち</b><span>部分をつないで全体を作る（積む・並べる）</span><code>luke-frame-toy-car-road.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440040</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="遊ぶ・考える 遊びを広げる 見立てて、ふりをする">
+        <header class="stage-head">
+          <div><span class="breadcrumb">遊ぶ・考える › 遊びを広げる</span><h4>見立てて、ふりをする</h4></div>
+          <span class="count enough">5枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-pretend-feeding.png" alt="ひとくち、どうぞ" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-pretend-feeding.png</code></span></div>
+      <figcaption><b>ひとくち、どうぞ</b><span>見立てて、ふりをする</span><code>mimo-frame-pretend-feeding.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-pretend-phone.png" alt="もしもし、きこえる？" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-pretend-phone.png</code></span></div>
+      <figcaption><b>もしもし、きこえる？</b><span>見立てて、ふりをする</span><code>mimo-frame-pretend-phone.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-pretend-cooking.png" alt="できたよ、ひとくちどうぞ" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-pretend-cooking.png</code></span></div>
+      <figcaption><b>できたよ、ひとくちどうぞ</b><span>役になって、物語をつくる</span><code>mimo-frame-pretend-cooking.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-pretend-shop.png" alt="これ、ください" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-pretend-shop.png</code></span></div>
+      <figcaption><b>これ、ください</b><span>役になって、物語をつくる</span><code>mimo-frame-pretend-shop.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-doctor-pretend.png" alt="もしもし、どこがいたい？" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-doctor-pretend.png</code></span></div>
+      <figcaption><b>もしもし、どこがいたい？</b><span>役になって、物語をつくる</span><code>mimo-frame-doctor-pretend.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440041</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>分けて比べる</h3></div><b>4 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="enough" data-search="遊ぶ・考える 分けて比べる 形を見比べる">
+        <header class="stage-head">
+          <div><span class="breadcrumb">遊ぶ・考える › 分けて比べる</span><h4>形を見比べる</h4></div>
+          <span class="count enough">2枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-shape-sorter.png" alt="どの向きなら、入るかな" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-shape-sorter.png</code></span></div>
+      <figcaption><b>どの向きなら、入るかな</b><span>形と穴を見比べる（型はめ・形）</span><code>luke-frame-shape-sorter.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-jigsaw-last-piece.png" alt="あと一枚、どの向き？" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-jigsaw-last-piece.png</code></span></div>
+      <figcaption><b>あと一枚、どの向き？</b><span>形と穴を見比べる（型はめ・形）</span><code>luke-frame-jigsaw-last-piece.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440045</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="thin" data-search="遊ぶ・考える 分けて比べる 色に気づき、分ける">
+        <header class="stage-head">
+          <div><span class="breadcrumb">遊ぶ・考える › 分けて比べる</span><h4>色に気づき、分ける</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-color-sort.png" alt="同じ色は、どこかな" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-color-sort.png</code></span></div>
+      <figcaption><b>同じ色は、どこかな</b><span>色・なかま分け</span><code>luke-frame-color-sort.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>日常の洗濯物やおもちゃを色で分ける</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440046</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="thin" data-search="遊ぶ・考える 分けて比べる 数と量を結びつける">
+        <header class="stage-head">
+          <div><span class="breadcrumb">遊ぶ・考える › 分けて比べる</span><h4>数と量を結びつける</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-counting-numerals.png" alt="1、2、3。数字と一緒に" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-counting-numerals.png</code></span></div>
+      <figcaption><b>1、2、3。数字と一緒に</b><span>数と数字を結びつける</span><code>luke-frame-counting-numerals.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>おやつや皿を一人に一つずつ配る</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440047</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="enough" data-search="遊ぶ・考える 分けて比べる 同じ・違うで分け、比べる">
+        <header class="stage-head">
+          <div><span class="breadcrumb">遊ぶ・考える › 分けて比べる</span><h4>同じ・違うで分け、比べる</h4></div>
+          <span class="count enough">2枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-find-pair.png" alt="おなじ、みつけた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-find-pair.png</code></span></div>
+      <figcaption><b>おなじ、みつけた</b><span>同じ・なかまを見つける（分類）</span><code>luke-frame-find-pair.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-size-quantity-compare.png" alt="どっちが大きい？ 多い？" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-size-quantity-compare.png</code></span></div>
+      <figcaption><b>どっちが大きい？ 多い？</b><span>大きさ・量を比べる</span><code>luke-frame-size-quantity-compare.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440049</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>文字・音を楽しむ</h3></div><b>1 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="thin" data-search="遊ぶ・考える 文字・音を楽しむ 文字や音に気づく">
+        <header class="stage-head">
+          <div><span class="breadcrumb">遊ぶ・考える › 文字・音を楽しむ</span><h4>文字や音に気づく</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-noticing-letters.png" alt="見つけた文字を、いっしょに" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-noticing-letters.png</code></span></div>
+      <figcaption><b>見つけた文字を、いっしょに</b><span>文字に気づく・読む</span><code>mimo-frame-noticing-letters.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440048</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section></section><section class="category" id="daily" style="--cat:#6B557D"><div class="category-head"><div class="cat-icon">⌂</div><div><span>CATEGORY 06</span><h2>毎日のこと</h2><p>案内役：生活場面のなかま</p></div><div class="cat-count"><b>7</b> stages<br><b>9</b> illustrations</div></div><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>食べる・飲む</h3></div><b>2 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="enough" data-search="毎日のこと 食べる・飲む 自分の方法で食べる・飲む">
+        <header class="stage-head">
+          <div><span class="breadcrumb">毎日のこと › 食べる・飲む</span><h4>自分の方法で食べる・飲む</h4></div>
+          <span class="count enough">2枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-eating-independently.png" alt="自分で、ひとくち" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-eating-independently.png</code></span></div>
+      <figcaption><b>自分で、ひとくち</b><span>自分の方法で食べる・飲む</span><code>luke-frame-eating-independently.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-drinking-independently.png" alt="自分で、ごくごく" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-drinking-independently.png</code></span></div>
+      <figcaption><b>自分で、ごくごく</b><span>自分の方法で食べる・飲む</span><code>luke-frame-drinking-independently.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440050</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="thin" data-search="毎日のこと 食べる・飲む 食事の流れに参加する">
+        <header class="stage-head">
+          <div><span class="breadcrumb">毎日のこと › 食べる・飲む</span><h4>食事の流れに参加する</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/together-frame-self-feeding-table.png" alt="いっしょに、いただきます" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>together-frame-self-feeding-table.png</code></span></div>
+      <figcaption><b>いっしょに、いただきます</b><span>食事の流れに参加する</span><code>together-frame-self-feeding-table.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>食器を運び、食事の準備に参加する</p></div>
+    <div class="visual candidate"><div class="candidate-art"><span>2</span><b>生成候補</b></div><p>「おしまい」を伝え、食器を戻す</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">660e8400-e29b-41d4-a716-446655440012</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>着替え・身支度</h3></div><b>2 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="thin" data-search="毎日のこと 着替え・身支度 服や靴の着替えに参加する">
+        <header class="stage-head">
+          <div><span class="breadcrumb">毎日のこと › 着替え・身支度</span><h4>服や靴の着替えに参加する</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/gen-frame-dressing-sleeve.png" alt="おてて、でてきた" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>gen-frame-dressing-sleeve.png</code></span></div>
+      <figcaption><b>おてて、でてきた</b><span>自分で着る・留める</span><code>gen-frame-dressing-sleeve.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>帽子や靴下を脱ぐ、または服を選ぶ</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440051</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article>
+      <article class="stage-card" data-status="thin" data-search="毎日のこと 着替え・身支度 からだを清潔にすることに参加する">
+        <header class="stage-head">
+          <div><span class="breadcrumb">毎日のこと › 着替え・身支度</span><h4>からだを清潔にすることに参加する</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-handwashing-independently.png" alt="自分で、あわあわ" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-handwashing-independently.png</code></span></div>
+      <figcaption><b>自分で、あわあわ</b><span>からだを清潔にすることに参加する</span><code>luke-frame-handwashing-independently.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>歯ブラシを持つ、口を開けるなど歯みがきに参加する</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">660e8400-e29b-41d4-a716-446655440013</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>トイレ</h3></div><b>1 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="enough" data-search="毎日のこと トイレ トイレの流れに参加する">
+        <header class="stage-head">
+          <div><span class="breadcrumb">毎日のこと › トイレ</span><h4>トイレの流れに参加する</h4></div>
+          <span class="count enough">2枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-potty-learning.png" alt="座るところまで、いっしょに" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-potty-learning.png</code></span></div>
+      <figcaption><b>座るところまで、いっしょに</b><span>トイレの流れに参加する</span><code>luke-frame-potty-learning.png</code></figcaption>
+    </figure>
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-toilet-independently.png" alt="自分で、トイレ" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-toilet-independently.png</code></span></div>
+      <figcaption><b>自分で、トイレ</b><span>トイレの流れに参加する</span><code>luke-frame-toilet-independently.png</code></figcaption>
+    </figure></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440052</code>
+
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>予定・切り替え</h3></div><b>1 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="thin" data-search="毎日のこと 予定・切り替え 合図や見通しで次へ移る">
+        <header class="stage-head">
+          <div><span class="breadcrumb">毎日のこと › 予定・切り替え</span><h4>合図や見通しで次へ移る</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/mimo-frame-freeze-notice.png" alt="止まる合図で、ぴたっ" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>mimo-frame-freeze-notice.png</code></span></div>
+      <figcaption><b>止まる合図で、ぴたっ</b><span>合図で止まる・切り替える</span><code>mimo-frame-freeze-notice.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>写真や絵の予定を見て、次の場所へ移る</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">550e8400-e29b-41d4-a716-446655440053</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section><section class="subdomain"><div class="sub-head"><div><span>SUB DOMAIN</span><h3>お手伝い・役割</h3></div><b>1 stages</b></div><div class="stage-grid">
+      <article class="stage-card" data-status="thin" data-search="毎日のこと お手伝い・役割 身近な役割に参加する">
+        <header class="stage-head">
+          <div><span class="breadcrumb">毎日のこと › お手伝い・役割</span><h4>身近な役割に参加する</h4></div>
+          <span class="count thin">1枚</span>
+        </header>
+        <div class="visuals">
+    <figure class="visual">
+      <div class="image-wrap"><img loading="lazy" src="../participatory-growth-frame-studies/luke-frame-pretend-cleaning.png" alt="いっしょに、おそうじ" onerror="this.closest('.image-wrap').classList.add('broken');this.remove()"><span class="broken-label">画像ファイル未検出<br><code>luke-frame-pretend-cleaning.png</code></span></div>
+      <figcaption><b>いっしょに、おそうじ</b><span>身近な役割を手伝う</span><code>luke-frame-pretend-cleaning.png</code></figcaption>
+    </figure>
+    <div class="visual candidate"><div class="candidate-art"><span>1</span><b>生成候補</b></div><p>食器や洗濯物を定位置へ運ぶ</p></div></div>
+        <footer class="stage-foot">
+          <code class="stage-id">660e8400-e29b-41d4-a716-446655440009</code>
+          <details><summary>データ上の注記</summary><ul><li>最低不足: 1場面</li></ul></details>
+          <label class="review-check"><input type="checkbox"> このstageの構成を確認した</label>
+        </footer>
+      </article></div></section></section><div class="empty" id="empty">条件に合うstageがありません。</div></main>
+<script>
+let active='all';const cards=[...document.querySelectorAll('.stage-card')],search=document.querySelector('#search'),empty=document.querySelector('#empty');function apply(){const q=search.value.trim().toLowerCase();let visible=0;cards.forEach(card=>{const okStatus=active==='all'||card.dataset.status===active;const okSearch=!q||card.dataset.search.includes(q);card.classList.toggle('hidden',!(okStatus&&okSearch));if(okStatus&&okSearch)visible++});document.querySelectorAll('.subdomain,.category').forEach(group=>{const has=[...group.querySelectorAll('.stage-card')].some(card=>!card.classList.contains('hidden'));group.classList.toggle('hidden',!has)});empty.style.display=visible?'none':'block'}document.querySelectorAll('[data-filter]').forEach(button=>button.onclick=()=>{active=button.dataset.filter;document.querySelectorAll('[data-filter]').forEach(b=>b.classList.toggle('active',b===button));apply()});search.oninput=apply;
+</script></body></html>
