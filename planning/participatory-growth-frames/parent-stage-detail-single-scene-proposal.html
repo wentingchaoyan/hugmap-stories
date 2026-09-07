@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>指さし・共同注意 — 1場面を深く見る</title>
+  <style>
+    :root{--ink:#291712;--orange:#ff511b;--yellow:#d7c862;--grey:#dcd5d2;--purple:#7d2741;--paper:#f4f1f0;--white:#fff;--muted:#8f8683}
+    *{box-sizing:border-box}body{margin:0;background:#e8e3e0;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif}.layout{display:grid;grid-template-columns:minmax(360px,430px) 290px;gap:28px;justify-content:center;align-items:start;padding:24px}.phone{position:relative;min-height:900px;background:var(--paper);border-radius:42px;overflow:hidden;box-shadow:0 20px 60px #29171225}.screen{padding-bottom:98px}.status{display:flex;justify-content:space-between;padding:27px 22px 16px;font-size:13px;font-weight:800}.top{display:grid;grid-template-columns:42px 1fr 42px;align-items:center;padding:0 14px 14px}.back,.sound{width:42px;height:42px;border:0;background:transparent;color:var(--ink);font-size:25px;cursor:pointer}.top-title{text-align:center}.top-title b{display:block;font-size:14px}.top-title span{font-size:10px;color:var(--muted)}
+    .intro{margin:0 16px 13px}.eyebrow{display:inline-flex;background:#f3e7eb;color:var(--purple);border-radius:99px;padding:6px 9px;font-size:9px;font-weight:900}.intro h1{font-size:25px;line-height:1.3;margin:10px 0 5px}.intro p{margin:0;color:#746a67;font-size:12px;line-height:1.7}.scene{margin:0 16px;background:#fff;border-radius:27px;overflow:hidden;border:1px solid #e5dedb}.scene-visual{position:relative;margin:0;background:var(--yellow)}.scene-visual img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover}.scene-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 62%,#291712a8)}.scene-caption{position:absolute;z-index:2;left:18px;right:18px;bottom:15px;color:#fff;font-family:"Hiragino Maru Gothic ProN","Yu Gothic",sans-serif;font-size:17px;font-weight:800;line-height:1.5}.scene-caption small{display:block;font:800 9px/1.4 -apple-system,BlinkMacSystemFont,"Hiragino Sans",sans-serif;letter-spacing:.08em;margin-bottom:4px}.lens-area{padding:17px 16px 16px}.lens-label{font-size:10px;color:var(--muted);font-weight:800;margin-bottom:10px}.lenses{display:grid;gap:8px}.lens-item{border:1px solid #e2dbd7;border-radius:17px;overflow:hidden;background:#fff;transition:.2s}.lens-item.open{border-color:#d8bdc6;background:#fbf6f7}.lens-head{display:grid;grid-template-columns:34px 1fr 22px;align-items:center;width:100%;border:0;background:transparent;color:var(--ink);padding:12px;text-align:left;cursor:pointer}.lens-icon{display:grid;place-items:center;width:29px;height:29px;border-radius:10px;background:var(--paper);font-size:15px}.lens-item.open .lens-icon{background:#eadce1;color:var(--purple)}.lens-title small{display:block;color:var(--muted);font-size:8px;font-weight:800;margin-bottom:2px}.lens-title b{font-family:"Hiragino Maru Gothic ProN","Yu Gothic",sans-serif;font-size:13px;line-height:1.45}.lens-chevron{color:var(--muted);font-size:15px;transform:rotate(0);transition:.2s}.lens-item.open .lens-chevron{color:var(--purple);transform:rotate(180deg)}.lens-copy{display:grid;grid-template-rows:0fr;transition:grid-template-rows .24s ease}.lens-copy>div{overflow:hidden}.lens-copy p{margin:0;padding:0 14px 14px 46px;color:#6c625f;font-size:11px;line-height:1.75}.lens-item.open .lens-copy{grid-template-rows:1fr}
+    .hint{margin:14px 16px 0;background:var(--yellow);border-radius:22px;padding:17px}.hint-head{display:flex;align-items:center;gap:9px;font-size:10px;font-weight:900}.hint-head img{width:35px;height:35px;object-fit:contain;background:#fff9;border-radius:12px}.hint h2{font-size:17px;margin:11px 0 5px}.hint p{font-size:11px;line-height:1.75;margin:0}.notice{margin:12px 16px 0;color:var(--muted);font-size:9px;line-height:1.65}.actions{margin:14px 16px 0}.primary{width:100%;border:0;background:var(--orange);color:#fff;border-radius:17px;padding:15px;font-weight:900;cursor:pointer}.secondary{width:100%;border:0;background:transparent;color:var(--purple);padding:13px;font-weight:800;cursor:pointer}.nav{position:absolute;bottom:0;left:0;right:0;height:78px;background:#fff;border-top:1px solid #ece6e3;display:grid;grid-template-columns:repeat(4,1fr)}.nav a{display:grid;place-content:center;gap:4px;text-align:center;text-decoration:none;color:var(--muted);font-size:10px;font-weight:700}.nav a span{font-size:20px}.nav .active{color:var(--orange)}
+    .notes{position:sticky;top:24px;background:#fff;border-radius:26px;padding:23px}.notes b{display:inline-block;background:#f4edf0;color:var(--purple);border-radius:99px;padding:5px 8px;font-size:9px}.notes h2{font-size:20px;line-height:1.45}.notes h3{font-size:13px;margin:19px 0 5px}.notes p{font-size:12px;line-height:1.7;color:#6e6562}.toast{position:fixed;left:50%;bottom:25px;transform:translate(-50%,20px);width:min(390px,calc(100% - 30px));background:var(--ink);color:#fff;padding:14px 16px;border-radius:16px;font-size:12px;opacity:0;pointer-events:none;transition:.25s;z-index:5}.toast.show{opacity:1;transform:translate(-50%,0)}
+    @media(max-width:760px){body{background:var(--paper)}.layout{display:block;padding:0}.phone{width:100%;min-height:100vh;border-radius:0;box-shadow:none}.notes{display:none}.status{padding-top:max(18px,env(safe-area-inset-top))}}
+  </style>
+</head>
+<body>
+<main class="layout">
+  <section class="phone" aria-label="1場面を深く見る詳細画面案">
+    <div class="screen">
+      <div class="status"><span>9:41</span><span>●●●</span></div>
+      <header class="top"><button class="back" onclick="history.back()" aria-label="戻る">‹</button><div class="top-title"><b>ミモと見る</b><span>ことば・やりとり</span></div><button class="sound" id="sound" aria-label="読み上げ">♬</button></header>
+
+      <section class="intro"><span class="eyebrow">ひとつの場面を、3つの見方で</span><h1>みつけたものを、いっしょに</h1><p>指さしの形だけでなく、その前後にある小さなやりとりを見てみます。</p></section>
+
+      <section class="scene">
+        <figure class="scene-visual"><img src="../participatory-growth-frame-studies/mimo-frame-shared-pointing.png" alt="子どもと大人が同じものを見ている場面"><figcaption class="scene-caption"><small>ONE SCENE</small>同じものを見た、その瞬間。</figcaption></figure>
+        <div class="lens-area">
+          <div class="lens-label">ひとつずつ、見方をひらいてみよう</div>
+          <div class="lenses" aria-label="場面を見る3つの視点">
+            <article class="lens-item open"><button class="lens-head" aria-expanded="true"><span class="lens-icon">◉</span><span class="lens-title"><small>見るポイント 1</small><b>子どもの視線は、どこへ向いている？</b></span><span class="lens-chevron">⌄</span></button><div class="lens-copy"><div><p>指の先だけでなく、見つけたものと大人の顔を行き来しているかを見ます。目が合わなくても、同じ方向を見ることがやりとりの始まりになります。</p></div></div></article>
+            <article class="lens-item"><button class="lens-head" aria-expanded="false"><span class="lens-icon">☝</span><span class="lens-title"><small>見るポイント 2</small><b>指や身体は、何を伝えようとしている？</b></span><span class="lens-chevron">⌄</span></button><div class="lens-copy"><div><p>指を伸ばす、手を差し出す、身体を近づける。きれいな指さしでなくても、興味や「ほしい」が身体に表れることがあります。</p></div></div></article>
+            <article class="lens-item"><button class="lens-head" aria-expanded="false"><span class="lens-icon">↔</span><span class="lens-title"><small>見るポイント 3</small><b>大人が返したあと、何が起きる？</b></span><span class="lens-chevron">⌄</span></button><div class="lens-copy"><div><p>「あったね」と短く返したあと、もう一度見る、少し笑う、別のものへ向かう。その小さな変化も、十分な返事です。</p></div></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="hint"><div class="hint-head"><img src="../style-studies/outputs/characters/cutouts/mimo-listening.png" alt="ミモ">ミモから、関わりのヒント</div><h2>見つけたものに、短く言葉を添える</h2><p>「あったね」「赤いね」とひとつ返して、次を少し待ちます。指さしを正しくさせるより、興味が届いた経験を大切に。</p></section>
+      <p class="notice">同じ姿がいつも見られる必要はありません。家庭で気づきやすい見方として、監修内容を短く編集しています。</p>
+      <div class="actions"><button class="primary" id="remember">こんな瞬間、あったかも</button><button class="secondary" onclick="location.href='parent-catalog-all.html#talk'">詳しい発達ガイドを読む</button></div>
+    </div>
+    <nav class="nav"><a class="active" href="parent-stage-exploration-home-proposal.html"><span>⌂</span>ホーム</a><a href="parent-story-proposal.html"><span>▣</span>きろく</a><a href="parent-buddies-proposal.html"><span>●</span>なかま</a><a href="parent-child-profile-proposal.html"><span>☺</span>この子</a></nav>
+  </section>
+  <aside class="notes"><b>SINGLE SCENE PROTOTYPE</b><h2>絵を増やさず、<br>見方を増やす</h2><h3>画像は一度だけ</h3><p>同じ絵を3コマへ複製せず、大きな正方形で場面の空気を見せます。</p><h3>3つのレンズ</h3><p>development_itemを達成順に並べず、視線・身体・相手の反応という観察軸へ編集します。</p><h3>行動は軽く</h3><p>記録を必須にせず、「あったかも」で思い出の入口へつなぎます。</p></aside>
+</main>
+<div class="toast" id="toast">「これまでの物語」に、あとで振り返る候補として残しました</div>
+<script>
+  const lensItems=[...document.querySelectorAll('.lens-item')];
+  lensItems.forEach(item=>item.querySelector('.lens-head').addEventListener('click',()=>{lensItems.forEach(other=>{const open=other===item;other.classList.toggle('open',open);other.querySelector('.lens-head').setAttribute('aria-expanded',open)});}));
+  const toast=document.getElementById('toast');document.getElementById('remember').addEventListener('click',()=>{toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),1800)});document.getElementById('sound').addEventListener('click',e=>{e.currentTarget.textContent=e.currentTarget.textContent==='♬'?'Ⅱ':'♬'});
+</script>
+</body>
+</html>
