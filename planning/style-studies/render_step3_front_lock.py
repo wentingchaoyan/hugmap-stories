@@ -27,13 +27,19 @@ def ink_layer(image: Image.Image, box: tuple[int, int, int, int], target_height:
             pixels[x, y] = (18, 18, 18, alpha)
     if target_height is None:
         size = (round(crop.width * SCALE), round(crop.height * SCALE))
-        return crop.resize(size, Image.Resampling.LANCZOS)
+        resized = crop.resize(size, Image.Resampling.LANCZOS)
+        alpha = resized.getchannel("A").point(lambda value: 0 if value < 10 else min(255, round(value * 1.12)))
+        resized.putalpha(alpha)
+        return resized
 
     alpha_box = crop.getchannel("A").getbbox()
     if alpha_box:
         crop = crop.crop(alpha_box)
     target_width = round(crop.width * target_height / crop.height)
-    return crop.resize((target_width, target_height), Image.Resampling.LANCZOS)
+    resized = crop.resize((target_width, target_height), Image.Resampling.LANCZOS)
+    alpha = resized.getchannel("A").point(lambda value: 0 if value < 10 else min(255, round(value * 1.12)))
+    resized.putalpha(alpha)
+    return resized
 
 
 def v_dimension(draw: ImageDraw.ImageDraw, x: int, top: int, bottom: int) -> None:
