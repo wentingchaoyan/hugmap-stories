@@ -4,6 +4,8 @@
 
 制作順、採否、推奨案、現在地は [`output-process.html`](output-process.html) で一覧できる。画像ファイル先頭の番号は、各フォルダー内での検討順を表す。
 
+子どもを主役とする参加型成長フレームの線、色、小物、フラット度、背景の運用は、[`../participatory-growth-scene-illustration-guidelines.md`](../participatory-growth-scene-illustration-guidelines.md)を参照する。
+
 ```text
 style-studies/
 ├─ references/  外部作品の観察点と、表情設計の参照資料
