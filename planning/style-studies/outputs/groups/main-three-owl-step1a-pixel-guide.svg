@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+  <style>
+    .title{font:700 40px Arial,sans-serif;fill:#291712;letter-spacing:1px}
+    .name{font:700 27px Arial,sans-serif;fill:#291712}
+    .spec{font:17px Arial,sans-serif;fill:#291712}
+    .small{font:15px Arial,sans-serif;fill:#291712}
+    .dim{fill:none;stroke:#7D2741;stroke-width:2}
+    .face{fill:none;stroke:#FF511B;stroke-width:2}
+    .guide{fill:none;stroke:#8D8380;stroke-width:1.5;stroke-dasharray:8 8;opacity:.75}
+    .plate{fill:#fffdfa;fill-opacity:.94;stroke:#DCD5D2;stroke-width:1}
+  </style>
+  <image href="main-three-owl-step1a-scale-check-v4-luke-brows.png" width="1536" height="1024"/>
+  <rect x="280" y="34" width="976" height="104" rx="8" class="plate"/>
+  <text x="768" y="86" text-anchor="middle" class="title">STEP 2 — PIXEL MEASUREMENT</text>
+  <text x="768" y="117" text-anchor="middle" class="spec">1536×1024 master canvas · front geometry locked 1:1 · no accessories</text>
+
+  <line x1="60" y1="844" x2="1476" y2="844" class="guide"/>
+
+  <g aria-label="Mimo dimensions">
+    <rect x="78" y="282" width="326" height="108" rx="8" class="plate"/>
+    <text x="96" y="313" class="name">MIMO</text>
+    <text x="96" y="341" class="spec">FULL 340 · HEAD 122×133</text>
+    <text x="96" y="367" class="small">EYE 10×20 · CENTERS 55 · BEAK 25×24</text>
+    <line x1="118" y1="504" x2="118" y2="844" class="dim"/><path d="M111 512l7-8 7 8M111 836l7 8 7-8" class="dim"/>
+    <line x1="176" y1="480" x2="298" y2="480" class="dim"/><path d="M184 473l-8 7 8 7M290 473l8 7-8 7" class="dim"/>
+  </g>
+
+  <g aria-label="Gen dimensions">
+    <rect x="437" y="282" width="330" height="108" rx="8" class="plate"/>
+    <text x="455" y="313" class="name">GEN</text>
+    <text x="455" y="341" class="spec">FULL 488 · HEAD 180×160</text>
+    <text x="455" y="367" class="small">EYE 15×27 · CENTERS 69 · NOSE 13×9</text>
+    <line x1="438" y1="356" x2="438" y2="844" class="dim"/><path d="M431 364l7-8 7 8M431 836l7 8 7-8" class="dim"/>
+    <line x1="498" y1="401" x2="678" y2="401" class="dim"/><path d="M506 394l-8 7 8 7M670 394l8 7-8 7" class="dim"/>
+  </g>
+
+  <g aria-label="Luke dimensions">
+    <rect x="790" y="282" width="356" height="108" rx="8" class="plate"/>
+    <text x="808" y="313" class="name">LUKE</text>
+    <text x="808" y="341" class="spec">FULL 440 · HEAD 142×184 · TORSO W 219</text>
+    <text x="808" y="367" class="small">EYE 16×18 · CENTERS 69 · NOSE 30×20 · MOUTH 50×30</text>
+    <line x1="772" y1="404" x2="772" y2="844" class="dim"/><path d="M765 412l7-8 7 8M765 836l7 8 7-8" class="dim"/>
+    <line x1="854" y1="400" x2="996" y2="400" class="dim"/><path d="M862 393l-8 7 8 7M988 393l8 7-8 7" class="dim"/>
+  </g>
+
+  <g aria-label="Owl dimensions">
+    <rect x="1153" y="282" width="322" height="108" rx="8" class="plate"/>
+    <text x="1171" y="313" class="name">OWL</text>
+    <text x="1171" y="341" class="spec">FULL 397 · BODY W 218 · FACE 173×185</text>
+    <text x="1171" y="367" class="small">EYE 24×42 · CENTERS 70 · BEAK 25×29</text>
+    <line x1="1150" y1="447" x2="1150" y2="844" class="dim"/><path d="M1143 455l7-8 7 8M1143 836l7 8 7-8" class="dim"/>
+    <line x1="1192" y1="446" x2="1410" y2="446" class="dim"/><path d="M1200 439l-8 7 8 7M1402 439l8 7-8 7" class="dim"/>
+  </g>
+
+  <rect x="329" y="902" width="878" height="78" rx="9" class="plate"/>
+  <text x="768" y="932" text-anchor="middle" class="spec">LOCK ORDER: full height → head box → torso width → eye centers → eye size → nose/beak → mouth</text>
+  <text x="768" y="959" text-anchor="middle" class="small">Pose sheets may rotate or overlap parts, but must not redraw or independently rescale the head, eyes, nose, mouth, torso, or tail.</text>
+</svg>
