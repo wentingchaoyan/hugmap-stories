@@ -24,7 +24,7 @@ Luke（リス）の固定造形を守りながら、既存40シーンに不足�
 | 3 | 既存ポーズを残したポーズシート | 既存5ポーズ更新済み／補充12ポーズ初稿作成・要確認 |
 | 4 | 場面に必要な表情シート | 8表情の初稿作成・要確認 |
 | 5 | 代表6シーンで試験適用 | 完了（代表6＋追加2、計8シーン反映済み） |
-| 6 | 40シーンをバッチ更新 | 5枚単位で進行中（第4小範囲まで計20枚、試験適用を含め計23枚反映済み／残り17枚） |
+| 6 | 40シーンをバッチ更新 | 5枚単位で進行中（第5小範囲まで計25枚、試験適用を含め計28枚反映済み／残り12枚） |
 
 ## STEP 1｜三者比較とLuke現状監査（完了）
 
@@ -414,6 +414,24 @@ planning配下の思想は、次の5点へ整理して場面判断へ適用し�
 - 今回の5枚は、右胸面が腕、スカーフ、机上動作で隠れるため公式Uを省略した。試験合成で腕上に見える配置は採用せず、腕・袖・左胸・腹へ移動していない。
 - 背景はWarm White、淡い自然木のローテーブル、子ども用椅子、必要時の低い足台、淡い接地面へ統一した。木目は弱くフラットに保ち、添付の姿勢資料から画風・色・説明記号を移していない。5枚とも1254×1254・8-bit sRGB、子どもの中心線色`#FA997B`、Luke外周`#A99691`を原寸と縮小一覧で確認した。
 
+### 2026-09-16 第5小範囲（5枚）の見直し
+
+床座位、低いしゃがみ、立位を混ぜ、Lukeを毎回右側で見守らせる反復を避けた。認知課題では答えを示さず一緒に比べる役割、因果課題では結果を待つ役割、生活課題では次の行為を支える役割を割り当てた。
+
+| 場面 | Lukeの高さ・重心 | 角度・視線 | 関係の動詞 |
+| --- | --- | --- | --- |
+| `counting-numerals` | 子どもと同じ床面へ低く座る | 斜め見下ろし、数字ブロックの並びを子どもと追う | 一緒に数え、子どもの指先の先を共有する |
+| `find-pair` | 画面左で低く座り、子どもとカードを挟む | 斜め前、子どもの持つカードと候補を往復して見る | 正解を指ささず、一緒に見比べる |
+| `release-drop` | 装置の出口側で深くしゃがむ | 真横、子どもの手元から出口へ視線を移す | 入れた物が出る結果を先回りせず待つ |
+| `handwashing-independently` | 子どもの後方に立ち、タオルを低く持つ | 子どもと同じ方向、洗う両手を見る | 洗う動作を代行せず、次の拭く動作を支える |
+| `hand-to-hand-transfer` | 子どもと並んで床へ座り、別の物を持つ | 斜め前、互いの手元が見える向き | 子どもの物へ触れず、同じ移し替えを並行して行う |
+
+- 子どもの輪郭は5枚とも中心色`#FA997B`へ統一し、完成画像上で約4pxとなるよう線幅を補正した。Lukeの外周は暖かいトープ`#A99691`を基準に約3pxとし、人物より軽い見え方を維持した。
+- Lukeは固定造形の縦長頭部、眼鏡、短い丸胴、太く短い手足、小さな内巻きの尻尾を維持した。場面ごとに座位、しゃがみ、立位を変え、道具や結果へ身体軸をつないだ。
+- 5枚ともLuke自身の右胸面が、腕、スカーフ、持ち物、タオル、または角度で隠れるため公式Uを省略した。腕や反対側の胸面へ位置を逃がしていない。
+- 背景はWarm Whiteを基調とし、数字ブロック、カード、落下装置、手洗い設備、操作物だけを残した。設備と道具は人物より低彩度・低コントラストに抑えた。
+- 5枚とも1254×1254・8-bit sRGBを維持し、原寸、160px、80pxで子どもの行為が最初に読め、Lukeの役割と各場面の差が残ることを確認した。
+
 ## STEP 6｜40シーン展開 TODO
 
 ### 5枚単位の見直しルール
@@ -443,7 +461,8 @@ planning配下の思想は、次の5点へ整理して場面判断へ適用し�
 - [x] color-sort / jigsaw-last-piece
 - [x] shared-build
 - [x] shape-sorter
-- [ ] counting-numerals / find-pair / size-quantity-compare / spatial-position
+- [x] counting-numerals / find-pair
+- [ ] size-quantity-compare / spatial-position
 - [ ] 集中、考える、発見、小さな成功を割り当てる。
 
 ### バッチC｜因果・物の操作
@@ -451,7 +470,8 @@ planning配下の思想は、次の5点へ整理して場面判断へ適用し�
 - [x] water-pour
 - [x] ramp-roll
 - [x] button-sound
-- [ ] put-in-look / release-drop / shake-sound / spiral-turning-toy / toy-car-road
+- [x] release-drop
+- [ ] put-in-look / shake-sound / spiral-turning-toy / toy-car-road
 - [ ] しっぽをカウンターウェイトに使い、動作方向を真横で明確にする。
 
 ### バッチD｜生活・自立・ごっこ
@@ -459,7 +479,8 @@ planning配下の思想は、次の5点へ整理して場面判断へ適用し�
 - [x] clean-up
 - [x] drinking-independently
 - [x] pretend-cleaning
-- [ ] eating-independently / handwashing-independently / potty-learning / toilet-independently / arrange-pretend-train
+- [x] handwashing-independently
+- [ ] eating-independently / potty-learning / toilet-independently / arrange-pretend-train
 - [ ] Lukeが代行者に見えないよう、子どもの後または横で同じ方向へ参加する。
 
 ### バッチE｜基礎操作・感覚
@@ -467,7 +488,8 @@ planning配下の思想は、次の5点へ整理して場面判断へ適用し�
 - [x] lift-large-ball / page-turn
 - [x] sand-texture
 - [x] reach-for-toy
-- [ ] hand-to-hand-transfer / paper-collage / shared-line
+- [x] hand-to-hand-transfer / paper-collage
+- [ ] shared-line
 - [ ] 床へ座る、低く観察する、対象へ寄りかかるなど高さを変える。
 
 ## 全シーン共通チェックリスト
@@ -485,7 +507,7 @@ planning配下の思想は、次の5点へ整理して場面判断へ適用し�
 
 ## 次の作業
 
-1. 第5小範囲は、カテゴリを横断して `counting-numerals / release-drop / handwashing-independently / paper-collage / hand-to-hand-transfer` を候補とする。
-2. 着手前に5枚の高さ・角度・反応動詞を表へ割り当て、見直し済み23枚との重複を確認する。
+1. 第6小範囲は、カテゴリを横断して `size-quantity-compare / put-in-look / eating-independently / shared-line / spiral-turning-toy` を候補とする。
+2. 着手前に5枚の高さ・角度・反応動詞を表へ割り当て、見直し済み28枚との重複を確認する。
 3. 各5枚を原寸・160px・80pxで確認し、合格後に次の小範囲へ進む。
 4. STEP 2の小物未決定事項は、場面更新と分離して確定する。
