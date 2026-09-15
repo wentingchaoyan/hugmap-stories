@@ -24,7 +24,7 @@ Luke（リス）の固定造形を守りながら、既存39シーンに不足�
 | 3 | 既存ポーズを残したポーズシート | 既存5ポーズ更新済み／補充12ポーズ初稿作成・要確認 |
 | 4 | 場面に必要な表情シート | 8表情の初稿作成・要確認 |
 | 5 | 代表6シーンで試験適用 | 完了（代表6＋追加2、計8シーン反映済み） |
-| 6 | 39シーンをバッチ更新 | 5枚単位で進行中（第2小範囲まで計10枚、試験適用を含め計13枚反映済み） |
+| 6 | 39シーンをバッチ更新 | 5枚単位で進行中（第3小範囲まで計15枚、試験適用を含め計18枚反映済み） |
 
 ## STEP 1｜三者比較とLuke現状監査（完了）
 
@@ -372,6 +372,28 @@ planning配下の思想は、次の5点へ整理して場面判断へ適用し�
 - 公式Uは`drinking-independently`だけ、Luke自身の右胸（画面左側）の上着パネルに高さ18pxで合成した。ほか4枚は右胸が腕、姿勢、角度で十分見えないため省略し、腕や袖へ逃がしていない。
 - 5枚とも1254×1254・8-bit sRGBを維持し、原寸と80pxで「子ども→共有物→Luke」の順に読めることを確認した。
 
+### 2026-09-15 第3小範囲（5枚）の見直し
+
+旧場面で続いていた正面立位・胸前で両手を組む姿勢を外し、Lukeの身体軸と床への接点を5枚すべてで変えた。課題の答えを示すのではなく、子どもの行為によってLukeの次の反応が決まる構図を優先した。
+
+| 場面 | Lukeの高さ・重心 | 角度・視線 | 関係の動詞 |
+| --- | --- | --- | --- |
+| `clothespin` | 二足で立ち、膝を緩めた小さな前傾 | 斜め横、服についた洗濯ばさみと指先を見る | 近づきすぎず、子どもが自分で外すのを待つ |
+| `shape-sorter` | 片手支持の非対称横座り | 斜め前、形と穴を見比べる | 正解を指ささず試行を見守る |
+| `button-sound` | 二足立位、膝を緩めて片手を耳へ添える | 斜め前、耳と顔を音源へ向ける | 擬人化した身体で音の結果へ反応する |
+| `pretend-cleaning` | 二足立ち、両手を頬の横へ上げて身体を画面左へ軽く振る | 斜め前、保護者と子どもの手元へ視線を向ける | 代行せず、できたことを喜んで応援する |
+| `reach-for-toy` | 両足を開いた低いしゃがみ、両手を膝の間へ下ろす | 斜め前、子どもの手と玩具を見下ろす | 玩具へ触れず、低い位置で到達を待つ |
+
+- 子どもの線は人物色だけを選別して中心色`#FA997B`へ統一し、既存の主線約4pxから逸脱して見えないことを原寸と縮小一覧で確認した。Lukeの外周線も既存の暖かいトープ系へ寄せ、目・鼻・口だけは濃色を維持した。
+- `clothespin`は物干し紐をなくし、複数の洗濯ばさみを子どもの服へ直接つけ、両手で一つを外そうとする課題へ戻した。Lukeは造形正本の頭身を参照した二足姿勢とし、手伝わず見守る距離を取った。
+- 追加確認で`clothespin`と`button-sound`の子どもの服に残っていたベージュ系の内側陰影を除去し、顔・服・手足を背景と同じWarm Whiteのフラット面へ統一した。両場面のLukeも、細長い胴を短い丸胴へ、長く見える脚を短い太脚へ改め、耳を含む頭部と胴体＋脚の高さがほぼ同じになる造形正本の比率へ合わせた。
+- `shape-sorter`は子どもの頭から髪、頬までの外周を途切れない滑らかな閉曲線で再構成し、顔内をWarm Whiteへ戻した。
+- `button-sound`と`pretend-cleaning`は四つ足を廃止した。前者は二足で耳へ手を添え、後者は添付ポーズを参照して両手を頬の横へ上げたまま、頭・肩・胴・足を画面左へ軽く振った。瞳も保護者と子どもの手元へ向け、擬人化したLukeの人間的な重心と場面への共同注視を保った。添付にあった放射線は移さず、表情と手の位置だけで喜びを表した。
+- `reach-for-toy`は添付ポーズを参照し、両足を開いた低いしゃがみと膝の間へ下ろした両手へ変更した。頭と瞳を子どもの手と玩具へ向け、玩具に触れず進路を空ける関係を維持した。添付画像の葉と生成Uは移していない。
+- 背景は服についた洗濯ばさみ、型はめ板、音ボタン箱、掃除道具、転がる玩具だけに限定し、紙目、ハッチ、室内装飾を追加していない。
+- 公式Uは`clothespin`、`shape-sorter`、`button-sound`で、Luke自身の右胸（画面左側）の見える胸面に高さ18pxで合成した。`pretend-cleaning`は両手とスカーフ、`reach-for-toy`は前へ下ろした両腕とスカーフで右胸面が隠れるため省略し、腕・袖・スカーフ・ポケット・腹へ逃がしていない。
+- 5枚とも1254×1254・8-bit sRGBを維持し、原寸と80pxで主役と行為が読めることを確認した。
+
 ## STEP 6｜39シーン展開 TODO
 
 ### 5枚単位の見直しルール
@@ -387,35 +409,40 @@ planning配下の思想は、次の5点へ整理して場面判断へ適用し�
 
 - [x] paper-fold
 - [x] bead-threading
-- [ ] clothespin / one-snip / sticker-paste / paper-tear / coloring / clay-press
+- [x] clothespin
+- [ ] one-snip / sticker-paste / paper-tear / coloring / clay-press
 - [ ] 同じ座位を続けず、真横、見下ろし、前傾、片手支持を割り当てる。
 
 ### バッチB｜分類・構成・認知
 
 - [x] color-sort / jigsaw-last-piece
 - [x] shared-build
-- [ ] counting-numerals / find-pair / shape-sorter / size-quantity-compare / spatial-position
+- [x] shape-sorter
+- [ ] counting-numerals / find-pair / size-quantity-compare / spatial-position
 - [ ] 集中、考える、発見、小さな成功を割り当てる。
 
 ### バッチC｜因果・物の操作
 
 - [x] water-pour
 - [x] ramp-roll
-- [ ] button-sound / put-in-look / release-drop / shake-sound / spiral-turning-toy / toy-car-road
+- [x] button-sound
+- [ ] put-in-look / release-drop / shake-sound / spiral-turning-toy / toy-car-road
 - [ ] しっぽをカウンターウェイトに使い、動作方向を真横で明確にする。
 
 ### バッチD｜生活・自立・ごっこ
 
 - [x] clean-up
 - [x] drinking-independently
-- [ ] eating-independently / handwashing-independently / potty-learning / toilet-independently / pretend-cleaning / arrange-pretend-train
+- [x] pretend-cleaning
+- [ ] eating-independently / handwashing-independently / potty-learning / toilet-independently / arrange-pretend-train
 - [ ] Lukeが代行者に見えないよう、子どもの後または横で同じ方向へ参加する。
 
 ### バッチE｜基礎操作・感覚
 
 - [x] lift-large-ball / page-turn
 - [x] sand-texture
-- [ ] hand-to-hand-transfer / reach-for-toy / paper-collage / shared-line
+- [x] reach-for-toy
+- [ ] hand-to-hand-transfer / paper-collage / shared-line
 - [ ] 床へ座る、低く観察する、対象へ寄りかかるなど高さを変える。
 
 ## 全シーン共通チェックリスト
@@ -433,7 +460,7 @@ planning配下の思想は、次の5点へ整理して場面判断へ適用し�
 
 ## 次の作業
 
-1. 第3小範囲は、カテゴリと身体の高さを分散するため `clothespin / shape-sorter / button-sound / pretend-cleaning / reach-for-toy` を候補とする。
-2. 着手前に5枚の高さ・角度・反応動詞を表へ割り当て、既存13枚との重複を確認する。
+1. 第4小範囲は、カテゴリと身体の高さを分散するため `one-snip / counting-numerals / release-drop / handwashing-independently / paper-collage` を候補とする。
+2. 着手前に5枚の高さ・角度・反応動詞を表へ割り当て、既存18枚との重複を確認する。
 3. 各5枚を原寸・160px・80pxで確認し、合格後に次の小範囲へ進む。
 4. STEP 2の小物未決定事項は、場面更新と分離して確定する。
