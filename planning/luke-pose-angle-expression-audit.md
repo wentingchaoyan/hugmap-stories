@@ -23,8 +23,8 @@ Luke（リス）の固定造形を守りながら、既存39シーンに不足�
 | 2 | 変更しない造形・小物の最終固定 | 要確認 |
 | 3 | 既存ポーズを残したポーズシート | 既存5ポーズ更新済み／補充12ポーズ初稿作成・要確認 |
 | 4 | 場面に必要な表情シート | 8表情の初稿作成・要確認 |
-| 5 | 代表6シーンで試験適用 | 未着手 |
-| 6 | 39シーンをバッチ更新 | 未着手 |
+| 5 | 代表6シーンで試験適用 | 完了（代表6＋追加2、計8シーン反映済み） |
+| 6 | 39シーンをバッチ更新 | 5枚単位で進行中（第1小範囲5枚反映済み） |
 
 ## STEP 1｜三者比較とLuke現状監査（完了）
 
@@ -224,7 +224,7 @@ LukeはGenの運動量やMimoの軽快さをそのまま借りない。ぽっち
 - [ ] 黄色 `#D7C862` のベスト前ポケット＋背面調整ベルトを固定小物として採用するか決める。
 - [ ] 帽子は固定小物にせず、屋外など場面限定の道具にするか決める。
 - [ ] 背面調整ベルトがしっぽの付け根と干渉しない位置・幅を三方向図で確定する。
-- [ ] 公式Uはベストではなく、見える胸面の右上へ置く最終ルールを確認する。
+- [x] 公式Uは見える右胸の服面へ置き、腕・スカーフで隠れる場合は表示しない。
 
 ## STEP 3｜白黒ポーズシート TODO
 
@@ -303,44 +303,96 @@ LukeはGenの運動量やMimoの軽快さをそのまま借りない。ぽっち
 
 初稿の並びは、左上から「通常・集中・発見・考える」、左下から「小さな成功・大喜び・困惑／やり直し・安心／見守り」。小さな成功と安心は近いため、実際の場面へ割り当てる段階で統合可否を判断する。
 
-## STEP 5｜代表6シーンでの試験適用 TODO
+## STEP 5｜代表6シーンでの試験適用（進行中）
 
 同じ「右側で見守る」を別の反応へ置き換えやすく、活動の種類も異なる6枚を先行する。
 
-- [ ] `luke-frame-tiny-discovery.png`: 発見＋低い観察
-- [ ] `luke-frame-jigsaw-last-piece.png`: 集中→小さな成功
-- [ ] `luke-frame-water-pour.png`: 真横＋慎重な前傾
-- [ ] `luke-frame-color-sort.png`: 座って一緒に見比べる
-- [ ] `luke-frame-paper-fold.png`: 斜め後ろ＋共同注視
-- [ ] `luke-frame-clean-up.png`: 身体方向と顔方向をずらした参加
+- [x] `luke-frame-tiny-discovery.png`: 発見＋共有する虫眼鏡。大きな子どもの手元へLukeが道具を差し出す立位に変更
+- [x] `luke-frame-jigsaw-last-piece.png`: 子どもの最後の一手を、顎へ手を添えた低い待機姿勢で見る
+- [x] `luke-frame-water-pour.png`: 真横の水流を、片手支持の半膝姿勢で慎重に追う
+- [x] `luke-frame-color-sort.png`: 座って一緒に見比べる
+- [x] `luke-frame-paper-fold.png`: 脚を前へ出した非対称座位＋共同注視
+- [x] `luke-frame-clean-up.png`: 積み木を運ぶ一歩で、身体方向と顔方向をずらした参加
 
-各試験画像は、まずLukeだけを白黒で差し替える。造形とポーズが合格した後に、子ども・保護者・背景の線階層、ポケット色、公式Uを戻す。
+追加試験:
+
+- [x] `luke-frame-page-turn.png`: 子どもと同じ床の高さで、共有する本へ身体と視線を向ける
+- [x] `luke-frame-lift-large-ball.png`: 子どもの持ち上げを、触れずに半拍遅れて小さくまねる
+
+### 2026-09-15 試験適用の仕上げ記録
+
+- 旧3場面にあった灰色の人物全面シルエットを廃止し、子どもを白抜き＋完成色`#FA997B`の主外周へ変更した。
+- 生成初稿の子ども線は中心色が`#FE8D6D`～`#FE9274`付近、主線が約5～7pxで、ガイドの色・4px基準を満たさなかった。そのまま採用せず、子ども線だけを色域マスク化し、中心色`#FA997B`、主線約4pxへ後処理した。
+- Lukeの外形・衣服・尻尾は、造形正本の濃い検査線を直接使わず、完成ラスターで`#A99691`付近の淡いウォームグレー寄りブラウンへ弱めた。目・鼻・口・メガネだけは読み取り用の濃さを残した。
+- 背景はWarm White主体のA密度とし、旧場面の紙目、灰色面、鉛筆ハッチ、広い接地影を削除した。元画像にない家具、植物、装飾は追加していない。
+- 公式Uは全画像で生成任せにしない。右胸の服面が十分見える`tiny-discovery`、`color-sort`、`water-pour`、`clean-up`は公式SVG由来のOrange Uを後工程で合成した。`page-turn`、`paper-fold`、`lift-large-ball`、`jigsaw-last-piece`は右胸が腕またはスカーフで隠れるため表示しない。胸中央・左胸・腹・袖・腕へ逃がさない。
+- 3枚とも1254×1254・8-bit sRGBを維持し、160pxと80pxで「子ども→共有物→Luke」の順に読めることを確認した。
+
+各試験画像は、まずLukeの造形とポーズを単独で判定する。合格後に、同じ構図のまま子ども・保護者・背景の線階層とフラット度を更新し、胸面が見える場合だけ公式Uを戻す。上記8枚は両段階まで反映済みとする。
+
+### 2026-09-15 第1小範囲（5枚）の見直し
+
+planning配下の思想は、次の5点へ整理して場面判断へ適用した。
+
+1. `visual-style-decision.md`: 子どもの反応がLukeの次の動きを決め、顔より姿勢・距離・尻尾で性格を見せる。
+2. `character-design-thinking-order.md`: 造形を増やすのではなく、同じ識別記号を異なる重心と関係へ置く。
+3. `world-and-character-guide.md`: Lukeは答えを渡す先生ではなく、観察し、まず試し、反応を受けて選び直す伴走者である。
+4. `participatory-growth-frame-reference.md`: 成功だけでなく、見る、待つ、試し直す、一部分だけ参加する方法も残す。
+5. `participatory-growth-scene-illustration-guidelines.md`: 視線順は子ども→共有物→Luke→環境とし、線・色・背景は主役性を支える階層として使う。
+
+| 場面 | Lukeの高さ・重心 | 角度・視線 | 関係の動詞 |
+| --- | --- | --- | --- |
+| `jigsaw-last-piece` | 低い床座位、顎へ片手 | 斜め前、ピースへ集中 | 答えを示さず次の試みを待つ |
+| `water-pour` | 半膝、片手を床へ置く | 真横寄り、水流を追う | 手を出さず変化を観察する |
+| `paper-fold` | 脚を前へ出す非対称座位 | 斜め前、折り目へ共同注視 | 見本を出さず一緒に考える |
+| `clean-up` | 積み木を抱えて一歩進む | 斜め横、身体と顔をずらす | 指示せず同じ方向へ参加する |
+| `lift-large-ball` | 膝を曲げた半しゃがみ | 真横寄り、子どもの手を見る | 触れずに動きを小さくまねる |
+
+- 子どもの線は5枚とも生成初稿の約5px相当を約4pxへ調整し、中心色を`#FA997B`へ固定した。
+- Lukeの外形は`#A99691`付近の淡いウォームグレーブラウン、スカーフは`#D7C862`を維持した。
+- 紙目・クロスハッチ・濃い接地影を使わず、必要物だけを低彩度のフラット面で残した。
+- 公式SVG由来のUは、腕やスカーフへ重ならない右胸の服面が確保できる4枚だけへ合成した。`color-sort`と`water-pour`は高さ15px、`clean-up`は18px、`tiny-discovery`は既存の22pxを維持した。右胸面を確保できない4枚は、誤って腕へ置かないようUを除去した。
+- 1254×1254・8-bit sRGBと、80pxでの動作・主役性を確認した。
 
 ## STEP 6｜39シーン展開 TODO
 
+### 5枚単位の見直しルール
+
+- 一度に更新するのは5枚までとし、原寸と80px一覧を確認してから次へ進む。
+- 5枚の中に、床座位・低い姿勢・立位または移動姿勢を最低1枚ずつ含める。
+- 正面だけで揃えず、真横・斜め前・斜め後ろのうち最低2方向を含める。
+- Lukeの役割を、待つ／観察する／比べる／まねる／一緒に運ぶ、のように分散し、同じ反応動詞を2枚より多く重ねない。
+- 各ポーズで、床からの高さ・身体軸・向き・手の役割・視線・しっぽの最低2項目を変える。
+- Uは画像生成に描かせず、完成後に公式部品を画面から見て右胸へ合成する。右胸面が見えない場合だけ非表示理由を記録する。
+
 ### バッチA｜手指・道具操作
 
-- [ ] bead-threading / clothespin / one-snip / sticker-paste / paper-tear / paper-fold / coloring / clay-press
+- [x] paper-fold
+- [ ] bead-threading / clothespin / one-snip / sticker-paste / paper-tear / coloring / clay-press
 - [ ] 同じ座位を続けず、真横、見下ろし、前傾、片手支持を割り当てる。
 
 ### バッチB｜分類・構成・認知
 
-- [ ] color-sort / counting-numerals / find-pair / jigsaw-last-piece / shape-sorter / size-quantity-compare / spatial-position / shared-build
+- [x] color-sort / jigsaw-last-piece
+- [ ] counting-numerals / find-pair / shape-sorter / size-quantity-compare / spatial-position / shared-build
 - [ ] 集中、考える、発見、小さな成功を割り当てる。
 
 ### バッチC｜因果・物の操作
 
-- [ ] button-sound / put-in-look / ramp-roll / release-drop / shake-sound / spiral-turning-toy / toy-car-road / water-pour
+- [x] water-pour
+- [ ] button-sound / put-in-look / ramp-roll / release-drop / shake-sound / spiral-turning-toy / toy-car-road
 - [ ] しっぽをカウンターウェイトに使い、動作方向を真横で明確にする。
 
 ### バッチD｜生活・自立・ごっこ
 
-- [ ] drinking / eating / handwashing / potty-learning / toilet-independently / pretend-cleaning / arrange-pretend-train / clean-up
+- [x] clean-up
+- [ ] drinking / eating / handwashing / potty-learning / toilet-independently / pretend-cleaning / arrange-pretend-train
 - [ ] Lukeが代行者に見えないよう、子どもの後または横で同じ方向へ参加する。
 
 ### バッチE｜基礎操作・感覚
 
-- [ ] hand-to-hand-transfer / lift-large-ball / page-turn / reach-for-toy / sand-texture / paper-collage / shared-line
+- [x] lift-large-ball / page-turn
+- [ ] hand-to-hand-transfer / reach-for-toy / sand-texture / paper-collage / shared-line
 - [ ] 床へ座る、低く観察する、対象へ寄りかかるなど高さを変える。
 
 ## 全シーン共通チェックリスト
@@ -358,10 +410,7 @@ LukeはGenの運動量やMimoの軽快さをそのまま借りない。ぽっち
 
 ## 次の作業
 
-1. STEP 2の小物を確定する。
-2. 既存39シーンを、今回のポーズ総覧の分類でタグ付けし、同じ直立見守りの重複数を数える。
-3. 「Lukeで最初に固定する12ポーズ」を、同一縮尺・同一造形・白黒で制作する。
-4. 12ポーズを正面／斜め前／横／斜め後ろ／後ろの配分表と照合する。
-5. 8表情を12ポーズへ重ねず、顔だけの比較シートとして確定する。
-6. 代表6シーンへ白黒Lukeを試験適用する。
-7. 造形と演技が合格してから、公式U、小物、色、人物、背景を戻す。
+1. 次の5枚は、手先場面だけへ偏らないよう `bead-threading / ramp-roll / drinking-independently / sand-texture / shared-build` を候補とする。
+2. 着手前に5枚の高さ・角度・反応動詞を表へ割り当て、既存8枚との重複を確認する。
+3. 各5枚を原寸・160px・80pxで確認し、合格後に次の小範囲へ進む。
+4. STEP 2の小物未決定事項は、場面更新と分離して確定する。
