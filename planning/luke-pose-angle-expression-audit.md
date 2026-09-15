@@ -24,7 +24,7 @@ Luke（リス）の固定造形を守りながら、既存39シーンに不足�
 | 3 | 既存ポーズを残したポーズシート | 既存5ポーズ更新済み／補充12ポーズ初稿作成・要確認 |
 | 4 | 場面に必要な表情シート | 8表情の初稿作成・要確認 |
 | 5 | 代表6シーンで試験適用 | 完了（代表6＋追加2、計8シーン反映済み） |
-| 6 | 39シーンをバッチ更新 | 5枚単位で進行中（第1小範囲5枚反映済み） |
+| 6 | 39シーンをバッチ更新 | 5枚単位で進行中（第2小範囲まで計10枚、試験適用を含め計13枚反映済み） |
 
 ## STEP 1｜三者比較とLuke現状監査（完了）
 
@@ -326,7 +326,7 @@ LukeはGenの運動量やMimoの軽快さをそのまま借りない。ぽっち
 - Lukeの外形・衣服・尻尾は、造形正本の濃い検査線を直接使わず、完成ラスターで`#A99691`付近の淡いウォームグレー寄りブラウンへ弱めた。目・鼻・口・メガネだけは読み取り用の濃さを残した。
 - 背景はWarm White主体のA密度とし、旧場面の紙目、灰色面、鉛筆ハッチ、広い接地影を削除した。元画像にない家具、植物、装飾は追加していない。
 - 公式Uは全画像で生成任せにしない。右胸の服面が十分見える`tiny-discovery`、`color-sort`、`water-pour`、`clean-up`は公式SVG由来のOrange Uを後工程で合成した。`page-turn`、`paper-fold`、`lift-large-ball`、`jigsaw-last-piece`は右胸が腕またはスカーフで隠れるため表示しない。胸中央・左胸・腹・袖・腕へ逃がさない。
-- 3枚とも1254×1254・8-bit sRGBを維持し、160pxと80pxで「子ども→共有物→Luke」の順に読めることを確認した。
+- 8枚とも1254×1254・8-bit sRGBを維持し、160pxと80pxで「子ども→共有物→Luke」の順に読めることを確認した。
 
 各試験画像は、まずLukeの造形とポーズを単独で判定する。合格後に、同じ構図のまま子ども・保護者・背景の線階層とフラット度を更新し、胸面が見える場合だけ公式Uを戻す。上記8枚は両段階まで反映済みとする。
 
@@ -354,6 +354,24 @@ planning配下の思想は、次の5点へ整理して場面判断へ適用し�
 - 公式SVG由来のUは、腕やスカーフへ重ならない右胸の服面が確保できる4枚だけへ合成した。`color-sort`と`water-pour`は高さ15px、`clean-up`は18px、`tiny-discovery`は既存の22pxを維持した。右胸面を確保できない4枚は、誤って腕へ置かないようUを除去した。
 - 1254×1254・8-bit sRGBと、80pxでの動作・主役性を確認した。
 
+### 2026-09-15 第2小範囲（5枚）の見直し
+
+第1小範囲と同じ造形を保ったまま、Lukeの高さ、身体軸、向き、手の役割を分散した。Lukeが課題を先に解いたり、子どもへ答えを示したりせず、「待つ」「結果を見る」「同じ場所に居る」をポーズで表す。
+
+| 場面 | Lukeの高さ・重心 | 角度・視線 | 関係の動詞 |
+| --- | --- | --- | --- |
+| `bead-threading` | 腹ばい、肘で上体を支える | 子どもの左下から手元を見上げる | 手を出さず、通る瞬間を待つ |
+| `ramp-roll` | 坂の下で半しゃがみ | 真横寄り、転がる先を見る | 結果を受け止めず見届ける |
+| `drinking-independently` | 立位、机脚へ軽く寄る | 斜め前、子どもの顔を見上げる | 自分で飲む時間に付き添う |
+| `sand-texture` | 深いしゃがみ、両手を低く置く | 斜め後ろ寄り、落ちる砂を見る | 感触の変化を一緒に観察する |
+| `shared-build` | 脚をずらした非対称座位 | 斜め前、積み木へ共同注視 | 先に積まず次の一手を待つ |
+
+- 子どもの輪郭は色域と人物領域を限定して抽出し、5枚とも中心色`#FA997B`、主線約4pxへ揃えた。積み木や砂場など、近い暖色の共有物はマスクから除外した。
+- Lukeは正面立位へ寄せず、腹ばい、半しゃがみ、立位、深いしゃがみ、非対称座位へ分散した。位置も左・右へ振り、画面右端を定位置にしていない。
+- 背景は各課題に必要な糸通し、坂、低い机、砂場、積み木だけを残し、紙目、ハッチ、植物、装飾を追加していない。
+- 公式Uは`drinking-independently`だけ、Luke自身の右胸（画面左側）の上着パネルに高さ18pxで合成した。ほか4枚は右胸が腕、姿勢、角度で十分見えないため省略し、腕や袖へ逃がしていない。
+- 5枚とも1254×1254・8-bit sRGBを維持し、原寸と80pxで「子ども→共有物→Luke」の順に読めることを確認した。
+
 ## STEP 6｜39シーン展開 TODO
 
 ### 5枚単位の見直しルール
@@ -363,36 +381,41 @@ planning配下の思想は、次の5点へ整理して場面判断へ適用し�
 - 正面だけで揃えず、真横・斜め前・斜め後ろのうち最低2方向を含める。
 - Lukeの役割を、待つ／観察する／比べる／まねる／一緒に運ぶ、のように分散し、同じ反応動詞を2枚より多く重ねない。
 - 各ポーズで、床からの高さ・身体軸・向き・手の役割・視線・しっぽの最低2項目を変える。
-- Uは画像生成に描かせず、完成後に公式部品を画面から見て右胸へ合成する。右胸面が見えない場合だけ非表示理由を記録する。
+- Uは画像生成に描かせず、完成後に公式部品をLuke自身の右胸（画面左側）へ合成する。服の胸面が見えない場合は表示せず、腕・袖・スカーフ・腹へ移動しない。非表示理由を記録する。
 
 ### バッチA｜手指・道具操作
 
 - [x] paper-fold
-- [ ] bead-threading / clothespin / one-snip / sticker-paste / paper-tear / coloring / clay-press
+- [x] bead-threading
+- [ ] clothespin / one-snip / sticker-paste / paper-tear / coloring / clay-press
 - [ ] 同じ座位を続けず、真横、見下ろし、前傾、片手支持を割り当てる。
 
 ### バッチB｜分類・構成・認知
 
 - [x] color-sort / jigsaw-last-piece
-- [ ] counting-numerals / find-pair / shape-sorter / size-quantity-compare / spatial-position / shared-build
+- [x] shared-build
+- [ ] counting-numerals / find-pair / shape-sorter / size-quantity-compare / spatial-position
 - [ ] 集中、考える、発見、小さな成功を割り当てる。
 
 ### バッチC｜因果・物の操作
 
 - [x] water-pour
-- [ ] button-sound / put-in-look / ramp-roll / release-drop / shake-sound / spiral-turning-toy / toy-car-road
+- [x] ramp-roll
+- [ ] button-sound / put-in-look / release-drop / shake-sound / spiral-turning-toy / toy-car-road
 - [ ] しっぽをカウンターウェイトに使い、動作方向を真横で明確にする。
 
 ### バッチD｜生活・自立・ごっこ
 
 - [x] clean-up
-- [ ] drinking / eating / handwashing / potty-learning / toilet-independently / pretend-cleaning / arrange-pretend-train
+- [x] drinking-independently
+- [ ] eating-independently / handwashing-independently / potty-learning / toilet-independently / pretend-cleaning / arrange-pretend-train
 - [ ] Lukeが代行者に見えないよう、子どもの後または横で同じ方向へ参加する。
 
 ### バッチE｜基礎操作・感覚
 
 - [x] lift-large-ball / page-turn
-- [ ] hand-to-hand-transfer / reach-for-toy / sand-texture / paper-collage / shared-line
+- [x] sand-texture
+- [ ] hand-to-hand-transfer / reach-for-toy / paper-collage / shared-line
 - [ ] 床へ座る、低く観察する、対象へ寄りかかるなど高さを変える。
 
 ## 全シーン共通チェックリスト
@@ -410,7 +433,7 @@ planning配下の思想は、次の5点へ整理して場面判断へ適用し�
 
 ## 次の作業
 
-1. 次の5枚は、手先場面だけへ偏らないよう `bead-threading / ramp-roll / drinking-independently / sand-texture / shared-build` を候補とする。
-2. 着手前に5枚の高さ・角度・反応動詞を表へ割り当て、既存8枚との重複を確認する。
+1. 第3小範囲は、カテゴリと身体の高さを分散するため `clothespin / shape-sorter / button-sound / pretend-cleaning / reach-for-toy` を候補とする。
+2. 着手前に5枚の高さ・角度・反応動詞を表へ割り当て、既存13枚との重複を確認する。
 3. 各5枚を原寸・160px・80pxで確認し、合格後に次の小範囲へ進む。
 4. STEP 2の小物未決定事項は、場面更新と分離して確定する。
