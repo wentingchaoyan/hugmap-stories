@@ -1,0 +1,36 @@
+fill '#fffdfa' fill-opacity 0.94 stroke '#DCD5D2' stroke-width 1 roundrectangle 280,34 1256,138 8,8
+fill '#291712' fill-opacity 1 stroke none font 'Arial' font-size 40 text-anchor middle text 768,87 'STEP 2 - PIXEL MEASUREMENT'
+font-size 17 text 768,117 '1536x1024 master canvas - front geometry locked 1:1 - no accessories'
+stroke '#8D8380' stroke-width 1.5 stroke-dasharray 8,8 fill none line 60,844 1476,844
+
+fill '#fffdfa' fill-opacity 0.94 stroke '#DCD5D2' stroke-width 1 roundrectangle 78,282 404,390 8,8
+fill '#291712' fill-opacity 1 stroke none font-size 27 text-anchor start text 96,313 'MIMO'
+font-size 17 text 96,341 'FULL 340 - HEAD 122x133'
+font-size 15 text 96,367 'EYE 10x20 - CENTERS 55 - BEAK 25x24'
+stroke '#7D2741' stroke-width 2 fill none stroke-dasharray none line 118,504 118,844 line 111,512 118,504 line 125,512 118,504 line 111,836 118,844 line 125,836 118,844
+line 176,480 298,480 line 184,473 176,480 line 184,487 176,480 line 290,473 298,480 line 290,487 298,480
+
+fill '#fffdfa' fill-opacity 0.94 stroke '#DCD5D2' stroke-width 1 roundrectangle 437,282 767,390 8,8
+fill '#291712' fill-opacity 1 stroke none font-size 27 text 455,313 'GEN'
+font-size 17 text 455,341 'FULL 488 - HEAD 180x160'
+font-size 15 text 455,367 'EYE 15x27 - CENTERS 69 - NOSE 13x9'
+stroke '#7D2741' stroke-width 2 fill none line 438,356 438,844 line 431,364 438,356 line 445,364 438,356 line 431,836 438,844 line 445,836 438,844
+line 498,401 678,401 line 506,394 498,401 line 506,408 498,401 line 670,394 678,401 line 670,408 678,401
+
+fill '#fffdfa' fill-opacity 0.94 stroke '#DCD5D2' stroke-width 1 roundrectangle 790,282 1146,390 8,8
+fill '#291712' fill-opacity 1 stroke none font-size 27 text 808,313 'LUKE'
+font-size 17 text 808,341 'FULL 440 - HEAD 142x184 - TORSO W 219'
+font-size 15 text 808,367 'EYE 16x18 - CENTERS 69 - NOSE 30x20 - MOUTH 50x30'
+stroke '#7D2741' stroke-width 2 fill none line 772,404 772,844 line 765,412 772,404 line 779,412 772,404 line 765,836 772,844 line 779,836 772,844
+line 854,400 996,400 line 862,393 854,400 line 862,407 854,400 line 988,393 996,400 line 988,407 996,400
+
+fill '#fffdfa' fill-opacity 0.94 stroke '#DCD5D2' stroke-width 1 roundrectangle 1153,282 1475,390 8,8
+fill '#291712' fill-opacity 1 stroke none font-size 27 text 1171,313 'OWL'
+font-size 17 text 1171,341 'FULL 397 - BODY W 218 - FACE 173x185'
+font-size 15 text 1171,367 'EYE 24x42 - CENTERS 70 - BEAK 25x29'
+stroke '#7D2741' stroke-width 2 fill none line 1150,447 1150,844 line 1143,455 1150,447 line 1157,455 1150,447 line 1143,836 1150,844 line 1157,836 1150,844
+line 1192,446 1410,446 line 1200,439 1192,446 line 1200,453 1192,446 line 1402,439 1410,446 line 1402,453 1410,446
+
+fill '#fffdfa' fill-opacity 0.94 stroke '#DCD5D2' stroke-width 1 roundrectangle 329,902 1207,980 9,9
+fill '#291712' fill-opacity 1 stroke none font-size 17 text-anchor middle text 768,932 'LOCK ORDER: full height > head box > torso width > eye centers > eye size > nose/beak > mouth'
+font-size 15 text 768,959 'Pose sheets may rotate parts, but must not redraw or independently rescale head, face, torso, or tail.'

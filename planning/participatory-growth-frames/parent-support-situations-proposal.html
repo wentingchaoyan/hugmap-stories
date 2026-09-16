@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>発達の姿と、困ったときの関わり方</title>
+  <style>
+    :root{--ink:#291712;--paper:#f4f1f0;--white:#fff;--line:#ded6d2;--muted:#756b67;--heart:#7d2741;--green:#087a57;--green-soft:#e5f3ed;--orange:#ff511b;--shadow:0 18px 48px rgba(41,23,18,.12)}
+    *{box-sizing:border-box}body{margin:0;background:linear-gradient(145deg,#ede8e5,#f8f6f5 48%,#e9f1ed);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;line-height:1.6}
+    button{font:inherit}.phone{width:min(100%,420px);min-height:100vh;margin:auto;background:var(--paper);box-shadow:var(--shadow)}
+    header{padding:34px 24px 22px;background:var(--heart);color:#fff}header small{font-size:10px;font-weight:900;letter-spacing:.13em;opacity:.72}h1{margin:6px 0 8px;font-size:26px;line-height:1.25}header p{margin:0;font-size:12px;opacity:.86}
+    .tabs{position:sticky;top:0;z-index:4;display:grid;grid-template-columns:1fr 1fr;gap:7px;padding:10px;background:rgba(244,241,240,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    .tab{border:0;border-radius:12px;padding:10px 8px;background:#fff;color:var(--muted);font-size:12px;font-weight:800}.tab.active{background:var(--ink);color:#fff}
+    main{padding:18px 16px 44px}.intro{padding:0 4px 14px}.eyebrow{margin:0;color:var(--heart);font-size:10px;font-weight:900;letter-spacing:.1em}.intro h2{margin:3px 0 5px;font-size:19px}.intro p{margin:0;color:var(--muted);font-size:12px}
+    .panel[hidden]{display:none}.cards{display:grid;gap:11px}.card{width:100%;display:grid;grid-template-columns:64px 1fr 22px;gap:12px;align-items:center;text-align:left;border:1px solid var(--line);border-radius:18px;padding:12px;background:var(--white);color:var(--ink);box-shadow:0 5px 14px rgba(41,23,18,.04)}
+    .art{display:grid;place-items:center;width:64px;height:64px;border:2px dashed #b9aea9;border-radius:14px;background:#faf8f7;color:#9c918c;font-size:9px;font-weight:800;text-align:center}.card strong,.card span{display:block}.card strong{font-size:14px}.card span{margin-top:2px;color:var(--muted);font-size:11px;line-height:1.45}.arrow{font-size:22px;color:#ad9f99}.support .art{border-color:#7db49f;background:var(--green-soft);color:var(--green)}.support{border-left:4px solid var(--green)}
+    .note{margin-top:17px;padding:13px 15px;border-radius:14px;background:#ebe5e2;color:var(--muted);font-size:11px}.note b{color:var(--ink)}
+    .sheet-backdrop{position:fixed;inset:0;z-index:9;display:grid;align-items:end;background:rgba(41,23,18,.38)}.sheet-backdrop[hidden]{display:none}.sheet{width:min(100%,420px);margin:auto;padding:12px 20px 30px;background:#fff;border-radius:25px 25px 0 0;box-shadow:var(--shadow)}.grab{width:42px;height:4px;margin:0 auto 18px;border-radius:4px;background:#d7cfcb}.sheet-head{display:flex;align-items:start;gap:12px}.sheet-head div{flex:1}.sheet small{color:var(--green);font-size:10px;font-weight:900;letter-spacing:.1em}.sheet h2{margin:3px 0 7px;font-size:21px}.sheet p{margin:0;color:var(--muted);font-size:12px}.close{width:34px;height:34px;border:0;border-radius:50%;background:var(--paper);font-size:20px}.links{margin-top:18px;padding-top:14px;border-top:1px solid var(--line)}.links b{font-size:11px}.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.chip{border:0;border-radius:999px;padding:7px 10px;background:var(--green-soft);color:var(--green);font-size:10px;font-weight:800}
+  </style>
+</head>
+<body>
+  <div class="phone">
+    <header>
+      <small>こころ・人との関わり</small>
+      <h1>発達の姿と、<br>困ったときの関わり方</h1>
+      <p>育っている力と、今すぐ知りたい関わり方を分けて見られます。</p>
+    </header>
+    <nav class="tabs" aria-label="表示を切り替える">
+      <button class="tab active" data-panel="growth">発達の姿を見る</button>
+      <button class="tab" data-panel="support">困ったとき</button>
+    </nav>
+    <main>
+      <section class="panel" id="growth">
+        <div class="intro"><p class="eyebrow">DEVELOPMENT</p><h2>今、育っている力</h2><p>できた・できないではなく、変化の途中を見つけます。</p></div>
+        <div class="cards">
+          <button class="card"><span class="art">絵は<br>別途制作</span><span><strong>気持ちに気づく</strong><span>表情や身体の変化に気づき始める</span></span><i class="arrow">›</i></button>
+          <button class="card"><span class="art">絵は<br>別途制作</span><span><strong>思いを伝える</strong><span>「いや」「まだ」「手伝って」を自分の方法で伝える</span></span><i class="arrow">›</i></button>
+          <button class="card"><span class="art">絵は<br>別途制作</span><span><strong>一緒に落ち着きを取り戻す</strong><span>安心できる人や物を手がかりにする</span></span><i class="arrow">›</i></button>
+          <button class="card"><span class="art">絵は<br>別途制作</span><span><strong>次のことへ移る</strong><span>合図や見通しを手がかりに切り替える</span></span><i class="arrow">›</i></button>
+        </div>
+      </section>
+
+      <section class="panel" id="support" hidden>
+        <div class="intro"><p class="eyebrow">SUPPORT</p><h2>こんなとき、どうする？</h2><p>行動を直す前に、起きていることと必要な支えを探します。</p></div>
+        <div class="cards">
+          <button class="card support" data-title="切り替えが難しいとき" data-desc="好きなことを終える、場所を移る、次の活動を始めるのが難しい場面。" data-links="見通しを持つ,思いを伝える,次のことへ移る"><span class="art">絵は<br>別途制作</span><span><strong>切り替えが難しいとき</strong><span>終わりと次のことを分かりやすくする</span></span><i class="arrow">›</i></button>
+          <button class="card support" data-title="気持ちがあふれたとき" data-desc="泣く、叫ぶ、物を投げるなど、気持ちや感覚の負荷が大きくなった場面。" data-links="気持ちに気づく,思いを伝える,一緒に落ち着く"><span class="art">絵は<br>別途制作</span><span><strong>気持ちがあふれたとき</strong><span>安全を守り、刺激と言葉を減らす</span></span><i class="arrow">›</i></button>
+          <button class="card support" data-title="動けなくなったとき" data-desc="黙る、固まる、反応しにくくなるなど、内側へ閉じる形で負荷が表れた場面。" data-links="気持ちに気づく,自分の方法で伝える,安心を取り戻す"><span class="art">絵は<br>別途制作</span><span><strong>動けなくなったとき</strong><span>急がせず、反応できるまでの時間をつくる</span></span><i class="arrow">›</i></button>
+          <button class="card support" data-title="いつもと違うとき" data-desc="予定、順番、場所や相手が変わり、先の見通しが持ちにくい場面。" data-links="見通しを持つ,選ぶ,次のことへ移る"><span class="art">絵は<br>別途制作</span><span><strong>いつもと違うとき</strong><span>変わることと、変わらないことを伝える</span></span><i class="arrow">›</i></button>
+          <button class="card support" data-title="音や人でいっぱいのとき" data-desc="音、光、人、触られることなどが重なり、感覚的な負荷が高まった場面。" data-links="身体の変化に気づく,休みたいと伝える,安心を取り戻す"><span class="art">絵は<br>別途制作</span><span><strong>音や人でいっぱいのとき</strong><span>刺激から離れ、休める場所を確保する</span></span><i class="arrow">›</i></button>
+        </div>
+        <p class="note"><b>別軸にする理由：</b>困りごとの強さを発達評価にせず、子どもの力と環境・大人の関わりを分けて考えるためです。</p>
+      </section>
+    </main>
+  </div>
+
+  <div class="sheet-backdrop" id="detail" hidden>
+    <section class="sheet" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+      <div class="grab"></div><div class="sheet-head"><div><small>困ったときの関わり方</small><h2 id="detail-title"></h2></div><button class="close" aria-label="閉じる">×</button></div>
+      <p id="detail-desc"></p><div class="links"><b>つながる発達の姿</b><div class="chips" id="detail-links"></div></div>
+    </section>
+  </div>
+  <script>
+    const tabs=document.querySelectorAll('.tab'),panels=document.querySelectorAll('.panel');
+    tabs.forEach(tab=>tab.addEventListener('click',()=>{tabs.forEach(x=>x.classList.toggle('active',x===tab));panels.forEach(p=>p.hidden=p.id!==tab.dataset.panel)}));
+    const detail=document.querySelector('#detail'),title=document.querySelector('#detail-title'),desc=document.querySelector('#detail-desc'),links=document.querySelector('#detail-links');
+    document.querySelectorAll('.support').forEach(card=>card.addEventListener('click',()=>{title.textContent=card.dataset.title;desc.textContent=card.dataset.desc;links.innerHTML=card.dataset.links.split(',').map(x=>`<span class="chip">${x}</span>`).join('');detail.hidden=false}));
+    const close=()=>detail.hidden=true;document.querySelector('.close').addEventListener('click',close);detail.addEventListener('click',e=>{if(e.target===detail)close()});document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+  </script>
+</body>
+</html>

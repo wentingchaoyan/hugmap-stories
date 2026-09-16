@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HugMap アプリ UI 案：気づき起点</title>
+<style>
+:root{
+ --paper:#f6f2ee; --card:#fffdfb; --ink:#2c2320; --muted:#7d736e; --line:#e3dcd5;
+ --wine:#7d2741; --kotori:#c8663a; --usagi:#b8912e; --risu:#6a5a8c; --kuma:#6f8c6b; --kaba:#3f7d8c;
+ --shadow:0 1px 2px rgba(44,35,32,.05),0 6px 18px rgba(44,35,32,.06);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+body{margin:0;background:#e9e3dc;color:var(--ink);
+ font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+ display:flex;justify-content:center;gap:24px;flex-wrap:wrap;padding:24px 12px 60px;line-height:1.65;}
+.phone{width:390px;max-width:100%;height:800px;background:var(--paper);border-radius:34px;
+ box-shadow:0 10px 40px rgba(44,35,32,.18);overflow:hidden;position:relative;display:flex;flex-direction:column;}
+.note{width:330px;font-size:12.5px;color:#4a423d;background:#fffdfb;border:1px solid var(--line);
+ border-radius:14px;padding:16px 18px;height:max-content;box-shadow:var(--shadow);}
+.note h2{font-size:14px;margin:0 0 8px;color:var(--wine);}
+.note p{margin:0 0 9px;}
+.note b{color:var(--ink);}
+/* screen scaffold */
+.screen{position:absolute;inset:0;display:none;flex-direction:column;}
+.screen.on{display:flex;}
+.scroll{flex:1;overflow-y:auto;padding:14px 16px 20px;}
+.top{padding:14px 16px 8px;background:var(--paper);}
+.brand{font-size:13px;font-weight:800;letter-spacing:.03em;color:var(--wine);}
+.tagline{font-size:10.5px;color:var(--muted);margin-top:1px;}
+h1{font-size:18px;margin:14px 0 4px;}
+.sub{font-size:12px;color:var(--muted);margin:0 0 12px;}
+/* input */
+.ask{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;box-shadow:var(--shadow);}
+.ask .q{font-size:14.5px;font-weight:700;margin-bottom:10px;}
+.ask .field{border:1px dashed var(--line);border-radius:11px;padding:10px 12px;color:var(--muted);font-size:12.5px;background:var(--paper);}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:11px;}
+.chip{font-size:12px;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--paper);cursor:pointer;}
+.chip:active{background:#efe9e3;}
+.label{font-size:11px;font-weight:800;color:var(--muted);letter-spacing:.05em;margin:20px 2px 8px;}
+/* map tiles */
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:9px;}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;cursor:pointer;box-shadow:var(--shadow);}
+.tile .t{font-size:13.5px;font-weight:700;}
+.tile .d{font-size:10.5px;color:var(--muted);margin-top:3px;}
+.tile .bar{height:3px;border-radius:2px;margin-top:9px;background:var(--dotc,#d8cfc7);opacity:.5;width:38px;}
+.reassure{font-size:11.5px;color:var(--muted);background:#fbf7f3;border:1px solid var(--line);border-radius:11px;padding:10px 12px;margin-top:12px;}
+/* scene */
+.scene-head{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:13px 15px;box-shadow:var(--shadow);}
+.scene-head .k{font-size:10.5px;font-weight:800;color:var(--muted);}
+.scene-head .ttl{font-size:16px;font-weight:700;margin-top:3px;}
+.scene-head .already{font-size:12px;color:#5a524c;margin-top:7px;background:#fbf7f3;border-radius:9px;padding:8px 10px;}
+.lensintro{font-size:12px;color:var(--muted);margin:16px 2px 9px;}
+.lens{display:flex;gap:11px;align-items:flex-start;background:var(--card);border:1px solid var(--line);
+ border-left:4px solid var(--c);border-radius:12px;padding:12px 13px;margin-bottom:9px;cursor:pointer;box-shadow:var(--shadow);}
+.lens:active{background:#faf6f2;}
+.dot{width:30px;height:30px;border-radius:50%;background:var(--c);color:#fff;font-size:11px;font-weight:800;
+ display:flex;align-items:center;justify-content:center;flex:0 0 auto;margin-top:1px;}
+.lens .who{font-size:12.5px;font-weight:700;color:var(--c);}
+.lens .see{font-size:12.5px;margin-top:2px;}
+.lens .go{margin-left:auto;color:var(--muted);font-size:16px;align-self:center;}
+/* detail */
+.d-hero{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:14px;padding:14px 15px;box-shadow:var(--shadow);}
+.d-hero .who{font-size:12px;font-weight:800;color:var(--c);}
+.d-hero .see{font-size:15px;font-weight:700;margin:5px 0 8px;}
+.d-hero .aim{font-size:12.5px;color:#5a524c;background:#fbf7f3;border-radius:9px;padding:9px 11px;}
+.sec{margin-top:18px;}
+.sec .h{font-size:11px;font-weight:800;color:var(--muted);letter-spacing:.05em;margin-bottom:8px;}
+.forms{display:flex;flex-direction:column;gap:7px;}
+.form{display:flex;gap:9px;font-size:12.5px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:9px 11px;}
+.form .m{width:6px;height:6px;border-radius:50%;background:var(--c);margin-top:6px;flex:0 0 auto;}
+.onestep{font-size:13px;background:color-mix(in srgb,var(--c) 8%,#fff);border:1px solid color-mix(in srgb,var(--c) 20%,#fff);border-radius:11px;padding:11px 13px;}
+.question{font-size:13px;font-weight:600;background:var(--card);border:1px dashed var(--line);border-radius:11px;padding:12px 13px;}
+.question .k{font-size:10.5px;font-weight:800;color:var(--muted);display:block;margin-bottom:3px;letter-spacing:.05em;}
+.save{margin-top:16px;width:100%;border:none;background:var(--wine);color:#fff;font-size:14px;font-weight:700;
+ padding:13px;border-radius:12px;cursor:pointer;}
+.save:active{opacity:.85;}
+.disclaimer{font-size:10.5px;color:var(--muted);text-align:center;margin-top:12px;line-height:1.5;}
+/* record */
+.rec{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:9px;box-shadow:var(--shadow);}
+.rec .date{font-size:10.5px;color:var(--muted);}
+.rec .txt{font-size:13px;font-weight:600;margin:3px 0 4px;}
+.rec .by{font-size:11px;color:var(--c);}
+.empty{font-size:12px;color:var(--muted);text-align:center;padding:30px 10px;}
+/* back */
+.back{font-size:12.5px;color:var(--muted);background:none;border:none;padding:6px 0;cursor:pointer;display:flex;align-items:center;gap:4px;}
+/* bottom nav */
+.nav{display:flex;border-top:1px solid var(--line);background:var(--card);}
+.nav button{flex:1;border:none;background:none;padding:9px 0 11px;cursor:pointer;color:var(--muted);font-size:10px;
+ display:flex;flex-direction:column;align-items:center;gap:3px;}
+.nav button.on{color:var(--wine);}
+.nav svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.7;}
+.toast{position:absolute;left:50%;bottom:78px;transform:translateX(-50%) translateY(10px);opacity:0;
+ background:var(--ink);color:#fff;font-size:12px;padding:9px 15px;border-radius:999px;transition:.25s;pointer-events:none;}
+.toast.on{opacity:1;transform:translateX(-50%) translateY(0);}
+</style>
+</head>
+<body>
+
+<aside class="note">
+<h2>この案：気づき起点（＋全体が見える地図）</h2>
+<p><b>入口は「分野」でなく「今日の一場面」。</b>そこに複数の先生が別々の“見方”を出す（バイブル第7章）。段階は<b>チェックでなく「こんな姿かも」</b>として発見の例に。最後に<b>明日の小さな問い</b>を残す。</p>
+<p><b>ブラックボックス対策：</b>下タブ「地図」でいつでも全体（6つの見る切り口）を一覧できる。ただし<b>進捗バーや達成率は出さない</b>——順番も合否もない、という約束を守るため。</p>
+<p style="color:var(--muted)">クリックで回遊できます。場面チップ →先生の見方 →詳細 →記録。下タブで 気づく／地図／記録／相談 を切替。</p>
+</aside>
+
+<div class="phone">
+
+<!-- ===== HOME: 気づく ===== -->
+<section class="screen on" id="s-home">
+ <div class="top"><div class="brand">HugMap</div><div class="tagline">See Your Child. Grow Together.</div></div>
+ <div class="scroll">
+  <div class="ask">
+   <div class="q">今日、お子さんはどんなことをしていましたか？</div>
+   <div class="field">例）電車を何度も押している／ごはんを手でつかむ …</div>
+   <div class="chips" id="sceneChips"></div>
+  </div>
+
+  <div class="label">気になった場面がなくても</div>
+  <div class="tile" style="--dotc:var(--kotori)" onclick="openScene(0)">
+   <div class="t">今日のちいさなサインを見つける</div>
+   <div class="d">なんでもない一場面から、先生と一緒に見てみる</div>
+  </div>
+
+  <div class="label">最近の気づき</div>
+  <div id="homeRecent"></div>
+ </div>
+ <nav class="nav" id="nav"></nav>
+</section>
+
+<!-- ===== SCENE: 先生の見方が並ぶ ===== -->
+<section class="screen" id="s-scene">
+ <div class="top"><button class="back" onclick="go('home')">‹ もどる</button></div>
+ <div class="scroll">
+  <div class="scene-head">
+   <div class="k">きょうの一場面</div>
+   <div class="ttl" id="scTtl"></div>
+   <div class="already" id="scAlready"></div>
+  </div>
+  <div class="lensintro">同じ場面でも、先生によって最初に気づくところが違います。気になる見方を選んでください。</div>
+  <div id="lensList"></div>
+ </div>
+ <nav class="nav"></nav>
+</section>
+
+<!-- ===== DETAIL: 先生の見方 ===== -->
+<section class="screen" id="s-detail">
+ <div class="top"><button class="back" onclick="go('scene')">‹ ほかの見方</button></div>
+ <div class="scroll">
+  <div class="d-hero">
+   <div class="who" id="dWho"></div>
+   <div class="see" id="dSee"></div>
+   <div class="aim" id="dAim"></div>
+  </div>
+  <div class="sec">
+   <div class="h">こんな姿が見られるかも</div>
+   <div class="forms" id="dForms"></div>
+  </div>
+  <div class="sec">
+   <div class="h">やってみる小さな一手</div>
+   <div class="onestep" id="dStep"></div>
+  </div>
+  <div class="sec">
+   <div class="question"><span class="k">あした、見てみる一つのこと</span><span id="dQ"></span></div>
+  </div>
+  <button class="save" onclick="saveNotice()">この気づきを記録する</button>
+  <div class="disclaimer">これは「できた／できない」の判定ではありません。気になることが続くときは、発達相談や専門家にもつなげます。</div>
+ </div>
+ <nav class="nav"></nav>
+</section>
+
+<!-- ===== MAP: 地図（全体が見える・採点なし） ===== -->
+<section class="screen" id="s-map">
+ <div class="top"><div class="brand">地図</div></div>
+ <div class="scroll">
+  <h1>気になるところから見る</h1>
+  <p class="sub">6つの「見る切り口」。棚として全体を見渡せますが、順番も達成率もありません。</p>
+  <div class="tiles" id="mapTiles"></div>
+  <div class="reassure">順番も、できた・できないもありません。気になった場面から、少しずつ気づいていけます。（HugMapは達成度を測る検査ではありません）</div>
+ </div>
+ <nav class="nav"></nav>
+</section>
+
+<!-- ===== RECORD: 記録（ぽけっと） ===== -->
+<section class="screen" id="s-record">
+ <div class="top"><div class="brand">気づきの記録</div><div class="tagline">あなたが見つけたこと。採点ではありません。</div></div>
+ <div class="scroll" id="recList"></div>
+ <nav class="nav"></nav>
+</section>
+
+<!-- ===== CONSULT: 相談（既存タブ・スタブ） ===== -->
+<section class="screen" id="s-consult">
+ <div class="top"><div class="brand">相談</div></div>
+ <div class="scroll">
+  <div class="empty">既存の「相談」タブ。<br>気づきの記録を持って、先生に相談できます。<br><span style="color:var(--muted);font-size:11px">（このモックではスタブ）</span></div>
+ </div>
+ <nav class="nav"></nav>
+</section>
+
+<div class="toast" id="toast">記録しました</div>
+</div>
+
+<script>
+const scenes=[
+ {t:"電車を何度も押している", already:"押す・繰り返す・確かめる ── お子さんはもう、自分から世界に働きかけています。",
+  lenses:[
+   {who:"ことり先生", c:"var(--kotori)", init:"ト",
+    see:"押す前に、一瞬こちらの顔を見た",
+    aim:"「見て」と伝えようとしているのかもしれません（共同注意の芽）。",
+    forms:["物を見たあと、大人の顔をちらっと見る","興味のあるものを指さして教える","気に入った物を「みて」と持ってくる"],
+    step:"子どもが見た先に気づいて、『でんしゃだね』と一言そえる。",
+    q:"押す“前”に、目が合う瞬間があるか見てみる。"},
+   {who:"うさぎ先生", c:"var(--usagi)", init:"ギ",
+    see:"同じ姿勢を保って、押す力を自分で調整している",
+    aim:"体を支えながら、力をコントロールする育ちが進んでいます。",
+    forms:["座ったまま手を伸ばして戻れる","しゃがんで物を取り、また立つ","押す速さを自分で変える"],
+    step:"うまくいく高さ・位置に電車を置いて、フォームは直さず見守る。",
+    q:"疲れる前に、自分から「おしまい」にできるか様子を見る。"},
+   {who:"りす先生", c:"var(--risu)", init:"ス",
+    see:"車輪の振動や音の違いを確かめている",
+    aim:"感覚を手がかりに、世界を確かめる探究が始まっています。",
+    forms:["同じ動作を繰り返して結果を確かめる","音・手ざわりの違いを試す","「こうしたらこうなる」と予想して動く"],
+    step:"『ガタガタ鳴ったね』と、結果を先に見せず一緒に待つ。",
+    q:"別の床や別の物でも、同じ遊びをするか見てみる。"}
+  ]},
+ {t:"ごはんを手でつかんで食べる", already:"つかむ・口へ運ぶ ── 自分で食べようとする気持ちが育っています。",
+  lenses:[
+   {who:"りす先生", c:"var(--risu)", init:"ス",
+    see:"指の使い方・つかみ方を自分で選んでいる",
+    aim:"手と目を合わせて“つまむ”細かな手の育ち。",
+    forms:["手のひら全体でつかむ","親指と指の腹でそっとつまむ","小さいものをつまむ"],
+    step:"大きめ→小さめの食材にして、つかむ幅を少しずつ広げる。",
+    q:"どちらの手をよく使うか（利き手の芽）を見てみる。"},
+   {who:"かば先生", c:"var(--kaba)", init:"バ",
+    see:"口の動き・噛み方、詰め込みすぎがないか",
+    aim:"安全に食べるための、口と呼吸の育ち。",
+    forms:["口へ運んで食べる","前歯でかじりとる","一口の量を調整する"],
+    step:"一口サイズと“間”をつくり、急がせない。",
+    q:"むせや詰め込みがないか、そっと見守る。"},
+   {who:"うさぎ先生", c:"var(--usagi)", init:"ギ",
+    see:"座って体を支えられているか",
+    aim:"食べるための「姿勢の土台」。",
+    forms:["支えなしで座って手を使う","足がついて体が安定する"],
+    step:"足が床や台につく高さにして、姿勢を安定させる。",
+    q:"姿勢が崩れると食べにくくなっていないか見てみる。"}
+  ]}
+];
+const maptiles=[
+ {t:"からだ・うごき",d:"姿勢・移動・挑戦",c:"var(--wine)"},
+ {t:"て・あそび",d:"触れる・つまむ・作る",c:"var(--kotori)"},
+ {t:"みつける・考える",d:"気づく・くらべる・見立てる",c:"var(--usagi)"},
+ {t:"ことば・やりとり",d:"声・指さし・会話",c:"var(--kaba)"},
+ {t:"きもち・かんけい",d:"安心・気持ち・一緒に",c:"var(--kuma)"},
+ {t:"自分でできる",d:"食べる・着る・整える",c:"var(--risu)"}
+];
+let records=[
+ {date:"8月26日", txt:"でんしゃを押す前に、目が合った", by:"ことり先生の見方"},
+ {date:"8月24日", txt:"スプーンを自分で握ろうとした", by:"りす先生の見方"}
+];
+let cur={s:0,l:0};
+
+const navItems=[["home","気づく","M3 11l9-8 9 8M5 10v10h14V10"],["map","地図","M9 4l6 2 6-2v14l-6 2-6-2-6 2V6z M9 4v14 M15 6v14"],
+ ["record","記録","M6 3h9l3 3v15H6z M13 3v4h4"],["consult","相談","M4 5h16v10H9l-4 4z"]];
+function buildNav(active){
+ return navItems.map(([id,label,d])=>
+  `<button class="${id===active?'on':''}" onclick="go('${id}')"><svg viewBox="0 0 24 24"><path d="${d}"/></svg>${label}</button>`).join('');
+}
+function setNavs(active){document.querySelectorAll('.nav').forEach(n=>n.innerHTML=buildNav(active));}
+
+function go(id){
+ document.querySelectorAll('.screen').forEach(s=>s.classList.remove('on'));
+ document.getElementById('s-'+id).classList.add('on');
+ const activeTab=['home','map','record','consult'].includes(id)?id:(id==='scene'||id==='detail'?'home':id);
+ setNavs(activeTab);
+ if(id==='record')renderRecords();
+ if(id==='home')renderHome();
+ document.querySelector('#s-'+id+' .scroll').scrollTop=0;
+}
+function renderHome(){
+ document.getElementById('sceneChips').innerHTML=scenes.map((s,i)=>`<span class="chip" onclick="openScene(${i})">${s.t}</span>`).join('');
+ const r=records.slice(0,2).map(x=>`<div class="rec"><div class="date">${x.date}</div><div class="txt">${x.txt}</div><div class="by" style="color:var(--muted)">${x.by}</div></div>`).join('');
+ document.getElementById('homeRecent').innerHTML=r||'<div class="empty">まだありません</div>';
+}
+function openScene(i){
+ cur.s=i;const s=scenes[i];
+ document.getElementById('scTtl').textContent=s.t;
+ document.getElementById('scAlready').textContent=s.already;
+ document.getElementById('lensList').innerHTML=s.lenses.map((l,j)=>
+  `<div class="lens" style="--c:${l.c}" onclick="openDetail(${j})">
+    <div class="dot">${l.init}</div>
+    <div><div class="who">${l.who}</div><div class="see">${l.see}</div></div>
+    <div class="go">›</div></div>`).join('');
+ go('scene');
+}
+function openDetail(j){
+ cur.l=j;const l=scenes[cur.s].lenses[j];
+ const d=document.getElementById('s-detail');
+ d.style.setProperty('--c',l.c);
+ document.getElementById('dWho').textContent=l.who+'の見方';
+ document.getElementById('dSee').textContent=l.see;
+ document.getElementById('dAim').textContent=l.aim;
+ document.getElementById('dForms').innerHTML=l.forms.map(f=>`<div class="form"><span class="m"></span>${f}</div>`).join('');
+ document.getElementById('dStep').textContent=l.step;
+ document.getElementById('dQ').textContent=l.q;
+ // apply accent to hero + forms
+ document.querySelectorAll('#s-detail .d-hero,#s-detail .who,#s-detail .form .m,#s-detail .onestep')
+  .forEach(el=>el.style.setProperty('--c',l.c));
+ document.getElementById('dWho').style.color=l.c;
+ go('detail');
+}
+function saveNotice(){
+ const l=scenes[cur.s].lenses[cur.l];
+ records.unshift({date:"今日", txt:l.see, by:l.who+"の見方"});
+ const t=document.getElementById('toast');t.classList.add('on');setTimeout(()=>t.classList.remove('on'),1600);
+ go('record');
+}
+function renderRecords(){
+ document.getElementById('recList').innerHTML=records.length?records.map(x=>
+  `<div class="rec"><div class="date">${x.date}</div><div class="txt">${x.txt}</div><div class="by" style="color:var(--muted)">${x.by}</div></div>`).join('')
+  :'<div class="empty">まだ記録はありません</div>';
+}
+document.getElementById('mapTiles').innerHTML=maptiles.map(m=>
+ `<div class="tile" style="--dotc:${m.c}" onclick="alert('この切り口の場面例へ（モックでは省略）')">
+   <div class="t">${m.t}</div><div class="d">${m.d}</div><div class="bar"></div></div>`).join('');
+renderHome();setNavs('home');
+</script>
+</body>
+</html>
