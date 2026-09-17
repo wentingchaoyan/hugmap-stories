@@ -1,0 +1,1538 @@
+{
+  "scope": "Development snapshot",
+  "listingCount": 137,
+  "uniqueImageCount": 120,
+  "entries": [
+    {
+      "asset": "gen-frame-ask-to-be-held.png",
+      "title": "だっこして、が届いた",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-balance-mirror.png",
+      "title": "おなじ傾き",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-ball-exchange.png",
+      "title": "そっちへ、どうぞ",
+      "usageCount": 2,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-ball-roll.png",
+      "title": "ころころ、そっちへ",
+      "usageCount": 2,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-child-leads-rabbit.png",
+      "title": "こっち、いっしょに",
+      "usageCount": 2,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-children-repair-together.png",
+      "title": "手をのばして、もういちど",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-crawling-chase.png",
+      "title": "まって、ゲン",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-descend-stairs.png",
+      "title": "おりる足を、一段下で",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-dressing-sleeve.png",
+      "title": "おてて、でてきた",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-follow-running.png",
+      "title": "走る子どもの、そのあとを",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-follow-stairs.png",
+      "title": "階段の、一段あと",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-follow-walking.png",
+      "title": "歩く子どもの、二歩あと",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-hide-and-seek.png",
+      "title": "みつけて、ここだよ",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-horizontal-bar-hang.png",
+      "title": "にぎった手で、ぶらーん",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-oral-exploration-teether.png",
+      "title": "口でも、形を確かめる",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-parent-first-step.png",
+      "title": "ここまで、おいで",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-park-slide.png",
+      "title": "すべる先で、待ってる",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-park-swing.png",
+      "title": "ゆれる形を、となりで",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-pause-before-trying.png",
+      "title": "立ったまま、足場を見る",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-prone-dialogue.png",
+      "title": "ひくいところで、こんにちは",
+      "usageCount": 1,
+      "status": "造形・色を修正",
+      "notes": "横向きの対話を維持し、Genの顔・服と赤ちゃんの頭・前腕を整理。指定色を適用。線幅と厳密な造形一致は未認証。",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-pull-to-stand.png",
+      "title": "立てた手は、まだここに",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-push-car.png",
+      "title": "押す道の、少し前",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-relax-leaning-together.png",
+      "title": "寄りかかって、ひと休み",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-relax-looking-up.png",
+      "title": "並んで空を見る",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-relax-watching-together.png",
+      "title": "同じ小さなものを見る",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-rolling-mirror.png",
+      "title": "ころん、と向きを変えた",
+      "usageCount": 2,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-seated-reach.png",
+      "title": "ここまで、とどいた",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-squat-and-pick-up.png",
+      "title": "しゃがんだ先に、みつけた",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-supine-feet-mirror.png",
+      "title": "あし、みつけた",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-supine-hands-midline.png",
+      "title": "まんなかで、手が会った",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-supported-twist.png",
+      "title": "つかまったまま、くるり",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-throw-receive.png",
+      "title": "とんできた、受け取った",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-trampoline.png",
+      "title": "しずんで、ぽん",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-tricycle.png",
+      "title": "こぐ足の、そのあとを",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-tunnel-through.png",
+      "title": "むこうまで、くぐった",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-two-foot-jump.png",
+      "title": "ぴょん、の少しあと",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "gen-frame-wait-turn-slide.png",
+      "title": "すべり台、つぎはわたし",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-arrange-pretend-train.png",
+      "title": "ならべたら、電車になった",
+      "usageCount": 2,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-bead-threading.png",
+      "title": "ひもに、すーっと通せた",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-button-sound.png",
+      "title": "おしたら、きこえた",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-clay-press.png",
+      "title": "むぎゅっ、形がかわった",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-clean-up.png",
+      "title": "さいごの一個、おうちへ",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-clothespin.png",
+      "title": "つまんで、はずす",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-color-sort.png",
+      "title": "同じ色は、どこかな",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-coloring.png",
+      "title": "この色、ここまできた",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-counting-numerals.png",
+      "title": "1、2、3。数字と一緒に",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-drinking-independently.png",
+      "title": "自分で、ごくごく",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-eating-independently.png",
+      "title": "自分で、ひとくち",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-find-pair.png",
+      "title": "おなじ、みつけた",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-hand-to-hand-transfer.png",
+      "title": "こっちの手から、あっちの手へ",
+      "usageCount": 2,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-handwashing-independently.png",
+      "title": "自分で、あわあわ",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-jigsaw-last-piece.png",
+      "title": "さいごの一枚、ここかな",
+      "usageCount": 2,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-lift-large-ball.png",
+      "title": "ぎゅっと持って、持ち上げた",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-one-snip.png",
+      "title": "ちょきん、ここまで",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-page-turn.png",
+      "title": "つぎのページは、その手から",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-paper-collage.png",
+      "title": "ここに貼ったら、つながった",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-paper-fold.png",
+      "title": "はしとはし、会えた",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-paper-tear.png",
+      "title": "びりっ、線がひらいた",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-potty-learning.png",
+      "title": "座るところまで、いっしょに",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-pretend-cleaning.png",
+      "title": "いっしょに、おそうじ",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-put-in-look.png",
+      "title": "小さな物を、ここへ",
+      "usageCount": 3,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-ramp-roll.png",
+      "title": "ころがした先で、待ってる",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-reach-for-toy.png",
+      "title": "ほしいものへ、両手がいく",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-release-drop.png",
+      "title": "はなしたら、どこへいく？",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-sand-texture.png",
+      "title": "さらさら、手のなか",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-shake-sound.png",
+      "title": "ふったら、音がした",
+      "usageCount": 2,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-shape-sorter.png",
+      "title": "この形は、ここ",
+      "usageCount": 2,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-shared-build.png",
+      "title": "積んで、タワーになった",
+      "usageCount": 3,
+      "status": "一次確認済み",
+      "notes": "Lukeの座位の造形と線・配色を照合する。",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-shared-line.png",
+      "title": "線のつづきは、こっち",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-size-quantity-compare.png",
+      "title": "どっちが大きい？ 多い？",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-spatial-position.png",
+      "title": "上・下・中、どこにある？",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-spiral-turning-toy.png",
+      "title": "くるくる、回した",
+      "usageCount": 2,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-sticker-paste.png",
+      "title": "ぺりっ、ここにしよう",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-tiny-discovery.png",
+      "title": "その小さなもの、発見",
+      "usageCount": 1,
+      "status": "一次確認済み",
+      "notes": "輪郭と眼鏡・顔の濃さを統一。手元を見せる構図を維持する。",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-toilet-independently.png",
+      "title": "自分で、トイレ",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-toy-car-road.png",
+      "title": "道のつづきは、そっち",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "luke-frame-water-pour.png",
+      "title": "ながれた先を、いっしょに",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-aac-one-word.png",
+      "title": "ひとつ選んで、届いた",
+      "usageCount": 1,
+      "status": "造形・色を修正",
+      "notes": "指差しとクッキーの対応を維持。人物の頭、Mimo、線色・背景を修正。線幅は引き続き確認。",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-body-parts-song.png",
+      "title": "頭、肩、ひざ、ポン",
+      "usageCount": 1,
+      "status": "修正・個別照合",
+      "notes": "Mimoの卵形の頭、小さな目と眉、丸襟、袖と裾をモデルに照合して修正。人物の髪の突起を除去。大人が肩を指し、子どもとMimoが頭に触れる動作を維持。大人 #F7C6B3／子ども #F59B82／Mimo線 #5C5148／襟とマーク #FF511B／身体 #FFFFFF／背景 #FFFCF7。 厳密な比率・線幅の数値適合は未認証。",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-bubble-play.png",
+      "title": "ふわふわ、どこまで",
+      "usageCount": 1,
+      "status": "造形再修正・確認用",
+      "notes": "三面図の横向きを直接参照してMimoを再作成。斜めに伸びた頭と大きな冠羽を見直し、小さい目・眉1本、横向きの襟、短い胴体と翼へ修正。人物とシャボン玉は保持。 スカーフの下縁と結び目は枠線なしの #FF511B。頭・服の輪郭線は保持。",
+      "numericConformance": "三面図を目視照合／厳密な輪郭・線幅一致は未認証"
+    },
+    {
+      "asset": "mimo-frame-child-leads-imitation.png",
+      "title": "そのかたち、かえすよ",
+      "usageCount": 1,
+      "status": "造形再修正・確認用",
+      "notes": "三面図の正面を直接参照してMimoを再作成。頭の横倒しを抑え、低い頬・小さい目と眉2本・小さい冠羽・短い下半身へ修正。片足を上げる動作、子どもと合図は保持。 スカーフの下縁と結び目は枠線なしの #FF511B。頭・服の輪郭線は保持。",
+      "numericConformance": "三面図を目視照合／厳密な輪郭・線幅一致は未認証"
+    },
+    {
+      "asset": "mimo-frame-choice-response.png",
+      "title": "こっちにする、が届いた",
+      "usageCount": 1,
+      "status": "造形再修正・確認用",
+      "notes": "三面図の正面を直接参照してMimoを再作成。頭と顔の配置、冠羽、浅い襟、短い胴体と翼を見直し。両足で立ち、選ぶ場面を受け止める姿勢。人物・本・ボールは保持。 スカーフの下縁と結び目は枠線なしの #FF511B。頭・服の輪郭線は保持。",
+      "numericConformance": "三面図を目視照合／厳密な輪郭・線幅一致は未認証"
+    },
+    {
+      "asset": "mimo-frame-choice-with-reason.png",
+      "title": "これがいい、だってね",
+      "usageCount": 1,
+      "status": "修正・個別確認用",
+      "notes": "Mimoの頭・目・眉・翼を三面図参照で再作成。枠線なしのスカーフと胸マークへ統一。子どもがカードを指し、大人が受け止める場面を保持し、背景の家具と髪の描き込みを整理。",
+      "numericConformance": "指定色の内部画素を確認／厳密な比率・線幅は未認証"
+    },
+    {
+      "asset": "mimo-frame-doctor-pretend.png",
+      "title": "もしもし、どこがいたい？",
+      "usageCount": 1,
+      "status": "修正・個別確認用",
+      "notes": "現在の顔・子ども・聴診器を画素単位で保持。Mimoの下半身だけ、以前の自然な座り方を参照して修正。脚を前へ伸ばし、床にお尻を置く姿勢へ。",
+      "numericConformance": "指定色の内部画素を確認／厳密な比率・線幅は未認証"
+    },
+    {
+      "asset": "mimo-frame-emotion-expression.png",
+      "title": "顔に、気持ちがあらわれた",
+      "usageCount": 1,
+      "status": "修正・個別確認用",
+      "notes": "上段3つの表情を共通の卵形の頭と嘴へ統一。人の口・耳・舌を除き、喜び・悲しみ・戸惑いを含む苛立ちを眉と目で表現。下段Mimoは気持ちを受け止める眉と胸に添える翼。人物の髪の突起を整理。",
+      "numericConformance": "指定色の内部画素を確認／厳密な比率・線幅は未認証"
+    },
+    {
+      "asset": "mimo-frame-experience-feeling.png",
+      "title": "あのときの気持ちも、いっしょに",
+      "usageCount": 1,
+      "status": "修正・個別確認用",
+      "notes": "写真を指す手と気持ちカードを持つ手の役割を維持。Mimoを横向きモデルから再作成し、眉・目・嘴と枠線なしスカーフを確認。人物の髪と背景の装飾を整理。",
+      "numericConformance": "指定色の内部画素を確認／厳密な比率・線幅は未認証"
+    },
+    {
+      "asset": "mimo-frame-freeze-notice.png",
+      "title": "止まる合図で、ぴたっ",
+      "usageCount": 1,
+      "status": "修正・個別確認用",
+      "notes": "子どもとMimoが片足を上げて止まる姿勢を維持。動きの線を除き、停止の合図を残す。Mimoの眉1本・小さい目・嘴を確認し、両翼の袖境界を局所修正。スカーフは枠線なし。",
+      "numericConformance": "指定色の内部画素を確認／厳密な比率・線幅は未認証"
+    },
+    {
+      "asset": "mimo-frame-hidden-find.png",
+      "title": "めくった先に、いた",
+      "usageCount": 1,
+      "status": "修正・個別確認用",
+      "notes": "子どもが布をつまんで持ち上げ、その下からMimoが見える関係を維持。正面モデルから眉2本・目・嘴・袖・足を再作成。髪の突起と大きな背景の光を整理。",
+      "numericConformance": "指定色の内部画素を確認／厳密な比率・線幅は未認証"
+    },
+    {
+      "asset": "mimo-frame-imitation-arms-up.png",
+      "title": "おなじポーズ、できた",
+      "usageCount": 2,
+      "status": "細部修正・目視確認",
+      "notes": "眉1本を維持。両袖口の二重線を一本の境界線へ整理し、目の白いハイライトを除去。頭と子どもの造形・動作は維持。線幅の厳密な適合は未検証。",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-noticing-letters.png",
+      "title": "見つけた文字を、いっしょに",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-one-word-more.png",
+      "title": "もういちど、が届いた",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-parent-child-pretend-meal.png",
+      "title": "いっしょに、ごはんを並べよう",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-peace-sign.png",
+      "title": "ふたつの指、ふたつの羽",
+      "usageCount": 1,
+      "status": "修正・個別照合",
+      "notes": "頭と上げた翼の間にある輪郭の段差を局所修正。眉2本・小さい目・嘴・頭の傾き・人物の画素を維持。 厳密な比率・線幅の数値適合は未認証。",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-pretend-cooking.png",
+      "title": "できたよ、ひとくちどうぞ",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-pretend-feeding.png",
+      "title": "ひとくち、どうぞ",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-pretend-phone.png",
+      "title": "もしもし、きこえる？",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-pretend-shop.png",
+      "title": "これ、ください",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-refusal-boundary.png",
+      "title": "いらない、も届いている",
+      "usageCount": 1,
+      "status": "造形・色を修正",
+      "notes": "Mimo・配色を修正。幼児の丸すぎた頭と頭頂の突起を修正し、額・鼻・頬・顎で左向きを表現。線幅と頭部の最終確認は継続。 スカーフの下縁と結び目は枠線なしの #FF511B。頭・服の輪郭線は保持。",
+      "numericConformance": "指定色の芯・塗りを画素確認。境界は混色。線幅は未検証。"
+    },
+    {
+      "asset": "mimo-frame-request-sign.png",
+      "title": "ちょうだい、と手で伝える",
+      "usageCount": 1,
+      "status": "修正・個別照合",
+      "notes": "前側の翼と袖口の接続部にある突起を局所修正。眉1本・目・横向きの頭・子どもの差し出す手を維持。羽先全体の再設計は採用していない。 厳密な比率・線幅の数値適合は未認証。",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-rhythm-copy.png",
+      "title": "同じリズム、かえってきた",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-routine-shoe-message.png",
+      "title": "くつを持って、玄関へ",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-shared-pointing.png",
+      "title": "みつけたものを、いっしょに",
+      "usageCount": 2,
+      "status": "眉修正・再精査中",
+      "notes": "見える側の眉1本を復元。上向きの視線を維持。頭・目・くちばしの比率と線幅は継続確認。",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-shared-reading.png",
+      "title": "絵本を見ながら、ことばを行き来",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-show-and-receive.png",
+      "title": "「みて」を受け取る",
+      "usageCount": 1,
+      "status": "細部修正・目視確認",
+      "notes": "眉2本を維持。肩の段差を滑らかな線へ修正し、翼の重なりの余分な小線を除去。頭・子ども・星の配置は維持。線幅の厳密な適合は未検証。",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-social-referencing.png",
+      "title": "大人の顔を見て、確かめる",
+      "usageCount": 1,
+      "status": "一次確認済み",
+      "notes": "人物の描き込みとMimoの造形、線・配色を照合する。",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-three-photo-story.png",
+      "title": "はじめ、つぎ、それから",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-three-step-entry.png",
+      "title": "つぎは、かばん",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-turn-taking-cards.png",
+      "title": "カードを置いて、つぎの番",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-two-picture-schedule.png",
+      "title": "しまったら、手を洗おう",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-voice-pingpong.png",
+      "title": "声のピンポン",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "mimo-frame-wave-response.png",
+      "title": "ばいばい、かえってきた",
+      "usageCount": 1,
+      "status": "眉・表情を修正",
+      "notes": "眉2本を維持し、笑みの目をひと回り小さく調整。手を振り返す穏やかな喜びを表現。頭の輪郭・傾き・くちばし・身体・子どもは維持。輪郭色 #5C5148。顔の拡大と210pxカード表示を確認。",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "relationship-frame-children-build-together.png",
+      "title": "ふたりで、ひとつの橋",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "relationship-frame-children-offer-and-wait.png",
+      "title": "どうぞ、のあとを待つ",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "relationship-frame-children-parallel-sand.png",
+      "title": "同じ砂場、それぞれの遊び",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "relationship-frame-deep-breath.png",
+      "title": "いっしょに、ゆっくり呼吸",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "relationship-frame-lift-play.png",
+      "title": "たかい、たかい。もういっかい",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "relationship-frame-parent-hand-play.png",
+      "title": "手と手、おなじかたち",
+      "usageCount": 1,
+      "status": "一次確認済み",
+      "notes": "人物の髪と輪郭の省略方法、線の強弱を統一する。",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "relationship-frame-spin-together.png",
+      "title": "ぐるぐる、いっしょに",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "relationship-frame-tickle-pause.png",
+      "title": "こちょこちょ、もういっかい？",
+      "usageCount": 1,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    },
+    {
+      "asset": "together-frame-self-feeding-table.png",
+      "title": "いっしょに、ひとくち",
+      "usageCount": 2,
+      "status": "未確認",
+      "notes": "",
+      "numericConformance": "未検証"
+    }
+  ],
+  "firstImage": {
+    "asset": "mimo-frame-refusal-boundary.png",
+    "tool": "built-in imagegen",
+    "prompt": "Use case: precise-object-edit. Image1 is the scene edit target. Image2 is the authoritative CHARACTER GEOMETRY reference: ONLY MIMO TOP ROW. Image3 is human body simplification reference, NOT a pose or layout reference. Produce a square image retaining image1 composition: kneeling white faceless toddler center-left, two raised open palms refusing teddy offered by cropped adult hand from left, small Mimo standing right, plenty of blank space above. Keep refusal unmistakable, palm hands away from toy with clear gap. Preserve five fingers per open human hand, no extra digits. No change of story, no text or extra props. Correct Mimo to TOP ROW of image2: smooth vertically egg-shaped head with no cheek lobes or muzzle, head width/height about122/133, single slender leaf crest, small vertical eyes, tiny diamond beak with central division; concerned short eyebrows; white short-sleeved shirt with distinct sleeve boundaries and curved hem separating shirt and lower body, slender bird legs. Head should be proportional to full height exactly as reference, not giant chibi head. Mimo's wings gently lowered open, not human hands, keep it smaller than child. Rounded two-lobe orange collar and short side knot, orange two-dot U chest mark #FF511B flat solid. Animal outline/eyes/beak #5C5148 consistent medium-thin smooth rounded strokes. Toddler silhouette remains faceless, modestly plump limbs, rounded head; simplify hair to smooth short-hair outer contour with only TWO gentle rounded tufts, no jagged spikes, no interior hair strands. Keep head turn and refusal pose. Child outline #F59B82 smooth, uniform, no rough scratchy grain. Adult cropped hand outline lighter/thinner #F7C6B3. Child and animal outer strokes similar weight, adult 75% of child weight; internal lines 75% of outer. White fills. Background warm white #FFFCF7, remove orange glow and paper texture, replace scribbled ground shadows with very faint smooth warm contact shadows #EEDCC6 at35% opacity. Teddy pale muted honey/cream with finer warm tan line, no shine. Retain subtle lavender gesture marks sparsely, not large. Do not import reference image labels, arrows, other animals or standing toddler poses. Shapes and intended action must survive at small mobile card size. Output square 1254x1254 if supported.\n\nTargeted follow-up:\nPrecise local correction of image1. Image2 top row MIMO FRONT is the exact shape guide. Keep all scene positions, child gesture, teddy and blank space. Critical corrections: Mimo head must be SMOOTH SYMMETRICAL EGG with no cheek bump on left or right, no indentation halfway down; copy FRONT top-row reference silhouette at current head size. Keep concerned eyebrows and small eyes. Mimo collar: TWO equal ROUND SCALLOPED lobes beneath chin, same as FRONT reference; one short side knot to viewer RIGHT only; REMOVE the extra orange teardrop/tie at front viewer LEFT completely. There must be no front hanging tie. Keep white shirt sleeves/hem and bird feet. Child hair: remove all sharp pointed or hooked tufts; replace entire hair edge with one smooth dome and only TWO small ROUND bumps at top-left, NO pointed tufts, NO hair interior lines. Preserve original child's head direction and body/raised palms. Child outline uniform muted coral #F59B82, not bright orange. Adult cropped hand much paler #F7C6B3, thinner. Mimo outline #5C5148. Orange collar and chest mark #FF511B. Smooth warm-white background. No added elements. Output same dimensions.\n",
+    "review": "造形・動作を目視照合後、部位別に指定色を直接適用。境界の混色を維持。線幅の厳密な適合は未検証。",
+    "colorCorrection": {
+      "colors": {
+        "background": [
+          255,
+          252,
+          247
+        ],
+        "body": [
+          255,
+          255,
+          255
+        ],
+        "animal": [
+          92,
+          81,
+          72
+        ],
+        "child": [
+          245,
+          155,
+          130
+        ],
+        "adult": [
+          247,
+          198,
+          179
+        ],
+        "brand": [
+          255,
+          81,
+          27
+        ],
+        "shadow": [
+          249,
+          241,
+          230
+        ]
+      },
+      "counts": {
+        "child": 32457,
+        "animal": 12334,
+        "adult": 1881,
+        "brand": 2473,
+        "shadow": 15903
+      },
+      "exact": {
+        "background": 1216700,
+        "body": 271109,
+        "animal": 9946,
+        "child": 25980,
+        "adult": 1650,
+        "brand": 2238,
+        "shadow": 6746
+      },
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "note": "部位マスクによる直接色置換。境界画素は混色を維持。線幅は未検証。影は背景上に35%で合成した色を使用。"
+    },
+    "headCorrection": {
+      "prompt": "Precise local edit. IMAGE1 is the EDIT TARGET, IMAGE2 is the approved toddler BODY/HEAD MODEL reference. Fix ONLY the child's head in image1, roughly x390..730,y215..575. Current head is a balloon-like circle with two bumps on top; this is WRONG. Replace with anatomically simplified toddler head based on LEFT CHILD in image2: rounded broad cranium, distinct softer lower cheeks tapering toward a small rounded chin, short neck, natural small ear at correct side-of-head height, NOT a circle and NOT a bird head. Show the head in a gentle LEFT-facing three-quarter/profile turn toward the offered teddy. A restrained forehead-to-tiny-nose-to-rounded-cheek-to-chin silhouette should make head orientation clear. Face interior blank: NO eyes, NO eyebrows, NO mouth, NO internal facial detail. Hair should be a smooth cap silhouette integrated into skull; REMOVE both top bumps completely, NO hair tufts or spikes. Keep approximate head height but reduce inflated cranial width about10%, maintain connection to SAME neck and shirt. IMPORTANT preserve child raised refusing palms, fingers, body, arms, legs, teddy, adult hand, Mimo, gesture marks, ground shadows and composition. Do not recolor or restyle anything else. Head fill pure #FFFFFF, outline exact #F59B82 with same thin smooth rounded stroke as child's body. Background #FFFCF7. Mimo must stay EXACTLY unchanged, including dark brown outlines #5C5148 and orange scarf #FF511B. Preserve all existing flat colors. Output same1254x1254 canvas. This is a head-shape correction only, no text or new objects.\n",
+      "method": "内蔵imagegenで頭部を修正し、頭・首の範囲だけ合成。線色を #F59B82 に再適用。",
+      "outsidePatchChanges": 0,
+      "region": [
+        380,
+        205,
+        745,
+        595
+      ],
+      "status": "横向き頭部の修正見本。側面の数値規格は未確定。"
+    },
+    "edgeCorrection": "Mimoの輪郭境界も #5C5148 と白の混色へ補正。"
+  },
+  "aacReview": {
+    "asset": "mimo-frame-aac-one-word.png",
+    "prompt": "Edit IMAGE1 AAC scene to match the approved refined illustration style of IMAGE2. IMAGE3 TOP ROW MIMO only is authoritative animal geometry. Preserve IMAGE1 composition and teaching meaning exactly: kneeling toddler LEFT pointing index finger at COOKIE icon in six-cell AAC board lower center; adult RIGHT facing child holding matching large cookie; small Mimo lower right with wing near beak listening. Keep six icons cookie/teddy/cup,car/banana/bubbles in same order. Keep positions, relative scale and pointing fingertip contact on cookie card, cookie held by adult. No new objects or text. Child head: natural rounded cranium with small nose, soft cheek and tapered rounded chin, tiny ear, head angled RIGHT/down toward board; blank face no eyes/mouth; NO circular balloon head, no head tufts. Adult head: simple smooth bob silhouette, forehead small nose chin and optional simple ear, no individual hairs, no facial features. Modestly rounded child limbs. Add simple short-sleeve shirt boundary if needed; white human interiors. Mimo smooth egg head width/height122/133 proportion as top row of image3, no cheek bumps, small vertical eyes, tiny diamond beak, single leaf crest. White short-sleeve shirt with curved hem separating torso, two round scalloped orange collar lobes and short side knot viewer right, orange two-dot U chest mark; no front hanging tie. Keep listener pose and attentive neutral brows. Palette and strokes: child #F59B82 smooth uniform outer4 and inner3; adult #F7C6B3 outer3 inner2.5, distinctly lighter and thinner; animal outline/eyes/beak #5C5148 outer4 internal3 detail2.5; scarf/logo #FF511B flat. Match overall thin-line quality of image2. Remove scratchy outline, paper texture and orange halo entirely; solid warm background #FFFCF7 and white body interiors #FFFFFF. Very pale warm contact shadows #EEDCC6 at35%. Board and cookie stay gently pale honey/cream, sparse texture, restrained tan line. Retain four small communication dots without glow, no decorative radiating lines around people. Output1254x1254.\n",
+    "colorCheck": {
+      "palette": {
+        "animal": [
+          92,
+          81,
+          72
+        ],
+        "child": [
+          245,
+          155,
+          130
+        ],
+        "adult": [
+          247,
+          198,
+          179
+        ],
+        "brand": [
+          255,
+          81,
+          27
+        ],
+        "background": [
+          255,
+          252,
+          247
+        ],
+        "body": [
+          255,
+          255,
+          255
+        ],
+        "shadow": [
+          249,
+          241,
+          230
+        ]
+      },
+      "exactPixels": {
+        "animal": 7653,
+        "child": 7887,
+        "adult": 11220,
+        "brand": 3519,
+        "background": 1121420,
+        "body": 281167,
+        "shadow": 10688
+      },
+      "method": "部位別の直接色置換。輪郭の境界は指定色と白の混色から再構成。",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "lineWidth": "未検証"
+    },
+    "review": "指差し対象と大人のクッキー、6枠の対応を維持。人物・Mimo・背景を整理。線幅の厳密な一致は未検証。",
+    "headCorrection": {
+      "prompt": "Edit image 1 only: Mimo small bird at lower right. Restore the gently inclined, engaged head direction from image 2, toward the child/picture cards on viewer left. Keep the narrower tall smooth egg-shaped head geometry of image 1, not the wide round head from image 2. Eyes and diamond beak should incline naturally with the head like image 2, with face slightly offset toward viewer left. Small upright oval eyes, no muzzle or cheeks. Head/crest must remain inside x980..1150 y645..865 on 1254 square scene. Preserve wing in front of face, collar, body, all people, props, background, composition EXACTLY. Thin smooth dark warm brown #5C5148 contour, white head, background #FFFCF7, exact orange collar #FF511B. No shadows or paper texture. The only change is head direction, retaining identity and proportions.\n",
+      "method": "内蔵imagegenで頭部の向きを調整。頭部だけ合成し、輪郭 #5C5148 と背景色を再適用。",
+      "review": "三面図由来の縦長の卵形を保ち、顔は以前のように子ども・カード側へ傾ける。厳密な形状一致は未認証。"
+    }
+  },
+  "genProneReview": {
+    "asset": "gen-frame-prone-dialogue.png",
+    "prompt": "Use case precise-object-edit. Edit image1 square infant developmental illustration. Image2 is authoritative GEN rabbit turnaround SECOND ROW ONLY. Image3 is approved simplified color/line style. Preserve image1 scene exactly: Gen prone on left facing right, infant prone on right facing left, yellow ball between, at same floor height, abundant blank margins. Retain their relative sizes, position, eye-level interaction and body direction. Correct Gen toward turnaround: one upright long ear and other bent ear, smooth compact rounded head with subtle cheeks, tiny dark oval eye and nose, short smiling mouth, white short sleeve T-shirt distinct sleeve and hem, rounded paws, little round tail. No fur shading, pink inner ear fill, no peach outlines. Gen outline #5C5148, pure white body, triangular scarf flat #D7C862 and small chest brand mark #FF511B. Infant blank face silhouette white fill with smooth peach #F59B82 contours. Keep large infant cranium but articulate a small forehead/nose/chin/ear profile, no eyes, no mouth or hair strands. Slightly chubby limbs, visibly resting on forearms, legs relaxed behind. Do not turn either head toward viewer. Smooth single clean lines: animal outer4 inner3, infant outer4 inner3 at reference1536x1024; no thick marker strokes. Background flat #FFFCF7, subtle contact shadow only #EEDCC6 at35%. Ball soft pale yellow restrained shading. Remove paper grain, bloom, washes and body gradients. No added text, no extra props. Output same square composition.\n",
+    "method": "内蔵imagegenで造形を調整し、部位別に指定色を直接適用。",
+    "colors": {
+      "animal": "#5C5148",
+      "child": "#F59B82",
+      "scarf": "#D7C862",
+      "mark": "#FF511B",
+      "body": "#FFFFFF",
+      "background": "#FFFCF7"
+    },
+    "review": "向き合う構図・ボール・うつぶせの姿勢を目視確認。厳密な三面図一致、線幅、アプリでの判読性は未検証。"
+  },
+  "priority": "3枚を提出単位とし、一枚ずつ三面図・人物モデル・線仕様・ブランド色を照合してから反映。生成結果をそのまま適合済みと判断しない。",
+  "mimoWaveReview": {
+    "asset": "mimo-frame-wave-response.png",
+    "prompt": "Precise-object-edit. Edit image1 developmental card 'waving response'. Image2 authoritative turnaround: MIMO top row only. Image3 approved scene style. Keep composition: large young child left raising five-finger hand, small Mimo lower right raising viewer-left wing and lifting one foot, three response marks above wing, white blank faces for humans. Preserve gestures, positions, size relation and Mimo gently tilted face direction. Correct Mimo: narrow-topped smooth egg head height slightly greater than width, small vertical oval eyes, small centered diamond beak, single leaf crest; retain slight natural tilt toward interaction, not rigidly frontal. White short-sleeve T-shirt with sleeve seams and curved hem distinct from lower body, orange TWO ROUNDED COLLAR LOBES plus small side knot, never pointed triangular bib. Chest small orange ü mark. Animal all linework including eyes/beak #5C5148, collar/mark flat #FF511B. Child smooth rounded young-child head contour with simple ear, no spiky hair, no internal hair strands, no eyes/mouth; slightly plump limbs. Child contours #F59B82, white fill. Background flat #FFFCF7, no glow, paper grain or hatching. Contact shadows pale beige #EEDCC6 at35%. Smooth clean relatively thin single lines with rounded ends, animal outer4 internal3 detail2.5 px and child outer4 internal3 at1536x1024 reference; do not thicken small character outlines. Three reaction marks soft yellow. No additional objects/text. Output same square composition.\n",
+    "followup": "内蔵imagegenで袖と裾を追加し、二重線を単線へ修正。",
+    "method": "内蔵imagegenによる造形調整後、部位別に指定色を直接適用。",
+    "review": "手振り・頭の傾き・片足を上げる動作を維持。輪郭 #5C5148、子ども #F59B82、ブランド #FF511B の画素を確認。厳密な造形一致と線幅は未認証。"
+  },
+  "mimoBatchReview": {
+    "method": "内蔵imagegenで修正。頭部・羽先を追加照合し、部位別に指定色を直接適用。",
+    "scope": "5枚の眉を局所修正。頭・羽先・服・線幅の精査は継続中。完成扱いにしない。",
+    "images": [
+      {
+        "name": "peace-sign",
+        "animalX": 680,
+        "animalY": 600,
+        "childX": 665,
+        "floor": 1095,
+        "prompt": "Use case precise-object-edit. Image1 edit target; Image2 authoritative MIMO turnaround TOP ROW only; Image3 approved finished style. Preserve original composition, character positions/sizes and specified gestures. Correct Mimo identity from turnaround: smooth egg head narrower at top, head height slightly larger than width, tiny vertical oval eyes, small diamond beak (triangular in side view), ONE leaf crest. Never generic round chick cheeks/muzzle. Preserve scene head direction, do not force frontal. White SHORT SLEEVE T-SHIRT with distinct sleeve cuffs and one curved hem line across torso, separate smooth rounded lower body, orange TWO ROUNDED collar lobes and small side knot, never a triangular bib. Small orange ü chest mark where visible, do not force if occluded. Animal ALL outlines and eyes/beak #5C5148; collar and mark flat #FF511B. Child white silhouette with smooth young-child head profile, small ear, no spiky tufts or interior hair strokes, no eyes/mouth; slightly plump limbs. Child line #F59B82. Smooth thin single lines, round ends; no double seams/hatching. Flat opaque #FFFCF7 background, pure white bodies; remove paper texture/glow/gradients. Only subtle pale beige ground shadow #EEDCC6 at35%. Keep props softly colored. Do not add scene items/text. Same square image. Specific scene: Child left makes clearly TWO fingers V-sign. Mimo right spreads both wings, lifts one foot, tilts head gently left; maintain two-wing gesture.",
+        "colorCheck": {
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "exactPixels": {
+            "#fffcf7": 1261569,
+            "#5c5148": 13010,
+            "#f59b82": 22400,
+            "#ff511b": 3260,
+            "#ffffff": 242923
+          }
+        },
+        "asset": "mimo-frame-peace-sign.png",
+        "notes": "頭のくびれを除き、両翼の先を丸い短い羽へ修正。二本指と両翼を広げる動作を維持。 指定色を適用。厳密な造形一致・線幅は未認証。"
+      },
+      {
+        "name": "shared-pointing",
+        "animalX": 810,
+        "animalY": 600,
+        "childX": 750,
+        "floor": 1070,
+        "prompt": "Use case precise-object-edit. Image1 edit target; Image2 authoritative MIMO turnaround TOP ROW only; Image3 approved finished style. Preserve original composition, character positions/sizes and specified gestures. Correct Mimo identity from turnaround: smooth egg head narrower at top, head height slightly larger than width, tiny vertical oval eyes, small diamond beak (triangular in side view), ONE leaf crest. Never generic round chick cheeks/muzzle. Preserve scene head direction, do not force frontal. White SHORT SLEEVE T-SHIRT with distinct sleeve cuffs and one curved hem line across torso, separate smooth rounded lower body, orange TWO ROUNDED collar lobes and small side knot, never a triangular bib. Small orange ü chest mark where visible, do not force if occluded. Animal ALL outlines and eyes/beak #5C5148; collar and mark flat #FF511B. Child white silhouette with smooth young-child head profile, small ear, no spiky tufts or interior hair strokes, no eyes/mouth; slightly plump limbs. Child line #F59B82. Smooth thin single lines, round ends; no double seams/hatching. Flat opaque #FFFCF7 background, pure white bodies; remove paper texture/glow/gradients. Only subtle pale beige ground shadow #EEDCC6 at35%. Keep props softly colored. Do not add scene items/text. Same square image. Specific scene: Child points UP LEFT and tilts head to look at target dot top left. Mimo also looks UP LEFT with one eye visible and beak protruding left, one wing raised. Preserve dotted sightline and target dot, directional relation.",
+        "colorCheck": {
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "exactPixels": {
+            "#fffcf7": 1318608,
+            "#5c5148": 10387,
+            "#f59b82": 23847,
+            "#ff511b": 2740,
+            "#ffffff": 193652
+          }
+        },
+        "asset": "mimo-frame-shared-pointing.png",
+        "notes": "上を指す動作と視線の方向を維持。卵形の頭・丸い羽先・服を整理。 指定色を適用。厳密な造形一致・線幅は未認証。"
+      },
+      {
+        "name": "imitation-arms-up",
+        "animalX": 800,
+        "animalY": 670,
+        "childX": 750,
+        "floor": 1055,
+        "prompt": "Use case precise-object-edit. Image1 edit target; Image2 authoritative MIMO turnaround TOP ROW only; Image3 approved finished style. Preserve original composition, character positions/sizes and specified gestures. Correct Mimo identity from turnaround: smooth egg head narrower at top, head height slightly larger than width, tiny vertical oval eyes, small diamond beak (triangular in side view), ONE leaf crest. Never generic round chick cheeks/muzzle. Preserve scene head direction, do not force frontal. White SHORT SLEEVE T-SHIRT with distinct sleeve cuffs and one curved hem line across torso, separate smooth rounded lower body, orange TWO ROUNDED collar lobes and small side knot, never a triangular bib. Small orange ü chest mark where visible, do not force if occluded. Animal ALL outlines and eyes/beak #5C5148; collar and mark flat #FF511B. Child white silhouette with smooth young-child head profile, small ear, no spiky tufts or interior hair strokes, no eyes/mouth; slightly plump limbs. Child line #F59B82. Smooth thin single lines, round ends; no double seams/hatching. Flat opaque #FFFCF7 background, pure white bodies; remove paper texture/glow/gradients. Only subtle pale beige ground shadow #EEDCC6 at35%. Keep props softly colored. Do not add scene items/text. Same square image. Specific scene: Child raises both arms overhead; Mimo also raises both wings beside head, looking UP LEFT toward child, one eye visible. Keep matching gestures, anatomically five fingers on each open child hand.",
+        "colorCheck": {
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "exactPixels": {
+            "#fffcf7": 1262000,
+            "#5c5148": 9492,
+            "#f59b82": 26783,
+            "#ff511b": 2228,
+            "#ffffff": 244767
+          }
+        },
+        "asset": "mimo-frame-imitation-arms-up.png",
+        "notes": "見上げる顔と両翼を上げる模倣を維持。羽先と丸襟・服を整理。 指定色を適用。厳密な造形一致・線幅は未認証。"
+      },
+      {
+        "name": "request-sign",
+        "animalX": 805,
+        "animalY": 530,
+        "childX": 670,
+        "floor": 1005,
+        "prompt": "Use case precise-object-edit. Image1 edit target; Image2 authoritative MIMO turnaround TOP ROW only; Image3 approved finished style. Preserve original composition, character positions/sizes and specified gestures. Correct Mimo identity from turnaround: smooth egg head narrower at top, head height slightly larger than width, tiny vertical oval eyes, small diamond beak (triangular in side view), ONE leaf crest. Never generic round chick cheeks/muzzle. Preserve scene head direction, do not force frontal. White SHORT SLEEVE T-SHIRT with distinct sleeve cuffs and one curved hem line across torso, separate smooth rounded lower body, orange TWO ROUNDED collar lobes and small side knot, never a triangular bib. Small orange ü chest mark where visible, do not force if occluded. Animal ALL outlines and eyes/beak #5C5148; collar and mark flat #FF511B. Child white silhouette with smooth young-child head profile, small ear, no spiky tufts or interior hair strokes, no eyes/mouth; slightly plump limbs. Child line #F59B82. Smooth thin single lines, round ends; no double seams/hatching. Flat opaque #FFFCF7 background, pure white bodies; remove paper texture/glow/gradients. Only subtle pale beige ground shadow #EEDCC6 at35%. Keep props softly colored. Do not add scene items/text. Same square image. Specific scene: Seated child at left faces RIGHT with both palms open outstretched requesting. Mimo at right faces LEFT with small wings held in front of chest. Keep child's seated crossed legs and palms-up action.",
+        "colorCheck": {
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "exactPixels": {
+            "#fffcf7": 1309138,
+            "#5c5148": 11904,
+            "#f59b82": 22064,
+            "#ff511b": 2246,
+            "#ffffff": 205504
+          }
+        },
+        "asset": "mimo-frame-request-sign.png",
+        "notes": "向き合う横顔と子どもの手のひらを維持。丸い拳状だった羽先と服を整理。 指定色を適用。厳密な造形一致・線幅は未認証。"
+      },
+      {
+        "name": "show-and-receive",
+        "animalX": 765,
+        "animalY": 515,
+        "childX": 690,
+        "floor": 1095,
+        "prompt": "Use case precise-object-edit. Image1 edit target; Image2 authoritative MIMO turnaround TOP ROW only; Image3 approved finished style. Preserve original composition, character positions/sizes and specified gestures. Correct Mimo identity from turnaround: smooth egg head narrower at top, head height slightly larger than width, tiny vertical oval eyes, small diamond beak (triangular in side view), ONE leaf crest. Never generic round chick cheeks/muzzle. Preserve scene head direction, do not force frontal. White SHORT SLEEVE T-SHIRT with distinct sleeve cuffs and one curved hem line across torso, separate smooth rounded lower body, orange TWO ROUNDED collar lobes and small side knot, never a triangular bib. Small orange ü chest mark where visible, do not force if occluded. Animal ALL outlines and eyes/beak #5C5148; collar and mark flat #FF511B. Child white silhouette with smooth young-child head profile, small ear, no spiky tufts or interior hair strokes, no eyes/mouth; slightly plump limbs. Child line #F59B82. Smooth thin single lines, round ends; no double seams/hatching. Flat opaque #FFFCF7 background, pure white bodies; remove paper texture/glow/gradients. Only subtle pale beige ground shadow #EEDCC6 at35%. Keep props softly colored. Do not add scene items/text. Same square image. Specific scene: Young child left in RIGHT-facing profile holds a yellow star toy out to Mimo. Keep star and hand contact and both curved motion accents. Mimo on right faces LEFT toward toy with both wings reaching forward. Remove stray tail and scalloped belly; give smooth lower body. Child head should have a small right-facing nose/chin/ear, no leaf tuft.",
+        "colorCheck": {
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "exactPixels": {
+            "#fffcf7": 1234523,
+            "#5c5148": 17640,
+            "#f59b82": 15449,
+            "#ff511b": 2973,
+            "#ffffff": 257351
+          }
+        },
+        "asset": "mimo-frame-show-and-receive.png",
+        "notes": "星を見せる接触と向きを維持。頭のくびれ、羽先、服を整理。 指定色を適用。厳密な造形一致・線幅は未認証。"
+      }
+    ],
+    "eyebrowAudit": [
+      {
+        "name": "peace-sign",
+        "visibleBrowCount": 2,
+        "corePixels": [
+          65,
+          66
+        ],
+        "method": "生成画像から眉の局所領域だけ合成。色は #5C5148。元画像の他の画素は維持。",
+        "remainingReview": "頭と上げた翼の間にある輪郭の段差を局所修正。眉2本・小さい目・嘴・頭の傾き・人物の画素を維持。 厳密な比率・線幅は未認証。"
+      },
+      {
+        "name": "show-and-receive",
+        "visibleBrowCount": 2,
+        "corePixels": [
+          74,
+          74
+        ],
+        "method": "生成画像から眉の局所領域だけ合成。色は #5C5148。元画像の他の画素は維持。",
+        "remainingReview": "眉2本を維持。肩の段差を滑らかな線へ修正し、翼の重なりの余分な小線を除去。頭・子ども・星の配置は維持。線幅の厳密な適合は未検証。"
+      },
+      {
+        "name": "shared-pointing",
+        "visibleBrowCount": 1,
+        "corePixels": [
+          76
+        ],
+        "method": "生成画像から眉の局所領域だけ合成。色は #5C5148。元画像の他の画素は維持。",
+        "remainingReview": "見える側の眉1本を復元。上向きの視線を維持。頭・目・くちばしの比率と線幅は継続確認。"
+      },
+      {
+        "name": "imitation-arms-up",
+        "visibleBrowCount": 1,
+        "corePixels": [
+          87
+        ],
+        "method": "生成画像から眉の局所領域だけ合成。色は #5C5148。元画像の他の画素は維持。",
+        "remainingReview": "眉1本を維持。両袖口の二重線を一本の境界線へ整理し、目の白いハイライトを除去。頭と子どもの造形・動作は維持。線幅の厳密な適合は未検証。"
+      },
+      {
+        "name": "request-sign",
+        "visibleBrowCount": 1,
+        "corePixels": [
+          141
+        ],
+        "method": "生成画像から眉の局所領域だけ合成。色は #5C5148。元画像の他の画素は維持。",
+        "remainingReview": "前側の翼と袖口の接続部にある突起を局所修正。眉1本・目・横向きの頭・子どもの差し出す手を維持。羽先全体の再設計は採用していない。 厳密な比率・線幅は未認証。"
+      }
+    ]
+  },
+  "mimoDetailReview": {
+    "method": "内蔵imagegenで局所修正を生成し、確認した部分のみ元画像へ合成。輪郭の濃い画素は #5C5148 に正規化。",
+    "images": {
+      "imitation-arms-up": "眉1本を維持。両袖口の二重線を一本の境界線へ整理し、目の白いハイライトを除去。頭と子どもの造形・動作は維持。線幅の厳密な適合は未検証。",
+      "show-and-receive": "眉2本を維持。肩の段差を滑らかな線へ修正し、翼の重なりの余分な小線を除去。頭・子ども・星の配置は維持。線幅の厳密な適合は未検証。",
+      "wave-response": "眉2本を維持し、笑みの目をひと回り小さく調整。手を振り返す穏やかな喜びを表現。頭の輪郭・傾き・くちばし・身体・子どもは維持。輪郭色 #5C5148。顔の拡大と210pxカード表示を確認。"
+    },
+    "prompts": {
+      "imitation": "Use case: precise-object-edit. Image1 edit target, Image2 geometry reference TOP ROW MIMO only. Edit ONLY two tiny details of the bird in image1: (1) remove the white highlight inside its one brown oval eye, make it solid #5C5148; (2) simplify both raised-wing sleeve openings, remove the extra parallel stripe so each short white sleeve has a single clean boundary line between shirt sleeve and wing, NOT a double-line cuff band. Preserve the existing curved eyebrow, exactly the same head contour, head angle, crest, beak, eye placement, orange rounded collar and knot, chest mark, feather tips, feet, child, gestures, layout and colors. No whole scene redesign. Smooth brown outline #5C5148, white body, collar/mark #FF511B, child outline #F59B82, opaque cream background #FFFCF7. Same square canvas. No new objects, text or texture.",
+      "show": "Precise-object-edit on this enlarged crop. Fix ONLY these TWO drawing defects: at about (990,340) the brown right outer shoulder contour has a staggered kink/step. Replace that junction with one uninterrupted smooth curved stroke of consistent thickness, connecting from under the orange knot to the shirt right edge. At (340,105) near the two overlapping wings there is an extra tiny brown loop sticking out left; erase that stray little loop, leaving a clean smooth occlusion junction. Preserve every other contour, orange scarf and orange chest logo, white fills and cream background. Do not add anything, don't redesign hands/wings or shirt. Return identical framing and proportions 3:2.",
+      "wave": "Use case precise-object-edit. Image1 edit target. Image2 reference MIMO top row. Add ONLY the TWO missing tiny gently curved eyebrows above Mimo's two eyes, in brown #5C5148. Eyebrows follow its current gently tilted face. Reference the front Mimo eyebrows of image2. Absolutely preserve head contour, crest, head angle, eye positions, beak, shirt, orange rounded collar, wings, child, colors, background and composition. Same square canvas. NO other modifications."
+    },
+    "verification": "修正部分を拡大確認。画像全体は再生成版に置換せず、対象外の画素を維持。",
+    "remaining": "peace-signの頭と翼の接続部・袖口、request-signの羽先と袖口、全体の線幅と三面図比率を継続精査。"
+  },
+  "waveExpressionReview": {
+    "tool": "built-in imagegen",
+    "prompt": "Precise-object-edit. Reduce both smiling closed eye arches to 65-70 percent of current size, retaining centers, brown color and all other pixels including brows, head and beak.",
+    "note": "眉2本を維持し、笑みの目をひと回り小さく調整。手を振り返す穏やかな喜びを表現。頭の輪郭・傾き・くちばし・身体・子どもは維持。輪郭色 #5C5148。顔の拡大と210pxカード表示を確認。",
+    "method": "生成画像の左右の目の2領域のみ合成。その他の画素は元画像を維持。",
+    "asset": "mimo-frame-wave-response.png",
+    "remaining": "厳密な三面図比率・線幅の数値適合は未検証。"
+  },
+  "threeImageGuidelineReview": {
+    "tool": "built-in imagegen",
+    "prompts": {
+      "body": "Correct image1 against the supplied MODEL REFERENCES, not just similar style. Image1 scene edit target. Image2 Mimo pose model authoritative for EGG HEAD, SMALL oval eye, short eyebrow, flat scalloped collar, T-shirt hem and sleeve shape. Image3 child proportion/head reference. Image4 adult reference. Preserve scene: kneeling adult left pointing to shoulders, kneeling toddler middle both hands touching head, small Mimo right one wing touching head, looking left. Mimo must have an upright egg head narrower upper half like reference2, not near-circular head, small vertical oval eye about 1/12 head width, one tiny curved eyebrow, triangular side beak, single leaf crest. Collar lobes are two shallow rounded scallops under neck, NOT round beads or bow tie; small side knot. Bird head height about 39 percent of crest-to-toe full height, head width about 92 percent of head height. Shirt rounded hem at hips, short sleeves. Child and adult smooth bald-style silhouette without spikes or interior hair, no facial features except profile and small ear, shapes as references. Adult thin pale #F7C6B3 strokes, child #F59B82, bird #5C5148. All bodies white. Mimo collar and ü mark flat #FF511B no outline on collar, no shading. Plain cream #FFFCF7, only thin flat light beige contact shadows. Keep gesture contacts natural, spare uncluttered composition. Square.",
+      "peace": "Precise edit of this flat opaque cartoon bird. Keep every feature and pose. Fix ONLY the tiny step in LEFT HEAD CONTOUR next to raised wing at about x192,y280 in this 660x940 reference. Make that segment one smooth continuous curve, no notch or cheek bump. It must join smoothly into the existing forehead above and cheek below. Keep head tilt, BOTH eyebrows, tiny oval eyes, beak, crest and entire clothes/pose unchanged. Return a clean crisp opaque illustration with white bird and solid cream background, same framing; NO blur, NO transparency, NO dark background.",
+      "request": "Precise line cleanup ONLY. Keep this exact cropped drawing geometry completely unchanged. At x725 y265 (1140x900 input) where the upper edge of front wing meets the sleeve seam there is a tiny DOWNWARD protruding hook. Remove only that tiny hook. Also the pointed upward tail at x1030 y248 at outside sleeve junction is a stray protrusion: remove its top tip so the sleeve meets body neatly. Do not resize, reshape, elongate or move any wing, sleeve, shirt, collar, or hem. Same framing. Opaque white fills/cream background, crisp solid #5C5148 brown line. No texture."
+    },
+    "images": {
+      "peace-sign": "頭と上げた翼の間にある輪郭の段差を局所修正。眉2本・小さい目・嘴・頭の傾き・人物の画素を維持。",
+      "request-sign": "前側の翼と袖口の接続部にある突起を局所修正。眉1本・目・横向きの頭・子どもの差し出す手を維持。羽先全体の再設計は採用していない。",
+      "body-parts-song": "Mimoの卵形の頭、小さな目と眉、丸襟、袖と裾をモデルに照合して修正。人物の髪の突起を除去。大人が肩を指し、子どもとMimoが頭に触れる動作を維持。大人 #F7C6B3／子ども #F59B82／Mimo線 #5C5148／襟とマーク #FF511B／身体 #FFFFFF／背景 #FFFCF7。"
+    },
+    "colorCorePixelsBody": {
+      "#fffcf7": 1118555,
+      "#5c5148": 9839,
+      "#f59b82": 15374,
+      "#f7c6b3": 24739,
+      "#ff511b": 2525,
+      "#f9f1e6": 17499,
+      "#ffffff": 371653
+    },
+    "references": [
+      "assets/user-approved-turnaround.png",
+      "assets/mimo-representative-poses.png",
+      "assets/child-toddlers-rounded.png",
+      "assets/adult-standard-model.png",
+      "animal-line-style.json",
+      "human-silhouette-style.json",
+      "brand-colors.json",
+      "usage-guidelines.html"
+    ],
+    "limitation": "指定HEXの内部画素を確認。輪郭境界の混色は許容。厳密な比率・線幅の数値適合は未認証。"
+  },
+  "mimoNextThreeReview": {
+    "tool": "built-in imagegen",
+    "prompts": {
+      "shapeBubbleFinalPrompt": "Use attached MIMO MODEL as strict construction drawing. Output a SINGLE bird in profile facing LEFT, derived directly from RIGHT SIDE VIEW of supplied drawing. Exactly same head contour and small upright leaf tuft, tiny low-positioned vertical eye, one small thin eyebrow, tiny protruding triangular beak. COPY SIDE HEAD AND FACE from model rather than reinterpret. Side head aspect ratio approximately 0.96, lower cheek softly flattened and broad; no diagonally stretched egg, no bulging high forehead, no huge eye. Full standing bird proportions as model: head excluding tuft about 39% standing height, short compact white shirt and short gently flattened rounded lower body, short thin legs and 3toe feet. Pose: bird looks slightly upward left towards a bubble outside frame, far wing lifted forward/up left, near wing down as reference. Do not enlarge head to create look-up; keep head nearly upright, very slight upwards turn. Side collar shallow one visible front lobe and small rounded side knot. Tapered short wings with tiny 2 feather notches at tip; no finger-like lobes or broad flippers. All outlines, eye, beak, eyebrow #5C5148, white #FFFFFF body/head, collar #FF511B; no chest logo on true side where hidden. Clean thin line illustration with round ends, flat colors NO texture. Isolated full bird with margin on solid #FFFCF7 backdrop, NO shadow, text, arrows, other bird. Do not include model sheet.",
+      "shapeLeadsPrompt": "Use the attached MODEL as a strict character construction drawing. Create ONLY a single Mimo bird matching the LEFT FRONT model exactly, in a mirroring pose: one short wing up to the left, other short wing extends right, one thin bird leg planted and other foot slightly lifted. Compact overall silhouette. It must look like the SAME drawing with its limbs repositioned, not a redesign or a similar bird. KEEP THE FRONT HEAD UPRIGHT, COPY its rounded egg contour, slightly narrow forehead, low broad cheeks, tiny eyes and 2 thin eyebrows, centered small diamond beak, small slender single upright leaf tuft. Do NOT tilt or stretch head. HEAD with no tuft is 122 width x133 height relative to overall standing340; eyes10x20 separated55. Lower body is short with flattened rounded bottom as reference, not a large spherical belly. Collar small shallow 2lobes with rounded side knot. White short sleeve top with single curved waist hem; short tapered wings with tiny subtle 2 feather notches, NOT wide flippers or human fingers. Match feet and legs of reference. All colors override the reference: precise flat brown #5C5148 outlines eyes/beak/brows, white body and head #FFFFFF, small orange collar and ü chest mark #FF511B. Thin clean lines. Solid uniform #FFFCF7 background. NO floor line, shadow, arrows, text, other characters. Single full bird centered with ample margin, portrait composition. Fidelity to the supplied MODEL is the entire purpose.",
+      "shapeChoicePrompt": "Use the attached MODEL as a strict character construction drawing. Create ONLY a single Mimo bird matching the LEFT FRONT model exactly, in an attentive choice-listening pose: one short wing extends gently toward the left at chest height, other short wing rests downward beside body, both thin legs planted. Compact overall silhouette. It must look like the SAME drawing with its limbs repositioned, not a redesign or a similar bird. KEEP THE FRONT HEAD NEARLY UPRIGHT, at most 5 degrees tilted toward the left, COPY its rounded egg contour, slightly narrow forehead, low broad cheeks, tiny eyes and 2 thin eyebrows, centered small diamond beak, small slender single upright leaf tuft. Do NOT tilt or stretch head. HEAD with no tuft is 122 width x133 height relative to overall standing340; eyes10x20 separated55. Lower body is short with flattened rounded bottom as reference, not a large spherical belly. Collar small shallow 2lobes with rounded side knot. White short sleeve top with single curved waist hem; short tapered wings with tiny subtle 2 feather notches, NOT wide flippers or human fingers. Match feet and legs of reference. All colors override the reference: precise flat brown #5C5148 outlines eyes/beak/brows, white body and head #FFFFFF, small orange collar and ü chest mark #FF511B. Thin clean lines. Solid uniform #FFFCF7 background. NO floor line, shadow, arrows, text, other characters. Single full bird centered with ample margin, portrait composition. Fidelity to the supplied MODEL is the entire purpose."
+    },
+    "images": {
+      "bubble-play": "三面図の横向きを直接参照してMimoを再作成。斜めに伸びた頭と大きな冠羽を見直し、小さい目・眉1本、横向きの襟、短い胴体と翼へ修正。人物とシャボン玉は保持。 スカーフの下縁と結び目は枠線なしの #FF511B。頭・服の輪郭線は保持。",
+      "child-leads-imitation": "三面図の正面を直接参照してMimoを再作成。頭の横倒しを抑え、低い頬・小さい目と眉2本・小さい冠羽・短い下半身へ修正。片足を上げる動作、子どもと合図は保持。 スカーフの下縁と結び目は枠線なしの #FF511B。頭・服の輪郭線は保持。",
+      "choice-response": "三面図の正面を直接参照してMimoを再作成。頭と顔の配置、冠羽、浅い襟、短い胴体と翼を見直し。両足で立ち、選ぶ場面を受け止める姿勢。人物・本・ボールは保持。 スカーフの下縁と結び目は枠線なしの #FF511B。頭・服の輪郭線は保持。"
+    },
+    "references": [
+      "assets/user-approved-turnaround.png",
+      "assets/mimo-representative-poses.png",
+      "assets/child-toddlers-rounded.png",
+      "assets/adult-standard-model.png",
+      "animal-line-style.json",
+      "human-silhouette-style.json",
+      "brand-colors.json"
+    ],
+    "method": "前回の鳥の造形への指摘を受け、三面図のみを造形参照として一枚ずつ鳥を再生成。人物・道具を保持して鳥の領域に合成し、線・襟・身体の色を正規化。",
+    "limitation": "指定色の内部画素を確認。輪郭境界はアンチエイリアスによる混色。厳密な比率・線幅の数値適合は未認証。",
+    "selectedSources": [
+      {
+        "name": "bubble-play",
+        "file": "exec-b5005525-a88e-4675-aed7-e0aaac5270e4.png",
+        "box": [
+          790,
+          610,
+          300,
+          510
+        ],
+        "height": 470,
+        "left": 811,
+        "bottom": 1100,
+        "width": 230,
+        "top": 630
+      },
+      {
+        "name": "child-leads-imitation",
+        "file": "exec-9b6ba6bd-a041-4a36-b614-8de651f76906.png",
+        "box": [
+          835,
+          535,
+          375,
+          575
+        ],
+        "height": 535,
+        "left": 864,
+        "bottom": 1090,
+        "width": 301,
+        "top": 555
+      },
+      {
+        "name": "choice-response",
+        "file": "exec-20b22740-05e1-4b99-b241-78462d56c619.png",
+        "box": [
+          985,
+          635,
+          245,
+          390
+        ],
+        "height": 351,
+        "left": 1005,
+        "bottom": 1007,
+        "width": 186,
+        "top": 656
+      }
+    ],
+    "status": "造形再修正・確認用"
+  },
+  "scarfOutlineCorrection": {
+    "assets": [
+      "mimo-frame-bubble-play.png",
+      "mimo-frame-child-leads-imitation.png",
+      "mimo-frame-choice-response.png",
+      "mimo-frame-refusal-boundary.png"
+    ],
+    "rule": "スカーフの下縁と結び目は枠線なしの #FF511B。頭・服の輪郭線は保持。",
+    "method": "imagegenで局所編集を試行。周辺への変化と残った線を確認し、元画像のスカーフ周囲に限定して色を正規化。人物・顔・ポーズは再生成せず保持。"
+  },
+  "mimoReasonDoctorEmotionReview": {
+    "status": "修正・個別確認用",
+    "images": {
+      "choice-with-reason": "Mimoの頭・目・眉・翼を三面図参照で再作成。枠線なしのスカーフと胸マークへ統一。子どもがカードを指し、大人が受け止める場面を保持し、背景の家具と髪の描き込みを整理。",
+      "doctor-pretend": "現在の顔・子ども・聴診器を画素単位で保持。Mimoの下半身だけ、以前の自然な座り方を参照して修正。脚を前へ伸ばし、床にお尻を置く姿勢へ。",
+      "emotion-expression": "上段3つの表情を共通の卵形の頭と嘴へ統一。人の口・耳・舌を除き、喜び・悲しみ・戸惑いを含む苛立ちを眉と目で表現。下段Mimoは気持ちを受け止める眉と胸に添える翼。人物の髪の突起を整理。"
+    },
+    "tool": "built-in imagegen",
+    "prompts": {
+      "doctorSmallPrompt": "Create a square developmental picture card on solid opaque #FFFCF7. Reference1 is Mimo MODEL: copy front bird EXACT head outline/proportions and identity, only reposition limbs to sit. Reference2 is child anatomy/style only. Scene: faceless plump toddler kneeling LEFT facing RIGHT playing doctor; toy stethoscope earpieces at ear, hose loops down, child holds round chestpiece gently against Mimo's CHEST at right. Mimo sits right, two bird feet forward resting; looks at child calmly. Keep clear visible contact hand->round chestpiece->white chest BELOW collar, no contact on face. One hand is holding chestpiece, other rests on child's lap. Entire scene lower two-thirds with plenty blank above. Mimo copy FRONT head as a unit: UPRIGHT symmetrical smooth egg head, no cheek bump or indent; slender upright leaf crest, 2 small eyebrows, 2 tiny vertical oval eyes WITHOUT highlights, small diamond beak. NO ears or human mouth. Mimo shirt short sleeves with curved single hem, short round lowerbody, 2short tapered feather wings, not flippers, feet small3toes. Front head width122height133 fullstanding340 eye10x20 centers55. Small shallow two lobe scarf and side knot FLAT #FF511B WITHOUT ANY outline around orange. Keep only brown chin line above scarf. White body/head, animal outline and eyes #5C5148. Child smooth rounded head with one small ear visible, NO hair tufts, no facial features except subtle profile/ear, short sleeve shirt, rounded toddler limbs. Child outlines #F59B82, white fill. Stethoscope muted warm grey. Thin smooth strokes, no texture, gradient, glow, fake transparency, floor patterns, background furniture, words or arrows. Ground shadow very pale cream. Output scene only not model. CRITICAL SCALE AND FEET: child kneeling silhouette about700px tall on1254 square. Mimo is a SMALL companion only360px seated including crest. Bird head ONLY170px wide, child head320px wide. Mimo must NOT be human-sized. Child's extended arm reaches slightly down toward small Mimo's upper chest. Mimo feet are three THIN BROWN LINE toes attached to short line legs, absolutely NO white-filled duck/webbed/hand-shaped feet. Scarf solid orange NO BROWN LOWER OUTLINE. Chest small orange ü mark. Bird centered aboutx950 y900. Preserve huge clear upper space. Smaller bird is mandatory.",
+      "reasonPrompt": "Use case: identity-preserving illustration edit. Image1 is strict Mimo anatomy authority; image2 is human simplification model. Create a new scene, not the model sheet. Mimo must match second image as SAME character: upright egg head narrower at top with broad low cheek, no cheek bumps, small slender single leaf crest, tiny vertical oval eyes with NO highlights, always eyebrows (2 front /1side), small diamond beak front, no human mouth/ears/nose. Head122x133, eyes10x20 centers55 relative to full340. Compact short-sleeve shirt, single curved hem, short slightly flattened round lower body, short tapered wings with tiny feather notches, short thin legs and bird toes. Preserve body proportions when posing; don't enlarge head or eye. PALETTE: animal lines/eyes/beak #5C5148, child lines #F59B82, adult lines #F7C6B3 thin/pale, body white #FFFFFF, background flat #FFFCF7. Mimo small shallow scalloped scarf and chest ü #FF511B: FLAT ORANGE WITHOUT BROWN OUTLINE around lobes or side knot; head lower outline stays. Thin smooth lines. Children/adults faceless clean smooth rounded head + minimal ear/profile, NO pointy hair tufts/interior hair strokes. Props muted pale colors. No decorative glow, hatching, texture, extra objects or text. Same square composition. Square developmental card: child centered behind low pale wooden tabletop, adult parent cropped on RIGHT leaning and listening, SMALL Mimo at lower LEFT on floor raising short wing to chest thoughtfully. Bird head only140px wide on1254 canvas, full bird350px high; child head280px wide. Bird head FRONT upright egg copied from model, 2 small eyebrows/eyes, no cheek bumps. Child index finger visibly points down onto upper-left card's pale coral circle, other hand rests on table. Table has exactly FOUR cards in TWO rows of TWO: upper-left coral circle, upper-right simple outdoor play pictogram (running child, small green tree and sun); lower-left coral circle, lower-right wooden building blocks forming little house. Four cards evenly spaced and fully visible, explain child's preference/reason. Adult open hand rests beside cards, no obstruction. Child and adult head have smooth contour, no hair strands or pointed tufts, no eyes/mouth. Background empty warm white, REMOVE furniture/plants/cabinets/glow. Thin smooth lines. Scarf and side knot are BORDERLESS FLAT ORANGE. No text, no arrows, no speech bubbles. Preserve strong child/card relationship and subordinate small bird.",
+      "emotionPrompt": "Create square developmental emotion illustration, flat opaque warmwhite #FFFCF7 background. Reference1 is strict MIMO MODEL, reference2 child's simple anatomy. Composition: large faceless child bust lower LEFT facing right, both small closed fists held at chest, shoulders subtly tense; child smooth head and ear/profile, no hair tufts or facial features. SMALL fullbody Mimo lower RIGHT listening empathetically, short wing rests on chest, head with concerned eyebrows. Above child, exactly THREE small separate Mimo head vignettes across upper third: left joy (small curved closed smile-eyes + relaxed raised brows), middle sadness (tiny oval eyes + inner brows raised), right frustration (tiny oval eyes + brows sloping inward). ALL FOUR Mimo heads must use EXACT SAME FRONT MODEL CONTOUR: upright rounded egg, narrow top broad low cheeks, no protruding cheeks, NO ears, tiny slender single crest. ALL have a SMALL DIAMOND BIRD BEAK with center seam, NEVER human mouth, lips, tongue, teeth or frowning mouth. Expression only through brow and eye changes; do not change skull or beak size. No vignette body, neck, wings or ears. Bottom Mimo small vs child, bird full height330px on1254canvas and head120x133, child bust650px tall. Mimo white shirt short sleeves, short rounded lowerbody, fine bird legs/toes, tiny feather notches at wingtip. Orange #FF511B small shallow scalloped scarf and side knot with NO STROKE, orange ü chest mark. All bird lines/eyes #5C5148, child outline #F59B82 white inside. Thin smooth lines. Vignette circles only very pale cream if needed. No large halo or textured background, no text, no arrows, no extra items. Do not copy model's black lines or scarf outlines; override colors and scarf rendering as specified. Preserve anatomical model exactly."
+    },
+    "selectedSources": [
+      {
+        "name": "doctor-pretend",
+        "file": "exec-a1066dba-5a9c-4dd5-b69a-860df2cb4a9b.png"
+      },
+      {
+        "name": "choice-with-reason",
+        "file": "exec-42841f86-0096-46cb-9211-6dacbe0e0d32.png"
+      },
+      {
+        "name": "emotion-expression",
+        "file": "exec-ca6586e1-1e20-4018-ba39-9d007b6509bb.png"
+      }
+    ],
+    "references": [
+      "assets/user-approved-turnaround.png",
+      "assets/child-toddlers-rounded.png",
+      "animal-line-style.json",
+      "human-silhouette-style.json",
+      "brand-colors.json"
+    ],
+    "checks": [
+      "三面図の卵形・冠羽・目・眉・嘴",
+      "スカーフの枠線なし",
+      "子どもの手と道具の接点",
+      "表情の口・耳の誤描写除去",
+      "生成後の指定色補正"
+    ],
+    "limitation": "輪郭と比率は目視照合。厳密な線幅の数値適合は未認証。",
+    "seatedPoseCorrection": {
+      "source": "exec-31cfab50-eef2-4f14-86fc-b7032a63b79b.png",
+      "region": [
+        670,
+        1008,
+        325,
+        127
+      ],
+      "outsideRegionPixelChanges": 0,
+      "face": "前回画像の画素をそのまま保持"
+    }
+  },
+  "mimoExperienceFreezeHiddenReview": {
+    "status": "修正・個別確認用",
+    "images": {
+      "experience-feeling": "写真を指す手と気持ちカードを持つ手の役割を維持。Mimoを横向きモデルから再作成し、眉・目・嘴と枠線なしスカーフを確認。人物の髪と背景の装飾を整理。",
+      "freeze-notice": "子どもとMimoが片足を上げて止まる姿勢を維持。動きの線を除き、停止の合図を残す。Mimoの眉1本・小さい目・嘴を確認し、両翼の袖境界を局所修正。スカーフは枠線なし。",
+      "hidden-find": "子どもが布をつまんで持ち上げ、その下からMimoが見える関係を維持。正面モデルから眉2本・目・嘴・袖・足を再作成。髪の突起と大きな背景の光を整理。"
+    },
+    "tool": "built-in imagegen",
+    "prompts": {
+      "hiddenPrompt": "Create a square developmental illustration. Image1 authoritative MIMO MODEL; image2 child shape reference only. Scene: faceless kneeling toddler LEFT lifts the corner of a soft thin ivory cloth using ONE small hand, revealing SMALL Mimo underneath at lower RIGHT. Child other hand rests on thigh. Cloth hangs diagonally from raised hand near center down toward right floor, clearly partially lifted and open in front of bird, no magic/glow. Child fills left650px high; Mimo full standing300px high on1254canvas, must be small companion. Use strict FRONT Mimo model head and body proportions: head122wide133high relative standing340, upright narrow-top egg, broad smooth low cheeks NO cheek notches/bumps, 2 tiny vertical oval eyes10x20 centers55, 2 tiny eyebrows, small diamond beak, NO human mouth/ears. Single small slender leaf tuft. White short sleeve shirt single curved waist hem, short flattened rounded lowerbody, two short wings down with subtle feather notches, short fine legs and three thin toes touching floor. Tiny orange ü chest. Scarf two shallow orange lobes + little side knot, NO BROWN OUTLINE around orange. Draw child smooth rounded head with subtle ear/profile, no interior face or hair tufts, slightly plump round limbs and simple clothes. Colors EXACT: Mimo outlines/eye/brow/beak #5C5148, child outline #F59B82, white bodies #FFFFFF, scarf/logo #FF511B, background #FFFCF7 flat opaque. Cloth pale warm ivory with just2soft fold lines and minimal shadow. Thin clean smooth strokes, no paper texture, no furniture, no decorative effects, no words. Child hand actually grips cloth corner; Mimo visible below the lifted cloth, feet on floor. Ample upper margin. Output only scene.",
+      "freezePrompt": "Create a square developmental picture card. Ref1 Mimo strict anatomy front/side; ref2 child proportions. Scene: faceless toddler on LEFT, stopped midstep with one knee lifted and two bent elbows, not running forward. SMALL Mimo on RIGHT mirrors a freeze: wings gently opened and one thin bird foot lifted while other planted. Both balanced, ample blank space above. One small pale orange PAUSE symbol (two short vertical bars) in empty space between child and bird, no other motion lines so stopping is clear. Mimo head turned slightly LEFT toward child, use SIDE model as authority: narrow forehead, rounded broad low cheek, tiny one eye and one eyebrow, small left triangular beak, upright narrow leaf crest. Keep head near-upright not stretched diagonal or round ball. Mimo torso short sleeve shirt and compact rounded lowerbody, single waist hem, short wings with tiny feather notches, fine three-toed bird feet. Copy model identity; head122x133 relative340 overall. Child standing height800px, bird standing height410px on1254 canvas. Child head smooth round with small ear/profile, NO pointy hair or face, slightly plump limbs, shirt and shorts and simple shoes. Mimo white #FFFFFF, outlines eye/brow/beak #5C5148, child outline #F59B82 white fill, scarf/logo #FF511B. Scarf small shallow lobes and side knot BORDERLESS flatorange, no brown edge. Side-view collar follow side model not frontal bib. Smooth thin strokes, background opaque flat #FFFCF7, pale grounding shadows only. No texture, halo, words or other objects. Keep expressions calm and attentive.",
+      "experiencePrompt": "Create a square developmental picture card. Ref1 strict Mimo anatomy, ref2 human silhouette model. Scene: seated adult LEFT leans toward child CENTER, child points with index finger down onto a large photo on pale wooden table while holding a happy-face emotion card in other hand near chest. Photo shows family memory outdoors: tiny adult and child seen from behind by a park railing, pastel greens and blue sky, simplified faceless shapes. Exactly TWO spare emotion cards on table RIGHT: yellow happy circular face, light blue sad circular face. Human smile/frown symbols are ONLY on emotion cards, never on Mimo. Small Mimo at upper-right edge of table composition, turned LEFT toward child, one short wing offers open listening gesture, other rests on chest. Bird stands independently by side of table, NOT on photo or hiding hands. Small companion fullheight300px head110wide relative childhead260px on1254canvas. Mimo COPY SIDE HEAD from ref1: smooth upright egg, low broad cheek, tiny oval eye and thin eyebrow, left triangle beak, single slender crest; compact short sleeve shirt, single hem, short lowerbody, short tapered wings with subtle tiny tips and slender three-toe bird feet. No human mouth or ear on bird. Tiny ü chest if visible. Scarf shallow side collar and little knot are FLAT #FF511B WITHOUT brown outlines. Animal outline eyes #5C5148, child outline #F59B82, adult #F7C6B3 thinner, white bodies, opaque #FFFCF7 background. Humans smooth rounded heads and minimal ear/profile, no hair strands or pointed tufts, NO facial features. Child hand actually holds card and separate index finger actually points at photo. Keep objects clearly separate. Pale wooden tabletop only, no cabinets, plants, framed pictures or background furniture. Muted prop colors, no dramatic shadows/glow or texture. Clear uncluttered thin-line story illustration, no words.",
+      "freezeSleevePrompt": "Precise edit of close-up. Add Mimo's short white shirt sleeves at BOTH wing roots with ONE thin brown cuff boundary each. Left sleeve wraps short root near torso, right sleeve wraps near shoulder, making short-sleeved white top unmistakable. Keep wings open exactly same direction/size but make tips tapered with TWO very small shallow feather notches, not 3 big round finger-like lobes. REMOVE brown lower border from orange scarf; scarf must be solid #FF511B edge without stroke, retain brown chin above. Preserve body hem, belly, crop edges, current colors and placement exactly, no new text or logo. Smooth thin #5C5148 lines, white fill. Output same closeup layout and aspect ratio."
+    },
+    "selectedSources": [
+      {
+        "name": "hidden-find",
+        "file": "exec-d650744d-3b08-4f50-bd6f-3c77bd863ff9.png"
+      },
+      {
+        "name": "freeze-notice",
+        "file": "exec-7d4bd3e1-b604-4ccb-a938-0bd55b0b7e5b.png"
+      },
+      {
+        "name": "experience-feeling",
+        "file": "exec-87cfb175-0920-4894-8d5f-8b2a69875ce8.png"
+      }
+    ],
+    "references": [
+      "assets/user-approved-turnaround.png",
+      "assets/child-toddlers-rounded.png",
+      "animal-line-style.json",
+      "human-silhouette-style.json",
+      "brand-colors.json"
+    ],
+    "checks": [
+      "三面図の卵形・冠羽・目・眉・嘴",
+      "スカーフの枠線なし",
+      "子どもの手と道具の接点",
+      "写真と気持ちカード／停止の合図／布を持つ手の関係",
+      "生成後の指定色補正"
+    ],
+    "limitation": "輪郭と比率は目視照合。厳密な線幅の数値適合は未認証。"
+  }
+}
