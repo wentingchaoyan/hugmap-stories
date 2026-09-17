@@ -1,0 +1,50 @@
+{
+  "status": "proposal",
+  "image": "assets/child-toddlers-rounded.png",
+  "types": [
+    "A 赤ちゃん（うつぶせ）",
+    "B 小さい幼児",
+    "C 少し育った幼児"
+  ],
+  "numericImageConformance": "not verified",
+  "ageMapping": "none; illustrative body types only",
+  "styleReference": "../../participatory-growth-frame-studies/gen-frame-prone-dialogue.png",
+  "background": "warm near-white paper with pale contact shadow",
+  "imageUsage": "Two revised toddlers only; baby uses its own image; largest former type remains excluded.",
+  "models": [
+    {
+      "id": "baby",
+      "image": "assets/child-baby-prone.png"
+    },
+    {
+      "id": "small",
+      "image": "assets/child-toddlers-rounded.png",
+      "viewBox": [
+        295,
+        180,
+        445,
+        735
+      ],
+      "approxHeadUnits": 3.1
+    },
+    {
+      "id": "medium",
+      "image": "assets/child-toddlers-rounded.png",
+      "viewBox": [
+        770,
+        145,
+        455,
+        770
+      ],
+      "approxHeadUnits": 3.2
+    }
+  ],
+  "proportionMeasurement": "Manual image landmark estimates; see child-proportion-review-v03.md",
+  "bodyStyle": "modest fullness in torso, arms and legs; stable stance",
+  "displayScale": {
+    "smallRelativeToMedium": 0.82,
+    "alignment": "feet",
+    "purpose": "visual comparison, not age-based stature"
+  },
+  "styleSpecification": "human-silhouette-style.json"
+}
