@@ -1,0 +1,66 @@
+{
+  "source": "ユーザー提供のアプリ色定義",
+  "colorSpace": "sRGB",
+  "tokens": {
+    "whiteColor": "#FFFFFF",
+    "blackColor": "#291712",
+    "mainBackground": "#FFFFFF",
+    "componentPrimaryBackground": "#FF511B",
+    "componentSecondBackground": "#D7C862",
+    "componentThirdBackground": "#DCD5D2",
+    "componentForthBackground": "#7D2741",
+    "componentFifthBackground": "#F4F1F0",
+    "componentSixthBackground": "#291712"
+  },
+  "characterBindings": {
+    "mimoNeck": "componentPrimaryBackground",
+    "lukeNeck": "componentSecondBackground",
+    "genNeck": "componentSecondBackground",
+    "lumiBowtie": "componentForthBackground",
+    "chestMark": "componentPrimaryBackground"
+  },
+  "rules": {
+    "accessoryFillOpacity": 1,
+    "accessoryShading": false,
+    "animalOutline": "#5C5148",
+    "backgroundAndTools": "既存の淡い配色を維持",
+    "geometryReference": "assets/user-approved-turnaround.png",
+    "rasterVerification": "塗り内部をHEX値と照合。アンチエイリアスの縁は除外。"
+  },
+  "existingRasterStatus": "props-main-four.pngの首飾り4点は指定HEXに更新済み。その他の既存画像は未補正。",
+  "propsVerification": {
+    "method": "対象領域の塗り色を直接置換。輪郭との境界は混色を維持。再生成なし。",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "outsideChanges": 0,
+    "alphaChanges": 0,
+    "regions": [
+      {
+        "name": "Mimo",
+        "target": "#FF511B",
+        "changedPixels": 11633,
+        "exactFillPixels": 11060
+      },
+      {
+        "name": "Gen",
+        "target": "#D7C862",
+        "changedPixels": 15556,
+        "exactFillPixels": 15129
+      },
+      {
+        "name": "Luke",
+        "target": "#D7C862",
+        "changedPixels": 12406,
+        "exactFillPixels": 11801
+      },
+      {
+        "name": "LUMI",
+        "target": "#7D2741",
+        "changedPixels": 11901,
+        "exactFillPixels": 11502
+      }
+    ]
+  }
+}

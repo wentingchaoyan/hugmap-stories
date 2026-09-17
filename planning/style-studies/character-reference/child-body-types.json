@@ -1,5 +1,5 @@
 {
-  "status": "proposal",
+  "status": "現在の掲載見本・厳密な数値適合は未検証",
   "image": "assets/child-toddlers-rounded.png",
   "types": [
     "A 赤ちゃん（うつぶせ）",
@@ -39,7 +39,7 @@
       "approxHeadUnits": 3.2
     }
   ],
-  "proportionMeasurement": "Manual image landmark estimates; see child-proportion-review-v03.md",
+  "proportionMeasurement": "掲載画像の頭部・全身の目視計測による概算。医学的な年齢・身長基準ではない。",
   "bodyStyle": "modest fullness in torso, arms and legs; stable stance",
   "displayScale": {
     "smallRelativeToMedium": 0.82,

@@ -1,8 +1,8 @@
 {
-  "status": "再構成案・形状照合待ち",
+  "status": "現在の掲載見本・厳密な数値適合は未検証",
   "geometry": "assets/user-approved-turnaround.png",
   "source": "../../participatory-growth-frames/stage-illustration-inventory-review.html",
-  "color_policy": "今回指定の実例を参照。従来の黒い胸記号指定に対し、このポーズ版は実例の橙を採用。正確な色コードは未測定。",
+  "color_policy": "識別小物と胸マークはbrand-colors.json、線はanimal-line-style.jsonを優先。実例はポーズと道具の参考。掲載PNGの色補正は未完了。",
   "lumi": "ユーザー指示により保留",
   "characters": [
     {
@@ -26,7 +26,7 @@
           "いらない、も届いている"
         ]
       ],
-      "palette": "白い身体・服／茶系の線と顔／橙の丸襟状スカーフ・胸の記号",
+      "palette": "白い身体・服／線と顔 #5C5148／丸襟状スカーフ・胸の記号 #FF511B",
       "fix": "服の袖・裾、細い鳥脚、短い翼を三面図に戻す。初稿の余分な結びを削除。",
       "review": "冠羽と頭の比率、眉・目・嘴の位置、翼長を三面図と照合する。",
       "output": "assets/mimo-representative-poses.png"
@@ -52,7 +52,7 @@
           "ならべたら、電車になった"
         ]
       ],
-      "palette": "白い毛・ベスト／灰茶の線／濃茶の眼鏡と顔／淡い黄のスカーフ／橙の胸の記号",
+      "palette": "白い毛・ベスト／線・眼鏡と顔 #5C5148／スカーフ #D7C862／胸の記号 #FF511B",
       "fix": "丸眼鏡・前結びスカーフ・2つのポケット・短い脚・巻いた尻尾を三面図に従って再構成。",
       "review": "耳の大きさ、頭と胴の量感、尻尾の付け根と外形を三面図と照合する。",
       "output": "assets/luke-representative-poses.png"
@@ -78,7 +78,7 @@
           "寄りかかって、ひと休み"
         ]
       ],
-      "palette": "白〜淡い生成りの身体・服／茶の線と顔／黄の首飾りとボール／淡いピンクの耳内側／橙の胸の記号",
+      "palette": "白い身体・服／線と顔 #5C5148／首飾り #D7C862／淡い黄色のボール／淡いピンクの耳内側／胸の記号 #FF511B",
       "fix": "角丸の頭、折れた耳、袖と裾、短い口と前歯を三面図へ合わせる。背中は三面図どおり無地。",
       "review": "頭胴比・耳の角度と見え方・座位の脚の長さを三面図と照合する。",
       "output": "assets/gen-representative-poses.png"

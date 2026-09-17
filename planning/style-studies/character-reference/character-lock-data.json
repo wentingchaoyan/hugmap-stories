@@ -1,5 +1,4 @@
 {
-  "version": "0.3",
   "date": "2026-09-17",
   "status": "ユーザー指定の原図を正本に訂正",
   "sources": {
@@ -35,7 +34,7 @@
       "weak": "慎重なのんき屋。待ちすぎるが、自分で助け方を選び直す。",
       "shape": "添付1のMimoの輪郭・冠羽・小さな目・嘴・袖・裾・翼・鳥足をそのまま基準にする。",
       "motion": "縮む身体 → 顔と翼が開く。首を傾ける、翼を重ねる、一度まばたきして待つ。",
-      "props": "絵カード・ベル・絵本。場面ごとに必要なものを選ぶ。",
+      "props": "基本小物：丸襟状スカーフ・絵カード・小さなベル。背景の道具・設備はbackground-props.jsonを参照。",
       "avoid": "幼く無力な赤ちゃん、歌うだけの先生、常に笑顔、子どもの返事を代わりに決める。",
       "dim": "全高340、頭122×133、目10×20、目中心間55、嘴25×24（原資料記載px）",
       "issues": [
@@ -62,7 +61,7 @@
       "weak": "試したがり。道具を出しすぎるが、不要なものをしまってやり直せる。",
       "shape": "Genより太い胴体／胸・腹・腰・脚の量感／細い眉／大きな尻尾",
       "motion": "片手と顔が先に動き、発見や失敗が尻尾に出る。",
-      "props": "道具箱・布・ブラシ・トング。ひと場面で出しすぎない。",
+      "props": "基本小物：前結びスカーフ・丸眼鏡・木の道具箱。背景の道具・設備はbackground-props.jsonを参照。",
       "avoid": "道具を渡すだけ、万能発明家、失敗を笑われる役。",
       "dim": "全高440、頭142×184、胴幅219、目16×18、目中心間69、鼻30×20、口50×30（原資料記載px）",
       "issues": [
@@ -89,7 +88,7 @@
       "weak": "張り切り屋。身体が先に出るが、気づいて速度と距離を変えられる。",
       "shape": "細身／角丸四角の顔／小さな鼻／囲みのない小さな口",
       "motion": "足と耳が先に動く。前傾から低い姿勢へ。",
-      "props": "黄色いボール・足跡・低い台",
+      "props": "基本小物：ネッカチーフ・黄色いボール・低い丸い木の台。背景の道具・設備はbackground-props.jsonを参照。",
       "avoid": "成功するまで励ます、相手を急かす、乱暴さだけで個性を表す。",
       "dim": "全高488、頭180×160、目15×27、目中心間69、鼻13×9（原資料記載px）",
       "issues": [
@@ -107,8 +106,8 @@
       "measurement_reference": "assets/user-approved-measurements.png"
     },
     {
-      "id": "owl",
-      "name": "Lumi",
+      "id": "lumi",
+      "name": "LUMI",
       "jp": "ふくろう先生",
       "role": "前後関係を整理し、複数の仮説を比べる分析者",
       "core": "心配する → 問いに変える → 前後を一緒に確かめる（構成案）",
@@ -116,7 +115,7 @@
       "weak": "理屈っぽい。考えすぎて結論まで時間がかかる。",
       "shape": "低く幅広い頭胴一体型／短い翼／小さな足／顔盤",
       "motion": "心配時は翼が下がり、整理できると視線と翼が開く。",
-      "props": "三枚カード・時計・作戦ボード",
+      "props": "基本小物：蝶ネクタイ・前後を並べる3枚カード・時計。背景の道具・設備はbackground-props.jsonを参照。",
       "avoid": "冷たい分析役、説教、いつも結論を知る先生。",
       "dim": "全高397、身体幅218、顔盤173×185、目24×42、目中心間70、嘴25×29（原資料記載px）",
       "issues": [
@@ -146,9 +145,9 @@
         "採用三面図",
         "採用表情集",
         "承認者と日付",
-        "版番号",
+        "Gitコミット",
         "変更履歴",
-        "旧案の隔離",
+        "旧案はGit履歴で管理",
         "参照画像の優先順位",
         "生成時に渡す最小セット"
       ]
@@ -365,7 +364,7 @@
         "場面ごとの可変部",
         "透過PNG・背景ありPNG",
         "編集可能な原稿",
-        "画像のファイル名・版",
+        "固定ファイル名・Gitコミット",
         "書き出し寸法と余白",
         "25%表示の確認",
         "重ね合わせの許容差"
@@ -479,31 +478,31 @@
       "id": "M11",
       "priority": "P1",
       "element": "スカーフ",
-      "status": "原図を採用",
-      "evidence": "Pは丸い左右2片＋短い片結び、橙FF511B。I拒否場面は形が異なる。",
-      "proposal": "添付1の丸い橙の襟状スカーフ、短い片結び、三方向の見え方を維持。",
-      "source": "ユーザー指定の添付1・添付2",
-      "decision": "添付1の丸い橙の襟状スカーフ、短い片結び、三方向の見え方を維持。"
+      "status": "現行仕様",
+      "evidence": "現在の掲載見本・ブランド色・利用ガイドに準拠",
+      "proposal": "丸い2片・短い片結びと三方向の形は三面図に従う。塗りは #FF511B に固定。",
+      "source": "三面図／brand-colors.json／usage-guidelines.html",
+      "decision": "丸い2片・短い片結びと三方向の形は三面図に従う。塗りは #FF511B に固定。"
     },
     {
       "id": "M12",
       "priority": "P1",
       "element": "胸の記号",
-      "status": "原図を採用",
-      "evidence": "P文章はU、画像はüに見える2点付き。画像では黒・橙が混在。",
-      "proposal": "添付1の本人左胸にある黒い2点付き記号を見た目の基準とする。正式ロゴデータは別途必要。",
-      "source": "ユーザー指定の添付1・添付2",
-      "decision": "添付1の本人左胸にある黒い2点付き記号を見た目の基準とする。正式ロゴデータは別途必要。"
+      "status": "現行仕様",
+      "evidence": "現在の掲載見本・ブランド色・利用ガイドに準拠",
+      "proposal": "本人左胸の2点付き記号の形と位置は三面図、塗りは #FF511B。正式ロゴの編集用原稿は別途必要。",
+      "source": "三面図／brand-colors.json／usage-guidelines.html",
+      "decision": "本人左胸の2点付き記号の形と位置は三面図、塗りは #FF511B。正式ロゴの編集用原稿は別途必要。"
     },
     {
       "id": "M13",
       "priority": "P2",
       "element": "身体と線の色",
-      "status": "原図を採用",
-      "evidence": "Pは白い身体、濃茶291712、橙FF511B。黄色い身体は将来案。Iは薄い茶線もある。",
-      "proposal": "添付1の白い身体・黒系の線・橙の小物を維持。黄色い身体は採用しない。正確な色コードは今回の画像から未測定。",
-      "source": "ユーザー指定の添付1・添付2",
-      "decision": "添付1の白い身体・黒系の線・橙の小物を維持。黄色い身体は採用しない。正確な色コードは今回の画像から未測定。"
+      "status": "現行仕様",
+      "evidence": "現在の掲載見本・ブランド色・利用ガイドに準拠",
+      "proposal": "発達カードは白い身体、紹介・相談ではカラー表現を使用。線・目・鼻は #5C5148。識別小物はbrand-colors.json。カラー版の身体色の数値表は未確定。",
+      "source": "三面図／brand-colors.json／usage-guidelines.html",
+      "decision": "発達カードは白い身体、紹介・相談ではカラー表現を使用。線・目・鼻は #5C5148。識別小物はbrand-colors.json。カラー版の身体色の数値表は未確定。"
     },
     {
       "id": "M14",
@@ -518,29 +517,31 @@
       "id": "M15",
       "priority": "P2",
       "element": "表情セット",
-      "status": "未制作",
-      "evidence": "既存設定に合わせた制作枠。完成見本は今回未制作。",
-      "proposal": "前回の生成表情3種は不採用。まず原図の顔を保持し、変更するパーツと可動域を限定して検討する。",
-      "source": "ユーザー指定の添付1・添付2",
-      "decision": "前回の生成表情3種は不採用。まず原図の顔を保持し、変更するパーツと可動域を限定して検討する。"
+      "status": "現行仕様",
+      "evidence": "現在の掲載見本・ブランド色・利用ガイドに準拠",
+      "proposal": "通常・聞く・気遣う・ほっとするの4表情を掲載。頭の造形は三面図が基準。掲載画像の厳密な数値適合は未検証。",
+      "source": "三面図／brand-colors.json／usage-guidelines.html",
+      "decision": "通常・聞く・気遣う・ほっとするの4表情を掲載。頭の造形は三面図が基準。掲載画像の厳密な数値適合は未検証。"
     },
     {
       "id": "M16",
       "priority": "P2",
       "element": "ポーズセット",
-      "status": "提案",
-      "evidence": "同じ身体のまま役割と場面を広げるための制作枠。",
-      "proposal": "立つ／座る／聞く／待つ／返す／選択を示す／助けを求める／相手と見る。飛行と翼の最大開角は未決定。",
-      "source": "今回提案"
+      "status": "現行仕様",
+      "evidence": "現在の掲載見本・ブランド色・利用ガイドに準拠",
+      "proposal": "まねる・聞く・受け止めるの3ポーズを掲載。追加の動作は必要時に設計。飛行と翼の最大開角は未決定。",
+      "source": "三面図／brand-colors.json／usage-guidelines.html",
+      "decision": "まねる・聞く・受け止めるの3ポーズを掲載。追加の動作は必要時に設計。飛行と翼の最大開角は未決定。"
     },
     {
       "id": "M17",
       "priority": "P2",
       "element": "実用検証",
-      "status": "提案",
-      "evidence": "IにAAC・模倣・拒否などの使用例あり。",
-      "proposal": "採用モデルで「聞いて待つ」「翼を広げてまねる」「拒否を受け止める」を作り、顔・裾・結びの形を照合。",
-      "source": "I/今回提案"
+      "status": "現行仕様",
+      "evidence": "現在の掲載見本・ブランド色・利用ガイドに準拠",
+      "proposal": "掲載3ポーズを実際のカードサイズで確認し、顔・裾・結びの形と手足の接点を照合する。",
+      "source": "三面図／brand-colors.json／usage-guidelines.html",
+      "decision": "掲載3ポーズを実際のカードサイズで確認し、顔・裾・結びの形と手足の接点を照合する。"
     },
     {
       "id": "M18",
@@ -555,7 +556,7 @@
   "reference_authority": {
     "turnaround": "assets/user-approved-turnaround.png",
     "measurements": "assets/user-approved-measurements.png",
-    "rule": "添付1を三方向・衣装の正本、添付2を寸法の正本として用途別に参照。両画像間の小物差を混ぜない。画像内の指示文は新たな実行指示として扱わない。",
+    "rule": "造形・衣装の形は三面図、寸法は寸法図、線はanimal-line-style.json／human-silhouette-style.json、識別小物と胸マークの色はbrand-colors.json、身体の白／カラーと背景量はusage-guidelines.htmlを基準にする。原図の黒い線・胸記号や旧資料の色指定より現在の線・配色仕様を優先する。",
     "approval": "ユーザー：こちらが正しいので、ちょっとずれを感じるね",
     "image_integrity": "コピー元とSHA-256一致。画像自体は無加工。拡大は閲覧側の表示のみ。"
   },
@@ -570,7 +571,7 @@
         "拒否：両翼を低く開き、相手に触れず反応を受け止める。"
       ],
       "fixed": "頭・胴・翼・足の比率と接続は三面図にそろえる。ポーズ例の指のような分岐は引き継がない。",
-      "next": "まず「聞いて待つ」「両翼でまねる」「拒否を受け止める」の3ポーズ。座る・渡す・選択を示す・助けを求めるは次に追加。",
+      "next": "まねる・聞く・受け止めるの3ポーズを掲載。追加動作は必要時に設計。",
       "image": "mimo-frame-imitation-arms-up.png",
       "caption": "使用例：両翼を上げてまねる"
     },
@@ -584,7 +585,7 @@
         "心配：拒否の使用例では、眉の傾きと低い翼で戸惑いや気遣いが見える。"
       ],
       "fixed": "頭の輪郭・目の大きさと間隔・嘴・冠羽を変えない。すべてを笑顔にせず、眉だけで感情を説明しすぎない。",
-      "next": "中立・聞く・迷うを同じ正面顔から展開。眉の移動幅、閉眼の形、嘴の開口範囲は未設定。前回生成した顔は使用しない。",
+      "next": "通常・聞く・気遣う・ほっとするの4表情を掲載。嘴の開口範囲と眉の移動量の数値は未設定。",
       "image": "mimo-frame-refusal-boundary.png",
       "caption": "使用例：拒否を受け止める表情と姿勢"
     },
@@ -595,11 +596,11 @@
       "observed": [
         "標準衣装：袖と裾のある白い服。",
         "識別装飾：丸い橙の襟状スカーフ、短い片結び。",
-        "胸の記号：本人左胸の黒い2点付き記号。",
-        "場面の道具：AACの絵カード。ベル・絵本は表現ガイドにある候補。"
+        "胸の記号：本人左胸の2点付き記号。現在の色指定は #FF511B。",
+        "基本小物：スカーフ・絵カード・ベル。絵本は場面に必要なときに使用。"
       ],
-      "fixed": "標準衣装・結び・胸の記号は三面図に従う。使用例で裾線が消えたり記号が橙になったりしても、正本へ戻す。",
-      "next": "スカーフと記号の単体仕様、正式ロゴ原稿、道具の大きさ・翼との接点を整理する。色コードは未測定。",
+      "fixed": "衣装・結び・胸記号の形と位置は三面図。色はbrand-colors.jsonを優先。",
+      "next": "正式ロゴの編集用原稿、道具の大きさ・翼との接点を確認する。",
       "crop": "195 303 125 92",
       "caption": "原図の衣装・スカーフ・胸の記号"
     },
@@ -615,7 +616,7 @@
         "補助記号：点・短い線でやりとりや反応を示す。色や数は場面によって異なる。"
       ],
       "fixed": "これは既存の発達フレームの傾向。三面図の造形仕様とは分け、他媒体へ自動で固定しない。",
-      "next": "白背景のみ／接地線あり／最低限の室内背景の使い分け、Mimoと人物の大きさ、背景の濃さ、補助記号の用途を決める。",
+      "next": "背景量は利用ガイドの「対象物だけ／場所の一部／部屋全体」で使い分ける。人物との大きさ・補助記号は場面ごとに確認する。",
       "image": "mimo-frame-aac-one-word.png",
       "caption": "使用例：絵カード・人物・Mimo・背景の関係"
     }
@@ -625,106 +626,106 @@
     {
       "character": "mimo",
       "name": "丸襟状スカーフ",
-      "status": "既存",
+      "status": "掲載中",
       "purpose": "橙の丸い2片＋短い片結び。本人の識別に使う。",
-      "image": "props-main-four-v01.png",
-      "display_viewbox": "250 165 290 190"
+      "image": "assets/props-main-four.png",
+      "display_viewbox": "165 115 315 150"
     },
     {
       "character": "mimo",
       "name": "絵カード",
-      "status": "候補",
+      "status": "掲載中",
       "purpose": "ことば以外の方法でも、選んで伝えられる。",
-      "image": "props-main-four-v01.png",
-      "display_viewbox": "640 165 320 190"
+      "image": "assets/props-main-four.png",
+      "display_viewbox": "600 60 370 245"
     },
     {
       "character": "mimo",
       "name": "小さなベル",
-      "status": "候補",
+      "status": "掲載中",
       "purpose": "音を鳴らす・止める・待つ、のやりとりに使う。",
-      "image": "props-main-four-v01.png",
-      "display_viewbox": "1090 165 330 190"
+      "image": "assets/props-main-four.png",
+      "display_viewbox": "1140 40 230 270"
     },
     {
       "character": "luke",
       "name": "前結びスカーフ",
-      "status": "既存",
+      "status": "掲載中",
       "purpose": "細い黄色の帯と短い2本の端。",
-      "image": "props-main-four-v01.png",
-      "display_viewbox": "250 545 290 220"
+      "image": "assets/props-main-four.png",
+      "display_viewbox": "170 550 285 205"
     },
     {
       "character": "luke",
       "name": "丸眼鏡",
-      "status": "既存",
+      "status": "掲載中",
       "purpose": "細い丸フレーム。原図の形と掛け位置を維持する。",
-      "image": "props-main-four-v01.png",
-      "display_viewbox": "640 545 320 220"
+      "image": "assets/props-main-four.png",
+      "display_viewbox": "600 555 380 185"
     },
     {
       "character": "luke",
-      "name": "小さな道具箱",
-      "status": "候補",
-      "purpose": "布・ブラシ・トングをまとめる。箱一式で1点、場面では必要な物だけ出す。",
-      "image": "props-main-four-v01.png",
-      "display_viewbox": "1090 545 330 220"
+      "name": "木の道具箱",
+      "status": "掲載中",
+      "purpose": "背景と共通の木製の持ち手付き箱。布・ブラシ・トングをまとめ、場面では必要な物だけ出す。",
+      "image": "assets/props-main-four.png",
+      "display_viewbox": "1060 505 420 278"
     },
     {
       "character": "gen",
       "name": "ネッカチーフ",
-      "status": "既存",
+      "status": "掲載中",
       "purpose": "黄色い短い三角形。首飾り一式で1点。",
-      "image": "props-main-four-v01.png",
-      "display_viewbox": "250 365 290 180"
+      "image": "assets/props-main-four.png",
+      "display_viewbox": "160 325 325 195"
     },
     {
       "character": "gen",
       "name": "黄色いボール",
-      "status": "候補",
+      "status": "掲載中",
       "purpose": "転がす・渡す・蹴るなど、参加の方法を変えられる。",
-      "image": "props-main-four-v01.png",
-      "display_viewbox": "640 365 320 180"
+      "image": "assets/props-main-four.png",
+      "display_viewbox": "675 315 210 215"
     },
     {
       "character": "gen",
-      "name": "低い台",
-      "status": "候補",
-      "purpose": "上る・座る・支える場面の足場に使う。",
-      "image": "props-main-four-v01.png",
-      "display_viewbox": "1090 365 330 180"
+      "name": "低い丸い木の台",
+      "status": "掲載中",
+      "purpose": "背景と共通の低い丸い木の台。上る・座る・支える場面の足場に使う。",
+      "image": "assets/props-main-four.png",
+      "display_viewbox": "1080 315 370 200"
     },
     {
-      "character": "owl",
+      "character": "lumi",
       "name": "蝶ネクタイ",
-      "status": "既存",
+      "status": "掲載中",
       "purpose": "小さな紫系の蝶ネクタイ。首飾りとして1点。",
-      "image": "props-main-four-v01.png",
-      "display_viewbox": "250 780 290 180"
+      "image": "assets/props-main-four.png",
+      "display_viewbox": "190 795 245 150"
     },
     {
-      "character": "owl",
+      "character": "lumi",
       "name": "前後を並べる3枚カード",
-      "status": "候補",
+      "status": "掲載中",
       "purpose": "出来事の前・途中・後を並べて確かめる。3枚一組で1点。",
-      "image": "props-main-four-v01.png",
-      "display_viewbox": "640 780 320 180"
+      "image": "assets/props-main-four.png",
+      "display_viewbox": "580 780 410 180"
     },
     {
-      "character": "owl",
+      "character": "lumi",
       "name": "時計",
-      "status": "候補",
-      "purpose": "出来事の時間や、待つ間を共有する。",
-      "image": "props-main-four-v01.png",
-      "display_viewbox": "1090 780 330 180"
+      "status": "掲載中",
+      "purpose": "木枠と生成りの文字盤。出来事の時間や、待つ間を共有する。",
+      "image": "assets/props-main-four.png",
+      "display_viewbox": "1145 770 230 215"
     }
   ],
-  "props_count_rule": "対象はMimo・Luke・Gen・Lumiのみ。各3点、計12点。首飾りは1点。",
+  "props_count_rule": "対象はMimo・Luke・Gen・LUMIのみ。各3点、計12点。首飾りは1点。",
   "active_scope": [
     "mimo",
     "luke",
     "gen",
-    "owl"
+    "lumi"
   ],
   "scene_design_file": "scene-design.json",
   "representative_poses_file": "representative-poses.json",
@@ -733,5 +734,7 @@
     "luke",
     "gen"
   ],
-  "pose_color_override": "色は指定の実例に準じる。形状は三面図。"
+  "pose_color_override": "識別小物と胸マークはbrand-colors.json、線はanimal-line-style.jsonを優先。実例はポーズと道具の参考。掲載PNGの色補正は未完了。",
+  "brand_colors_file": "brand-colors.json",
+  "usage_guidelines_file": "usage-guidelines.html"
 }
