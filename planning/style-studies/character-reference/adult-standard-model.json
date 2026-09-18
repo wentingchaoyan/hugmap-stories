@@ -1,0 +1,28 @@
+{
+  "status": "現在の掲載見本・厳密な数値適合は未検証",
+  "image": "assets/adult-standard-model.png",
+  "bodyTypes": 1,
+  "views": [
+    "front",
+    "side"
+  ],
+  "poses": [
+    "seated-listening",
+    "squat-waiting",
+    "bending-reaching",
+    "seated-holding-book"
+  ],
+  "invariantsProposed": [
+    "blank face",
+    "rounded head",
+    "long sleeve top and trousers",
+    "soft pale coral line",
+    "white fill"
+  ],
+  "pending": [
+    "head-body consistency",
+    "hand anatomy and contact points",
+    "scale beside children B and C"
+  ],
+  "styleSpecification": "human-silhouette-style.json"
+}

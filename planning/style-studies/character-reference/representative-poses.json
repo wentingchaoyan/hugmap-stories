@@ -1,0 +1,87 @@
+{
+  "status": "現在の掲載見本・厳密な数値適合は未検証",
+  "geometry": "assets/user-approved-turnaround.png",
+  "source": "../../participatory-growth-frames/stage-illustration-inventory-review.html",
+  "color_policy": "識別小物と胸マークはbrand-colors.json、線はanimal-line-style.jsonを優先。実例はポーズと道具の参考。掲載PNGの色補正は未完了。",
+  "lumi": "ユーザー指示により保留",
+  "characters": [
+    {
+      "id": "mimo",
+      "name": "Mimo",
+      "row": "150 190 750 245",
+      "poses": [
+        [
+          "まねる",
+          "mimo-frame-imitation-arms-up.png",
+          "おなじポーズ、できた"
+        ],
+        [
+          "聞く",
+          "mimo-frame-aac-one-word.png",
+          "ひとつ選んで、届いた"
+        ],
+        [
+          "受け止める",
+          "mimo-frame-refusal-boundary.png",
+          "いらない、も届いている"
+        ]
+      ],
+      "palette": "白い身体・服／線と顔 #5C5148／丸襟状スカーフ・胸の記号 #FF511B",
+      "fix": "服の袖・裾、細い鳥脚、短い翼を三面図に戻す。初稿の余分な結びを削除。",
+      "review": "冠羽と頭の比率、眉・目・嘴の位置、翼長を三面図と照合する。",
+      "output": "assets/mimo-representative-poses.png"
+    },
+    {
+      "id": "luke",
+      "name": "Luke",
+      "row": "0 870 1024 310",
+      "poses": [
+        [
+          "観察する",
+          "luke-frame-tiny-discovery.png",
+          "その小さなもの、発見"
+        ],
+        [
+          "座って見守る",
+          "luke-frame-shared-build.png",
+          "積んで、タワーになった"
+        ],
+        [
+          "片手を差し出す",
+          "luke-frame-arrange-pretend-train.png",
+          "ならべたら、電車になった"
+        ]
+      ],
+      "palette": "白い毛・ベスト／線・眼鏡と顔 #5C5148／スカーフ #D7C862／胸の記号 #FF511B",
+      "fix": "丸眼鏡・前結びスカーフ・2つのポケット・短い脚・巻いた尻尾を三面図に従って再構成。",
+      "review": "耳の大きさ、頭と胴の量感、尻尾の付け根と外形を三面図と照合する。",
+      "output": "assets/luke-representative-poses.png"
+    },
+    {
+      "id": "gen",
+      "name": "Gen",
+      "row": "0 480 1024 340",
+      "poses": [
+        [
+          "ボールを返す",
+          "gen-frame-ball-exchange.png",
+          "そっちへ、どうぞ"
+        ],
+        [
+          "後ろから走る",
+          "gen-frame-follow-running.png",
+          "走る子どもの、そのあとを"
+        ],
+        [
+          "休む",
+          "gen-frame-relax-leaning-together.png",
+          "寄りかかって、ひと休み"
+        ]
+      ],
+      "palette": "白い身体・服／線と顔 #5C5148／首飾り #D7C862／淡い黄色のボール／淡いピンクの耳内側／胸の記号 #FF511B",
+      "fix": "角丸の頭、折れた耳、袖と裾、短い口と前歯を三面図へ合わせる。背中は三面図どおり無地。",
+      "review": "頭胴比・耳の角度と見え方・座位の脚の長さを三面図と照合する。",
+      "output": "assets/gen-representative-poses.png"
+    }
+  ]
+}

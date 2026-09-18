@@ -1,0 +1,32 @@
+{
+  "scope": "child and adult human silhouettes only; animal character styling excluded",
+  "referenceCanvasPx": [
+    1536,
+    1024
+  ],
+  "colors": {
+    "childOutline": "#F59B82",
+    "adultOutline": "#F7C6B3",
+    "bodyFill": "#FFFFFF",
+    "background": "#FFFCF7",
+    "contactShadow": "#EEDCC6"
+  },
+  "strokes": {
+    "child": {
+      "outerPx": 4,
+      "innerPx": 3
+    },
+    "adult": {
+      "outerPx": 3,
+      "innerPx": 2.5
+    },
+    "cap": "round",
+    "join": "round",
+    "opacity": 1,
+    "widthVariationMaxPercent": 10
+  },
+  "contactShadowOpacity": 0.35,
+  "scaling": "At 1536x1024 use child 4/3 px and adult 3/2.5 px. Do not change stroke by body size within each role. Scale geometry and strokes together at export.",
+  "texture": "subtle edge grain; no broken contours, double strokes or glow",
+  "existingRasterCompliance": "unverified; this is the production standard for future work, not a claim that existing generated images already match"
+}

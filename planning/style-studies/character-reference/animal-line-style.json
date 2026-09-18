@@ -1,0 +1,40 @@
+{
+  "status": "production-target; raster-preview-not-certified",
+  "characters": [
+    "mimo",
+    "luke",
+    "gen"
+  ],
+  "color": "#5C5148",
+  "outer": 4,
+  "internal": 3,
+  "detail": 2.5,
+  "unit": "px",
+  "basis": {
+    "canvas": [
+      1536,
+      1024
+    ],
+    "standing_heights": {
+      "mimo": 340,
+      "luke": 440,
+      "gen": 488
+    },
+    "description": "同一場面・同一縮尺で共通線幅。キャラクター単体の身長に比例させない。基準画面の拡縮時は全線幅も同倍率。"
+  },
+  "caps": "round",
+  "joins": "round",
+  "opacity": 1,
+  "eye_nose_fill": "#5C5148",
+  "glasses": "outer",
+  "beak_outer": "internal",
+  "beak_divider_teeth_brows_mouth": "detail",
+  "authority": "user-approved-turnaround.png determines geometry; this specification determines new line styling",
+  "workflow": [
+    "三面図の造形と共通線仕様",
+    "ポーズの重なり・接地",
+    "表情の細部",
+    "最終掲載サイズで判読確認"
+  ],
+  "raster_status": "Generated previews visually reviewed. Exact hex, stroke widths and geometry invariance are not certified."
+}
