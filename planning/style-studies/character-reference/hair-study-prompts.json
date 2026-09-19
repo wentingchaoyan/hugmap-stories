@@ -1,0 +1,23 @@
+{
+  "mode": "built-in image_gen",
+  "useCase": "precise-object-edit",
+  "prompts": [
+    {
+      "asset": "toddlers",
+      "input": "/Users/tingwen/Developer/Github/hugmap-stories/planning/style-studies/character-reference/assets/child-toddlers-rounded.png",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied two-toddler model sheet. Make an extremely restrained edit: add just a little simple short hair to BOTH toddlers. Preserve this EXACT 1536x1024 canvas, both figures' exact positions, size, blank faces, head shape, ears, clothes, bodies, hands, feet, poses, white fill, coral line style, background and shadows. Add a short gently curved fringe/hairline with 2 or 3 softly rounded tufts near the top of each forehead and a very subtle short-hair contour on top of the head. Hair is ONLY sparse coral outline, matching the existing body's coral stroke; hair interior remains white. No solid colored hair, no strand hatching, no elaborate hairstyle, no eyes/eyebrows/nose/mouth, no text. Hair must feel naturally attached to the head, quiet and unisex, NOT a floating isolated curl or a cartoon antenna. Do not enlarge the head or move any part of either body. This is a surgical hair-only edit of the supplied model sheet, not a redraw. Keep the reference sheet framing and alignment pixel-close."
+    },
+    {
+      "asset": "adults",
+      "input": "/Users/tingwen/Developer/Github/hugmap-stories/planning/style-studies/character-reference/assets/adult-standard-model.png",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied 1536x1024 adult model sheet with exactly six views/poses, 3 columns by 2 rows. Change ONLY hair on all SIX heads. Add the SAME minimal, short, neutral/unisex haircut consistently from front and side in all six poses: a smooth shallow hair cap contour and one gently curved hairline, with at most two very soft fringe notches, a tiny visible ear where appropriate. Use ONLY the existing thin pale coral line, white hair interior, no filled hair color and no strand texture. Keep each face completely blank internally. Preserve the exact six head locations/sizes, silhouettes, facial profile outlines, poses, hand anatomy, sleeves, trousers, book, shadows, warm white background, original line color and width. Do not alter or scale the bodies or rearrange the sheet. Hair should be subtle and close to the skull, no spiky hair, no curls, no ponytails, no gender-specific accessories, no text. Maintain exact original canvas proportions and near-identical registration so existing crop windows still work. Surgical restrained hair-only edit, not a redesign."
+    },
+    {
+      "asset": "adults-mixed-hair-v2",
+      "input": "/Users/tingwen/Developer/Github/hugmap-stories/planning/style-studies/character-reference/assets/adult-standard-simple-hair-v1.png",
+      "output": "assets/adult-standard-mixed-hair-v2.png",
+      "prompt": "Use case: precise-object-edit. Edit supplied adult pose model sheet, exact 1536x1024 canvas, six figures arranged three columns by two rows. Change ONLY the hairstyles of exactly TWO figures to subtly feminine simple hairstyles: TOP RIGHT kneeling seated-listening figure gets a softly rounded chin-length bob, outlined simply with a single curved bottom edge and small fringe, white interior; BOTTOM MIDDLE bending-reaching figure gets a smooth simple hairline and a small LOW ponytail at the nape, its contour following gravity, white interior. The remaining FOUR figures must retain their current short hairstyles unchanged. All six faces remain blank. Match the existing very thin pale coral line, no solid hair fill, no hatching, no strand details, no hair accessories except a tiny understated tie if necessary. Preserve exact body poses, head positions and sizes, body proportions, hands, clothes, feet, book, warm offwhite background and shadows, same six figure arrangement and registration for existing crop windows. Keep new hair close to the head and within the current figure's local space. No other changes. Surgical restrained hairstyle-only edit of two heads, not a redesign."
+    }
+  ],
+  "scope": "Toddler and adult model sheets only. Baby unchanged."
+}

@@ -1,6 +1,6 @@
 {
   "status": "現在の掲載見本・厳密な数値適合は未検証",
-  "image": "assets/child-toddlers-rounded.png",
+  "image": "assets/child-toddlers-simple-hair-v1.png",
   "types": [
     "A 赤ちゃん（うつぶせ）",
     "B 小さい幼児",
@@ -10,7 +10,7 @@
   "ageMapping": "none; illustrative body types only",
   "styleReference": "../../participatory-growth-frame-studies/gen-frame-prone-dialogue.png",
   "background": "warm near-white paper with pale contact shadow",
-  "imageUsage": "Two revised toddlers only; baby uses its own image; largest former type remains excluded.",
+  "imageUsage": "Two toddlers with minimal outline hair; baby retains its unchanged separate image.",
   "models": [
     {
       "id": "baby",
@@ -18,18 +18,18 @@
     },
     {
       "id": "small",
-      "image": "assets/child-toddlers-rounded.png",
+      "image": "assets/child-toddlers-simple-hair-v1.png",
       "viewBox": [
         295,
-        180,
+        160,
         445,
-        735
+        755
       ],
       "approxHeadUnits": 3.1
     },
     {
       "id": "medium",
-      "image": "assets/child-toddlers-rounded.png",
+      "image": "assets/child-toddlers-simple-hair-v1.png",
       "viewBox": [
         770,
         145,
@@ -46,5 +46,17 @@
     "alignment": "feet",
     "purpose": "visual comparison, not age-based stature"
   },
-  "styleSpecification": "human-silhouette-style.json"
+  "styleSpecification": "human-silhouette-style.json",
+  "hair": {
+    "baby": "既存の赤ちゃん見本を変更しない。",
+    "toddler": "短い前髪と小さな頭頂の起伏。コーラルの線だけで描き、塗りは白。",
+    "adult": "短髪を基本に、座って聞く姿勢はボブ、かがんで手を伸ばす姿勢は低い結び髪。簡潔なコーラルの輪郭線だけで描き、塗りは白。",
+    "avoid": [
+      "毛束の細密描写",
+      "髪の濃色ベタ塗り",
+      "顔の内側の描写",
+      "髪の量による年齢・発達区分"
+    ],
+    "sampleStatus": "幼児は簡潔な髪のv1見本、大人は短髪・ボブ・低い結び髪を混ぜたv2見本。線色・線幅の厳密な数値適合は未検証。"
+  }
 }
