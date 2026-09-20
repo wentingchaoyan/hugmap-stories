@@ -36,7 +36,18 @@
     ],
     "accessoryOutline": "none",
     "accessoryInternalLines": "none",
-    "accessoryLineScope": "色付きの識別小物（スカーフ・襟・蝶ネクタイ・胸マーク）は不透明の単色面で表し、外周線・結び目の内部線を付けない。重なりは形と余白で示し、身体や服の線を色面の中へ通さない。眼鏡は #6B5143 の線を維持し、活動に使う道具は接点の判読に必要な細線を残す。"
+    "accessoryLineScope": "色付きの識別小物（スカーフ・襟・蝶ネクタイ・胸マーク）は不透明の単色面で表し、外周線・結び目の内部線を付けない。重なりは形と余白で示し、身体や服の線を色面の中へ通さない。眼鏡は #6B5143 の線を維持し、活動に使う道具は接点の判読に必要な細線を残す。",
+    "uMark": {
+      "color": "#FF511B",
+      "opacity": 1,
+      "outline": "none",
+      "front": "画面から見て右胸の上（本人の左胸）",
+      "back": "服の背中中央",
+      "side": "該当面が見えるときだけ表示",
+      "source": "../../participatory-growth-frame-studies/assets/official-withu-u.svg",
+      "displayReference": "assets/turnaround-brand-mark.svg",
+      "rule": "Uマークは全員共通で #FF511B、不透明の単色・輪郭線なし。正面は画面から見て右胸の上（本人の左胸）、背面は服の背中中央。側面は該当面が見える場合だけ表示し、見えないマークを袖・腹・襟へ移さない。公式U＋2点の形と縦横比を維持する。"
+    }
   },
   "existingRasterStatus": "props-main-four.pngの首飾り4点は指定HEXに更新済み。その他の既存画像は未補正。",
   "propsVerification": {
