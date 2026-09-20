@@ -12,3 +12,7 @@
 利用シーンの使い分け：[制作ガイド](usage-guidelines.html)。背景の道具一覧：background-props.json。
 
 参照の優先順位：造形・衣装の形は三面図、寸法は寸法図、線はanimal-line-style.json／human-silhouette-style.json、識別小物と胸マークの色はbrand-colors.json、身体の白／カラーと背景量はusage-guidelines.htmlを基準にする。原図の黒い線・胸記号や旧資料の色指定より現在の線・配色仕様を優先する。
+
+動物の輪郭・表情線は #A77C65、目・鼻・眼鏡は #6B5143（Mimo・Luke・Gen）。既存PNGの再着色は未実施。過去の生成プロンプトは制作履歴であり、新規制作の色指定は現行JSONを優先する。
+
+成長記録の役割別要件：[growth-scene-design-rules.json](growth-scene-design-rules.json)。今回の整合性確認：[guideline-consistency-review.md](guideline-consistency-review.md)。

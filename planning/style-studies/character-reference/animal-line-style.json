@@ -5,7 +5,7 @@
     "luke",
     "gen"
   ],
-  "color": "#5C5148",
+  "color": "#A77C65",
   "outer": 4,
   "internal": 3,
   "detail": 2.5,
@@ -25,7 +25,7 @@
   "caps": "round",
   "joins": "round",
   "opacity": 1,
-  "eye_nose_fill": "#5C5148",
+  "eye_nose_fill": "#6B5143",
   "glasses": "outer",
   "beak_outer": "internal",
   "beak_divider_teeth_brows_mouth": "detail",
@@ -36,5 +36,9 @@
     "表情の細部",
     "最終掲載サイズで判読確認"
   ],
-  "raster_status": "Generated previews visually reviewed. Exact hex, stroke widths and geometry invariance are not certified."
+  "raster_status": "既存PNGは未再着色。造形・ポーズの参照として使い、新しい色はこの仕様を参照する。厳密な線幅・色適合は未検証。",
+  "glasses_color": "#6B5143",
+  "expression_line_color": "#A77C65",
+  "line_rhythm": "滑らかな有機的曲線、丸い線端と角。外輪郭4／内部3／細部2.5pxを保ち、意図的な筆圧誇張や毛羽立ちを加えない。",
+  "scope_note": "Mimo・Luke・Genの共通仕様。LUMIの線仕様は今回の改定対象外。"
 }

@@ -22,10 +22,18 @@
   "rules": {
     "accessoryFillOpacity": 1,
     "accessoryShading": false,
-    "animalOutline": "#5C5148",
+    "animalOutline": "#A77C65",
     "backgroundAndTools": "既存の淡い配色を維持",
     "geometryReference": "assets/user-approved-turnaround.png",
-    "rasterVerification": "塗り内部をHEX値と照合。アンチエイリアスの縁は除外。"
+    "rasterVerification": "塗り内部をHEX値と照合。アンチエイリアスの縁は除外。",
+    "animalEyeNoseFill": "#6B5143",
+    "animalGlasses": "#6B5143",
+    "animalLineSpecification": "animal-line-style.json",
+    "animalLineScope": [
+      "mimo",
+      "luke",
+      "gen"
+    ]
   },
   "existingRasterStatus": "props-main-four.pngの首飾り4点は指定HEXに更新済み。その他の既存画像は未補正。",
   "propsVerification": {
