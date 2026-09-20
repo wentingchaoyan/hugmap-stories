@@ -33,7 +33,10 @@
       "mimo",
       "luke",
       "gen"
-    ]
+    ],
+    "accessoryOutline": "none",
+    "accessoryInternalLines": "none",
+    "accessoryLineScope": "色付きの識別小物（スカーフ・襟・蝶ネクタイ・胸マーク）は不透明の単色面で表し、外周線・結び目の内部線を付けない。重なりは形と余白で示し、身体や服の線を色面の中へ通さない。眼鏡は #6B5143 の線を維持し、活動に使う道具は接点の判読に必要な細線を残す。"
   },
   "existingRasterStatus": "props-main-four.pngの首飾り4点は指定HEXに更新済み。その他の既存画像は未補正。",
   "propsVerification": {

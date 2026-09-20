@@ -1,0 +1,47 @@
+{
+  "mode": "built-in imagegen edit",
+  "basePrompt": "Use case: precise-object-edit. Edit the supplied Hugmap guideline illustration sheet. Preserve EXACT silhouettes, facial expressions, poses, number/order/position of figures, framing, canvas aspect ratio, text and all geometry. Only update line colors and colored neck accessories. Mimo bird, Gen rabbit, Luke squirrel: body/clothing/ears/tail/wings/legs/eyebrows/mouth/beak outlines warm brown #A77C65; eye and nose fills and Luke spectacle frames darker #6B5143. Retain existing thin rounded line weights, no heavier lines. White bodies unchanged. All colored scarves/collars/bow ties/chest marks must be FLAT SOLID COLOR SHAPES WITH NO OUTLINE AND NO INTERNAL STROKES. Remove dark edging around neckwear including knots and ribbon ends. Preserve their exact silhouette, use negative space only if necessary to separate lobes. Mimo collar #FF511B, Gen and Luke neck scarves #D7C862, owl bow tie #7D2741. Chest logos #FF511B keep exact symbol shape and position. No gradient, shading or highlight inside colored accessories. Do not let body lines cross accessory color fills. Owl body lines remain unchanged. Activity tools retain thin outlines and original colors. If this is a props sheet change only its four neck accessories and glasses, leave all activity tools untouched. If turnaround sheet preserve labels, measurements and character alignment exactly. Keep original transparent background if present, otherwise original white background. No redesign, no extra elements.",
+  "assets": [
+    {
+      "name": "mimo-representative-poses",
+      "output": "/Users/tingwen/.codex/generated_images/01a0a90a-7c97-7853-9947-6affe3301866/exec-e5ef4a9e-ec01-4dfb-814e-c72c04c67870.png",
+      "correction": "Edit this existing sheet of THREE identical Mimo birds with three poses. Keep every pose, white body, expression, silhouette, line thickness, placement and transparent background exactly unchanged. Recolor only outlines to light muted warm brown #A77C65, eye fills #6B5143. ALL THREE collars and ALL chest symbols must stay orange #FF511B. Remove dark outlines around orange collar lobes and the small orange side knot/two ribbon ends. CRITICAL preserve the two short ribbon ends protruding to the RIGHT of EACH neck: do not delete or shorten these shapes. They are orange filled silhouettes with no stroke. No yellow anywhere on collars. Do not redesign or change line thickness. Flat opaque accessory fills."
+    },
+    {
+      "name": "gen-representative-poses",
+      "output": "/Users/tingwen/.codex/generated_images/01a0a90a-7c97-7853-9947-6affe3301866/exec-b4021d23-15df-452a-9146-57a1d3d35dfc.png",
+      "correction": null
+    },
+    {
+      "name": "luke-representative-poses",
+      "output": "/Users/tingwen/.codex/generated_images/01a0a90a-7c97-7853-9947-6affe3301866/exec-1c6c8301-2230-477b-820a-fe76b0a18429.png",
+      "correction": null
+    },
+    {
+      "name": "mimo-expressions",
+      "output": "/Users/tingwen/.codex/generated_images/01a0a90a-7c97-7853-9947-6affe3301866/exec-309cc06d-fa44-4c68-8561-fdf2cd931bf5.png",
+      "correction": "Surgical accessory color correction ONLY. This sheet contains FOUR bird heads, ALL THE SAME CHARACTER repeated. EVERY neck scarf/collar must be orange #FF511B, the SAME color for ALL figures. Replace any different color. All scarf surfaces perfectly uniform flat solid fill, with NO outline, NO internal knot strokes, NO highlights or gradients. Keep their original silhouettes. Preserve everything else: exact layout, facial expressions, thin warm brown outlines, darker eyes/nose/glasses, white body and transparency. Do not change any pose or geometry."
+    },
+    {
+      "name": "gen-expressions",
+      "output": "/Users/tingwen/.codex/generated_images/01a0a90a-7c97-7853-9947-6affe3301866/exec-3770cc5d-7487-47ca-aa1c-9b81dee93737.png",
+      "correction": "Surgical accessory color correction ONLY. This sheet contains FOUR rabbit heads, ALL THE SAME CHARACTER repeated. EVERY neck scarf/collar must be muted yellow #D7C862, the SAME color for ALL figures. Replace any different color. All scarf surfaces perfectly uniform flat solid fill, with NO outline, NO internal knot strokes, NO highlights or gradients. Keep their original silhouettes. Preserve everything else: exact layout, facial expressions, thin warm brown outlines, darker eyes/nose/glasses, white body and transparency. Do not change any pose or geometry."
+    },
+    {
+      "name": "luke-expressions",
+      "output": "/Users/tingwen/.codex/generated_images/01a0a90a-7c97-7853-9947-6affe3301866/exec-e314b57e-8c45-4331-aa82-76ec32aebd85.png",
+      "correction": "Surgical accessory color correction ONLY. This sheet contains FOUR squirrel heads, ALL THE SAME CHARACTER repeated. EVERY neck scarf/collar must be muted yellow #D7C862, the SAME color for ALL figures. Replace any different color. All scarf surfaces perfectly uniform flat solid fill, with NO outline, NO internal knot strokes, NO highlights or gradients. Keep their original silhouettes. Preserve everything else: exact layout, facial expressions, thin warm brown outlines, darker eyes/nose/glasses, white body and transparency. Do not change any pose or geometry."
+    },
+    {
+      "name": "user-approved-turnaround",
+      "output": "/Users/tingwen/.codex/generated_images/01a0a90a-7c97-7853-9947-6affe3301866/exec-39137e1f-2f3c-40d9-9671-f9d937678ea3.png",
+      "correction": "Edit this existing turnaround sheet only. Preserve every exact outline path, position, pose, expression, label, measurement, and WHITE opaque background. Recolor animal outline strokes in first THREE rows to #A77C65 warm brown, eyes/nose and squirrel glasses #6B5143. Remove only the border/internal strokes on the neck accessories, maintaining silhouettes. All THREE birds in TOP row orange collar #FF511B; all THREE rabbits in SECOND row triangular yellow scarf #D7C862; all THREE squirrels in THIRD row long-tied yellow scarf #D7C862. Owl bottom row body and text unchanged; its bow tie solid #7D2741 without border. Chest marks orange #FF511B. White body fills. Flat opaque colors. OPAQUE WHITE BACKGROUND, no transparency, no glow, no gradient, no blurred halos."
+    },
+    {
+      "name": "props-main-four",
+      "output": "/Users/tingwen/.codex/generated_images/01a0a90a-7c97-7853-9947-6affe3301866/exec-f39c3cb6-7dba-448f-9a4c-c6ed119923d5.png",
+      "correction": "Edit this existing props sheet only: remove black/brown outlines from the FOUR neck accessories in the left column. Preserve each exact silhouette and location. Top collar solid #FF511B orange; second triangular scarf and third long-tie scarf solid #D7C862 muted yellow; bottom bow tie solid #7D2741 purple. No internal strokes or shading on these four accessories. Preserve every other object, glasses, layout, scale and all white opaque background pixels. Output an OPAQUE image on pure white, no transparency, no glow, no dark background."
+    }
+  ],
+  "validation": "目視で配色・小物・構成を確認。生成結果には色むら・線幅差・細部差があり、厳密なHEX一致と造形一致は未認証。元の三面図を造形の正本として保持。"
+}
