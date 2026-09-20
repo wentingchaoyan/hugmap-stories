@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-20",
+  "method": "Approximate ROI mode near target; no exact color certification",
+  "assets": {
+    "gen-frame-ball-roll.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMode": "#FD9678",
+        "pixelCount": 99,
+        "rgbDistance": 13.7,
+        "regionNormalized": [
+          0,
+          0.25,
+          0.46,
+          0.74
+        ]
+      },
+      "gen": {
+        "target": "#A77C65",
+        "sampleMode": "#B1866B",
+        "pixelCount": 33,
+        "rgbDistance": 15.4,
+        "regionNormalized": [
+          0.7,
+          0.34,
+          0.96,
+          0.74
+        ]
+      }
+    },
+    "gen-frame-crawling-chase.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMode": "#FBA185",
+        "pixelCount": 54,
+        "rgbDistance": 9.0,
+        "regionNormalized": [
+          0.08,
+          0.37,
+          0.51,
+          0.86
+        ]
+      },
+      "gen": {
+        "target": "#A77C65",
+        "sampleMode": "#B98F77",
+        "pixelCount": 24,
+        "rgbDistance": 31.8,
+        "regionNormalized": [
+          0.58,
+          0.07,
+          0.84,
+          0.39
+        ]
+      }
+    },
+    "gen-frame-descend-stairs.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMode": "#FE906E",
+        "pixelCount": 101,
+        "rgbDistance": 24.5,
+        "regionNormalized": [
+          0.38,
+          0.07,
+          0.71,
+          0.74
+        ]
+      },
+      "gen": {
+        "target": "#A77C65",
+        "sampleMode": "#9A6A54",
+        "pixelCount": 20,
+        "rgbDistance": 28.0,
+        "regionNormalized": [
+          0.21,
+          0.48,
+          0.39,
+          0.93
+        ]
+      }
+    },
+    "gen-frame-dressing-sleeve.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMode": "#FD9475",
+        "pixelCount": 123,
+        "rgbDistance": 16.8,
+        "regionNormalized": [
+          0.14,
+          0.23,
+          0.62,
+          0.78
+        ]
+      },
+      "gen": {
+        "target": "#A77C65",
+        "sampleMode": "#926A54",
+        "pixelCount": 26,
+        "rgbDistance": 32.5,
+        "regionNormalized": [
+          0.66,
+          0.37,
+          0.91,
+          0.81
+        ]
+      }
+    },
+    "gen-frame-follow-running.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMode": "#FD9876",
+        "pixelCount": 45,
+        "rgbDistance": 14.7,
+        "regionNormalized": [
+          0.28,
+          0.12,
+          0.5,
+          0.57
+        ]
+      },
+      "gen": {
+        "target": "#A77C65",
+        "sampleMode": "#9B7252",
+        "pixelCount": 23,
+        "rgbDistance": 24.6,
+        "regionNormalized": [
+          0.59,
+          0.5,
+          0.77,
+          0.85
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-20",
+  "method": "Approximate ROI mode near target; no exact color certification",
+  "assets": {
+    "gen-frame-follow-stairs.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMode": "#FE9473",
+        "pixelCount": 147,
+        "rgbDistance": 18.8,
+        "regionNormalized": [
+          0.27,
+          0.08,
+          0.75,
+          0.85
+        ]
+      },
+      "gen": {
+        "target": "#A77C65",
+        "sampleMode": "#A87A63",
+        "pixelCount": 34,
+        "rgbDistance": 3.0,
+        "regionNormalized": [
+          0.24,
+          0.48,
+          0.45,
+          0.95
+        ]
+      }
+    },
+    "gen-frame-follow-walking.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMode": "#FE8463",
+        "pixelCount": 101,
+        "rgbDistance": 39.6,
+        "regionNormalized": [
+          0.25,
+          0.15,
+          0.54,
+          0.76
+        ]
+      },
+      "gen": {
+        "target": "#A77C65",
+        "sampleMode": "#AA724E",
+        "pixelCount": 16,
+        "rgbDistance": 25.3,
+        "regionNormalized": [
+          0.6,
+          0.53,
+          0.76,
+          0.84
+        ]
+      }
+    },
+    "gen-frame-hide-and-seek.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMode": "#FD9F80",
+        "pixelCount": 39,
+        "rgbDistance": 9.2,
+        "regionNormalized": [
+          0.31,
+          0.17,
+          0.46,
+          0.7
+        ]
+      },
+      "gen": {
+        "target": "#A77C65",
+        "sampleMode": "#9E7254",
+        "pixelCount": 38,
+        "rgbDistance": 21.7,
+        "regionNormalized": [
+          0.66,
+          0.19,
+          0.84,
+          0.55
+        ]
+      }
+    },
+    "gen-frame-horizontal-bar-hang.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMode": "#FE8A6C",
+        "pixelCount": 84,
+        "rgbDistance": 29.2,
+        "regionNormalized": [
+          0.25,
+          0.23,
+          0.48,
+          0.79
+        ]
+      },
+      "gen": {
+        "target": "#A77C65",
+        "sampleMode": "#AE7458",
+        "pixelCount": 17,
+        "rgbDistance": 16.8,
+        "regionNormalized": [
+          0.6,
+          0.23,
+          0.8,
+          0.66
+        ]
+      }
+    },
+    "gen-frame-park-slide.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMode": "#FE9774",
+        "pixelCount": 75,
+        "rgbDistance": 17.1,
+        "regionNormalized": [
+          0.28,
+          0.17,
+          0.55,
+          0.64
+        ]
+      },
+      "gen": {
+        "target": "#A77C65",
+        "sampleMode": "#A98267",
+        "pixelCount": 25,
+        "rgbDistance": 6.6,
+        "regionNormalized": [
+          0.69,
+          0.51,
+          0.89,
+          0.87
+        ]
+      }
+    }
+  }
+}

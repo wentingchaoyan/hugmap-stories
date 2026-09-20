@@ -18,27 +18,60 @@
         "tags": [
           "人物"
         ],
-        "observation": "抱き上げを求める手の向きは維持。大人の頭・髪と細長い腕を標準見本に合わせる。",
-        "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "observation": "大人の髪・耳・首・服と幼児の短髪・服を整理。両者の手の間隔を保持し、大人の輪郭を子供より淡く調整。",
+        "priority": "優先",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "afbc77208a7647b11ad2b9250c235da95190ac6cdc66c6e2b03f87b697ba27a1",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "更新画像の人物比率・手足の接点と掲載サイズを再確認。線色・線幅の数値適合、Uの公式形状と服面への位置は未検証。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。大人の頭・首・耳と髪、長い前腕から手へのつながりを整理。子供は両手を上げる姿勢を保ち、体格に合う短髪・服を追加。両者の間隔を維持。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Gen第1組5枚：同名画像へ反映。大人の髪・耳・首・服と幼児の短髪・服を整理。両者の手の間隔を保持し、大人の輪郭を子供より淡く調整。 最終適合は未確認。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回の修正",
+            "action": "大人の髪・耳・首・服と幼児の短髪・服を整理。両者の手の間隔を保持し、大人の輪郭を子供より淡く調整。"
+          },
+          {
+            "focus": "次の確認",
+            "action": "更新画像の人物比率・手足の接点と掲載サイズを再確認。線色・線幅の数値適合、Uの公式形状と服面への位置は未検証。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "原寸＋一覧確認",
+          "human": "大人の頭・首・耳と髪、長い前腕から手へのつながりを整理。子供は両手を上げる姿勢を保ち、体格に合う短髪・服を追加。両者の間隔を維持。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-ask-to-be-held.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "大人の髪・耳・首・服と幼児の短髪・服を整理。両者の手の間隔を保持し、大人の輪郭を子供より淡く調整。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-ask-to-be-held-edit-prompt.txt",
+          "repairPrompt": "gen-ask-to-be-held-repair-prompt.txt"
+        }
       }
     },
     {
@@ -57,27 +90,99 @@
           "人物",
           "背景"
         ],
-        "observation": "片足立ちの対応は明快。頭頂の細かな突起を整理し、背後の黄橙色の光と長い黄色い接地帯を除く。",
+        "observation": "子供の輪郭線を淡いサーモン色へ調整。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "1ed17a620a4a8dab3535bc8084e7ea4c35e8fc28768c2be8899172d4ec5b0499",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "三面図のGenと目視比較。立ち耳＋折れ耳、頬・目鼻、頭と胴の比率に大きな崩れは見られない。手つなぎ・頬杖は動作を保持。厳密な重ね合わせ・数値適合は未検証。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。片足立ちの重心と左右に伸ばす腕を保持。頭・耳・短髪、袖・裾を整え、首肩の角張りを減らす。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "第2組を同名更新。片足立ち・両腕の動きを保ち、子供の髪・耳・服を整理。Genの棒状の手を短く丸い指先へ修正。 三面図のGenと目視比較。立ち耳＋折れ耳、頬・目鼻、頭と胴の比率に大きな崩れは見られない。手つなぎ・頬杖は動作を保持。厳密な重ね合わせ・数値適合は未検証。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE8463 → 修正後 #F99B81。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "子供の輪郭線を淡いサーモン色へ調整。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FE8463 → 修正後 #F99B81。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "片足立ちの重心と左右に伸ばす腕を保持。頭・耳・短髪、袖・裾を整え、首肩の角張りを減らす。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-balance-mirror.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE8463 → 修正後 #F99B81。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-balance-mirror-edit-prompt.txt"
+        },
+        "genShapeReview": {
+          "date": "2026-09-20",
+          "note": "三面図のGenと目視比較。立ち耳＋折れ耳、頬・目鼻、頭と胴の比率に大きな崩れは見られない。手つなぎ・頬杖は動作を保持。厳密な重ね合わせ・数値適合は未検証。"
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#F99B81",
+              "saturationPercent": 48.2,
+              "pixelCount": 17890,
+              "regionNormalized": [
+                0.05,
+                0.16,
+                0.61,
+                0.85
+              ]
+            }
+          },
+          "before": {
+            "median": "#FE8463",
+            "rgb": [
+              254,
+              132,
+              99
+            ],
+            "saturation": 61.0,
+            "pixels": 18359,
+            "distance": 39.6
+          }
+        }
       }
     },
     {
@@ -96,27 +201,59 @@
           "人物",
           "背景"
         ],
-        "observation": "蹴る足とボールの距離は維持。幼児の髪を補い、背後の光を均一にしてボールの強い光沢を抑える。",
-        "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "observation": "幼児の短髪・耳・Tシャツ・短パンを整理し、ボールと足の接点を保持。GenのUを上部の胸面へ調整。",
+        "priority": "優先",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "c1b7c4073330d2dbdff63ded68698ea41ba022c8549b7aba54a03fa0848f9c98",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "更新画像の人物比率・手足の接点と掲載サイズを再確認。線色・線幅の数値適合、Uの公式形状と服面への位置は未検証。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。髪・耳・服がなく手先も一体化している。蹴る足と球の接点を保ち、幼児の頭・手・短い四肢を見本に合わせる。 U：原寸で胸中央寄りを確認。正面基準の画面右胸上（本人の左胸）の服面へ移す。腕や襟へ逃がさない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Gen第1組5枚：同名画像へ反映。幼児の短髪・耳・Tシャツ・短パンを整理し、ボールと足の接点を保持。GenのUを上部の胸面へ調整。 最終適合は未確認。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回の修正",
+            "action": "幼児の短髪・耳・Tシャツ・短パンを整理し、ボールと足の接点を保持。GenのUを上部の胸面へ調整。"
+          },
+          {
+            "focus": "次の確認",
+            "action": "更新画像の人物比率・手足の接点と掲載サイズを再確認。線色・線幅の数値適合、Uの公式形状と服面への位置は未検証。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "原寸＋一覧確認",
+          "human": "髪・耳・服がなく手先も一体化している。蹴る足と球の接点を保ち、幼児の頭・手・短い四肢を見本に合わせる。",
+          "u": "原寸で胸中央寄りを確認。正面基準の画面右胸上（本人の左胸）の服面へ移す。腕や襟へ逃がさない。",
+          "imageEdited": true
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-ball-exchange.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "幼児の短髪・耳・Tシャツ・短パンを整理し、ボールと足の接点を保持。GenのUを上部の胸面へ調整。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-ball-exchange-edit-prompt.txt"
+        }
       }
     },
     {
@@ -135,27 +272,93 @@
           "人物",
           "背景"
         ],
-        "observation": "ボールへ伸ばす手は維持。髪の細線と輪郭のざらつきを整理し、黄色い軌跡を控えめにする。",
+        "observation": "座位とボールへ伸ばす手を保ち、幼児の髪・耳・服を整理。Genの前歯を復元。子供の短パンの一部に茶色線が残る。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "7fa8559753d1e597fb0df6d4957eff05a7086fdb8af8df66a6894501f190e7d3",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの立ち耳・折れ耳、頬と頭胴比、丸い手を三面図と目視照合。大きな別キャラクター化は見られない。厳密な重ね合わせは未実施。",
+        "nextAction": "輪郭線の正確な色統一が残る。掲載サイズで線幅、手足の接点とUの公式形状を再確認。短パンに残る茶色線も要修正。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。球へ伸ばした指と座位は保持。輪郭の細かなギザギザ、髪・耳・服の区切りを整理。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "第3組を同名更新。座位とボールへ伸ばす手を保ち、幼児の髪・耳・服を整理。Genの前歯を復元。子供の短パンの一部に茶色線が残る。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FD9678（指定 #F59B82）、Gen #B1866B（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "座位とボールへ伸ばす手を保ち、幼児の髪・耳・服を整理。Genの前歯を復元。子供の短パンの一部に茶色線が残る。"
+          },
+          {
+            "focus": "輪郭線の採色",
+            "action": "領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FD9678（指定 #F59B82）、Gen #B1866B（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "輪郭線の正確な色統一が残る。掲載サイズで線幅、手足の接点とUの公式形状を再確認。短パンに残る茶色線も要修正。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "球へ伸ばした指と座位は保持。輪郭の細かなギザギザ、髪・耳・服の区切りを整理。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "ROI + RGB distance < 60 + mode; approximate, not segmentation or perceptual deltaE",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMode": "#FD9678",
+              "pixelCount": 99,
+              "rgbDistance": 13.7,
+              "regionNormalized": [
+                0,
+                0.25,
+                0.46,
+                0.74
+              ]
+            },
+            "gen": {
+              "target": "#A77C65",
+              "sampleMode": "#B1866B",
+              "pixelCount": 33,
+              "rgbDistance": 15.4,
+              "regionNormalized": [
+                0.7,
+                0.34,
+                0.96,
+                0.74
+              ]
+            }
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-ball-roll.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "座位とボールへ伸ばす手を保ち、幼児の髪・耳・服を整理。Genの前歯を復元。子供の短パンの一部に茶色線が残る。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FD9678（指定 #F59B82）、Gen #B1866B（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-ball-roll-edit-prompt.txt",
+          "repairPrompt": "gen-ball-roll-repair-prompt.txt"
+        }
       }
     },
     {
@@ -174,27 +377,99 @@
           "人物",
           "背景"
         ],
-        "observation": "つないだ手と指す方向を保持。幼児の髪を標準化し、周囲の草花を減らす。",
+        "observation": "子供の輪郭線を淡いサーモン色へ調整。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "9900bcd4dace7d8e0e1445f5d8c68292b46f04367a5670dd2f0c2ce42acfc3ce",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "三面図のGenと目視比較。立ち耳＋折れ耳、頬・目鼻、頭と胴の比率に大きな崩れは見られない。手つなぎ・頬杖は動作を保持。厳密な重ね合わせ・数値適合は未検証。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。指差しと手つなぎを保持。横顔の額・鼻・顎の段差、髪・耳・服を整理。 U：原寸で胸中央寄りを確認。正面基準の画面右胸上（本人の左胸）の服面へ移す。腕や襟へ逃がさない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "第2組を同名更新。ボブの女の子の横顔・服を整理。指差しとGenとの手つなぎを保持。 三面図のGenと目視比較。立ち耳＋折れ耳、頬・目鼻、頭と胴の比率に大きな崩れは見られない。手つなぎ・頬杖は動作を保持。厳密な重ね合わせ・数値適合は未検証。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE9270 → 修正後 #FE9E7E。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "子供の輪郭線を淡いサーモン色へ調整。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FE9270 → 修正後 #FE9E7E。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "原寸＋一覧確認",
+          "human": "指差しと手つなぎを保持。横顔の額・鼻・顎の段差、髪・耳・服を整理。",
+          "u": "原寸で胸中央寄りを確認。正面基準の画面右胸上（本人の左胸）の服面へ移す。腕や襟へ逃がさない。",
+          "imageEdited": true
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-child-leads-rabbit.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE9270 → 修正後 #FE9E7E。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-child-leads-rabbit-edit-prompt.txt"
+        },
+        "genShapeReview": {
+          "date": "2026-09-20",
+          "note": "三面図のGenと目視比較。立ち耳＋折れ耳、頬・目鼻、頭と胴の比率に大きな崩れは見られない。手つなぎ・頬杖は動作を保持。厳密な重ね合わせ・数値適合は未検証。"
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FE9E7E",
+              "saturationPercent": 50.4,
+              "pixelCount": 8037,
+              "regionNormalized": [
+                0.26,
+                0.32,
+                0.58,
+                0.71
+              ]
+            }
+          },
+          "before": {
+            "median": "#FE9270",
+            "rgb": [
+              254,
+              146,
+              112
+            ],
+            "saturation": 55.9,
+            "pixels": 8935,
+            "distance": 22.0
+          }
+        }
       }
     },
     {
@@ -212,27 +487,60 @@
         "tags": [
           "人物"
         ],
-        "observation": "助けを求める二者の手を保持。右側の人物が子どもなら大人用の淡い線を使わず、年齢と頭身を合わせる。",
-        "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "observation": "子供同士の場面として、座った短髪の子と手を差し出すボブの女の子を整理。両者を子供用の線色に統一。人物のUを除去し、Genの胸に復元。",
+        "priority": "優先",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "26e5951912fb54fa9b2655d668275af40968711fdc0497ff5bc7c5bf7fce6128",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "更新画像の人物比率・手足の接点と掲載サイズを再確認。線色・線幅の数値適合、Uの公式形状と服面への位置は未検証。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。座る子供と手を差し出す相手の頭・首・耳が曖昧。相手の体格区分を元の場面定義で確定してから修正し、単に大型の幼児にしない。支持手・伸ばす手を保持。 U：原寸で胸中央寄りを確認。正面基準の画面右胸上（本人の左胸）の服面へ移す。腕や襟へ逃がさない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Gen第1組5枚：同名画像へ反映。子供同士の場面として、座った短髪の子と手を差し出すボブの女の子を整理。両者を子供用の線色に統一。人物のUを除去し、Genの胸に復元。 最終適合は未確認。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回の修正",
+            "action": "子供同士の場面として、座った短髪の子と手を差し出すボブの女の子を整理。両者を子供用の線色に統一。人物のUを除去し、Genの胸に復元。"
+          },
+          {
+            "focus": "次の確認",
+            "action": "更新画像の人物比率・手足の接点と掲載サイズを再確認。線色・線幅の数値適合、Uの公式形状と服面への位置は未検証。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "原寸＋一覧確認",
+          "human": "座る子供と手を差し出す相手の頭・首・耳が曖昧。相手の体格区分を元の場面定義で確定してから修正し、単に大型の幼児にしない。支持手・伸ばす手を保持。",
+          "u": "原寸で胸中央寄りを確認。正面基準の画面右胸上（本人の左胸）の服面へ移す。腕や襟へ逃がさない。",
+          "imageEdited": true
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-children-repair-together.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "子供同士の場面として、座った短髪の子と手を差し出すボブの女の子を整理。両者を子供用の線色に統一。人物のUを除去し、Genの胸に復元。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-children-repair-together-edit-prompt.txt",
+          "repairPrompt": "gen-children-repair-together-repair-prompt.txt"
+        }
       }
     },
     {
@@ -250,27 +558,93 @@
         "tags": [
           "背景"
         ],
-        "observation": "這う方向は分かる。草の絨毯・多い手形・暖色の光を整理し、手膝の接地を残す。",
+        "observation": "乳児の丸い頭と短い四肢を保ち、服と接地を整理。Genの四つ這い姿勢・振り向きと背中のUを保持。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "795a871a1b997f8f4148ea9ee97aebb4a9142ab9e1545cf23c1fd5f48ac45977",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの立ち耳・折れ耳、頬と頭胴比、丸い手を三面図と目視照合。大きな別キャラクター化は見られない。厳密な重ね合わせは未実施。",
+        "nextAction": "輪郭線の正確な色統一が残る。掲載サイズで線幅、手足の接点とUの公式形状を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。はいはいの乳児として丸い頭と短い四肢を保持。幼児の髪を一律追加しない。膝・手の接地と線の粗さを確認。 U：背面の服に表示されている。背中中央との位置関係と、四つ這いの服の面に沿った回転・遠近を再確認。傾いているだけで誤りとしない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "第3組を同名更新。乳児の丸い頭と短い四肢を保ち、服と接地を整理。Genの四つ這い姿勢・振り向きと背中のUを保持。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FBA185（指定 #F59B82）、Gen #B98F77（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "乳児の丸い頭と短い四肢を保ち、服と接地を整理。Genの四つ這い姿勢・振り向きと背中のUを保持。"
+          },
+          {
+            "focus": "輪郭線の採色",
+            "action": "領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FBA185（指定 #F59B82）、Gen #B98F77（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "輪郭線の正確な色統一が残る。掲載サイズで線幅、手足の接点とUの公式形状を再確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "原寸＋一覧確認",
+          "human": "はいはいの乳児として丸い頭と短い四肢を保持。幼児の髪を一律追加しない。膝・手の接地と線の粗さを確認。",
+          "u": "背面の服に表示されている。背中中央との位置関係と、四つ這いの服の面に沿った回転・遠近を再確認。傾いているだけで誤りとしない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "ROI + RGB distance < 60 + mode; approximate, not segmentation or perceptual deltaE",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMode": "#FBA185",
+              "pixelCount": 54,
+              "rgbDistance": 9.0,
+              "regionNormalized": [
+                0.08,
+                0.37,
+                0.51,
+                0.86
+              ]
+            },
+            "gen": {
+              "target": "#A77C65",
+              "sampleMode": "#B98F77",
+              "pixelCount": 24,
+              "rgbDistance": 31.8,
+              "regionNormalized": [
+                0.58,
+                0.07,
+                0.84,
+                0.39
+              ]
+            }
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-crawling-chase.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "乳児の丸い頭と短い四肢を保ち、服と接地を整理。Genの四つ這い姿勢・振り向きと背中のUを保持。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FBA185（指定 #F59B82）、Gen #B98F77（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-crawling-chase-edit-prompt.txt",
+          "repairPrompt": "gen-crawling-chase-repair-prompt.txt"
+        }
       }
     },
     {
@@ -289,27 +663,95 @@
           "人物",
           "背景"
         ],
-        "observation": "手すりと手・踏み出す足を保持。階段全景と窓の光を簡略化し、幼児の頭部を標準化。",
+        "observation": "子供の輪郭線を淡いサーモン色へ調整。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "ce459725cc1eb32146aff0af0c0366ee2c1699b78ec5db61f9883847111bf0be",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの立ち耳・折れ耳、頬と頭胴比、丸い手を三面図と目視照合。大きな別キャラクター化は見られない。厳密な重ね合わせは未実施。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。手すりを握る手と足の段差を固定し、後頭部の髪・耳・服の区切りを追加。後頭部に前髪を描かない。 U：後ろ姿の背中中央を基準に原寸で追加確認。正面用の右胸位置へ移さない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "第3組を同名更新。後頭部の髪・耳と服を整理し、手すり・段差を保持。後頭部にできた前髪線を除去、Genの背中Uの2点を復元。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FE906E（指定 #F59B82）、Gen #9A6A54（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE906E → 修正後 #FBA18B。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "子供の輪郭線を淡いサーモン色へ調整。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FE906E → 修正後 #FBA18B。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "手すりを握る手と足の段差を固定し、後頭部の髪・耳・服の区切りを追加。後頭部に前髪を描かない。",
+          "u": "後ろ姿の背中中央を基準に原寸で追加確認。正面用の右胸位置へ移さない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FBA18B",
+              "saturationPercent": 44.6,
+              "pixelCount": 12074,
+              "regionNormalized": [
+                0.38,
+                0.08,
+                0.71,
+                0.74
+              ]
+            }
+          },
+          "before": {
+            "median": "#FE906E",
+            "rgb": [
+              254,
+              144,
+              110
+            ],
+            "saturation": 56.7,
+            "pixels": 13139,
+            "distance": 24.5
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-descend-stairs.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE906E → 修正後 #FBA18B。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-descend-stairs-edit-prompt.txt"
+        }
       }
     },
     {
@@ -328,27 +770,95 @@
           "背景",
           "接点"
         ],
-        "observation": "着替えの場面だが袖と通す手の関係が弱い。衣服の開口と手の接点を原寸で再確認し、星と床ハッチを除く。",
-        "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "observation": "子供の輪郭線を淡いサーモン色へ調整。",
+        "priority": "通常",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "6b7a66ac1743163226065b942dc3bc7d80176db3ce4b398281c4c6854ddb1708",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの立ち耳・折れ耳、頬と頭胴比、丸い手を三面図と目視照合。大きな別キャラクター化は見られない。厳密な重ね合わせは未実施。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。袖から手が出る動作が分かるよう衣服の境界を整理。頭部の小さな毛羽立ちを減らし、年齢区分に合わせる。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "第3組を同名更新。女の子のボブ・服を追加し、袖から出る手と服をつかむ手の動作を整理。Genの座位と丸い手先を保持。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FD9475（指定 #F59B82）、Gen #926A54（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FD9273 → 修正後 #FB9C83。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "子供の輪郭線を淡いサーモン色へ調整。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FD9273 → 修正後 #FB9C83。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "袖から手が出る動作が分かるよう衣服の境界を整理。頭部の小さな毛羽立ちを減らし、年齢区分に合わせる。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FB9C83",
+              "saturationPercent": 47.8,
+              "pixelCount": 21779,
+              "regionNormalized": [
+                0.14,
+                0.23,
+                0.62,
+                0.81
+              ]
+            }
+          },
+          "before": {
+            "median": "#FD9273",
+            "rgb": [
+              253,
+              146,
+              115
+            ],
+            "saturation": 54.5,
+            "pixels": 22651,
+            "distance": 19.2
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-dressing-sleeve.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FD9273 → 修正後 #FB9C83。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-dressing-sleeve-edit-prompt.txt"
+        }
       }
     },
     {
@@ -367,27 +877,95 @@
           "人物",
           "背景"
         ],
-        "observation": "走る二者の前後関係を保持。光の輪・丘の大きな色面・草花の密度を下げる。幼児の髪を補う。",
+        "observation": "子供の輪郭線を淡いサーモン色へ調整。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "0f5ccc24e31088bcab74554b1437c6f5f965f49fb4c7f1ca0915eb14ff4d6ac7",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの立ち耳・折れ耳、頬と頭胴比、丸い手を三面図と目視照合。大きな別キャラクター化は見られない。厳密な重ね合わせは未実施。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。遠ざかる走行姿勢を保持。後頭部・襟足と服を整え、正面の前髪を追加しない。 U：後ろ姿の背中中央を基準に原寸で追加確認。正面用の右胸位置へ移さない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "第3組を同名更新。後頭部と襟足・服を整理し、遠ざかる走行姿勢を保持。後頭部の前髪線を除去。Genの背中Uと走行・手先を保持。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FD9876（指定 #F59B82）、Gen #9B7252（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FC9775 → 修正後 #F99F81。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "子供の輪郭線を淡いサーモン色へ調整。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FC9775 → 修正後 #F99F81。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "遠ざかる走行姿勢を保持。後頭部・襟足と服を整え、正面の前髪を追加しない。",
+          "u": "後ろ姿の背中中央を基準に原寸で追加確認。正面用の右胸位置へ移さない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#F99F81",
+              "saturationPercent": 48.2,
+              "pixelCount": 6162,
+              "regionNormalized": [
+                0.28,
+                0.12,
+                0.5,
+                0.57
+              ]
+            }
+          },
+          "before": {
+            "median": "#FC9775",
+            "rgb": [
+              252,
+              151,
+              117
+            ],
+            "saturation": 53.6,
+            "pixels": 6738,
+            "distance": 15.3
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-follow-running.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FC9775 → 修正後 #F99F81。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-follow-running-edit-prompt.txt"
+        }
       }
     },
     {
@@ -406,27 +984,92 @@
           "人物",
           "背景"
         ],
-        "observation": "階段と手すりへの接触を保持。人物の頭を標準化し、段差以外の背景線を減らす。",
+        "observation": "後頭部・襟足・耳と服を整理。手すりの握りと段差を保持。Genの背中Uと手先を確認。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "85e9d829b03c6a92ae7b974f3f873a3984283ccfd2dd0ef4cb3d79375c48351d",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの立ち耳・折れ耳、頬と頭胴比、丸い手を三面図と目視照合。大きな別キャラクター化は見られない。厳密な重ね合わせは未実施。",
+        "nextAction": "輪郭線の正確な色統一が残る。掲載サイズで線幅、手足の接点とUの公式形状を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。後ろ姿の頭・耳・襟足を整理。手すりと手、段と足の接点を固定し、袖・裾を明確にする。 U：原寸で背中中央の配置を確認。位置は保持候補。大きさ・公式形状・色は別途確認。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "第4組を同名更新。後頭部・襟足・耳と服を整理。手すりの握りと段差を保持。Genの背中Uと手先を確認。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FE9473（指定 #F59B82）、Gen #A87A63（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "後頭部・襟足・耳と服を整理。手すりの握りと段差を保持。Genの背中Uと手先を確認。"
+          },
+          {
+            "focus": "輪郭線の採色",
+            "action": "領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FE9473（指定 #F59B82）、Gen #A87A63（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "輪郭線の正確な色統一が残る。掲載サイズで線幅、手足の接点とUの公式形状を再確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "原寸＋一覧確認",
+          "human": "後ろ姿の頭・耳・襟足を整理。手すりと手、段と足の接点を固定し、袖・裾を明確にする。",
+          "u": "原寸で背中中央の配置を確認。位置は保持候補。大きさ・公式形状・色は別途確認。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "ROI + RGB distance < 60 + mode; approximate, not segmentation or perceptual deltaE",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMode": "#FE9473",
+              "pixelCount": 147,
+              "rgbDistance": 18.8,
+              "regionNormalized": [
+                0.27,
+                0.08,
+                0.75,
+                0.85
+              ]
+            },
+            "gen": {
+              "target": "#A77C65",
+              "sampleMode": "#A87A63",
+              "pixelCount": 34,
+              "rgbDistance": 3.0,
+              "regionNormalized": [
+                0.24,
+                0.48,
+                0.45,
+                0.95
+              ]
+            }
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-follow-stairs.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "後頭部・襟足・耳と服を整理。手すりの握りと段差を保持。Genの背中Uと手先を確認。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FE9473（指定 #F59B82）、Gen #A87A63（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-follow-stairs-edit-prompt.txt"
+        }
       }
     },
     {
@@ -445,27 +1088,95 @@
           "人物",
           "背景"
         ],
-        "observation": "歩行の前後関係を維持。光の輪、濃い丘、連続した足跡を整理し、幼児の髪を補う。",
+        "observation": "子供の輪郭線を淡いサーモン色へ調整。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "b8ae533aa71944ed391decaef2e6a2d88b522cdfa859ab7bd099dae769a64705",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの立ち耳・折れ耳、頬と頭胴比、丸い手を三面図と目視照合。大きな別キャラクター化は見られない。厳密な重ね合わせは未実施。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。後ろ歩きではなく遠ざかる歩行として後頭部の髪を整理。首肩・手・足の見本とのバランスを確認。 U：後ろ姿の背中中央を基準に原寸で追加確認。正面用の右胸位置へ移さない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "第4組を同名更新。後ろ姿の短髪・耳・服と歩行を整理。Genの後頭部・耳・背中Uを保持。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FE8463（指定 #F59B82）、Gen #AA724E（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE8363 → 修正後 #FD9E7E。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "子供の輪郭線を淡いサーモン色へ調整。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FE8363 → 修正後 #FD9E7E。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "後ろ歩きではなく遠ざかる歩行として後頭部の髪を整理。首肩・手・足の見本とのバランスを確認。",
+          "u": "後ろ姿の背中中央を基準に原寸で追加確認。正面用の右胸位置へ移さない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FD9E7E",
+              "saturationPercent": 50.2,
+              "pixelCount": 10572,
+              "regionNormalized": [
+                0.26,
+                0.15,
+                0.53,
+                0.75
+              ]
+            }
+          },
+          "before": {
+            "median": "#FE8363",
+            "rgb": [
+              254,
+              131,
+              99
+            ],
+            "saturation": 61.0,
+            "pixels": 11640,
+            "distance": 40.2
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-follow-walking.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE8363 → 修正後 #FD9E7E。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-follow-walking-edit-prompt.txt"
+        }
       }
     },
     {
@@ -484,27 +1195,92 @@
           "人物",
           "背景"
         ],
-        "observation": "隠れる壁の端は必要。壁全面と草地の色面を減らし、見えている頭部を標準化。",
+        "observation": "壁からのぞく女の子のボブ・服を整理。壁の遮蔽と手の接点を保持。Genは後ろ向きの動作と背中Uを保持。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "78df49af9b7c1d284669b376a2f607360ab41e03f0b31d329263d96f81b65f6f",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの立ち耳・折れ耳、頬と頭胴比、丸い手を三面図と目視照合。大きな別キャラクター化は見られない。厳密な重ね合わせは未実施。",
+        "nextAction": "輪郭線の正確な色統一が残る。掲載サイズで線幅、手足の接点とUの公式形状を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。壁からのぞく頭の向きと壁を握る手を固定。見える範囲だけ髪・耳・服を追加。 U：原寸で背中中央の配置を確認。位置は保持候補。大きさ・公式形状・色は別途確認。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "第4組を同名更新。壁からのぞく女の子のボブ・服を整理。壁の遮蔽と手の接点を保持。Genは後ろ向きの動作と背中Uを保持。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FD9F80（指定 #F59B82）、Gen #9E7254（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "壁からのぞく女の子のボブ・服を整理。壁の遮蔽と手の接点を保持。Genは後ろ向きの動作と背中Uを保持。"
+          },
+          {
+            "focus": "輪郭線の採色",
+            "action": "領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FD9F80（指定 #F59B82）、Gen #9E7254（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "輪郭線の正確な色統一が残る。掲載サイズで線幅、手足の接点とUの公式形状を再確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "原寸＋一覧確認",
+          "human": "壁からのぞく頭の向きと壁を握る手を固定。見える範囲だけ髪・耳・服を追加。",
+          "u": "原寸で背中中央の配置を確認。位置は保持候補。大きさ・公式形状・色は別途確認。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "ROI + RGB distance < 60 + mode; approximate, not segmentation or perceptual deltaE",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMode": "#FD9F80",
+              "pixelCount": 39,
+              "rgbDistance": 9.2,
+              "regionNormalized": [
+                0.31,
+                0.17,
+                0.46,
+                0.7
+              ]
+            },
+            "gen": {
+              "target": "#A77C65",
+              "sampleMode": "#9E7254",
+              "pixelCount": 38,
+              "rgbDistance": 21.7,
+              "regionNormalized": [
+                0.66,
+                0.19,
+                0.84,
+                0.55
+              ]
+            }
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-hide-and-seek.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "壁からのぞく女の子のボブ・服を整理。壁の遮蔽と手の接点を保持。Genは後ろ向きの動作と背中Uを保持。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FD9F80（指定 #F59B82）、Gen #9E7254（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-hide-and-seek-edit-prompt.txt"
+        }
       }
     },
     {
@@ -524,27 +1300,95 @@
           "背景",
           "接点"
         ],
-        "observation": "ぶら下がる両手は保持。鉄棒と指の重なりを原寸確認し、地面の細かい草・影を抑える。",
-        "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "observation": "子供の輪郭線を淡いサーモン色へ調整。",
+        "priority": "通常",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "bdc31caf513e78551263a978f80e1770aabb91883f4111c6ffd60a4e320f84b3",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの立ち耳・折れ耳、頬と頭胴比、丸い手を三面図と目視照合。大きな別キャラクター化は見られない。厳密な重ね合わせは未実施。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。鉄棒を握る両手とぶら下がる姿勢を保持。頭・髪・首肩・袖を整理し、腕を短縮して接点を壊さない。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "第4組を同名更新。子供の髪・耳・服と鉄棒を握る手を整理。Genも短い丸い指先で鉄棒を握る形に修正。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FE8A6C（指定 #F59B82）、Gen #AE7458（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE896B → 修正後 #F9A588。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "子供の輪郭線を淡いサーモン色へ調整。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FE896B → 修正後 #F9A588。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "鉄棒を握る両手とぶら下がる姿勢を保持。頭・髪・首肩・袖を整理し、腕を短縮して接点を壊さない。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#F9A588",
+              "saturationPercent": 45.4,
+              "pixelCount": 8120,
+              "regionNormalized": [
+                0.25,
+                0.24,
+                0.48,
+                0.79
+              ]
+            }
+          },
+          "before": {
+            "median": "#FE896B",
+            "rgb": [
+              254,
+              137,
+              107
+            ],
+            "saturation": 57.9,
+            "pixels": 9847,
+            "distance": 30.6
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-horizontal-bar-hang.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE896B → 修正後 #F9A588。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-horizontal-bar-hang-edit-prompt.txt"
+        }
       }
     },
     {
@@ -563,27 +1407,60 @@
           "人物",
           "背景"
         ],
-        "observation": "口元の対象物と両手を保持。大人の髪を補い、光の輪・草のハッチ・効果線を整理。",
-        "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "observation": "乳児の丸い頭・短い手足と歯固めの接点を保持。大人の髪・耳・首・服・座位を整理し、人物に追加されたUを除去。Genの胸のUは保持。",
+        "priority": "優先",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "bcebd290b32709ba9275d68de7bb2f97cf6521cbd4cd482518587a9b1bb99dab",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "更新画像の人物比率・手足の接点と掲載サイズを再確認。線色・線幅の数値適合、Uの公式形状と服面への位置は未検証。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。大人は髪の外形だけで顔と髪の境が曖昧。耳・顔向き・首・長袖と座位の脚を整理。乳児の歯固めと口・手の接点を保持。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Gen第1組5枚：同名画像へ反映。乳児の丸い頭・短い手足と歯固めの接点を保持。大人の髪・耳・首・服・座位を整理し、人物に追加されたUを除去。Genの胸のUは保持。 最終適合は未確認。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回の修正",
+            "action": "乳児の丸い頭・短い手足と歯固めの接点を保持。大人の髪・耳・首・服・座位を整理し、人物に追加されたUを除去。Genの胸のUは保持。"
+          },
+          {
+            "focus": "次の確認",
+            "action": "更新画像の人物比率・手足の接点と掲載サイズを再確認。線色・線幅の数値適合、Uの公式形状と服面への位置は未検証。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "原寸＋一覧確認",
+          "human": "大人は髪の外形だけで顔と髪の境が曖昧。耳・顔向き・首・長袖と座位の脚を整理。乳児の歯固めと口・手の接点を保持。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-oral-exploration-teether.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "乳児の丸い頭・短い手足と歯固めの接点を保持。大人の髪・耳・首・服・座位を整理し、人物に追加されたUを除去。Genの胸のUは保持。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-oral-exploration-teether-edit-prompt.txt",
+          "repairPrompt": "gen-oral-exploration-teether-repair-prompt.txt"
+        }
       }
     },
     {
@@ -602,27 +1479,60 @@
           "人物",
           "背景"
         ],
-        "observation": "子どもへ開く大人の両手を保持。大人の髪と頭身を標準化し、草花・足跡を絞る。",
-        "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "observation": "大人と幼児の髪・服・手足を整理し、一歩踏み出す姿勢を保持。人物のUとGenの腰寄りのUを除去。横向きのGenは上胸が腕で隠れるためUを表示しない。",
+        "priority": "優先",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "d42b9428d9d1a716596438b145ca210746751c28e7b225abb05349017e06aa58",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "更新画像の人物比率・手足の接点と掲載サイズを再確認。線色・線幅の数値適合、Uの公式形状と服面への位置は未検証。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。大人の丸い頭と胴・曲げた脚の比率、長い腕を標準へ整理。子供の横顔と幼児の髪・服を整え、最初の一歩の姿勢を保つ。 U：側面・寝姿勢で胸の該当面が見えるかを先に確認。見えなければ表示不要。袖・脇への移動やUのための姿勢変更はしない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Gen第1組5枚：同名画像へ反映。大人と幼児の髪・服・手足を整理し、一歩踏み出す姿勢を保持。人物のUとGenの腰寄りのUを除去。横向きのGenは上胸が腕で隠れるためUを表示しない。 最終適合は未確認。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回の修正",
+            "action": "大人と幼児の髪・服・手足を整理し、一歩踏み出す姿勢を保持。人物のUとGenの腰寄りのUを除去。横向きのGenは上胸が腕で隠れるためUを表示しない。"
+          },
+          {
+            "focus": "次の確認",
+            "action": "更新画像の人物比率・手足の接点と掲載サイズを再確認。線色・線幅の数値適合、Uの公式形状と服面への位置は未検証。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "原寸＋一覧確認",
+          "human": "大人の丸い頭と胴・曲げた脚の比率、長い腕を標準へ整理。子供の横顔と幼児の髪・服を整え、最初の一歩の姿勢を保つ。",
+          "u": "側面・寝姿勢で胸の該当面が見えるかを先に確認。見えなければ表示不要。袖・脇への移動やUのための姿勢変更はしない。",
+          "imageEdited": true
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-parent-first-step.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "大人と幼児の髪・服・手足を整理し、一歩踏み出す姿勢を保持。人物のUとGenの腰寄りのUを除去。横向きのGenは上胸が腕で隠れるためUを表示しない。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-parent-first-step-edit-prompt.txt",
+          "repairPrompt": "gen-parent-first-step-repair-prompt.txt"
+        }
       }
     },
     {
@@ -641,27 +1551,95 @@
           "人物",
           "背景"
         ],
-        "observation": "滑り台は動作に必要なので残す。遠景の木・ベンチと矢印を抑え、子どもの頭部を標準化。",
+        "observation": "子供の輪郭線を淡いサーモン色へ調整。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "b0190d77eb230d944b669b32aeae6632bbabdf58f153ed828e28134f2cd49b53",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの立ち耳・折れ耳、頬と頭胴比、丸い手を三面図と目視照合。大きな別キャラクター化は見られない。厳密な重ね合わせは未実施。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。滑る子供の髪・耳・袖裾を整理。座面と臀部、滑る向きと足の姿勢を保持。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "第4組を同名更新。滑り台の女の子の髪・服を整理。座面と脚の位置を保持。Genの口・手先と胸のUを確認。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FE9774（指定 #F59B82）、Gen #A98267（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE9776 → 修正後 #FEA58A。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "子供の輪郭線を淡いサーモン色へ調整。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FE9776 → 修正後 #FEA58A。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "滑る子供の髪・耳・袖裾を整理。座面と臀部、滑る向きと足の姿勢を保持。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FEA58A",
+              "saturationPercent": 45.7,
+              "pixelCount": 6469,
+              "regionNormalized": [
+                0.28,
+                0.18,
+                0.55,
+                0.64
+              ]
+            }
+          },
+          "before": {
+            "median": "#FE9776",
+            "rgb": [
+              254,
+              151,
+              118
+            ],
+            "saturation": 53.5,
+            "pixels": 8088,
+            "distance": 15.5
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-park-slide.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE9776 → 修正後 #FEA58A。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-park-slide-edit-prompt.txt"
+        }
       }
     },
     {
@@ -681,27 +1659,99 @@
           "背景",
           "接点"
         ],
-        "observation": "ブランコの鎖と手を保持。背景の木・ベンチ・矢印を減らし、座面と臀部の接点を確認。",
-        "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "observation": "子供の輪郭線を淡いサーモン色へ調整。",
+        "priority": "通常",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "5f622f7f1f87a31d9af0002584e486051fc97cd716e6e46bd325477c573e57f3",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの立ち耳・折れ耳、頬と頭胴比、丸い手を三面図と目視照合。大きな別キャラクター化は見られない。厳密な重ね合わせは未実施。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。顔の向き・耳・髪と服を補う。鎖を握る両手、座面との接点、浮く足を保持。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "第5組を同名更新。ブランコの鎖と座面の接点を保ち、幼児の髪・耳・服を整理。尖った髪を追加修正。Genの手先を丸く調整。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FE8C6D（指定 #F59B82）、Gen #A97E6A（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の線の赤みを抑える色調整を同名反映。ROI内の線候補を3×3収縮して中心画素を参考採色：中央値 #FE8D6E → #FCA482、彩度 48.4%（指定 #F59B82 は46.9%）。構図・ポーズに大きな変化なし。指定色への厳密一致は未達。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FCA482 → 修正後 #F9A484。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "子供の輪郭線を淡いサーモン色へ調整。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FCA482 → 修正後 #F9A484。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "顔の向き・耳・髪と服を補う。鎖を握る両手、座面との接点、浮く足を保持。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#F9A484",
+              "saturationPercent": 47.0,
+              "pixelCount": 6167,
+              "regionNormalized": [
+                0.25,
+                0.35,
+                0.57,
+                0.71
+              ]
+            }
+          },
+          "before": {
+            "median": "#FCA482",
+            "rgb": [
+              252,
+              164,
+              130
+            ],
+            "saturation": 48.4,
+            "pixels": 6825,
+            "distance": 11.4
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-park-swing.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FCA482 → 修正後 #F9A484。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-park-swing-edit-prompt.txt"
+        }
       }
     },
     {
@@ -720,27 +1770,99 @@
           "人物",
           "背景"
         ],
-        "observation": "足場を見る立位を保持。長い黄色い影を短い接地影にし、幼児の髪を補う。",
+        "observation": "服の襟・袖・裾の二重線と細かなシワを整理。線色も確認。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "21b93538b474e63b12b37733e5784fb10930fe5f7e21b7e5cdb38b80173716c6",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの立ち耳・折れ耳、頬と頭胴比、丸い手を三面図と目視照合。大きな別キャラクター化は見られない。厳密な重ね合わせは未実施。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。背中を向けて足場を見る頭の向きを維持。後頭部・襟足・耳と服を整える。 U：後ろ姿の背中中央を基準に原寸で追加確認。正面用の右胸位置へ移さない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "第5組を同名更新。後ろ姿のボブと服を整理。停止線と丸太の距離を保持。Genの背中中央に欠けていたUを追加。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FE8967（指定 #F59B82）、Gen #AD7B5D（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の線の赤みを抑える色調整を同名反映。ROI内の線候補を3×3収縮して中心画素を参考採色：中央値 #FE8866 → #FD9B7A、彩度 51.8%（指定 #F59B82 は46.9%）。構図・ポーズに大きな変化なし。指定色への厳密一致は未達。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "服の襟・袖・裾の二重線と細かなシワを整理。線色も確認。線中心候補の参考中央値：修正前 #FD9B7A → 修正後 #F8A78D。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "服の襟・袖・裾の二重線と細かなシワを整理。線色も確認。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FD9B7A → 修正後 #F8A78D。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "背中を向けて足場を見る頭の向きを維持。後頭部・襟足・耳と服を整える。",
+          "u": "後ろ姿の背中中央を基準に原寸で追加確認。正面用の右胸位置へ移さない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#F8A78D",
+              "saturationPercent": 43.1,
+              "pixelCount": 6300,
+              "regionNormalized": [
+                0.25,
+                0.28,
+                0.45,
+                0.81
+              ]
+            }
+          },
+          "before": {
+            "median": "#FD9B7A",
+            "rgb": [
+              253,
+              155,
+              122
+            ],
+            "saturation": 51.8,
+            "pixels": 8151,
+            "distance": 11.3
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-pause-before-trying.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "服の襟・袖・裾の二重線と細かなシワを整理。線色も確認。線中心候補の参考中央値：修正前 #FD9B7A → 修正後 #F8A78D。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-pause-before-trying-edit-prompt.txt"
+        }
       }
     },
     {
@@ -758,27 +1880,92 @@
         "tags": [
           "配色"
         ],
-        "observation": "同じ高さで向き合う赤ちゃんとGen、余白は維持。旧い暗色線とスカーフの縁を修正。厳密な頭身は重ね合わせ待ち。",
+        "observation": "乳児の丸い頭・短い四肢と腹ばいを保持。Genの暗い灰色の線を茶系へ調整。Uは残っており服面・向きの再確認対象。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "102ae0b47a93280f9347cfe01ec9e506e4b02e33e125a10b7681891d48b2ce74",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの立ち耳・折れ耳、頬と頭胴比、丸い手を三面図と目視照合。大きな別キャラクター化は見られない。厳密な重ね合わせは未実施。",
+        "nextAction": "輪郭線の正確な色統一が残る。掲載サイズで線幅、手足の接点とUの公式形状を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。乳児のうつ伏せ見本に近く、造形の全面修正は低優先。肘支持と頭の向きを保持し、線の確認に絞る。 U：側面・寝姿勢で胸の該当面が見えるかを先に確認。見えなければ表示不要。袖・脇への移動やUのための姿勢変更はしない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "第5組を同名更新。乳児の丸い頭・短い四肢と腹ばいを保持。Genの暗い灰色の線を茶系へ調整。Uは残っており服面・向きの再確認対象。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FC9C84（指定 #F59B82）、Gen #9D6B52（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "乳児の丸い頭・短い四肢と腹ばいを保持。Genの暗い灰色の線を茶系へ調整。Uは残っており服面・向きの再確認対象。"
+          },
+          {
+            "focus": "輪郭線の採色",
+            "action": "領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FC9C84（指定 #F59B82）、Gen #9D6B52（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "輪郭線の正確な色統一が残る。掲載サイズで線幅、手足の接点とUの公式形状を再確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "乳児のうつ伏せ見本に近く、造形の全面修正は低優先。肘支持と頭の向きを保持し、線の確認に絞る。",
+          "u": "側面・寝姿勢で胸の該当面が見えるかを先に確認。見えなければ表示不要。袖・脇への移動やUのための姿勢変更はしない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "ROI + RGB distance < 60 + mode; approximate, not segmentation or perceptual deltaE",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMode": "#FC9C84",
+              "pixelCount": 59,
+              "rgbDistance": 7.3,
+              "regionNormalized": [
+                0.48,
+                0.32,
+                0.99,
+                0.66
+              ]
+            },
+            "gen": {
+              "target": "#A77C65",
+              "sampleMode": "#9D6B52",
+              "pixelCount": 36,
+              "rgbDistance": 27.4,
+              "regionNormalized": [
+                0.01,
+                0.3,
+                0.39,
+                0.66
+              ]
+            }
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-prone-dialogue.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "乳児の丸い頭・短い四肢と腹ばいを保持。Genの暗い灰色の線を茶系へ調整。Uは残っており服面・向きの再確認対象。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FC9C84（指定 #F59B82）、Gen #9D6B52（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-prone-dialogue-edit-prompt.txt"
+        }
       }
     },
     {
@@ -797,27 +1984,86 @@
           "人物",
           "背景"
         ],
-        "observation": "台に手を置く接点を保持。頭部を標準化し、背後の光と浮いた黄色い記号を除く。",
+        "observation": "乳児の大きい頭と短い手足、台への支持を保持。輪郭を整理しGenの胸のUを上胸へ調整。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "d2ded5c5e21d3ee757a32d6cc0bb9ad5844fee32e07357f9dc02b7516a7fb9a8",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの立ち耳・折れ耳、頬と頭胴比、丸い手を三面図と目視照合。大きな別キャラクター化は見られない。厳密な重ね合わせは未実施。",
+        "nextAction": "子供の線の彩度は低下。指定HEXへの厳密一致、線幅、掲載サイズでの最終確認は継続。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。つかまり立ちの年齢区分を保持。台に乗る両手、足の接地を固定。輪郭の粗さと首肩を整理し、髪は年齢に応じて判断。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "第5組を同名更新。乳児の大きい頭と短い手足、台への支持を保持。輪郭を整理しGenの胸のUを上胸へ調整。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FD9575（指定 #F59B82）、Gen #B08166（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の線の赤みを抑える色調整を同名反映。ROI内の線候補を3×3収縮して中心画素を参考採色：中央値 #FE9676 → #FA9E80、彩度 48.8%（指定 #F59B82 は46.9%）。構図・ポーズに大きな変化なし。指定色への厳密一致は未達。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "乳児の大きい頭と短い手足、台への支持を保持。輪郭を整理しGenの胸のUを上胸へ調整。"
+          },
+          {
+            "focus": "輪郭線の採色",
+            "action": "子供の線の赤みを抑える色調整を同名反映。ROI内の線候補を3×3収縮して中心画素を参考採色：中央値 #FE9676 → #FA9E80、彩度 48.8%（指定 #F59B82 は46.9%）。構図・ポーズに大きな変化なし。指定色への厳密一致は未達。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "輪郭線の正確な色統一が残る。掲載サイズで線幅、手足の接点とUの公式形状を再確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "つかまり立ちの年齢区分を保持。台に乗る両手、足の接地を固定。輪郭の粗さと首肩を整理し、髪は年齢に応じて判断。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "ROI coral threshold, 3x3 erosion, median; approximate stroke cores, not exact segmentation",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FA9E80",
+              "saturationPercent": 48.8,
+              "pixelCount": 5320,
+              "regionNormalized": [
+                0.15,
+                0.32,
+                0.47,
+                0.82
+              ],
+              "beforeMedian": "#FE9676"
+            }
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-pull-to-stand.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "乳児の大きい頭と短い手足、台への支持を保持。輪郭を整理しGenの胸のUを上胸へ調整。 子供の線の赤みを抑える色調整を同名反映。ROI内の線候補を3×3収縮して中心画素を参考採色：中央値 #FE9676 → #FA9E80、彩度 48.8%（指定 #F59B82 は46.9%）。構図・ポーズに大きな変化なし。指定色への厳密一致は未達。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-pull-to-stand-edit-prompt.txt",
+          "colorPrompt": "gen-pull-to-standcolor-prompt.txt"
+        }
       }
     },
     {
@@ -836,27 +2082,99 @@
           "人物",
           "背景"
         ],
-        "observation": "手押し車と握りを保持。草花・床の描き込み・光を整理し、幼児の髪を補う。",
-        "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "observation": "子供の輪郭線を淡いサーモン色へ調整。",
+        "priority": "優先",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "639961ccd74c3e884e5c58e69a565b2958710318d82a51b8d721f1cf14bd0c1e",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "三面図のGenと目視比較。立ち耳＋折れ耳、頬・目鼻、頭と胴の比率に大きな崩れは見られない。手つなぎ・頬杖は動作を保持。厳密な重ね合わせ・数値適合は未検証。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。幼児の髪・耳・服が不足。手押し車の持ち手と両手、前へ出す足を固定して整える。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "第2組を同名更新。幼児の短髪・耳・服を整理。持ち手の接点を保ち、遠景Genの丸い手先と指の区切りを修正。 三面図のGenと目視比較。立ち耳＋折れ耳、頬・目鼻、頭と胴の比率に大きな崩れは見られない。手つなぎ・頬杖は動作を保持。厳密な重ね合わせ・数値適合は未検証。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE896A → 修正後 #FDA487。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "子供の輪郭線を淡いサーモン色へ調整。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FE896A → 修正後 #FDA487。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "原寸＋一覧確認",
+          "human": "幼児の髪・耳・服が不足。手押し車の持ち手と両手、前へ出す足を固定して整える。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-push-car.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE896A → 修正後 #FDA487。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-push-car-edit-prompt.txt"
+        },
+        "genShapeReview": {
+          "date": "2026-09-20",
+          "note": "三面図のGenと目視比較。立ち耳＋折れ耳、頬・目鼻、頭と胴の比率に大きな崩れは見られない。手つなぎ・頬杖は動作を保持。厳密な重ね合わせ・数値適合は未検証。"
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FDA487",
+              "saturationPercent": 46.6,
+              "pixelCount": 6273,
+              "regionNormalized": [
+                0.17,
+                0.23,
+                0.5,
+                0.73
+              ]
+            }
+          },
+          "before": {
+            "median": "#FE896A",
+            "rgb": [
+              254,
+              137,
+              106
+            ],
+            "saturation": 58.3,
+            "pixels": 7789,
+            "distance": 31.3
+          }
+        }
       }
     },
     {
@@ -875,27 +2193,86 @@
           "人物",
           "背景"
         ],
-        "observation": "背中を預ける関係を保持。細かい髪、光の輪、黄色い円形の敷物線を簡略化。",
+        "observation": "背中を合わせて休む姿勢を保ち、子供の服と接地する手を整理。Genの前歯と丸い指先を確認。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "5ce8da759be9b4173e2705aee6a481894419258a17a1997c0743886b52ba86fe",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの立ち耳・折れ耳、頬と頭胴比、丸い手を三面図と目視照合。大きな別キャラクター化は見られない。厳密な重ね合わせは未実施。",
+        "nextAction": "子供の線の彩度は低下。指定HEXへの厳密一致、線幅、掲載サイズでの最終確認は継続。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。座って背を預ける姿勢を保持。髪の細かな棘、首と耳、服を整理。後ろに置く手を変えない。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "第5組を同名更新。背中を合わせて休む姿勢を保ち、子供の服と接地する手を整理。Genの前歯と丸い指先を確認。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FD9576（指定 #F59B82）、Gen #B0876F（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の線の赤みを抑える色調整を同名反映。ROI内の線候補を3×3収縮して中心画素を参考採色：中央値 #FD9475 → #FA9577、彩度 52.4%（指定 #F59B82 は46.9%）。構図・ポーズに大きな変化なし。指定色への厳密一致は未達。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "背中を合わせて休む姿勢を保ち、子供の服と接地する手を整理。Genの前歯と丸い指先を確認。"
+          },
+          {
+            "focus": "輪郭線の採色",
+            "action": "子供の線の赤みを抑える色調整を同名反映。ROI内の線候補を3×3収縮して中心画素を参考採色：中央値 #FD9475 → #FA9577、彩度 52.4%（指定 #F59B82 は46.9%）。構図・ポーズに大きな変化なし。指定色への厳密一致は未達。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "輪郭線の正確な色統一が残る。掲載サイズで線幅、手足の接点とUの公式形状を再確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "座って背を預ける姿勢を保持。髪の細かな棘、首と耳、服を整理。後ろに置く手を変えない。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "ROI coral threshold, 3x3 erosion, median; approximate stroke cores, not exact segmentation",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FA9577",
+              "saturationPercent": 52.4,
+              "pixelCount": 10701,
+              "regionNormalized": [
+                0.07,
+                0.17,
+                0.61,
+                0.76
+              ],
+              "beforeMedian": "#FD9475"
+            }
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-relax-leaning-together.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "背中を合わせて休む姿勢を保ち、子供の服と接地する手を整理。Genの前歯と丸い指先を確認。 子供の線の赤みを抑える色調整を同名反映。ROI内の線候補を3×3収縮して中心画素を参考採色：中央値 #FD9475 → #FA9577、彩度 52.4%（指定 #F59B82 は46.9%）。構図・ポーズに大きな変化なし。指定色への厳密一致は未達。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-relax-leaning-together-edit-prompt.txt",
+          "colorPrompt": "gen-relax-leaning-togethercolor-prompt.txt"
+        }
       }
     },
     {
@@ -913,27 +2290,80 @@
         "tags": [
           "背景"
         ],
-        "observation": "仰向けで並ぶ構図を保持。背後の黄色い光を均一にし、草は必要最小限。",
+        "observation": "乳児の仰向け姿勢を保持し、輪郭の粗さ・耳・四肢の区切りを整理。Genの丸い手と前歯を追加確認。前歯は細く、縮小表示で要確認。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "888c52d5c53804077cd7f6d0e0c1fd82d3be448089cd2ac145b1e3805316e558",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの耳・頬・手先を三面図と目視照合。大きな別キャラクター化なし。厳密な重ね合わせ未実施。",
+        "nextAction": "線の正確な色と太さ、縮小表示での手足・U・前歯を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。仰向けの年齢区分を元の場面定義で確認。顔内側は白のまま、耳・腕・脚の分離を点検。幼児化を急がない。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "乳児の仰向け姿勢を保持し、輪郭の粗さ・耳・四肢の区切りを整理。Genの丸い手と前歯を追加確認。前歯は細く、縮小表示で要確認。 子供の線中心候補の参考中央値 #FD9476、彩度53.4%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "乳児の仰向け姿勢を保持し、輪郭の粗さ・耳・四肢の区切りを整理。Genの丸い手と前歯を追加確認。前歯は細く、縮小表示で要確認。"
+          },
+          {
+            "focus": "輪郭線の採色",
+            "action": "子供の線中心候補の参考中央値 #FD9476、彩度53.4%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "線の正確な色と太さ、縮小表示での手足・U・前歯を再確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "仰向けの年齢区分を元の場面定義で確認。顔内側は白のまま、耳・腕・脚の分離を点検。幼児化を急がない。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "ROI coral threshold + 3x3 erosion median; approximate stroke cores, no exact compliance claim",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FD9476",
+              "saturationPercent": 53.4,
+              "pixelCount": 7739,
+              "regionNormalized": [
+                0.21,
+                0.28,
+                0.5,
+                0.71
+              ]
+            }
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-relax-looking-up.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "乳児の仰向け姿勢を保持し、輪郭の粗さ・耳・四肢の区切りを整理。Genの丸い手と前歯を追加確認。前歯は細く、縮小表示で要確認。 子供の線中心候補の参考中央値 #FD9476、彩度53.4%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-relax-looking-up-edit-prompt.txt"
+        }
       }
     },
     {
@@ -952,27 +2382,99 @@
           "人物",
           "背景"
         ],
-        "observation": "虫を見る低い姿勢を保持。子どもの年齢に応じて頭部を確認し、顔周りの草と強い緑の地面を減らす。",
-        "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "observation": "子供の輪郭線を淡いサーモン色へ調整。",
+        "priority": "優先",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "9a25e0eb75b278f4f958868a8a2bb1b6654a42bd5ac0cff34147c3de392eb4b8",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "三面図のGenと目視比較。立ち耳＋折れ耳、頬・目鼻、頭と胴の比率に大きな崩れは見られない。手つなぎ・頬杖は動作を保持。厳密な重ね合わせ・数値適合は未検証。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。手前の人物は頭・頬杖の腕・胴の境界が一体化し読み取りにくい。虫を見る向きと肘支持を保ち、髪・耳・袖と重なりを整理。 U：原寸で胸中央寄りを確認。正面基準の画面右胸上（本人の左胸）の服面へ移す。腕や襟へ逃がさない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "第2組を同名更新。子供の頬杖・腕・胴と脚の重なりを整理。Genの頬杖と丸い指先を保持。上胸が腕に隠れるため、中央のUを除去。 三面図のGenと目視比較。立ち耳＋折れ耳、頬・目鼻、頭と胴の比率に大きな崩れは見られない。手つなぎ・頬杖は動作を保持。厳密な重ね合わせ・数値適合は未検証。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE8D71 → 修正後 #F7997E。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "子供の輪郭線を淡いサーモン色へ調整。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FE8D71 → 修正後 #F7997E。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "原寸＋一覧確認",
+          "human": "手前の人物は頭・頬杖の腕・胴の境界が一体化し読み取りにくい。虫を見る向きと肘支持を保ち、髪・耳・袖と重なりを整理。",
+          "u": "原寸で胸中央寄りを確認。正面基準の画面右胸上（本人の左胸）の服面へ移す。腕や襟へ逃がさない。",
+          "imageEdited": true
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-relax-watching-together.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE8D71 → 修正後 #F7997E。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-relax-watching-together-edit-prompt.txt"
+        },
+        "genShapeReview": {
+          "date": "2026-09-20",
+          "note": "三面図のGenと目視比較。立ち耳＋折れ耳、頬・目鼻、頭と胴の比率に大きな崩れは見られない。手つなぎ・頬杖は動作を保持。厳密な重ね合わせ・数値適合は未検証。"
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#F7997E",
+              "saturationPercent": 49.0,
+              "pixelCount": 24345,
+              "regionNormalized": [
+                0.01,
+                0.26,
+                0.56,
+                0.75
+              ]
+            }
+          },
+          "before": {
+            "median": "#FE8D71",
+            "rgb": [
+              254,
+              141,
+              113
+            ],
+            "saturation": 55.5,
+            "pixels": 26195,
+            "distance": 23.8
+          }
+        }
       }
     },
     {
@@ -991,27 +2493,80 @@
           "背景",
           "動物"
         ],
-        "observation": "寝返りの向きを保持。Genの横向きの顔・耳と胴体を原図へ照合し、動作線と背後の光を抑える。",
-        "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "observation": "乳児の寝返り姿勢を保持。Genの服を白へ統一し、背中中央に胴体に沿うUを追加。",
+        "priority": "通常",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "d04ff824ee9ecd38567823723ae13f601e2455fb4d09d2298dc114b49da66bf0",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの耳・頬・手先を三面図と目視照合。大きな別キャラクター化なし。厳密な重ね合わせ未実施。",
+        "nextAction": "線の正確な色と太さ、縮小表示での手足・U・前歯を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。乳児の寝返りとして短い四肢と丸い頭を保つ。手足の重なりと地面に接する側を確認し、幼児の髪は追加しない。 U：側面・寝姿勢で胸の該当面が見えるかを先に確認。見えなければ表示不要。袖・脇への移動やUのための姿勢変更はしない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "乳児の寝返り姿勢を保持。Genの服を白へ統一し、背中中央に胴体に沿うUを追加。 子供の線中心候補の参考中央値 #FD9877、彩度53.0%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "乳児の寝返り姿勢を保持。Genの服を白へ統一し、背中中央に胴体に沿うUを追加。"
+          },
+          {
+            "focus": "輪郭線の採色",
+            "action": "子供の線中心候補の参考中央値 #FD9877、彩度53.0%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "線の正確な色と太さ、縮小表示での手足・U・前歯を再確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "乳児の寝返りとして短い四肢と丸い頭を保つ。手足の重なりと地面に接する側を確認し、幼児の髪は追加しない。",
+          "u": "側面・寝姿勢で胸の該当面が見えるかを先に確認。見えなければ表示不要。袖・脇への移動やUのための姿勢変更はしない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "ROI coral threshold + 3x3 erosion median; approximate stroke cores, no exact compliance claim",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FD9877",
+              "saturationPercent": 53.0,
+              "pixelCount": 4612,
+              "regionNormalized": [
+                0.15,
+                0.25,
+                0.48,
+                0.72
+              ]
+            }
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-rolling-mirror.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "乳児の寝返り姿勢を保持。Genの服を白へ統一し、背中中央に胴体に沿うUを追加。 子供の線中心候補の参考中央値 #FD9877、彩度53.0%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-rolling-mirror-edit-prompt.txt"
+        }
       }
     },
     {
@@ -1030,27 +2585,80 @@
           "背景",
           "接点"
         ],
-        "observation": "玩具へ伸ばす指を保持。引っ張り合いに見えないか接点を確認し、背景の光と緑の影を弱める。",
-        "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "observation": "乳児の耳と脚の区切りを整理。支持する手と布をつかむ手の接点を保持し、Genの握る手を丸い形へ調整。",
+        "priority": "通常",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "cf2832f6a24f2d0303dae8ed5b0f3b0e8a0a398db2c898a63d5617e970c5b58f",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの耳・頬・手先を三面図と目視照合。大きな別キャラクター化なし。厳密な重ね合わせ未実施。",
+        "nextAction": "線の正確な色と太さ、縮小表示での手足・U・前歯を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。座位と片手支持、布に届く手を維持。月齢区分と頭身を確認し、髪を一律追加しない。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "乳児の耳と脚の区切りを整理。支持する手と布をつかむ手の接点を保持し、Genの握る手を丸い形へ調整。 子供の線中心候補の参考中央値 #FEA183、彩度48.4%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "乳児の耳と脚の区切りを整理。支持する手と布をつかむ手の接点を保持し、Genの握る手を丸い形へ調整。"
+          },
+          {
+            "focus": "輪郭線の採色",
+            "action": "子供の線中心候補の参考中央値 #FEA183、彩度48.4%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "線の正確な色と太さ、縮小表示での手足・U・前歯を再確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "座位と片手支持、布に届く手を維持。月齢区分と頭身を確認し、髪を一律追加しない。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "ROI coral threshold + 3x3 erosion median; approximate stroke cores, no exact compliance claim",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FEA183",
+              "saturationPercent": 48.4,
+              "pixelCount": 12528,
+              "regionNormalized": [
+                0.12,
+                0.4,
+                0.57,
+                0.9
+              ]
+            }
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-seated-reach.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "乳児の耳と脚の区切りを整理。支持する手と布をつかむ手の接点を保持し、Genの握る手を丸い形へ調整。 子供の線中心候補の参考中央値 #FEA183、彩度48.4%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-seated-reach-edit-prompt.txt"
+        }
       }
     },
     {
@@ -1069,27 +2677,80 @@
           "人物",
           "背景"
         ],
-        "observation": "しゃがんで拾う動作を保持。髪の小突起と輪郭の揺れ、背後の光を整理。",
+        "observation": "幼児を簡潔なボブの女の子へ。白いTシャツ・短パンの区切り、耳と顎を整理し、しゃがんで拾う動作を保持。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "e9adef4cd75cea77529d7729ecacb6df6b1845e6ec53fcfe421492c819ebec94",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの耳・頬・手先を三面図と目視照合。大きな別キャラクター化なし。厳密な重ね合わせ未実施。",
+        "nextAction": "線の正確な色と太さ、縮小表示での手足・U・前歯を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。しゃがみと拾う指の接点を保持。幼児の髪・耳・服、頬から顎を滑らかに整理。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "幼児を簡潔なボブの女の子へ。白いTシャツ・短パンの区切り、耳と顎を整理し、しゃがんで拾う動作を保持。 子供の線中心候補の参考中央値 #FE9D7F、彩度50.0%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "幼児を簡潔なボブの女の子へ。白いTシャツ・短パンの区切り、耳と顎を整理し、しゃがんで拾う動作を保持。"
+          },
+          {
+            "focus": "輪郭線の採色",
+            "action": "子供の線中心候補の参考中央値 #FE9D7F、彩度50.0%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "線の正確な色と太さ、縮小表示での手足・U・前歯を再確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "しゃがみと拾う指の接点を保持。幼児の髪・耳・服、頬から顎を滑らかに整理。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "ROI coral threshold + 3x3 erosion median; approximate stroke cores, no exact compliance claim",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FE9D7F",
+              "saturationPercent": 50.0,
+              "pixelCount": 12518,
+              "regionNormalized": [
+                0.15,
+                0.27,
+                0.53,
+                0.78
+              ]
+            }
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-squat-and-pick-up.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "幼児を簡潔なボブの女の子へ。白いTシャツ・短パンの区切り、耳と顎を整理し、しゃがんで拾う動作を保持。 子供の線中心候補の参考中央値 #FE9D7F、彩度50.0%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-squat-and-pick-up-edit-prompt.txt"
+        }
       }
     },
     {
@@ -1108,27 +2769,80 @@
           "背景",
           "動物"
         ],
-        "observation": "足を見つける赤ちゃんの姿勢を保持。Genの大きく倒れた耳・顔の比率を照合し、光と草を整理。",
-        "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "observation": "足を持つ乳児の姿勢を保持。Genの耳・頬・前歯を三面図に寄せ、手足と胸Uを整理。スカーフの境界線は残るため要追加確認。",
+        "priority": "通常",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "8ce186baa2e4ee63dacc03c399de6edc4d661cc2f3620e263f8afd77cd43d4a9",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの耳・頬・手先を三面図と目視照合。大きな別キャラクター化なし。厳密な重ね合わせ未実施。",
+        "nextAction": "線の正確な色と太さ、縮小表示での手足・U・前歯を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。足をつかむ乳児の丸い姿勢は保持優先。足指・手と足の接点を確認。髪や幼児服を追加するための再生成は不要。 U：側面・寝姿勢で胸の該当面が見えるかを先に確認。見えなければ表示不要。袖・脇への移動やUのための姿勢変更はしない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "足を持つ乳児の姿勢を保持。Genの耳・頬・前歯を三面図に寄せ、手足と胸Uを整理。スカーフの境界線は残るため要追加確認。 子供の線中心候補の参考中央値 #FE9778、彩度52.8%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "足を持つ乳児の姿勢を保持。Genの耳・頬・前歯を三面図に寄せ、手足と胸Uを整理。スカーフの境界線は残るため要追加確認。"
+          },
+          {
+            "focus": "輪郭線の採色",
+            "action": "子供の線中心候補の参考中央値 #FE9778、彩度52.8%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "線の正確な色と太さ、縮小表示での手足・U・前歯を再確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "足をつかむ乳児の丸い姿勢は保持優先。足指・手と足の接点を確認。髪や幼児服を追加するための再生成は不要。",
+          "u": "側面・寝姿勢で胸の該当面が見えるかを先に確認。見えなければ表示不要。袖・脇への移動やUのための姿勢変更はしない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "ROI coral threshold + 3x3 erosion median; approximate stroke cores, no exact compliance claim",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FE9778",
+              "saturationPercent": 52.8,
+              "pixelCount": 7099,
+              "regionNormalized": [
+                0.12,
+                0.25,
+                0.49,
+                0.7
+              ]
+            }
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-supine-feet-mirror.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "足を持つ乳児の姿勢を保持。Genの耳・頬・前歯を三面図に寄せ、手足と胸Uを整理。スカーフの境界線は残るため要追加確認。 子供の線中心候補の参考中央値 #FE9778、彩度52.8%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-supine-feet-mirror-edit-prompt.txt"
+        }
       }
     },
     {
@@ -1146,27 +2860,84 @@
         "tags": [
           "背景"
         ],
-        "observation": "両手を中央で合わせる姿勢を保持。黄色い光の輪と草の散在を除き、短い影に統一。",
+        "observation": "乳児の胸前で合わせる両手・仰向け姿勢を保持し輪郭を整理。Genの手と胸Uを確認。生成で透過した背景を不透明の淡い背景へ修復。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "c5d0b818d18e6c5b54b3987de381942fe9619eb824b4685d38d9614b8ab02981",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの耳・頬・手先を三面図と目視照合。大きな別キャラクター化なし。厳密な重ね合わせ未実施。",
+        "nextAction": "線の正確な色と太さ、縮小表示での手足・U・前歯を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。胸の前で合う両手と仰向けの姿勢を保持。乳児の短い四肢を維持し、頭と耳の細部は原寸で追加確認。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "乳児の胸前で合わせる両手・仰向け姿勢を保持し輪郭を整理。Genの手と胸Uを確認。生成で透過した背景を不透明の淡い背景へ修復。 子供の線中心候補の参考中央値 #FE896E、彩度56.7%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "乳児の胸前で合わせる両手・仰向け姿勢を保持し輪郭を整理。Genの手と胸Uを確認。生成で透過した背景を不透明の淡い背景へ修復。 子供の線中心候補の参考中央値 #FE896E、彩度56.7%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "乳児の胸前で合わせる両手・仰向け姿勢を保持し輪郭を整理。Genの手と胸Uを確認。生成で透過した背景を不透明の淡い背景へ修復。"
+          },
+          {
+            "focus": "輪郭線の採色",
+            "action": "子供の線中心候補の参考中央値 #FE896E、彩度56.7%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "線の正確な色と太さ、縮小表示での手足・U・前歯を再確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "胸の前で合う両手と仰向けの姿勢を保持。乳児の短い四肢を維持し、頭と耳の細部は原寸で追加確認。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "ROI coral threshold + 3x3 erosion median; approximate stroke cores, no exact compliance claim",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FE896E",
+              "saturationPercent": 56.7,
+              "pixelCount": 6003,
+              "regionNormalized": [
+                0.18,
+                0.26,
+                0.5,
+                0.74
+              ]
+            }
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-supine-hands-midline.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "乳児の胸前で合わせる両手・仰向け姿勢を保持し輪郭を整理。Genの手と胸Uを確認。生成で透過した背景を不透明の淡い背景へ修復。 子供の線中心候補の参考中央値 #FE896E、彩度56.7%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-supine-hands-midline-edit-prompt.txt"
+        }
       }
     },
     {
@@ -1185,27 +2956,99 @@
           "背景",
           "接点"
         ],
-        "observation": "片手で台を支える関係を保持。腰を横切る矢印を弱め、支える手の接点を確認。",
+        "observation": "子供の輪郭線を淡いサーモン色へ調整。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "a67142d54a57408ecbb227b29130aa47dcf4ccbbe8ef07ef6c46e39663493fcc",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "三面図のGenと目視比較。立ち耳＋折れ耳、頬・目鼻、頭と胴の比率に大きな崩れは見られない。手つなぎ・頬杖は動作を保持。厳密な重ね合わせ・数値適合は未検証。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。台を支える手と振り向き動作を保持。首・肩のひねり、幼児の髪・耳・服、伸ばした手の形を整理。 U：原寸で胸中央寄りを確認。正面基準の画面右胸上（本人の左胸）の服面へ移す。腕や襟へ逃がさない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "第2組を同名更新。低い結び髪の女の子の頭・服を整理。台への支持とひねりを保持。GenのUを上胸へ移し、棒状の手を丸い指先へ修正。 三面図のGenと目視比較。立ち耳＋折れ耳、頬・目鼻、頭と胴の比率に大きな崩れは見られない。手つなぎ・頬杖は動作を保持。厳密な重ね合わせ・数値適合は未検証。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE7E5C → 修正後 #FD9F83。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "子供の輪郭線を淡いサーモン色へ調整。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FE7E5C → 修正後 #FD9F83。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "原寸＋一覧確認",
+          "human": "台を支える手と振り向き動作を保持。首・肩のひねり、幼児の髪・耳・服、伸ばした手の形を整理。",
+          "u": "原寸で胸中央寄りを確認。正面基準の画面右胸上（本人の左胸）の服面へ移す。腕や襟へ逃がさない。",
+          "imageEdited": true
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-supported-twist.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE7E5C → 修正後 #FD9F83。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-supported-twist-edit-prompt.txt"
+        },
+        "genShapeReview": {
+          "date": "2026-09-20",
+          "note": "三面図のGenと目視比較。立ち耳＋折れ耳、頬・目鼻、頭と胴の比率に大きな崩れは見られない。手つなぎ・頬杖は動作を保持。厳密な重ね合わせ・数値適合は未検証。"
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FD9F83",
+              "saturationPercent": 48.2,
+              "pixelCount": 10635,
+              "regionNormalized": [
+                0.19,
+                0.26,
+                0.53,
+                0.81
+              ]
+            }
+          },
+          "before": {
+            "median": "#FE7E5C",
+            "rgb": [
+              254,
+              126,
+              92
+            ],
+            "saturation": 63.8,
+            "pixels": 8986,
+            "distance": 48.6
+          }
+        }
       }
     },
     {
@@ -1224,27 +3067,99 @@
           "人物",
           "背景"
         ],
-        "observation": "投げる姿勢と相手との距離を保持。草の密度・長い点線を抑え、髪を簡潔に整える。",
+        "observation": "服の襟・袖・裾の二重線と細かなシワを整理。線色も確認。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "feea3ce69d7bb256ab520f8662ccd0e527a438508b6eb552e86051e2c1b40bc0",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの耳・頬・手先を三面図と目視照合。大きな別キャラクター化なし。厳密な重ね合わせ未実施。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。投げた方向へ伸ばす手を保持。頭・髪・耳・袖と裾を整理。遠景人物を過度に細密化しない。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "投げる幼児の短髪・耳・Tシャツと短パンを整理。手に重なったUを追加修正で除去。該当する胸面が手で隠れるためUは非表示。 子供の線中心候補の参考中央値 #FD9D81、彩度49.0%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "投げる幼児の短髪・耳・Tシャツと短パンを整理。手に重なったUを追加修正で除去。該当する胸面が手で隠れるためUは非表示。 子供の線中心候補の参考中央値 #FD9D81、彩度49.0%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "服の襟・袖・裾の二重線と細かなシワを整理。線色も確認。線中心候補の参考中央値：修正前 #FD9D81 → 修正後 #FC977A。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "服の襟・袖・裾の二重線と細かなシワを整理。線色も確認。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FD9D81 → 修正後 #FC977A。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "投げた方向へ伸ばす手を保持。頭・髪・耳・袖と裾を整理。遠景人物を過度に細密化しない。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FC977A",
+              "saturationPercent": 51.6,
+              "pixelCount": 8364,
+              "regionNormalized": [
+                0.13,
+                0.29,
+                0.43,
+                0.74
+              ]
+            }
+          },
+          "before": {
+            "median": "#FD9D81",
+            "rgb": [
+              253,
+              157,
+              129
+            ],
+            "saturation": 49.0,
+            "pixels": 8929,
+            "distance": 8.3
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-throw-receive.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "服の襟・袖・裾の二重線と細かなシワを整理。線色も確認。線中心候補の参考中央値：修正前 #FD9D81 → 修正後 #FC977A。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-throw-receive-edit-prompt.txt"
+        }
       }
     },
     {
@@ -1262,27 +3177,84 @@
         "tags": [
           "人物"
         ],
-        "observation": "トランポリンと跳躍は読める。頭頂の小突起と輪郭を標準化し、道具は動作対象として残す。",
+        "observation": "跳躍する幼児を白いボブの女の子に整理。ウサギの丸い足・手と胸Uを調整。生成で透過した背景を不透明へ修復。スカーフ境界線は残り再確認対象。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "3f1c64c87c354c4799ad5f6ac85174c3a2417db3a4f83c39d16efe8153d038cf",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの耳・頬・手先を三面図と目視照合。大きな別キャラクター化なし。厳密な重ね合わせ未実施。",
+        "nextAction": "線の正確な色と太さ、縮小表示での手足・U・前歯を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。跳躍姿勢を保持。髪の毛羽立ち、首肩と衣服の区切りを整理。台との高さ関係を変えない。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "跳躍する幼児を白いボブの女の子に整理。ウサギの丸い足・手と胸Uを調整。生成で透過した背景を不透明へ修復。スカーフ境界線は残り再確認対象。 子供の線中心候補の参考中央値 #F89171、彩度54.4%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "跳躍する幼児を白いボブの女の子に整理。ウサギの丸い足・手と胸Uを調整。生成で透過した背景を不透明へ修復。スカーフ境界線は残り再確認対象。 子供の線中心候補の参考中央値 #F6A387、彩度45.1%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "跳躍する幼児を白いボブの女の子に整理。ウサギの丸い足・手と胸Uを調整。生成で透過した背景を不透明へ修復。スカーフ境界線は残り再確認対象。"
+          },
+          {
+            "focus": "輪郭線の採色",
+            "action": "子供の線中心候補の参考中央値 #F6A387、彩度45.1%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "線の正確な色と太さ、縮小表示での手足・U・前歯を再確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "跳躍姿勢を保持。髪の毛羽立ち、首肩と衣服の区切りを整理。台との高さ関係を変えない。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "ROI coral threshold + 3x3 erosion median; approximate stroke cores, no exact compliance claim",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#F6A387",
+              "saturationPercent": 45.1,
+              "pixelCount": 14574,
+              "regionNormalized": [
+                0.16,
+                0.13,
+                0.57,
+                0.65
+              ]
+            }
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-trampoline.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "跳躍する幼児を白いボブの女の子に整理。ウサギの丸い足・手と胸Uを調整。生成で透過した背景を不透明へ修復。スカーフ境界線は残り再確認対象。 子供の線中心候補の参考中央値 #F6A387、彩度45.1%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-trampoline-edit-prompt.txt"
+        }
       }
     },
     {
@@ -1302,27 +3274,99 @@
           "背景",
           "接点"
         ],
-        "observation": "三輪車は残す。足とペダル・手とハンドルを原寸確認し、草の絨毯と光を除く。",
-        "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "observation": "服の襟・袖・裾の二重線と細かなシワを整理。線色も確認。",
+        "priority": "通常",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "32884be6100210837e4acca07fb648ce3deb7231e4410878f301512a0432ab44",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの耳・頬・手先を三面図と目視照合。大きな別キャラクター化なし。厳密な重ね合わせ未実施。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。ハンドルを握る手、座面、ペダルと足の接点を固定して髪・耳・服を整理。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "短髪・耳・服の区切りを整理し、両手とハンドル、座面、足とペダルの接点を保持。GenのUを上胸へ移動。 子供の線中心候補の参考中央値 #FD9373、彩度54.5%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "短髪・耳・服の区切りを整理し、両手とハンドル、座面、足とペダルの接点を保持。GenのUを上胸へ移動。 子供の線中心候補の参考中央値 #FC9575、彩度53.6%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "服の襟・袖・裾の二重線と細かなシワを整理。線色も確認。線中心候補の参考中央値：修正前 #FC9575 → 修正後 #F89678。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "服の襟・袖・裾の二重線と細かなシワを整理。線色も確認。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FC9575 → 修正後 #F89678。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "ハンドルを握る手、座面、ペダルと足の接点を固定して髪・耳・服を整理。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#F89678",
+              "saturationPercent": 51.6,
+              "pixelCount": 8854,
+              "regionNormalized": [
+                0.25,
+                0.17,
+                0.53,
+                0.68
+              ]
+            }
+          },
+          "before": {
+            "median": "#FC9575",
+            "rgb": [
+              252,
+              149,
+              117
+            ],
+            "saturation": 53.6,
+            "pixels": 8238,
+            "distance": 15.9
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-tricycle.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "服の襟・袖・裾の二重線と細かなシワを整理。線色も確認。線中心候補の参考中央値：修正前 #FC9575 → 修正後 #F89678。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-tricycle-edit-prompt.txt"
+        }
       }
     },
     {
@@ -1341,27 +3385,84 @@
           "背景",
           "接点"
         ],
-        "observation": "トンネル出口と手膝の接地を保持。大量の草・手形を減らす。",
-        "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "observation": "乳児の四つ這いを維持し耳・頭から首・袖を整理。手と膝、トンネル出口の重なりを保持。Genの胸Uを移動。",
+        "priority": "通常",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "8141c3c423a4f63d5ab5bfcf12889d1d907f12cd5c299a2a8e00f366fc7900c1",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの耳・頬・手先を三面図と目視照合。大きな別キャラクター化なし。厳密な重ね合わせ未実施。",
+        "nextAction": "線の正確な色と太さ、縮小表示での手足・U・前歯を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。トンネルを出る四つ這いを保持。乳児か幼児かを場面定義で確定し、見える頭・手・袖のみ調整。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "乳児の四つ這いを維持し耳・頭から首・袖を整理。手と膝、トンネル出口の重なりを保持。Genの胸Uを移動。 子供の線中心候補の参考中央値 #FCA586、彩度46.8%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "乳児の四つ這いを維持し耳・頭から首・袖を整理。手と膝、トンネル出口の重なりを保持。Genの胸Uを移動。 子供の線中心候補の参考中央値 #FCA586、彩度46.8%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "乳児の四つ這いを維持し耳・頭から首・袖を整理。手と膝、トンネル出口の重なりを保持。Genの胸Uを移動。"
+          },
+          {
+            "focus": "輪郭線の採色",
+            "action": "子供の線中心候補の参考中央値 #FCA586、彩度46.8%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "線の正確な色と太さ、縮小表示での手足・U・前歯を再確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "トンネルを出る四つ這いを保持。乳児か幼児かを場面定義で確定し、見える頭・手・袖のみ調整。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "ROI coral threshold + 3x3 erosion median; approximate stroke cores, no exact compliance claim",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FCA586",
+              "saturationPercent": 46.8,
+              "pixelCount": 2928,
+              "regionNormalized": [
+                0.42,
+                0.34,
+                0.71,
+                0.65
+              ]
+            }
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-tunnel-through.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "乳児の四つ這いを維持し耳・頭から首・袖を整理。手と膝、トンネル出口の重なりを保持。Genの胸Uを移動。 子供の線中心候補の参考中央値 #FCA586、彩度46.8%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-tunnel-through-edit-prompt.txt"
+        }
       }
     },
     {
@@ -1380,27 +3481,95 @@
           "人物",
           "背景"
         ],
-        "observation": "両足ジャンプを保持。髪の細かい突起を整理し、黄色い弧状の接地記号を淡くする。",
+        "observation": "服の襟・袖・裾の二重線と細かなシワを整理。子供の輪郭線を淡いサーモン色へ調整。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "79e256b6d389633370ca5ceb43a9968e7df41a27aabac65acda2ee2b9c0e9a81",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの耳・頬・手先を三面図と目視照合。大きな別キャラクター化なし。厳密な重ね合わせ未実施。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。両足跳びの膝・足の向きを保持。頭のギザギザ、短髪・耳・袖裾を整理。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "両足跳びの姿勢を保ち、幼児の短髪・耳・首肩と白い服の区切りを整理。Genの丸い手先、両足と胸Uを確認。 子供の線中心候補の参考中央値 #FE9677、彩度53.1%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "服の襟・袖・裾の二重線と細かなシワを整理。子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE9577 → 修正後 #FD9983。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "服の襟・袖・裾の二重線と細かなシワを整理。子供の輪郭線を淡いサーモン色へ調整。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FE9577 → 修正後 #FD9983。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "両足跳びの膝・足の向きを保持。頭のギザギザ、短髪・耳・袖裾を整理。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FD9983",
+              "saturationPercent": 48.2,
+              "pixelCount": 14511,
+              "regionNormalized": [
+                0.18,
+                0.13,
+                0.57,
+                0.71
+              ]
+            }
+          },
+          "before": {
+            "median": "#FE9577",
+            "rgb": [
+              254,
+              149,
+              119
+            ],
+            "saturation": 53.1,
+            "pixels": 13842,
+            "distance": 15.4
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-two-foot-jump.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "服の襟・袖・裾の二重線と細かなシワを整理。子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE9577 → 修正後 #FD9983。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-two-foot-jump-edit-prompt.txt"
+        }
       }
     },
     {
@@ -1419,27 +3588,95 @@
           "人物",
           "背景"
         ],
-        "observation": "順番を待つ構図を保持。二人の子どもの髪を標準化し、木・ベンチ・足跡の情報を減らす。",
+        "observation": "子供の輪郭線を淡いサーモン色へ調整。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "d54151de5937aa2dded06a2db776712837b06fef695719e01995213e6b48bd60",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
-        "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "geometryCheck": "Genの耳・頬・手先を三面図と目視照合。大きな別キャラクター化なし。厳密な重ね合わせ未実施。",
+        "nextAction": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "Genの人物・Uに絞って再精査。手前と奥の子供を同じ年齢帯の標準で整える。髪型を変えて識別し、柵を握る手と順番待ちの位置を保持。 U：一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。 画像は未変更。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "順番待ちの2人を同じ幼児の基準で短髪とボブに整理。柵を握る手と台上の足を維持。GenのUを胸上の服面に移し、スカーフの輪郭を追加修正で除去。 子供の線中心候補の参考中央値 #FB9C7E、彩度49.8%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。"
+          },
+          {
+            "date": "2026-09-21",
+            "event": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FB9D7F → 修正後 #FB9D7F。指定 #F59B82 との完全一致には至っていません。"
           }
-        ]
+        ],
+        "detailedPlan": [
+          {
+            "focus": "今回更新",
+            "action": "子供の輪郭線を淡いサーモン色へ調整。"
+          },
+          {
+            "focus": "線色比較",
+            "action": "線中心候補の参考中央値：修正前 #FB9D7F → 修正後 #FB9D7F。指定 #F59B82 との完全一致には至っていません。"
+          },
+          {
+            "focus": "残る確認",
+            "action": "指定色 #F59B82 への厳密な一致と線幅、縮小表示を確認。"
+          }
+        ],
+        "genFocusedAudit": {
+          "date": "2026-09-20",
+          "level": "一覧で一次確認",
+          "human": "手前と奥の子供を同じ年齢帯の標準で整える。髪型を変えて識別し、柵を握る手と順番待ちの位置を保持。",
+          "u": "一覧では正面・斜め前の胸位置の再確認対象。右胸上の服面、腕による隠れ、胴体の向きと比較して確定。一覧だけで移動を断定しない。",
+          "imageEdited": true
+        },
+        "colorSampling": {
+          "method": "Child ROI, coral threshold, 3x3 erosion, approximate stroke-core median; not full-image color compliance",
+          "samples": {
+            "child": {
+              "target": "#F59B82",
+              "sampleMedian": "#FB9D7F",
+              "saturationPercent": 49.4,
+              "pixelCount": 3413,
+              "regionNormalized": [
+                0.12,
+                0.04,
+                0.38,
+                0.36
+              ]
+            }
+          },
+          "before": {
+            "median": "#FB9D7F",
+            "rgb": [
+              251,
+              157,
+              127
+            ],
+            "saturation": 49.4,
+            "pixels": 3088,
+            "distance": 7.0
+          }
+        },
+        "revisionApplied": {
+          "asset": "gen-frame-wait-turn-slide.png",
+          "status": "同名更新・色の厳密一致は未完了",
+          "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FB9D7F → 修正後 #FB9D7F。指定 #F59B82 との完全一致には至っていません。",
+          "tool": "built-in image_gen",
+          "prompt": "gen-wait-turn-slide-edit-prompt.txt"
+        }
       }
     },
     {
@@ -7191,6 +9428,10 @@
       {
         "date": "2026-09-20",
         "event": "luke-frame-sticker-paste.png：スカーフの輪郭・内部線を除去。手・紙・シールと足台を保持。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "Genの人物とUを重点修正。001・003・006・015・016の5枚を同名更新。"
       }
     ],
     "humanShapeCommitReview": {
@@ -7226,5 +9467,58 @@
       ]
     },
     "sceneVariationPolicy": "子供と動作を最優先し、場面に合う淡い小さな飾りを余白へ1群だけ添える。幼児は短髪・ボブ・低い結び髪を適度に混ぜ、体格・服装・活動は性別で固定しない。"
+  },
+  "genFocusedAudit": {
+    "date": "2026-09-20",
+    "scope": "人物とUを優先。Genの造形・背景は保持。",
+    "overviewCount": 37,
+    "fullSizeCount": 12,
+    "firstBatch": [
+      "gen-frame-ask-to-be-held.png",
+      "gen-frame-ball-exchange.png",
+      "gen-frame-children-repair-together.png",
+      "gen-frame-oral-exploration-teether.png",
+      "gen-frame-parent-first-step.png"
+    ],
+    "imageEdited": true,
+    "revisedAssets": [
+      "gen-frame-ask-to-be-held.png",
+      "gen-frame-ball-exchange.png",
+      "gen-frame-children-repair-together.png",
+      "gen-frame-oral-exploration-teether.png",
+      "gen-frame-parent-first-step.png",
+      "gen-frame-balance-mirror.png",
+      "gen-frame-child-leads-rabbit.png",
+      "gen-frame-push-car.png",
+      "gen-frame-relax-watching-together.png",
+      "gen-frame-supported-twist.png",
+      "gen-frame-ball-roll.png",
+      "gen-frame-crawling-chase.png",
+      "gen-frame-descend-stairs.png",
+      "gen-frame-dressing-sleeve.png",
+      "gen-frame-follow-running.png",
+      "gen-frame-follow-stairs.png",
+      "gen-frame-follow-walking.png",
+      "gen-frame-hide-and-seek.png",
+      "gen-frame-horizontal-bar-hang.png",
+      "gen-frame-park-slide.png",
+      "gen-frame-park-swing.png",
+      "gen-frame-pause-before-trying.png",
+      "gen-frame-prone-dialogue.png",
+      "gen-frame-pull-to-stand.png",
+      "gen-frame-relax-leaning-together.png",
+      "gen-frame-relax-looking-up.png",
+      "gen-frame-rolling-mirror.png",
+      "gen-frame-seated-reach.png",
+      "gen-frame-squat-and-pick-up.png",
+      "gen-frame-supine-feet-mirror.png",
+      "gen-frame-supine-hands-midline.png",
+      "gen-frame-throw-receive.png",
+      "gen-frame-trampoline.png",
+      "gen-frame-tricycle.png",
+      "gen-frame-tunnel-through.png",
+      "gen-frame-two-foot-jump.png",
+      "gen-frame-wait-turn-slide.png"
+    ]
   }
 }

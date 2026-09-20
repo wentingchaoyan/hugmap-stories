@@ -1,0 +1,192 @@
+{
+  "date": "2026-09-21",
+  "method": "Approximate ROI mode near target; no exact color certification",
+  "assets": {
+    "gen-frame-park-swing.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMedian": "#FCA482",
+        "saturationPercent": 48.4,
+        "pixelCount": 6587,
+        "regionNormalized": [
+          0.25,
+          0.34,
+          0.58,
+          0.71
+        ],
+        "beforeMedian": "#FE8D6E"
+      },
+      "gen": {
+        "target": "#A77C65",
+        "sampleMode": "#A97E6A",
+        "pixelCount": 16,
+        "rgbDistance": 5.7,
+        "regionNormalized": [
+          0.63,
+          0.5,
+          0.91,
+          0.88
+        ],
+        "note": "Previous sampling before child-outline edit; not remeasured."
+      },
+      "previousSampling": {
+        "target": "#F59B82",
+        "sampleMode": "#FE8C6D",
+        "pixelCount": 50,
+        "rgbDistance": 27.3,
+        "regionNormalized": [
+          0.25,
+          0.34,
+          0.58,
+          0.71
+        ]
+      }
+    },
+    "gen-frame-pause-before-trying.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMedian": "#FD9B7A",
+        "saturationPercent": 51.8,
+        "pixelCount": 7434,
+        "regionNormalized": [
+          0.25,
+          0.27,
+          0.45,
+          0.81
+        ],
+        "beforeMedian": "#FE8866"
+      },
+      "gen": {
+        "target": "#A77C65",
+        "sampleMode": "#AD7B5D",
+        "pixelCount": 15,
+        "rgbDistance": 10.0,
+        "regionNormalized": [
+          0.09,
+          0.52,
+          0.24,
+          0.87
+        ],
+        "note": "Previous sampling before child-outline edit; not remeasured."
+      },
+      "previousSampling": {
+        "target": "#F59B82",
+        "sampleMode": "#FE8967",
+        "pixelCount": 36,
+        "rgbDistance": 33.7,
+        "regionNormalized": [
+          0.25,
+          0.27,
+          0.45,
+          0.81
+        ]
+      }
+    },
+    "gen-frame-prone-dialogue.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMode": "#FC9C84",
+        "pixelCount": 59,
+        "rgbDistance": 7.3,
+        "regionNormalized": [
+          0.48,
+          0.32,
+          0.99,
+          0.66
+        ]
+      },
+      "gen": {
+        "target": "#A77C65",
+        "sampleMode": "#9D6B52",
+        "pixelCount": 36,
+        "rgbDistance": 27.4,
+        "regionNormalized": [
+          0.01,
+          0.3,
+          0.39,
+          0.66
+        ]
+      }
+    },
+    "gen-frame-pull-to-stand.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMedian": "#FA9E80",
+        "saturationPercent": 48.8,
+        "pixelCount": 5320,
+        "regionNormalized": [
+          0.15,
+          0.32,
+          0.47,
+          0.82
+        ],
+        "beforeMedian": "#FE9676"
+      },
+      "gen": {
+        "target": "#A77C65",
+        "sampleMode": "#B08166",
+        "pixelCount": 20,
+        "rgbDistance": 10.3,
+        "regionNormalized": [
+          0.68,
+          0.24,
+          0.92,
+          0.79
+        ],
+        "note": "Previous sampling before child-outline edit; not remeasured."
+      },
+      "previousSampling": {
+        "target": "#F59B82",
+        "sampleMode": "#FD9575",
+        "pixelCount": 51,
+        "rgbDistance": 16.4,
+        "regionNormalized": [
+          0.15,
+          0.32,
+          0.47,
+          0.82
+        ]
+      }
+    },
+    "gen-frame-relax-leaning-together.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMedian": "#FA9577",
+        "saturationPercent": 52.4,
+        "pixelCount": 10701,
+        "regionNormalized": [
+          0.07,
+          0.17,
+          0.61,
+          0.76
+        ],
+        "beforeMedian": "#FD9475"
+      },
+      "gen": {
+        "target": "#A77C65",
+        "sampleMode": "#B0876F",
+        "pixelCount": 40,
+        "rgbDistance": 17.4,
+        "regionNormalized": [
+          0.59,
+          0.32,
+          0.9,
+          0.77
+        ],
+        "note": "Previous sampling before child-outline edit; not remeasured."
+      },
+      "previousSampling": {
+        "target": "#F59B82",
+        "sampleMode": "#FD9576",
+        "pixelCount": 96,
+        "rgbDistance": 15.6,
+        "regionNormalized": [
+          0.07,
+          0.17,
+          0.61,
+          0.76
+        ]
+      }
+    }
+  }
+}

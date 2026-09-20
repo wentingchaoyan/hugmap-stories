@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-21",
+  "method": "ROI coral threshold + 3x3 erosion median; approximate stroke cores, no exact compliance claim",
+  "assets": {
+    "gen-frame-relax-looking-up.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMedian": "#FD9476",
+        "saturationPercent": 53.4,
+        "pixelCount": 7739,
+        "regionNormalized": [
+          0.21,
+          0.28,
+          0.5,
+          0.71
+        ]
+      }
+    },
+    "gen-frame-rolling-mirror.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMedian": "#FD9877",
+        "saturationPercent": 53.0,
+        "pixelCount": 4612,
+        "regionNormalized": [
+          0.15,
+          0.25,
+          0.48,
+          0.72
+        ]
+      }
+    },
+    "gen-frame-seated-reach.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMedian": "#FEA183",
+        "saturationPercent": 48.4,
+        "pixelCount": 12528,
+        "regionNormalized": [
+          0.12,
+          0.4,
+          0.57,
+          0.9
+        ]
+      }
+    },
+    "gen-frame-squat-and-pick-up.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMedian": "#FE9D7F",
+        "saturationPercent": 50.0,
+        "pixelCount": 12518,
+        "regionNormalized": [
+          0.15,
+          0.27,
+          0.53,
+          0.78
+        ]
+      }
+    },
+    "gen-frame-supine-feet-mirror.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMedian": "#FE9778",
+        "saturationPercent": 52.8,
+        "pixelCount": 7099,
+        "regionNormalized": [
+          0.12,
+          0.25,
+          0.49,
+          0.7
+        ]
+      }
+    }
+  }
+}

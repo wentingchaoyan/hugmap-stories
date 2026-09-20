@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-21",
+  "method": "ROI coral threshold + 3x3 erosion median; approximate stroke cores, no exact compliance claim",
+  "assets": {
+    "gen-frame-supine-hands-midline.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMedian": "#FE896E",
+        "saturationPercent": 56.7,
+        "pixelCount": 6003,
+        "regionNormalized": [
+          0.18,
+          0.26,
+          0.5,
+          0.74
+        ]
+      }
+    },
+    "gen-frame-throw-receive.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMedian": "#FD9D81",
+        "saturationPercent": 49.0,
+        "pixelCount": 8076,
+        "regionNormalized": [
+          0.13,
+          0.29,
+          0.43,
+          0.74
+        ]
+      }
+    },
+    "gen-frame-trampoline.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMedian": "#F6A387",
+        "saturationPercent": 45.1,
+        "pixelCount": 14574,
+        "regionNormalized": [
+          0.16,
+          0.13,
+          0.57,
+          0.65
+        ]
+      }
+    },
+    "gen-frame-tricycle.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMedian": "#FC9575",
+        "saturationPercent": 53.6,
+        "pixelCount": 7941,
+        "regionNormalized": [
+          0.25,
+          0.17,
+          0.53,
+          0.7
+        ]
+      }
+    },
+    "gen-frame-tunnel-through.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMedian": "#FCA586",
+        "saturationPercent": 46.8,
+        "pixelCount": 2928,
+        "regionNormalized": [
+          0.42,
+          0.34,
+          0.71,
+          0.65
+        ]
+      }
+    }
+  }
+}
