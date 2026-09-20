@@ -2500,25 +2500,36 @@
         ],
         "observation": "紙を裂く動作は維持。Lukeが他の机上場面より小さく見えるため縮尺を照合。髪と床影を整理。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "3b997f4f22855e305e0c421c4eb303afe92364a80b1cb086e6505e7f1c310707",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "人物とLukeの比率・首元・接点、スカーフ内部線、線色・線幅の数値適合と縮小表示を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "幼児の髪・耳・服を整理し、紙を裂く両手を保持。Lukeの胸上U、淡い家具、小さな紙飾りを反映。スカーフ内部線とLukeの縮尺は継続確認。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-paper-tear.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "幼児の髪・耳・服を整理し、紙を裂く両手を保持。Lukeの胸上U、淡い家具、小さな紙飾りを反映。スカーフ内部線とLukeの縮尺は継続確認。 数値適合は未検証。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-paper-tear-edit-prompt.txt"
+        }
       }
     },
     {
@@ -2589,25 +2600,37 @@
         ],
         "observation": "掃除機とほうきの役割を保持。二人の年齢・頭身を確認し、髪と手の接点を整える。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "c6acce327ba31275229cd49c160759d9dc3b8c1daed771d865ee2a9d268fed98",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "人物とLukeの比率・首元・接点、スカーフ内部線、線色・線幅の数値適合と縮小表示を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "短髪とボブ髪の二人の幼児に整理。掃除機・ブラシ・ちりとりの接点とLukeの喜ぶ姿勢を保持。胸上U・線なしスカーフ・不透明背景を反映。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-pretend-cleaning.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "短髪とボブ髪の二人の幼児に整理。掃除機・ブラシ・ちりとりの接点とLukeの喜ぶ姿勢を保持。胸上U・線なしスカーフ・不透明背景を反映。 数値適合は未検証。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-pretend-cleaning-edit-prompt.txt",
+          "repairPrompt": "luke-pretend-cleaning-repair-prompt.txt"
+        }
       }
     },
     {
@@ -2628,25 +2651,37 @@
         ],
         "observation": "箱へ落とす積み木の軌道を保持。幼児の髪を補い、穴と積み木の位置を確認。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "dac0f3eea2c7021c2ba29ce9769ed3c3ae04b1959c4eaa9e9ee29d5e93d226a2",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "人物とLukeの比率・首元・接点、スカーフ内部線、線色・線幅の数値適合と縮小表示を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "幼児の髪・耳・服を追加。箱の穴と積み木の落下軌道、Lukeがのぞく姿勢を保持。胸上U・線なしスカーフ・不透明背景を反映。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-put-in-look.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "幼児の髪・耳・服を追加。箱の穴と積み木の落下軌道、Lukeがのぞく姿勢を保持。胸上U・線なしスカーフ・不透明背景を反映。 数値適合は未検証。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-put-in-look-edit-prompt.txt",
+          "repairPrompt": "luke-put-in-look-repair-prompt.txt"
+        }
       }
     },
     {
@@ -2666,25 +2701,37 @@
         ],
         "observation": "斜面上の球に触れる手を保持。幼児の髪と頭身を整え、球の連続表現の意図を確認。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "9c665ea6780d05284886a09e8243e4d1525f6e8db2c28e8fd9ace514ba345f10",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "人物とLukeの比率・首元・接点、スカーフ内部線、線色・線幅の数値適合と縮小表示を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "ボブ髪の女の子を採用。坂の上に添える手、二つの球による連続表現、Lukeの待つ姿勢を保持。胸上U・線なしスカーフ・不透明背景を反映。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-ramp-roll.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "ボブ髪の女の子を採用。坂の上に添える手、二つの球による連続表現、Lukeの待つ姿勢を保持。胸上U・線なしスカーフ・不透明背景を反映。 数値適合は未検証。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-ramp-roll-edit-prompt.txt",
+          "repairPrompt": "luke-ramp-roll-repair-prompt.txt"
+        }
       }
     },
     {
@@ -2704,25 +2751,50 @@
         ],
         "observation": "玩具へ伸ばす手と支える手を保持。赤ちゃんか幼児か年齢区分を確認して髪を決める。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "c6209d5e88878a5846707c4cfab1ee035eed7660eaa9b8c6169dc3ab17f51f76",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "人物とLukeの比率・首元・接点、スカーフ内部線、線色・線幅の数値適合と縮小表示を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "赤ちゃんの支える手と伸ばす手を保持。幼児の髪は追加せず、おむつの輪郭を整理。Lukeの胸上U・白い体と背景を反映。線が濃く見えるため線色・線幅は再確認。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "腕とベストの境界を追加し、腕上に見えていたポケットを除去。Uを腕から分離した胸の布面に配置。ポーズ・赤ちゃん・玩具は保持。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "濃い子供のオレンジ線とLukeの茶線を、ガイドラインの淡いサーモン・暖色ブラウンへ近づける色修正を実施。形・腕とベストの分離を維持。生成画像のHEX厳密一致は未達・未認証。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-reach-for-toy.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "赤ちゃんの支える手と伸ばす手を保持。幼児の髪は追加せず、おむつの輪郭を整理。Lukeの胸上U・白い体と背景を反映。線が濃く見えるため線色・線幅は再確認。 数値適合は未検証。 腕とベストの境界を追加し、腕上に見えていたポケットを除去。Uを腕から分離した胸の布面に配置。ポーズ・赤ちゃん・玩具は保持。 濃い子供のオレンジ線とLukeの茶線を、ガイドラインの淡いサーモン・暖色ブラウンへ近づける色修正を実施。形・腕とベストの分離を維持。生成画像のHEX厳密一致は未達・未認証。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-reach-for-toy-edit-prompt.txt",
+          "repairPrompt": "luke-reach-for-toy-repair-prompt.txt",
+          "vestRepairPrompt": "luke-reach-for-toy-vest-repair-prompt.txt",
+          "colorPrompts": [
+            "luke-reach-for-toy-line-color-prompt.txt",
+            "luke-reach-for-toy-line-color-final-prompt.txt"
+          ]
+        }
       }
     },
     {
@@ -2743,25 +2815,37 @@
         ],
         "observation": "離した指と落下する球を保持。幼児の髪を整え、透明な道具の細線は残す。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "ab10b8ebc757311bf7787d987f09c1b342e3eb1de74268a7fcc883207c438628",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "人物の首元・頭身、動物の三面図との比率、指定HEXと線幅の数値照合、縮小表示を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "幼児の髪・耳・服を整理。開いた指、球の落下軌道と透明な管を保持。胸上Uと線なしスカーフを反映。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-release-drop.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "幼児の髪・耳・服を整理。開いた指、球の落下軌道と透明な管を保持。胸上Uと線なしスカーフを反映。 線色は指定色を目標に調整。厳密なHEX・線幅適合は未認証。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-release-drop-edit-prompt.txt",
+          "repairPrompt": "luke-release-drop-repair-prompt.txt"
+        }
       }
     },
     {
@@ -2782,25 +2866,37 @@
         ],
         "observation": "砂が指から落ちる場面を保持。幼児の髪を補い、砂場の大きな枠と砂粒を減らす。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "00ad220daf722a05d69fb478a7637e91e0766cb17a9e09d6837f0e3cf886ac2b",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "人物の首元・頭身、動物の三面図との比率、指定HEXと線幅の数値照合、縮小表示を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "ボブ髪の女の子を採用。砂を落とす手と支える手を保持。Lukeの背中中央Uを服の角度に合わせ、背中の不要なポケットを除去。スカーフを線なしに整理。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-sand-texture.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "ボブ髪の女の子を採用。砂を落とす手と支える手を保持。Lukeの背中中央Uを服の角度に合わせ、背中の不要なポケットを除去。スカーフを線なしに整理。 線色は指定色を目標に調整。厳密なHEX・線幅適合は未認証。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-sand-texture-edit-prompt.txt",
+          "repairPrompt": "luke-sand-texture-repair-prompt.txt"
+        }
       }
     },
     {
@@ -2820,25 +2916,37 @@
         ],
         "observation": "振る玩具と聞くLukeを保持。髪の毛束を整理し、音の効果線を控えめにする。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "4a5e4318d957c783ba405ffe9995749379b4777b6a3ae1602759f3501449b915",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "人物の首元・頭身、動物の三面図との比率、指定HEXと線幅の数値照合、縮小表示を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "短髪・耳・服を追加。玩具の握りと耳に手を添えるLukeの姿勢を保持。胸上Uと線なしスカーフを反映。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-shake-sound.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "短髪・耳・服を追加。玩具の握りと耳に手を添えるLukeの姿勢を保持。胸上Uと線なしスカーフを反映。 線色は指定色を目標に調整。厳密なHEX・線幅適合は未認証。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-shake-sound-edit-prompt.txt",
+          "repairPrompt": "luke-shake-sound-repair-prompt.txt"
+        }
       }
     },
     {
@@ -2859,25 +2967,37 @@
         ],
         "observation": "穴に入れる手を保持。幼児の髪と大きな頭の比率を標準化し、形と穴の対応を確認。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "df4c1ce71f2209a84216442d92a08906d17a36b06ec85fba3f89ef7ea646c0b9",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "人物の首元・頭身、動物の三面図との比率、指定HEXと線幅の数値照合、縮小表示を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "結び髪の女の子を採用。丸いピースと穴、支える手を保持。LukeのUを画面右胸へ移動し、小さな作品飾りと線なしスカーフを反映。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-shape-sorter.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "結び髪の女の子を採用。丸いピースと穴、支える手を保持。LukeのUを画面右胸へ移動し、小さな作品飾りと線なしスカーフを反映。 線色は指定色を目標に調整。厳密なHEX・線幅適合は未認証。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-shape-sorter-edit-prompt.txt",
+          "repairPrompt": "luke-shape-sorter-repair-prompt.txt"
+        }
       }
     },
     {
@@ -2897,25 +3017,37 @@
         ],
         "observation": "積み木を置く瞬間とLukeの待つ姿勢を保持。幼児の髪を補う。背景は増やさない。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "cbfd0f6a0100d3103aa2638f1277de27398e64361cea7a81e6c0e77340e4aa84",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "人物の首元・頭身、動物の三面図との比率、指定HEXと線幅の数値照合、縮小表示を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "短髪・耳・服を追加。積み木を置く手とLukeが待つ座位を保持。胸の布面へUを追加し、スカーフの輪郭線を除去。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-shared-build.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "短髪・耳・服を追加。積み木を置く手とLukeが待つ座位を保持。胸の布面へUを追加し、スカーフの輪郭線を除去。 線色は指定色を目標に調整。厳密なHEX・線幅適合は未認証。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-shared-build-edit-prompt.txt",
+          "repairPrompt": "luke-shared-build-repair-prompt.txt"
+        }
       }
     },
     {
@@ -2936,25 +3068,37 @@
         ],
         "observation": "描く手と床への接地を保持。髪を簡潔にし、線の始点とペン先を確認。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "320c8c22838341a934bdd55345a71ee816fd4f129394ff0ed37552255c9e52b7",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "線色・線幅の厳密な数値適合と縮小表示を確認。スカーフの二本の先端の分離を再確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "うつ伏せの後頭部を整理。両者のペンと共有する線の接点を保持。Uを腕から胸の布面へ移動。 線色・線幅の厳密な数値適合と縮小表示を確認。スカーフの二本の先端の分離を再確認。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-shared-line.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "うつ伏せの後頭部を整理。両者のペンと共有する線の接点を保持。Uを腕から胸の布面へ移動。 線色・線幅の厳密な数値適合と縮小表示を確認。スカーフの二本の先端の分離を再確認。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-shared-line-edit-prompt.txt",
+          "repairPrompt": "luke-shared-line-repair-prompt.txt"
+        }
       }
     },
     {
@@ -2974,25 +3118,40 @@
         ],
         "observation": "比較に必要な大小の積み木・皿を保持。幼児の後頭部と髪を整理。複数道具は意味があるため一律削減しない。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "dd5a591587a11f778b3933609ef536648d9e3d9cd0da237031a8c2ccb6ab51a3",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "スカーフの輪郭・内部線を除去。人物と5個・2個の数量を保持。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "後ろ向きの低い一つ結びに調整。左右の皿の5個・2個と大小の立方体を保持。 線色・線幅の厳密な数値適合と縮小表示を確認。スカーフの縁・結び目の線が残るため再調整。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "スカーフの輪郭・内部線を除去。人物と5個・2個の数量を保持。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-size-quantity-compare.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "スカーフの輪郭・内部線を除去。人物と5個・2個の数量を保持。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-frame-size-quantity-compare-followup-prompt.txt"
+        }
       }
     },
     {
@@ -3012,25 +3171,38 @@
         ],
         "observation": "箱の上と下の対象を保持。幼児の髪を整え、指と上の積み木の接点を確認。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "cca0b259dc16062f34ec49b06cab4b26806644a7c14b42fa55e703ed8ae1b3f8",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "線色・線幅の厳密な数値適合と縮小表示を確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "後頭部と襟足を整理。台上の立方体への手と台下の球を保持。スカーフの内部線を除去。 線色・線幅の厳密な数値適合と縮小表示を確認。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-spatial-position.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "後頭部と襟足を整理。台上の立方体への手と台下の球を保持。スカーフの内部線を除去。 線色・線幅の厳密な数値適合と縮小表示を確認。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-spatial-position-edit-prompt.txt",
+          "repairPrompt": "luke-spatial-position-repair-prompt.txt",
+          "scarfPrompt": "luke-spatial-position-scarf-prompt.txt"
+        }
       }
     },
     {
@@ -3051,25 +3223,40 @@
         ],
         "observation": "回す手と軸の関係を保持。幼児の髪を整え、Lukeの指が道具を隠さないか確認。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "2badda75fb669b5476a2d299ee8addcf4d35edbf8c8e7b6c0dcee01779a78ba0",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "スカーフの輪郭・内部線を除去。操作と台を支える接点を保持。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "ボブの女の子の例を追加。両手で軸を操作しLukeが台を支える接点を保持。Uを胸へ配置。 線色・線幅の厳密な数値適合と縮小表示を確認。スカーフの縁・結び目の線が残るため再調整。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "スカーフの輪郭・内部線を除去。操作と台を支える接点を保持。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-spiral-turning-toy.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "スカーフの輪郭・内部線を除去。操作と台を支える接点を保持。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-frame-spiral-turning-toy-followup-prompt.txt"
+        }
       }
     },
     {
@@ -3090,25 +3277,40 @@
         ],
         "observation": "シールを貼る手を保持。髪、棚の植物、床の大きな灰色面を減らす。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "de8b05f7a9f24a87724a4cc82e8e537c8761c88f480eeb80a7da3bb0388f45a2",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "スカーフの輪郭・内部線を除去。手・紙・シールと足台を保持。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "短髪・耳を整理。両者がシールを貼る動作と足台を保持。淡い木製家具と小さな棚飾りに整理。 線色・線幅の厳密な数値適合と縮小表示を確認。スカーフの縁・結び目の線が残るため再調整。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "スカーフの輪郭・内部線を除去。手・紙・シールと足台を保持。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-sticker-paste.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "スカーフの輪郭・内部線を除去。手・紙・シールと足台を保持。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-frame-sticker-paste-followup-prompt.txt"
+        }
       }
     },
     {
@@ -3129,25 +3331,41 @@
         ],
         "observation": "小さな対象を見る構図を保持。幼児の頭部を整え、指先と虫眼鏡の対象を拡大確認。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "b51c825b32eda590c62d55c31bca5ae1ba65b70fd4169d3dde1decb1fde3a3c1",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "幼児の右向きの頭・髪・耳・服を整理し、虫眼鏡を見る構図とLukeが保持する接点を維持。胸のUと淡い接地影を調整。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "ユーザー指定の後頭部の丸い凹凸を除去し、滑らかな弧と小さな襟足へ整理。右向きの顔・虫眼鏡・指先の構図を保持。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-tiny-discovery.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "幼児の右向きの頭・髪・耳・服を整理し、虫眼鏡を見る構図とLukeが保持する接点を維持。胸のUと淡い接地影を調整。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。 ユーザー指定の後頭部の丸い凹凸を除去し、滑らかな弧と小さな襟足へ整理。右向きの顔・虫眼鏡・指先の構図を保持。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-frame-tiny-discovery-edit-prompt.txt",
+          "repairPrompt": "luke-frame-tiny-discovery-hair-prompt.txt"
+        }
       }
     },
     {
@@ -3168,25 +3386,36 @@
         ],
         "observation": "便器と踏み台・手順カードを保持。髪と後ろ姿の頭身を整え、家具の描き込みを抑える。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "2a6400940cdaf1a0a9a40519c4122b071ee211277f11ce46707200f7873b32b1",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "後頭部の髪・耳を整理。片足を踏み台に置き手を便座へ添える動作と3枚の手順図を保持。胸のUを追加。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-toilet-independently.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "後頭部の髪・耳を整理。片足を踏み台に置き手を便座へ添える動作と3枚の手順図を保持。胸のUを追加。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-frame-toilet-independently-edit-prompt.txt"
+        }
       }
     },
     {
@@ -3207,25 +3436,37 @@
         ],
         "observation": "車の進む道を保持。道の幅広い灰色面を淡くし、幼児の髪を補う。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "e5272119013d36085b258a879b2d25b144f80c2712936de494823b890ea7de74",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。スカーフの結び目・内部線が残り再調整対象。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "右下を向く幼児の髪・服を追加。手と車、Lukeとトンネルの接点を保持。道を淡いベージュへ調整し胸のUを追加。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。スカーフの結び目・内部線が残り再調整対象。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-toy-car-road.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "右下を向く幼児の髪・服を追加。手と車、Lukeとトンネルの接点を保持。道を淡いベージュへ調整し胸のUを追加。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。スカーフの結び目・内部線が残り再調整対象。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-frame-toy-car-road-edit-prompt.txt",
+          "repairPrompt": "luke-frame-toy-car-road-scarf-prompt.txt"
+        }
       }
     },
     {
@@ -3247,25 +3488,36 @@
         ],
         "observation": "容器から水が流れる接点を保持。幼児の髪を補い、左右の植物と過剰な水の描写を整理。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "1adacccf018da7a34a33260418ec5168242fceb2e7462c59caa2cda5a77afeef",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "ボブの女の子の例へ調整。両手の容器・水流・盆の接点と紙船を保持。植物を片側の小さな一群へ整理し胸のUを調整。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "luke-frame-water-pour.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "ボブの女の子の例へ調整。両手の容器・水流・盆の接点と紙船を保持。植物を片側の小さな一群へ整理し胸のUを調整。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。",
+          "tool": "built-in image_gen",
+          "prompt": "luke-frame-water-pour-edit-prompt.txt"
+        }
       }
     },
     {
@@ -5578,25 +5830,36 @@
         ],
         "observation": "二人の子どもが積む手を保持。幼児の髪を補い、中央Lukeが手元を遮らない配置を維持。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "aedba87b22617b4d005f747b65c124ea9d0aad7382c01a906a281b0f2a14e878",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。スカーフの結び目・内部線が残り再調整対象。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "短髪とボブの二人が手元を向く造形へ調整。積み木と両者の手を保持。Lukeを奥に保ち胸のUを追加。長い床影を個別の淡い接地影へ整理。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。スカーフの結び目・内部線が残り再調整対象。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "relationship-frame-children-build-together.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "短髪とボブの二人が手元を向く造形へ調整。積み木と両者の手を保持。Lukeを奥に保ち胸のUを追加。長い床影を個別の淡い接地影へ整理。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。スカーフの結び目・内部線が残り再調整対象。",
+          "tool": "built-in image_gen",
+          "prompt": "relationship-frame-children-build-together-edit-prompt.txt"
+        }
       }
     },
     {
@@ -5669,25 +5932,37 @@
         ],
         "observation": "二人が別々に遊ぶ構図を保持。幼児の髪を補い、砂場の大きな木枠と砂粒を減らす。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "02a4df7e6782e7fe331cbdbfe9c65a11e6f79f9772a41fef7a40f2bc127ac884",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "幼児の髪・服を整理。別々に遊ぶ手の接点を保持し、目を除去。Uを胸へ追加。砂場の木枠とスカーフ先端は再確認。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "幼児の髪・服を整理。別々に遊ぶ手の接点を保持し、目を除去。Uを胸へ追加。砂場の木枠とスカーフ先端は再確認。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "relationship-frame-children-parallel-sand.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "幼児の髪・服を整理。別々に遊ぶ手の接点を保持し、目を除去。Uを胸へ追加。砂場の木枠とスカーフ先端は再確認。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。",
+          "tool": "built-in image_gen",
+          "prompt": "relationship-frame-children-parallel-sand-followup-prompt.txt",
+          "repairPrompt": "relationship-frame-children-parallel-sand-repair-prompt.txt"
+        }
       }
     },
     {
@@ -6006,25 +6281,36 @@
         ],
         "observation": "食具と口の接点、並ぶ二者を保持。髪と大人／子どもの頭身・線の役割を整理し、広い机と床影を抑える。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "f15c157a1051d5bbab256900ac1f372c5e3e1c06c43c51f0e94183f0e6ad48c0",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "幼児の前髪と大人の体格を整理。食具の接点を保持。大人の足を床へ接地、子供の足台を保持。Uを追加し灰色床影を除去。口元の線とスカーフ内部線は再確認。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "幼児の前髪と大人の体格を整理。食具の接点を保持。大人の足を床へ接地、子供の足台を保持。Uを追加し灰色床影を除去。口元の線とスカーフ内部線は再確認。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "together-frame-self-feeding-table.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "幼児の前髪と大人の体格を整理。食具の接点を保持。大人の足を床へ接地、子供の足台を保持。Uを追加し灰色床影を除去。口元の線とスカーフ内部線は再確認。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。",
+          "tool": "built-in image_gen",
+          "prompt": "together-frame-self-feeding-table-followup-prompt.txt"
+        }
       }
     }
   ],
@@ -6837,6 +7123,74 @@
       {
         "date": "2026-09-20",
         "event": "055〜057を同名更新。ページめくり・貼り絵・折り紙の接点を保持し、人物・Luke・家具を調整。生成時の茶色い体を白へ修正。スカーフ内部線と数値適合は未完了。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "ed350c3で前回までをコミット後、058・060〜063の5枚を同名更新。以後は5枚単位で進める。数値適合と残課題は継続確認。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "064〜068の5枚を同名更新。人物・U・腕と服の区別・スカーフを調整。数値適合は未認証。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "luke-frame-shared-line.png：同名更新。うつ伏せの後頭部を整理。両者のペンと共有する線の接点を保持。Uを腕から胸の布面へ移動。 線色・線幅の厳密な数値適合と縮小表示を確認。スカーフの二本の先端の分離を再確認。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "luke-frame-size-quantity-compare.png：同名更新。後ろ向きの低い一つ結びに調整。左右の皿の5個・2個と大小の立方体を保持。 線色・線幅の厳密な数値適合と縮小表示を確認。スカーフの縁・結び目の線が残るため再調整。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "luke-frame-spatial-position.png：同名更新。後頭部と襟足を整理。台上の立方体への手と台下の球を保持。スカーフの内部線を除去。 線色・線幅の厳密な数値適合と縮小表示を確認。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "luke-frame-spiral-turning-toy.png：同名更新。ボブの女の子の例を追加。両手で軸を操作しLukeが台を支える接点を保持。Uを胸へ配置。 線色・線幅の厳密な数値適合と縮小表示を確認。スカーフの縁・結び目の線が残るため再調整。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "luke-frame-sticker-paste.png：同名更新。短髪・耳を整理。両者がシールを貼る動作と足台を保持。淡い木製家具と小さな棚飾りに整理。 線色・線幅の厳密な数値適合と縮小表示を確認。スカーフの縁・結び目の線が残るため再調整。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "luke-frame-tiny-discovery.png：同名更新。幼児の右向きの頭・髪・耳・服を整理し、虫眼鏡を見る構図とLukeが保持する接点を維持。胸のUと淡い接地影を調整。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "luke-frame-toilet-independently.png：同名更新。後頭部の髪・耳を整理。片足を踏み台に置き手を便座へ添える動作と3枚の手順図を保持。胸のUを追加。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "luke-frame-toy-car-road.png：同名更新。右下を向く幼児の髪・服を追加。手と車、Lukeとトンネルの接点を保持。道を淡いベージュへ調整し胸のUを追加。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。スカーフの結び目・内部線が残り再調整対象。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "luke-frame-water-pour.png：同名更新。ボブの女の子の例へ調整。両手の容器・水流・盆の接点と紙船を保持。植物を片側の小さな一群へ整理し胸のUを調整。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "relationship-frame-children-build-together.png：同名更新。短髪とボブの二人が手元を向く造形へ調整。積み木と両者の手を保持。Lukeを奥に保ち胸のUを追加。長い床影を個別の淡い接地影へ整理。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。スカーフの結び目・内部線が残り再調整対象。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "relationship-frame-children-parallel-sand.png：幼児の髪・服を整理。別々に遊ぶ手の接点を保持し、目を除去。Uを胸へ追加。砂場の木枠とスカーフ先端は再確認。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "together-frame-self-feeding-table.png：幼児の前髪と大人の体格を整理。食具の接点を保持。大人の足を床へ接地、子供の足台を保持。Uを追加し灰色床影を除去。口元の線とスカーフ内部線は再確認。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "luke-frame-size-quantity-compare.png：スカーフの輪郭・内部線を除去。人物と5個・2個の数量を保持。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "luke-frame-spiral-turning-toy.png：スカーフの輪郭・内部線を除去。操作と台を支える接点を保持。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "luke-frame-sticker-paste.png：スカーフの輪郭・内部線を除去。手・紙・シールと足台を保持。"
       }
     ],
     "humanShapeCommitReview": {
