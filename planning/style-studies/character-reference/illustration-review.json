@@ -4415,25 +4415,37 @@
         ],
         "observation": "袋を渡す接点を保持。小鳥の頭身・翼を照合し、人物の髪と頭身、光の輪と紙の質感を整理。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "897959c75a8bef000aa6d037ed6e67a2d6a3abc89f9478d4fa1b42857047734d",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "最終掲載サイズで人物の接点、小鳥の頭・翼・U位置を再確認し、線色・線幅を数値確認する。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "袋の持ち手・底と受け取る手を保持。幼児の横向きの髪、大人のボブと淡い線、小鳥の頭・眉・袖・裾・Uを調整。光の輪と強い紙質感を除去。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "mimo-frame-pretend-shop.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "袋の持ち手・底と受け取る手を保持。幼児の横向きの髪、大人のボブと淡い線、小鳥の頭・眉・袖・裾・Uを調整。光の輪と強い紙質感を除去。 線色・線幅の数値適合と最終掲載サイズは未検証。",
+          "tool": "built-in image_gen",
+          "prompt": "pretend-shop-edit-prompt.txt",
+          "repairPrompt": "pretend-shop-shirt-repair-prompt.txt"
+        }
       }
     },
     {
@@ -4454,25 +4466,36 @@
         ],
         "observation": "拒否する手のひらを保持。幼児の髪を補い、紫色の効果線を弱める。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "3d1fcd6c018b6b37cadbd942fd1f3d063dce9511f546acf003f5222c241d794a",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "最終掲載サイズで人物の接点、小鳥の頭・翼・U位置を再確認し、線色・線幅を数値確認する。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "拒否する両手と左向きの顔を維持。幼児の髪・膝、小鳥の頭と短い翼・服・眉を調整。紫の効果線を減らし、子供の意思を受け止める表情へ。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "mimo-frame-refusal-boundary.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "拒否する両手と左向きの顔を維持。幼児の髪・膝、小鳥の頭と短い翼・服・眉を調整。紫の効果線を減らし、子供の意思を受け止める表情へ。 線色・線幅の数値適合と最終掲載サイズは未検証。",
+          "tool": "built-in image_gen",
+          "prompt": "refusal-boundary-edit-prompt.txt"
+        }
       }
     },
     {
@@ -4493,25 +4516,36 @@
         ],
         "observation": "両手のサインを保持。幼児の髪を補い、Mimoの横向きの頭・重なった翼・胴を照合。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "d72ed8ac59433e296091587cd7898644c58dc9c65619cc6a360e6e9c9c42cd80",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "最終掲載サイズで人物の接点、小鳥の頭・翼・U位置を再確認し、線色・線幅を数値確認する。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "両手を差し出すサインと小鳥へ向く顔を維持。幼児の髪・腕、小鳥の横向きの頭・翼・胴・脚を再構成し、胸のUを復元。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "mimo-frame-request-sign.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "両手を差し出すサインと小鳥へ向く顔を維持。幼児の髪・腕、小鳥の横向きの頭・翼・胴・脚を再構成し、胸のUを復元。 線色・線幅の数値適合と最終掲載サイズは未検証。",
+          "tool": "built-in image_gen",
+          "prompt": "request-sign-edit-prompt.txt"
+        }
       }
     },
     {
@@ -4533,25 +4567,37 @@
         ],
         "observation": "太鼓をたたく手を保持。小鳥の胴・冠羽・脚を照合し、細かな髪、光、色の多い効果線を整理。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "21328c41b5bfa0047c051b1a3a46249e7a44cdd1a3c572b0f642ff2e21d3c791",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "最終掲載サイズで人物の接点と顔の向き、小鳥の頭・服・U位置を再確認。線色・線幅は数値確認する。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "太鼓への手の接点を維持し、幼児の髪・座位と小鳥の頭・眉・翼・Uを調整。スカーフの縁取り、光の輪、床ハッチを除去。袖の境界の読みやすさは継続確認。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "mimo-frame-rhythm-copy.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "太鼓への手の接点を維持し、幼児の髪・座位と小鳥の頭・眉・翼・Uを調整。スカーフの縁取り、光の輪、床ハッチを除去。袖の境界の読みやすさは継続確認。 線色・線幅の数値適合と最終掲載サイズは未検証。",
+          "tool": "built-in image_gen",
+          "prompt": "rhythm-copy-edit-prompt.txt",
+          "repairPrompt": "rhythm-copy-final-repair-prompt.txt"
+        }
       }
     },
     {
@@ -4573,25 +4619,42 @@
         ],
         "observation": "靴を差し出す手を保持。Mimoの頭身と羽の細部を標準化。大人の髪と光・床ハッチを整理。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "d08b69ab640cec0445c8fde5883c9b546492bb32c05f4ad1dfda2a469c897954",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "最終掲載サイズで人物の接点と顔の向き、小鳥の頭・服・U位置を再確認。線色・線幅は数値確認する。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "靴を差し出す手と親子の向きを維持。幼児の髪・服、大人のボブ・膝座位と淡い線、小鳥の眉・小さな笑い目・Uを調整。光と床ハッチを除去。スカーフ形状・袖は引き続き三面図へ照合。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "三面図正面を拡大参照し、頬の張り出しを抑えて卵形の頭へ修正。小さい笑い目・眉・Uを保持。生成で濃くなった大人の線を淡色へ戻した。襟の形と線色の厳密一致は引き続き再確認対象。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "mimo-frame-routine-shoe-message.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "三面図正面を拡大参照し、頬の張り出しを抑えて卵形の頭へ修正。小さい笑い目・眉・Uを保持。生成で濃くなった大人の線を淡色へ戻した。襟の形と線色の厳密一致は引き続き再確認対象。",
+          "tool": "built-in image_gen",
+          "prompt": "routine-shoe-message-edit-prompt.txt",
+          "shapeCorrectionPrompt": "routine-shoe-message-front-reference-prompt.txt",
+          "colorRestorePrompt": "routine-shoe-message-human-color-restore-prompt.txt"
+        }
       }
     },
     {
@@ -4612,25 +4675,37 @@
         ],
         "observation": "同じ方向を指す動作を保持。幼児の髪を補い、長い斜めの点線を弱める。",
         "priority": "通常",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "ac9103f706135c87d2dcaf2de53a90cf96a11aeec6f536aa855e26d8296bd6d4",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "最終掲載サイズで人物の接点と顔の向き、小鳥の頭・服・U位置を再確認。線色・線幅は数値確認する。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "子供と小鳥が左上の同じ対象を見る向きへ調整。子供の横顔を追加修正し、前髪・裸足・脚を整理。小鳥の頭・眉・翼・Uを調整し、頭を横切る長い点線を除去。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "mimo-frame-shared-pointing.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "子供と小鳥が左上の同じ対象を見る向きへ調整。子供の横顔を追加修正し、前髪・裸足・脚を整理。小鳥の頭・眉・翼・Uを調整し、頭を横切る長い点線を除去。 線色・線幅の数値適合と最終掲載サイズは未検証。",
+          "tool": "built-in image_gen",
+          "prompt": "shared-pointing-edit-prompt.txt",
+          "repairPrompt": "shared-pointing-head-repair-prompt.txt"
+        }
       }
     },
     {
@@ -4652,25 +4727,46 @@
         ],
         "observation": "本を指す接点を保持。小鳥の頭身・翼を照合し、大人の髪、草、床ハッチを整理。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "716b3f37ab329bd6628bb3f54b4c4ab3d335b674cc1f117b18aa2d176990698e",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "最終掲載サイズで人物の接点・顔の向き、小鳥の頭・翼・服を再照合。輪郭の途切れと線色・線幅を確認する。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "本を指す接点と親子が本へ向く姿勢を保持。人物の髪・服・座位、小鳥の頭・眉・翼・服・Uを調整。視線の点線と床ハッチを除去し草を減らした。細い輪郭の途切れは拡大・縮小両方で再確認。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "三面図との拡大比較で胴の斜めの長さ・輪郭の途切れを確認し、胴をコンパクトにして輪郭を補修。小鳥の眉・U・袖・裾を目視確認。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "別の鳥に見えるという指摘を受け、部分調整から三面図の横向きに基づく再構成へ変更。三面図の横向きを直接参照し、片目・小さなくちばし・頭と胴の比率を再構成。本へ向く顔と本を示す翼を維持。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "mimo-frame-shared-reading.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "三面図の横向きを直接参照し、片目・小さなくちばし・頭と胴の比率を再構成。本へ向く顔と本を示す翼を維持。 三面図との完全一致・線色線幅の数値適合は未認証。",
+          "tool": "built-in image_gen",
+          "prompt": "shared-reading-edit-prompt.txt",
+          "geometryPrompt": "shared-reading-mimo-geometry-prompt.txt",
+          "modelLockPrompt": "shared-reading-mimo-model-lock-prompt.txt"
+        }
       }
     },
     {
@@ -4692,25 +4788,51 @@
         ],
         "observation": "星を見せる動作を保持。小鳥の傾いた頭と胴を照合。幼児の髪を補い、星の回りの弧を弱める。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "b223bbf12f53f6988db8890b0f79859b4931530e59eb83fc63863601ed2716c7",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "最終掲載サイズで人物の接点・顔の向き、小鳥の頭・翼・服を再照合。輪郭の途切れと線色・線幅を確認する。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "星を差し出す手と小鳥へ向く顔を保持。幼児の前髪・裸足と脚、小鳥の頭・眉・受け止める翼・袖・裾・Uを調整。星の周りの大きい弧を除去。翼先と袖の接続は継続照合。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "拡大比較で四角い手袋状の翼を確認。羽先を先細りの羽の形へ修正。翼の付け根の角張りと袖の接続はなお再確認が必要。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "別の鳥に見えるという指摘を受け、部分調整から三面図の横向きに基づく再構成へ変更。三面図の横向きを直接参照し、頭・片目・くちばしを再構成。四角い手袋状の両翼を、片翼で星を受け止めもう片翼を下げる見本に近い丸い翼へ変更。袖・Uを保持。生成で子供の袖に内線が増えたため細部は再確認。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "三面図側面を参照し、頭・冠羽・顔のパーツをまとめて縮小して胴との比率を調整。星へ向く姿勢、翼とUを保持。子供の袖の二重線など残存項目は別途確認対象。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "mimo-frame-show-and-receive.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "三面図側面を参照し、頭・冠羽・顔のパーツをまとめて縮小して胴との比率を調整。星へ向く姿勢、翼とUを保持。子供の袖の二重線など残存項目は別途確認対象。",
+          "tool": "built-in image_gen",
+          "prompt": "show-and-receive-edit-prompt.txt",
+          "geometryPrompt": "show-and-receive-mimo-geometry-prompt.txt",
+          "modelLockPrompt": "show-and-receive-mimo-model-lock-prompt.txt",
+          "shapeCorrectionPrompt": "show-and-receive-proportion-lock-prompt.txt"
+        }
       }
     },
     {
@@ -4732,25 +4854,62 @@
         ],
         "observation": "大人の顔を確かめる関係を保持。小鳥の頭身を照合し、人物の髪と視線の点線を整理。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "再確認待ち",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "0b5c0a08cf7f2aadaf24e1ba0e56a3e308188d1aa0e0274786cddc985ae91ed5",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
-        "nextAction": "子どもの姿勢・接点 → 動物の造形 → 背景 → 部位別の配色 → 縮小確認。",
+        "nextAction": "最終掲載サイズで人物の接点・顔の向き、小鳥の頭・翼・服を再照合。輪郭の途切れと線色・線幅を確認する。",
         "verification": null,
         "history": [
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "大人の顔を見上げる子供と応答する大人の関係を保持。幼児の髪・体型、大人の低い結び髪・座位を調整。小鳥の頭・眉・袖・裾・Uを調整し冠羽の内色を除去。傘を残し、矢印と光を除去。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "拡大比較で横に広い頭・頬の出っ張りを確認。頭幅を抑え卵形へ調整。頬の連続曲線・目とくちばし位置は厳密な重ね合わせ未実施。人物の線色に生成差があるため別途確認。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "別の鳥に見えるという指摘を受け、部分調整から三面図の横向きに基づく再構成へ変更。三面図の横向きの頭全体・片目・くちばし・下げた翼・服の形へ置き直し。親子を見る向きを維持。人物の線が濃くなった生成は追加で配色修正。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "ユーザー指定で小鳥を右手前へ移し、座った斜め後ろ姿に変更。親子へ顔を向け、小さな笑い目と眉で微笑む。Uは背中中央へ配置。三面図の側面・背面を参照。最終承認待ち。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "座り姿の足を再修正。白い輪状の突起を除き、体の前から小さな鳥のつま先が覗く形に変更。右手前の位置、微笑み、背中のUを保持。最終承認待ち。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "ユーザー指定により両翼の先を地面につけて支える座り姿へ変更。足を前に出して軽く後傾するリラックスした姿勢。右手前の位置、微笑みと背中Uを保持。姿勢・足の細部は最終承認待ち。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "mimo-frame-social-referencing.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "ユーザー指定により両翼の先を地面につけて支える座り姿へ変更。足を前に出して軽く後傾するリラックスした姿勢。右手前の位置、微笑みと背中Uを保持。姿勢・足の細部は最終承認待ち。",
+          "tool": "built-in image_gen",
+          "prompt": "social-referencing-edit-prompt.txt",
+          "repairPrompt": "social-referencing-shirt-repair-prompt.txt",
+          "geometryPrompt": "social-referencing-mimo-geometry-prompt.txt",
+          "modelLockPrompt": "social-referencing-mimo-model-lock-prompt.txt",
+          "posePrompt": "social-referencing-seated-back-prompt.txt",
+          "feetPrompt": "social-referencing-seated-feet-prompt.txt",
+          "relaxedPosePrompt": "social-referencing-relaxed-lean-prompt.txt"
+        }
       }
     },
     {
@@ -4772,14 +4931,14 @@
         ],
         "observation": "3枚の写真は物語の対象として保持。小鳥の頭・長い胴・翼を照合し、棚・植物・大きな机と光を減らす。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "修正中",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "34c83fa5f85ab4b34c9005b9433079e58cab4f05fcc59e7d1cda2bac09f502cc",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
@@ -4789,8 +4948,20 @@
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "3枚の写真を保持し、棚・植物・光を削除。子供の髪・手・衣服を整理、大人の線を淡色化。小鳥の翼を短くし袖と裾を補完。頭と胴の厳密比率、くちばし細部は再確認対象。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "mimo-frame-three-photo-story.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "3枚の写真を保持し、棚・植物・光を削除。子供の髪・手・衣服を整理、大人の線を淡色化。小鳥の翼を短くし袖と裾を補完。頭と胴の厳密比率、くちばし細部は再確認対象。",
+          "tool": "built-in image_gen",
+          "prompt": "three-photo-story-edit-prompt.txt",
+          "repairPrompt": "three-photo-story-shirt-color-prompt.txt"
+        }
       }
     },
     {
@@ -4812,14 +4983,14 @@
         ],
         "observation": "かばんと服の動作を保持。小鳥の小頭・長い胴を照合し、髪と光の輪を整理。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "修正中",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "21e97c4daf930d79222a514aaecbda95e53bb93e3e5420ea1e995e0a3b7c6c99",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
@@ -4829,8 +5000,20 @@
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "かばん・服・靴の動作を保持。幼児の髪・耳・衣服・足を見本に寄せ、光の輪を除去。小鳥を側面型へ調整しシャツ裾を補完。人物の手と配色の数値一致は未検証。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "mimo-frame-three-step-entry.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "かばん・服・靴の動作を保持。幼児の髪・耳・衣服・足を見本に寄せ、光の輪を除去。小鳥を側面型へ調整しシャツ裾を補完。人物の手と配色の数値一致は未検証。",
+          "tool": "built-in image_gen",
+          "prompt": "three-step-entry-edit-prompt.txt",
+          "repairPrompt": "three-step-entry-detail-prompt.txt"
+        }
       }
     },
     {
@@ -4959,14 +5142,14 @@
         ],
         "observation": "手順カードは保持。小鳥の座位を照合し、細かな髪と光の輪、背景の紙質感を整理。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "修正中",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "904ffaaff393f1b675015f87135ee60bfe011ac3b8c1824026bb1218c5e2e18c",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
@@ -4976,8 +5159,25 @@
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "車を箱へ入れる動作と2枚の手順カードを保持。幼児の髪と座位を整理。小鳥を子供へ向く側面にし、椅子上に座る接点を修正。紙質感と光を除去。スカーフに残る輪郭と色・線幅は再確認対象。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "ユーザー指定により小鳥の元のポーズを復元。片翼を右側の台へ置き、頭と胴を傾け、足を軽く交差する構図。直立座位への変更を撤回。子供の髪・衣服と背景整理は保持。最終適合は再確認待ち。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "mimo-frame-two-picture-schedule.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "ユーザー指定により小鳥の元のポーズを復元。片翼を右側の台へ置き、頭と胴を傾け、足を軽く交差する構図。直立座位への変更を撤回。子供の髪・衣服と背景整理は保持。最終適合は再確認待ち。",
+          "tool": "built-in image_gen",
+          "prompt": "two-picture-schedule-edit-prompt.txt",
+          "repairPrompt": "two-picture-schedule-seat-prompt.txt",
+          "poseRestorePrompt": "two-picture-schedule-original-pose-prompt.txt"
+        }
       }
     },
     {
@@ -5000,14 +5200,14 @@
         ],
         "observation": "声を交わす向きは保持。小鳥の頭身を照合し、人物の細かな髪、光、大きなオレンジの点列を整理。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "修正中",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "98d347a8df7904c4e7c608aaae13ed743d40724ed81110776586a74b13eb7b49",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
@@ -5017,8 +5217,19 @@
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "声を交わす向きと口元の翼を保持。幼児の耳・髪と小鳥の裾・胴を調整。光を除去。頭身・袖・線色は再確認対象。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "mimo-frame-voice-pingpong.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "声を交わす向きと口元の翼を保持。幼児の耳・髪と小鳥の裾・胴を調整。光を除去。頭身・袖・線色は再確認対象。",
+          "tool": "built-in image_gen",
+          "prompt": "voice-pingpong-edit-prompt.txt"
+        }
       }
     },
     {
@@ -5040,14 +5251,14 @@
         ],
         "observation": "手を振る応答を保持。幼児の髪を補い、Mimoの小さい顔と目の表現を原図に照合。黄色い効果線を控えめに。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "修正中",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "14fcc0a6c293434b3a2ee6805a30aa3cf7d55fb546d4ceade1371c727b205d8e",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
+          "geometry": "再確認待ち",
           "background": "再確認待ち",
-          "color": "未着手",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
@@ -5057,8 +5268,20 @@
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "手振りと片足を上げる元ポーズを保持。幼児の髪・素足、小鳥の暖色線を調整。眉と小さい笑い目を保持。透過背景は修復。数値適合は未検証。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "mimo-frame-wave-response.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "手振りと片足を上げる元ポーズを保持。幼児の髪・素足、小鳥の暖色線を調整。眉と小さい笑い目を保持。透過背景は修復。数値適合は未検証。",
+          "tool": "built-in image_gen",
+          "prompt": "wave-response-edit-prompt.txt",
+          "repairPrompt": "wave-response-background-prompt.txt"
+        }
       }
     },
     {
@@ -5118,14 +5341,14 @@
         ],
         "observation": "渡す子と待つ子の距離を保持。髪を簡潔にし、小鳥の座位を照合。背後の光を除く。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "修正中",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "0b6a67ae20bd539e52d0ab8cc4a9ce540f0d72b84a736809010f98b46d589b80",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
@@ -5135,8 +5358,20 @@
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "受け渡す手と小鳥の座位を保持。人物の髪・耳・衣服、小鳥の頭輪郭・袖・裾・足を修正。背景整理。線色と目線は最終確認対象。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "relationship-frame-children-offer-and-wait.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "受け渡す手と小鳥の座位を保持。人物の髪・耳・衣服、小鳥の頭輪郭・袖・裾・足を修正。背景整理。線色と目線は最終確認対象。",
+          "tool": "built-in image_gen",
+          "prompt": "children-offer-and-wait-edit-prompt.txt",
+          "repairPrompt": "children-offer-and-wait-background-prompt.txt"
+        }
       }
     },
     {
@@ -5197,14 +5432,14 @@
         ],
         "observation": "胸腹に手を置く関係を保持。大人の髪を補い、小鳥の頭身と光の輪・息の記号を整理。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "修正中",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "c913c0bd811f88754e316a70cc987e1584fb4a4747985d0a9b38ba5a6a637697",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
@@ -5214,8 +5449,20 @@
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "お腹に手を添える親子と小鳥の元ポーズを保持。人物の簡潔な髪・耳・衣服を追加。小鳥の袖・裾とスカーフを整理し光を除去。頬輪郭・くちばし色と人物線の数値適合は再確認対象。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "relationship-frame-deep-breath.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "お腹に手を添える親子と小鳥の元ポーズを保持。人物の簡潔な髪・耳・衣服を追加。小鳥の袖・裾とスカーフを整理し光を除去。頬輪郭・くちばし色と人物線の数値適合は再確認対象。",
+          "tool": "built-in image_gen",
+          "prompt": "deep-breath-edit-prompt.txt",
+          "repairPrompt": "deep-breath-detail-prompt.txt"
+        }
       }
     },
     {
@@ -5324,14 +5571,14 @@
         ],
         "observation": "向かい合う手を保持。人物の髪・頭身、小鳥の横向きと翼を照合し、光の輪を除く。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "修正中",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "8029153a643b3a7ed2083de2be6e1765e5f228af5dbb821128ac75def7c3bf2d",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
@@ -5341,8 +5588,20 @@
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "親子の手遊び、小鳥の拍手ポーズを保持。幼児の短髪、大人のボブと衣服を整理。小鳥の眉と小さい笑い目を維持しスカーフの茶色線を除去。色面の縁・袖と線幅は未認証。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "relationship-frame-parent-hand-play.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "親子の手遊び、小鳥の拍手ポーズを保持。幼児の短髪、大人のボブと衣服を整理。小鳥の眉と小さい笑い目を維持しスカーフの茶色線を除去。色面の縁・袖と線幅は未認証。",
+          "tool": "built-in image_gen",
+          "prompt": "parent-hand-play-edit-prompt.txt",
+          "repairPrompt": "parent-hand-play-scarf-prompt.txt"
+        }
       }
     },
     {
@@ -5365,14 +5624,14 @@
         ],
         "observation": "つないだ両手を保持。大人と子どもの線の濃さを分け、髪と小鳥の胴を整え、回転の弧と光を抑える。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "修正中",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "1656dc876e20700c7587dba1e2ee1db0cbf3c8c69f4025f2c97a9c036ecbfe65",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
@@ -5382,8 +5641,20 @@
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "両手をつないで回る接点と小鳥の両翼・片足を上げるポーズを保持。人物の髪・耳と小鳥の眉・小さい笑い目を調整。光を除去しスカーフの線を整理。生成で入った人物の塗りは白抜きへ戻した。頭輪郭の厳密一致と配色は再確認対象。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "relationship-frame-spin-together.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "両手をつないで回る接点と小鳥の両翼・片足を上げるポーズを保持。人物の髪・耳と小鳥の眉・小さい笑い目を調整。光を除去しスカーフの線を整理。生成で入った人物の塗りは白抜きへ戻した。頭輪郭の厳密一致と配色は再確認対象。",
+          "tool": "built-in image_gen",
+          "prompt": "spin-together-edit-prompt.txt",
+          "repairPrompt": "spin-together-white-fill-prompt.txt"
+        }
       }
     },
     {
@@ -5406,14 +5677,14 @@
         ],
         "observation": "触れる手と子どもの応答を保持。髪を簡潔にし、大人の線を淡く、小鳥の頭身と光の輪を整理。",
         "priority": "優先",
-        "status": "修正待ち",
-        "reviewLevel": "一覧で一次確認",
+        "status": "修正中",
+        "reviewLevel": "原寸＋一覧確認",
         "imageSha256": "d43c35420d69343195271e15f792e18b54ec881b5305f98005e8e85dba11d3bf",
         "stages": {
           "visualReview": "完了",
-          "geometry": "未着手",
-          "background": "未着手",
-          "color": "未着手",
+          "geometry": "再確認待ち",
+          "background": "再確認待ち",
+          "color": "再確認待ち",
           "finalReview": "未実施"
         },
         "geometryCheck": "三面図・人物見本との重ね合わせは未実施。角度や姿勢の差だけで不合格にしない。",
@@ -5423,8 +5694,21 @@
           {
             "date": "2026-09-20",
             "event": "現行仕様で再点検。画像は変更せず、修正待ちとして登録。"
+          },
+          {
+            "date": "2026-09-20",
+            "event": "元のくすぐりを止める手の位置、子供の仰向け応答、小鳥の両翼を寄せる姿勢を保持。人物の髪・耳と衣服、小鳥の頭輪郭を調整。光の輪と大きなマット線を除去。スカーフの濃い縁は修正生成でも残存し、未解消として記録。線色・線幅の数値適合も未確認。"
           }
-        ]
+        ],
+        "revisionApplied": {
+          "asset": "relationship-frame-tickle-pause.png",
+          "status": "元ファイルへ反映・再確認待ち",
+          "note": "元のくすぐりを止める手の位置、子供の仰向け応答、小鳥の両翼を寄せる姿勢を保持。人物の髪・耳と衣服、小鳥の頭輪郭を調整。光の輪と大きなマット線を除去。スカーフの濃い縁は修正生成でも残存し、未解消として記録。線色・線幅の数値適合も未確認。",
+          "tool": "built-in image_gen",
+          "prompt": "tickle-pause-edit-prompt.txt",
+          "repairPrompt": "tickle-pause-detail-prompt.txt",
+          "rejectedScarfAttempt": "tickle-pause-scarf-prompt.txt"
+        }
       }
     },
     {
@@ -6144,6 +6428,58 @@
       {
         "date": "2026-09-20",
         "event": "人物造形を追加点検し、ピース・ばんざい模倣・AACでひとことの3枚を同名更新。大人は膝座位見本、子供は幼児見本へ照合。最終適合は未完了。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "097〜099の未対応3枚を三面図・人物見本から修正し同名更新。累計24枚に修正画像を反映。最終適合は未完了。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "100〜102を同名更新。累計27枚。太鼓の追加生成で背景が崩れた出力は不採用とし、正常な画像から再修正。最終適合は未完了。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "103〜105を三面図と人物見本から修正し同名更新。累計30枚。最終適合は未完了。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "103〜105の小鳥を原三面図と拡大比較し追加修正。翼の付け根・頬の曲線など残差も明記。累計30枚のまま、完全一致とは判定しない。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "103〜105の小鳥を原三面図の横向きモデルから再構成。直前の形を承認済みの見本として扱わない。更新済み30枚、最終適合は未完了。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "指定2枚を再修正。routine-shoe-messageの頭輪郭、show-and-receiveの頭と胴の比率を三面図参照で調整し元ファイルへ反映。最終承認は未実施。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "social-referencing：右手前で座って微笑む斜め後ろ姿に更新。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "social-referencing：座り姿の足を修正して元画像へ反映。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "social-referencing：両手を地面につくリラックスした座り姿へ更新。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "106・107・109の3枚を三面図と幼児見本を参照して同名更新。計33枚更新、最終適合は未承認。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "110・111・113を元ポーズ保持で同名更新。計36枚。最終適合は未承認。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "115・117・118を元ポーズ保持で同名更新。計39枚。最終適合は未承認。"
+      },
+      {
+        "date": "2026-09-20",
+        "event": "119を同名更新。計40枚。小鳥全件に修正案反映履歴あり。最終適合完了を意味しない。"
       }
     ],
     "humanShapeCommitReview": {
