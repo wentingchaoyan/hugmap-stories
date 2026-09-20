@@ -31,7 +31,7 @@
   "existingRasterCompliance": "unverified; this is the production standard for future work, not a claim that existing generated images already match",
   "hair": {
     "baby": "既存の赤ちゃん見本を変更しない。",
-    "toddler": "短い前髪と小さな頭頂の起伏。コーラルの線だけで描き、塗りは白。",
+    "toddler": "短髪に加え、簡潔なボブ・小さな低い結び髪も選択可。いずれもB/C両体格に使い、髪は白塗り・線は #F59B82。体格・服装・頭身は共通。",
     "adult": "短髪を基本に、座って聞く姿勢はボブ、かがんで手を伸ばす姿勢は低い結び髪。簡潔なコーラルの輪郭線だけで描き、塗りは白。",
     "avoid": [
       "毛束の細密描写",
@@ -39,6 +39,6 @@
       "顔の内側の描写",
       "髪の量による年齢・発達区分"
     ],
-    "sampleStatus": "幼児は簡潔な髪のv1見本、大人は短髪・ボブ・低い結び髪を混ぜたv2見本。線色・線幅の厳密な数値適合は未検証。"
+    "sampleStatus": "短髪と女の子のボブ・結び髪見本を掲載。大人は短髪・ボブ・低い結び髪。生成見本の線色・線幅の厳密な数値適合は未検証。"
   }
 }
