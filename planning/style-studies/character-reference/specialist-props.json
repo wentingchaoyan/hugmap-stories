@@ -1,0 +1,845 @@
+{
+  "reviewedAt": "2026-09-19",
+  "purpose": "専門サイトを参考にした、各キャラクターの常用道具の選定案。使用頻度の調査順位ではない。",
+  "interpretation": "出典の説明は用具の形・用途の確認。キャラクターの使用場面と描画メモはHugMap独自の提案。",
+  "sources": {
+    "aac": {
+      "title": "ASHA · AAC Practice Portal",
+      "url": "https://www.asha.org/Practice-Portal/Professional-Issues/Augmentative-and-Alternative-Communication/"
+    },
+    "big": {
+      "title": "AbleNet · BIGmack",
+      "url": "https://www.ablenetinc.com/bigmack/"
+    },
+    "quick": {
+      "title": "AbleNet · QuickTalker FeatherTouch 7",
+      "url": "https://www.ablenetinc.com/quicktalker-ft-7/"
+    },
+    "bubbles": {
+      "title": "TalkTools · Bubbles",
+      "url": "https://talktools.com/collections/bubbles"
+    },
+    "mirror": {
+      "title": "TalkTools · Smile Program manual",
+      "url": "https://education.talktools.com/wp-content/uploads/2019/01/Smile_Manual_06112019-_LNGT.pdf"
+    },
+    "honey": {
+      "title": "TalkTools · Honey Bear Silicone",
+      "url": "https://talktools.com/products/talktools-honey-bear-silicone"
+    },
+    "cup": {
+      "title": "TalkTools · Itsy Cup Set",
+      "url": "https://talktools.com/products/talktools-itsy-cup-set-cloud"
+    },
+    "spoon": {
+      "title": "TalkTools · Itsy Spoons",
+      "url": "https://talktools.com/collections/spoons/products/talktools-itsy-spoon-set-cloud"
+    },
+    "horn": {
+      "title": "TalkTools · Horn Kit",
+      "url": "https://talktools.com/collections/best-sellers/products/horn-kit"
+    },
+    "busy": {
+      "title": "Therapro · Therapy Busy Box",
+      "url": "https://www.therapro.com/Therapy-Busy-Box-.html"
+    },
+    "scissors": {
+      "title": "Therapro · Long Loop Self Opening Scissors",
+      "url": "https://www.therapro.com/Long-Loop-Self-Opening-Scissors.html"
+    },
+    "grip": {
+      "title": "Therapro · Grotto Grip",
+      "url": "https://www.therapro.com/Handwriting/Grips-for-Positioning/Grotto-Grip.html"
+    },
+    "slant": {
+      "title": "Therapro · Collapsible Slant Boards",
+      "url": "https://www.therapro.com/Handwriting/Handwriting-Slant-Boards/Collapsible-Slant-Boards.html"
+    },
+    "discs": {
+      "title": "GONGE · Tactile Discs",
+      "url": "https://www.gonge.com/products/tactile-discs"
+    },
+    "stones": {
+      "title": "GONGE · River Stones",
+      "url": "https://www.gonge.com/products/river-stones"
+    },
+    "hills": {
+      "title": "GONGE · Hilltops",
+      "url": "https://www.gonge.com/products/hill-tops"
+    },
+    "river": {
+      "title": "GONGE · River",
+      "url": "https://www.gonge.com/products/river"
+    },
+    "surfer": {
+      "title": "GONGE · Floor Surfer",
+      "url": "https://www.gonge.com/products/floor-surfer"
+    },
+    "rings": {
+      "title": "GONGE · Activity Rings",
+      "url": "https://www.gonge.com/products/activity-rings"
+    },
+    "cones": {
+      "title": "GONGE · Build N’ Balance Cone",
+      "url": "https://www.gonge.com/products/build-n-balance-cone"
+    },
+    "arches": {
+      "title": "GONGE · Arches",
+      "url": "https://www.gonge.com/products/arches"
+    },
+    "ball": {
+      "title": "eSpecial Needs · Balance & Therapy Balls",
+      "url": "https://especialneeds.com/collections/balance-and-therapy-balls"
+    },
+    "tunnel": {
+      "title": "eSpecial Needs · Tents & Tunnels",
+      "url": "https://especialneeds.com/collections/tents-and-tunnels"
+    },
+    "timer": {
+      "title": "Time Timer · Visual Scheduler",
+      "url": "https://www.timetimer.com/pages/time-timer-original-8-visual-scheduler-and-visual-scheduler-accessory"
+    },
+    "board": {
+      "title": "Time Timer · Dry Erase Board",
+      "url": "https://www.timetimer.com/products/time-timer-dry-erase-board"
+    },
+    "visual": {
+      "title": "Autism Care Network / AIR-P · Visual Supports",
+      "url": "https://www.autismspeaks.org/tool-kit/autism-care-networkair-p-visual-supports-and-autism"
+    },
+    "sequence": {
+      "title": "Therapro · Spark Sequencing Cards",
+      "url": "https://www.therapro.com/Speech-Language/Functional-Language-and-Literacy/Spark-Card-Sets.html"
+    },
+    "emotion": {
+      "title": "Therapro · Explore Emotions Photo Cards",
+      "url": "https://www.therapro.com/Speech-Language/Social-Emotional-Language/Explore-Emotions-Photo-Cards.html"
+    },
+    "scale": {
+      "title": "The Incredible 5-Point Scale · 開発者サイト",
+      "url": "https://www.5pointscale.com/"
+    },
+    "abc": {
+      "title": "Vanderbilt University IRIS · Descriptive Assessments",
+      "url": "https://iris.peabody.vanderbilt.edu/module/fba-elem/cresource/q2/p06/"
+    },
+    "record": {
+      "title": "Vanderbilt University IRIS · Frequency and Interval Recording",
+      "url": "https://iris.peabody.vanderbilt.edu/mcontent/frequency-and-interval/"
+    },
+    "choices": {
+      "title": "Autism Speaks · Visual Supports",
+      "url": "https://docs.autismspeaks.org/evidence-based-practices/visual-supports"
+    }
+  },
+  "groups": [
+    {
+      "character": "mimo",
+      "name": "Mimo",
+      "role": "伝える方法を増やし、小さな応答を待つ。食事用具は専門家と使う場面へ。",
+      "items": [
+        {
+          "id": "mimo-tool-01",
+          "name": "絵・写真のコミュニケーションボード",
+          "source": "aac",
+          "sourceFact": "絵や写真を指して伝えるAACの方法。",
+          "scene": "「もっと」「おしまい」を並べ、Mimoは選ばれた方へ応じる。",
+          "design": "角丸の平板と大きな絵枠。既存の絵カードと共通。",
+          "context": "日常のやりとり",
+          "photo": {
+            "path": "assets/specialist-props/communication-75a8adde85.jpg",
+            "originalUrl": "https://www.therapro.com/THL86902_02.jpg",
+            "sourceUrl": "https://www.therapro.com/Laminated-Communication-Boards.html",
+            "credit": "Therapro · 絵と文字を配置したボード例",
+            "alt": "絵・写真のコミュニケーションボードの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "mimo-tool-02",
+          "name": "コミュニケーションブック",
+          "source": "aac",
+          "sourceFact": "持ち歩ける冊子もAACの選択肢。",
+          "scene": "好きな遊びのページを一緒に開き、指や視線の動きを待つ。",
+          "design": "厚いページと見つけやすいタブ。",
+          "context": "日常のやりとり",
+          "photo": {
+            "path": "assets/specialist-props/book-a88d93ff53.jpg",
+            "originalUrl": "https://www.therapro.com/AT16582_01.jpg",
+            "sourceUrl": "https://www.therapro.com/Speech-Language/Augmentative-Alternative-Communication/Large-Communication-Book.html",
+            "credit": "Therapro · 製品参考写真",
+            "alt": "コミュニケーションブックの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "mimo-tool-03",
+          "name": "録音メッセージボタン",
+          "source": "big",
+          "sourceFact": "大きなボタンで録音したメッセージを再生する機器。",
+          "scene": "子どもの「もう一回」に、Mimoがもう一度音を返す。",
+          "design": "大きな丸い押し面と低い台座。",
+          "context": "伝える道具",
+          "photo": {
+            "path": "assets/specialist-props/big-7117f5cfe9.jpg",
+            "originalUrl": "https://cdn11.bigcommerce.com/s-rwcdtzv1dl/products/216/images/768/173c1573-7271-4b7e-8c32-338f762333fc_10000041__55293.1649858556.386.513.jpg?c=1",
+            "sourceUrl": "https://www.ablenetinc.com/bigmack/",
+            "credit": "AbleNet · BIGmack",
+            "alt": "録音メッセージボタンの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "mimo-tool-04",
+          "name": "複数メッセージの音声ボード",
+          "source": "quick",
+          "sourceFact": "複数の録音メッセージを選べる携帯機器。",
+          "scene": "「見て」「やめたい」も選べる位置に置き、返事をする。",
+          "design": "平たい長方形に大きな選択枠。",
+          "context": "伝える道具",
+          "photo": {
+            "path": "assets/specialist-props/quick-27862e9be5.jpg",
+            "originalUrl": "https://cdn11.bigcommerce.com/s-rwcdtzv1dl/products/213/images/770/f714c9a4-5999-44de-8e3d-3a8109e7264f_10000036__78423.1649255332.386.513.jpg?c=1",
+            "sourceUrl": "https://www.ablenetinc.com/quicktalker-ft-7/",
+            "credit": "AbleNet · QuickTalker FeatherTouch 7",
+            "alt": "複数メッセージの音声ボードの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "mimo-tool-05",
+          "name": "シャボン玉セット",
+          "source": "bubbles",
+          "sourceFact": "TalkToolsにシャボン玉用具の取り扱いがある。",
+          "scene": "大人が作った泡を一緒に見て、「もう一回」の合図を待つ。",
+          "design": "小瓶・持ち手・丸い輪。口へ入れる絵にしない。",
+          "context": "日常の遊び",
+          "photo": {
+            "path": "assets/specialist-props/bubbles-d2a6e5951c.jpg",
+            "originalUrl": "https://talktools.com/cdn/shop/files/1-New_9827035a-03e6-4b65-a420-f0bc0ed7eea8_400x.jpg?v=1760637907",
+            "sourceUrl": "https://talktools.com/collections/bubbles",
+            "credit": "TalkTools · Bubble Tube",
+            "alt": "シャボン玉セットの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "mimo-tool-06",
+          "name": "手鏡・卓上鏡",
+          "source": "mirror",
+          "sourceFact": "専門プログラムで口元を確認する鏡を使う。",
+          "scene": "Mimoと子どもが自分の表情を見つける遊びへ展開する。",
+          "design": "丸い鏡面と持ち手。鏡遊びはHugMapでの応用案。",
+          "context": "表情の観察",
+          "photo": {
+            "path": "assets/specialist-props/mirrorphoto-214a6ed0a4.jpg",
+            "originalUrl": "https://www.therapro.com/THP35601_01.jpg",
+            "sourceUrl": "https://www.therapro.com/Speech-Language/Articulation-and-Phonology/Self-Portrait-Mirror.html",
+            "credit": "Therapro · 製品参考写真",
+            "alt": "手鏡・卓上鏡の参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "mimo-tool-07",
+          "name": "押して補助できるストローカップ",
+          "source": "honey",
+          "sourceFact": "Honey Bearはストロー飲みを支えるカップ。",
+          "scene": "専門家が用意したカップを置き、Mimoは飲む合図を待つ。",
+          "design": "柔らかい容器・ふた・ストローを明確にする。",
+          "context": "食事支援／専門家と",
+          "photo": {
+            "path": "assets/specialist-props/honey-d2095e077f.png",
+            "originalUrl": "https://talktools.com/cdn/shop/files/Untitled_design_25.png?v=1757527997",
+            "sourceUrl": "https://talktools.com/products/talktools-honey-bear-silicone",
+            "credit": "TalkTools · Honey Bear Silicone",
+            "alt": "押して補助できるストローカップの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "mimo-tool-08",
+          "name": "小さなオープンカップ",
+          "source": "cup",
+          "sourceFact": "Itsy Cup Setはストロー・オープンカップの形態に対応。",
+          "scene": "子どもがカップへ手を伸ばす瞬間を見守る。",
+          "design": "小さい口径と短い胴。ストロー版との違いを示す。",
+          "context": "食事支援／専門家と",
+          "photo": {
+            "path": "assets/specialist-props/cup-300f9fd348.jpg",
+            "originalUrl": "https://talktools.com/cdn/shop/files/TalkTools_Itsy_Cup.jpg?v=1744906095",
+            "sourceUrl": "https://talktools.com/products/talktools-itsy-cup-set-cloud",
+            "credit": "TalkTools · ふた付き状態のセット参考",
+            "alt": "小さなオープンカップの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "mimo-tool-09",
+          "name": "短い持ち手のスプーン",
+          "source": "spoon",
+          "sourceFact": "Itsy Spoonsは幼児の自分で食べる動きに向けた用具。",
+          "scene": "Mimoは急かさず、子どもが持ち直す時間を待つ。",
+          "design": "短い柄とスプーンの先。Lukeの道具操作場面とも共有。",
+          "context": "食事支援／専門家と",
+          "photo": {
+            "path": "assets/specialist-props/spoon-e8802500cd.jpg",
+            "originalUrl": "https://talktools.com/cdn/shop/files/1_43.jpg?v=1695134649",
+            "sourceUrl": "https://talktools.com/collections/spoons/products/talktools-itsy-spoon-set-cloud",
+            "credit": "TalkTools · Itsy Spoons",
+            "alt": "短い持ち手のスプーンの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "mimo-tool-10",
+          "name": "段階式ホーン",
+          "source": "horn",
+          "sourceFact": "Horn Kitは専門プログラムに使うホーンのセット。",
+          "scene": "専門家が選んだ1本だけを使う場面で、Mimoが音を聞く。",
+          "design": "吹き口と音の出口。全セットを常に持たせない。",
+          "context": "専門プログラム用",
+          "photo": {
+            "path": "assets/specialist-props/horn-f7039084e9.png",
+            "originalUrl": "https://talktools.com/cdn/shop/files/Horn_Kit.png?v=1779822342",
+            "sourceUrl": "https://talktools.com/collections/best-sellers/products/horn-kit",
+            "credit": "TalkTools · Horn Kit",
+            "alt": "段階式ホーンの参考写真",
+            "kind": "参考写真"
+          }
+        }
+      ]
+    },
+    {
+      "character": "luke",
+      "name": "Luke",
+      "role": "つまむ・つなぐ・描く。持ち方や道具の条件を一つずつ変える。",
+      "items": [
+        {
+          "id": "luke-tool-01",
+          "name": "大きなピンセット・トング",
+          "source": "busy",
+          "sourceFact": "Busy Boxに大型ピンセットが含まれる。",
+          "scene": "つかみにくい物に合わせて道具の開き幅を変える。",
+          "design": "先端の接点が見えるU字形。",
+          "context": "手先の遊び",
+          "photo": {
+            "path": "assets/specialist-props/tweezers-3e9f89d638.jpg",
+            "originalUrl": "https://www.therapro.com/THC55504_02.jpg",
+            "sourceUrl": "https://www.therapro.com/Tweezers.html",
+            "credit": "Therapro · 製品参考写真",
+            "alt": "大きなピンセット・トングの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "luke-tool-02",
+          "name": "洗濯ばさみ",
+          "source": "busy",
+          "sourceFact": "Busy Boxに大小の洗濯ばさみが含まれる。",
+          "scene": "Lukeが台紙を支え、子どもが挟む位置を選ぶ。",
+          "design": "押す部分と挟む先を描き分ける。",
+          "context": "手先の遊び",
+          "photo": {
+            "path": "assets/specialist-props/clothespins-afa0400d0f.jpg",
+            "originalUrl": "https://spellbinderswholesale.com/cdn/shop/products/AC-0028-Jumbo-Wooden-Clothespins__44324.1539130912.1280.1280_1200x1200.jpg?v=1657214086",
+            "sourceUrl": "https://spellbinderswholesale.com/products/jumbo-wooden-clothespins",
+            "credit": "Spellbinders · 木製クリップ",
+            "alt": "洗濯ばさみの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "luke-tool-03",
+          "name": "つなぐビーズ",
+          "source": "busy",
+          "sourceFact": "Busy BoxにPop beadsが含まれる。",
+          "scene": "片側を支え、子どもが押してつなぐ続きを待つ。",
+          "design": "大きな球と凹凸の接続部。",
+          "context": "手先の遊び",
+          "photo": {
+            "path": "assets/specialist-props/beads-2d7a24932d.jpg",
+            "originalUrl": "https://www.therapro.com/THC2067K_01.jpg",
+            "sourceUrl": "https://www.therapro.com/Visual-Perception-Cognition/Games-Activities-for-Perception/Pop-Beads.html",
+            "credit": "Therapro · 製品参考写真",
+            "alt": "つなぐビーズの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "luke-tool-04",
+          "name": "ひも通しボード",
+          "source": "busy",
+          "sourceFact": "Busy Boxにひも通し活動が含まれる。",
+          "scene": "穴が見やすい向きに板を回して差し出す。",
+          "design": "大きな穴と短いひも、端の位置。",
+          "context": "両手の遊び",
+          "photo": {
+            "path": "assets/specialist-props/lacing-9682546595.jpg",
+            "originalUrl": "https://www.therapro.com/THP05112_01.jpg",
+            "sourceUrl": "https://www.therapro.com/Hand-Skills-Fine-Motor/Hand-Skills-Fine-Motor-Activities/Geo-Shape-Lacing.html",
+            "credit": "Therapro · 製品参考写真",
+            "alt": "ひも通しボードの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "luke-tool-05",
+          "name": "セラピーパテ",
+          "source": "busy",
+          "sourceFact": "Busy Boxの大人用には抵抗のあるパテが含まれる。",
+          "scene": "Lukeが柔らかさを選び直し、押す・伸ばす違いを見る。",
+          "design": "小さな容器と変形する塊。子ども用の抵抗は別途選定。",
+          "context": "素材・抵抗を選ぶ",
+          "photo": {
+            "path": "assets/specialist-props/putty-65f523f452.jpg",
+            "originalUrl": "https://www.therapro.com/PTY709025_01.jpg",
+            "sourceUrl": "https://www.therapro.com/TheraPutty-Standard-Exercise-Putty.html",
+            "credit": "Therapro · 製品参考写真",
+            "alt": "セラピーパテの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "luke-tool-06",
+          "name": "フォームブロック",
+          "source": "busy",
+          "sourceFact": "Busy Boxにフォームの立方体が含まれる。",
+          "scene": "崩れたら土台を広くし、一緒に置き直す。",
+          "design": "柔らかな角の立方体。手元の数個だけ。",
+          "context": "組み立て遊び",
+          "photo": {
+            "path": "assets/specialist-props/foam-05966de1ee.jpg",
+            "originalUrl": "https://www.saebo.com/cdn/shop/products/shop-fine-motor-cubes-01.jpg?v=1710856262&width=600",
+            "sourceUrl": "https://www.saebo.com/collections/saeboglove-hand-therapy",
+            "credit": "Saebo · Fine Motor Cubes",
+            "alt": "フォームブロックの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "luke-tool-07",
+          "name": "自動で開く補助ばさみ",
+          "source": "scissors",
+          "sourceFact": "ばねで開く、長い指穴を備えたはさみ。",
+          "scene": "切りにくさを見て、紙の向きと持ち手を選び直す。",
+          "design": "丸い刃先・大きなループ・開く仕組み。",
+          "context": "大人と工作",
+          "photo": {
+            "path": "assets/specialist-props/scissors-dcd34a2199.jpg",
+            "originalUrl": "https://www.therapro.com/TAS2416_03.jpg",
+            "sourceUrl": "https://www.therapro.com/Long-Loop-Self-Opening-Scissors.html",
+            "credit": "Therapro · 製品参考写真",
+            "alt": "自動で開く補助ばさみの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "luke-tool-08",
+          "name": "鉛筆グリップ",
+          "source": "grip",
+          "sourceFact": "鉛筆に付けて指の位置を支える補助具。",
+          "scene": "同じ紙で持ち心地を試し、使いやすい方を残す。",
+          "design": "鉛筆と指が接する部分を大きく見せる。",
+          "context": "道具の調整",
+          "photo": {
+            "path": "assets/specialist-props/grip-b51ca3b5d4.jpg",
+            "originalUrl": "https://www.therapro.com/TAS32901_3.jpg",
+            "sourceUrl": "https://www.therapro.com/Handwriting/Grips-for-Positioning/Grotto-Grip.html",
+            "credit": "Therapro · 製品参考写真",
+            "alt": "鉛筆グリップの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "luke-tool-09",
+          "name": "傾斜ボード",
+          "source": "slant",
+          "sourceFact": "書く面に傾きを付ける折り畳み式ボード。",
+          "scene": "紙が見やすくなる角度を探してから描き始める。",
+          "design": "斜めの板・紙留め・低い支持部。",
+          "context": "机まわりの調整",
+          "photo": {
+            "path": "assets/specialist-props/slant-654eace705.jpg",
+            "originalUrl": "https://www.therapro.com/TAS1545BK_01.jpg",
+            "sourceUrl": "https://www.therapro.com/Handwriting/Handwriting-Slant-Boards/Collapsible-Slant-Boards.html",
+            "credit": "Therapro · 製品参考写真",
+            "alt": "傾斜ボードの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "luke-tool-10",
+          "name": "触感ディスク",
+          "source": "discs",
+          "sourceFact": "大小の円盤で手足から異なる表面に触れられる。",
+          "scene": "Lukeは手に持つ小さな円盤を2枚出し、好みを待つ。",
+          "design": "表面模様は少なく。Genの床用ディスクと共通。",
+          "context": "感触を比べる",
+          "photo": {
+            "path": "assets/specialist-props/discs-45fd46ca34.jpg",
+            "originalUrl": "https://www.gonge.com/admin/public/getimage.ashx?image=/Files/Images/products/gonge/2116_Tactile_Discs_Complete_Set_Gonge.jpg&format=jpg&width=771",
+            "sourceUrl": "https://www.gonge.com/products/tactile-discs",
+            "credit": "GONGE · Tactile Discs",
+            "alt": "触感ディスクの参考写真",
+            "kind": "参考写真"
+          }
+        }
+      ]
+    },
+    {
+      "character": "gen",
+      "name": "Gen",
+      "role": "動く距離・高さ・速さを変え、その子の参加方法に合わせる。",
+      "items": [
+        {
+          "id": "gen-tool-01",
+          "name": "飛び石",
+          "source": "stones",
+          "sourceFact": "River Stonesは床に配置するバランス用の足場。",
+          "scene": "Genが間隔を狭め、踏む・またぐ・戻るを選べるようにする。",
+          "design": "低い三角形の足場と滑りにくい縁。",
+          "context": "運動あそび",
+          "photo": {
+            "path": "assets/specialist-props/stones-5d2a1b855a.jpg",
+            "originalUrl": "https://www.gonge.com/admin/public/getimage.ashx?image=/Files/Images/products/gonge/2120_River_Stones_Gonge.jpg&format=jpg&width=771",
+            "sourceUrl": "https://www.gonge.com/products/river-stones",
+            "credit": "GONGE · River Stones",
+            "alt": "飛び石の参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "gen-tool-02",
+          "name": "高さの違うステップ台",
+          "source": "hills",
+          "sourceFact": "Hilltopsは高さが異なる足場のセット。",
+          "scene": "低い台から試し、上らず触れる参加も受け止める。",
+          "design": "足場の高さと接地面。既存の木の台とは別形状。",
+          "context": "運動あそび",
+          "photo": {
+            "path": "assets/specialist-props/hills-7cbda9c20e.jpg",
+            "originalUrl": "https://www.gonge.com/admin/public/getimage.ashx?image=/Files/Images/products/gonge/2121_Hilltops_Gonge.jpg&format=jpg&width=771",
+            "sourceUrl": "https://www.gonge.com/products/hill-tops",
+            "credit": "GONGE · Hilltops",
+            "alt": "高さの違うステップ台の参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "gen-tool-03",
+          "name": "つなぐバランスパス",
+          "source": "river",
+          "sourceFact": "Riverはつなげて経路を作る床用パーツ。",
+          "scene": "直線を短く作り、子どもが選んだ方へつなぎ替える。",
+          "design": "低い細道と接続部。",
+          "context": "運動あそび",
+          "photo": {
+            "path": "assets/specialist-props/river-6c3b8840fb.jpg",
+            "originalUrl": "https://www.gonge.com/admin/public/getimage.ashx?image=/Files/Images/products/gonge/2123_River_GONGE_Vibrant.jpg&format=jpg&width=771",
+            "sourceUrl": "https://www.gonge.com/products/river",
+            "credit": "GONGE · River",
+            "alt": "つなぐバランスパスの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "gen-tool-04",
+          "name": "スクーターボード",
+          "source": "surfer",
+          "sourceFact": "Floor Surferは床で使う車輪付きボード。",
+          "scene": "専門家が位置を整え、Genは横で移動の速さを合わせる。",
+          "design": "低い台・車輪・手を置く部分。",
+          "context": "運動支援／大人と",
+          "photo": {
+            "path": "assets/specialist-props/surfer-606d42472b.jpg",
+            "originalUrl": "https://www.gonge.com/admin/public/getimage.ashx?image=/Files/Images/products/gonge/2168_Floor_Surfer_Gonge.jpg&format=jpg&width=771",
+            "sourceUrl": "https://www.gonge.com/products/floor-surfer",
+            "credit": "GONGE · Floor Surfer",
+            "alt": "スクーターボードの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "gen-tool-05",
+          "name": "柔らかい活動リング",
+          "source": "rings",
+          "sourceFact": "握る・渡す・投げるなどに使える柔らかい輪。",
+          "scene": "座ったまま渡す、床の目印にするなど方法を変える。",
+          "design": "柔らかい太い輪。",
+          "context": "運動あそび",
+          "photo": {
+            "path": "assets/specialist-props/rings-4df253d626.jpg",
+            "originalUrl": "https://www.gonge.com/admin/public/getimage.ashx?image=/Files/Images/products/gonge/2190_Activity_Rings_Gonge.jpg&format=jpg&width=771",
+            "sourceUrl": "https://www.gonge.com/products/activity-rings",
+            "credit": "GONGE · Activity Rings",
+            "alt": "柔らかい活動リングの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "gen-tool-06",
+          "name": "目印コーン",
+          "source": "cones",
+          "sourceFact": "リングや棒を組み合わせられる多用途コーン。",
+          "scene": "曲がる位置を近づけ、短い道のりに変える。",
+          "design": "広い底と丸い上端。必要なときだけ接続穴。",
+          "context": "場所の目印",
+          "photo": {
+            "path": "assets/specialist-props/cones-be1f45bebf.jpg",
+            "originalUrl": "https://www.gonge.com/admin/public/getimage.ashx?image=/Files/Images/products/gonge/2250_Cones_Gonge.jpg&format=jpg&width=771",
+            "sourceUrl": "https://www.gonge.com/products/build-n-balance-cone",
+            "credit": "GONGE · Build N’ Balance Cone",
+            "alt": "目印コーンの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "gen-tool-07",
+          "name": "アーチ型バランス遊具",
+          "source": "arches",
+          "sourceFact": "向きにより橋や揺れる台として使うアーチ。",
+          "scene": "まず橋の向きで一緒に眺め、進みたい合図を待つ。",
+          "design": "曲線の板と広い両端。積み上げは描かない。",
+          "context": "運動支援／大人と",
+          "photo": {
+            "path": "assets/specialist-props/arches-ad8b8cafdd.jpg",
+            "originalUrl": "https://www.gonge.com/admin/public/getimage.ashx?image=/Files/Images/products/gonge/2163_Arches_Gonge.jpg&format=jpg&width=771",
+            "sourceUrl": "https://www.gonge.com/products/arches",
+            "credit": "GONGE · Arches",
+            "alt": "アーチ型バランス遊具の参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "gen-tool-08",
+          "name": "大きなセラピーボール",
+          "source": "ball",
+          "sourceFact": "専門用品店で運動・姿勢を支えるボールを扱う。",
+          "scene": "大人と一緒に大きな球をゆっくり押し返す。",
+          "design": "既存の黄色いボールより大きい別サイズ。",
+          "context": "運動支援／大人と",
+          "photo": {
+            "path": "assets/specialist-props/ballphoto-f05a93b95d.jpg",
+            "originalUrl": "https://www.therapro.com/CS56801_01.jpg",
+            "sourceUrl": "https://www.therapro.com/Norco-Therapy-Exercise-Balls_3.html",
+            "credit": "Therapro · 製品参考写真",
+            "alt": "大きなセラピーボールの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "gen-tool-09",
+          "name": "くぐるトンネル",
+          "source": "tunnel",
+          "sourceFact": "専門用品店で移動遊びのトンネルを扱う。",
+          "scene": "出口で待つGenとの距離を短くし、途中で戻ることも受け止める。",
+          "design": "入口と出口が分かる短い筒。既存背景のトンネルと共通。",
+          "context": "運動あそび",
+          "photo": {
+            "path": "assets/specialist-props/tunnelphoto-bf3d401155.jpg",
+            "originalUrl": "https://www.therapro.com/THS71006_01.jpg",
+            "sourceUrl": "https://www.therapro.com/Move-To-Learn/Movement-Tools/Pop-Up-Tunnel-with-5-Sensory-Balls.html",
+            "credit": "Therapro · 製品参考写真",
+            "alt": "くぐるトンネルの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "gen-tool-10",
+          "name": "床用の触感ディスク",
+          "source": "discs",
+          "sourceFact": "大きい円盤は床、小さい円盤は手元で使う。",
+          "scene": "好きな感触の場所へ立つ、手で触る方法を一緒に探す。",
+          "design": "薄い円盤と控えめな表面模様。Lukeと共有。",
+          "context": "感触・足場",
+          "photo": {
+            "path": "assets/specialist-props/discs-45fd46ca34.jpg",
+            "originalUrl": "https://www.gonge.com/admin/public/getimage.ashx?image=/Files/Images/products/gonge/2116_Tactile_Discs_Complete_Set_Gonge.jpg&format=jpg&width=771",
+            "sourceUrl": "https://www.gonge.com/products/tactile-discs",
+            "credit": "GONGE · Tactile Discs",
+            "alt": "床用の触感ディスクの参考写真",
+            "kind": "参考写真"
+          }
+        }
+      ]
+    },
+    {
+      "character": "lumi",
+      "name": "LUMI",
+      "role": "前後の出来事と本人の感じ方を一緒に整理する。記録は理解のために使う。",
+      "items": [
+        {
+          "id": "lumi-tool-01",
+          "name": "見えるタイマー",
+          "source": "timer",
+          "sourceFact": "色の面積で残り時間を示すタイマー。",
+          "scene": "休む時間の見通しを共有し、必要なら予定を相談し直す。",
+          "design": "消えていく色面と中央のつまみ。既存の時計とは別用途。",
+          "context": "見通しを共有",
+          "photo": {
+            "path": "assets/specialist-props/timer-65c231b24b.jpg",
+            "originalUrl": "https://www.timetimer.com/cdn/shop/files/TTM9-W_Website_2500x2500_May2024_Cover.jpg?crop=center&height=500&v=1715089681&width=500",
+            "sourceUrl": "https://www.timetimer.com/pages/time-timer-original-8-visual-scheduler-and-visual-scheduler-accessory",
+            "credit": "Time Timer · タイマーの形状参考",
+            "alt": "見えるタイマーの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "lumi-tool-02",
+          "name": "絵のスケジュールボード",
+          "source": "timer",
+          "sourceFact": "活動カードを並べて予定を見える形にする用具。",
+          "scene": "「次は何？」を一緒に確認し、変更したカードを差し替える。",
+          "design": "カードの列と留め具。",
+          "context": "見通しを共有",
+          "photo": {
+            "path": "assets/specialist-props/schedule-cc970da9fb.jpg",
+            "originalUrl": "https://www.timetimer.com/cdn/shop/files/W_Front_Straight_FistNextThen_BlueClips_RedMarker_SL.jpg?v=1716177233",
+            "sourceUrl": "https://www.timetimer.com/pages/time-timer-original-8-visual-scheduler-and-visual-scheduler-accessory",
+            "credit": "Time Timer · Visual Scheduler",
+            "alt": "絵のスケジュールボードの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "lumi-tool-03",
+          "name": "「いま・つぎ」ボード",
+          "source": "visual",
+          "sourceFact": "First–Then Boardは二つの活動を視覚的に示す。",
+          "scene": "目の前のことと次の予定を2枠で示し、変更希望も聞く。",
+          "design": "2枠の小さな板。ごほうびの条件表にしない。",
+          "context": "見通しを共有",
+          "photo": {
+            "path": "assets/specialist-props/firstthen-detail-00dd92fa27.jpg",
+            "originalUrl": "https://www.therapro.com/LS83002_03.jpg",
+            "sourceUrl": "https://www.therapro.com/Executive-Function/Executive-Function-Tools-for-Time-Management/SchKIDules-Deluxe-Collection-Box-Set.html",
+            "credit": "SchKIDules · 組み合わせるカードの参考",
+            "alt": "「いま・つぎ」ボードの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "lumi-tool-04",
+          "name": "選択ボード",
+          "source": "choices",
+          "sourceFact": "視覚支援には選択肢を見える形で示す方法がある。",
+          "scene": "静かな場所・一緒に休むなど、次の過ごし方を相談する。",
+          "design": "大きな選択枠。MimoのAACボードと共通。",
+          "context": "本人と相談",
+          "photo": {
+            "path": "assets/specialist-props/communication-75a8adde85.jpg",
+            "originalUrl": "https://www.therapro.com/THL86902_02.jpg",
+            "sourceUrl": "https://www.therapro.com/Laminated-Communication-Boards.html",
+            "credit": "Therapro · 絵と文字を配置したボード例",
+            "alt": "選択ボードの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "lumi-tool-05",
+          "name": "出来事の順序カード",
+          "source": "sequence",
+          "sourceFact": "場面を並べ、前後や理由を話し合うカード。",
+          "scene": "「その前に何があった？」と3枚を並べ直す。",
+          "design": "既存の3枚カードを使い、内容を場面に合わせる。",
+          "context": "前後を比べる",
+          "photo": {
+            "path": "assets/specialist-props/sequence-3aeb08cc1d.jpg",
+            "originalUrl": "https://www.therapro.com/THL34001_01.jpg",
+            "sourceUrl": "https://www.therapro.com/Speech-Language/Functional-Language-and-Literacy/Spark-Card-Sets.html",
+            "credit": "Therapro · 製品参考写真",
+            "alt": "出来事の順序カードの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "lumi-tool-06",
+          "name": "気持ちの写真カード",
+          "source": "emotion",
+          "sourceFact": "感情について話し合う写真カード。",
+          "scene": "似ている感じを本人に選んでもらい、決めつけずに聞く。",
+          "design": "大きな顔・場面枠。表情だけで内面を断定しない。",
+          "context": "本人と相談",
+          "photo": {
+            "path": "assets/specialist-props/emotion-cf94db111f.jpg",
+            "originalUrl": "https://www.therapro.com/THL45401_01.jpg",
+            "sourceUrl": "https://www.therapro.com/Speech-Language/Social-Emotional-Language/Explore-Emotions-Photo-Cards.html",
+            "credit": "Therapro · 製品参考写真",
+            "alt": "気持ちの写真カードの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "lumi-tool-07",
+          "name": "気持ちの強さのスケール",
+          "source": "scale",
+          "sourceFact": "5段階などで状態の違いを可視化する教材。",
+          "scene": "本人の言葉で「いまはこのくらい」を共有する。",
+          "design": "縦の段階と可動の目印。善悪の点数にしない。",
+          "context": "本人と相談",
+          "photo": {
+            "path": "assets/specialist-props/scale-720fd661c5.jpg",
+            "originalUrl": "https://www.5pointscale.com/uploads/7/9/4/7/7947067/5-point-scale-2019_orig.jpg",
+            "sourceUrl": "https://www.5pointscale.com/",
+            "credit": "5-Point Scale · 教材見本",
+            "alt": "気持ちの強さを5段階で示す教材見本",
+            "kind": "教材見本"
+          }
+        },
+        {
+          "id": "lumi-tool-08",
+          "name": "小さなホワイトボード",
+          "source": "board",
+          "sourceFact": "書き消しできる予定・メモ用のボード。",
+          "scene": "考えを2案描き、分かったことだけ残す。",
+          "design": "木色の枠・白い面・短いペン。",
+          "context": "仮説を並べる",
+          "photo": {
+            "path": "assets/specialist-props/board-76edd9de87.jpg",
+            "originalUrl": "https://www.timetimer.com/cdn/shop/products/TTM9B-DEB-W_Shopify_2000x2000_Main01_ba61931b-7abe-49b1-b9e8-7eb896136971_1024x.webp?v=1654553367",
+            "sourceUrl": "https://www.timetimer.com/products/time-timer-dry-erase-board",
+            "credit": "Time Timer · Dry Erase Board",
+            "alt": "小さなホワイトボードの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "lumi-tool-09",
+          "name": "前後の観察シートとクリップボード",
+          "source": "abc",
+          "sourceFact": "ABC記録は前の出来事・行動・後の出来事を整理する。",
+          "scene": "LUMIが大人と観察した事実を書き、複数の可能性を比べる。",
+          "design": "3列の用紙と紙留め。診断結果の用紙にしない。",
+          "context": "大人の観察用",
+          "photo": {
+            "path": "assets/specialist-props/clipboard-59202d900b.jpg",
+            "originalUrl": "https://holzecke.ch/1102-large_default/planchette-a-pince-a4-en-bois-.jpg",
+            "sourceUrl": "https://holzecke.ch/fr/produits-en-bois/254-planchette-a-pince-a4-en-bois-.html",
+            "credit": "Holzecke · クリップボード本体の参考",
+            "alt": "前後の観察シートとクリップボードの参考写真",
+            "kind": "参考写真"
+          }
+        },
+        {
+          "id": "lumi-tool-10",
+          "name": "ストップウォッチと時間記録表",
+          "source": "record",
+          "sourceFact": "IRISの観察教材では時間を測り記録する。",
+          "scene": "大人が同じ長さの観察時間をそろえ、場面を振り返る。",
+          "design": "開始・停止ボタンと短い記録欄。速さを競う場面にしない。",
+          "context": "大人の観察用",
+          "photo": {
+            "path": "assets/specialist-props/stopwatch-d454597f8b.jpg",
+            "originalUrl": "https://www.saturnstopwatches.co.uk/user/products/large/fastime-01-white-stopwatch-186-p.jpg",
+            "sourceUrl": "https://www.saturnstopwatches.co.uk/fastime-01-white-stopwatch",
+            "credit": "Fastime · 時計本体の参考",
+            "alt": "ストップウォッチと時間記録表の参考写真",
+            "kind": "参考写真"
+          }
+        }
+      ]
+    }
+  ]
+}

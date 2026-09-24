@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-21",
+  "method": "ROI coral threshold + 3x3 erosion median; approximate stroke cores, no exact compliance claim",
+  "assets": {
+    "gen-frame-two-foot-jump.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMedian": "#FE9677",
+        "saturationPercent": 53.1,
+        "pixelCount": 13200,
+        "regionNormalized": [
+          0.18,
+          0.13,
+          0.57,
+          0.71
+        ]
+      }
+    },
+    "gen-frame-wait-turn-slide.png": {
+      "child": {
+        "target": "#F59B82",
+        "sampleMedian": "#FB9C7E",
+        "saturationPercent": 49.8,
+        "pixelCount": 2760,
+        "regionNormalized": [
+          0.12,
+          0.04,
+          0.38,
+          0.36
+        ]
+      }
+    }
+  }
+}

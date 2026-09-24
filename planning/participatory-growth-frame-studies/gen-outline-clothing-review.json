@@ -1,0 +1,534 @@
+{
+  "date": "2026-09-21",
+  "target": "#F59B82",
+  "method": "Approximate child stroke cores: ROI / coral threshold / 3x3 erosion / RGB median",
+  "assets": [
+    {
+      "name": "balance-mirror",
+      "roi": [
+        0.05,
+        0.16,
+        0.61,
+        0.85
+      ],
+      "before": {
+        "median": "#FE8463",
+        "rgb": [
+          254,
+          132,
+          99
+        ],
+        "saturation": 61.0,
+        "pixels": 18359,
+        "distance": 39.6
+      },
+      "after": {
+        "median": "#F99B81",
+        "rgb": [
+          249,
+          155,
+          129
+        ],
+        "saturation": 48.2,
+        "pixels": 17890,
+        "distance": 4.1
+      }
+    },
+    {
+      "name": "child-leads-rabbit",
+      "roi": [
+        0.26,
+        0.32,
+        0.58,
+        0.71
+      ],
+      "before": {
+        "median": "#FE9270",
+        "rgb": [
+          254,
+          146,
+          112
+        ],
+        "saturation": 55.9,
+        "pixels": 8935,
+        "distance": 22.0
+      },
+      "after": {
+        "median": "#FE9E7E",
+        "rgb": [
+          254,
+          158,
+          126
+        ],
+        "saturation": 50.4,
+        "pixels": 8037,
+        "distance": 10.3
+      }
+    },
+    {
+      "name": "descend-stairs",
+      "roi": [
+        0.38,
+        0.08,
+        0.71,
+        0.74
+      ],
+      "before": {
+        "median": "#FE906E",
+        "rgb": [
+          254,
+          144,
+          110
+        ],
+        "saturation": 56.7,
+        "pixels": 13139,
+        "distance": 24.5
+      },
+      "after": {
+        "median": "#FBA18B",
+        "rgb": [
+          251,
+          161,
+          139
+        ],
+        "saturation": 44.6,
+        "pixels": 12074,
+        "distance": 12.4
+      }
+    },
+    {
+      "name": "dressing-sleeve",
+      "roi": [
+        0.14,
+        0.23,
+        0.62,
+        0.81
+      ],
+      "before": {
+        "median": "#FD9273",
+        "rgb": [
+          253,
+          146,
+          115
+        ],
+        "saturation": 54.5,
+        "pixels": 22651,
+        "distance": 19.2
+      },
+      "after": {
+        "median": "#FB9C83",
+        "rgb": [
+          251,
+          156,
+          131
+        ],
+        "saturation": 47.8,
+        "pixels": 21779,
+        "distance": 6.2
+      }
+    },
+    {
+      "name": "follow-running",
+      "roi": [
+        0.28,
+        0.12,
+        0.5,
+        0.57
+      ],
+      "before": {
+        "median": "#FC9775",
+        "rgb": [
+          252,
+          151,
+          117
+        ],
+        "saturation": 53.6,
+        "pixels": 6738,
+        "distance": 15.3
+      },
+      "after": {
+        "median": "#F99F81",
+        "rgb": [
+          249,
+          159,
+          129
+        ],
+        "saturation": 48.2,
+        "pixels": 6162,
+        "distance": 5.7
+      }
+    },
+    {
+      "name": "follow-walking",
+      "roi": [
+        0.26,
+        0.15,
+        0.53,
+        0.75
+      ],
+      "before": {
+        "median": "#FE8363",
+        "rgb": [
+          254,
+          131,
+          99
+        ],
+        "saturation": 61.0,
+        "pixels": 11640,
+        "distance": 40.2
+      },
+      "after": {
+        "median": "#FD9E7E",
+        "rgb": [
+          253,
+          158,
+          126
+        ],
+        "saturation": 50.2,
+        "pixels": 10572,
+        "distance": 9.4
+      }
+    },
+    {
+      "name": "horizontal-bar-hang",
+      "roi": [
+        0.25,
+        0.24,
+        0.48,
+        0.79
+      ],
+      "before": {
+        "median": "#FE896B",
+        "rgb": [
+          254,
+          137,
+          107
+        ],
+        "saturation": 57.9,
+        "pixels": 9847,
+        "distance": 30.6
+      },
+      "after": {
+        "median": "#F9A588",
+        "rgb": [
+          249,
+          165,
+          136
+        ],
+        "saturation": 45.4,
+        "pixels": 8120,
+        "distance": 12.3
+      }
+    },
+    {
+      "name": "park-slide",
+      "roi": [
+        0.28,
+        0.18,
+        0.55,
+        0.64
+      ],
+      "before": {
+        "median": "#FE9776",
+        "rgb": [
+          254,
+          151,
+          118
+        ],
+        "saturation": 53.5,
+        "pixels": 8088,
+        "distance": 15.5
+      },
+      "after": {
+        "median": "#FEA58A",
+        "rgb": [
+          254,
+          165,
+          138
+        ],
+        "saturation": 45.7,
+        "pixels": 6469,
+        "distance": 15.7
+      }
+    },
+    {
+      "name": "park-swing",
+      "roi": [
+        0.25,
+        0.35,
+        0.57,
+        0.71
+      ],
+      "before": {
+        "median": "#FCA482",
+        "rgb": [
+          252,
+          164,
+          130
+        ],
+        "saturation": 48.4,
+        "pixels": 6825,
+        "distance": 11.4
+      },
+      "after": {
+        "median": "#F9A484",
+        "rgb": [
+          249,
+          164,
+          132
+        ],
+        "saturation": 47.0,
+        "pixels": 6167,
+        "distance": 10.0
+      }
+    },
+    {
+      "name": "push-car",
+      "roi": [
+        0.17,
+        0.23,
+        0.5,
+        0.73
+      ],
+      "before": {
+        "median": "#FE896A",
+        "rgb": [
+          254,
+          137,
+          106
+        ],
+        "saturation": 58.3,
+        "pixels": 7789,
+        "distance": 31.3
+      },
+      "after": {
+        "median": "#FDA487",
+        "rgb": [
+          253,
+          164,
+          135
+        ],
+        "saturation": 46.6,
+        "pixels": 6273,
+        "distance": 13.0
+      }
+    },
+    {
+      "name": "relax-watching-together",
+      "roi": [
+        0.01,
+        0.26,
+        0.56,
+        0.75
+      ],
+      "before": {
+        "median": "#FE8D71",
+        "rgb": [
+          254,
+          141,
+          113
+        ],
+        "saturation": 55.5,
+        "pixels": 26195,
+        "distance": 23.8
+      },
+      "after": {
+        "median": "#F7997E",
+        "rgb": [
+          247,
+          153,
+          126
+        ],
+        "saturation": 49.0,
+        "pixels": 24345,
+        "distance": 4.9
+      }
+    },
+    {
+      "name": "supported-twist",
+      "roi": [
+        0.19,
+        0.26,
+        0.53,
+        0.81
+      ],
+      "before": {
+        "median": "#FE7E5C",
+        "rgb": [
+          254,
+          126,
+          92
+        ],
+        "saturation": 63.8,
+        "pixels": 8986,
+        "distance": 48.6
+      },
+      "after": {
+        "median": "#FD9F83",
+        "rgb": [
+          253,
+          159,
+          131
+        ],
+        "saturation": 48.2,
+        "pixels": 10635,
+        "distance": 9.0
+      }
+    },
+    {
+      "name": "two-foot-jump",
+      "roi": [
+        0.18,
+        0.13,
+        0.57,
+        0.71
+      ],
+      "before": {
+        "median": "#FE9577",
+        "rgb": [
+          254,
+          149,
+          119
+        ],
+        "saturation": 53.1,
+        "pixels": 13842,
+        "distance": 15.4
+      },
+      "after": {
+        "median": "#FD9983",
+        "rgb": [
+          253,
+          153,
+          131
+        ],
+        "saturation": 48.2,
+        "pixels": 14511,
+        "distance": 8.3
+      }
+    },
+    {
+      "name": "wait-turn-slide",
+      "roi": [
+        0.12,
+        0.04,
+        0.38,
+        0.36
+      ],
+      "before": {
+        "median": "#FB9D7F",
+        "rgb": [
+          251,
+          157,
+          127
+        ],
+        "saturation": 49.4,
+        "pixels": 3088,
+        "distance": 7.0
+      },
+      "after": {
+        "median": "#FB9D7F",
+        "rgb": [
+          251,
+          157,
+          127
+        ],
+        "saturation": 49.4,
+        "pixels": 3413,
+        "distance": 7.0
+      }
+    },
+    {
+      "name": "pause-before-trying",
+      "roi": [
+        0.25,
+        0.28,
+        0.45,
+        0.81
+      ],
+      "before": {
+        "median": "#FD9B7A",
+        "rgb": [
+          253,
+          155,
+          122
+        ],
+        "saturation": 51.8,
+        "pixels": 8151,
+        "distance": 11.3
+      },
+      "after": {
+        "median": "#F8A78D",
+        "rgb": [
+          248,
+          167,
+          141
+        ],
+        "saturation": 43.1,
+        "pixels": 6300,
+        "distance": 16.6
+      }
+    },
+    {
+      "name": "throw-receive",
+      "roi": [
+        0.13,
+        0.29,
+        0.43,
+        0.74
+      ],
+      "before": {
+        "median": "#FD9D81",
+        "rgb": [
+          253,
+          157,
+          129
+        ],
+        "saturation": 49.0,
+        "pixels": 8929,
+        "distance": 8.3
+      },
+      "after": {
+        "median": "#FC977A",
+        "rgb": [
+          252,
+          151,
+          122
+        ],
+        "saturation": 51.6,
+        "pixels": 8364,
+        "distance": 11.4
+      }
+    },
+    {
+      "name": "tricycle",
+      "roi": [
+        0.25,
+        0.17,
+        0.53,
+        0.68
+      ],
+      "before": {
+        "median": "#FC9575",
+        "rgb": [
+          252,
+          149,
+          117
+        ],
+        "saturation": 53.6,
+        "pixels": 8238,
+        "distance": 15.9
+      },
+      "after": {
+        "median": "#F89678",
+        "rgb": [
+          248,
+          150,
+          120
+        ],
+        "saturation": 51.6,
+        "pixels": 8854,
+        "distance": 11.6
+      }
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     "luke",
     "gen"
   ],
-  "color": "#5C5148",
+  "color": "#A77C65",
   "outer": 4,
   "internal": 3,
   "detail": 2.5,
@@ -25,7 +25,7 @@
   "caps": "round",
   "joins": "round",
   "opacity": 1,
-  "eye_nose_fill": "#5C5148",
+  "eye_nose_fill": "#6B5143",
   "glasses": "outer",
   "beak_outer": "internal",
   "beak_divider_teeth_brows_mouth": "detail",
@@ -36,5 +36,14 @@
     "表情の細部",
     "最終掲載サイズで判読確認"
   ],
-  "raster_status": "Generated previews visually reviewed. Exact hex, stroke widths and geometry invariance are not certified."
+  "raster_status": "ポーズ・表情・小物一覧と三面図の表示見本を現行配色へ調整済み。厳密な色・線幅・造形一致は未認証。成長場面PNGは今回未変更。",
+  "glasses_color": "#6B5143",
+  "expression_line_color": "#A77C65",
+  "line_rhythm": "滑らかな有機的曲線、丸い線端と角。外輪郭4／内部3／細部2.5pxを保ち、意図的な筆圧誇張や毛羽立ちを加えない。",
+  "scope_note": "Mimo・Luke・Genの共通仕様。LUMIの線仕様は今回の改定対象外。",
+  "filled_accessories": {
+    "outline": "none",
+    "internal_lines": "none",
+    "rule": "色付きの識別小物（スカーフ・襟・蝶ネクタイ・胸マーク）は不透明の単色面で表し、外周線・結び目の内部線を付けない。重なりは形と余白で示し、身体や服の線を色面の中へ通さない。眼鏡は #6B5143 の線を維持し、活動に使う道具は接点の判読に必要な細線を残す。"
+  }
 }
