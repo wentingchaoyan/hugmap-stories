@@ -13,7 +13,9 @@
 
 ## 編集
 
-該当する動物JSONの `scenes.<場面ID>.instructions` を編集します。共有する文章は `defaults.blocks` を編集します。線色や線幅の数値を場面に書かず、共通仕様を変更してください。
+promptは動物ごとのJSONに統一し、制作回や場面ごとの別ファイルは作りません。該当する動物JSONの `scenes.<場面ID>.instructions` を編集します。共有する文章は `defaults.blocks` を編集します。線色や線幅の数値を場面に書かず、共通仕様を変更してください。
+
+生成時の原文・参照・成果物ハッシュ・修正promptも同じ動物JSONに保存します。共通の実行記録は `defaults.generationRecords` に一度だけ記録し、各場面の `generation.record` から参照します。`generation` は実行証跡であり、現行promptへの自動合成対象ではありません。次回生成用の指示は `instructions` と `defaults.blocks` が正本です。
 
 `mode` は修正範囲を指定します。
 
@@ -92,7 +94,7 @@ python3 planning/participatory-growth-frame-studies/prompts/render.py \
 
 ## 「ことばをつないで伝える」の制作案（2026-09-25）
 
-Mimoに5場面を追加し、現在は全125場面（Gen 37 / Luke 43 / Mimo 45）。`new-scene` は新規制作用で、共通仕様と制作指示を展開します。実際に使用した内蔵image_genのpromptと参照画像、修正履歴、成果物ハッシュは `generation-records/connecting-words.json` に保存しました。
+Mimoに5場面を追加し、現在は全125場面（Gen 37 / Luke 43 / Mimo 45）。`new-scene` は新規制作用で、共通仕様と制作指示を展開します。実際に使用した内蔵image_genのpromptと参照画像、修正履歴、成果物ハッシュは `mimo.json` の `defaults.generationRecords` と該当する `scenes.<場面ID>.generation` に保存しました。
 
 一覧の紐づき案は `planning/participatory-growth-frames/local-illustration-proposals.json` に保存。Development表示だけに重ね、本番やDBの保存済みデータを変更しません。発音項目は絵カードで音を楽しむ場面との関連で、発音の達成判定ではありません。画像の厳密な線色・線幅への数値適合は未認証です。
 
@@ -107,7 +109,7 @@ node planning/participatory-growth-frames/apply-local-illustration-proposals.mjs
 
 ## 空欄ステージの追加制作（2026-09-25）
 
-Development表示で画像がなかった5ステージへ各1枚を追加。合計130場面（Gen 37 / Luke 47 / Mimo 46）。新規制作の原prompt・参照・画像ハッシュは `generation-records/empty-stages.json` に保存しています。
+Development表示で画像がなかった5ステージへ各1枚を追加。合計130場面（Gen 37 / Luke 47 / Mimo 46）。新規制作の原prompt・参照・画像ハッシュは `luke.json` / `mimo.json` の `defaults.generationRecords` と該当する `scenes.<場面ID>.generation` に保存しています。
 
 | ステージ | 追加場面 |
 | --- | --- |

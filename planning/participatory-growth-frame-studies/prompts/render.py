@@ -72,6 +72,12 @@ def load(path):
             raise ValueError(f"Invalid scene: {scene_id}")
         if not (path.parent / scene["image"]).is_file():
             raise ValueError(f"Missing scene image: {scene_id}")
+        if "generation" in scene:
+            generation = scene["generation"]
+            if generation["record"] not in data["defaults"].get("generationRecords", {}):
+                raise ValueError(f"Missing generation record: {scene_id}")
+            if hashlib.sha256((path.parent / scene["image"]).read_bytes()).hexdigest() != generation["imageSha256"]:
+                raise ValueError(f"Generated image digest mismatch: {scene_id}")
         for block in scene.get("blocks", []):
             if block not in character_blocks:
                 raise ValueError(f"Unknown character block: {block}")
