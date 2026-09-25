@@ -26,7 +26,8 @@
       "profile-find-pair": "Edit image1 preserving scene layout and poses/tool contacts. Image2 THIRD ROW LUKE squirrel model authority: tufted ears, round glasses, spiral tail, white open vest. Animal outline {{animal#/color}} eyes/nose/glasses {{animal#/eye_nose_fill}}. Scarf ONLY squirrel flat muted {{brand#/tokens/componentSecondBackground}} solid silhouette with NO border/internal knot circle/seam/shading. U+two dots small {{brand#/tokens/componentPrimaryBackground}} at upper SCREENRIGHT chest wearerleft, aligned garment. Image3 toddler proportions and hair reference. Child white fill blank face NO eyes/mouth/eyebrows; short neck round skull/cheeks plump limbs, contour muted {{human#/colors/childOutline}} outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}} at{{human#/referenceCanvasPx/0}}. Ear on SIDE behind cheek not front edge; no dangling neck loops. Child always main focus, squirrel second, quiet background last. Opaque nearwhite square no transparency.",
       "profile-size-quantity-compare": "Edit ONLY squirrel scarf in image1. Image2 scarf is the desired flat fill example. Replace existing scarf entirely with a simple solid muted mustard {{brand#/tokens/componentSecondBackground}} neckband and two drooping tails. No stroked outline, no thin darker edges, no knotcircle, no seam or shadow inside. All scarf areas exactly same flat color, small white gap between tails. Preserve ALL other shapes, child hair/body/pose, squirrel body, U chest, objects, contacts, count, layout and colors of image1.",
       "profile-shared-line": "Edit image1 preserve exact composition activity poses hand/object contacts. Image2 THIRD ROW LUKE reference geometry adapted to original pose. All squirrel fur WHITE never brown. Outline soft warm {{animal#/color}}, eyes nose glasses {{animal#/eye_nose_fill}}. White sleeveless vest distinct from bare arms, armholes and torso borders clear. Tiny orange {{brand#/tokens/componentPrimaryBackground}} U+two dots upper SCREENRIGHT torso chest (wearerleft), never on arms/pockets; backcenter if rear visible. Scarf SINGLE flat muted {{brand#/tokens/componentSecondBackground}} silhouette neckband +two tails NO borders NO inner knotcircle NO gradients. Child primary subject image3 reference rounded toddler proportions small side ears short neck WHITE blank face, white hair/clothes. CHILD lines pale salmon {{human#/colors/childOutline}} not brightorange. White tee shorts. OPAQUE ivory {{human#/colors/background}} square background no transparency black or halo. Small pale beige contact shadows.",
-      "profile-relationship-frame-children-parallel-sand": "Edit image1 preserve original activity exact hand/object contacts and layout. Reference2 THIRD ROW is Luke squirrel geometry: white fur, warm soft outline {{animal#/color}} eyes nose glasses {{animal#/eye_nose_fill}}. White sleeveless vest distinctly separate from bare arms, pockets only torso. U with two dots {{brand#/tokens/componentPrimaryBackground}} upper screenRIGHT chest torso never arms. Flat mustard {{brand#/tokens/componentSecondBackground}} scarf with NO dark outline or internal knot lines. Opaque ivory {{human#/colors/background}} background, subtle pale beige contact shadows. Child outlines pale salmon {{human#/colors/childOutline}} adult {{human#/colors/adultOutline}} thinner, white blank faces white hair and clothes. Simple rounded forms, smooth hair contours not scallops. Reference3 toddler shapes."
+      "profile-relationship-frame-children-parallel-sand": "Edit image1 preserve original activity exact hand/object contacts and layout. Reference2 THIRD ROW is Luke squirrel geometry: white fur, warm soft outline {{animal#/color}} eyes nose glasses {{animal#/eye_nose_fill}}. White sleeveless vest distinctly separate from bare arms, pockets only torso. U with two dots {{brand#/tokens/componentPrimaryBackground}} upper screenRIGHT chest torso never arms. Flat mustard {{brand#/tokens/componentSecondBackground}} scarf with NO dark outline or internal knot lines. Opaque ivory {{human#/colors/background}} background, subtle pale beige contact shadows. Child outlines pale salmon {{human#/colors/childOutline}} adult {{human#/colors/adultOutline}} thinner, white blank faces white hair and clothes. Simple rounded forms, smooth hair contours not scallops. Reference3 toddler shapes.",
+      "early-attention-generation": "Use case: illustration-story. Generate ONE NEW square Hugmap children's picture-book scene, not a reference sheet. Human characters are pure WHITE opaque silhouettes including skin/hair/clothes, blank face interiors with NO eyes eyebrows or mouth marks; head orientation conveys attention. Child outline muted pale salmon {{human#/colors/childOutline}} , adult outline MUCH PALER {{human#/colors/adultOutline}} . Smooth rounded thin strokes, child outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}} adult outer{{human#/strokes/adult/outerPx}} inner{{human#/strokes/adult/innerPx}} relative{{human#/referenceCanvasPx}}, scale coherently. Child foreground primary, small animal supporting. ALL background fully OPAQUE warm ivory {{human#/colors/background}} corner to corner, no alpha transparency, no black cutout or erased background. White interiors opaque. Sparse pale cream/sage/ochre props, tiny contact shadows, wide calm negative space. Animal outline {{animal#/color}}, eyes/nose/glasses {{animal#/eye_nose_fill}}, mouth/brow lines {{animal#/color}}. Flat color neck accessory without outlines or inner strokes. Official small orange {{brand#/tokens/componentPrimaryBackground}} U+two dots only on correct visible upper viewer-right shirt chest, backcenter if back panel visible; allow natural occlusion, never place on arms. NO words, captions, letters, panels, labels, speech bubbles, halos, paper grain, heavy floor shadows or decorative scenery. New composition, not copying the reference scene. Reference image1 THIRD ROW LUKE squirrel ONLY is geometry authority: tall tufted ears, round glasses, spiral tail, WHITE fur, white sleeveless open vest with torso pockets. Scarf flat muted mustard {{brand#/tokens/componentSecondBackground}}. Reference image2 infant body style, image3 overall Luke scene style ONLY, not pose; ignore original line colors if differing from written colors."
     }
   },
   "scenes": {
@@ -748,6 +749,58 @@
       "history": [
         "together-frame-self-feeding-table-followup-prompt.txt"
       ]
+    },
+    "visual-tracking-cloth": {
+      "title": "ふわり、目で追いかけた",
+      "image": "../luke-frame-visual-tracking-cloth.png",
+      "mode": "new-scene",
+      "blocks": [
+        "early-attention-generation"
+      ],
+      "instructions": [
+        "A BALD young BABY lies safely SUPINE on a thin pale cream floor mat, feet toward lower left, soft oval head reclining with the rounded back of the skull supported by the mat, short relaxed neck continuous with shoulders. Head rests at the upper-right end of the reclining torso; facial plane points upward toward the cloth, with a short relaxed neck and coherent shoulder connection. Adult kneels on right moving one small pale sage cloth SLOWLY SIDEWAYS above baby's chest within viewing distance, held securely far clear of nose and mouth, never covering face. Baby hands relaxed near torso, tiny nose and chin face upward toward cloth, small side ear, blank face interior; no hair tuft. Only two tiny pale curved motion strokes near cloth to show lateral movement. Small Luke sits at far left behind mat quietly following same cloth. Clear continuous sight direction through head pose. Adult anatomy mature, simple short white hair and long sleeve shirt. No pillow, crib, hanging cords, floating disconnected hands or body twist."
+      ],
+      "history": [],
+      "status": "generated-proposal; numeric-style-conformance-unverified"
+    },
+    "look-and-reach-both-hands": {
+      "title": "見つけて、両手がのびた",
+      "image": "../luke-frame-look-and-reach-both-hands.png",
+      "mode": "new-scene",
+      "blocks": [
+        "early-attention-generation"
+      ],
+      "instructions": [
+        "BALD young BABY SUPINE diagonally on thin pale cream floor mat, proportionate soft oval head with the occiput supported on the mat, a short relaxed neck connected clearly to the shoulders, and a tiny facial profile turned upward toward the ring, short bent legs. Baby looking toward ONE large easy-to-grasp pale ochre ring toy held by kneeling adult, BOTH baby arms reach upward toward SAME ring, two open tiny hands clearly visible just before contact. Adult holds ring by its upper rim with one hand, other hand relaxed by mat, no dangling strings. Keep ring at comfortable reachable distance over baby's chest, never covering face. Small Luke seated to side observing hands and toy, no extra toys. White minimal infant romper, no toddler hair or mature proportions. Adult mature white simple hair long-sleeve top trousers."
+      ],
+      "history": [],
+      "status": "generated-proposal; numeric-style-conformance-unverified"
+    },
+    "watch-spinning-toy": {
+      "title": "くるくる、気になるね",
+      "image": "../luke-frame-watch-spinning-toy.png",
+      "mode": "new-scene",
+      "blocks": [
+        "early-attention-generation"
+      ],
+      "instructions": [
+        "Young toddler with simple WHITE BOB and rounded plump limbs sits on floor at left, both hands grounded near bent knees, head tilted toward ONE broad-based spinning top toy in pale sage and mustard on floor center. Top physically upright resting on its tip/base, two small pale motion arcs convey spin. Luke sits opposite at right, one paw just withdrawn after setting top spinning, both gaze at same toy, quiet engaged moment. Child white tee shorts bare rounded feet, no interior facial features. Luke noticeably smaller than child. No adult, no table, no piles of objects, no clocks or claims of timed attention. Sparse little contact shadows, warm ivory fully opaque background."
+      ],
+      "history": [],
+      "status": "generated-proposal; numeric-style-conformance-unverified"
+    },
+    "remember-hidden-toy": {
+      "title": "さっきの場所に、あった",
+      "image": "../luke-frame-remember-hidden-toy.png",
+      "mode": "new-scene",
+      "blocks": [
+        "early-attention-generation"
+      ],
+      "instructions": [
+        "Toddler with simple short WHITE hair kneels at left, lifts one corner of a small pale sage cloth with one hand to reveal a familiar pale ochre toy duck underneath; other palm supports floor. Duck mostly revealed, cloth held above it by connected visible hand. Luke kneels opposite right quietly waiting with paws on knees, looks toward duck. The act of recalling hiding place and finding toy is immediately readable. Just ONE cloth and ONE duck, no duplicate ghosts, arrows, memory bubbles or second scene. Child white tee shorts blank white face tilted down toward discovered duck. Luke smaller supporting figure, no other props, no background furniture."
+      ],
+      "history": [],
+      "status": "generated-proposal; numeric-style-conformance-unverified"
     }
   },
   "policyVersion": 1

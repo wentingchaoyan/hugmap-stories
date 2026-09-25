@@ -88,3 +88,47 @@ python3 planning/participatory-growth-frame-studies/prompts/render.py \
 生成時は対象場面の画像を編集元として渡し、造形を直す場面では必要な参照画像を添付します。色だけ直す場面に造形変更の指示を追加しないでください。JSON内の参照やパスだけで画像が生成ツールへ添付されるわけではありません。
 
 旧TXTを参照していた `illustration-review.json` の履歴は、`prompts/history/<動物>.json#/records/<旧ファイル名>` へ更新済みです。フラグメントはJSON Pointerとして解釈します。
+
+
+## 「ことばをつないで伝える」の制作案（2026-09-25）
+
+Mimoに5場面を追加し、現在は全125場面（Gen 37 / Luke 43 / Mimo 45）。`new-scene` は新規制作用で、共通仕様と制作指示を展開します。実際に使用した内蔵image_genのpromptと参照画像、修正履歴、成果物ハッシュは `generation-records/connecting-words.json` に保存しました。
+
+一覧の紐づき案は `planning/participatory-growth-frames/local-illustration-proposals.json` に保存。Development表示だけに重ね、本番やDBの保存済みデータを変更しません。発音項目は絵カードで音を楽しむ場面との関連で、発音の達成判定ではありません。画像の厳密な線色・線幅への数値適合は未認証です。
+
+ローカルHTMLへ提案の更新だけを反映するには、リポジトリルートで次を実行します。DB接続は不要です。
+
+```sh
+node planning/participatory-growth-frames/apply-local-illustration-proposals.mjs
+```
+
+既存の `build-stage-illustration-review.mjs` から再構築する場合にも、同じJSONを自動で取り込みます。
+
+
+## 空欄ステージの追加制作（2026-09-25）
+
+Development表示で画像がなかった5ステージへ各1枚を追加。合計130場面（Gen 37 / Luke 47 / Mimo 46）。新規制作の原prompt・参照・画像ハッシュは `generation-records/empty-stages.json` に保存しています。
+
+| ステージ | 追加場面 |
+| --- | --- |
+| 動くものを目で追う | Luke：ふわり、目で追いかけた |
+| 声や音に気づく | Mimo：あれ、音のするほうへ |
+| 見ながら手を伸ばす | Luke：見つけて、両手がのびた |
+| 気になるものを見つめる | Luke：くるくる、気になるね |
+| 覚えて、思い出す | Luke：さっきの場所に、あった |
+
+各場面が直接表す7項目だけを提案として関連づけています。集中の持続時間や複数指示の実行など、別の観察が必要な項目は今回の画像に紐づけていません。Productionの取得不可テーブルを空欄制作対象とは扱っていません。
+
+
+## 開発環境への登録（2026-09-25）
+
+今回の10枚と15件の発達項目との紐づけを開発環境に登録済み。画像は番号なしのファイル名で `public-assets/growth-frames` に保存しています。登録後の一覧はDBスナップショットを使用し、制作案の上乗せを停止します。
+
+登録データは `planning/participatory-growth-frames/development-illustration-seed.json`、同等のSQLは `development-illustration-seed.sql`、配信画像のSHA-256と確認日時は `development-illustration-publish-receipt.json` に保存しています。SQLは開発環境専用です。
+
+再登録はログイン済みSupabase CLIを使い、次のスクリプトで実行します。引数なしは読み取り検証のみ、`--apply` は画像の上書きとデータ登録です。対象プロジェクトを開発環境に固定し、認証情報はファイルやログに保存しません。途中で失敗した場合は同じコマンドで再実行できます。
+
+```sh
+node planning/participatory-growth-frames/publish-development-illustrations.mjs
+node planning/participatory-growth-frames/publish-development-illustrations.mjs --apply
+```

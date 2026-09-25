@@ -1,0 +1,252 @@
+{
+  "environment": "development",
+  "projectRef": "dltohjfxawjonomvxfsd",
+  "storageBucket": "public-assets",
+  "storageDirectory": "growth-frames",
+  "tables": {
+    "illustration": [
+      {
+        "id": "6b75ac6f-ebd5-54a5-b79b-8c12a940d9fc",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440036",
+        "code": "mimo-frame-two-word-found-mom",
+        "asset_key": "mimo-frame-two-word-found-mom.png",
+        "title_ja": "ママ、いた。見つけたことを伝える",
+        "alt_text_ja": "ママ、いた。見つけたことを伝える",
+        "display_order": 1,
+        "storage_bucket": "public-assets",
+        "aspect_ratio": "1:1",
+        "scene_label_ja": "ことばをつないで伝える",
+        "card_note_ja": null,
+        "is_active": true,
+        "is_deleted_flag": false
+      },
+      {
+        "id": "b21aa262-24b1-5f77-a6f5-dc2caaa18914",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440036",
+        "code": "mimo-frame-possessive-dads-shoes",
+        "asset_key": "mimo-frame-possessive-dads-shoes.png",
+        "title_ja": "パパの、くつ。持ち主へ届ける",
+        "alt_text_ja": "パパの、くつ。持ち主へ届ける",
+        "display_order": 2,
+        "storage_bucket": "public-assets",
+        "aspect_ratio": "1:1",
+        "scene_label_ja": "ことばをつないで伝える",
+        "card_note_ja": null,
+        "is_active": true,
+        "is_deleted_flag": false
+      },
+      {
+        "id": "ab572058-9eef-584b-8d56-57849e3224bb",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440036",
+        "code": "mimo-frame-object-action-kick-ball",
+        "asset_key": "mimo-frame-object-action-kick-ball.png",
+        "title_ja": "ボール、ける。やりたいことを伝える",
+        "alt_text_ja": "ボール、ける。やりたいことを伝える",
+        "display_order": 3,
+        "storage_bucket": "public-assets",
+        "aspect_ratio": "1:1",
+        "scene_label_ja": "ことばをつないで伝える",
+        "card_note_ja": null,
+        "is_active": true,
+        "is_deleted_flag": false
+      },
+      {
+        "id": "d93c6758-14f2-5ad4-a47d-adfb5b4be728",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440036",
+        "code": "mimo-frame-location-up-there",
+        "asset_key": "mimo-frame-location-up-there.png",
+        "title_ja": "上に、ある。場所をいっしょに確かめる",
+        "alt_text_ja": "上に、ある。場所をいっしょに確かめる",
+        "display_order": 4,
+        "storage_bucket": "public-assets",
+        "aspect_ratio": "1:1",
+        "scene_label_ja": "ことばをつないで伝える",
+        "card_note_ja": null,
+        "is_active": true,
+        "is_deleted_flag": false
+      },
+      {
+        "id": "76b73fdb-9841-5c4c-acf9-e18fd4c38216",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440036",
+        "code": "mimo-frame-word-sound-picture-play",
+        "asset_key": "mimo-frame-word-sound-picture-play.png",
+        "title_ja": "絵と身ぶりで、ことばをつなぐ",
+        "alt_text_ja": "絵と身ぶりで、ことばをつなぐ",
+        "display_order": 5,
+        "storage_bucket": "public-assets",
+        "aspect_ratio": "1:1",
+        "scene_label_ja": "ことばをつないで伝える",
+        "card_note_ja": "「かさ・はこ・ぞう」などの命名や音遊びの場面。発音の達成判定を示すものではありません。",
+        "is_active": true,
+        "is_deleted_flag": false
+      },
+      {
+        "id": "0c9e224c-39a2-52da-8c46-bf2a1bb1a6e5",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440001",
+        "code": "luke-frame-visual-tracking-cloth",
+        "asset_key": "luke-frame-visual-tracking-cloth.png",
+        "title_ja": "ふわり、目で追いかけた",
+        "alt_text_ja": "動くものを目で追う：ふわり、目で追いかけた",
+        "display_order": 1,
+        "storage_bucket": "public-assets",
+        "aspect_ratio": "1:1",
+        "scene_label_ja": "動くものを目で追う",
+        "card_note_ja": null,
+        "is_active": true,
+        "is_deleted_flag": false
+      },
+      {
+        "id": "a459ffd3-f717-5c11-8f0b-2f9bb7b29bcf",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440012",
+        "code": "luke-frame-look-and-reach-both-hands",
+        "asset_key": "luke-frame-look-and-reach-both-hands.png",
+        "title_ja": "見つけて、両手がのびた",
+        "alt_text_ja": "見ながら手を伸ばす：見つけて、両手がのびた",
+        "display_order": 1,
+        "storage_bucket": "public-assets",
+        "aspect_ratio": "1:1",
+        "scene_label_ja": "見ながら手を伸ばす",
+        "card_note_ja": null,
+        "is_active": true,
+        "is_deleted_flag": false
+      },
+      {
+        "id": "1dc6ab7c-adc6-5ede-bd06-add61f01ac19",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440003",
+        "code": "luke-frame-watch-spinning-toy",
+        "asset_key": "luke-frame-watch-spinning-toy.png",
+        "title_ja": "くるくる、気になるね",
+        "alt_text_ja": "気になるものを見つめる：くるくる、気になるね",
+        "display_order": 1,
+        "storage_bucket": "public-assets",
+        "aspect_ratio": "1:1",
+        "scene_label_ja": "気になるものを見つめる",
+        "card_note_ja": "興味を向けて遊びに参加する場面の提案。集中の持続時間を絵で判定するものではありません。",
+        "is_active": true,
+        "is_deleted_flag": false
+      },
+      {
+        "id": "a9824ea6-1f8a-5c4f-9960-23bcfa021cdb",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440043",
+        "code": "luke-frame-remember-hidden-toy",
+        "asset_key": "luke-frame-remember-hidden-toy.png",
+        "title_ja": "さっきの場所に、あった",
+        "alt_text_ja": "覚えて、思い出す：さっきの場所に、あった",
+        "display_order": 1,
+        "storage_bucket": "public-assets",
+        "aspect_ratio": "1:1",
+        "scene_label_ja": "覚えて、思い出す",
+        "card_note_ja": null,
+        "is_active": true,
+        "is_deleted_flag": false
+      },
+      {
+        "id": "7a4b9ec1-910d-5606-ab4e-464574f1268e",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440002",
+        "code": "mimo-frame-notice-gentle-sound",
+        "asset_key": "mimo-frame-notice-gentle-sound.png",
+        "title_ja": "あれ、音のするほうへ",
+        "alt_text_ja": "声や音に気づく：あれ、音のするほうへ",
+        "display_order": 1,
+        "storage_bucket": "public-assets",
+        "aspect_ratio": "1:1",
+        "scene_label_ja": "声や音に気づく",
+        "card_note_ja": null,
+        "is_active": true,
+        "is_deleted_flag": false
+      }
+    ],
+    "illustration_development_item": [
+      {
+        "illustration_id": "6b75ac6f-ebd5-54a5-b79b-8c12a940d9fc",
+        "development_item_id": "d1bf266b-46d4-4f81-a6cf-e37b272c1f3a",
+        "display_order": 1,
+        "is_primary": false
+      },
+      {
+        "illustration_id": "b21aa262-24b1-5f77-a6f5-dc2caaa18914",
+        "development_item_id": "d8a6e7d6-923a-4617-b1d6-539d7377bc70",
+        "display_order": 1,
+        "is_primary": false
+      },
+      {
+        "illustration_id": "ab572058-9eef-584b-8d56-57849e3224bb",
+        "development_item_id": "76541fb2-99de-4be4-813b-3443acbd60c9",
+        "display_order": 1,
+        "is_primary": false
+      },
+      {
+        "illustration_id": "ab572058-9eef-584b-8d56-57849e3224bb",
+        "development_item_id": "48ccd3a7-3e63-dbe3-3a3d-a7ee92a19b30",
+        "display_order": 2,
+        "is_primary": false
+      },
+      {
+        "illustration_id": "d93c6758-14f2-5ad4-a47d-adfb5b4be728",
+        "development_item_id": "e4b00712-7d3b-4d32-9f72-fd49a03a31d6",
+        "display_order": 1,
+        "is_primary": false
+      },
+      {
+        "illustration_id": "76b73fdb-9841-5c4c-acf9-e18fd4c38216",
+        "development_item_id": "48ccd3a7-3e63-dbe3-3a3d-a7ee92a19b30",
+        "display_order": 1,
+        "is_primary": false
+      },
+      {
+        "illustration_id": "76b73fdb-9841-5c4c-acf9-e18fd4c38216",
+        "development_item_id": "347de6e9-8d11-4487-92b1-a58666d43d6a",
+        "display_order": 2,
+        "is_primary": false
+      },
+      {
+        "illustration_id": "76b73fdb-9841-5c4c-acf9-e18fd4c38216",
+        "development_item_id": "a631850a-2faf-4b89-9a83-78a5faa02e7b",
+        "display_order": 3,
+        "is_primary": false
+      },
+      {
+        "illustration_id": "0c9e224c-39a2-52da-8c46-bf2a1bb1a6e5",
+        "development_item_id": "c5d54cb8-10a2-47ef-bcd2-d2625e70fbd2",
+        "display_order": 1,
+        "is_primary": false
+      },
+      {
+        "illustration_id": "0c9e224c-39a2-52da-8c46-bf2a1bb1a6e5",
+        "development_item_id": "8e7d2aac-d59f-489f-bf2c-cbc188123cac",
+        "display_order": 2,
+        "is_primary": false
+      },
+      {
+        "illustration_id": "a459ffd3-f717-5c11-8f0b-2f9bb7b29bcf",
+        "development_item_id": "eb3e9c8c-7c1b-49c0-8d26-b38c2885df55",
+        "display_order": 1,
+        "is_primary": false
+      },
+      {
+        "illustration_id": "a459ffd3-f717-5c11-8f0b-2f9bb7b29bcf",
+        "development_item_id": "c28833e8-6d3b-4990-8d59-cd3c467fe60a",
+        "display_order": 2,
+        "is_primary": false
+      },
+      {
+        "illustration_id": "1dc6ab7c-adc6-5ede-bd06-add61f01ac19",
+        "development_item_id": "8a702cfc-d5cd-46b2-bd6a-0642cc69d415",
+        "display_order": 1,
+        "is_primary": false
+      },
+      {
+        "illustration_id": "a9824ea6-1f8a-5c4f-9960-23bcfa021cdb",
+        "development_item_id": "4891c484-4364-441b-9753-9325abf6d295",
+        "display_order": 1,
+        "is_primary": false
+      },
+      {
+        "illustration_id": "7a4b9ec1-910d-5606-ab4e-464574f1268e",
+        "development_item_id": "06150ab9-c40e-46dc-a829-0b80a65dcbb5",
+        "display_order": 1,
+        "is_primary": false
+      }
+    ]
+  }
+}

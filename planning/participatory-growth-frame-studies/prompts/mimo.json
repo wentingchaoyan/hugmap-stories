@@ -25,7 +25,9 @@
       "profile-doctor-pretend": "Edit scene image1 using ONLY MIMO first row of authoritative turnaround image2 as bird geometry. Preserve scene and contact relationships. Mimo smooth convex upright egg head, front width122 height133, narrow round crown and round lower head; no cheek bump/indent/bell shape. Small oval eyes, small beak, slim small crest, compact body. Warm brown contours {{animal#/color}}, eyes {{animal#/eye_nose_fill}}. Solid flat orange {{brand#/tokens/componentPrimaryBackground}} collar with NO outline/internal strokes, U same color on upper viewer-right chest when visible. Humans white faceless fill, simple short fringe hair, child muted coral {{human#/colors/childOutline}} outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}}; adult pale {{human#/colors/adultOutline}} outer{{human#/strokes/adult/outerPx}} inner{{human#/strokes/adult/innerPx}} at reference{{human#/referenceCanvasPx}}. Preserve pale line hierarchy, rounded ends. Opaque ivory background, short soft contact shadows, no transparent cutout, no halo, no extra objects or words. Child main subject. Square canvas.",
       "profile-freeze-notice": "Precise edit image1 Hugmap scene with original MIMO top row of image2 as authoritative geometry. Only bird from that row, ignore other characters. Smooth continuously convex egg head, narrow rounded crown and round lower head, front width122 height133, no cheek protrusion or indent, small oval eyes, tiny beak, slim small leaf crest. Preserve pose and gaze without warping skull. Compact torso and wings, short thin legs. Warm contour {{animal#/color}}, eyes{{animal#/eye_nose_fill}}. Collar flat {{brand#/tokens/componentPrimaryBackground}} no outlines or internal strokes; U same color at upper viewer-right chest if visible. Child outline muted {{human#/colors/childOutline}}, white fill, no facial features. Child outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}}px at{{human#/referenceCanvasPx}} scale consistently, no saturated orange outlines. Opaque warm ivory background, short pale contact shadows, no paper grain/halo/transparency. Preserve all action and hand/foot contact, exact layout. One square scene.",
       "profile-relationship-frame-deep-breath": "Image1 target. Image2 TOP ROW MIMO model only; image3 toddler simple-hair morphology; image4 adult geometry/hair. POSES MUST STAY as original, keep all gestures/contact/positions. Child blank white face round head small ear short neck simple2 broad fringe curves plump toddler limbs. Child lines muted {{human#/colors/childOutline}}. Adult blank white face simple hair, PALE {{human#/colors/adultOutline}} lines distinctly lighter than child. Mimo smooth egg perimeter no cheek bumps, slim leaf crest, small eye+eyebrow, short oval wings not human fingers, short legs3toes, model head/body ratio. White tshirt with explicit sleeve boundaries and curved hem separating lower belly. Warmbrown {{animal#/color}} outline, face {{animal#/eye_nose_fill}}; flat orange {{brand#/tokens/componentPrimaryBackground}} scarf NO border, small U with2dots upper viewer-right chest. Preserve original bird pose. Clean SOLID OPAQUE nearwhite background, no transparency black halos or texture; short soft ground shadows. Full square scene.",
-      "profile-voice-pingpong": "IMAGE1 target scene, IMAGE2 TOP ROW MIMO three-view geometry authority, IMAGE3 toddler head/hair/body reference. Preserve original POSES gestures positions framing and narrative, no new pose. Bird smooth egg head no cheek lobes width:height122:133, slim leaf crest, short oval wings with tiny tip notches, short white tshirt with visible sleeves AND curved hem separating lower white belly, short thin legs3toes no tail. Match head/body model proportions. Outline {{animal#/color}} face {{animal#/eye_nose_fill}}, flat solid orange {{brand#/tokens/componentPrimaryBackground}} scarf no borders/internal lines, small orange U with2dots upper viewer-right chest. Child white blank face round head small ear simple2-3 large hair curves short neck plump limbs, child line {{human#/colors/childOutline}} smooth round ends. No facial details except silhouette profile when needed. Nearwhite opaque background remove halo/grain/hatching. Full square scene."
+      "profile-voice-pingpong": "IMAGE1 target scene, IMAGE2 TOP ROW MIMO three-view geometry authority, IMAGE3 toddler head/hair/body reference. Preserve original POSES gestures positions framing and narrative, no new pose. Bird smooth egg head no cheek lobes width:height122:133, slim leaf crest, short oval wings with tiny tip notches, short white tshirt with visible sleeves AND curved hem separating lower white belly, short thin legs3toes no tail. Match head/body model proportions. Outline {{animal#/color}} face {{animal#/eye_nose_fill}}, flat solid orange {{brand#/tokens/componentPrimaryBackground}} scarf no borders/internal lines, small orange U with2dots upper viewer-right chest. Child white blank face round head small ear simple2-3 large hair curves short neck plump limbs, child line {{human#/colors/childOutline}} smooth round ends. No facial details except silhouette profile when needed. Nearwhite opaque background remove halo/grain/hatching. Full square scene.",
+      "connecting-words-generation": "Use case: illustration-story. Generate a NEW square Hugmap growth illustration. Reference image 1: TOP ROW MIMO ONLY is exact bird geometry; ignore old black colors and all other animals. Reference image 2: human morphology, relative scale and visual simplicity only; do not copy its scene. Warm fully opaque ivory {{human#/colors/background}}. Child and adult all WHITE fill including skin hair and clothes, completely blank face interiors, no eyes brows mouths. Rounded toddler simple 2-3 hair curves, white tee shorts. Mature adult proportions white long-sleeve shirt trousers. Human child soft salmon {{human#/colors/childOutline}} outlines, adult paler {{human#/colors/adultOutline}}. Smooth modest lineweight child outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}} adult outer{{human#/strokes/adult/outerPx}} inner{{human#/strokes/adult/innerPx}} at{{human#/referenceCanvasPx}} reference, scale coherently. Mimo compact egg-shaped head, tiny oval eyes, slim leaf crest, short sleeve white tee distinct rounded lower belly, short feather wings NOT human hands, thin legs three toes. Mimo outlines {{animal#/color}}, eyes {{animal#/eye_nose_fill}}, expression lines {{animal#/color}}. Flat solid orange {{brand#/tokens/componentPrimaryBackground}} collar without outline/internal strokes. Official small U plus two dots orange on upper viewer-right chest only if that actual shirt panel is visible; never force visibility. Child action primary, animal secondary and small. Clean quiet picture-book curves, low-contrast props, small pale contact shadows, generous negative space. NO speech bubbles, words, text, letters, watermark, labels, decorative halo, grain, gradients or busy background. Entire illustration a single scene, no panels.",
+      "early-attention-generation": "Use case: illustration-story. Generate ONE NEW square Hugmap children's picture-book scene, not a reference sheet. Human characters are pure WHITE opaque silhouettes including skin/hair/clothes, blank face interiors with NO eyes eyebrows or mouth marks; head orientation conveys attention. Child outline muted pale salmon {{human#/colors/childOutline}} , adult outline MUCH PALER {{human#/colors/adultOutline}} . Smooth rounded thin strokes, child outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}} adult outer{{human#/strokes/adult/outerPx}} inner{{human#/strokes/adult/innerPx}} relative{{human#/referenceCanvasPx}}, scale coherently. Child foreground primary, small animal supporting. ALL background fully OPAQUE warm ivory {{human#/colors/background}} corner to corner, no alpha transparency, no black cutout or erased background. White interiors opaque. Sparse pale cream/sage/ochre props, tiny contact shadows, wide calm negative space. Animal outline {{animal#/color}}, eyes/nose/glasses {{animal#/eye_nose_fill}}, mouth/brow lines {{animal#/color}}. Flat color neck accessory without outlines or inner strokes. Official small orange {{brand#/tokens/componentPrimaryBackground}} U+two dots only on correct visible upper viewer-right shirt chest, backcenter if back panel visible; allow natural occlusion, never place on arms. NO words, captions, letters, panels, labels, speech bubbles, halos, paper grain, heavy floor shadows or decorative scenery. New composition, not copying the reference scene. Reference image1 TOP ROW MIMO bird ONLY is geometry authority: compact upright egg head, slim leaf crest, small eyes, tiny beak, short white tee distinct from rounded white lower belly, short feather wings no human hands, thin legs three toes. Collar flat orange {{brand#/tokens/componentPrimaryBackground}}. Reference image2 infant body style, image3 human/scene simplicity ONLY, not pose. Ignore original line colors if differing from written colors."
     }
   },
   "scenes": {
@@ -694,6 +696,85 @@
         "tickle-pause-edit-prompt.txt",
         "tickle-pause-scarf-prompt.txt"
       ]
+    },
+    "two-word-found-mom": {
+      "title": "ママ、いた。見つけたことを伝える",
+      "image": "../mimo-frame-two-word-found-mom.png",
+      "mode": "new-scene",
+      "blocks": [
+        "connecting-words-generation"
+      ],
+      "instructions": [
+        "Child standing left points to mother entering on right. Mother simple white bob hair, kneels opening one hand in acknowledgment. Small Mimo between them but lower and behind, follows the pointing direction. Clear triangle of child pointing, mother response and bird listening. Just a faint doorframe on far right."
+      ],
+      "history": [],
+      "status": "generated-proposal; numeric-style-conformance-unverified"
+    },
+    "possessive-dads-shoes": {
+      "title": "パパの、くつ。持ち主へ届ける",
+      "image": "../mimo-frame-possessive-dads-shoes.png",
+      "mode": "new-scene",
+      "blocks": [
+        "connecting-words-generation"
+      ],
+      "instructions": [
+        "Toddler at left holds one adult-sized pale taupe shoe with both hands toward father seated low at right. Matching other adult shoe beside father foot clearly links owner and object. Father short simple hair extends open hand to receive. Mimo standing small nearby watching shoe exchange. Sparse warm ivory entryway, no shelves."
+      ],
+      "history": [],
+      "status": "generated-proposal; numeric-style-conformance-unverified"
+    },
+    "object-action-kick-ball": {
+      "title": "ボール、ける。やりたいことを伝える",
+      "image": "../mimo-frame-object-action-kick-ball.png",
+      "mode": "new-scene",
+      "blocks": [
+        "connecting-words-generation"
+      ],
+      "instructions": [
+        "Toddler at left lifts one foot ready to kick one pale mustard and sage ball, stable supporting foot grounded. Adult crouches at right holding a small TWO-card communication strip with simple ball pictogram and kicking-foot-with-ball pictogram; child points to ball with free hand. Mimo small at lower right watching child. This is communicating an intended action, not athletic instruction."
+      ],
+      "history": [],
+      "status": "generated-proposal; numeric-style-conformance-unverified"
+    },
+    "location-up-there": {
+      "title": "上に、ある。場所をいっしょに確かめる",
+      "image": "../mimo-frame-location-up-there.png",
+      "mode": "new-scene",
+      "blocks": [
+        "connecting-words-generation"
+      ],
+      "instructions": [
+        "Toddler with simple white bob at left points upward at a single small pale sage toy car resting on TOP of a LOW pale cream shelf on right. Adult kneels beside child, follows same pointing direction. Mimo small next to shelf gazes upward toward exactly the same car. No climbing, no ladder, no reaching precariously. Shelf has one empty lower compartment to make top location clear.",
+        "Mimo faces right with a gently upward-tilted compact egg-shaped head, narrow crown and full lower cheeks. A tiny triangular beak projects from the right facial silhouette, with one visible oval eye and a subtle eyebrow. Preserve the slim leaf crest, distinct short sleeve cuff, short feather wing, rounded lower belly and three-toed feet; match the approved turnaround proportions."
+      ],
+      "history": [],
+      "status": "generated-proposal; numeric-style-conformance-unverified"
+    },
+    "word-sound-picture-play": {
+      "title": "絵と身ぶりで、ことばをつなぐ",
+      "image": "../mimo-frame-word-sound-picture-play.png",
+      "mode": "new-scene",
+      "blocks": [
+        "connecting-words-generation"
+      ],
+      "instructions": [
+        "Toddler and adult kneel facing one another around THREE large separate picture cards on floor: a simple umbrella, a simple open box, and a simple elephant. Child points at umbrella card with one hand and makes a small open-palm gesture toward adult with other. Adult responds with an open hand. Mimo standing small beside cards opens one wing to acknowledge child. Keep card pictures clear low-detail pastel illustrations, no letters. Calm shared naming and sound play, no mouth close-ups or drills."
+      ],
+      "history": [],
+      "status": "generated-proposal; numeric-style-conformance-unverified"
+    },
+    "notice-gentle-sound": {
+      "title": "あれ、音のするほうへ",
+      "image": "../mimo-frame-notice-gentle-sound.png",
+      "mode": "new-scene",
+      "blocks": [
+        "early-attention-generation"
+      ],
+      "instructions": [
+        "BALD young BABY SUPINE on thin pale cream floor mat. Baby's head gently turned sideways toward an adult kneeling at right. Adult holds ONE small round enclosed pale mustard rattle in front at comfortable distance, not against ear, with two very tiny soft sound arcs; other adult hand relaxed on knee. Baby small bent arms near chest, short infant limbs, calm blank face oriented toward rattle. Small Mimo stands at far lower left watches baby's response, one tiny wing relaxed outward. Adult pale outline much lighter than baby, white bob hair long-sleeve shirt trousers. Clean quiet room suggested only by floor mat. No text or musical notation."
+      ],
+      "history": [],
+      "status": "generated-proposal; numeric-style-conformance-unverified"
     }
   },
   "policyVersion": 1

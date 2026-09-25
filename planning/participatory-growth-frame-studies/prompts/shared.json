@@ -43,7 +43,8 @@
       "mark",
       "scene-priority"
     ],
-    "source-scoped": []
+    "source-scoped": [],
+    "new-scene": []
   },
   "policy": {
     "version": 1,
