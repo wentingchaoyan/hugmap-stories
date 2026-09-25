@@ -126,9 +126,11 @@ Development表示で画像がなかった5ステージへ各1枚を追加。合�
 
 今回の10枚と15件の発達項目との紐づけを開発環境に登録済み。画像は番号なしのファイル名で `public-assets/growth-frames` に保存しています。登録後の一覧はDBスナップショットを使用し、制作案の上乗せを停止します。
 
-登録データは `planning/participatory-growth-frames/development-illustration-seed.json`、同等のSQLは `development-illustration-seed.sql`、配信画像のSHA-256と確認日時は `development-illustration-publish-receipt.json` に保存しています。SQLは開発環境専用です。
+DBデータの正本は `withu/sql/content-model-v2/006_catalog_illustration_seed.sql`（イラスト）と `008_illustration_development_item_seed.sql`（発達項目との紐づけ）です。今回分も元ファイルへ統合済みで、`hugmap-stories` にはDB投入用SQL・seed JSONを重複保存しません。適用順と前提はwithu側のREADMEを参照してください。
 
-再登録はログイン済みSupabase CLIを使い、次のスクリプトで実行します。引数なしは読み取り検証のみ、`--apply` は画像の上書きとデータ登録です。対象プロジェクトを開発環境に固定し、認証情報はファイルやログに保存しません。途中で失敗した場合は同じコマンドで再実行できます。
+配信画像のSHA-256と登録時の確認日時は `planning/participatory-growth-frames/development-illustration-publish-receipt.json` に保存しています。これは実行時点の証跡であり、DBデータの編集元ではありません。
+
+画像の再アップロードだけを行う場合は、ログイン済みSupabase CLIで次を実行します。引数なしは読み取り検証のみ、`--apply` は画像の上書きのみでDB登録はしません。対象を開発環境に固定し、認証情報は保存しません。
 
 ```sh
 node planning/participatory-growth-frames/publish-development-illustrations.mjs
