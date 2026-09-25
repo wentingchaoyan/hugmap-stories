@@ -1,0 +1,754 @@
+{
+  "schemaVersion": 1,
+  "character": "luke",
+  "note": "現行共通仕様を優先し、採用済みの場面状態と局所編集の範囲を維持する。過去の修正指示は履歴として保存し、自動合成しない。",
+  "defaults": {
+    "shared": "shared.json",
+    "history": "history/luke.json",
+    "historyRecords": [],
+    "referenceImages": {
+      "animal": "../../style-studies/character-reference/assets/user-approved-turnaround.png",
+      "child": "../../style-studies/character-reference/assets/child-toddlers-simple-hair-v1.png",
+      "infant": "../../style-studies/character-reference/assets/child-baby-prone.png",
+      "adult": "../../style-studies/character-reference/assets/adult-standard-mixed-hair-v2.png"
+    },
+    "instructions": [],
+    "blocks": {
+      "profile-tiny-discovery": "Edit reference1, preserve composition, activity and exact hand/object contacts. Reference2 THIRD ROW squirrel Luke geometry only (not black lines). Reference3 toddler anatomy/hair. Child primary, Luke secondary. White blank child face no eyes mouth, WHITE hair skin clothing; child outlines pale salmon {{human#/colors/childOutline}}, smooth rounded consistent thin strokes. Rounded toddler cheeks small side ears short neck, white tee and shorts unless original long pants. Luke white fur, outline {{animal#/color}} warm light brown, eyes nose glasses {{animal#/eye_nose_fill}}. Distinct sleeveless white vest on TORSO, bare arms; pockets only on torso never arms. Tiny U with two dots brand {{brand#/tokens/componentPrimaryBackground}} on visible upper screenRIGHT chest torso above pocket, never arm, natural fabric perspective. Scarf flat single {{brand#/tokens/componentSecondBackground}} color silhouette neckband and two tails, no outlines, no knot circle, no internal lines, no gradient. Opaque ivory background {{human#/colors/background}}, pale beige small contact shadows no glow. Keep original square format.",
+      "profile-release-drop": "Edit image1 preserve composition poses all hand contacts. Image2 THIRD ROW LUKE squirrel model authority adapted to ORIGINAL pose. Entire squirrel pure WHITE fill, never brown fur. Thin warm {{animal#/color}} outline, eyes nose glasses {{animal#/eye_nose_fill}}. Flat mustard {{brand#/tokens/componentSecondBackground}} scarf front two tails with NO outer/inner lines or shading. White sleeveless vest clearly separate from bare arms: armhole and torso boundary essential. Pockets on TORSO only, omit if hidden behind arms. Small orange {{brand#/tokens/componentPrimaryBackground}} U plus2dots upper SCREENRIGHT chest wearerleft, on visible torso cloth only; backcenter when back visible. Never logo on arm. Child primary, Luke secondary. Image3 toddler anatomy simple white hair, blank face small side ear natural short neck, plump limbs white tee shorts. CHILD thin pale salmon {{human#/colors/childOutline}} no saturated orange. OPAQUE warmwhite {{human#/colors/background}} square full background, no transparency black halos. Tiny local beige shadows only.",
+      "profile-paper-tear": "Edit image1 preserving exact activity composition poses and object contacts. Image2 third row LUKE geometry reference, adapt to scene. IMPORTANT squirrel entire head/body/ears/limbs/tail PURE WHITE fill, never brown fur. Warm {{animal#/color}} thin outlines ONLY, eyes/nose/glasses {{animal#/eye_nose_fill}}. White vest pockets. Neck scarf a SINGLE flat muted mustard {{brand#/tokens/componentSecondBackground}} silhouette with two front tails, NO OUTLINE NO internal ring/seams/gradients. Small orange {{brand#/tokens/componentPrimaryBackground}} U+two dots upper screenRIGHT chest wearerleft, orient to vest plane, occlusion natural not on arm. Child first, activity second, Luke supporting. Humans blank WHITE face/body, child pale {{human#/colors/childOutline}} smooth outlines outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}} at{{human#/referenceCanvasPx}}; rounded head side ears short neck, avoid dangling neck loops. Ivory opaque {{human#/colors/background}} square, quiet small beige contact shadows, no broad gray/green ground.",
+      "profile-bead-threading": "Edit image1 existing Hugmap illustration. Image2 THIRD ROW LUKE squirrel turnaround is geometry authority, image3 toddler models are body design reference adapted to original pose. Preserve composition, original poses, tool contacts and direction of interaction. Child white opaque fill and blank face with no eyes/eyebrows/mouth. Round toddler skull, plump limbs, short neck, tshirt+shorts, rounded feet/hands and the scene-adopted simple white hairstyle. Natural head profile facing activity with tiny nose and round cheek; EAR ON SIDE OF HEAD behind cheek, never front edge of face. Child contour muted soft salmon {{human#/colors/childOutline}}, {{human#/strokes/child/outerPx}}px outer/{{human#/strokes/child/innerPx}}inner on{{human#/referenceCanvasPx/0}} reference. Luke canonical white squirrel with tufted ears, round glasses {{animal#/eye_nose_fill}}, spiral tail, open white vest with pockets. Outline warm {{animal#/color}}, dark eyes nose {{animal#/eye_nose_fill}}. Scarf flat solid muted {{brand#/tokens/componentSecondBackground}} NO outlines or internal seam strokes/shadows. Small U+two dots brandmark {{brand#/tokens/componentPrimaryBackground}} upper SCREEN-RIGHT chest (wearer's left) in frontal view, BACK CENTER if back panel visible, only actual visible garment surface, never sleeve/belly. Opaque nearwhite {{human#/colors/background}} background, quiet short pale contact shadows, no big oval rugs/halos. Tools pale wood/cream lowcontrast with readable hand contacts. Full square scene.",
+      "profile-arrange-pretend-train": "Image1 scene to edit, image2 THIRD ROW LUKE squirrel turnaround is model authority, image3 toddler morphology. Preserve ORIGINAL poses/gestures/positions and child-tool contacts. Luke white squirrel round glasses darkbrown {{animal#/eye_nose_fill}}, tall tufted ears and spiral tail same as canonical THIRD ROW; white open vest with pockets, no change into bird/rabbit. Body outline {{animal#/color}}, eyes nose glasses {{animal#/eye_nose_fill}}. Scarf flat muted mustard {{brand#/tokens/componentSecondBackground}} WITHOUT outlines or internal strokes. U logo bright {{brand#/tokens/componentPrimaryBackground}} with two dots, small upper SCREEN-RIGHT chest on vest (character's left); NEVER lower left pocket or scarf. Back view use backcenter only when visible. Child round head scene-adopted simple white hair curves small ear short neck plump limbs simple rounded hands/feet, white blank face all white fills, soft salmon {{human#/colors/childOutline}} contour outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}} on{{human#/referenceCanvasPx/0}} reference. Keep gaze direction via head pose. Background opaque nearwhite {{human#/colors/background}}, only short pale contact shadows, no halos woodgrain floortexture large grayoval. Props lowcontrast pale wood cream colors, important hand contacts clear. Full square scene.",
+      "profile-clothespin": "Edit first illustration retaining its exact activity, poses, hand-tool contacts, composition. Image2 THIRD ROW LUKE is canonical squirrel geometry (round glasses, tufted ears, spiral tail, white vest). Image3 toddler body standard; adapt head/limbs to existing pose. Child white blank face NO eyes nose interior mouth eyebrows. Soft round skull/cheeks, SHORT neck, the scene-adopted simple white hairstyle, small ears at SIDE not front edge, plump limbs, tshirt and shorts. Child stroke pastel salmon {{human#/colors/childOutline}}, outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}} on{{human#/referenceCanvasPx/0}} reference. Luke outline warm {{animal#/color}}; eyes nose glasses {{animal#/eye_nose_fill}}. ONLY Luke scarf flat solid muted {{brand#/tokens/componentSecondBackground}} WITHOUT border or internal strokes/shading; human has no scarf. Luke small U+two dots {{brand#/tokens/componentPrimaryBackground}} upper SCREEN-RIGHT chest (wearer's left), aligned to garment plane, remove misplaced lower or screenleft logo. White fills. Quiet OPAQUE nearwhite {{human#/colors/background}} full square background, NOT transparent, no black or alpha. Short light cream contact shadows only, no big oval ground patch. No other characters or decorative background.",
+      "profile-page-turn": "Edit image1, preserve composition and activity poses/hand contacts. Image2 THIRD ROW LUKE is squirrel geometry authority: white squirrel tufted pointed ears round glasses spiral tail white vest pockets. Adapt model to ORIGINAL pose not standing ref pose. Animal outer warm {{animal#/color}}, eyes/nose/glasses {{animal#/eye_nose_fill}}. Neck scarf one flat solid {{brand#/tokens/componentSecondBackground}} silhouette neckband and two tails: absolutely NO border NO inner knot circle NO seams NO gradients. Add SMALL official U plus2dots orange {{brand#/tokens/componentPrimaryBackground}} on upper SCREENRIGHT chest (wearer left), follow vest plane, only where visible never relocate to arm. Child primary focus, activity second, Luke supporting, background quiet. Image3 toddler geometry and simple white hair reference; keep blank featureless white face, round head small side ears short natural neck plump limbs, white tee and shorts. Child outlines pastel {{human#/colors/childOutline}} outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}} per{{human#/referenceCanvasPx}}, smooth rounded strokes not saturated orange. OPAQUE ivory {{human#/colors/background}} square. Tiny pale contact shadows instead broad gray/green ground.",
+      "profile-counting-numerals": "Edit image1 exact scene, preserve original poses and all hand/tool contacts. Image2 THIRD ROW LUKE is canonical squirrel proportions: white body, tufted ears, round glasses darkbrown {{animal#/eye_nose_fill}}, spiral tail, open white vest with pockets. Outline {{animal#/color}}. ONLY squirrel scarf solid flat muted mustard {{brand#/tokens/componentSecondBackground}} NO outlines, knot circle or fold strokes/shading; child no scarf. U+two dots {{brand#/tokens/componentPrimaryBackground}}, small on upper screen-right chest (wearer's left), aligns with garment. Image3 toddler rounded body standard adapted to pose. Child WHITE opaque blank silhouette without facial features, pastel salmon {{human#/colors/childOutline}} outline outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}} at{{human#/referenceCanvasPx/0}} reference, smooth head and plump limbs. Simple 2-3 broad hair curves and small ears placed on SIDE behind cheek, never on front edge. OPAQUE full square nearwhite {{human#/colors/background}} background, never transparent or black. Props pale cream/wood, sparse short pale contact shadows.",
+      "profile-jigsaw-last-piece": "Edit image1 preserve original composition, poses and activity. Image2 THIRD ROW LUKE model geometry: tufted pointed ears, round glasses {{animal#/eye_nose_fill}}, white squirrel round cheeks spiral tail white vest pockets, body outline warm {{animal#/color}}. Squirrel scarf solid FLAT mustard {{brand#/tokens/componentSecondBackground}} NO dark/gold border, knot circle/internal seam/shading. U logo plus2dots solid orange {{brand#/tokens/componentPrimaryBackground}} upper SCREENRIGHT chest wearerleft, follow garment orientation. Image3 toddler shape reference adapted to pose. Child white blank silhouette no facial features, pastel salmon {{human#/colors/childOutline}} stroke outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}} at{{human#/referenceCanvasPx/0}}, simple hair whitefill, round head plump limbs small side ears short neck, no hanging neck loops or front-edge ears. Child and hand contacts primary focus, squirrel secondary, background last. Full square OPAQUE nearwhite {{human#/colors/background}} never transparent.",
+      "profile-find-pair": "Edit image1 preserving scene layout and poses/tool contacts. Image2 THIRD ROW LUKE squirrel model authority: tufted ears, round glasses, spiral tail, white open vest. Animal outline {{animal#/color}} eyes/nose/glasses {{animal#/eye_nose_fill}}. Scarf ONLY squirrel flat muted {{brand#/tokens/componentSecondBackground}} solid silhouette with NO border/internal knot circle/seam/shading. U+two dots small {{brand#/tokens/componentPrimaryBackground}} at upper SCREENRIGHT chest wearerleft, aligned garment. Image3 toddler proportions and hair reference. Child white fill blank face NO eyes/mouth/eyebrows; short neck round skull/cheeks plump limbs, contour muted {{human#/colors/childOutline}} outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}} at{{human#/referenceCanvasPx/0}}. Ear on SIDE behind cheek not front edge; no dangling neck loops. Child always main focus, squirrel second, quiet background last. Opaque nearwhite square no transparency.",
+      "profile-size-quantity-compare": "Edit ONLY squirrel scarf in image1. Image2 scarf is the desired flat fill example. Replace existing scarf entirely with a simple solid muted mustard {{brand#/tokens/componentSecondBackground}} neckband and two drooping tails. No stroked outline, no thin darker edges, no knotcircle, no seam or shadow inside. All scarf areas exactly same flat color, small white gap between tails. Preserve ALL other shapes, child hair/body/pose, squirrel body, U chest, objects, contacts, count, layout and colors of image1.",
+      "profile-shared-line": "Edit image1 preserve exact composition activity poses hand/object contacts. Image2 THIRD ROW LUKE reference geometry adapted to original pose. All squirrel fur WHITE never brown. Outline soft warm {{animal#/color}}, eyes nose glasses {{animal#/eye_nose_fill}}. White sleeveless vest distinct from bare arms, armholes and torso borders clear. Tiny orange {{brand#/tokens/componentPrimaryBackground}} U+two dots upper SCREENRIGHT torso chest (wearerleft), never on arms/pockets; backcenter if rear visible. Scarf SINGLE flat muted {{brand#/tokens/componentSecondBackground}} silhouette neckband +two tails NO borders NO inner knotcircle NO gradients. Child primary subject image3 reference rounded toddler proportions small side ears short neck WHITE blank face, white hair/clothes. CHILD lines pale salmon {{human#/colors/childOutline}} not brightorange. White tee shorts. OPAQUE ivory {{human#/colors/background}} square background no transparency black or halo. Small pale beige contact shadows.",
+      "profile-relationship-frame-children-parallel-sand": "Edit image1 preserve original activity exact hand/object contacts and layout. Reference2 THIRD ROW is Luke squirrel geometry: white fur, warm soft outline {{animal#/color}} eyes nose glasses {{animal#/eye_nose_fill}}. White sleeveless vest distinctly separate from bare arms, pockets only torso. U with two dots {{brand#/tokens/componentPrimaryBackground}} upper screenRIGHT chest torso never arms. Flat mustard {{brand#/tokens/componentSecondBackground}} scarf with NO dark outline or internal knot lines. Opaque ivory {{human#/colors/background}} background, subtle pale beige contact shadows. Child outlines pale salmon {{human#/colors/childOutline}} adult {{human#/colors/adultOutline}} thinner, white blank faces white hair and clothes. Simple rounded forms, smooth hair contours not scallops. Reference3 toddler shapes."
+    }
+  },
+  "scenes": {
+    "arrange-pretend-train": {
+      "title": "ならべたら、電車になった",
+      "image": "../luke-frame-arrange-pretend-train.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-arrange-pretend-train"
+      ],
+      "instructions": [
+        "Arrange pretend train: keep diagonal line of SAME FIVE alternating purple/yellow blocks, child's both hands on last purpleblock, kneeling child lower-right oriented toward Luke upper-left. Add simple short hair/ear, shirt and shorts minimally to child perreference. Luke stays seated with raised welcoming hand exact original pose; add missing U at upper screen-right vest chest above pocket. Keep blocks position/dimensions and child's hands contact. Don't add furniture."
+      ],
+      "sourcePrompt": "luke-arrange-pretend-train-edit-prompt.txt",
+      "history": [
+        "luke-arrange-pretend-train-edit-prompt.txt",
+        "luke-arrange-pretend-train-flat-color-prompt.txt",
+        "luke-arrange-pretend-train-head-prompt.txt"
+      ]
+    },
+    "bead-threading": {
+      "title": "ひもに、すーっと通せた",
+      "image": "../luke-frame-bead-threading.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-bead-threading"
+      ],
+      "instructions": [
+        "Child right seated threading cream cord through large yellow bead, two extra beads floor. Keep both hand contacts and feet position. Add simple hair, ear and shirt/shorts; child head gently downward/left toward bead, preserve young plump body. Luke lies prone on left with elbows supporting head and watches bead. Preserve this exact prone pose and spiral tail, clean glasses. His chest mostly hidden by arms: place small orange U on the visible BACK CENTER of white vest behind shoulders (left of neck in image), do not invent chest exposure."
+      ],
+      "sourcePrompt": "luke-bead-threading-edit-prompt.txt",
+      "history": [
+        "luke-bead-threading-edit-prompt.txt",
+        "luke-bead-threading-final-repair-prompt.txt",
+        "luke-bead-threading-u-orientation-prompt.txt"
+      ]
+    },
+    "button-sound": {
+      "title": "おしたら、きこえた",
+      "image": "../luke-frame-button-sound.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-bead-threading"
+      ],
+      "instructions": [
+        "Child left kneeling, right index fingertip pressing purple button on cream wooden sound cube center. Keep exact fingertip/button contact. Give child simple short hair and SIDE ear, natural RIGHT-FACING profile head downward toward button, rounded cheek/chin, tshirt and shorts. Luke right keeps one hand raised to own ear listening, other lowered, feet/tail unchanged. Move wrong lower SCREEN-LEFT pocket U to upper SCREEN-RIGHT chest of vest above pocket; remove old U. Remove wide green floor oval and use tiny individual cream contact shadows."
+      ],
+      "sourcePrompt": "luke-button-sound-edit-prompt.txt",
+      "history": [
+        "luke-button-sound-edit-prompt.txt",
+        "luke-button-sound-repair-prompt.txt"
+      ]
+    },
+    "clay-press": {
+      "title": "むぎゅっ、形がかわった",
+      "image": "../luke-frame-clay-press.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-arrange-pretend-train"
+      ],
+      "instructions": [
+        "Clay press: preserve child seated pressing green clay with BOTH hands on mat; feet supported on footstool, Luke right one hand on table edge watching, other down. Use the adopted chin-length white bob with simple bangs, preserving the same side ear, head size, toddler proportions and blank face directed down toward the clay. Add missing orange U upper SCREEN-RIGHT chest of Luke above pocket. TABLE consistency: pale natural wood rounded rectangular modest thin tabletop, simple straight softly rounded legs, same wood/color for chair and footrest; thin subtle tan edges, no glossy shading/woodgrain. Retain support stool and chair and hand-clay contacts. Keep the clay mat and rolling pin as the activity tools. Remove large outlined gray oval rug entirely, replace tiny separate warm ground contact shadows. Preserve all original poses and same arrangement."
+      ],
+      "sourcePrompt": "luke-clay-press-edit-prompt.txt",
+      "history": [
+        "luke-clay-press-edit-prompt.txt",
+        "luke-clay-press-flat-color-prompt.txt",
+        "luke-clay-press-girl-pattern-prompt.txt",
+        "luke-clay-press-subtle-decor-prompt.txt"
+      ],
+      "decisions": {
+        "hair": "Adopt the simple chin-length white bob and bangs. Keep head size, ear position, age/body type, white shirt/shorts and both hands pressing clay unchanged.",
+        "background": "Keep one short pale cream display ledge in the upper-right empty wall at x66–88%, y12–22%, about 20% canvas width. Place only two tiny clay works on it: a pale sage mound and muted peach pinch pot, each about 4% canvas width. Low contrast, no faces, clear space above heads."
+      },
+      "decisionSources": [
+        "luke-clay-press-girl-pattern-prompt.txt",
+        "luke-clay-press-subtle-decor-prompt.txt"
+      ]
+    },
+    "clean-up": {
+      "title": "さいごの一個、おうちへ",
+      "image": "../luke-frame-clean-up.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-bead-threading"
+      ],
+      "instructions": [
+        "Child left half-kneeling puts yellow block into round cream storage bin, other hand on rim. Preserve action contacts and bin opening. Add simple short hair, correct SIDE ear and natural RIGHT-facing downward head profile, tshirt/shorts. Luke right walking toward bin carrying purple block with both hands, preserve stepping pose and backward/threequarter torso. His back vest panel is visible: put small orange U at BACK CENTER following plane of vest, replacing tiny misplaced side U. Preserve squirrel tail and canonical head, round glasses. Cream storage bin lowcontrast with simple rounded rim and handle, no floor scenery."
+      ],
+      "sourcePrompt": "luke-clean-up-edit-prompt.txt",
+      "history": [
+        "luke-clean-up-edit-prompt.txt",
+        "luke-clean-up-final-repair-prompt.txt",
+        "luke-clean-up-repair-prompt.txt"
+      ]
+    },
+    "clothespin": {
+      "title": "つまんで、はずす",
+      "image": "../luke-frame-clothespin.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-clothespin"
+      ],
+      "instructions": [
+        "Child standing left looks down at purple clothespin held at shirt hem. Preserve one hand pinching purple clip, other pulling fabric, green/yellow clips attached to shirt. Refine overly lumpy head to smooth toddler head simple short hair and small side ears, blank face down toward clips. Keep clothes/shoes and posture. Luke right leans forward with hands behind back watching child; retain this pose. Move orange logo from screen-left pocket to screen-right upper chest vest above pocket."
+      ],
+      "sourcePrompt": "luke-clothespin-edit-prompt.txt",
+      "history": [
+        "luke-clothespin-edit-prompt.txt",
+        "luke-clothespin-scarf-prompt.txt"
+      ]
+    },
+    "color-sort": {
+      "title": "同じ色は、どこかな",
+      "image": "../luke-frame-color-sort.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-clothespin"
+      ],
+      "instructions": [
+        "Child kneeling left holds yellow ball over yellow bowl with purple and peach bowls in foreground. Keep ball cupped in hand and all bowl colors/positions. Add short simple hair, side ear, tshirt/shorts, natural right-facing toddler profile gently down toward yellow ball; tiny nose contour only, no ear-like protrusion at front edge. Luke kneeling right same pose hands near thighs watching ball, head proportion from model. Keep small chest U correctly upper screenright, flat mustard scarf."
+      ],
+      "sourcePrompt": "luke-color-sort-edit-prompt.txt",
+      "history": [
+        "luke-color-sort-edit-prompt.txt",
+        "luke-color-sort-scarf-prompt.txt"
+      ]
+    },
+    "coloring": {
+      "title": "この色、ここまできた",
+      "image": "../luke-frame-coloring.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-clothespin"
+      ],
+      "instructions": [
+        "Child seated right and Luke seated left color on separate white paper with purple/yellow crayons. Preserve each crayon touching page and other hand stabilizing sheet. Child simple rounded head with 2-3 broad short hair curves and small side ears, head bowed toward own drawing, blank face. Add tshirt clothing boundary. Keep feet supported by stool. Add Luke U upper screen-right vest chest above pocket visible between scarf and arm, not on sleeve. Pale wooden table/chairs/footrest with consistent soft rounded rectangular forms, lowcontrast cream wood no grain. REMOVE enormous gray oval floor shadow and replace with very small short contact shadows beneath legs and footrest. Retain furniture layout."
+      ],
+      "sourcePrompt": "luke-coloring-edit-prompt.txt",
+      "history": [
+        "luke-coloring-edit-prompt.txt",
+        "luke-coloring-scarf-prompt.txt",
+        "luke-coloring-subtle-decor-prompt.txt"
+      ],
+      "decisions": {
+        "background": "Keep two small off-white drawing sheets on a short pale cream rail with tiny clips in the upper-left empty wall (x8–32%, y7–19%). Each sheet about 9% canvas width: pale mustard loops on one, muted lavender/sage scribbles on the other. No dark rail border or strong shadows; clear space above heads."
+      },
+      "decisionSources": [
+        "luke-coloring-subtle-decor-prompt.txt"
+      ]
+    },
+    "counting-numerals": {
+      "title": "1、2、3。数字と一緒に",
+      "image": "../luke-frame-counting-numerals.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-counting-numerals"
+      ],
+      "instructions": [
+        "Child kneeling LEFT points index finger toward block4, other hand floor supporting body. Preserve all five blocks with correct digits 1 2 3 4 5 and pointing gesture. Child head looks down RIGHT toward numbers: natural tiny nose profile, SIDE ear behind cheek, rounded chin and short neck, simple short hair and tshirt+shorts. Luke kneeling RIGHT same pose. Add tiny U upper screen-right chest. Replace big ground oval with small local contact shadows."
+      ],
+      "sourcePrompt": "luke-counting-numerals-edit-prompt.txt",
+      "history": [
+        "luke-counting-numerals-edit-prompt.txt",
+        "luke-counting-numerals-neck-prompt.txt",
+        "luke-counting-numerals-repair-prompt.txt"
+      ]
+    },
+    "drinking-independently": {
+      "title": "自分で、ごくごく",
+      "image": "../luke-frame-drinking-independently.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-counting-numerals"
+      ],
+      "instructions": [
+        "Child sitting right drinks from blue handled cup at mouth, holding handle with one hand and other on table. Preserve cup rim contacting face and hand-handle grip, do not move cup. Add simple short hair and ear on SIDE, natural face profile facing right toward cup, tshirt+shorts white fill. Preserve existing feet position. Luke left standing cross-legged with hands behind back, keep exact pose. Move misplaced U from screenleft vest panel to SCREENRIGHT upper chest above pocket. Keep round table round but make table/chair pale cream wood with smooth simple rounded edges, short contact shadows only."
+      ],
+      "sourcePrompt": "luke-drinking-independently-edit-prompt.txt",
+      "history": [
+        "luke-drinking-independently-edit-prompt.txt"
+      ]
+    },
+    "eating-independently": {
+      "title": "自分で、ひとくち",
+      "image": "../luke-frame-eating-independently.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-counting-numerals"
+      ],
+      "instructions": [
+        "Child seated RIGHT and Luke seated LEFT independently bringing yellow food pieces to own mouth with hand, other hand by plate. Preserve both hands-food-mouth contacts, two plates, chairs and footrests. Child head gently turns LEFT toward raised food, simple tiny nose exterior, rounded cheeks/chin, SIDE ear to right of face, short neck, simple short hair and tshirt. No eyes/mouth inside face. Luke chest add small orange U upper SCREENRIGHT above pocket. Furniture pale cream wood rounded rectangles matching consistent simple nursery table/chairs/footrests, remove enormous floor oval leaving tiny individual contact shadows."
+      ],
+      "sourcePrompt": "luke-eating-independently-edit-prompt.txt",
+      "history": [
+        "luke-eating-independently-edit-prompt.txt",
+        "luke-eating-independently-subtle-decor-prompt.txt"
+      ],
+      "decisions": {
+        "background": "Keep two tiny flat paper leaves, pale sage and warm ochre, on a faint cream string in the upper-left empty wall (x12–28%, y10–19%), whole cluster about 15% canvas width. No veins, folds or strong shadows; clear space above heads; no extra food or furniture."
+      },
+      "decisionSources": [
+        "luke-eating-independently-subtle-decor-prompt.txt"
+      ]
+    },
+    "find-pair": {
+      "title": "おなじ、みつけた",
+      "image": "../luke-frame-find-pair.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-find-pair"
+      ],
+      "instructions": [
+        "Child right kneeling holds sock picture card with both hands toward Luke seated left. Preserve two hand/card contacts, all four cards (held sock, floor sock flower cup) and Luke relaxed seated pose. Adapt child to simple GIRL LOW PONYTAIL hair from image3 RIGHT model, white hair only; natural LEFT-facing head toward card and squirrel, tiny nose outer contour and side ear behind cheek. Tshirt+shorts same plump body. Add a tiny lowcontrast wall decoration of TWO flat pale sage/ochre paper leaves in upper LEFT unused margin, cluster only12% image width and clear gap above ears. Remove big pale green floor oval."
+      ],
+      "sourcePrompt": "luke-find-pair-edit-prompt.txt",
+      "history": [
+        "luke-find-pair-edit-prompt.txt"
+      ]
+    },
+    "hand-to-hand-transfer": {
+      "title": "こっちの手から、あっちの手へ",
+      "image": "../luke-frame-hand-to-hand-transfer.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-find-pair"
+      ],
+      "instructions": [
+        "Child cross-legged LEFT transfers purple cube from upper hand into open receiving palm; Luke kneeling RIGHT mirrors with yellow cube. Preserve exact two-cube hand-to-hand action and positions, do not swap to different activity. Child simple short hair2-3curves, small SIDE ears, white tshirt and trousers original. Face blank oriented down toward hands. Luke tiny upper screenRIGHT chest U only visible above arm, not on sleeve or hand, partial occlusion natural. No extra decoration for this simple hand-detail scene. Replace broad ground oval with tiny pale contact shadows."
+      ],
+      "sourcePrompt": "luke-hand-to-hand-transfer-edit-prompt.txt",
+      "history": [
+        "luke-hand-to-hand-transfer-edit-prompt.txt",
+        "luke-hand-to-hand-transfer-repair-prompt.txt"
+      ]
+    },
+    "handwashing-independently": {
+      "title": "自分で、あわあわ",
+      "image": "../luke-frame-handwashing-independently.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-find-pair"
+      ],
+      "instructions": [
+        "Child stands on stool washing both hands under running faucet facing RIGHT. Luke stands LEFT holding folded bluegray towel ready, same pose. Preserve hand-water contact and safe two feet on stool, sink soap faucet and towel positions. Child short simple hair, SIDE ear and natural tiny nose profile facing faucet, tshirt trousers. Luke U on upper SCREENRIGHT chest if visible above towel; allow towel partial occlusion, never relocate to sleeve. Add one small very pale sage hand towel on simple short cream hook in UPPER RIGHT empty margin x84%-92%,y16%-28%, separate from faucet and head. Sink/stool quiet cream pale gray smooth simplified, short shadows only."
+      ],
+      "sourcePrompt": "luke-handwashing-independently-edit-prompt.txt",
+      "history": [
+        "luke-handwashing-independently-edit-prompt.txt",
+        "luke-handwashing-independently-repair-prompt.txt"
+      ]
+    },
+    "jigsaw-last-piece": {
+      "title": "さいごの一枚、ここかな",
+      "image": "../luke-frame-jigsaw-last-piece.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-jigsaw-last-piece"
+      ],
+      "instructions": [
+        "Child kneeling LEFT holding yellow final puzzle piece with both hands over 3-piece puzzle base. Keep all piece shapes and hand contacts. Child simple short hair, side ear, natural right-facing downturned profile, rounded cheek and short neck, white tee+shorts. Luke right seated pondering with one paw at chin, other on knee; preserve exact pose. Add tiny orange U upper screenRIGHT chest above pocket, not on paw. No new decoration: puzzle itself focus. Quiet short contact shadows."
+      ],
+      "sourcePrompt": "luke-jigsaw-last-piece-edit-prompt.txt",
+      "history": [
+        "luke-jigsaw-last-piece-edit-prompt.txt",
+        "luke-jigsaw-last-piece-final-repair-prompt.txt",
+        "luke-jigsaw-last-piece-repair-prompt.txt"
+      ]
+    },
+    "lift-large-ball": {
+      "title": "ぎゅっと持って、持ち上げた",
+      "image": "../luke-frame-lift-large-ball.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-jigsaw-last-piece"
+      ],
+      "instructions": [
+        "Child LEFT squats lifting large yellow ball using both hands, Luke RIGHT crouches with open hands encouraging. Preserve exact lifting action, contact of hands on ball, bent knees and grounded feet. Child GIRL short simple BOB from image3 LEFT model, whitehair softsalmon outline, same plump toddler build, white tee+shorts, no ribbons/skirt/facefeatures. Natural right/down profile toward ball with ear on side. Luke small orange U upper screenRIGHT vest chest, aligned bent torso and naturally occluded if needed. No decorations in active space, no extra balls."
+      ],
+      "sourcePrompt": "luke-lift-large-ball-edit-prompt.txt",
+      "history": [
+        "luke-lift-large-ball-edit-prompt.txt",
+        "luke-lift-large-ball-final-repair-prompt.txt",
+        "luke-lift-large-ball-repair-prompt.txt"
+      ]
+    },
+    "one-snip": {
+      "title": "ちょきん、ここまで",
+      "image": "../luke-frame-one-snip.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-jigsaw-last-piece"
+      ],
+      "instructions": [
+        "Child LEFT seated at table cutting white paper strip once with purple round-tip scissors, preserve scissors grip and blades crossing paper away from other hand. Keep cut paper piece. Simple short hair2-3curves side ears rounded blank head tilted toward scissors, tee+shorts and feet supported by footrest. Luke right one paw at chin other behind back, preserve pose; add small upper screenRIGHT chest U. Furniture pale cream wood with rounded edges fine subtle contours, consistent nursery table chair footrest. Remove large green ground oval use tiny contact shadows. Add tiny wall display upper RIGHT margin x70%-88% y12%-22%, one small offwhite paper with 2 pale sage/ochre geometric collage pieces, single tiny clip. Very pale quiet no shadows/text, clear space around heads."
+      ],
+      "sourcePrompt": "luke-one-snip-edit-prompt.txt",
+      "history": [
+        "luke-one-snip-edit-prompt.txt",
+        "luke-one-snip-repair-prompt.txt"
+      ]
+    },
+    "page-turn": {
+      "title": "つぎのページは、その手から",
+      "image": "../luke-frame-page-turn.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-page-turn"
+      ],
+      "instructions": [
+        "Child sits left and turns large book page by pinching upper corner with right hand, other hand rests left page. Keep book shape, fine paper edge lines and turning arrow. Add simple short hair and side ear, head tilted down toward book. Keep Luke right kneeling paws on ground calmly watching. No additional background objects."
+      ],
+      "sourcePrompt": "luke-page-turn-edit-prompt.txt",
+      "history": [
+        "luke-page-turn-edit-prompt.txt",
+        "luke-page-turn-repair-prompt.txt"
+      ]
+    },
+    "paper-collage": {
+      "title": "ここに貼ったら、つながった",
+      "image": "../luke-frame-paper-collage.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-page-turn"
+      ],
+      "instructions": [
+        "Child left seated holding gluestick in one hand and pressing purple paper with other. Luke right standing offering green triangle, other paw on table; keep all paper pieces, cap and glue. Child has simple short hair from ref, natural short neck not dangling loop. Table/chair/footrest pale cream wood rounded edges matching nursery furniture; feet supported. Add one tiny pale finished paper collage on wall upperright, 2simple shapes only clear of heads. No other objects."
+      ],
+      "sourcePrompt": "luke-paper-collage-edit-prompt.txt",
+      "history": [
+        "luke-paper-collage-edit-prompt.txt",
+        "luke-paper-collage-repair-prompt.txt"
+      ]
+    },
+    "paper-fold": {
+      "title": "はしとはし、会えた",
+      "image": "../luke-frame-paper-fold.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-page-turn"
+      ],
+      "instructions": [
+        "Child left and Luke right BOTH SEATED pressing their own purple folded paper with both hands. Keep hands on fold edges, seated positions and child's feet on footrest. Child GIRL with small low ponytail from image3 RIGHT model, no ribbon, white hair, blank downturned face, small side ears and natural short neck. Same plump build tee+shorts. Table chairs footrest pale cream wood rounded edges, lowcontrast. Add one small pale paper leaf hanging at far upperleft in blank margin, no other decor. Luke U tiny on visible chest above forearm, may be partially occluded but never place it on arm."
+      ],
+      "sourcePrompt": "luke-paper-fold-edit-prompt.txt",
+      "history": [
+        "luke-paper-fold-edit-prompt.txt",
+        "luke-paper-fold-repair-prompt.txt"
+      ]
+    },
+    "paper-tear": {
+      "title": "びりっ、線がひらいた",
+      "image": "../luke-frame-paper-tear.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-paper-tear"
+      ],
+      "instructions": [
+        "Preserve illustration simplicity.Child and Luke seated tearing their own white paper with both hands. Keep paper split and grip. Image3 toddler short hair and white tee shorts; feet on footrest. Luke slightly enlarge around seated position to match other scenes but still smaller than child. Pale cream wooden table chairs footrests. Add tiny pale paper collage upperright away from heads."
+      ],
+      "sourcePrompt": "luke-paper-tear-edit-prompt.txt",
+      "history": [
+        "luke-paper-tear-edit-prompt.txt"
+      ]
+    },
+    "potty-learning": {
+      "title": "座るところまで、いっしょに",
+      "image": "../luke-frame-potty-learning.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-arrange-pretend-train"
+      ],
+      "instructions": [
+        "Edit image1 potty-learning scene. Preserve Luke sitting left with both hands on knees and tail curled left, toddler seated in center on potty facing caregiver right, caregiver kneeling right offering one open hand and other hand on own knee. Image4 adult model upper right bob hairstyle and proportion reference: add simple white bob hair and clothing boundaries to caregiver, no facial features. CRITICAL adult contour pale peach {{human#/colors/adultOutline}} distinctly lighter and thinner than child {{human#/colors/childOutline}}. Child simple small ear and hair, white tee, body appropriately concealed by potty, no anatomical detail. Preserve potty silhouette cream fill. Luke must have tiny orange U+two dots on upper screen-right vest chest above pocket. Scarf strictly flat muted mustard {{brand#/tokens/componentSecondBackground}} with NO brown edge, no gold shading. Body soft warm brown contour. Opaque warm white square canvas, quiet short contact shadows. Keep geometry and calm interaction, no extra props."
+      ],
+      "sourcePrompt": "luke-potty-learning-edit-prompt.txt",
+      "history": [
+        "luke-potty-learning-color-prompt.txt",
+        "luke-potty-learning-edit-prompt.txt",
+        "luke-potty-learning-flat-color-prompt.txt"
+      ]
+    },
+    "pretend-cleaning": {
+      "title": "いっしょに、おそうじ",
+      "image": "../luke-frame-pretend-cleaning.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-paper-tear"
+      ],
+      "instructions": [
+        "Preserve illustration simplicity.Two CHILDREN collaborating (not adults): left standing pushing toy vacuum, center kneeling brush and dustpan. Keep every grip and tool floor contacts. Left child simple short hair; kneeling child girl simple bob white hair, same toddler build tee shorts. Luke on right hands up beside cheeks delighted same pose, small eyes. Keep 3paper scraps no extra props/decor."
+      ],
+      "sourcePrompt": "luke-pretend-cleaning-edit-prompt.txt",
+      "history": [
+        "luke-pretend-cleaning-edit-prompt.txt",
+        "luke-pretend-cleaning-repair-prompt.txt"
+      ]
+    },
+    "put-in-look": {
+      "title": "小さな物を、ここへ",
+      "image": "../luke-frame-put-in-look.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-paper-tear"
+      ],
+      "instructions": [
+        "Preserve illustration simplicity.Child left kneeling releasing purple cube over square opening of wood box; preserve dotted falling trajectory and second cube visible through circle opening. Image3 short-haired toddler geometry tee shorts small side ear face toward box. Luke right kneeling leaning to look, exact pose. U small on chest visible beside scarf above paw. No decor."
+      ],
+      "sourcePrompt": "luke-put-in-look-edit-prompt.txt",
+      "history": [
+        "luke-put-in-look-edit-prompt.txt",
+        "luke-put-in-look-repair-prompt.txt"
+      ]
+    },
+    "ramp-roll": {
+      "title": "ころがした先で、待ってる",
+      "image": "../luke-frame-ramp-roll.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-paper-tear"
+      ],
+      "instructions": [
+        "Preserve illustration simplicity.Child kneeling left releases purple ball atop ramp while Luke crouching right awaits it. Keep both ball positions as original motion sequence, preserve hand poised over ball and ramp. Child short simple BOB girl from image3 left, white tee shorts side ear blank profile looking at ramp. Luke maintain profile and pose, small U only visible chest part do not force on arm. Ramp pale cream wood. No decor."
+      ],
+      "sourcePrompt": "luke-ramp-roll-edit-prompt.txt",
+      "history": [
+        "luke-ramp-roll-edit-prompt.txt",
+        "luke-ramp-roll-repair-prompt.txt"
+      ]
+    },
+    "reach-for-toy": {
+      "title": "ほしいものへ、両手がいく",
+      "image": "../luke-frame-reach-for-toy.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-paper-tear"
+      ],
+      "instructions": [
+        "Preserve illustration simplicity.BABY left floor seated leaning forward, supporting weight on one planted palm while other hand reaches for cylindrical rolling rattle. Preserve infant body proportions and bald/sparse original baby head, NO toddler hair and no aging up, tiny side ear optional. Keep white silhouette simple diaper/romper contours. Luke right crouching gently watching preserve exact pose. Rattle unchanged, no additional decor."
+      ],
+      "sourcePrompt": "luke-reach-for-toy-edit-prompt.txt",
+      "history": [
+        "luke-reach-for-toy-edit-prompt.txt",
+        "luke-reach-for-toy-line-color-final-prompt.txt",
+        "luke-reach-for-toy-line-color-prompt.txt",
+        "luke-reach-for-toy-repair-prompt.txt",
+        "luke-reach-for-toy-vest-repair-prompt.txt"
+      ]
+    },
+    "release-drop": {
+      "title": "はなしたら、どこへいく？",
+      "image": "../luke-frame-release-drop.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-release-drop"
+      ],
+      "instructions": [
+        "Left child kneeling releases yellow ball above transparent funnel, keep open fingers ball trajectory and translucent tube edges. Short simple hair. Luke crouching right watching unchanged. No decoration."
+      ],
+      "sourcePrompt": "luke-release-drop-edit-prompt.txt",
+      "history": [
+        "luke-release-drop-edit-prompt.txt",
+        "luke-release-drop-repair-prompt.txt"
+      ]
+    },
+    "sand-texture": {
+      "title": "さらさら、手のなか",
+      "image": "../luke-frame-sand-texture.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-release-drop"
+      ],
+      "instructions": [
+        "Child left kneeling lets sand fall from raised fingers, planted support palm unchanged. GIRL short bob image3 left. Luke crouching right side/back turned, preserve pose. Orange U on BACK CENTER of visible vest back plane, tilted with torso, NOT sleeve. Simplify pale sandbox wood rim and sparse sand grains but keep falling sand. No extra decor."
+      ],
+      "sourcePrompt": "luke-sand-texture-edit-prompt.txt",
+      "history": [
+        "luke-sand-texture-edit-prompt.txt",
+        "luke-sand-texture-repair-prompt.txt"
+      ]
+    },
+    "shake-sound": {
+      "title": "ふったら、音がした",
+      "image": "../luke-frame-shake-sound.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-release-drop"
+      ],
+      "instructions": [
+        "Child RIGHT standing feet apart shaking yellow maraca, keep grip and 2small motionlines. Simple short hair white tee shorts. Luke LEFT kneeling hand cupped beside ear, other on knee listening, preserve pose expression. U visible upper screenRIGHT chest torso behind arm. No added decoration."
+      ],
+      "sourcePrompt": "luke-shake-sound-edit-prompt.txt",
+      "history": [
+        "luke-shake-sound-edit-prompt.txt",
+        "luke-shake-sound-repair-prompt.txt"
+      ]
+    },
+    "shape-sorter": {
+      "title": "この形は、ここ",
+      "image": "../luke-frame-shape-sorter.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-release-drop"
+      ],
+      "instructions": [
+        "Child RIGHT kneeling supporting weight on left planted hand and fitting purple round block into round hole with right hand. GIRL low pony image3 right, same proportions. Luke LEFT seated leaning on palm, preserve. Move existing orange U from wrong screenLEFT chest to upper screenRIGHT torso chest, remove oldmark. Keep triangular green and square yellow pieces and corresponding holes. Tiny pale two paper shapes wall upperleft margin only."
+      ],
+      "sourcePrompt": "luke-shape-sorter-edit-prompt.txt",
+      "history": [
+        "luke-shape-sorter-edit-prompt.txt",
+        "luke-shape-sorter-repair-prompt.txt"
+      ]
+    },
+    "shared-build": {
+      "title": "積んで、タワーになった",
+      "image": "../luke-frame-shared-build.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-release-drop"
+      ],
+      "instructions": [
+        "Child LEFT kneeling places orange cube atop green beam resting on two yellow columns. Keep exact hand/cube and tower positions. Simple short hair white tee shorts. Luke RIGHT seated waiting hands on lap, preserve exact pose. Tiny chestU on visible cloth above forearm, no pocket or mark on arm. No background additions."
+      ],
+      "sourcePrompt": "luke-shared-build-edit-prompt.txt",
+      "history": [
+        "luke-shared-build-edit-prompt.txt",
+        "luke-shared-build-repair-prompt.txt"
+      ]
+    },
+    "shared-line": {
+      "title": "線のつづきは、こっち",
+      "image": "../luke-frame-shared-line.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-shared-line"
+      ],
+      "instructions": [
+        "Child lowerLEFT lying prone drawing with crayon, bent legs raised, seen from rear with head toward paper. Preserve this precise rear viewpoint, NO face toward viewer. Short simple hair. Luke upperRIGHT seated crayon touching opposite end of same purple winding line. Remove existing U on ARM and put tinyU torso beside scarf. Keep both crayon tips connected to drawn line. No decoration."
+      ],
+      "sourcePrompt": "luke-shared-line-edit-prompt.txt",
+      "history": [
+        "luke-shared-line-edit-prompt.txt",
+        "luke-shared-line-repair-prompt.txt"
+      ]
+    },
+    "size-quantity-compare": {
+      "title": "どっちが大きい？ 多い？",
+      "image": "../luke-frame-size-quantity-compare.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-size-quantity-compare"
+      ],
+      "instructions": [
+        "Opaque same background."
+      ],
+      "sourcePrompt": "luke-frame-size-quantity-compare-followup-prompt.txt",
+      "history": [
+        "luke-frame-size-quantity-compare-followup-prompt.txt",
+        "luke-size-quantity-compare-edit-prompt.txt",
+        "luke-size-quantity-compare-repair-prompt.txt",
+        "luke-size-quantity-compare-scarf-prompt.txt"
+      ]
+    },
+    "spatial-position": {
+      "title": "上・下・中、どこにある？",
+      "image": "../luke-frame-spatial-position.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-shared-line"
+      ],
+      "instructions": [
+        "Child RIGHT kneeling REAR threequarter view hand on yellow cube ON TOP of wood open arch/table, purple ball UNDER it. Preserve spatial relationships and hand contact. Short simple hair seen from back; do not turn face to viewer. Luke left kneeling exact pose. Pale cream wood. No decor."
+      ],
+      "sourcePrompt": "luke-spatial-position-edit-prompt.txt",
+      "history": [
+        "luke-spatial-position-edit-prompt.txt",
+        "luke-spatial-position-repair-prompt.txt",
+        "luke-spatial-position-scarf-prompt.txt"
+      ]
+    },
+    "spiral-turning-toy": {
+      "title": "くるくる、回した",
+      "image": "../luke-frame-spiral-turning-toy.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-size-quantity-compare"
+      ],
+      "instructions": [
+        "Opaque same background."
+      ],
+      "sourcePrompt": "luke-frame-spiral-turning-toy-followup-prompt.txt",
+      "history": [
+        "luke-frame-spiral-turning-toy-followup-prompt.txt",
+        "luke-spiral-turning-toy-edit-prompt.txt",
+        "luke-spiral-turning-toy-scarf-prompt.txt"
+      ]
+    },
+    "sticker-paste": {
+      "title": "ぺりっ、ここにしよう",
+      "image": "../luke-frame-sticker-paste.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-size-quantity-compare"
+      ],
+      "instructions": [
+        "Opaque same background."
+      ],
+      "sourcePrompt": "luke-frame-sticker-paste-followup-prompt.txt",
+      "history": [
+        "luke-frame-sticker-paste-followup-prompt.txt",
+        "luke-sticker-paste-edit-prompt.txt",
+        "luke-sticker-paste-scarf-prompt.txt"
+      ]
+    },
+    "tiny-discovery": {
+      "title": "その小さなもの、発見",
+      "image": "../luke-frame-tiny-discovery.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-tiny-discovery"
+      ],
+      "instructions": [
+        "Child foreground LEFT facing RIGHT toward magnifying lens; preserve foreground crop but reduce oversized head slightly, add short white hair appropriate rear threequarter with no front bangs on backhead. Small nose only on far right silhouette. Add white short sleeve. Luke holds magnifier focused on same yellow dot. No added decoration."
+      ],
+      "sourcePrompt": "luke-frame-tiny-discovery-edit-prompt.txt",
+      "history": [
+        "luke-frame-tiny-discovery-edit-prompt.txt",
+        "luke-frame-tiny-discovery-hair-prompt.txt"
+      ]
+    },
+    "toilet-independently": {
+      "title": "自分で、トイレ",
+      "image": "../luke-frame-toilet-independently.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-tiny-discovery"
+      ],
+      "instructions": [
+        "Child back facing toilet LEFT, hand resting seat and one foot on step, other floor. Keep long pants. Add short WHITE rear hair outer tufts/nape ONLY, NO frontal bangs. Keep 3 instructional icons toilet/flush/handwashing. Luke right walking smile looking back gently, U on visible chest plane. Light cream stool white toilet, no extra decor."
+      ],
+      "sourcePrompt": "luke-frame-toilet-independently-edit-prompt.txt",
+      "history": [
+        "luke-frame-toilet-independently-edit-prompt.txt"
+      ]
+    },
+    "toy-car-road": {
+      "title": "道のつづきは、そっち",
+      "image": "../luke-frame-toy-car-road.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-tiny-discovery"
+      ],
+      "instructions": [
+        "Child LEFT kneeling facing RIGHT looking down at car, simple short white hair, side profile small nose on right, no front face towardviewer. Add tee shorts. Hand still touches purplecar. Luke upperright kneeling onepaw on wooden arch. Make road pale warm beige subdued, preserve car road arch sequence."
+      ],
+      "sourcePrompt": "luke-frame-toy-car-road-edit-prompt.txt",
+      "history": [
+        "luke-frame-toy-car-road-edit-prompt.txt",
+        "luke-frame-toy-car-road-scarf-prompt.txt"
+      ]
+    },
+    "water-pour": {
+      "title": "ながれた先を、いっしょに",
+      "image": "../luke-frame-water-pour.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-tiny-discovery"
+      ],
+      "instructions": [
+        "Child LEFT kneeling facing RIGHT and down toward pitcher, simple bob girl hair with sideprofile nose right, WHITE hair. Tee shorts. Both hands hold pitcher, continuous modest water stream from pitcher lip into basin, retain paperboat. Luke right paws basinrim looking at pouring. Reduce plants to ONE tiny pale group at far margin."
+      ],
+      "sourcePrompt": "luke-frame-water-pour-edit-prompt.txt",
+      "history": [
+        "luke-frame-water-pour-edit-prompt.txt"
+      ]
+    },
+    "relationship-frame-children-build-together": {
+      "title": "ふたりで、ひとつの橋",
+      "image": "../relationship-frame-children-build-together.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-tiny-discovery"
+      ],
+      "instructions": [
+        "Two toddlers kneeling facing EACH OTHER and looking down at shared blocks. Left short hair boy, right simple bob girl, white hair/tee/shorts, preserve hands holding yellow and blue blocks around existing threeblock arch. Luke centered BEHIND blocks seated, never cover child hands, orange U on upper screenright chest. Replace long peachfloor oval with small individual pale beige shadows. No new objects."
+      ],
+      "sourcePrompt": "relationship-frame-children-build-together-edit-prompt.txt",
+      "history": [
+        "relationship-frame-children-build-together-edit-prompt.txt"
+      ]
+    },
+    "relationship-frame-children-parallel-sand": {
+      "title": "同じ砂場、それぞれの遊び",
+      "image": "../relationship-frame-children-parallel-sand.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-relationship-frame-children-parallel-sand"
+      ],
+      "instructions": [
+        "Two toddlers separately play sand: LEFT kneeling leftfacing short white hair boy pouring sand from fingers into purplebucket; RIGHT kneeling rightfacing bobgirl hands on own mound, yellowbucket. Add white tees shorts, rounded sideprofile cheek small nose and sideear, don't turn towardviewer. Luke centerbehind sandbox paws on edge U chest. Thin palecream wooden sandbox frame especially front, reduce sanddots to few and keep both activities clear."
+      ],
+      "sourcePrompt": "relationship-frame-children-parallel-sand-followup-prompt.txt",
+      "history": [
+        "relationship-frame-children-parallel-sand-followup-prompt.txt",
+        "relationship-frame-children-parallel-sand-repair-prompt.txt"
+      ]
+    },
+    "together-frame-self-feeding-table": {
+      "title": "いっしょに、ひとくち",
+      "image": "../together-frame-self-feeding-table.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-relationship-frame-children-parallel-sand"
+      ],
+      "instructions": [
+        "Reference4 adult anatomy proportions, reduce adult oversized baby-like round head slightly and make adult neck/shoulders/torso mature. Keep low tied white hair smooth. Child LEFT must have simple front white short hair with a few curved bangs and side ears, white tee pants; child holds spoon to own mouth level. Adult center also spoon to mouth level, white blank faces no facial details. Luke RIGHT observes tabletop, add U on visible upper chest. Palecream rounded wood table and chairs, child footrest retained; adult has longer legs feet naturally on floor not toddler footrest. Remove big gray floor oval use tiny contact shadows. Keep bowls food and spoons. No extra decor."
+      ],
+      "sourcePrompt": "together-frame-self-feeding-table-followup-prompt.txt",
+      "history": [
+        "together-frame-self-feeding-table-followup-prompt.txt"
+      ]
+    }
+  },
+  "policyVersion": 1
+}

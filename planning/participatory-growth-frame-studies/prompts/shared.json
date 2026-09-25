@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "sources": {
+    "animal": "../../style-studies/character-reference/animal-line-style.json",
+    "human": "../../style-studies/character-reference/human-silhouette-style.json",
+    "brand": "../../style-studies/character-reference/brand-colors.json",
+    "growth": "../../style-studies/character-reference/growth-scene-design-rules.json",
+    "characters": "../../style-studies/character-reference/character-lock-data.json",
+    "children": "../../style-studies/character-reference/child-body-types.json",
+    "adults": "../../style-studies/character-reference/adult-standard-model.json"
+  },
+  "blocks": {
+    "preserve": "Edit the supplied scene image. Preserve composition, character scale, poses, hand/object contacts, props and background unless the scene instructions explicitly request a local correction. No unlisted decorations or text. Keep the original image dimensions and an opaque canvas. Changes are restricted to the selected edit mode.",
+    "child-color": "Set all CHILD contours, including hair, clothes, hands and feet, to {{human#/colors/childOutline}} at opacity {{human#/strokes/opacity}}. Preserve their exact thickness and geometry. Preserve white fill, animal, adult, props and background unchanged.",
+    "human-style": "Humans have blank face interiors without eyes, eyebrows or mouth marks; an action-specific mouth may be conveyed by the outer silhouette only; no logos. Skin, hair and clothes use {{human#/colors/bodyFill}}. Child outline: {{human#/colors/childOutline}}; adult outline: {{human#/colors/adultOutline}}. At {{human#/referenceCanvasPx}} use child outer/inner {{human#/strokes/child/outerPx}}/{{human#/strokes/child/innerPx}} px and adult {{human#/strokes/adult/outerPx}}/{{human#/strokes/adult/innerPx}} px. Cap {{human#/strokes/cap}}, join {{human#/strokes/join}}, opacity {{human#/strokes/opacity}}. Scale geometry and strokes together at export; do not vary stroke width by body size within each role. Preserve the scene-specific infant/toddler body type; never add toddler hair to an infant.",
+    "animal-style": "Animal contours: {{animal#/color}}; expression lines: {{animal#/expression_line_color}}; eyes/nose: {{animal#/eye_nose_fill}}; glasses: {{animal#/glasses_color}}. Outer/internal/detail {{animal#/outer}}/{{animal#/internal}}/{{animal#/detail}} px at {{animal#/basis/canvas}}. Cap {{animal#/caps}}, join {{animal#/joins}}, opacity {{animal#/opacity}}. {{animal#/basis/description}} Identifying colored accessories: outline {{animal#/filled_accessories/outline}}, internal lines {{animal#/filled_accessories/internal_lines}}; flat opaque fills.",
+    "mark": "Only animals carry the official U plus two dots. Color {{brand#/tokens/componentPrimaryBackground}}; opacity {{brand#/rules/uMark/opacity}}; outline {{brand#/rules/uMark/outline}}. Front: {{brand#/rules/uMark/front}}. Back: {{brand#/rules/uMark/back}}. Side: {{brand#/rules/uMark/side}}. Follow the garment plane and torso rotation; allow natural occlusion. Never move a hidden mark onto an arm, scarf or waist.",
+    "clothing": "Simplify CHILD clothing only: one neckline, one sleeve edge, single shirt and shorts hems; remove doubled cuffs, decorative seams and redundant wrinkles. Preserve essential limb overlaps and garment boundaries, head, hair and body geometry.",
+    "geometry": "Use the attached canonical turnaround for animal geometry only; use current JSON specifications for styling, never sample old line colors from reference images. Human reference images describe proportions, not a replacement pose.",
+    "scene-priority": "Visual priority: {{growth#/priority}}. Preserve the existing activity and the space between the child and animal."
+  },
+  "modes": {
+    "child-color": [
+      "preserve",
+      "child-color"
+    ],
+    "child-clothing-color": [
+      "preserve",
+      "child-color",
+      "clothing"
+    ],
+    "human-and-mark": [
+      "preserve",
+      "geometry",
+      "human-style",
+      "mark"
+    ],
+    "local-guideline": [
+      "preserve",
+      "geometry",
+      "human-style",
+      "animal-style",
+      "mark",
+      "scene-priority"
+    ],
+    "source-scoped": []
+  },
+  "policy": {
+    "version": 1,
+    "authority": [
+      "Current shared JSON specifications for styling and mark visibility",
+      "Explicit scene decisions based on applied review records for hair, props and background",
+      "Scene edit scope and preserved action/contact",
+      "Historical prompts: evidence only, never auto-applied"
+    ],
+    "instructions": [
+      "Unified policy: apply current shared styling only within the requested edit scope. A color-only edit does not authorize geometry, accessory, pose or background changes. Historical instructions do not override current scene decisions.",
+      "U visibility: show the official mark only on its actual visible garment panel; allow partial or full occlusion. Never turn a character, move a wing, expose a hidden chest, or relocate the mark to a sleeve, scarf or waist just to display it. Front: {{brand#/rules/uMark/front}}. Back: {{brand#/rules/uMark/back}}. Side: {{brand#/rules/uMark/side}}. Humans never carry the mark.",
+      "Hair follows the scene-specific adopted variant. Without a stated change, preserve the current hair, age/body type and clothing. A reference sheet must not give an infant toddler hair or change the action. Human face interiors stay blank; a small nose or open-mouth silhouette profile may convey an essential action without adding interior facial marks.",
+      "Background and props follow the explicit scene decisions. Keep adopted small decorations subdued and clear of hands, faces and activity. Add no unlisted decorations. Preserve functional props that carry the story; do not remove them merely to simplify the background.",
+      "Animal eyes, nose and glasses use {{animal#/eye_nose_fill}}; eyebrows, mouth and beak/expression lines use {{animal#/expression_line_color}}. Colored identifying accessories are flat opaque shapes without outlines or internal lines."
+    ]
+  }
+}

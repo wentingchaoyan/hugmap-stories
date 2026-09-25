@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "character": "mimo",
+  "note": "現行共通仕様を優先し、採用済みの場面状態と局所編集の範囲を維持する。過去の修正指示は履歴として保存し、自動合成しない。",
+  "defaults": {
+    "shared": "shared.json",
+    "history": "history/mimo.json",
+    "historyRecords": [
+      "mimo-u-mark-restoration-prompt.txt"
+    ],
+    "referenceImages": {
+      "animal": "../../style-studies/character-reference/assets/user-approved-turnaround.png",
+      "child": "../../style-studies/character-reference/assets/child-toddlers-simple-hair-v1.png",
+      "infant": "../../style-studies/character-reference/assets/child-baby-prone.png",
+      "adult": "../../style-studies/character-reference/assets/adult-standard-mixed-hair-v2.png"
+    },
+    "instructions": [],
+    "blocks": {
+      "profile-pretend-shop": "Edit scene image1 using reference2 TOP ROW MIMO ONLY as authoritative bird geometry: egg-shaped head narrower rounded crown fuller lower cheeks continuous curved silhouette, not circle or squared rear; slim single leaf crest, tiny beak, small eyes and visible eyebrows, white short sleeve tshirt separate from rounded belly, tapered feather wings NOT human mitten hands, short thin legs three toes no tail. Animal contour {{animal#/color}} eyes {{animal#/eye_nose_fill}}, collar flat {{brand#/tokens/componentPrimaryBackground}} WITHOUT any contour or internal line, visible U with two dots {{brand#/tokens/componentPrimaryBackground}} on upper viewer-right chest; visibility follows the shared mark policy. Ref2 old black outlines/logo are NOT color authority. Ref3 canonical toddler morphology: round head short neck plump limbs simple 2-3 white-filled short fringe curves tiny tuft, blank white face. Child {{human#/colors/childOutline}} thin uniform outline adult {{human#/colors/adultOutline}} thinner, white fills. Preserve meaningful gesture and facing direction rather than copying reference pose. Background clean warm near-white {{human#/colors/background}} faint short contact shadows only, remove halos heavy paper texture. Child primary, animal secondary. Square single scene no labels.",
+      "profile-one-word-more": "Edit image 1, preserving its square composition, all scene actions and hand contacts. Image 2 TOP ROW MIMO ONLY is the strict bird geometry reference (not its obsolete black colors). Match smooth convex egg head, slightly taller than wide, rounded narrower crown and broad round lower head, no cheek bumps/dents, single thin leaf crest, compact white shirt torso and short legs. Use warm brown {{animal#/color}} thin rounded contours ({{human#/strokes/child/outerPx}}px outer/{{human#/strokes/child/innerPx}}px inner at {{human#/referenceCanvasPx}} basis), small dark {{animal#/eye_nose_fill}} eyes. Eyebrows MUST remain readable: one in profile, two in front. Tiny white triangular/diamond beak with brown contour, no yellow fill. Orange {{brand#/tokens/componentPrimaryBackground}} collar flat fill with NO outlines or internal dividing strokes; orange U only on upper viewer-right chest if visible. Child silhouette white fill coral {{human#/colors/childOutline}} outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}}, adult white fill PALE {{human#/colors/adultOutline}} outer{{human#/strokes/adult/outerPx}} inner{{human#/strokes/adult/innerPx}}. Faceless people, toddler minimal white-filled short fringe and tiny crown rise, adult simple white-filled hair. Child first in visual priority, bird second, background quiet warm ivory {{human#/colors/background}}, short pale contact shadows, no halo or hatching. No text.",
+      "profile-aac-one-word": "Precise Hugmap illustration correction. Image1 scene edit target. Image2 original authoritative turnaround: use ONLY MIMO first row, FRONT and SIDE head/body geometry. Match smooth continuously convex egg-shaped head, narrower rounded crown, width/height122/133 front; NO cheek bulges, side indents or bell shape. Small slim crest, small dark brown oval eyes, tiny beak. Bird outline {{animal#/color}} eyes{{animal#/eye_nose_fill}}. Compact short shirt torso, short legs, rounded wings. Orange collar {{brand#/tokens/componentPrimaryBackground}} solid fill NO outer or internal stroke, U {{brand#/tokens/componentPrimaryBackground}} upper viewer-right chest only where visible (not forced on side). Child outline muted {{human#/colors/childOutline}}, adult pale {{human#/colors/adultOutline}}. Outer child{{human#/strokes/child/outerPx}}/adult{{human#/strokes/adult/outerPx}}px relative reference{{human#/referenceCanvasPx}}; inner{{human#/strokes/child/innerPx}}/{{human#/strokes/adult/innerPx}}; do not intensify existing pale human colors. White fills, ivory background, short pale shadows. Preserve composition, human poses and hand-object contact. No face features for humans. Child most important, bird second. No extra objects or text. Single square scene.",
+      "profile-child-leads-imitation": "Edit image1 Hugmap scene. Image2 authoritative model sheet ONLY TOP ROW MIMO original front/side geometry. Match smooth convex egg head narrower crown, no cheek bulges or indentations, small eyes and tiny diamond beak, slim short crest. Preserve bird pose but correct head/body proportions using original model. All bird contour warm {{animal#/color}}, eyes {{animal#/eye_nose_fill}}. Orange collar {{brand#/tokens/componentPrimaryBackground}} flat no outlines or inner lines; U same orange on upper viewer-right chest if visible. Preserve humans pose, hands, objects and layout; tiny simple white-filled short hair fringe on toddler, simple short hair on adult if present. Human child outline {{human#/colors/childOutline}}, adult paler {{human#/colors/adultOutline}}; child outer{{human#/strokes/child/outerPx}}/inner{{human#/strokes/child/innerPx}} adult outer{{human#/strokes/adult/outerPx}}/inner{{human#/strokes/adult/innerPx}} at{{human#/referenceCanvasPx}} baseline. Do not saturate human lines. White fills, opaque ivory background no transparency, no halo or paper noise. Child action priority, bird secondary. One square scene, no labels.",
+      "profile-pretend-cooking": "Edit image1 with image2 TOP ROW MIMO as mandatory geometry reference. Preserve scene meaning, human pose and all hand/object contacts. Bird must have smooth vertically egg-shaped head, gently narrower crown, continuously curved back and round lower head, no straight rear wall or cheek notch; small eye and visible delicate eyebrow, single slim leaf crest. White short-sleeved T-SHIRT with distinct sleeve cuffs, curved hem, separate round lower belly. Tapered feather wings with tiny feather lobes, not human hands or oval mittens. Short thin legs with three toes. No tail. Warm {{animal#/color}} fine outlines, {{animal#/eye_nose_fill}} small eyes. Orange {{brand#/tokens/componentPrimaryBackground}} collar flat fill, NO border/internal strokes. KEEP visible small orange rounded U with TWO dots on upper visible chest beside sleeve, never erase logo. Child white fill, flat muted coral {{human#/colors/childOutline}} outlines, no face inside, minimal simple white-filled short fringe (keep infant bald if originally bald). Background warm ivory even light, remove orange halo and floor hatching, subtle short contact shadows. No new objects.",
+      "profile-three-photo-story": "References: image1 target scene; image2 TOP ROW MIMO only exact bird model; image3 toddler morphology reference. Preserve scene action and framing. Mimo head smooth egg shape122:133, no cheeks, narrow leaf crest, low small eye + eyebrow, tiny triangular side beak, short oval wings with tiny tip notches not long feathers, short-sleeve white shirt curved hem distinct lower belly, short thin legs3toes no tail. Head height similar collar-to-belly height. Animal outline {{animal#/color}}, face {{animal#/eye_nose_fill}}. Scarf flat {{brand#/tokens/componentPrimaryBackground}} no outline, small orange U with2dots on viewer-right upper chest. Child blank white silhouette round head small ear short neck, scene-adopted simple white hair curves like reference, plump limbs simple hands, contour {{human#/colors/childOutline}} outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}}. Adult contour {{human#/colors/adultOutline}} outer{{human#/strokes/adult/outerPx}} inner{{human#/strokes/adult/innerPx}}. Clean nearwhite background no halos grain or floorhatching. Full square opaque output.",
+      "profile-doctor-pretend": "Edit scene image1 using ONLY MIMO first row of authoritative turnaround image2 as bird geometry. Preserve scene and contact relationships. Mimo smooth convex upright egg head, front width122 height133, narrow round crown and round lower head; no cheek bump/indent/bell shape. Small oval eyes, small beak, slim small crest, compact body. Warm brown contours {{animal#/color}}, eyes {{animal#/eye_nose_fill}}. Solid flat orange {{brand#/tokens/componentPrimaryBackground}} collar with NO outline/internal strokes, U same color on upper viewer-right chest when visible. Humans white faceless fill, simple short fringe hair, child muted coral {{human#/colors/childOutline}} outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}}; adult pale {{human#/colors/adultOutline}} outer{{human#/strokes/adult/outerPx}} inner{{human#/strokes/adult/innerPx}} at reference{{human#/referenceCanvasPx}}. Preserve pale line hierarchy, rounded ends. Opaque ivory background, short soft contact shadows, no transparent cutout, no halo, no extra objects or words. Child main subject. Square canvas.",
+      "profile-freeze-notice": "Precise edit image1 Hugmap scene with original MIMO top row of image2 as authoritative geometry. Only bird from that row, ignore other characters. Smooth continuously convex egg head, narrow rounded crown and round lower head, front width122 height133, no cheek protrusion or indent, small oval eyes, tiny beak, slim small leaf crest. Preserve pose and gaze without warping skull. Compact torso and wings, short thin legs. Warm contour {{animal#/color}}, eyes{{animal#/eye_nose_fill}}. Collar flat {{brand#/tokens/componentPrimaryBackground}} no outlines or internal strokes; U same color at upper viewer-right chest if visible. Child outline muted {{human#/colors/childOutline}}, white fill, no facial features. Child outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}}px at{{human#/referenceCanvasPx}} scale consistently, no saturated orange outlines. Opaque warm ivory background, short pale contact shadows, no paper grain/halo/transparency. Preserve all action and hand/foot contact, exact layout. One square scene.",
+      "profile-relationship-frame-deep-breath": "Image1 target. Image2 TOP ROW MIMO model only; image3 toddler simple-hair morphology; image4 adult geometry/hair. POSES MUST STAY as original, keep all gestures/contact/positions. Child blank white face round head small ear short neck simple2 broad fringe curves plump toddler limbs. Child lines muted {{human#/colors/childOutline}}. Adult blank white face simple hair, PALE {{human#/colors/adultOutline}} lines distinctly lighter than child. Mimo smooth egg perimeter no cheek bumps, slim leaf crest, small eye+eyebrow, short oval wings not human fingers, short legs3toes, model head/body ratio. White tshirt with explicit sleeve boundaries and curved hem separating lower belly. Warmbrown {{animal#/color}} outline, face {{animal#/eye_nose_fill}}; flat orange {{brand#/tokens/componentPrimaryBackground}} scarf NO border, small U with2dots upper viewer-right chest. Preserve original bird pose. Clean SOLID OPAQUE nearwhite background, no transparency black halos or texture; short soft ground shadows. Full square scene.",
+      "profile-voice-pingpong": "IMAGE1 target scene, IMAGE2 TOP ROW MIMO three-view geometry authority, IMAGE3 toddler head/hair/body reference. Preserve original POSES gestures positions framing and narrative, no new pose. Bird smooth egg head no cheek lobes width:height122:133, slim leaf crest, short oval wings with tiny tip notches, short white tshirt with visible sleeves AND curved hem separating lower white belly, short thin legs3toes no tail. Match head/body model proportions. Outline {{animal#/color}} face {{animal#/eye_nose_fill}}, flat solid orange {{brand#/tokens/componentPrimaryBackground}} scarf no borders/internal lines, small orange U with2dots upper viewer-right chest. Child white blank face round head small ear simple2-3 large hair curves short neck plump limbs, child line {{human#/colors/childOutline}} smooth round ends. No facial details except silhouette profile when needed. Nearwhite opaque background remove halo/grain/hatching. Full square scene."
+    }
+  },
+  "scenes": {
+    "aac-one-word": {
+      "title": "ひとつ選んで、届いた",
+      "image": "../mimo-frame-aac-one-word.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-aac-one-word"
+      ],
+      "instructions": [
+        "Scene AAC: preserve six-card board exactly (cookie,bear,cup,car,banana,bubbles), child finger pointing COOKIE and adult handing matching cookie. Preserve adult bob hair and kneeling, add only tiny simple short fringe to toddler's bald head. Preserve four communication dots but soften their saturation. Main change bird at right: keep wing near beak and looking toward child, use original model egg head and compact body without facial asymmetry. Keep bird same scale and location."
+      ],
+      "sourcePrompt": "aac-one-word-edit-prompt.txt",
+      "history": [
+        "aac-one-word-edit-prompt.txt",
+        "aac-one-word-human-shape-prompt.txt"
+      ]
+    },
+    "body-parts-song": {
+      "title": "頭、肩、ひざ、ポン",
+      "image": "../mimo-frame-body-parts-song.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-aac-one-word"
+      ],
+      "instructions": [
+        "Scene body-parts song: preserve child kneeling center with BOTH hands touching own head, adult kneeling left with fingers pointing own shoulders, bird right with wing touching its own head imitating child. These different gestures are intentional, do not change. Add simple short hair fringe to adult and child without disrupting hand-head contact. Bird uses the SIDE head shape in top row of model reference looking left at child, single small eye, small projecting triangular beak; keep smooth original head silhouette and correct compact head/body proportions. Keep hands and wings making same gestures. IMPORTANT export as a fully OPAQUE illustration with solid warm ivory {{human#/colors/background}} backdrop. Absolutely no transparency or alpha cutout, no background removal. Keep entire square canvas filled."
+      ],
+      "sourcePrompt": "body-parts-song-edit-prompt.txt",
+      "history": [
+        "body-parts-song-edit-prompt.txt"
+      ]
+    },
+    "bubble-play": {
+      "title": "ふわふわ、どこまで",
+      "image": "../mimo-frame-bubble-play.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-aac-one-word"
+      ],
+      "instructions": [
+        "Scene bubble play: preserve kneeling child left blowing through bubble wand held at mouth and holding solution bottle in other hand; all bubbles positions/count remain. Add only simple short toddler fringe. Bird at right looking LEFT and toward nearby bubble, wing extended in reaction. Use exact SIDE-view Mimo head from model row1, no round bloated cheek, small triangular beak, small vertical oval eye, slim crest and compact body. Do not remove tools or bubbles. Background must be OPAQUE solid warm ivory, NOT transparent, no alpha cutout, no black."
+      ],
+      "sourcePrompt": "bubble-play-edit-prompt.txt",
+      "history": [
+        "bubble-play-edit-prompt.txt"
+      ]
+    },
+    "child-leads-imitation": {
+      "title": "そのかたち、かえすよ",
+      "image": "../mimo-frame-child-leads-imitation.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-child-leads-imitation"
+      ],
+      "instructions": [
+        "Keep child's lifted arm, sideways arm, lifted knee and bird imitating same pose. Preserve gesture directions and balance. Reduce long orange dotted connection to three small subdued pale orange dots, keep reaction marks subtle warm brown. Bird look toward child on left via eyes without distorting egg head."
+      ],
+      "sourcePrompt": "child-leads-imitation-edit-prompt.txt",
+      "history": [
+        "child-leads-imitation-edit-prompt.txt",
+        "child-leads-imitation-human-shape-prompt.txt"
+      ]
+    },
+    "choice-response": {
+      "title": "こっちにする、が届いた",
+      "image": "../mimo-frame-choice-response.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-child-leads-imitation"
+      ],
+      "instructions": [
+        "Scene choice-response. Preserve child kneeling left pointing to BOOK, adult kneeling right offering open book in upper palm and ball in lower palm. Keep hand-object contacts and clear two-choice arrangement exactly. Preserve short dotted pointing cue. Add simple minimal short fringe to child and adult. Main correction bird at lower right: use original front Mimo egg head, same small scale, keep wing extended indicating child's choice. Look toward child subtly using facial placement, do not warp skull."
+      ],
+      "sourcePrompt": "choice-response-edit-prompt.txt",
+      "history": [
+        "choice-response-edit-prompt.txt"
+      ]
+    },
+    "choice-with-reason": {
+      "title": "これがいい、だってね",
+      "image": "../mimo-frame-choice-with-reason.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-child-leads-imitation"
+      ],
+      "instructions": [
+        "Scene choice-with-reason: preserve center child pointing at top-left coral circle card, other hand on table, attentive adult right leaning in hand resting table; four cards exactly original (two coral circles left, running person tree sun upper-right, house blocks bottom-right). Preserve finger-card contact. Add minimal simple toddler fringe and short adult hair, no faces. Bird left keep thoughtful wing at beak, canonical smooth egg skull and small eyes looking toward child on right using face placement, same bird position/size. Lighten table fill to very pale warm cream wood without texture so it doesn't dominate; preserve table shape/edges. Do not alter card colors/content, no new symbols."
+      ],
+      "sourcePrompt": "choice-with-reason-edit-prompt.txt",
+      "history": [
+        "choice-with-reason-edit-prompt.txt"
+      ]
+    },
+    "doctor-pretend": {
+      "title": "もしもし、どこがいたい？",
+      "image": "../mimo-frame-doctor-pretend.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-doctor-pretend"
+      ],
+      "instructions": [
+        "Doctor pretend: preserve child's kneeling pose, stethoscope earpiece at ear, tube and chestpiece HELD BY CHILD AGAINST BIRD'S CHEST. Bird seated feet forward and wings relaxed. Correct bird head to model front geometry and compact seated body, do not stand it up. Keep all medical play tools, no additions. Add toddler simple small fringe without altering stethoscope contact."
+      ],
+      "sourcePrompt": "doctor-pretend-edit-prompt.txt",
+      "history": [
+        "doctor-pretend-edit-prompt.txt"
+      ]
+    },
+    "emotion-expression": {
+      "title": "顔に、気持ちがあらわれた",
+      "image": "../mimo-frame-emotion-expression.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-doctor-pretend"
+      ],
+      "instructions": [
+        "Emotion-expression scene: retain three bird-head expression examples across top, happy left (closed smiling eyes), sad middle (worried brows), angry right (angled brows); all three have IDENTICAL original Mimo model front skull and crest silhouette/scale, only facial expression changes. Lower bird sympathetically worried with wing to own chest looking toward child at left; preserve slight head tilt but same skull geometry rotated not deformed. Child's two hands against chest remain; add minimal fringe. Keep all eyebrows and expressive beaks, no expression removal. Do not add human facial details. Keep layout."
+      ],
+      "sourcePrompt": "emotion-expression-edit-prompt.txt",
+      "history": [
+        "emotion-expression-edit-prompt.txt"
+      ]
+    },
+    "experience-feeling": {
+      "title": "あのときの気持ちも、いっしょに",
+      "image": "../mimo-frame-experience-feeling.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-doctor-pretend"
+      ],
+      "instructions": [
+        "Experience-feeling scene: preserve child pointing at outing photo with one hand holding happy yellow emotion card in other; supportive adult beside child, bird standing on table right with one wing open one wing at chest listening to child. Keep photo scene adult and child at park railing facing water, keep happy and sad cards on table. Add small simple toddler fringe and minimal adult short hair. Bird uses exact SIDE head silhouette from model row1 looking left, one small eye, no cheek bulge. Lighten table wood to pale cream flat surface, simplify photo background detail only slightly WITHOUT changing people/railing/water/tree. Maintain all pointing/holding contacts and card count."
+      ],
+      "sourcePrompt": "experience-feeling-edit-prompt.txt",
+      "history": [
+        "experience-feeling-edit-prompt.txt"
+      ]
+    },
+    "freeze-notice": {
+      "title": "止まる合図で、ぴたっ",
+      "image": "../mimo-frame-freeze-notice.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-freeze-notice"
+      ],
+      "instructions": [
+        "Freeze notice: child and bird each pause with one leg raised, preserve side-facing bird and spread wings and child's bent arms. Add tiny simple toddler fringe. Keep central pause symbol but smaller/paler, still legible. Use model SIDE bird head, not circle or cheek. Do not change stopped motion to walking."
+      ],
+      "sourcePrompt": "freeze-notice-edit-prompt.txt",
+      "history": [
+        "freeze-notice-edit-prompt.txt",
+        "freeze-notice-expression-prompt.txt",
+        "freeze-notice-human-shape-prompt.txt"
+      ]
+    },
+    "hidden-find": {
+      "title": "めくった先に、いた",
+      "image": "../mimo-frame-hidden-find.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-freeze-notice"
+      ],
+      "instructions": [
+        "Hidden find: preserve infant's current bald head (do NOT add hair or clothing), kneeling pose and hand firmly gripping raised corner of cloth. Preserve large cloth tent covering right area, small bird revealed beneath and its current small scale. Correct bird to original model head and compact body, keep gentle wings near sides. Collar no outline, logo on upper viewer-right chest without crossing seam. Remove all peach halo and textured floor, simplify cloth to pale ivory taupe with few clear fold lines, no photoreal shadows. Keep cloth hand connection and reveal space intact."
+      ],
+      "sourcePrompt": "hidden-find-edit-prompt.txt",
+      "history": [
+        "hidden-find-edit-prompt.txt",
+        "hidden-find-expression-prompt.txt",
+        "hidden-find-smile-prompt.txt"
+      ]
+    },
+    "imitation-arms-up": {
+      "title": "おなじポーズ、できた",
+      "image": "../mimo-frame-imitation-arms-up.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-freeze-notice"
+      ],
+      "instructions": [
+        "Arms-up imitation scene: keep child's both raised arms and bird's BOTH raised wings exactly. Child add two tiny coral fringe lines. Bird looks up-left in strict SIDE PROFILE as original target: ONE visible small eye safely inside head, not two eyes, small triangular beak projecting left. Use side head geometry of model top row rigidly tilted upward slightly. Never put eye on outline. Preserve layout, size, two orange reaction marks, white tee, original side knot, feet.\n\nFinal local correction:\nMinimal localized edit. Remove ONLY the two coral floating dashes above right of child's head. Add two simple short curved coral fringe hair lines INSIDE upper forehead near crown, not floating outside skull. Preserve exact head outer contour and faceless white child. Keep every other detail unchanged especially entire bird, bird single eye, tilted head, beak, raised wings, orange two reaction rays above BIRD, body pose, palette and layout. Do not recolor or redraw anything else."
+      ],
+      "sourcePrompt": "imitation-arms-up-edit-prompt.txt",
+      "history": [
+        "imitation-arms-up-edit-prompt.txt",
+        "imitation-arms-up-expression-prompt.txt",
+        "imitation-arms-up-human-shape-prompt.txt"
+      ]
+    },
+    "noticing-letters": {
+      "title": "見つけた文字を、いっしょに",
+      "image": "../mimo-frame-noticing-letters.png",
+      "mode": "source-scoped",
+      "blocks": [],
+      "instructions": [
+        "Edit image 1, the square Hugmap noticing-letters scene. Image 2 is geometry reference ONLY: use ONLY the first row bird MIMO, ignore other animals and old black colors. Image 3 is toddler simple hair reference ONLY, not pose or colors.\nPreserve image 1 composition: large faceless white toddler kneeling at left, holding tilted card with one hand and pointing at it with the other, exact text \"あ a\", little bird at lower right looking UP toward card with wing near cheek. Keep hand/card contacts and quiet generous upper whitespace. No new objects.\nCorrect toddler hair: smooth round skull with tiny crown rise and 2 simple short fringe curves inspired by image3, not shaggy multi-tuft edge. White fill, no face features, soft coral {{human#/colors/childOutline}} smooth rounded contour. Preserve kneeling body and clothing.\nCorrect Mimo identity to row1 image2: compact pear/egg head, slightly narrower top, one slender leaf-shaped crest, compact short torso in white short-sleeve tee, small rounded wings with subtle feather tips, short thin legs and 3 toes. Adapt model to the tilted upward gaze; do not paste a front-facing standing model. Smaller than child, supporting role. All animal contour lines warm brown {{animal#/color}}, eye {{animal#/eye_nose_fill}}, no black. Simple thin consistent curves, not fuzzy sketching. Orange {{brand#/tokens/componentPrimaryBackground}} two-lobed collar with side tie, flat colored shape, absolutely no outline or internal stroke. Small orange {{brand#/tokens/componentPrimaryBackground}} U-shaped mark with two dots above uprights on upper viewer-right chest (character left chest), not belly or center.\nRemove peach head halo and background paper noise completely. Background even warm ivory {{human#/colors/background}}. White body fills, minimal pale short contact shadows below knee/feet only. Gentle illustrated line-art feel, no glossy highlights or 3D shading. Keep three small orange attention ticks at card. Child action strongest, bird second, background quiet. One square finished scene only, no comparison labels or panels."
+      ],
+      "sourcePrompt": "noticing-letters-edit-prompt.txt",
+      "history": [
+        "noticing-letters-edit-prompt.txt"
+      ]
+    },
+    "one-word-more": {
+      "title": "もういちど、が届いた",
+      "image": "../mimo-frame-one-word-more.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-one-word-more"
+      ],
+      "instructions": [
+        "Preserve image1 scene and scale, do not import other characters or reference-sheet labels.\nSpecific scene: child kneeling left pointing to the orange cue by adult's bubble wand. Adult kneeling right, retain bob hairstyle and bottle and wand and exact pointing/holding contacts. Simplify child's spiky hair into subtle short fringe. Mimo far right looks LEFT toward child, wing near beak in attentive listening, one delicate lifted eyebrow above its small open eye. Shorten oversized torso to canonical compact proportions. Soften sparse peripheral plants and replace scratched floor shadows with faint short flat shadows."
+      ],
+      "sourcePrompt": "one-word-more-edit-prompt.txt",
+      "history": [
+        "one-word-more-edit-prompt.txt",
+        "one-word-more-geometry-prompt.txt",
+        "one-word-more-head-color-prompt.txt",
+        "one-word-more-human-shape-prompt.txt",
+        "one-word-more-scene-expression-prompt.txt"
+      ]
+    },
+    "parent-child-pretend-meal": {
+      "title": "いっしょに、ごはんを並べよう",
+      "image": "../mimo-frame-parent-child-pretend-meal.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-one-word-more"
+      ],
+      "instructions": [
+        "Preserve image1 scene and scale, do not import other characters or reference-sheet labels.\nSpecific scene: pretend meal on low oval table. Keep child's hand holding broccoli and adult hand holding orange slice over compartment tray, all toy foods and their locations. Add simple short white-filled hair to adult, subtle toddler fringe. Mimo leaning toward the food looks down-left with SMALL open eye and a distinct delicate eyebrow expressing interest. Keep canonical smooth egg head rotated downward, not a sphere. Keep beak white outlined brown. Reduce table wood texture and floor scratch shading, remove peach halo behind child. Food and table subordinate to child."
+      ],
+      "sourcePrompt": "parent-child-pretend-meal-edit-prompt.txt",
+      "history": [
+        "parent-child-pretend-meal-edit-prompt.txt",
+        "parent-child-pretend-meal-geometry-prompt.txt",
+        "parent-child-pretend-meal-scene-expression-prompt.txt"
+      ]
+    },
+    "peace-sign": {
+      "title": "ふたつの指、ふたつの羽",
+      "image": "../mimo-frame-peace-sign.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-one-word-more"
+      ],
+      "instructions": [
+        "Preserve image1 scene and scale, do not import other characters or reference-sheet labels.\nSpecific scene: preserve child's V-sign fingers exactly, standing pose and clothing. Add tiny simple white-filled toddler fringe. Preserve bird's tilted playful one-foot-up imitation with both wings lifted. Head must remain reference egg geometry rotated intact; TWO subtle eyebrows and TWO SMALL OPEN oval eyes looking toward child, do not draw exaggerated laughing eyes. Brown lines thinner than original black ones. Keep ivory empty background and subtle short shadows. Keep orange collar entirely flat with no border."
+      ],
+      "sourcePrompt": "peace-sign-edit-prompt.txt",
+      "history": [
+        "peace-sign-edit-prompt.txt",
+        "peace-sign-hair-edit-prompt.txt",
+        "peace-sign-human-shape-prompt.txt"
+      ]
+    },
+    "pretend-cooking": {
+      "title": "できたよ、ひとくちどうぞ",
+      "image": "../mimo-frame-pretend-cooking.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-pretend-cooking"
+      ],
+      "instructions": [
+        "Full square scene.\nCooking scene: preserve child offering plate while stirring pot, all food. Mimo leans toward offered plate with small open interested eye looking at plate, one raised delicate eyebrow, beak slightly open in delighted acknowledgement. Compact torso restored, visible near feather wing lightly held at chest, far wing relaxed; shirt sleeve and hem clear. Preserve scene character size. Remove yellow exclamation rays so expression carries response. Simplify spiky child hair."
+      ],
+      "sourcePrompt": "pretend-cooking-edit-prompt.txt",
+      "history": [
+        "pretend-cooking-child-shape-prompt.txt",
+        "pretend-cooking-edit-prompt.txt",
+        "pretend-cooking-face-direction-prompt.txt"
+      ]
+    },
+    "pretend-feeding": {
+      "title": "ひとくち、どうぞ",
+      "image": "../mimo-frame-pretend-feeding.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-pretend-cooking"
+      ],
+      "instructions": [
+        "Full square scene.\nFeeding pretend scene: preserve bald infant sitting left, bowl and spoon exactly, keep spoon-to-beak distance. Mimo remains SEATED on floor with rounded lower belly resting near floor, short feet forward, not standing. Gently lean toward spoon and look at spoon with small OPEN eye and one fine eyebrow, slightly open beak anticipating pretend bite. Preserve skull geometry while tilting only slightly up. Rest feather wings relaxed beside body with clear short sleeve cuffs. Enlarge existing tiny U+two dots just enough to be readable on upper chest; do not lose it. Remove orange glow behind infant and floating orange motion arc between spoon and bird, keep background simple. Infant silhouette stays bald and faceless."
+      ],
+      "sourcePrompt": "pretend-feeding-edit-prompt.txt",
+      "history": [
+        "pretend-feeding-child-shape-prompt.txt",
+        "pretend-feeding-edit-prompt.txt"
+      ]
+    },
+    "pretend-phone": {
+      "title": "もしもし、きこえる？",
+      "image": "../mimo-frame-pretend-phone.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-pretend-cooking"
+      ],
+      "instructions": [
+        "Full square scene.\nTelephone pretend scene: child standing left holds toy handset by face, preserve hand/receiver contact. Mimo stands right, one feather wing beside head mimicking listening to telephone, faces up-left toward child with SMALL OPEN eye and clearly visible gently raised eyebrow, slightly open tiny white beak as replying. Keep head egg shape like reference rotated intact, not a sphere; shorten overly long legs slightly. Keep existing orange U+2 dots visible. Collar entirely flat with NO darker edges. Remove orange halo, yellow surprise rays and floor hatching. Retain a short sparse gently curved dotted communication line from handset toward Mimo with fewer smaller pale peach dots, not dominant. Simplify child's hair to tiny crown rise and two short white-filled fringe curves, no spiky full hair."
+      ],
+      "sourcePrompt": "pretend-phone-edit-prompt.txt",
+      "history": [
+        "pretend-phone-child-shape-prompt.txt",
+        "pretend-phone-edit-prompt.txt"
+      ]
+    },
+    "pretend-shop": {
+      "title": "これ、ください",
+      "image": "../mimo-frame-pretend-shop.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-pretend-shop"
+      ],
+      "instructions": [
+        "SHOP: keep kneeling child left facing adult right, holding shopping bag by handles and supporting its base. Preserve bag contacts and adult two open receiving hands. Use ref4 top-right kneeling adult bob anatomy with simple bob hair facing down-left toward child/bag, readable shirt hem and folded legs, no unnecessary garment lines. Preserve table and three toy shapes but simplify wood texture. Bird far right looking toward exchange with attentive small eyes and eyebrows, one wing gently extended toward bag other relaxed, proportions exactly reference2. No added props."
+      ],
+      "sourcePrompt": "pretend-shop-edit-prompt.txt",
+      "history": [
+        "pretend-shop-edit-prompt.txt",
+        "pretend-shop-shirt-repair-prompt.txt"
+      ]
+    },
+    "refusal-boundary": {
+      "title": "いらない、も届いている",
+      "image": "../mimo-frame-refusal-boundary.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-pretend-shop"
+      ],
+      "instructions": [
+        "REFUSAL: preserve kneeling child profile facing LEFT toward teddy, BOTH open palms pushing outward expressing no, preserve space between hands and toy, adult hand offering teddy entering left edge. Child hair model adapted to LEFT profile, round toddler cheeks short neck and plump arms, simple mitten palms retaining refusal gesture not fists. Bird standing right watches child with gently concerned attentive brows, small eyes looking LEFT, relaxed down wings, not cheerful/not distressed. Preserve shirt sleeves hem and separate belly EXACTLY as reference2 front model, U visible. Remove purple marks around bird; reduce marks near child's palms to two tiny muted peach strokes. Child is primary."
+      ],
+      "sourcePrompt": "refusal-boundary-edit-prompt.txt",
+      "history": [
+        "refusal-boundary-edit-prompt.txt"
+      ]
+    },
+    "request-sign": {
+      "title": "ちょうだい、と手で伝える",
+      "image": "../mimo-frame-request-sign.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-pretend-shop"
+      ],
+      "instructions": [
+        "REQUEST SIGN: preserve child sitting crosslegged LEFT facing RIGHT toward bird, BOTH hands extended palms-up as request sign, head must face bird not viewer. Add simple short hair adapted to right profile and full rounded cheeks/short neck from toddler model; white tshirt/shorts minimal boundaries, plump forearms bare feet. Bird right faces LEFT toward child, attentive small profile eye and eyebrow. Rebuild head from reference2 side view, rounded continuous rear contour, short compact body and legs. Bring feather wings gently together in front at chest level responding to request, allow wings to naturally occlude the U on its correct upper chest panel; do not reposition wings to expose the mark. Distinct short sleeve and curved shirt hem above separate belly. No extra objects or effects."
+      ],
+      "sourcePrompt": "request-sign-edit-prompt.txt",
+      "history": [
+        "request-sign-edit-prompt.txt"
+      ]
+    },
+    "rhythm-copy": {
+      "title": "同じリズム、かえってきた",
+      "image": "../mimo-frame-rhythm-copy.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-pretend-shop"
+      ],
+      "instructions": [
+        "RHYTHM: child left seated kneeling playing drum with both hands, preserve palm/drum contact and head facing right/down at drum, not front. Simplify shaggy broken hair to canonical toddler fringe, readable folded knees and tshirt/shorts. Bird right joyfully imitates rhythm, wings together clapping with tapered feather tips, one foot lifted. Keep canonical egg-shaped head geometry tilted toward child, SMALL smiling shallow arc eye and visible eyebrow, NOT large closed-eye arches; compact torso with explicit sleeve cuffs and curved shirt hem separate from belly; U visible only where its correct garment panel is exposed. Remove glowing halo and floor hatching and purple accents, keep only two tiny muted ochre rhythm strokes. Drum design and scene layout retained."
+      ],
+      "sourcePrompt": "rhythm-copy-edit-prompt.txt",
+      "history": [
+        "rhythm-copy-edit-prompt.txt",
+        "rhythm-copy-final-repair-prompt.txt"
+      ]
+    },
+    "routine-shoe-message": {
+      "title": "くつを持って、玄関へ",
+      "image": "../mimo-frame-routine-shoe-message.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-pretend-shop"
+      ],
+      "instructions": [
+        "SHOE MESSAGE: preserve child walking from left toward kneeling adult right and handing shoe with both hands, second shoe on floor. Child must look RIGHT at adult, canonical toddler head/body with simple short hair, plump limbs white tshirt/shorts with minimal hems and bare feet, no detailed fingers. Adult faces left toward child, canonical kneeling posture from ref4 top right with short simple hair instead of bald, shirt and trousers simple readable boundaries. Adult lines clearly PALE {{human#/colors/adultOutline}} compared with child {{human#/colors/childOutline}}. Bird far right facing child, short wings one raised encouragingly, tiny smiling eye arcs and visible brows, exact Mimo head/crest/body and short legs. Explicit short sleeves and curved shirt hem, visible U. Flat solid orange collar no edge or shading. Remove halos and all floor hatching, retain shoes/hand contacts and sparse nearwhite background."
+      ],
+      "sourcePrompt": "routine-shoe-message-edit-prompt.txt",
+      "history": [
+        "routine-shoe-message-edit-prompt.txt",
+        "routine-shoe-message-front-reference-prompt.txt",
+        "routine-shoe-message-head-contour-prompt.txt",
+        "routine-shoe-message-head-lock-prompt.txt",
+        "routine-shoe-message-human-color-restore-prompt.txt"
+      ]
+    },
+    "shared-pointing": {
+      "title": "みつけたものを、いっしょに",
+      "image": "../mimo-frame-shared-pointing.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-pretend-shop"
+      ],
+      "instructions": [
+        "SHARED POINTING: retain exact scene child standing left raising one pointing index finger toward orange dot TOP LEFT, head tilted UP LEFT toward SAME dot; bird right looks UP LEFT at SAME dot and raises wing. Add toddler simple white-filled fringe adapted to this upward left profile, preserve head orientation not frontal. Rounded plump calves continuous with bare feet, remove ankle/shoe seams, simple pointing hand with only index distinct. Bird head must use canonical side egg shape ROTATED upward without warping, small eye visible eyebrow slim leaf crest, shorter legs and tapered feather wing. Explicit tshirt short sleeves and curved hem, U mark. Collar must be canonical two/three rounded front lobes plus small rear knot flat {{brand#/tokens/componentPrimaryBackground}} unoutlined. REMOVE long diagonal dashed line crossing heads; keep orange target dot and at most a short faint segment near target, attention conveyed by pose. No other changes."
+      ],
+      "sourcePrompt": "shared-pointing-edit-prompt.txt",
+      "history": [
+        "shared-pointing-edit-prompt.txt",
+        "shared-pointing-head-repair-prompt.txt"
+      ]
+    },
+    "shared-reading": {
+      "title": "絵本を見ながら、ことばを行き来",
+      "image": "../mimo-frame-shared-reading.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-pretend-shop"
+      ],
+      "instructions": [
+        "SHARED READING: maintain exact kneeling child left and seated adult right holding open book in lap. Child points to SAME spot on left page, both heads face DOWN toward book, preserve hand/page contact. Add short toddler fringe adapted to downward right profile, full round head and plump arms, white tshirt shorts readable kneeling legs. Adult short simple hair, canonical adult seated anatomy from ref4, simple white shirt trousers boundaries, pale {{human#/colors/adultOutline}} clearly lighter than child. Bird right attentive head toward book, short wings one indicating book, exact Mimo egg head and compact body. Explicit tshirt sleeve cuffs and curved hem separating belly, orange U on upper viewer-right chest and unoutlined flat collar. Remove dotted sight lines and all ground hatching, keep only 2 small pale plants at edges and short contact shadows. OPAQUE nearwhite background and pure white human fills, no transparency."
+      ],
+      "sourcePrompt": "shared-reading-edit-prompt.txt",
+      "history": [
+        "shared-reading-edit-prompt.txt",
+        "shared-reading-mimo-geometry-prompt.txt",
+        "shared-reading-mimo-model-lock-prompt.txt"
+      ]
+    },
+    "show-and-receive": {
+      "title": "「みて」を受け取る",
+      "image": "../mimo-frame-show-and-receive.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-pretend-shop"
+      ],
+      "instructions": [
+        "SHOW AND RECEIVE: keep child standing left in right-facing profile, holding yellow star in both hands toward bird on right. Child round model head short neck simple white fringe, eyes absent, face oriented toward bird/star NOT viewer. Plump calves and bare rounded feet with no shoe seams, white tshirt/shorts single minimal boundaries. Bird listens with small bright eyes and visible eyebrows, faces LEFT at star, both feather wings open ready to receive, a gentle leaning pose without deforming head. Exact canonical Mimo egg head proportions, short compact torso with shirt sleeves and curved shirt hem separating rounded belly. U/two dots on the upper viewer-right chest only to the extent that this garment panel is visible. Collar flat orange no outline. Remove big orange arcs around star. Keep star and hand contact unchanged. Opaque warm white background, no glow no transparency."
+      ],
+      "sourcePrompt": "show-and-receive-edit-prompt.txt",
+      "history": [
+        "show-and-receive-edit-prompt.txt",
+        "show-and-receive-mimo-geometry-prompt.txt",
+        "show-and-receive-mimo-model-lock-prompt.txt",
+        "show-and-receive-mimo-wing-lock-prompt.txt",
+        "show-and-receive-model-color-prompt.txt",
+        "show-and-receive-proportion-lock-prompt.txt"
+      ],
+      "decisions": {
+        "view": "Use Mimo’s canonical true left side view, one small eye and eyebrow, facing the offered star. Preserve the overall bounding area and two wings reaching gently to receive it. Allow the chest mark to be occluded; never rotate the torso to display it."
+      },
+      "decisionSources": [
+        "show-and-receive-mimo-model-lock-prompt.txt"
+      ]
+    },
+    "social-referencing": {
+      "title": "大人の顔を見て、確かめる",
+      "image": "../mimo-frame-social-referencing.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-pretend-shop"
+      ],
+      "instructions": [
+        "SOCIAL REFERENCING: retain child standing left looking UP RIGHT at adult FACE, adult seated right looks DOWN LEFT back at child, closed umbrella foreground. This reciprocal head orientation is essential, do NOT have child look at umbrella or viewer. Human faces blank white (no eyes mouth). Toddler canonical rounded head simple short white fringe full limbs barefoot white tshirt/shorts. Adult seated kneeling model from ref4 with simple LOW PONYTAIL not tall bun, minimal shirt hem and readable folded legs, outlines clearly pale {{human#/colors/adultOutline}} lighter than child. Bird beside adult watches child with softly attentive small eyes visible eyebrows, compact canonical head/body, short feather wings relaxed. Explicit tshirt sleeves and curved hem, U two dots upper viewer-right chest. Collar solid orange no edge or interior strokes. Remove ALL dashed arrows and halo. Keep umbrella intact simplified detail as shared object, sparse opaque warmwhite background short shadows. No additional objects."
+      ],
+      "sourcePrompt": "social-referencing-edit-prompt.txt",
+      "history": [
+        "social-referencing-edit-prompt.txt",
+        "social-referencing-mimo-geometry-prompt.txt",
+        "social-referencing-mimo-model-lock-prompt.txt",
+        "social-referencing-model-color-prompt.txt",
+        "social-referencing-relaxed-lean-prompt.txt",
+        "social-referencing-seated-back-prompt.txt",
+        "social-referencing-seated-feet-prompt.txt",
+        "social-referencing-shirt-repair-prompt.txt"
+      ]
+    },
+    "three-photo-story": {
+      "title": "はじめ、つぎ、それから",
+      "image": "../mimo-frame-three-photo-story.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-three-photo-story"
+      ],
+      "instructions": [
+        "For three-photo-story: Keep child center looking down at THREE photos in same order on tabletop (park entrance, slide, return home), adult leaning in left. Give child simple shirt sleeves and natural small hands resting beside photos, no mitten circles. Adult retain ponytail but simplify head/hair. Rebuild bird on right in canonical left-facing side view, attentive small open eye/brow looking toward photographs, one SHORT wing gestures toward right photo, other down, feet supported by table. Remove back shelf plants frame and tall plant entirely. Simplify pale wood table and eliminate woodgrain, keep3photos clear but lowcontrast. Child remains primary."
+      ],
+      "sourcePrompt": "three-photo-story-edit-prompt.txt",
+      "history": [
+        "three-photo-story-edit-prompt.txt",
+        "three-photo-story-shirt-color-prompt.txt"
+      ]
+    },
+    "three-step-entry": {
+      "title": "つぎは、かばん",
+      "image": "../mimo-frame-three-step-entry.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-three-photo-story"
+      ],
+      "instructions": [
+        "For three-step-entry keep child reaching backward to coat hook with left hand while right hand holds backpack handle over basket, body facing right/down toward bag. Convert to canonical toddler short simple fringe with ear and round head, short-sleeve shirt shorts plump bare legs, retain action/contact and standing balance. Bird right should match TOP ROW SIDE Mimo exactly in head/body proportions and shirt sleeves/curved hem, not elongated pear torso. One short wing slightly gestures at bag, other oval wing down. One small attentive open eye and eyebrow looking up-left toward child. Preserve coat rack coat basket backpack shoes onmat. Remove halo and orange floating dots, simplify woven basket to sparse few marks. Bird remains small."
+      ],
+      "sourcePrompt": "three-step-entry-edit-prompt.txt",
+      "history": [
+        "three-step-entry-detail-prompt.txt",
+        "three-step-entry-edit-prompt.txt"
+      ]
+    },
+    "turn-taking-cards": {
+      "title": "カードを置いて、つぎの番",
+      "image": "../mimo-frame-turn-taking-cards.png",
+      "mode": "source-scoped",
+      "blocks": [],
+      "instructions": [
+        "Precise recolor and line-weight edit ONLY of HUMAN outlines in this illustration. DO NOT redraw geometry. LEFT CHILD all outline strokes including hair, face contour, neck, clothing, fingers, legs must be muted pastel coral HEX {{human#/colors/childOutline}}. RIGHT ADULT all outline strokes must be much lighter pastel peach {{human#/colors/adultOutline}}. Current saturated red orange is WRONG. Remove saturated red from human lines completely. Use the role-specific outer stroke widths below; adult visually gentler, lighter and thinner. Target guideline at reference{{human#/referenceCanvasPx}} child outer{{human#/strokes/child/outerPx}} inner{{human#/strokes/child/innerPx}}px, adult outer{{human#/strokes/adult/outerPx}} inner{{human#/strokes/adult/innerPx}}px, scale consistently for square export, smooth rounded ends and corners. Keep crisp opaque line colors, no glow, no gradient, white interior fills. No thicker adult lines due to adult being larger. CRITICAL preserve small bird head and face EXACTLY as input, preserve entire bird including juice, straw, collar, body, legs; do not alter any animal pixel. Preserve human pose geometry, hand-card contact, all card symbols and colors, background, shadows, dimensions and layout. Only human stroke colors and thickness change. One square scene."
+      ],
+      "sourcePrompt": "turn-taking-cards-human-lines-prompt.txt",
+      "history": [
+        "turn-taking-cards-edit-prompt.txt",
+        "turn-taking-cards-gaze-edit-prompt.txt",
+        "turn-taking-cards-head-edit-prompt.txt",
+        "turn-taking-cards-human-lines-prompt.txt",
+        "turn-taking-cards-juice-edit-prompt.txt",
+        "turn-taking-cards-shape-lock-prompt.txt"
+      ],
+      "decisions": {
+        "props": "Adopt Mimo seated quietly sipping juice from a small cup held in both wings, straw connected to beak, looking toward the child on the left. Preserve this adopted action during the human-line edit; never remove the cup or straw as background cleanup. If the input differs, use a separate scene correction rather than altering it during a color-only pass."
+      },
+      "decisionSources": [
+        "turn-taking-cards-juice-edit-prompt.txt",
+        "turn-taking-cards-gaze-edit-prompt.txt",
+        "turn-taking-cards-human-lines-prompt.txt"
+      ]
+    },
+    "two-picture-schedule": {
+      "title": "しまったら、手を洗おう",
+      "image": "../mimo-frame-two-picture-schedule.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-three-photo-story"
+      ],
+      "instructions": [
+        "For two-picture-schedule: preserve kneeling child placing toy car into box, two pictogram cards side-by-side on wooden stand: car into box then washing hands. Rebuild child's head with canonical simple short fringe and visible ear, round head, short neck, plump torso/arms, simple shirt sleeves and bent legs with bare rounded feet, face blank and tilted down-right to car. Keep small bird seated on low cylindrical stool at right but canonical proportions, head slightly turned LEFT toward child, attentive small eye+eyebrow, one short wing resting on stool and other byside. Feet two tiny bird feet below, no crossed tangled lines. Bird must visibly wear short sleeve shirt with curved hem separating shirt from lower white belly. Remove halo and all papergrain, use quiet nearwhite with tiny ground shadows. Preserve action not generic portrait."
+      ],
+      "sourcePrompt": "two-picture-schedule-edit-prompt.txt",
+      "history": [
+        "two-picture-schedule-edit-prompt.txt",
+        "two-picture-schedule-original-pose-prompt.txt",
+        "two-picture-schedule-seat-prompt.txt"
+      ]
+    },
+    "voice-pingpong": {
+      "title": "声のピンポン",
+      "image": "../mimo-frame-voice-pingpong.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-voice-pingpong"
+      ],
+      "instructions": [
+        "Voice pingpong: preserve LARGE close-up child on left in RIGHT profile with OPEN MOUTH vocalizing and bird right facing left with OPEN tiny beak, one short wing raised near cheek in vocal turn-taking gesture, other down. Keep open mouth shape meaningful but soften exaggerated angular chin/nose and add simple ear/hair per toddler reference; don't turn into full-body. Preserve few small orange dots joining voices in two-way arc but reduce size and visual weight, keep bird eyebrow. Rebuild bird torso into canonical shirt+belly not long pear. Keep all action."
+      ],
+      "sourcePrompt": "voice-pingpong-edit-prompt.txt",
+      "history": [
+        "voice-pingpong-edit-prompt.txt"
+      ]
+    },
+    "wave-response": {
+      "title": "ばいばい、かえってきた",
+      "image": "../mimo-frame-wave-response.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-voice-pingpong"
+      ],
+      "instructions": [
+        "Wave response: LOCK child raised waving hand pose and bird raised wing, one leg lifted playful waving-back pose, original tilt and position. Child add canonical short simple hair from image3, keep head oriented toward bird, remove ankle shoe-seam lines and make bare rounded feet continuous with calves, small rounded natural fingers instead of mitten in hanging hand. Mimo retain TWO eyebrows and TWO very small shallow closed smile arcs, tiny diamond beak. Keep raised wing/raised foot exact gesture; bird outerline change from darkgray to warmbrown. Reduce yellow excitement marks to2 small marks. Do not enlarge bird head; keep canonical egg shape without cheek lumps, torso tshirt hem and lower belly clearly retained."
+      ],
+      "sourcePrompt": "wave-response-edit-prompt.txt",
+      "history": [
+        "wave-response-background-prompt.txt",
+        "wave-response-edit-prompt.txt"
+      ]
+    },
+    "relationship-frame-children-offer-and-wait": {
+      "title": "どうぞ、のあとを待つ",
+      "image": "../relationship-frame-children-offer-and-wait.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-voice-pingpong"
+      ],
+      "instructions": [
+        "Children offer and wait: preserve EXACT two kneeling children facing each other, left child extends teddy bear, right child holds both palms open waiting, original arm positions and teddy hand contact. Preserve girl ponytail but simplify to one small ponytail+2 broad fringe curves; boy short2-3 hair curves and small visible ear. Canonical plump toddler anatomy with white shirt/shorts, minimal sleeve/hem lines, natural rounded hands with a few simple finger notches instead of mitten circles. Child heads stay blank facing each other, not viewer. Bird remains small seated on ground at far right with feet forward and both wings lowered beside body, same original pose and gentle head tilt watching exchange; rebuild smooth egg head with NO cheek protrusion, eyebrows and small eyes, correct head/body proportion and shirt sleeves+curved hem, tiny uncluttered bird toes. Remove peach halos and texture. Keep teddy lowcontrast and recognizable."
+      ],
+      "sourcePrompt": "children-offer-and-wait-edit-prompt.txt",
+      "history": [
+        "children-offer-and-wait-background-prompt.txt",
+        "children-offer-and-wait-detail-prompt.txt",
+        "children-offer-and-wait-edit-prompt.txt",
+        "children-offer-and-wait-shirt-head-prompt.txt"
+      ]
+    },
+    "relationship-frame-deep-breath": {
+      "title": "いっしょに、ゆっくり呼吸",
+      "image": "../relationship-frame-deep-breath.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-relationship-frame-deep-breath"
+      ],
+      "instructions": [
+        "Deep breath: retain both kneeling facing each other with BOTH hands gently on belly, bird standing small right with one wing across belly demonstrating breathing and other relaxed down. Add simple short hair/ear to child and adult (adult short-haired like top-middle model), simple shirt and trousers/shorts boundary appropriate bent seated legs. Retain child's pursed exhaling profile and subtle2 small breath curves, remove orange halo. Bird calm attentive face oriented to pair, retain slight original head tilt, gentle small eyes and eyebrows."
+      ],
+      "sourcePrompt": "deep-breath-edit-prompt.txt",
+      "history": [
+        "deep-breath-detail-prompt.txt",
+        "deep-breath-edit-prompt.txt"
+      ]
+    },
+    "relationship-frame-lift-play": {
+      "title": "たかい、たかい。もういっかい",
+      "image": "../relationship-frame-lift-play.png",
+      "mode": "source-scoped",
+      "blocks": [],
+      "instructions": [
+        "Use case: precise-object-edit. Square Hugmap illustration. Preserve source composition and human hand contacts, white faceless humans without eyes or facial interior details. Quiet warm ivory {{human#/colors/background}} uniform background, NO glow/halo, NO paper grain, NO floor hatching. Only short pale beige contact shadows. Child outline {{human#/colors/childOutline}}, adult outline paler {{human#/colors/adultOutline}} and slightly thinner; animal outline {{animal#/color}}, eyes {{animal#/eye_nose_fill}}. Smooth organic curves with rounded ends. White fills. Child first, animal supporting, background quiet. Image2 is approved style reference, image3 is bird GEOMETRY authority first row MIMO only (ignore black lines and other animals), image4 is adult hair/proportion reference only. Mimo compact egg/pear head narrowing at crown, leaf crest, small compact white short-sleeve tee torso, short rounded feather-tip wings, short thin legs and three toes. Orange {{brand#/tokens/componentPrimaryBackground}} collar with side knot, flat solid no outlines or internal lines. U with two dots {{brand#/tokens/componentPrimaryBackground}} on upper viewer-right chest (not belly). No extra props, no labels, no comparison panel. EDIT IMAGE1 lift-play. Keep adult standing left lifting small baby at upper center, both adult hands visibly supporting baby's torso under arms, baby bent arms and dangling legs, their mutual facing directions unchanged. Keep baby's sparse tiny hair as original; do not give baby toddler fringe. Adult simple short hair and natural proportions from reference4, maintain lifting gesture and feet on ground. Child coral outline {{human#/colors/childOutline}} must be strongest human outline; adult much paler {{human#/colors/adultOutline}}, not saturated red. Bird bottom right reacting happily with wings near beak; keep that gesture but use compact canonical Mimo torso and short legs rather than tall elongated shape. Keep small orange reaction rays near baby. Remove entire pink halo. Preserve supporting hands and child anatomy with no detached fingers or merged wrists. No extra person or text."
+      ],
+      "sourcePrompt": "lift-play-edit-prompt.txt",
+      "history": [
+        "lift-play-edit-prompt.txt"
+      ]
+    },
+    "relationship-frame-parent-hand-play": {
+      "title": "手と手、おなじかたち",
+      "image": "../relationship-frame-parent-hand-play.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-relationship-frame-deep-breath"
+      ],
+      "instructions": [
+        "Parent hand play: retain EXACT kneeling adult/child facing each other with TWO raised open hands each playing pat-a-cake, no hand contact changes, keep fingers few rounded and anatomically natural. Child add simple short fringe small ear and shirt sleeve; adult choose short bob from top-right reference, keep pose and head position, simple sleeves and trousers. Bird retain SAME clapping pose both small rounded wings together near chest, facing left with tiny closed smiling eye arc AND eyebrow. Copy canonical side head smooth egg shape, don't enlarge head. Scarf borderless and orange U visible. Remove halo behind child. Adult PALE peach line lighter than child."
+      ],
+      "sourcePrompt": "parent-hand-play-edit-prompt.txt",
+      "history": [
+        "parent-hand-play-edit-prompt.txt",
+        "parent-hand-play-scarf-prompt.txt"
+      ]
+    },
+    "relationship-frame-spin-together": {
+      "title": "ぐるぐる、いっしょに",
+      "image": "../relationship-frame-spin-together.png",
+      "mode": "source-scoped",
+      "blocks": [
+        "profile-relationship-frame-deep-breath"
+      ],
+      "instructions": [
+        "Spin together: preserve exact parent-child holding BOTH hands, facing each other, stepping circular dance; hand clasp positions intact. Child add simple short fringe small ear round head plump calves bare feet, retain lifted backfoot and gaze UP to adult. Adult keep short hair and forward lean, simple ear/fringe like model, palepeach lines. Bird right preserve BOTH wings OUTSTRETCHED and ONE lifted foot dancing, same original head tilt, add missing TWO eyebrows and small warm happy closed eye arcs not large upside-down U eyes. Correct egg head NO cheek bump and compact torso model ratio, keep shirt sleeve/hem. Remove orange halo behind child, keep subtle limited motion arcs behind bodies (not crossing faces/hands)."
+      ],
+      "sourcePrompt": "spin-together-edit-prompt.txt",
+      "history": [
+        "spin-together-detail-prompt.txt",
+        "spin-together-edit-prompt.txt",
+        "spin-together-white-fill-prompt.txt"
+      ]
+    },
+    "relationship-frame-tickle-pause": {
+      "title": "こちょこちょ、もういっかい？",
+      "image": "../relationship-frame-tickle-pause.png",
+      "mode": "source-scoped",
+      "blocks": [],
+      "instructions": [
+        "Image1 target scene; image2 TOP ROW MIMO model; image3 toddler morphology; image4 adult shape/hair. Preserve EXACT scene: child lying on back with raised bent arms and bent legs, adult kneeling leaning forward with both hands hovering just above child torso during pause in tickle play; no repositioning or change of gesture. Small bird right holds both short wings together at chest watching with attentive small eyes and eyebrows, preserve pose. Child: round head, simple 2 broad fringe curves and small ear, blank face directed toward adult, plump limbs and simple rounded fingers/feet without detailed toe lines. White clothing/body. Adult add simple short hair+ear from model, blank face looking down toward child, keep kneeling anatomy/hands placement, simplify unnecessary clothing lines. Child contour muted {{human#/colors/childOutline}}, adult PALE {{human#/colors/adultOutline}} distinctly lighter/thinner, no colored fills. Bird smooth model egg-shaped head no cheek bump (122:133 width:height), slim leaf crest, low small eyes/eyebrows diamond beak, compact body matching model proportions. Short-sleeve white tshirt explicit sleeve lines and curved hem separating white belly, short birdlegs3toes no tail. Warmbrown {{animal#/color}} outlines, dark face {{animal#/eye_nose_fill}}. Flat solid orange {{brand#/tokens/componentPrimaryBackground}} scarf NO contour/internal line, small orange U with2dots upperviewer-right chest visible beside wings. Remove halo and big outlined oval mat, use short pale contact shadows and small discreet original excitement marks. Solid OPAQUE nearwhite background no grain or transparency. Full square illustration."
+      ],
+      "sourcePrompt": "tickle-pause-edit-prompt.txt",
+      "history": [
+        "tickle-pause-detail-prompt.txt",
+        "tickle-pause-edit-prompt.txt",
+        "tickle-pause-scarf-prompt.txt"
+      ]
+    }
+  },
+  "policyVersion": 1
+}

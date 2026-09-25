@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 1,
+  "character": "gen",
+  "defaults": {
+    "shared": "shared.json",
+    "history": "history/gen.json",
+    "referenceImages": {
+      "animal": "../../style-studies/character-reference/assets/user-approved-turnaround.png",
+      "child": "../../style-studies/character-reference/assets/child-toddlers-simple-hair-v1.png",
+      "infant": "../../style-studies/character-reference/assets/child-baby-prone.png",
+      "adult": "../../style-studies/character-reference/assets/adult-standard-mixed-hair-v2.png"
+    },
+    "instructions": [
+      "Gen retains the canonical rounded head, one upright ear and one folded ear, short rounded paws and two small front teeth. Neck accessory fill: {{brand#/tokens/componentSecondBackground}}."
+    ],
+    "blocks": {}
+  },
+  "scenes": {
+    "ask-to-be-held": {
+      "title": "だっこして、が届いた",
+      "image": "../gen-frame-ask-to-be-held.png",
+      "mode": "human-and-mark",
+      "instructions": [
+        "Adult LEFT bending toward toddler: standard adult slender mature head with simple low pony whitehair, clear sideear neck white longsleeve shirt trousers, naturally bent elbows two open palms reaching child. Keep exact gap between adult and child hands. Child center reaching BOTH hands UP toward adult, toddler rounded head smaller ears short whitehair tee shorts rounded limbs. Keep feet pose. Rabbit right hands clasped chest; U stays on visible chest area naturally partialoccluded, not on hands."
+      ],
+      "history": [
+        "gen-ask-to-be-held-edit-prompt.txt",
+        "gen-ask-to-be-held-repair-prompt.txt"
+      ]
+    },
+    "balance-mirror": {
+      "title": "おなじ傾き",
+      "image": "../gen-frame-balance-mirror.png",
+      "mode": "child-color",
+      "instructions": [],
+      "history": [
+        "gen-balance-mirror-edit-prompt.txt",
+        "gen-balance-mirror-hands-prompt.txt"
+      ]
+    },
+    "ball-exchange": {
+      "title": "そっちへ、どうぞ",
+      "image": "../gen-frame-ball-exchange.png",
+      "mode": "human-and-mark",
+      "instructions": [
+        "Child LEFT kicks yellow ball to rabbit, preserve football contact and supporting foot position. Toddler simple short whitehair sideear, small nose rightprofile looking down atball, shortneck tee shorts. Round relaxed hand visible behind rather than mittenstub. Rabbit pose unchanged. Shift existing U off chest CENTER to upper screenright chest garment, not onto sleeve."
+      ],
+      "history": [
+        "gen-ball-exchange-edit-prompt.txt"
+      ]
+    },
+    "ball-roll": {
+      "title": "ころころ、そっちへ",
+      "image": "../gen-frame-ball-roll.png",
+      "mode": "local-guideline",
+      "instructions": [
+        "Seated toddler rolling ball: short smooth white hair, ear, white tee shorts, soft head profile. Preserve extended hands and ball. Rabbit seated paws short rounded with small finger separators. Move centered U to upper screenright chest."
+      ],
+      "history": [
+        "gen-ball-roll-edit-prompt.txt",
+        "gen-ball-roll-repair-prompt.txt"
+      ]
+    },
+    "child-leads-rabbit": {
+      "title": "こっち、いっしょに",
+      "image": "../gen-frame-child-leads-rabbit.png",
+      "mode": "child-color",
+      "instructions": [],
+      "history": [
+        "gen-child-leads-rabbit-edit-prompt.txt"
+      ]
+    },
+    "children-repair-together": {
+      "title": "手をのばして、もういちど",
+      "image": "../gen-frame-children-repair-together.png",
+      "mode": "human-and-mark",
+      "instructions": [
+        "IMPORTANT both humans are TODDLER PEERS same approximate age, NOT adult. Seated toddler center reaches right to other child while left palm supports floor. Add short whitehair tee shorts rounded toddler face in rightprofile. Standing bent toddler RIGHT offers openhand: reduce height/body to plausible same-age toddler compared seated child, big rounded toddlerhead short limbs, simple white bobgirlhair, tee shorts. Preserve gap between their offered hands, they haven't grasped. Rabbit left waits crouched hands together, unchanged. Move U from center onto upper screenright chest shirt, partialocclusion by forearm allowed.",
+        "Both people are toddler peers, with the same child outline style. The girl’s shirt has no logo."
+      ],
+      "history": [
+        "gen-children-repair-together-edit-prompt.txt",
+        "gen-children-repair-together-repair-prompt.txt"
+      ]
+    },
+    "crawling-chase": {
+      "title": "まって、ゲン",
+      "image": "../gen-frame-crawling-chase.png",
+      "mode": "local-guideline",
+      "instructions": [
+        "Crawling BABY remains bald round head short limbs, no toddler hair. Smooth silhouette and add minimal white romper seams. Preserve palms and knees on ground and rabbit looking back crawling. U stays center of BACK shirt, rotated with torso plane."
+      ],
+      "history": [
+        "gen-crawling-chase-edit-prompt.txt",
+        "gen-crawling-chase-repair-prompt.txt"
+      ]
+    },
+    "descend-stairs": {
+      "title": "おりる足を、一段下で",
+      "image": "../gen-frame-descend-stairs.png",
+      "mode": "child-color",
+      "instructions": [],
+      "history": [
+        "gen-descend-stairs-edit-prompt.txt",
+        "gen-descend-stairs-repair-prompt.txt"
+      ]
+    },
+    "dressing-sleeve": {
+      "title": "おてて、でてきた",
+      "image": "../gen-frame-dressing-sleeve.png",
+      "mode": "child-color",
+      "instructions": [],
+      "history": [
+        "gen-dressing-sleeve-edit-prompt.txt",
+        "gen-dressing-sleeve-repair-prompt.txt"
+      ]
+    },
+    "follow-running": {
+      "title": "走る子どもの、そのあとを",
+      "image": "../gen-frame-follow-running.png",
+      "mode": "child-color",
+      "instructions": [],
+      "history": [
+        "gen-follow-running-edit-prompt.txt",
+        "gen-follow-running-repair-prompt.txt"
+      ]
+    },
+    "follow-stairs": {
+      "title": "階段の、一段あと",
+      "image": "../gen-frame-follow-stairs.png",
+      "mode": "local-guideline",
+      "instructions": [
+        "BACK VIEW child climbing stairs: add smooth short hair outer silhouette and low nape only, NO interior bangs at top. Add white tee shorts boundaries and rounded ears. Preserve handrail grasp and feet on different steps. Rabbit BACK view center back U."
+      ],
+      "history": [
+        "gen-follow-stairs-edit-prompt.txt"
+      ]
+    },
+    "follow-walking": {
+      "title": "歩く子どもの、二歩あと",
+      "image": "../gen-frame-follow-walking.png",
+      "mode": "child-color",
+      "instructions": [],
+      "history": [
+        "gen-follow-walking-edit-prompt.txt"
+      ]
+    },
+    "hide-and-seek": {
+      "title": "みつけて、ここだよ",
+      "image": "../gen-frame-hide-and-seek.png",
+      "mode": "local-guideline",
+      "instructions": [
+        "Child peeking behind wall: add simple BOB white hair and white tee shorts only in visible portion, preserve wall occlusion and gripping hand. Blank face no features. Rabbit BACK view looking away hand to cheek, retain pose. Back center U."
+      ],
+      "history": [
+        "gen-hide-and-seek-edit-prompt.txt"
+      ]
+    },
+    "horizontal-bar-hang": {
+      "title": "にぎった手で、ぶらーん",
+      "image": "../gen-frame-horizontal-bar-hang.png",
+      "mode": "child-color",
+      "instructions": [],
+      "history": [
+        "gen-horizontal-bar-hang-edit-prompt.txt"
+      ]
+    },
+    "oral-exploration-teether": {
+      "title": "口でも、形を確かめる",
+      "image": "../gen-frame-oral-exploration-teether.png",
+      "mode": "human-and-mark",
+      "instructions": [
+        "Baby LEFT sitting holding yellow teether to mouth exactly same contacts. Keep BABY head/body proportions and hairless head (tiny original tuft optional), no toddler hairstyle. Smooth grainy broken baby contour and round hands/feet. Adult CENTER seated crosslegged: standard mature adult head/neck/shoulders, simple white bob with clear sideear and minimal fringe, face oriented downleft toward baby. White longsleeve top trousers, clarify forearms and crossedlegs without changing pose. Rabbit lower right preserved; U place upper screenright torso clear of sleeve, natural occlusion. Keep teether whole.",
+        "The adult shirt has no mark. Preserve the whole teether and its hand/mouth contacts."
+      ],
+      "history": [
+        "gen-oral-exploration-teether-edit-prompt.txt",
+        "gen-oral-exploration-teether-repair-prompt.txt"
+      ]
+    },
+    "parent-first-step": {
+      "title": "ここまで、おいで",
+      "image": "../gen-frame-parent-first-step.png",
+      "mode": "human-and-mark",
+      "instructions": [
+        "Toddler LEFT walking RIGHT toward crouched adult, keep step pose and outstretched hands and golden stepping marks. Add simple WHITE short hair sideear shortneck tee shorts, roundcheeks small rightprofile nose. Adult RIGHT crouched with hands reaching: mature adult proportions clear neck sideear, simple WHITE short hair, long sleeve shirt trousers; shorten stretched forearms moderately but preserve reaching direction and gap. Preserve rabbit left following exact pose.",
+        "The side-view rabbit’s upper chest is hidden by its arm: leave the U invisible; no mark near the waist. The adult shirt has no mark."
+      ],
+      "history": [
+        "gen-parent-first-step-edit-prompt.txt",
+        "gen-parent-first-step-repair-prompt.txt"
+      ]
+    },
+    "park-slide": {
+      "title": "すべる先で、待ってる",
+      "image": "../gen-frame-park-slide.png",
+      "mode": "child-color",
+      "instructions": [],
+      "history": [
+        "gen-park-slide-edit-prompt.txt"
+      ]
+    },
+    "park-swing": {
+      "title": "ゆれる形を、となりで",
+      "image": "../gen-frame-park-swing.png",
+      "mode": "child-color",
+      "instructions": [],
+      "history": [
+        "gen-park-swing-edit-prompt.txt",
+        "gen-park-swing-repair-prompt.txt",
+        "gen-park-swingcolor-prompt.txt"
+      ]
+    },
+    "pause-before-trying": {
+      "title": "立ったまま、足場を見る",
+      "image": "../gen-frame-pause-before-trying.png",
+      "mode": "child-clothing-color",
+      "instructions": [],
+      "history": [
+        "gen-pause-before-trying-edit-prompt.txt",
+        "gen-pause-before-trying-repair-prompt.txt",
+        "gen-pause-before-tryingcolor-prompt.txt"
+      ]
+    },
+    "prone-dialogue": {
+      "title": "ひくいところで、こんにちは",
+      "image": "../gen-frame-prone-dialogue.png",
+      "mode": "local-guideline",
+      "instructions": [
+        "Baby prone face to rabbit: keep baby shape EXACT bald round head short arms, no toddler hair. Only child's pale salmon outline and Gen outline change. Gen currently dark gray change warmbrown. Keep rounded paws supporting body, side view with chest hidden so remove visible tiny U by arm instead of misplaced. Preserve ball and positions."
+      ],
+      "history": [
+        "gen-prone-dialogue-edit-prompt.txt"
+      ]
+    },
+    "pull-to-stand": {
+      "title": "立てた手は、まだここに",
+      "image": "../gen-frame-pull-to-stand.png",
+      "mode": "local-guideline",
+      "instructions": [
+        "Young child pulling up using bench: keep LARGE round baby head and short limbs, minimal tiny hair tuft only, visible ear and plain white romper seams. Preserve both palm contacts and knees/feet. Rabbit upright keep round cheek canonical folded ear, tiny front teeth, short rounded paws. U upper screenright chest not center."
+      ],
+      "history": [
+        "gen-pull-to-stand-edit-prompt.txt",
+        "gen-pull-to-standcolor-prompt.txt"
+      ]
+    },
+    "push-car": {
+      "title": "押す道の、少し前",
+      "image": "../gen-frame-push-car.png",
+      "mode": "child-color",
+      "instructions": [],
+      "history": [
+        "gen-push-car-edit-prompt.txt",
+        "gen-push-car-hands-prompt.txt"
+      ]
+    },
+    "relax-leaning-together": {
+      "title": "寄りかかって、ひと休み",
+      "image": "../gen-frame-relax-leaning-together.png",
+      "mode": "local-guideline",
+      "instructions": [
+        "Child seated leaning back on hands back-to-back with rabbit: smooth short hair ears white tee shorts, keep rear-support hands, feet and leaning pose. Rabbit same pose round short paws, restore small two front white incisors not tongue. Keep canonical head ratio. Chest U on correct screenright upper garment follow tilted torso."
+      ],
+      "history": [
+        "gen-relax-leaning-together-edit-prompt.txt",
+        "gen-relax-leaning-togethercolor-prompt.txt"
+      ]
+    },
+    "relax-looking-up": {
+      "title": "並んで空を見る",
+      "image": "../gen-frame-relax-looking-up.png",
+      "mode": "local-guideline",
+      "instructions": [
+        "Keep bald baby supine with bent knees and both hands near chest. Smooth contour and clarify tiny round ear, no hair or toddler clothes. Rabbit supine beside baby: shorten finger separations to rounded mitten paws, preserve gesture. Place small U on visible upper chest toward screenright, rotating with torso."
+      ],
+      "history": [
+        "gen-relax-looking-up-edit-prompt.txt",
+        "gen-relax-looking-up-repair-prompt.txt"
+      ]
+    },
+    "relax-watching-together": {
+      "title": "同じ小さなものを見る",
+      "image": "../gen-frame-relax-watching-together.png",
+      "mode": "child-color",
+      "instructions": [],
+      "history": [
+        "gen-relax-watching-together-edit-prompt.txt"
+      ]
+    },
+    "rolling-mirror": {
+      "title": "ころん、と向きを変えた",
+      "image": "../gen-frame-rolling-mirror.png",
+      "mode": "local-guideline",
+      "instructions": [
+        "Keep bald baby rolling onto side, short limbs, round large head, no hair added. Clarify small ear and smooth hands/feet without changing rolling contact. Rabbit rolling shows BACK shirt: change peach shirt to white and add small orange U with two dots at BACK CENTER, top of U toward neckline/head following diagonal torso, never upright relative canvas. Keep round rabbit paws, folded ear."
+      ],
+      "history": [
+        "gen-rolling-mirror-edit-prompt.txt"
+      ]
+    },
+    "seated-reach": {
+      "title": "ここまで、とどいた",
+      "image": "../gen-frame-seated-reach.png",
+      "mode": "local-guideline",
+      "instructions": [
+        "Keep bald infant seated supporting body on left grounded palm and right hand reaching yellow cloth. Add a minimal round visible ear, smooth head outline and clarify bent leg separation, preserve all contact and reach direction, no hair. Rabbit cloth-holding hand should be short round paw with two tiny finger notches, not long human fingers. Small orange U upper screenright chest."
+      ],
+      "history": [
+        "gen-seated-reach-edit-prompt.txt"
+      ]
+    },
+    "squat-and-pick-up": {
+      "title": "しゃがんだ先に、みつけた",
+      "image": "../gen-frame-squat-and-pick-up.png",
+      "mode": "local-guideline",
+      "instructions": [
+        "Keep child squatting reaching to pick ground object. Adapt toddler to girl with simple short white bob and small visible ear using the attached child reference, plain white tee and shorts with minimal seams. Smooth cheek/chin, blank face directed DOWN to object. Do NOT copy reference standing pose. Preserve squat balance foot contact and arm reach. Rabbit retains crouch with short round paws, small U upper screenright chest."
+      ],
+      "history": [
+        "gen-squat-and-pick-up-edit-prompt.txt"
+      ]
+    },
+    "supine-feet-mirror": {
+      "title": "あし、みつけた",
+      "image": "../gen-frame-supine-feet-mirror.png",
+      "mode": "local-guideline",
+      "instructions": [
+        "Keep bald baby supine holding both feet, round large head short limbs no hair. Smooth outlines and clarify fingers gripping feet without changing pose. Rabbit copies feet-holding supine pose. Keep compact round head, one long ear and other bent ear in relaxed orientation, tiny paired front teeth. Paws rounded with just two notches, not human long fingers. U visible upper chest toward screenright, top aimed neck, rotate with torso, allow natural overlap by paws."
+      ],
+      "history": [
+        "gen-supine-feet-mirror-edit-prompt.txt"
+      ]
+    },
+    "supine-hands-midline": {
+      "title": "まんなかで、手が会った",
+      "image": "../gen-frame-supine-hands-midline.png",
+      "mode": "local-guideline",
+      "instructions": [
+        "Keep BALD infant lying supine, short limbs, large rounded head and both hands touching at chest midline. Smooth rough contour, clarify round ears and hands meeting, preserve pose. Rabbit also supine bringing short rounded paws together. Keep canonical TWO tiny front teeth. Small U upper screenright chest, naturally partly hidden by hands if needed."
+      ],
+      "history": [
+        "gen-supine-hands-midline-edit-prompt.txt",
+        "gen-supine-hands-midline-repair-prompt.txt"
+      ]
+    },
+    "supported-twist": {
+      "title": "つかまったまま、くるり",
+      "image": "../gen-frame-supported-twist.png",
+      "mode": "child-color",
+      "instructions": [],
+      "history": [
+        "gen-supported-twist-edit-prompt.txt",
+        "gen-supported-twist-hands-prompt.txt"
+      ]
+    },
+    "throw-receive": {
+      "title": "とんできた、受け取った",
+      "image": "../gen-frame-throw-receive.png",
+      "mode": "child-clothing-color",
+      "instructions": [
+        "Remove the redundant second curve at the child’s neck and second parallel line at the raised sleeve."
+      ],
+      "history": [
+        "gen-throw-receive-edit-prompt.txt",
+        "gen-throw-receive-repair-prompt.txt"
+      ]
+    },
+    "trampoline": {
+      "title": "しずんで、ぽん",
+      "image": "../gen-frame-trampoline.png",
+      "mode": "local-guideline",
+      "instructions": [
+        "Child jumps above trampoline with arms out. Add simple WHITE BOB girl hair and tiny ears referencing the attached child reference, keep blank white face, tee and shorts with simple seams. Preserve child height above trampoline, limb pose and feet. Rabbit jumps alongside, keep same pose but replace pointed paddle arms with rounded canonical paws with two short notches, and canonical big rounded feet. U upper screenright chest, not center."
+      ],
+      "history": [
+        "gen-trampoline-color-prompt.txt",
+        "gen-trampoline-edit-prompt.txt",
+        "gen-trampoline-repair-prompt.txt"
+      ]
+    },
+    "tricycle": {
+      "title": "こぐ足の、そのあとを",
+      "image": "../gen-frame-tricycle.png",
+      "mode": "child-clothing-color",
+      "instructions": [],
+      "history": [
+        "gen-tricycle-color-prompt.txt",
+        "gen-tricycle-edit-prompt.txt"
+      ]
+    },
+    "tunnel-through": {
+      "title": "むこうまで、くぐった",
+      "image": "../gen-frame-tunnel-through.png",
+      "mode": "local-guideline",
+      "instructions": [
+        "Crawling infant exiting tunnel: keep bald round large head, no toddler hair. Clarify small visible ear and smooth head/neck contour facing forward toward exit, simple white short-sleeve romper seams, short infant limbs and both grounded palms and knee contacts, keep tunnel opening occlusion unchanged. Rabbit crouches beside exit, rounded short paws and U upper screenright chest on shirt, not center."
+      ],
+      "history": [
+        "gen-tunnel-through-edit-prompt.txt"
+      ]
+    },
+    "two-foot-jump": {
+      "title": "ぴょん、の少しあと",
+      "image": "../gen-frame-two-foot-jump.png",
+      "mode": "child-clothing-color",
+      "instructions": [],
+      "history": [
+        "gen-two-foot-jump-edit-prompt.txt"
+      ]
+    },
+    "wait-turn-slide": {
+      "title": "すべり台、つぎはわたし",
+      "image": "../gen-frame-wait-turn-slide.png",
+      "mode": "child-color",
+      "instructions": [],
+      "history": [
+        "gen-wait-turn-slide-edit-prompt.txt",
+        "gen-wait-turn-slide-repair-prompt.txt"
+      ]
+    }
+  },
+  "policyVersion": 1,
+  "note": "現行共通仕様を優先し、採用済みの場面状態と局所編集の範囲を維持する。過去の修正指示は履歴として保存し、自動合成しない。"
+}
