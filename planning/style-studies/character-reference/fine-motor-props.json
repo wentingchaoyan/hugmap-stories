@@ -127,7 +127,41 @@
       "path": "assets/fine-motor-props/building-blocks.png",
       "source_output": "exec-3fd85522-551b-4fa2-ae28-cbd3214c49ee.png",
       "sha256": "7c2c84c42ab1b5e7b45c6feab707b70024b01d9455713d7a5ab0b2e384e53f16"
+    },
+    {
+      "slug": "marbles",
+      "title": "ビー玉",
+      "scene": "転がす・つまんで移す場面",
+      "character": "Luke",
+      "prompt": "Create a square isolated reusable prop illustration for a Japanese educational FAQ character prop library. Input image is STYLE reference only. Match its warm brown outlines, softly shaded flat colors, gentle highlights and simple friendly material texture. No photorealism or glossy 3D render. Generous clear margins, whole subject centered and visible. Genuine transparent background. No people, animals, hands, words, labels, numbers, scene, floor, border. Subject: A compact group of six glass toy marbles, translucent warm yellow, orange, purple and teal glass with a simple swirl inside each, restrained highlights, fully separated and clearly spherical.",
+      "tool": "built-in image_gen",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-9a50d217-3d33-434b-976f-0e0327c3d324.png",
+      "path": "assets/fine-motor-props/marbles.png",
+      "sha256": "abad68c2b0e06956ae3afb7c447c37fd28c14148772a46d8ef24b6b5ad0f757f"
+    },
+    {
+      "slug": "cleaning-cloth",
+      "title": "雑巾",
+      "scene": "拭く・両手で絞る場面",
+      "character": "Luke",
+      "prompt": "Create a square isolated reusable prop illustration for a Japanese educational FAQ character prop library. Input image is STYLE reference only. Match its warm brown outlines, softly shaded flat colors, gentle highlights and simple friendly material texture. No photorealism or glossy 3D render. Generous clear margins, whole subject centered and visible. Genuine transparent background. No people, animals, hands, words, labels, numbers, scene, floor, border. Subject: One soft folded rectangular pale warm gray cleaning cloth with simple stitched edges and a corner loosely turned back, minimal terry cotton texture, no pattern, no tools.",
+      "tool": "built-in image_gen",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-0ba9701c-24da-4935-8ef2-785e9080f5aa.png",
+      "path": "assets/fine-motor-props/cleaning-cloth.png",
+      "sha256": "318efaa0c538820676b42aa5d35b3762135006c02cb1c958620c987854d5fe38"
+    },
+    {
+      "slug": "finger-extension-band",
+      "title": "フィンガーエクステンションバンド",
+      "scene": "指を通して広げる動きを示す場面",
+      "character": "Luke",
+      "prompt": "Create an isolated educational prop illustration replacing the cord with a finger extension resistance band. Reference is STYLE ONLY (warm brown outline, simple soft shading), do not draw rope. Subject: one soft silicone finger extension exerciser, a compact flexible web connecting FIVE oval finger loops, one noticeably larger thumb loop offset to the side and four finger loops arranged in a gentle fan; flexible curved connectors join their bases. Muted purple silicone, clear empty holes and coherent one-piece construction. Show object only, lying flat in slight three quarter view, generously centered, fully visible. No hands, people, text, numbers, arrows, scene, floor. Square canvas, genuine transparent background, illustrated FAQ prop style, not photorealistic.",
+      "tool": "built-in image_gen",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-17f6ad9e-32b2-44b2-b01e-2feb3e093a24.png",
+      "path": "assets/fine-motor-props/finger-extension-band.png",
+      "sha256": "63a928f11e14651bde2dd4f26165a708b1a01059ce14935657f4e832be48d081"
     }
   ],
-  "character": "Luke"
+  "character": "Luke",
+  "updatedAt": "2026-10-02"
 }

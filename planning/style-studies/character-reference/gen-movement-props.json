@@ -77,6 +77,29 @@
       "path": "assets/gen-movement-props/rocker-board.png",
       "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-42a90132-ca64-4f5e-8630-ed7bf62bcb3c.png",
       "sha256": "8e762f9a26eed1874c82aed58538802754bb4ce4ce32fafc32d184a184a2e0ba"
+    },
+    {
+      "slug": "trampoline",
+      "title": "トランポリン",
+      "scene": "跳ぶ・着地する場面",
+      "character": "Gen",
+      "prompt": "Create a square isolated reusable prop illustration for a Japanese educational FAQ character prop library. Input image is STYLE reference only. Match its warm brown outlines, softly shaded flat colors, gentle highlights and simple friendly material texture. No photorealism or glossy 3D render. Generous clear margins, whole subject centered and visible. Genuine transparent background. No people, animals, hands, words, labels, numbers, scene, floor, border. Subject: One small round low exercise trampoline with a sturdy padded U shaped support handle on two uprights attached to frame, dark gray jumping surface, muted purple padded rim covering springs, six short gray legs with rubber feet. Three quarter view, whole object visible.",
+      "tool": "built-in image_gen",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-aff7fe1f-082a-4f28-9afa-3d7cec196d5f.png",
+      "path": "assets/gen-movement-props/trampoline.png",
+      "sha256": "12cf79213d50956c7b7d49054a03033c8b856f418f3dfbf37325c2f2b96e2dfe"
+    },
+    {
+      "slug": "wobble-cushion",
+      "title": "バランスクッション",
+      "scene": "座面や足元に置く場面",
+      "character": "Gen",
+      "prompt": "Create a square isolated reusable prop illustration for a Japanese educational FAQ character prop library. Input image is STYLE reference only. Match its warm brown outlines, softly shaded flat colors, gentle highlights and simple friendly material texture. No photorealism or glossy 3D render. Generous clear margins, whole subject centered and visible. Genuine transparent background. No people, animals, hands, words, labels, numbers, scene, floor, border. Subject: One low round inflatable wobble balance cushion, muted purple with short soft raised bumps on top, thick rounded disc profile, subtle inflation valve on edge, three quarter view. Not a ball, not a stool.",
+      "tool": "built-in image_gen",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-b0d3f940-91f7-4ad4-a163-57f9d996c01a.png",
+      "path": "assets/gen-movement-props/wobble-cushion.png",
+      "sha256": "b6f03e429b22b979f332dc2f3be3adcbc0d154ca5a884bc2644a2afcb6a6eed0"
     }
-  ]
+  ],
+  "updatedAt": "2026-10-02"
 }
