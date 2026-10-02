@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-02",
+  "tool": "built-in image_gen",
+  "character": "Gen",
+  "selection": "添付の運動用具から、Genの場面に使う8種類をイラスト化。効果・使用頻度の順位を示すものではない。",
+  "reference": "/var/folders/dl/60h0x7xj369fw4pjd3fd6yv40000gn/T/codex-clipboard-2ab299b8-e249-46eb-908d-a520a5e26834.png",
+  "style_reference": "assets/fine-motor-props/pegboard.png",
+  "items": [
+    {
+      "slug": "therapy-ball",
+      "title": "大きなセラピーボール",
+      "scene": "ボールを転がす・支える場面",
+      "prompt": "Create an isolated reusable prop illustration for Gen rabbit's movement equipment reference library. Reference image is STYLE only; do not include pegs or pegboard. Match its warm thin brown outlines, soft clean shading, subtle wood/material textures, simple friendly educational FAQ illustration. Restrained warm yellow, orange, muted purple, warm light gray. Centered square composition, fully visible with generous margins. Genuine transparent background. No people, animals, hands, text, labels, numbers, diagram, backdrop or floor. Subject: One large muted purple inflated therapy exercise ball with subtle concentric seam grooves.",
+      "path": "assets/gen-movement-props/therapy-ball.png",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-a15959b3-cdb7-47b6-aa38-ca0b4c47fd42.png",
+      "sha256": "9d5c9f37a0903b705a1a72c0136427123ce18f46625e33cfb909e3057c1aa5bd"
+    },
+    {
+      "slug": "peanut-ball",
+      "title": "ピーナッツボール",
+      "scene": "またがる・体を預ける場面",
+      "prompt": "Create an isolated reusable prop illustration for Gen rabbit's movement equipment reference library. Reference image is STYLE only; do not include pegs or pegboard. Match its warm thin brown outlines, soft clean shading, subtle wood/material textures, simple friendly educational FAQ illustration. Restrained warm yellow, orange, muted purple, warm light gray. Centered square composition, fully visible with generous margins. Genuine transparent background. No people, animals, hands, text, labels, numbers, diagram, backdrop or floor. Subject: One warm yellow peanut-shaped exercise ball, two round lobes joined by narrow waist, subtle seam grooves.",
+      "path": "assets/gen-movement-props/peanut-ball.png",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-859cb452-56de-46ec-a3b5-8970b715c9bd.png",
+      "sha256": "d7a1fe14c018dea1929a150923f2f4e7402cb932a2f911aded0495588cd7996c"
+    },
+    {
+      "slug": "stepping-stones",
+      "title": "飛び石",
+      "scene": "足を置く場所・進む順を示す場面",
+      "prompt": "Create an isolated reusable prop illustration for Gen rabbit's movement equipment reference library. Reference image is STYLE only; do not include pegs or pegboard. Match its warm thin brown outlines, soft clean shading, subtle wood/material textures, simple friendly educational FAQ illustration. Restrained warm yellow, orange, muted purple, warm light gray. Centered square composition, fully visible with generous margins. Genuine transparent background. No people, animals, hands, text, labels, numbers, diagram, backdrop or floor. Subject: A set of five low rounded triangular stepping stones of varied heights, warm yellow, orange, muted purple and teal, spaced without overlap.",
+      "path": "assets/gen-movement-props/stepping-stones.png",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-dc19dede-610f-43bf-8a8e-f3beb75dc07d.png",
+      "sha256": "976357ce2009e3e37e4cbb76169190eeff29bf755d9d74bd1561d5d19b1c8f8f"
+    },
+    {
+      "slug": "balance-beam",
+      "title": "低い平均台",
+      "scene": "細い道を歩く・またぐ場面",
+      "prompt": "Create an isolated reusable prop illustration for Gen rabbit's movement equipment reference library. Reference image is STYLE only; do not include pegs or pegboard. Match its warm thin brown outlines, soft clean shading, subtle wood/material textures, simple friendly educational FAQ illustration. Restrained warm yellow, orange, muted purple, warm light gray. Centered square composition, fully visible with generous margins. Genuine transparent background. No people, animals, hands, text, labels, numbers, diagram, backdrop or floor. Subject: A low straight foam balance beam assembled from four chunky rectangular sections warm yellow, muted purple, teal, burgundy. Clearly low to ground.",
+      "path": "assets/gen-movement-props/balance-beam.png",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-cd7b16ae-1858-452e-b39e-e7cc67e2ffdf.png",
+      "sha256": "f2b942702270d5abad23aea76ffb78783a9104b802657c47af9e384e818c5a60"
+    },
+    {
+      "slug": "scooter-board",
+      "title": "スクーターボード",
+      "scene": "座って進む・引いて動かす場面",
+      "prompt": "Create an isolated reusable prop illustration for Gen rabbit's movement equipment reference library. Reference image is STYLE only; do not include pegs or pegboard. Match its warm thin brown outlines, soft clean shading, subtle wood/material textures, simple friendly educational FAQ illustration. Restrained warm yellow, orange, muted purple, warm light gray. Centered square composition, fully visible with generous margins. Genuine transparent background. No people, animals, hands, text, labels, numbers, diagram, backdrop or floor. Subject: One orange rectangular low scooter board with rounded corners, two integrated side handholds and four securely mounted small gray caster wheels.",
+      "path": "assets/gen-movement-props/scooter-board.png",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-ca2372eb-ce3d-4984-9c58-e0166e158c49.png",
+      "sha256": "f044f7b60884627fae40a176f6f70ea765f6b0bde007fb69892ed5977246e9f8"
+    },
+    {
+      "slug": "play-tunnel",
+      "title": "くぐるトンネル",
+      "scene": "入口から出口へくぐる場面",
+      "prompt": "Create an isolated reusable prop illustration for Gen rabbit's movement equipment reference library. Reference image is STYLE only; do not include pegs or pegboard. Match its warm thin brown outlines, soft clean shading, subtle wood/material textures, simple friendly educational FAQ illustration. Restrained warm yellow, orange, muted purple, warm light gray. Centered square composition, fully visible with generous margins. Genuine transparent background. No people, animals, hands, text, labels, numbers, diagram, backdrop or floor. Subject: One short collapsible fabric crawl tunnel with visible open entrance and exit, alternating muted purple and warm yellow fabric segments and circular reinforcement hoops.",
+      "path": "assets/gen-movement-props/play-tunnel.png",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-08907c47-5551-48b4-868e-908001ab5b52.png",
+      "sha256": "4275f36aff485ce8c2afd1d6cbd4dbd484728a934b8f78590c1020ca604d5d1e"
+    },
+    {
+      "slug": "activity-mats",
+      "title": "活動用マット",
+      "scene": "床で動く・着地する場面",
+      "prompt": "Create an isolated reusable prop illustration for Gen rabbit's movement equipment reference library. Reference image is STYLE only; do not include pegs or pegboard. Match its warm thin brown outlines, soft clean shading, subtle wood/material textures, simple friendly educational FAQ illustration. Restrained warm yellow, orange, muted purple, warm light gray. Centered square composition, fully visible with generous margins. Genuine transparent background. No people, animals, hands, text, labels, numbers, diagram, backdrop or floor. Subject: Two thick soft rectangular foam gym mats with warm light gray sides, one muted purple unfolded in foreground, one warm yellow behind it, rounded padded corners, subtle seams.",
+      "path": "assets/gen-movement-props/activity-mats.png",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-f0911b8d-5ae6-4550-a4ed-521480243221.png",
+      "sha256": "61b64b8ddc1dc87e89236ac137fb5dd61133f014197f13891ecc5b0e49fdd068"
+    },
+    {
+      "slug": "rocker-board",
+      "title": "木製バランスボード",
+      "scene": "乗る・揺れる場面",
+      "prompt": "Create an isolated reusable prop illustration for Gen rabbit's movement equipment reference library. Reference image is STYLE only; do not include pegs or pegboard. Match its warm thin brown outlines, soft clean shading, subtle wood/material textures, simple friendly educational FAQ illustration. Restrained warm yellow, orange, muted purple, warm light gray. Centered square composition, fully visible with generous margins. Genuine transparent background. No people, animals, hands, text, labels, numbers, diagram, backdrop or floor. Subject: One curved wooden rocker balance board, smooth pale laminated wood underside and muted purple nonslip top, shallow U shaped curve, three quarter view showing both upturned ends.",
+      "path": "assets/gen-movement-props/rocker-board.png",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-42a90132-ca64-4f5e-8630-ed7bf62bcb3c.png",
+      "sha256": "8e762f9a26eed1874c82aed58538802754bb4ce4ce32fafc32d184a184a2e0ba"
+    }
+  ]
+}

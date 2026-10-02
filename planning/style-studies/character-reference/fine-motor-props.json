@@ -1,0 +1,133 @@
+{
+  "tool": "built-in image_gen",
+  "createdAt": "2026-10-02",
+  "selection": "添付の30活動から、手指活動・身支度・制作場面に再利用しやすい8セットを選定。使用頻度ランキングや効果の保証ではない。",
+  "style_reference": "../activity-media/activity_shape_sorter_risu.png",
+  "sources": [
+    {
+      "title": "Somerset NHS · Developing fine motor skills",
+      "url": "https://www.somersetft.nhs.uk/children-and-young-peoples-therapy-service/developing-fine-motor-skills/"
+    },
+    {
+      "title": "East Sussex NHS · Motor skills",
+      "url": "https://www.eastsussexchildren.nhs.uk/motor-skills/"
+    }
+  ],
+  "items": [
+    {
+      "slug": "dough-roller",
+      "title": "粘土・ローラー",
+      "scene": "丸める・伸ばす・押す",
+      "prompt": "Create an isolated reusable prop illustration, square canvas with genuine transparent background. Supplied image is STYLE/MATERIAL reference only: match the illustrated toys' warm brown outlines, softly shaded flat color, very subtle pale wood grain, gentle highlights, clean simple educational FAQ illustration. Not photorealistic, not glossy 3D, not pencil sketch. Restrained warm yellow, burgundy, muted purple, orange accents, warm light gray. One compact centered set with 10 percent clear margins, every object fully visible. No people, animals, hands, arrows, words, numbers, labels, borders, background, glow or floor. A flattened golden-yellow play dough oval, one short rolled dough rope and a small plain wood rolling pin with two handles. Matte soft dough with subtle pressed texture, lightly grained pale wood.",
+      "path": "assets/fine-motor-props/dough-roller.png",
+      "source_output": "exec-7609ae5c-e9f6-4cf4-8e9f-0f962280e4a8.png",
+      "sha256": "a0f0eb9dba240d0fef2aa6e68f49b587a600251bf50bc260983823c1b15d0ea6"
+    },
+    {
+      "slug": "clothespins",
+      "title": "洗濯ばさみ",
+      "scene": "つまんで開く・縁にはさむ",
+      "prompt": "Create an isolated reusable prop illustration, square canvas with genuine transparent background. Supplied image is STYLE/MATERIAL reference only: match the illustrated toys' warm brown outlines, softly shaded flat color, very subtle pale wood grain, gentle highlights, clean simple educational FAQ illustration. Not photorealistic, not glossy 3D, not pencil sketch. Restrained warm yellow, burgundy, muted purple, orange accents, warm light gray. One compact centered set with 10 percent clear margins, every object fully visible. No people, animals, hands, arrows, words, numbers, labels, borders, background, glow or floor. Three large simple clothespins, natural wood, muted purple and warm yellow. One clipped onto rim of a small plain cream bowl, other two separate. Recognizable pivot and metal spring, clear functional shape.",
+      "path": "assets/fine-motor-props/clothespins.png",
+      "source_output": "exec-3d91277b-94cb-460e-aa8d-a166f008abf0.png",
+      "sha256": "45adbcf2ab7d2a8db60fe98e27d68204f52fa20f35782f4b4400d8b97a90df9f",
+      "reference": {
+        "id": "luke-tool-02",
+        "name": "洗濯ばさみ",
+        "source": "busy",
+        "sourceFact": "Busy Boxに大小の洗濯ばさみが含まれる。",
+        "scene": "Lukeが台紙を支え、子どもが挟む位置を選ぶ。",
+        "design": "押す部分と挟む先を描き分ける。",
+        "context": "手先の遊び",
+        "photo": {
+          "path": "assets/specialist-props/clothespins-afa0400d0f.jpg",
+          "originalUrl": "https://spellbinderswholesale.com/cdn/shop/products/AC-0028-Jumbo-Wooden-Clothespins__44324.1539130912.1280.1280_1200x1200.jpg?v=1657214086",
+          "sourceUrl": "https://spellbinderswholesale.com/products/jumbo-wooden-clothespins",
+          "credit": "Spellbinders · 木製クリップ",
+          "alt": "洗濯ばさみの参考写真",
+          "kind": "参考写真"
+        }
+      },
+      "reference_source": {
+        "title": "Therapro · Therapy Busy Box",
+        "url": "https://www.therapro.com/Therapy-Busy-Box-.html"
+      }
+    },
+    {
+      "slug": "threading-beads",
+      "title": "大きなビーズ・ひも",
+      "scene": "穴に通す・両手を使う",
+      "prompt": "Create an isolated reusable prop illustration, square canvas with genuine transparent background. Supplied image is STYLE/MATERIAL reference only: match the illustrated toys' warm brown outlines, softly shaded flat color, very subtle pale wood grain, gentle highlights, clean simple educational FAQ illustration. Not photorealistic, not glossy 3D, not pencil sketch. Restrained warm yellow, burgundy, muted purple, orange accents, warm light gray. One compact centered set with 10 percent clear margins, every object fully visible. No people, animals, hands, arrows, words, numbers, labels, borders, background, glow or floor. Five LARGE wooden threading beads, round and cube shapes in yellow, orange, purple and natural wood, thick burgundy cord threaded through two with blunt firm cord end beside others. Clear large through holes, minimal wood grain.",
+      "path": "assets/fine-motor-props/threading-beads.png",
+      "source_output": "exec-8bca0665-2865-446b-9ba0-ee00febefcde.png",
+      "sha256": "5576371515424fd30f6533559930e84aa84e988e4f50e867e436972857c54317"
+    },
+    {
+      "slug": "tongs-pompoms",
+      "title": "トング・ポンポン",
+      "scene": "つまんで移す・色分けする",
+      "prompt": "Create an isolated reusable prop illustration, square canvas with genuine transparent background. Supplied image is STYLE/MATERIAL reference only: match the illustrated toys' warm brown outlines, softly shaded flat color, very subtle pale wood grain, gentle highlights, clean simple educational FAQ illustration. Not photorealistic, not glossy 3D, not pencil sketch. Restrained warm yellow, burgundy, muted purple, orange accents, warm light gray. One compact centered set with 10 percent clear margins, every object fully visible. No people, animals, hands, arrows, words, numbers, labels, borders, background, glow or floor. One chunky purple child-friendly plastic tweezer tong, five large soft fuzzy pompoms yellow burgundy orange, two shallow cream sorting bowls. Tong open beside objects, no hands. Simple subtle fuzzy edge, matte plastic.",
+      "path": "assets/fine-motor-props/tongs-pompoms.png",
+      "source_output": "exec-90f51d33-3680-453c-b9ab-d12628a72455.png",
+      "sha256": "c796d3e37f83942e98efe5141317bd126d6b3ac71790085d783669f8f870deb9",
+      "reference": {
+        "id": "luke-tool-01",
+        "name": "大きなピンセット・トング",
+        "source": "busy",
+        "sourceFact": "Busy Boxに大型ピンセットが含まれる。",
+        "scene": "つかみにくい物に合わせて道具の開き幅を変える。",
+        "design": "先端の接点が見えるU字形。",
+        "context": "手先の遊び",
+        "photo": {
+          "path": "assets/specialist-props/tweezers-3e9f89d638.jpg",
+          "originalUrl": "https://www.therapro.com/THC55504_02.jpg",
+          "sourceUrl": "https://www.therapro.com/Tweezers.html",
+          "credit": "Therapro · 製品参考写真",
+          "alt": "大きなピンセット・トングの参考写真",
+          "kind": "参考写真"
+        }
+      },
+      "reference_source": {
+        "title": "Therapro · Therapy Busy Box",
+        "url": "https://www.therapro.com/Therapy-Busy-Box-.html"
+      }
+    },
+    {
+      "slug": "pegboard",
+      "title": "ペグボード",
+      "scene": "差す・抜く・並べる",
+      "prompt": "Create an isolated reusable prop illustration, square canvas with genuine transparent background. Supplied image is STYLE/MATERIAL reference only: match the illustrated toys' warm brown outlines, softly shaded flat color, very subtle pale wood grain, gentle highlights, clean simple educational FAQ illustration. Not photorealistic, not glossy 3D, not pencil sketch. Restrained warm yellow, burgundy, muted purple, orange accents, warm light gray. One compact centered set with 10 percent clear margins, every object fully visible. No people, animals, hands, arrows, words, numbers, labels, borders, background, glow or floor. Small square pale wooden pegboard with 3 by 3 large round holes, five chunky cylinder pegs with rounded heads in yellow orange purple, three inserted and two lying next to board. Accurate simple geometry, clearly open remaining holes.",
+      "path": "assets/fine-motor-props/pegboard.png",
+      "source_output": "exec-84ba12bc-2296-481c-a946-63c6a476827c.png",
+      "sha256": "df0d38e0cb8f2a69be188dd0a31406250d1803f75ecb1779185527d99115c7f3"
+    },
+    {
+      "slug": "scissors-paper",
+      "title": "はさみ・色紙",
+      "scene": "開閉する・一回切りする",
+      "prompt": "Create an isolated reusable prop illustration, square canvas with genuine transparent background. Supplied image is STYLE/MATERIAL reference only: match the illustrated toys' warm brown outlines, softly shaded flat color, very subtle pale wood grain, gentle highlights, clean simple educational FAQ illustration. Not photorealistic, not glossy 3D, not pencil sketch. Restrained warm yellow, burgundy, muted purple, orange accents, warm light gray. One compact centered set with 10 percent clear margins, every object fully visible. No people, animals, hands, arrows, words, numbers, labels, borders, background, glow or floor. One child-sized round-tip scissors with burgundy two-loop handle, short matte gray metal blades slightly open and correct pivot. Two small sheets warm yellow and muted purple paper, one short cut and one strip beside them. No fingers or hands.",
+      "path": "assets/fine-motor-props/scissors-paper.png",
+      "source_output": "exec-3fd169be-acd1-4869-bd7c-c2ecef783fae.png",
+      "sha256": "1924805f456f92d775bea7c839bf7e89e1c29690e57bbeed1ce1cd95314bc3ce"
+    },
+    {
+      "slug": "dressing-board",
+      "title": "ボタン・ファスナーの練習布",
+      "scene": "留める・外す・引き上げる",
+      "prompt": "Create an isolated reusable prop illustration, square canvas with genuine transparent background. Supplied image is STYLE/MATERIAL reference only: match the illustrated toys' warm brown outlines, softly shaded flat color, very subtle pale wood grain, gentle highlights, clean simple educational FAQ illustration. Not photorealistic, not glossy 3D, not pencil sketch. Restrained warm yellow, burgundy, muted purple, orange accents, warm light gray. One compact centered set with 10 percent clear margins, every object fully visible. No people, animals, hands, arrows, words, numbers, labels, borders, background, glow or floor. Two small rectangular fabric practice panels side by side: light warm gray cloth with three large burgundy buttons and clearly matching buttonholes on open flap, second purple cloth with one partly opened yellow zipper, readable large pull tab. Subtle woven texture and sparse stitching, no text.",
+      "path": "assets/fine-motor-props/dressing-board.png",
+      "source_output": "exec-1cd89d98-be73-4b93-909a-623fa5ea03ad.png",
+      "sha256": "339d16e5e156d0847181765af6e007fc6a8c44335b2dd121d816ce0bb0528f30"
+    },
+    {
+      "slug": "building-blocks",
+      "title": "大きな組み立てブロック",
+      "scene": "組む・外す・重ねる",
+      "prompt": "Create an isolated reusable prop illustration, square canvas with genuine transparent background. Supplied image is STYLE/MATERIAL reference only: match the illustrated toys' warm brown outlines, softly shaded flat color, very subtle pale wood grain, gentle highlights, clean simple educational FAQ illustration. Not photorealistic, not glossy 3D, not pencil sketch. Restrained warm yellow, burgundy, muted purple, orange accents, warm light gray. One compact centered set with 10 percent clear margins, every object fully visible. No people, animals, hands, arrows, words, numbers, labels, borders, background, glow or floor. Four chunky unbranded interlocking plastic building bricks, two stacked with two beside, warm yellow orange muted purple and light warm gray. Rounded corners, large studs, simple correct perspective, matte surface with gentle edge highlights. No logos.",
+      "path": "assets/fine-motor-props/building-blocks.png",
+      "source_output": "exec-3fd85522-551b-4fa2-ae28-cbd3214c49ee.png",
+      "sha256": "7c2c84c42ab1b5e7b45c6feab707b70024b01d9455713d7a5ab0b2e384e53f16"
+    }
+  ],
+  "character": "Luke"
+}
