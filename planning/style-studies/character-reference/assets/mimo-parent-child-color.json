@@ -1,0 +1,7 @@
+{
+  "tool": "built-in image_gen",
+  "use_case": "precise-object-edit",
+  "source": "mimo-child-study.png",
+  "output": "mimo-parent-child-color.png",
+  "prompt": "Use case: precise-object-edit. Edit the supplied Mimo parent-child illustration, making a flat colored variant. Preserve precisely the pair's head shapes, poses, size ratio, compact bodies, brown smooth outlines, facial features, child eye highlights and cheek strokes, chest symbols and composition. Adult left, child right. Fill ALL exposed bird plumage (head, wings, adult single crown feather and child's two crown feathers) muted yellow #D7C862. Fill both shirts light warm gray #DCD5D2. Keep orange collars, beaks, orange U plus two dots unchanged; preserve child's pink cheeks. Clean solid flat color, no gradients, no texture, no shading, no extra objects or text. Preserve genuinely transparent background and opaque character fills. Change only the specified fill colors."
+}

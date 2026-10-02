@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "use_case": "precise-object-edit",
+  "source": "gen-child-study.png",
+  "output": "gen-parent-child-color.png",
+  "prompt": "Use case: precise-object-edit. Edit supplied Gen rabbit parent-child illustration to a colored variant. Change ONLY both rabbits' tops to solid burgundy #7D2741. Preserve everything else: opaque white fur, brown smooth linework, same exact head shapes, body proportions, positions, size ratio and pose; adult left has one upright ear and one bent tip, child right has upright ear bases with folded tips, original eyes and tiny white eye highlights, child pink cheek marks with short diagonal strokes, yellow neck scarves, orange U plus two-dot chest marks. White background, no shadows or gradients, no texture, no redesign, no additional lettering. Keep full bodies and all ears/feet visible. Match original canvas layout.",
+  "edits": [
+    {
+      "tool": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Image 1 is edit target: Gen rabbit parent-child colored illustration. Image 2 is reference ONLY for close-fitting shirt construction on Mimo. Edit BOTH rabbits' burgundy shirts to fit snugly along their rounded torsos like Mimo's shirt. Remove the projecting triangular flared short sleeves and skirt-like flared hem. Short sleeves closely follow upper arms, side seams smoothly follow torso contour, hem meets body sides flush without protruding corners or gaps; gentle curved hem across belly. Comfortable simple fitted tee, no wrinkles or muscular anatomy. Keep original burgundy #7D2741. Preserve everything else from image 1 exactly: white fur, head and face shapes, ear positions, eyes and highlights, child cheek strokes, yellow scarves, orange U plus two-dot chest mark, arm/leg poses, body sizes, parent-child ratio, smooth brown outline style and full-body composition on white background. Do NOT copy Mimo bird anatomy or colors. Change shirt fit only. No text."
+    }
+  ]
+}
