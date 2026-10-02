@@ -1,0 +1,282 @@
+{
+  "status": "editorial-proposal-not-published",
+  "date": "2026-10-02",
+  "scope": "感覚・手・道具の10stageに関連するactivity文言案。ローカル保存のactivity本文のみ照合。現行DBの全件照合は未実施。",
+  "source": "../activity-media/source-inventory.json",
+  "excluded_deleted_record": "70f029ce-168a-44e1-863c-40bc886a3926",
+  "activities": [
+    {
+      "slug": "follow-toy",
+      "stages": [
+        "tracking"
+      ],
+      "title": "気になるおもちゃを目で追う",
+      "description": "気になる物の動きを、一緒に眺める遊びです。",
+      "how_to_play": [
+        "見ているおもちゃを、見やすい場所でゆっくり動かします。",
+        "途中で止めて、目や顔の向きを待ちます。",
+        "視線が離れたら一休み。興味が戻ったらまた遊びます。"
+      ],
+      "observation": "何に目が向くか、動きが止まったときにどう見るか。",
+      "props": [],
+      "note": "",
+      "existing_activity_id": null,
+      "status": "新規候補・既存全件との照合前"
+    },
+    {
+      "slug": "notice-sound",
+      "stages": [
+        "sound"
+      ],
+      "title": "あれ、どこから聞こえた？",
+      "description": "声や身近な音に気づいた瞬間を、一緒に楽しみます。",
+      "how_to_play": [
+        "静かな場所で、見える位置からやさしく声をかけます。",
+        "音を出したら少し待ち、目・顔・体の動きを見ます。",
+        "気づいた様子に合わせて「ここにいるよ」と応じます。"
+      ],
+      "observation": "顔を向ける以外にも、動きを止めるなどの反応。",
+      "props": [],
+      "note": "",
+      "existing_activity_id": null,
+      "status": "新規候補・既存全件との照合前"
+    },
+    {
+      "slug": "dough-play",
+      "stages": [
+        "texture"
+      ],
+      "title": "粘土を押す・伸ばす",
+      "description": "指でも道具でも、気になる方法で粘土の形を変えます。",
+      "how_to_play": [
+        "粘土とローラーを見えるところに置き、触り方を選べるようにします。",
+        "指で押す、ローラーを転がすなど、一つの動きを一緒に試します。",
+        "できた跡や形を見て、続けるか終えるかを選びます。"
+      ],
+      "observation": "触る場所、道具の選び方、形の変化への気づき。",
+      "props": [
+        "dough-roller"
+      ],
+      "note": "見るだけ・道具越しに触る選択もできます。",
+      "existing_activity_id": null,
+      "status": "新規候補・既存全件との照合前"
+    },
+    {
+      "slug": "reach-toy",
+      "stages": [
+        "reach"
+      ],
+      "title": "気になる物へ手を伸ばす",
+      "description": "見つけた物へ、自分から手を伸ばす時間を作ります。",
+      "how_to_play": [
+        "いつもの安定した姿勢で、気になるおもちゃを見せます。",
+        "届きそうな位置に置き、手が動くのを待ちます。",
+        "触れた物を確かめる時間を取り、必要なら位置を変えます。"
+      ],
+      "observation": "目線と手の行き先、手を伸ばそうとする動き。",
+      "props": [],
+      "note": "",
+      "existing_activity_id": null,
+      "status": "新規候補・既存全件との照合前"
+    },
+    {
+      "slug": "move-by-hand",
+      "stages": [
+        "grasp",
+        "release"
+      ],
+      "title": "つまんで、器へ移す",
+      "description": "物を持ち上げて、隣の器へ移す遊びです。",
+      "how_to_play": [
+        "扱いやすい大きさの物と、浅い器を二つ用意します。",
+        "一つ持ち上げ、隣の器で手を離す様子を見せます。",
+        "持ち方や器の位置を変えながら、一緒に試します。"
+      ],
+      "observation": "手のどこで持つか、入れたい場所でどう離すか。",
+      "props": [],
+      "note": "口に物を入れる時期は、小さなポンポンやビー玉を使わず、大きな物を選びます。",
+      "existing_activity_id": null,
+      "status": "新規候補・既存全件との照合前"
+    },
+    {
+      "slug": "tongs-transfer",
+      "stages": [
+        "grasp",
+        "release"
+      ],
+      "title": "トングでつかんで移す",
+      "description": "道具でつかむ感触を確かめながら、物を器へ移します。",
+      "how_to_play": [
+        "開閉しやすいトングと、つかみやすい物を用意します。",
+        "閉じるとつかめる、緩めると離れる様子を見せます。",
+        "近くの器へ一つずつ移します。素手で確かめても構いません。"
+      ],
+      "observation": "道具を閉じる動きと、離すタイミング。",
+      "props": [
+        "tongs-pompoms"
+      ],
+      "note": "小物を口に入れないか、大人がそばで見守ります。",
+      "existing_activity_id": null,
+      "status": "新規候補・既存全件との照合前"
+    },
+    {
+      "slug": "clip-edge",
+      "stages": [
+        "grasp",
+        "bilateral"
+      ],
+      "title": "洗濯ばさみを縁にはさむ",
+      "description": "片手で支えながら、もう片方の手で洗濯ばさみを開きます。",
+      "how_to_play": [
+        "軽い力で開く洗濯ばさみと、厚紙や容器を用意します。",
+        "押す場所を一緒に確かめ、縁にはさんでみます。",
+        "外す、場所を変えるなど、気になる動きを繰り返します。"
+      ],
+      "observation": "支える手と開く手が、どう役割を分けるか。",
+      "props": [
+        "clothespins"
+      ],
+      "note": "",
+      "existing_activity_id": null,
+      "status": "新規候補・既存全件との照合前"
+    },
+    {
+      "slug": "thread-beads",
+      "stages": [
+        "bilateral"
+      ],
+      "title": "大きなビーズにひもを通す",
+      "description": "ビーズを支える手と、ひもを動かす手を使って遊びます。",
+      "how_to_play": [
+        "穴が大きなビーズと、先端がまとまった短いひもを用意します。",
+        "穴とひもの先を近づけ、通すところを一緒に試します。",
+        "先が出たら引き出します。色や並べ方は自由に選べます。"
+      ],
+      "observation": "支える、狙う、持ち替える、引く動き。",
+      "props": [
+        "threading-beads"
+      ],
+      "note": "大人と一緒に使い、ひもを首や体に巻かないようにします。",
+      "existing_activity_id": "d69a5577-2d8c-4b11-b044-aed83a86ced5",
+      "status": "既存文言の修正案"
+    },
+    {
+      "slug": "stack-build",
+      "stages": [
+        "building"
+      ],
+      "title": "重ねる・つなぐ・形を作る",
+      "description": "置き方やつなぎ方を試して、自分の形を作ります。",
+      "how_to_play": [
+        "持ちやすい積み木やブロックを少量置きます。",
+        "重ねる、横に並べる、つなぐなど、子どもの動きに合わせます。",
+        "崩したり外したりすることも、遊びの一部として楽しみます。"
+      ],
+      "observation": "向きの調整、置く位置、手を離すタイミング。",
+      "props": [
+        "building-blocks"
+      ],
+      "note": "",
+      "existing_activity_id": null,
+      "status": "新規候補・既存全件との照合前"
+    },
+    {
+      "slug": "shape-fit",
+      "stages": [
+        "building",
+        "release"
+      ],
+      "title": "形を合わせて、入れてみる",
+      "description": "形と穴を見比べ、向きを変えながらはめて遊びます。",
+      "how_to_play": [
+        "扱いやすい一つの形から、形と穴を一緒に見ます。",
+        "必要なら穴を指さしたり、近くへ置いたりして手がかりを作ります。",
+        "入らないときも、回す・別の穴を試す時間を待ちます。"
+      ],
+      "observation": "見比べる、回す、押すなど、合わせようとする工夫。",
+      "props": [],
+      "note": "形の順番を固定せず、興味や扱いやすさに合わせます。",
+      "existing_activity_id": "c2277d8d-bf50-483d-bf12-8b21c5ebaa2a",
+      "status": "既存文言の修正案"
+    },
+    {
+      "slug": "draw-marks",
+      "stages": [
+        "drawing"
+      ],
+      "title": "線や跡を残して遊ぶ",
+      "description": "手を動かして残る線や色を楽しみます。",
+      "how_to_play": [
+        "紙と、持ちやすいクレヨンや太い鉛筆を用意します。",
+        "点や線を自由に描き、大人も隣で描いてみます。",
+        "まねしたくなったら短い線や丸を一緒に試します。"
+      ],
+      "observation": "描く手の動き、紙を支える手、線への気づき。",
+      "props": [
+        "child-pencil"
+      ],
+      "note": "決まった形や持ち方を完成させることだけを目標にしません。",
+      "existing_activity_id": null,
+      "status": "新規候補・既存全件との照合前"
+    },
+    {
+      "slug": "paper-snip",
+      "stages": [
+        "cutting"
+      ],
+      "title": "紙をちょきんと切ってみる",
+      "description": "片手で紙を支え、はさみを閉じて切れ目を作ります。",
+      "how_to_play": [
+        "手に合うはさみと、一回で切りやすい細い紙を用意します。",
+        "紙を支える手を刃から離し、はさみを開閉してみます。",
+        "切れ目や切れ端を一緒に見ます。続けたいときは紙の位置を調整します。"
+      ],
+      "observation": "紙を支える手と、はさみを動かす手の役割。",
+      "props": [
+        "child-scissors",
+        "spring-assisted-scissors",
+        "scissors-paper"
+      ],
+      "note": "はさみは大人がそばで見守って使います。バネ付きは、力を緩めると開く動きを補う選択肢です。",
+      "existing_activity_id": null,
+      "status": "新規候補・既存全件との照合前"
+    },
+    {
+      "slug": "tear-paste",
+      "stages": [
+        "cutting"
+      ],
+      "title": "ちぎった紙を貼ってみる",
+      "description": "紙をちぎってできた形を、好きな場所に貼って楽しみます。",
+      "how_to_play": [
+        "ちぎりやすい紙と台紙、のりを用意します。",
+        "両手で紙を持ち、引く向きを変えながらちぎってみます。",
+        "できた形を並べ、貼りたい場所を選びます。"
+      ],
+      "observation": "両手の動き、形や配置の選び方。",
+      "props": [],
+      "note": "",
+      "existing_activity_id": null,
+      "status": "新規候補・既存全件との照合前"
+    },
+    {
+      "slug": "fold-paper",
+      "stages": [
+        "cutting",
+        "bilateral"
+      ],
+      "title": "紙の端を合わせて折る",
+      "description": "紙の端を近づけ、押さえると形が変わることを楽しみます。",
+      "how_to_play": [
+        "扱いやすい大きさの紙を一枚用意します。",
+        "端と端を近づけ、片手で押さえます。",
+        "もう片方の手で折り目を押し、開いた形も見てみます。"
+      ],
+      "observation": "合わせる手と押さえる手の動き。",
+      "props": [],
+      "note": "",
+      "existing_activity_id": null,
+      "status": "新規候補・既存全件との照合前"
+    }
+  ]
+}

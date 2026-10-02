@@ -131,13 +131,15 @@
     {
       "slug": "marbles",
       "title": "ビー玉",
-      "scene": "転がす・つまんで移す場面",
-      "character": "Luke",
+      "scene": "容器の中で転がる音を聞く",
+      "character": "Mimo",
       "prompt": "Create a square isolated reusable prop illustration for a Japanese educational FAQ character prop library. Input image is STYLE reference only. Match its warm brown outlines, softly shaded flat colors, gentle highlights and simple friendly material texture. No photorealism or glossy 3D render. Generous clear margins, whole subject centered and visible. Genuine transparent background. No people, animals, hands, words, labels, numbers, scene, floor, border. Subject: A compact group of six glass toy marbles, translucent warm yellow, orange, purple and teal glass with a simple swirl inside each, restrained highlights, fully separated and clearly spherical.",
       "tool": "built-in image_gen",
       "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-9a50d217-3d33-434b-976f-0e0327c3d324.png",
       "path": "assets/fine-motor-props/marbles.png",
-      "sha256": "abad68c2b0e06956ae3afb7c447c37fd28c14148772a46d8ef24b6b5ad0f757f"
+      "sha256": "abad68c2b0e06956ae3afb7c447c37fd28c14148772a46d8ef24b6b5ad0f757f",
+      "stage_id": "550e8400-e29b-41d4-a716-446655440002",
+      "activity_id": "92080744-4d65-4e8c-8874-774f72a9a714"
     },
     {
       "slug": "cleaning-cloth",
@@ -160,6 +162,37 @@
       "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-17f6ad9e-32b2-44b2-b01e-2feb3e093a24.png",
       "path": "assets/fine-motor-props/finger-extension-band.png",
       "sha256": "63a928f11e14651bde2dd4f26165a708b1a01059ce14935657f4e832be48d081"
+    },
+    {
+      "slug": "child-scissors",
+      "title": "子ども用はさみ",
+      "scene": "持つ・開閉する・紙に切れ目を入れる場面",
+      "prompt": "Create one isolated reusable educational FAQ prop illustration. Reference is style only: warm brown clean outlines, softly shaded flat colors, subtle pale wood texture where appropriate, restrained purple and yellow palette. Square canvas genuine transparent background, generous margins, no text, scene, border, floor. Subject: One pair of child-sized scissors, short silver-gray blades with visibly blunt rounded tips, purple comfortable handle loops, one small thumb loop and one larger rounded finger loop. Slightly open, full object visible, mechanically correct single pivot. No paper, no hands.",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-b243ea75-a3ec-412d-9e34-75a5d9334a4f.png",
+      "path": "assets/fine-motor-props/child-scissors.png",
+      "sha256": "d3d3459504d686e5455738d720fb93389cf948c361c88a72028a121b2898ae36",
+      "style_reference": "assets/fine-motor-props/scissors-paper.png"
+    },
+    {
+      "slug": "child-pencil",
+      "title": "子ども用の太い鉛筆",
+      "scene": "持ちやすい鉛筆で線や形を描く場面",
+      "prompt": "Create one isolated reusable educational FAQ prop illustration. Reference is style only: warm brown clean outlines, softly shaded flat colors, subtle pale wood texture where appropriate, restrained purple and yellow palette. Square canvas genuine transparent background, generous margins, no text, scene, border, floor. Subject: One short thick triangular-barrel beginner graphite pencil, warm yellow painted wooden barrel, clearly visible simple triangular flat facets, exposed pale wood sharpening around a dark graphite writing point. Full pencil diagonally centered, no eraser, no brand or letters, not a crayon. No paper, no hands.",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-f9498680-e213-46e3-83c9-689f339490e6.png",
+      "path": "assets/fine-motor-props/child-pencil.png",
+      "sha256": "5d685fc1c694261ca690ece287ca0e2e81c576c0f62036a64f23eed09322d5af",
+      "style_reference": "assets/fine-motor-props/scissors-paper.png"
+    },
+    {
+      "slug": "spring-assisted-scissors",
+      "title": "バネ付き子ども用はさみ",
+      "scene": "握って切る・力を緩めると開く",
+      "path": "assets/fine-motor-props/spring-assisted-scissors.png",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-c7c44def-3d32-4759-9c3b-c7a33bb557f6.png",
+      "prompt": "Edit this child scissors illustration to create a spring-assisted child training scissors variant. Preserve the purple handle loops, short rounded silver blades, single metal pivot, warm brown clean outlines and subtle shading. Add a clearly visible golden yellow flexible return-spring lever BETWEEN the two purple handles, just behind the pivot. It is a small curved resilient plastic strip anchored on the inner lower handle, with its free tip pressing against the inner upper handle, mechanically plausible, pushing handles apart when grip relaxes. Show scissors partially open so this curved yellow spring and its contact are easily seen. No coil across blades, no extra blades, no hands, text, arrows, labels or inset. One isolated full object with margins on genuine transparent background. Match reference material style, not photorealism.",
+      "sha256": "952cba20476b31d117cdb5fa8a9ac70851d0c41ba67f3a853fb7168de38d04fb",
+      "style_reference": "assets/fine-motor-props/child-scissors.png",
+      "tool": "built-in image_gen"
     }
   ],
   "character": "Luke",

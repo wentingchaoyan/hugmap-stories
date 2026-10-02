@@ -1,0 +1,492 @@
+{
+  "date": "2026-10-02",
+  "status": "prototype-not-published",
+  "tool": "built-in image_gen",
+  "scope": "感覚・手・道具の有効な10stage。各stageの導入画面1例であり、全development itemを描き終えたものではない。",
+  "source_snapshot_at": "2026-09-25T04:40:33.366Z",
+  "stages": [
+    {
+      "slug": "tracking",
+      "stage_id": "550e8400-e29b-41d4-a716-446655440001",
+      "title": "動くものを目で追う",
+      "caption": "気になったものへ、目を向ける。",
+      "observation": "目と顔の向き、見ている物の位置が分かるようにします。",
+      "layout": "single",
+      "supplementary": [],
+      "prompt": "Create one warm educational illustration in the SAME style as reference: clean warm brown outlines, restrained flat colors with gentle shading, pale wooden table, human child hands with accurate anatomy, no animal hands. Reference is style only, replace threading activity with requested scene. Landscape 3:2 image. Plain white background beyond table; focus on single readable action. No text, labels, borders, panels, decorative graphics. SUBJECT: One young child seated comfortably at a pale table, upper body three quarter front view, both eyes clearly looking toward a small warm yellow fabric square held by one adult hand at child's eye height to the viewer's right. The cloth is near and clearly separated from the face. Gentle calm expression. The child's hands rest naturally on tabletop. One single still scene, no arrows, no repeated cloth positions. Keep head and gaze the focus, pale background. Child with simple short dark hair, cream long-sleeve shirt.",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-b6a76df7-6941-4b32-b894-736ec0d8688a.png",
+      "asset_path": "assets/stage-examples/fine-motor-tracking.png",
+      "lead": "動くものへ目や顔を向ける姿を見つけます。何が気になるか、どちらへ視線が動くかを見てみます。",
+      "sha256": "c79006d52b36725baa03f0825b28e1fff6d33802081f25f09ae79269ab464f9a",
+      "existing_items": [
+        {
+          "id": "c5d54cb8-10a2-47ef-bcd2-d2625e70fbd2",
+          "text": "頭や目の向きを意図的に変える"
+        },
+        {
+          "id": "8e7d2aac-d59f-489f-bf2c-cbc188123cac",
+          "text": "両目で人やものを追視する"
+        },
+        {
+          "id": "3ec4332c-18ee-4481-b4dc-fcd46ca86a97",
+          "text": "落ちるおもちゃを観察する"
+        }
+      ],
+      "activity_proposals": [
+        "follow-toy"
+      ]
+    },
+    {
+      "slug": "sound",
+      "stage_id": "550e8400-e29b-41d4-a716-446655440002",
+      "title": "声や音に気づく",
+      "caption": "あれ、どこから聞こえた？",
+      "observation": "音のする物と、顔を向ける子どもを一緒に見せます。",
+      "layout": "single",
+      "supplementary": [],
+      "prompt": "Create one warm educational illustration in the SAME style as reference: clean warm brown outlines, restrained flat colors with gentle shading, pale wooden table, human child hands with accurate anatomy, no animal hands. Reference is style only, replace threading activity with requested scene. Landscape 3:2 image. Plain white background beyond table; focus on single readable action. No text, labels, borders, panels, decorative graphics. SUBJECT: One young child seated at a pale table, upper body, turning head slightly toward one adult hand holding a small wooden rattle on the right in plain view. Curious calm face, mouth relaxed, dark eyes visibly directed toward rattle. Rattle has a wooden handle and warm yellow round head, add only two subtle short curved vibration marks by rattle. Natural child anatomy, simple short dark hair, cream long-sleeve shirt. Do not put object near ear; show comfortable space.",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-b2ee13bd-72cc-4902-8509-91f7b4c00099.png",
+      "asset_path": "assets/stage-examples/fine-motor-sound.png",
+      "lead": "声や物音に気づいて、動きを止めたり、顔を向けたりする姿を見つけます。",
+      "sha256": "1ae6157897ea26a4d2f2069ea7fe7cce8dab088ec7b6b06cc8585396f2437bca",
+      "existing_items": [
+        {
+          "id": "70108fee-18cd-45f9-9377-19a737335fb9",
+          "text": "生活の中で聞こえてくる音に気がつく"
+        },
+        {
+          "id": "06150ab9-c40e-46dc-a829-0b80a65dcbb5",
+          "text": "声や音の方に目や頭を向ける"
+        }
+      ],
+      "activity_proposals": [
+        "notice-sound"
+      ]
+    },
+    {
+      "slug": "texture",
+      "stage_id": "550e8400-e29b-41d4-a716-446655440038",
+      "title": "触り方や感じ方を自分で選ぶ",
+      "caption": "ちょん、と触れてみる。",
+      "observation": "触れる場所と素材の変化を見つけます。",
+      "layout": "single",
+      "supplementary": [],
+      "prompt": "Create one warm educational illustration in the SAME style as reference: clean warm brown outlines, restrained flat colors with gentle shading, pale wooden table, human child hands with accurate anatomy, no animal hands. Reference is style only, replace threading activity with requested scene. Landscape 3:2 image. Plain white background beyond table; focus on single readable action. No text, labels, borders, panels, decorative graphics. SUBJECT: Close-up of two human child hands over a pale wooden tabletop. One index fingertip gently pressing a shallow dimple into one soft yellow lump of play dough; other hand rests relaxed nearby, not restraining. Clear point of contact and small indentation. Natural fingers, cream sleeves. Only dough and hands, no tools or surplus objects.",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-7f8e5e2b-28f6-424c-8b56-24c665887a18.png",
+      "asset_path": "assets/stage-examples/fine-motor-texture.png",
+      "lead": "見る、少し触れる、道具を使う。自分に合う触り方や、触らない選択も大切にします。",
+      "sha256": "e444f4f973eee9aea7acfe33342c19cd6c92caa5fbb78c3d0a394085e7ce4242",
+      "existing_items": [
+        {
+          "id": "759cc6fc-8435-4fde-ac6a-81e58c4df90f",
+          "text": "砂・水・粘土など感覚遊びを楽しむ"
+        },
+        {
+          "id": "a1dd155d-8484-4e89-86fb-7c603696ae00",
+          "text": "物を口に入れて確かめる"
+        },
+        {
+          "id": "e76d30ce-f5c1-4d8c-a675-2bd5e4f3e238",
+          "text": "様々な質感のものに触れて遊ぶ"
+        },
+        {
+          "id": "737d449b-cbef-4769-d6e6-f7bf68a3b502",
+          "text": "手、口、音など、自分に合う方法で素材を確かめる"
+        }
+      ],
+      "activity_proposals": [
+        "dough-play"
+      ]
+    },
+    {
+      "slug": "reach",
+      "stage_id": "550e8400-e29b-41d4-a716-446655440012",
+      "title": "見ながら手を伸ばす",
+      "caption": "見つけたものへ、手が伸びる。",
+      "observation": "目線と手の行き先、物までの距離を見せます。",
+      "layout": "single",
+      "supplementary": [],
+      "prompt": "Create one warm educational illustration in the SAME style as reference: clean warm brown outlines, restrained flat colors with gentle shading, pale wooden table, human child hands with accurate anatomy, no animal hands. Reference is style only, replace threading activity with requested scene. Landscape 3:2 image. Plain white background beyond table; focus on single readable action. No text, labels, borders, panels, decorative graphics. SUBJECT: One young child upper body seated securely at a very pale low table. Child looks at a large purple wooden toy cube with softly rounded edges within easy reach, extending an open hand toward it, fingertips almost touching. Other forearm resting on tabletop, shoulders relaxed. Both face gaze and reaching hand clearly visible, one object only. Simple short dark hair, cream sleeves, natural child anatomy. No adult, no arrows.",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-888f23b6-743f-471e-a2df-da8982add5fc.png",
+      "asset_path": "assets/stage-examples/fine-motor-reach.png",
+      "lead": "気になった物を見ながら、手を伸ばす姿を見つけます。目線と手の行き先を一緒に見てみます。",
+      "sha256": "cb67cc44cff91afa032535b0949ff4f2701d79038e14d3bd1655293cd171e22d",
+      "existing_items": [
+        {
+          "id": "eb3e9c8c-7c1b-49c0-8d26-b38c2885df55",
+          "text": "顔や近くの物に両手を伸ばす"
+        },
+        {
+          "id": "c28833e8-6d3b-4990-8d59-cd3c467fe60a",
+          "text": "興味のあるおもちゃを注視し、観察する"
+        }
+      ],
+      "activity_proposals": [
+        "reach-toy"
+      ]
+    },
+    {
+      "slug": "grasp",
+      "stage_id": "550e8400-e29b-41d4-a716-446655440013",
+      "title": "にぎる・指でつまむ",
+      "caption": "指先を合わせて、つまむ。",
+      "observation": "親指と人差し指が物に触れるところを大きく見せます。",
+      "layout": "single",
+      "supplementary": [],
+      "prompt": "Create one warm educational illustration in the SAME style as reference: clean warm brown outlines, restrained flat colors with gentle shading, pale wooden table, human child hands with accurate anatomy, no animal hands. Reference is style only, replace threading activity with requested scene. Landscape 3:2 image. Plain white background beyond table; focus on single readable action. No text, labels, borders, panels, decorative graphics. SUBJECT: Tight close-up one HUMAN child's hand using thumb and index finger to pinch a LARGE fluffy purple pompom from a pale tabletop. Pompom about the width of two fingertips, not a tiny marble or food. Thumb pad and index pad visibly contact opposite sides, remaining three fingers loosely curled naturally. Wrist and cream sleeve enter from lower right. One pompom only, clearly lifted slightly from table. No tool, no extra hand.",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-21178b81-d4e2-4f09-abd3-cbd68221bc0f.png",
+      "asset_path": "assets/stage-examples/fine-motor-grasp.png",
+      "lead": "手のひらで持つ、指先を合わせる。物に合わせて持ち方を変える姿を見つけます。",
+      "sha256": "5728ce88d05b8767982507ba940d5f5062b4b006a6600e70976e9b4889cdbdb0",
+      "existing_items": [
+        {
+          "id": "947ab60c-487e-4f87-84ba-8e8b9ea1bb5a",
+          "text": "利き手の傾向が現れる"
+        },
+        {
+          "id": "b8248cb0-a057-46ca-b977-38265a044abf",
+          "text": "パンくずのような小さな物を人差し指で突く"
+        },
+        {
+          "id": "b89bb48d-a0d5-45db-87b6-ca1cb4b80356",
+          "text": "小さな物体を小さな容器に入れる"
+        },
+        {
+          "id": "c632f703-aa25-4249-aeb6-401157da57f0",
+          "text": "物を叩く、振る、回す"
+        },
+        {
+          "id": "492ce083-838f-431a-a325-858d72dfb8b0",
+          "text": "片手で物を掴みながらもう一方の手を伸ばす"
+        },
+        {
+          "id": "3cb5fdf4-9df9-4c18-ac40-184f86398d5b",
+          "text": "手はほとんど開いている状態で過ごす"
+        },
+        {
+          "id": "f992e089-b7ac-4824-bc27-a601ae0a98b2",
+          "text": "手のひらで物を掴む（手のひら掴み）"
+        },
+        {
+          "id": "d965be47-38e3-470a-98c1-9df9fb808757",
+          "text": "両手でおもちゃをすくう／中央に集める"
+        },
+        {
+          "id": "7655b8f5-51c7-4113-8991-a884bf7c3d13",
+          "text": "おもちゃを手から手へ渡す／両手でそれぞれ掴む"
+        },
+        {
+          "id": "ebff89ef-8407-4a7a-b049-e61605839c42",
+          "text": "ぬいぐるみやボールなど大きな物を拾う"
+        },
+        {
+          "id": "5b9598bc-6947-47bc-a0cf-b2c59a7b4405",
+          "text": "未熟な親指と他の指の腹でつまむ"
+        },
+        {
+          "id": "de33946a-3b02-4869-83cc-ce0a5bfb0874",
+          "text": "容器へ物を入れ、取り出したりひっくり返したりする"
+        },
+        {
+          "id": "8102d05e-329d-4992-83d9-c39b9ed22e27",
+          "text": "親指と人差し指の「はさみつまみ」で掴む"
+        },
+        {
+          "id": "d6cf86da-2d96-bac5-5ecc-ea6955f5bb6d",
+          "text": "小さな物へ目と指を合わせ、指先でつまむ"
+        }
+      ],
+      "activity_proposals": [
+        "move-by-hand",
+        "tongs-transfer",
+        "clip-edge"
+      ]
+    },
+    {
+      "slug": "release",
+      "stage_id": "550e8400-e29b-41d4-a716-446655440015",
+      "title": "運ぶ・離す・容器に入れる",
+      "caption": "入れたいところで、手を開く。",
+      "observation": "容器の縁と、手から離れる物の位置を見せます。",
+      "layout": "single",
+      "supplementary": [],
+      "prompt": "Create one warm educational illustration in the SAME style as reference: clean warm brown outlines, restrained flat colors with gentle shading, pale wooden table, human child hands with accurate anatomy, no animal hands. Reference is style only, replace threading activity with requested scene. Landscape 3:2 image. Plain white background beyond table; focus on single readable action. No text, labels, borders, panels, decorative graphics. SUBJECT: Close-up two HUMAN child hands. Left hand stabilizes rim of a low wide pale wooden open box on table. Right hand opens naturally just after releasing one large yellow wooden cube a very short distance above the INSIDE of the box. Clearly five fingers, fingers no longer touching cube; cube visibly inside rim horizontally, falling short distance only. Three quarter top view, box interior visible, no arrows, no motion trails, cream sleeves, one cube only.",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-883041eb-99fb-401f-9bd8-baa590fa9280.png",
+      "asset_path": "assets/stage-examples/fine-motor-release.png",
+      "lead": "持っている物を運び、入れたい場所で手を離す。物と手の動きを一緒に見てみます。",
+      "sha256": "ae78a41d545b625f1e8e7b0a4c73bfdc10e1b676b6880c9b2aa0e1baeb640d19",
+      "existing_items": [
+        {
+          "id": "902ce532-4ca2-4207-b7d5-7a3ccaa01c12",
+          "text": "握った物を固い面に押しつけて落とす"
+        },
+        {
+          "id": "7e8441d0-8f76-45a7-931a-0a16c31ae2b2",
+          "text": "容器に物を入れる・取り出す・ひっくり返す"
+        },
+        {
+          "id": "5e820289-078a-4f46-b706-49801f24ba40",
+          "text": "両手を使って中央で操作する（例：2つのブロックをぶつける）"
+        },
+        {
+          "id": "95a263b9-f4d1-44ca-acd6-fc235b5aa16a",
+          "text": "ペグやパズルピースを外す／丸いパズルをはめる"
+        },
+        {
+          "id": "4cba2e69-039b-47e5-904c-2e7017641e8c",
+          "text": "持っている物から手を離し、落ちる様子を見る"
+        },
+        {
+          "id": "491943c5-8489-fa59-8e00-06ae0c5a116e",
+          "text": "物を入れる、取り出す、注ぐ、手を離す動きを試す"
+        }
+      ],
+      "activity_proposals": [
+        "move-by-hand",
+        "tongs-transfer",
+        "shape-fit"
+      ]
+    },
+    {
+      "slug": "bilateral",
+      "stage_id": "660e8400-e29b-41d4-a716-446655440003",
+      "title": "両手を一緒に使う",
+      "caption": "支える手と、通す手。",
+      "observation": "ビーズを支える手と、紐の先を動かす手の役割を見せます。",
+      "layout": "single",
+      "supplementary": [],
+      "prompt": "Create a warm educational illustration for a Japanese child-development stage explanation, one clear main scene of a child's TWO HUMAN HANDS threading a large wooden bead. Reference image is prop material and color reference only. Tight close-up from above of forearms entering naturally from bottom left and bottom right, simple cream sleeves, age-appropriate small human hands with believable five-finger anatomy. Left hand gently holds one large warm yellow rounded wooden bead from its bottom and far edge, leaving the central through-hole visible. The bead hole axis runs left-right, tilted slightly toward the viewer so the entry on the RIGHT is clearly visible. Right thumb and index finger pinch the stiff burgundy tip of a thick burgundy threading cord and insert its tip slightly into that hole from the right. Right hand remains outside the bead, cord trails naturally down to the right. Show the single instant of aligning and inserting, NOT pulling out. Both hands same scale, no extra fingers, no adult hands, no animals. One spare purple bead rests well away at upper left. A very pale warm wood tabletop patch grounds the scene, otherwise white background. Dark warm brown clean outlines, restrained flat warm colors, subtle toy wood shading matching reference, gentle skin tone, minimal detail. Hands and bead contact are the strongest contrast; table very light. No arrows, no labels, no text, no panels, no border, no unrelated objects. Wide landscape 3:2 composition with breathing room.",
+      "asset_path": "assets/stage-examples/bilateral-threading.png",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-05884f29-ed5c-4d82-b79c-a1d308fbc818.png",
+      "lead": "片方の手で支えながら、もう片方の手で動かす。両手がそれぞれの役目を持つ姿を見つけます。",
+      "sha256": "1fb2316d97e68353ac72f68918f8273d1bbb6452013d2ec1e245d93859661444",
+      "existing_items": [
+        {
+          "id": "205d7095-4669-40c2-aa97-4ef9e876b8c8",
+          "text": "大きなビーズをスティックや紐に通す"
+        },
+        {
+          "id": "9d237353-7c95-403c-9c3d-8f3a36a9a0c0",
+          "text": "ネジや瓶の蓋を回して閉じたり開けたりする（ねじる）"
+        },
+        {
+          "id": "e9fb5abf-b26e-4a43-a286-796ada436703",
+          "text": "絵本のページを一枚ずつめくり、内容を見る"
+        },
+        {
+          "id": "58ea5386-20ab-977d-4c94-cedcc244c5cc",
+          "text": "両手を伸ばし、欲しい物をつかむ"
+        },
+        {
+          "id": "f4eea8f4-84aa-348d-4198-2366850c8edc",
+          "text": "片手で支え、もう片方の手で動かす"
+        },
+        {
+          "id": "3ba53965-76f6-ec37-7e56-c5d352db7eaa",
+          "text": "物を片方の手からもう片方の手へ持ち替える"
+        },
+        {
+          "id": "6055a949-1779-90e2-c680-48c4cc9e6663",
+          "text": "片手で支えながら、もう一方の手で通す、回すなど、両手を一緒に使う"
+        }
+      ],
+      "activity_proposals": [
+        "clip-edge",
+        "thread-beads",
+        "fold-paper"
+      ]
+    },
+    {
+      "slug": "building",
+      "stage_id": "550e8400-e29b-41d4-a716-446655440016",
+      "title": "積む・はめる・形を作る",
+      "caption": "向きを合わせて、そっと置く。",
+      "observation": "積み木の向きと、下の積み木との接点を見せます。",
+      "layout": "single",
+      "supplementary": [],
+      "prompt": "Create one warm educational illustration in the SAME style as reference: clean warm brown outlines, restrained flat colors with gentle shading, pale wooden table, human child hands with accurate anatomy, no animal hands. Reference is style only, replace threading activity with requested scene. Landscape 3:2 image. Plain white background beyond table; focus on single readable action. No text, labels, borders, panels, decorative graphics. SUBJECT: Close-up HUMAN child hands stacking plain wooden cubes. Two broad pale wood and purple cubes form a very short tower on pale table. Right hand holds a yellow cube gently on opposing side faces, setting it squarely onto top cube, bottom face aligned and touching; left hand steadies the bottom cube from its side. Realistic simple anatomy, no interpenetration, no toy studs (plain wooden blocks), cream sleeves. Focus on contact and alignment.",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-409deb01-44c9-41f0-ad70-d37b378f5b06.png",
+      "asset_path": "assets/stage-examples/fine-motor-building.png",
+      "lead": "持つ、向きを変える、置く。形や接点を確かめながら、手の動きを調整する姿を見つけます。",
+      "sha256": "6e5c69051c9ddd93d62faca24adda033765b221b63ed3c23481cf95258a148d0",
+      "existing_items": [
+        {
+          "id": "cf10c82f-525c-4c5f-88cc-a148a57e5c1b",
+          "text": "列車などを模して積み木を配置する"
+        },
+        {
+          "id": "6fc48987-1fac-4556-923b-5aad825ec5ad",
+          "text": "ものを正確に配置する"
+        },
+        {
+          "id": "ed42921b-5dd4-44ae-8e6e-2fa121963c77",
+          "text": "2〜10個以上の積み木でタワーを作る"
+        },
+        {
+          "id": "3ebb11f9-d65c-4f82-9d4c-a5328a4632de",
+          "text": "丸・四角・三角を見比べ、合う穴にはめる"
+        },
+        {
+          "id": "50d26766-510a-410d-f430-6c82006b6934",
+          "text": "積み木を持つ、離す、向きを変えるなど、手の動きを調整する"
+        }
+      ],
+      "activity_proposals": [
+        "stack-build",
+        "shape-fit"
+      ]
+    },
+    {
+      "slug": "drawing",
+      "stage_id": "550e8400-e29b-41d4-a716-446655440018",
+      "title": "描く・線や形をまねる",
+      "caption": "動かした手のあとに、線が残る。",
+      "observation": "描く手と、紙を支える手の役割を見せます。",
+      "layout": "single",
+      "supplementary": [],
+      "prompt": "Create one warm educational illustration in the SAME style as reference: clean warm brown outlines, restrained flat colors with gentle shading, pale wooden table, human child hands with accurate anatomy, no animal hands. Reference is style only, replace threading activity with requested scene. Landscape 3:2 image. Plain white background beyond table; focus on single readable action. No text, labels, borders, panels, decorative graphics. SUBJECT: Close-up TWO HUMAN child hands drawing on a blank white sheet on pale table. Right hand holds a short thick purple wax crayon in a natural comfortable simple grasp, tip visibly contacting paper and ending a SINGLE broad curved purple stroke. Left hand flat on left edge stabilizes paper, all digits natural, well away from crayon. No letters, no drawn objects, one curved stroke only. Cream sleeves. Crayon opaque and chunky, not a pencil.",
+      "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-7859160f-dd4e-4102-bfdc-a761635bb4fa.png",
+      "asset_path": "assets/stage-examples/fine-motor-drawing.png",
+      "lead": "手を動かすと、紙に跡が残る。線や色で自分の動きを表す姿を見つけます。",
+      "sha256": "e4b1d347485098009e73d5079ecfe7f1b5341eba8c6897f3fff08582c5bc1079",
+      "existing_items": [
+        {
+          "id": "3a7fbdf5-1574-4aea-9926-4a4caebda87c",
+          "text": "手のひらでペンを持ち、落書きの真似をする"
+        },
+        {
+          "id": "b8689a90-0102-46ba-8ce1-376cf047725c",
+          "text": "指で鉛筆を真ん中で持ち始める"
+        },
+        {
+          "id": "a3eaabba-c46d-4407-8745-3c82b6a9cf29",
+          "text": "「点」「V字」「縦線」「水平線」「円」「X」などを描く"
+        },
+        {
+          "id": "047ddf68-c5b0-4ed5-b3bd-6da56fbc377a",
+          "text": "自発的に認識できない形を描く"
+        },
+        {
+          "id": "fafc9ce0-a7f3-45dd-9b61-b141ba94d24c",
+          "text": "紙に人の顔（目・鼻・口）や体を描く"
+        },
+        {
+          "id": "255d8d4a-6df6-4461-9ed2-11b80bb87af0",
+          "text": "3点持ちで鉛筆を持ち、コントロール良く描く"
+        },
+        {
+          "id": "d77d78dc-9079-c06a-02d7-d55d504485cf",
+          "text": "線、跡、色を使い、自分の動きを紙の上へ残す"
+        }
+      ],
+      "activity_proposals": [
+        "draw-marks"
+      ]
+    },
+    {
+      "slug": "cutting",
+      "stage_id": "550e8400-e29b-41d4-a716-446655440017",
+      "title": "切る・貼る・紙で作る",
+      "caption": "ちょきん、ここまで",
+      "observation": "紙を支える、向きを変える、道具を動かす。作る途中の手の工夫にも目を向けてみます。",
+      "layout": "scene-with-expandable-details",
+      "supplementary": [],
+      "prompt": null,
+      "source_output": "../../participatory-growth-frame-studies/luke-frame-one-snip.png",
+      "asset_path": "../../participatory-growth-frame-studies/luke-frame-one-snip.png",
+      "lead": "ちぎる、折る、貼る、切る。紙に働きかけて、形が変わることを楽しむ姿を見つけます。",
+      "sha256": "d1f8157cc9e192fc8baeb55edf3bc63ba7650f26e09dc45a7a0d5613595f57da",
+      "existing_items": [
+        {
+          "id": "4599255f-d68f-4f65-9c9c-75a847889d30",
+          "text": "丸い形を切り抜く"
+        },
+        {
+          "id": "53cdb253-84ad-45ad-b7e8-d19f7bb4bd62",
+          "text": "ハサミを正しい持ち方で持つ"
+        },
+        {
+          "id": "549b0a65-714d-4fb7-8519-583fcf81164f",
+          "text": "太い直線に沿って連続して切る"
+        },
+        {
+          "id": "65226e95-a40f-4fbc-a8f4-8f541fd40b19",
+          "text": "紙を持つ手を動かしながら切る"
+        },
+        {
+          "id": "842f1d7a-18f5-4903-bed9-e7b1ccf04c52",
+          "text": "ハサミを開いたり閉じたりする"
+        },
+        {
+          "id": "8e0df467-4d71-4afb-8c14-6ec3dd7df451",
+          "text": "四角や複雑な形を切り抜く"
+        },
+        {
+          "id": "c77e1812-71fc-46a7-a238-9f4c15bedee0",
+          "text": "ジグザグ線に沿って切る"
+        },
+        {
+          "id": "ef2f9692-eb67-460b-b182-52109f017926",
+          "text": "曲線や波線に沿って切る"
+        },
+        {
+          "id": "0450df72-7b11-4258-8de5-4576dc6e5efa",
+          "text": "紙を折る／物のサイズを目で比較する"
+        },
+        {
+          "id": "195a394d-4e59-4524-9957-c21b00500db6",
+          "text": "子ども用のはさみで紙に切れ目を入れる"
+        },
+        {
+          "id": "f7802ef2-3e96-65ab-6f44-0feebdd767aa",
+          "text": "紙をちぎる、折る、貼る、切るなどして形を作る"
+        },
+        {
+          "id": "d434cc11-d4ab-ea7c-23e3-861e1dff0606",
+          "text": "はさみを開閉し、紙へ切れ目を入れる"
+        }
+      ],
+      "detail_illustration": {
+        "asset_path": "assets/stage-examples/fine-motor-cutting.png",
+        "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-76b2ba9a-9ffc-4735-a2d6-2c3acf79a9d1.png",
+        "prompt": "Create one warm educational illustration in the SAME style as reference: clean warm brown outlines, restrained flat colors with gentle shading, pale wooden table, human child hands with accurate anatomy, no animal hands. Reference is style only, replace threading activity with requested scene. Landscape 3:2 image. Plain white background beyond table; focus on single readable action. No text, labels, borders, panels, decorative graphics. SUBJECT: Precise educational close-up TWO HUMAN child hands doing a single snip into a narrow pale yellow paper strip with small blunt-tip child scissors. Right-handed scissors held in RIGHT hand, thumb in upper small handle loop and middle/ring fingers in lower larger handle loop, thumb pointing upward, index finger can support outside handle. Purple handles, short gray metal rounded blades pointing left, paper visibly BETWEEN the two blades and a small notch at paper edge. LEFT hand holds far left end of strip well away from cutting blades. Both wrists cream sleeves enter lower corners, correct five-finger anatomy. Very pale table, no extra tools, no arrows. Show clear blade-paper contact, no fingers in blades.",
+        "sha256": "bf23d4c1152975b17b3120ed650e137315495d8491c55790f513380515775dd3",
+        "caption": "支える手と、一回切る手。",
+        "observation": "指穴・刃・紙を持つ位置が読めるようにします。"
+      },
+      "scenes": [
+        {
+          "key": "one-snip",
+          "label": "切る",
+          "caption": "ちょきん、ここまで",
+          "asset_path": "../../participatory-growth-frame-studies/luke-frame-one-snip.png"
+        },
+        {
+          "key": "paper-tear",
+          "label": "ちぎる",
+          "caption": "びりっ、線がひらいた",
+          "asset_path": "../../participatory-growth-frame-studies/luke-frame-paper-tear.png"
+        },
+        {
+          "key": "paper-fold",
+          "label": "折る",
+          "caption": "はしとはし、会えた",
+          "asset_path": "../../participatory-growth-frame-studies/luke-frame-paper-fold.png"
+        },
+        {
+          "key": "sticker-paste",
+          "label": "貼る",
+          "caption": "ぺりっ、ここにしよう",
+          "asset_path": "../../participatory-growth-frame-studies/luke-frame-sticker-paste.png"
+        }
+      ],
+      "production_note": "既存の動物入りstageイラストを再利用。生成プロンプトは手元補足のdetail_illustrationに保存。",
+      "activity_proposals": [
+        "paper-snip",
+        "tear-paste",
+        "fold-paper"
+      ]
+    }
+  ],
+  "activity_proposals_file": "fine-motor-activity-proposals.json"
+}

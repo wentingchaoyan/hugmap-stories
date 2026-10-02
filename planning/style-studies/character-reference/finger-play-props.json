@@ -1,0 +1,38 @@
+{
+  "tool": "built-in image_gen",
+  "items": [
+    {
+      "slug": "stickers",
+      "prompt": "Use case: illustration-story. Isolated reusable toy prop for Hugmap educational catalog. Genuine transparent square canvas. Warm brown outlines, softly shaded flat colors, gentle highlights, simple friendly material textures. Restrained warm yellow, orange, muted purple and pale wood palette. Entire object visible, centered with 12 percent margins. No people, characters, hands, text, logos, frame, floor or background. A cream backing sheet with six large round colorful stickers, one yellow sticker partly peeled up at its edge, and a second small blank cream card bearing two round stickers. Clear paper edges, simple matte paper.",
+      "source": "/Users/tingwen/.codex/generated_images/01a0d12e-b8dd-7833-b397-b01d69a90dd1/exec-fd2b2ef7-d86b-4962-b70c-cb7a7040c484.png",
+      "title": "シール",
+      "scene": "剥がす・狙った場所に貼る",
+      "activity_id": "9526b90e-61f9-45f2-b8c9-12306d79d87d",
+      "stage_id": "550e8400-e29b-41d4-a716-446655440013",
+      "path": "assets/fine-motor-props/stickers.png",
+      "sha256": "dbc8d6eef474cb4bcb0caafdbd58f4709eb1b61ee3c84b065177759ae24ac95f"
+    },
+    {
+      "slug": "sponge",
+      "prompt": "Use case: illustration-story. Isolated reusable toy prop for Hugmap educational catalog. Genuine transparent square canvas. Warm brown outlines, softly shaded flat colors, gentle highlights, simple friendly material textures. Restrained warm yellow, orange, muted purple and pale wood palette. Entire object visible, centered with 12 percent margins. No people, characters, hands, text, logos, frame, floor or background. One chunky rounded rectangular golden yellow soft sponge with visible subtle pores, beside a shallow muted purple bowl containing a little clear water. A few water droplets on sponge, clean simple composition.",
+      "source": "/Users/tingwen/.codex/generated_images/01a0d12e-b8dd-7833-b397-b01d69a90dd1/exec-e7e85ebc-e46d-4468-9930-85a029e2686a.png",
+      "title": "スポンジ",
+      "scene": "水を含ませて両手で絞る",
+      "activity_id": "946a42f5-624c-47da-b69d-9c2fc945eebc",
+      "stage_id": "550e8400-e29b-41d4-a716-446655440013",
+      "path": "assets/fine-motor-props/sponge.png",
+      "sha256": "7b7fc93685cd225a0b6cb684d73faa99008727f883b01d3a75d9b9a06e4615c1"
+    },
+    {
+      "slug": "button-piano",
+      "prompt": "Use case: illustration-story. Isolated reusable toy prop for Hugmap educational catalog. Genuine transparent square canvas. Warm brown outlines, softly shaded flat colors, gentle highlights, simple friendly material textures. Restrained warm yellow, orange, muted purple and pale wood palette. Entire object visible, centered with 12 percent margins. No people, characters, hands, text, logos, frame, floor or background. A compact unbranded toddler toy piano: pale cream body with five chunky white piano keys and appropriately placed short dark keys, plus three clearly separated large round yellow orange purple push buttons on its top panel. Simple recognizable pressable controls, no labels, no decorative characters.",
+      "source": "/Users/tingwen/.codex/generated_images/01a0d12e-b8dd-7833-b397-b01d69a90dd1/exec-96582d07-5869-46df-9a81-7a969b492a79.png",
+      "title": "ボタン押し・ミニピアノ",
+      "scene": "指でボタンや鍵盤を押す",
+      "activity_id": "23931d1c-3107-4441-9a27-8eaa5d91089a",
+      "stage_id": "550e8400-e29b-41d4-a716-446655440013",
+      "path": "assets/fine-motor-props/button-piano.png",
+      "sha256": "ab8dc4a58aff795747c93af301267b8e79989e6efa46c676bc22c5f0058f1a01"
+    }
+  ]
+}
