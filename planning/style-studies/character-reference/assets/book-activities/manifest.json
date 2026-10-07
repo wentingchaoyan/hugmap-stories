@@ -1,0 +1,87 @@
+{
+  "mode": "built-in image_gen",
+  "assets": [
+    {
+      "filename": "book-big-pictures.png",
+      "prompt": "Create ONE square illustration for a parenting app activity. Match reference's warm dark-brown rounded outlines, muted pastel palette, cream pages, burgundy book cover, gentle children's picture-book aesthetic. COMPOSITION CHANGE: large open book is primary subject, about 80% canvas width, entire book visible with white margins. Near overhead reader's viewpoint; all printed page contents upright toward viewer, undistorted readable at small size. Plain white background, minimal subtle shadow. NO reader faces, heads, bodies, room, or oversized arms. At most one small child's hand and one small adult hand at bottom edge, under 10% of image, do not hide illustrations. No brand, no title or labels outside book. A simple early picture book: one very large friendly white rabbit on left page and one large red apple with leaf on right page. Minimal empty cream page backgrounds, no landscape or panels, no printed text. Tiny relaxed hands lightly hold outer bottom corners. Focus on simply looking together, no pointing quiz.",
+      "source": "/Users/tingwen/.codex/generated_images/01a0d12e-b8dd-7833-b397-b01d69a90dd1/exec-5215f08f-94fa-44ad-a298-833659a96d10.png",
+      "activities": [
+        "8522c26f-a206-57d1-aee1-8826460f5a35"
+      ],
+      "publication": {
+        "folder": "activity_media",
+        "before_bytes": 1270644,
+        "after_bytes": 651114,
+        "dimensions": "1254 1254",
+        "method": "quality97-png",
+        "normalized_rmse": 0.00464888
+      }
+    },
+    {
+      "filename": "book-animal-search.png",
+      "prompt": "Create ONE square illustration for a parenting app activity. Match reference's warm dark-brown rounded outlines, muted pastel palette, cream pages, burgundy book cover, gentle children's picture-book aesthetic. COMPOSITION CHANGE: large open book is primary subject, about 80% canvas width, entire book visible with white margins. Near overhead reader's viewpoint; all printed page contents upright toward viewer, undistorted readable at small size. Plain white background, minimal subtle shadow. NO reader faces, heads, bodies, room, or oversized arms. At most one small child's hand and one small adult hand at bottom edge, under 10% of image, do not hide illustrations. No brand, no title or labels outside book. Animal picture book: a large puppy on left page, a cat and rabbit in two clear separated areas on right page. All animals simple, friendly, clearly distinct, no printed text. One small child's index finger from bottom points toward puppy's lower edge without covering its face. A small adult hand steadies lower right corner.",
+      "source": "/Users/tingwen/.codex/generated_images/01a0d12e-b8dd-7833-b397-b01d69a90dd1/exec-a1fc70d8-8387-4ed0-86d4-e69f2243025b.png",
+      "activities": [
+        "11b813f1-c8b4-4c97-b23c-e4c1edebe833"
+      ],
+      "publication": {
+        "folder": "activity_media",
+        "before_bytes": 1555272,
+        "after_bytes": 752727,
+        "dimensions": "1254 1254",
+        "method": "quality97-png",
+        "normalized_rmse": 0.00477171
+      }
+    },
+    {
+      "filename": "book-repeat-peekaboo.png",
+      "prompt": "Create ONE square illustration for a parenting app activity. Match reference's warm dark-brown rounded outlines, muted pastel palette, cream pages, burgundy book cover, gentle children's picture-book aesthetic. COMPOSITION CHANGE: large open book is primary subject, about 80% canvas width, entire book visible with white margins. Near overhead reader's viewpoint; all printed page contents upright toward viewer, undistorted readable at small size. Plain white background, minimal subtle shadow. NO reader faces, heads, bodies, room, or oversized arms. At most one small child's hand and one small adult hand at bottom edge, under 10% of image, do not hide illustrations. No brand, no title or labels outside book. Repetitive peekaboo picture book. Left page: large friendly rabbit with both paws covering its eyes. Right page: SAME rabbit lowers paws and reveals smiling face. Minimal cream page backgrounds; EXACT short printed English phrase 'Peekaboo!' under right rabbit, no other text. One tiny child's hand about to turn lower-right page corner, no obscuring rabbit. The two book pictures clearly convey predictable hide-and-reveal.",
+      "source": "/Users/tingwen/.codex/generated_images/01a0d12e-b8dd-7833-b397-b01d69a90dd1/exec-0e0a41cb-45db-4031-90f8-08aa2559d558.png",
+      "activities": [
+        "d5e05e30-0e69-5ece-be42-01004410b2d0",
+        "8c874efa-23ea-4925-bbcd-fd022292c8c9"
+      ],
+      "publication": {
+        "folder": "activity_media",
+        "before_bytes": 1444032,
+        "after_bytes": 659801,
+        "dimensions": "1254 1254",
+        "method": "quality97-png",
+        "normalized_rmse": 0.00498297
+      }
+    },
+    {
+      "filename": "book-short-story.png",
+      "prompt": "Create ONE square illustration for a parenting app activity. Match reference's warm dark-brown rounded outlines, muted pastel palette, cream pages, burgundy book cover, gentle children's picture-book aesthetic. COMPOSITION CHANGE: large open book is primary subject, about 80% canvas width, entire book visible with white margins. Near overhead reader's viewpoint; all printed page contents upright toward viewer, undistorted readable at small size. Plain white background, minimal subtle shadow. NO reader faces, heads, bodies, room, or oversized arms. At most one small child's hand and one small adult hand at bottom edge, under 10% of image, do not hide illustrations. No brand, no title or labels outside book. Short everyday storybook with TWO sequential scenes, left page a young child washing a red apple under a tap, right page SAME child eating that apple while sitting at table. Story characters are PRINTED INSIDE BOOK ONLY, matching reference's grey-brown bob hair, pale skin, peach cheeks, light grey clothes, natural anatomy. Clear apple continuity. No printed text, no arrows. One small child's hand at bottom edge points gently at right page, no covering scene.",
+      "source": "/Users/tingwen/.codex/generated_images/01a0d12e-b8dd-7833-b397-b01d69a90dd1/exec-ff341529-9b49-4a70-8b61-de9a46194280.png",
+      "activities": [
+        "0599d5cc-ad85-5dae-8140-60332a9a5f5e"
+      ],
+      "publication": {
+        "folder": "activity_media",
+        "before_bytes": 1634793,
+        "after_bytes": 726604,
+        "dimensions": "1254 1254",
+        "method": "quality97-png",
+        "normalized_rmse": 0.00498546
+      }
+    },
+    {
+      "filename": "book-feelings-story.png",
+      "prompt": "Create ONE square illustration for a parenting app activity. Match reference's warm dark-brown rounded outlines, muted pastel palette, cream pages, burgundy book cover, gentle children's picture-book aesthetic. COMPOSITION CHANGE: large open book is primary subject, about 80% canvas width, entire book visible with white margins. Near overhead reader's viewpoint; all printed page contents upright toward viewer, undistorted readable at small size. Plain white background, minimal subtle shadow. NO reader faces, heads, bodies, room, or oversized arms. At most one small child's hand and one small adult hand at bottom edge, under 10% of image, do not hide illustrations. No brand, no title or labels outside book. A storybook with two clear scenes PRINTED on its pages. Left page: grey-brown-haired child in light grey clothes looking sad beside a fallen block tower. Right page: same child and friend in muted mustard clothes rebuilding together, more relaxed expressions. Natural round heads, subtle readable feelings, matching reference identity style. Keep actions and block tower large, simple background. No reader people outside book. One small adult finger points at fallen blocks near bottom of left page without obscuring face. No text, no thought bubbles.",
+      "source": "/Users/tingwen/.codex/generated_images/01a0d12e-b8dd-7833-b397-b01d69a90dd1/exec-db2c13c9-a3ba-49a6-9bef-9ef2e41e65b7.png",
+      "activities": [
+        "310ca2a6-37de-4bdb-b233-84e9339e17be"
+      ],
+      "publication": {
+        "folder": "activity_media",
+        "before_bytes": 1335526,
+        "after_bytes": 889269,
+        "dimensions": "1254 1254",
+        "method": "1024-colors-png",
+        "normalized_rmse": 0.00331083
+      }
+    }
+  ],
+  "status": "uploaded and linked in development DB"
+}
