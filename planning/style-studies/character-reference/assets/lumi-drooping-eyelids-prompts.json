@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Precise local edit: IMAGE 1 is the target. IMAGE 2 is the approved eye-shape reference ONLY. Change only upper eyelids of all visible eyes in image 1 to match image 2: gently arched upper lids with BOTH ends slightly lower than center and outer corners especially lowered, relaxed gentle sleepy droopy half-open eyes, tiny white highlight preserved. Clearly curved as in image 2, not rigid horizontal bars. Keep eye centers, size and pupil positions. Keep all other pixels and especially head/body proportions, height, silhouettes, colors, clothing, line style and canvas dimensions of IMAGE 1 unchanged. Do not copy the colored body from image 2; keep image 1 white-body style. Child cheeks remain where present. Back view has no eyes. No new objects or text, no eyebrows or glasses. Pure white background.",
+  "approved_reference": "lumi-parent-child-color.png",
+  "outputs": [
+    "lumi-child-study.png",
+    "lumi-turnaround-white.png"
+  ],
+  "scope": "Reference images only; shared story illustration remains unchanged."
+}
