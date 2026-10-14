@@ -1,0 +1,54 @@
+{
+  "method": "Manual raster landmarks, approximately ±3 px; not physical dimensions. H=1000 normalizes each adult to the same overall height.",
+  "approved_front": {
+    "file": "lumi-front-color.png",
+    "height": 967,
+    "head_width": 466,
+    "head_height": 390,
+    "body_height": 488,
+    "wing_height": 357,
+    "exposed_legs_feet": 125,
+    "eye_center_distance": 187,
+    "beak_width": 46,
+    "beak_height": 78
+  },
+  "current_turnaround_front": {
+    "file": "lumi-turnaround-white.png",
+    "height": 636,
+    "head_width": 313,
+    "head_height": 260,
+    "body_height": 306,
+    "wing_height": 242,
+    "exposed_legs_feet": 97,
+    "eye_center_distance": 132,
+    "beak_width": 34,
+    "beak_height": 52
+  },
+  "current_turnaround_views": {
+    "front_height": 636,
+    "side_height": 638,
+    "back_height": 635
+  },
+  "lower_color_parent": {
+    "file": "lumi-parent-child-color.png",
+    "height": 869,
+    "head_width": 424,
+    "head_height": 355
+  },
+  "lower_color_child": {
+    "file": "lumi-parent-child-color.png",
+    "height": 691,
+    "head_width": 371,
+    "head_height": 298
+  },
+  "definitions": {
+    "height": "Ear tuft tip to lowest toe; not the horizontal floor line.",
+    "head_height": "Ear tuft tip to lower head contour, partly occluded by bow.",
+    "head_width": "Maximum head silhouette width, excluding wings.",
+    "body_height": "Shoulder/wing-root level to bottom of belly, excluding legs.",
+    "wing_height": "Wing root to lowest feather tip.",
+    "exposed_legs_feet": "Bottom of belly to lowest toe; includes feet.",
+    "eye_center_distance": "Horizontal distance between dark pupil centers."
+  },
+  "status": "Corrected to match lower_color_parent proportions. Target head width 488 and head height 409 at H=1000; measured front 492 and 409. Raster generation retains small deviations."
+}
