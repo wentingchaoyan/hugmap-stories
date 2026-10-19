@@ -1,0 +1,89 @@
+{
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "assets/luke-hello.png",
+      "references": [
+        "../../planning/style-studies/character-reference/assets/luke-parent-child-color.png",
+        "../../planning/style-studies/character-reference/assets/user-approved-turnaround.png"
+      ],
+      "prompt": "Use case: illustration-story. Create one isolated full-body adult Luke greeting portrait, slightly curious head tilt, one paw lightly adjusting glasses and the other holding a small wooden block near waist, tail curling beside him. Centered with ample white space. Reference 1 adult LEFT for color, reference 2 LUKE row for anatomy; no other animals. Luke is the ADULT LEFT squirrel of color reference, not the child. Lock adult round spectacles, tufted ears, compact substantial torso, curled large tail, pocket vest. Flat orange #FF511B forehead/around eyes/outer limbs/tail rim, white lower muzzle/paws/belly/large tail inner field; gray #DCD5D2 vest; solid yellow #D7C862 scarf without outlines; orange U with two dots upper viewer-right chest; fine brown #A77C65 outlines, #6B5143 glasses/eyes/nose. Human remains white unfilled coral contour without face details. White background, no words, no bubbles, no panels. Gentle clean picture book art, no gradients in Luke."
+    },
+    {
+      "file": "assets/luke-meal-slide.png",
+      "references": [
+        "../../planning/participatory-growth-frame-studies/luke-frame-eating-independently.png",
+        "../../stories/hello-luke/assets/luke-hello.png"
+      ],
+      "prompt": "Child tries to scoop soft mashed food from small shallow cream bowl with wooden spoon, bowl sliding sideways on bare wooden tabletop indicated by two short motion strokes; child watching bowl, other hand on lap. Luke seated LEFT leans to inspect bowl base thoughtfully, paw at chin. No mat. Remove hanging decorations and Luke's own food. Illustration-story for existing Japanese picture book. Reference1 composition/style only: child RIGHT in unfilled coral contour, Luke LEFT. Reference2 fixes colored ADULT Luke identity: orange outer fur/head, white muzzle/belly/paws/tail interior, gray pocket vest, yellow scarf, orange U two dots, round brown spectacles. Clean fine brown lines, flat fills, white background, no text/speech bubbles. Child same short-haired preschooler, white skin/clothing interiors coral outline, minimal face. Keep table, chair, supported feet. Only one child and Luke."
+    },
+    {
+      "file": "assets/luke-meal-bite.png",
+      "references": [
+        "../../planning/participatory-growth-frame-studies/luke-frame-eating-independently.png",
+        "../../stories/hello-luke/assets/luke-hello.png"
+      ],
+      "prompt": "Same child RIGHT brings a SMALL spoonful of mashed food toward mouth independently with wooden spoon. Cream shallow bowl rests on muted sage-green rectangular non-slip mat centered before child. Luke LEFT observes warmly with both paws resting on lap. Same wooden table, chair, footstool; remove other dishes and decorations. Illustration-story for existing Japanese picture book. Reference1 composition/style only: child RIGHT in unfilled coral contour, Luke LEFT. Reference2 fixes colored ADULT Luke identity: orange outer fur/head, white muzzle/belly/paws/tail interior, gray pocket vest, yellow scarf, orange U two dots, round brown spectacles. Clean fine brown lines, flat fills, white background, no text/speech bubbles. Child same short-haired preschooler, white skin/clothing interiors coral outline, minimal face. Keep table, chair, supported feet. Only one child and Luke.",
+      "latest_edit": {
+        "file": "assets/luke-meal-bite.png",
+        "prompt": "Edit image1 picture book meal scene precisely. Keep child human coral unfilled contour, table, chairs, footstools, sage mat, Luke's adult character geometry and orange-white fur/gray vest/yellow scarf/round glasses exactly. Replace child's spoon with a child-sized spoon having noticeably THICK muted purple rounded handle and small spoon bowl. Change child's cream dish to shallow cream dish with a gently raised curved rim, on existing mat. Child independently brings a small spoonful toward mouth. Luke now visibly joyful: relaxed curved smiling eyes, delighted small open smile, both paws lightly together near chest, celebrating quietly not touching child. Two subtle warm orange joy strokes near Luke. Do not change composition, no text or bubbles. Reference2 for spoon handle and dish function only, do NOT replace human child with squirrel.",
+        "references": [
+          "assets/luke-meal-bite.png",
+          "https://wvrtjtfotvkzxckcxwqz.supabase.co/storage/v1/object/public/public-assets/faq_media/faq_d020_spoon_tools_risu.png"
+        ]
+      }
+    },
+    {
+      "file": "assets/luke-meal-pause.png",
+      "references": [
+        "../../planning/participatory-growth-frame-studies/luke-frame-eating-independently.png",
+        "../../stories/hello-luke/assets/luke-hello.png"
+      ],
+      "prompt": "Child RIGHT continues eating with wooden spoon and cream bowl on sage-green nonslip mat. Luke LEFT beside table catches himself while packing away a small open wooden box containing two spare chunky spoons and one empty bowl. One paw paused above box, eyebrows slightly sheepish, eyes toward child, tail relaxed. Spare tools stay on Luke's side away from child's meal; no clutter in child's space. No decorations. Illustration-story for existing Japanese picture book. Reference1 composition/style only: child RIGHT in unfilled coral contour, Luke LEFT. Reference2 fixes colored ADULT Luke identity: orange outer fur/head, white muzzle/belly/paws/tail interior, gray pocket vest, yellow scarf, orange U two dots, round brown spectacles. Clean fine brown lines, flat fills, white background, no text/speech bubbles. Child same short-haired preschooler, white skin/clothing interiors coral outline, minimal face. Keep table, chair, supported feet. Only one child and Luke.",
+      "latest_edit": {
+        "file": "assets/luke-meal-pause.png",
+        "prompt": "Precise edit of current illustration. Preserve all characters/pose/scene/layout/colors. Change ONLY child's eating spoon to a child-sized spoon with thick muted-purple rounded handle, small spoon bowl, and change child's dish to shallow cream dish with gently raised curved rim on existing sage mat. Spare spoons in Luke's box remain assorted shapes. Keep Luke sheepishly putting extra tools away, human child coral contour continuing meal. No text.",
+        "references": [
+          "assets/luke-meal-pause.png"
+        ]
+      }
+    },
+    {
+      "file": "assets/luke-everyday-wishes.png",
+      "references": [
+        "../../planning/participatory-growth-frame-studies/luke-frame-eating-independently.png",
+        "../../stories/hello-luke/assets/luke-hello.png"
+      ],
+      "prompt": "Create TWO separate borderless vignettes vertically arranged with generous white space. TOP child wearing open pale jacket holds a large zipper pull; Luke crouches nearby watching hands without taking over. BOTTOM same child draws a purple line with crayon on sheet at low desk, Luke gently steadies far edge of paper with one paw, child does drawing. No eating items, no box. Consistent sizes and style, no text. Illustration-story for existing Japanese picture book. Reference1 composition/style only: child RIGHT in unfilled coral contour, Luke LEFT. Reference2 fixes colored ADULT Luke identity: orange outer fur/head, white muzzle/belly/paws/tail interior, gray pocket vest, yellow scarf, orange U two dots, round brown spectacles. Clean fine brown lines, flat fills, white background, no text/speech bubbles. Child same short-haired preschooler, white skin/clothing interiors coral outline, minimal face. Keep table, chair, supported feet. Only one child and Luke."
+    },
+    {
+      "file": "assets/luke-clothing-feel.png",
+      "references": [
+        "../../planning/participatory-growth-frame-studies/luke-frame-eating-independently.png",
+        "../../stories/hello-luke/assets/luke-hello.png"
+      ],
+      "prompt": "One quiet vignette: child RIGHT wearing simple loose t-shirt lightly pulls collar away from neck with one hand, other hand indicates inside collar seam, mild discomfort not distress. Luke LEFT crouches at child's eye level, thoughtfully looking at indicated collar with paw to chin, not touching child's body. Nearby low stool holds two folded shirts with subtly different fabric colors, suggesting future choice not a solved problem. No table, food, spoons. Generous white space. Illustration-story for existing Japanese picture book. Reference1 composition/style only: child RIGHT in unfilled coral contour, Luke LEFT. Reference2 fixes colored ADULT Luke identity: orange outer fur/head, white muzzle/belly/paws/tail interior, gray pocket vest, yellow scarf, orange U two dots, round brown spectacles. Clean fine brown lines, flat fills, white background, no text/speech bubbles. Child same short-haired preschooler, white skin/clothing interiors coral outline, minimal face. Keep table, chair, supported feet. Only one child and Luke."
+    },
+    {
+      "file": "assets/luke-meal-ideas.png",
+      "prompt": "Create a picture-book illustration of adult Luke LEFT thinking through several meal adaptations with human child RIGHT seated at wooden table from reference1. Preserve reference1 exact adult Luke identity, palette and human coral outline unfilled style; NOT squirrel child from other refs. Luke looking thoughtfully at tools, paw to chin, warm curious face. Center table: thick muted-purple handle child spoon, shallow cream dish with gently raised curved rim, sage non-slip mat. Three small airy floating thought vignettes surrounding Luke in upper white space: thin vs thick spoon handles; shallow flat dish beside gently higher-rimmed bowl; child's two feet supported on footrest. Reference2/3 ONLY tool and support concepts, no X/O symbols, no labels, no arrows, no text. White background, simple fine brown outlines, quiet flat colors. Not an infographic grid, a character imagining possibilities. Child watches with interest. Preserve orange head, white muzzle/paws, gray vest, yellow scarf, round glasses, orange U-two-dot mark. All tools child-safe.",
+      "references": [
+        "assets/luke-meal-bite.png",
+        "https://wvrtjtfotvkzxckcxwqz.supabase.co/storage/v1/object/public/public-assets/faq_media/faq_d020_spoon_tools_risu.png",
+        "https://wvrtjtfotvkzxckcxwqz.supabase.co/storage/v1/object/public/public-assets/faq_media/faq_d002_desk_posture_risu.png"
+      ]
+    },
+    {
+      "file": "assets/luke-meal-grip.png",
+      "references": [
+        "assets/luke-meal-slide.png"
+      ],
+      "prompt": "Create a new illustration for same picture book using supplied image as identity/style/composition reference. Main scene: adult Luke squirrel LEFT leans slightly forward, adjusting spectacles with one paw, gaze clearly directed at HUMAN child's spoon-holding hand RIGHT. Same orange-white squirrel, gray vest, yellow scarf, round spectacles, no child squirrel. Child holding wooden spoon with whole palm/fist around handle, thumb opposed over fingers, spoon bowl toward food in cream bowl. Other child's hand rests visibly on tabletop beside bowl. Human remains unfilled white silhouette with coral outlines. Add ONE large softly outlined circular close-up vignette in upper white space showing SAME HUMAN child's hand and wrist in SAME whole-hand spoon grasp enlarged, with coherent anatomy: four fingers curled around handle, thumb opposing on top, spoon handle continuous and spoon bowl visible, no floating fingers. Do not show alternative grips or age/stage comparison. Keep child's feet supported, table and chairs. White background, clean flat illustration. No words, labels, arrows, speech bubbles or numbers. Luke thoughtfully observing rather than manipulating or correcting child's hand."
+    }
+  ],
+  "faq_references": [
+    "https://wvrtjtfotvkzxckcxwqz.supabase.co/storage/v1/object/public/public-assets/faq_media/faq_d020_spoon_tools_risu.png",
+    "https://wvrtjtfotvkzxckcxwqz.supabase.co/storage/v1/object/public/public-assets/faq_media/faq_d002_desk_posture_risu.png",
+    "https://wvrtjtfotvkzxckcxwqz.supabase.co/storage/v1/object/public/public-assets/faq_media/faq_d011_crayon_grip_risu.png"
+  ]
+}
