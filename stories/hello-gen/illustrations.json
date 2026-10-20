@@ -1,0 +1,82 @@
+{
+  "tool": "built-in image_gen",
+  "characterReference": "../../planning/style-studies/character-reference/assets/gen-parent-child-color.png",
+  "palette": {
+    "shirt": "#7D2741",
+    "scarf": "#D7C862",
+    "mark": "#FF511B"
+  },
+  "images": [
+    {
+      "file": "assets/gen-stairs-observe.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-136f4d9f-a883-4fd5-9606-7b74542a1f7b.png",
+      "prompt": "Localized coloring of the existing stair illustration: rabbit shirt wine #7D2741, scarf #D7C862, orange mark #FF511B; preserve white fur, original anatomy, pose, child, stairs, background and composition.",
+      "references": [
+        "../../planning/participatory-growth-frame-studies/gen-frame-descend-stairs.png"
+      ],
+      "sha256": "3933432a6990df1056b7f31c6e11130fed7d085d335dfc6727fe94c94205e318",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "method": "Edit existing illustration; rabbit clothing only"
+    },
+    {
+      "file": "assets/gen-ball-roll.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-379da7e8-3d3e-4314-a045-9da29082549e.png",
+      "references": [
+        "../../planning/participatory-growth-frame-studies/gen-frame-ball-roll.png"
+      ],
+      "method": "Localized rabbit clothing recolor of existing illustration; preserve composition and characters",
+      "prompt": "Change ONLY rabbit shirt fill to wine #7D2741 and scarf to #D7C862. Preserve orange mark, white fur, outlines, pose, child, props, background, framing. No redrawing or additions.",
+      "sha256": "29cb9187dbf1e0c1d0437c47d92977ab108edba6b0f6e92a40ff624e8d795704",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "file": "assets/gen-rest.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-381e41a7-b255-4551-b70e-e521563df7fb.png",
+      "references": [
+        "../../planning/participatory-growth-frame-studies/gen-frame-relax-leaning-together.png"
+      ],
+      "method": "Localized rabbit clothing recolor of existing illustration; preserve composition and characters",
+      "prompt": "Change ONLY rabbit shirt fill to wine #7D2741 and scarf to #D7C862. Preserve orange mark, white fur, outlines, pose, child, props, background, framing. No redrawing or additions.",
+      "sha256": "cb1f606941ca28620ed6f0367edf3d1ba5c16065f874051491780c7d156b23af",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "file": "assets/gen-child-leads.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-69dc0c1b-c1b0-43ea-a62e-5ae86418b922.png",
+      "references": [
+        "../../planning/participatory-growth-frame-studies/gen-frame-child-leads-rabbit.png"
+      ],
+      "method": "Localized rabbit clothing recolor of existing illustration; preserve composition and characters",
+      "prompt": "Change ONLY rabbit shirt fill to wine #7D2741 and scarf to #D7C862. Preserve orange mark, white fur, outlines, pose, child, props, background, framing. No redrawing or additions.",
+      "sha256": "b5715c03757608fe3419716f5528ae84f46b46b9e2215f2bb90f992aa820f135",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "file": "assets/gen-supported-twist.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-ce316e15-3118-47cc-aa72-f32da49b8eda.png",
+      "references": [
+        "../../planning/participatory-growth-frame-studies/gen-frame-supported-twist.png"
+      ],
+      "method": "Localized rabbit clothing recolor of existing illustration; preserve composition and characters",
+      "prompt": "Change ONLY rabbit shirt fill to wine #7D2741 and scarf to #D7C862. Preserve orange mark, white fur, outlines, pose, child, props, background, framing. No redrawing or additions.",
+      "sha256": "28cf5c09b9b39e16dd6b9c3a93eea06488746035ea01bb4d96a94dfc38dd99b1",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    }
+  ],
+  "policy": "Use existing inventory illustrations; edit rabbit clothing colors only."
+}
