@@ -1,5 +1,5 @@
 {
-  "source": "ユーザー提供のアプリ色定義",
+  "source": "ユーザー提供のアプリ色定義およびキャラクター別の承認済み配色",
   "colorSpace": "sRGB",
   "tokens": {
     "whiteColor": "#FFFFFF",
@@ -17,7 +17,8 @@
     "lukeNeck": "componentSecondBackground",
     "genNeck": "componentSecondBackground",
     "lumiBowtie": "componentForthBackground",
-    "chestMark": "componentPrimaryBackground"
+    "chestMark": "componentPrimaryBackground",
+    "mimoShirt": "componentFifthBackground"
   },
   "rules": {
     "accessoryFillOpacity": 1,
@@ -84,5 +85,18 @@
         "exactFillPixels": 11502
       }
     ]
+  },
+  "characterPalettes": {
+    "mimo": {
+      "body": "#FED304",
+      "bodyColorName": "蒲公英色",
+      "shirt": "#F4F1F0",
+      "collarAndChestMark": "#FF511B",
+      "reference": "assets/mimo-parent-child-color.png",
+      "scope": "カラー版のMimo。白い造形見本・発達説明用イラストの配色は用途別ガイドに従う。",
+      "colorSource": "https://icd-color.com/color-dict/#list-item14",
+      "specificationUpdated": "2026-10-20",
+      "priority": "カラー版Mimoの制作では、この体色・服色を旧プロンプトや旧画像の色より優先する。体色は蒲公英色 #FED304、服は #F4F1F0。汎用の黄色・灰色トークンで置き換えない。"
+    }
   }
 }
