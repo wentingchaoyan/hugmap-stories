@@ -1,0 +1,56 @@
+:root{--ink:#594337;--paper:#fffdf9;--pause:#f5f6f1;--closing:#faf7f1;--orange:#d85d32;background:var(--paper)}body{font-family:"Hiragino Maru Gothic ProN","Yu Gothic",sans-serif;line-height:1.9}.story-header{height:65px;position:sticky;top:0;z-index:10;background:#fffdf9f5;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;border-bottom:1px solid #e9dfd1}.brand{font-weight:800;color:var(--ink);text-decoration:none;letter-spacing:.03em}.brand span{font-weight:400;font-size:.8em;margin-left:.35em}button{border:1px solid #ddcebd;background:transparent;border-radius:24px;padding:6px 14px;cursor:pointer;font-size:12px}.progress{position:sticky;top:65px;height:35px;z-index:10;display:flex;align-items:center;gap:18px;padding:0 5vw;background:#fffdf9f5;font-size:11px;letter-spacing:.08em}.track{height:2px;background:#eadfce;flex:1}.track span{display:block;background:var(--orange);height:100%;width:0}.panel{position:relative;min-height:calc(100svh - 100px);display:grid;grid-template-columns:.9fr 1.1fr;align-items:center;gap:3vw;padding:64px max(5vw,calc((100vw - 1280px)/2));scroll-margin-top:100px;border-bottom:0}.copy{padding:15px 0 25px 3vw;position:relative;z-index:1}h1,h2,p,figure{margin:0}h1{font-size:clamp(38px,4.6vw,70px);line-height:1.65;font-weight:700;letter-spacing:.06em}h1 em{font-style:normal;color:var(--orange)}h2{font-size:clamp(27px,3vw,45px);line-height:1.8;letter-spacing:.04em;font-weight:600}.eyebrow{font-size:11px;letter-spacing:.16em;color:#937c68;margin-bottom:26px}.lead{font-size:23px;line-height:2;margin-top:24px}.story-text{font-size:clamp(17px,1.65vw,23px);line-height:2.2;margin-top:30px}.start{display:inline-flex;gap:25px;align-items:center;color:var(--ink);text-decoration:none;border-bottom:1px solid #ba9175;padding:8px 0;margin-top:32px;font-size:14px}.start span{color:var(--orange)}figure{min-width:0;text-align:center}figure img{width:100%;height:auto;max-height:72svh;object-fit:contain;mix-blend-mode:multiply;display:block}figcaption{font-size:12px;letter-spacing:.15em;color:#987f6b;margin-top:12px}.tone-1,.tone-2,.tone-0{background:var(--paper)}
+#scene-7{background:var(--pause)}#scene-9{background:var(--closing)}.reverse .copy{grid-column:2;grid-row:1}.reverse figure{grid-column:1;grid-row:1}.next{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);padding:8px 20px;text-decoration:none;color:#94705a;font-size:22px}.afterword{padding:100px 24px;max-width:820px;margin:auto;scroll-margin-top:100px}.afterword h2{font-size:28px}.afterword>p:not(.eyebrow){margin-top:24px;font-size:15px;line-height:2.2}.end-links{display:flex;align-items:baseline;flex-wrap:wrap;gap:28px}.end-links>a{color:var(--ink);font-size:13px}.colophon{color:#967d68;font-size:11px!important}.large-text .story-text{font-size:clamp(22px,2.1vw,29px)}.large-text .panel{min-height:calc(100svh - 100px)}@media(max-width:700px){.panel{display:flex;flex-direction:column;gap:12px;padding:36px 24px 56px;justify-content:center}.copy{padding:0;width:100%;max-width:460px}.eyebrow{margin-bottom:14px}h1{font-size:42px}h2{font-size:28px}.lead{font-size:19px;margin-top:16px}.story-text{font-size:17px;margin-top:18px;line-height:2}.panel figure{width:100%;max-width:440px}.panel figure img{max-height:44svh}.cover figure img{max-height:35svh}.cover .start{margin-top:18px}.afterword{padding:64px 24px}.afterword h2{font-size:24px}}@media print{.story-header,.progress,.next,.start{display:none}.panel{min-height:0;height:95vh;break-after:page}.afterword{break-before:page}figure img{max-height:70vh}}
+
+
+
+/* Quiet paper palette; color marks the pause and the closing, not page order. */
+.panel{column-gap:5vw}
+.scene .copy{max-width:540px}
+#cover figure img,#scene-1 figure img,#scene-8 figure img{mix-blend-mode:normal;max-height:76svh}
+#scene-7 figure img{mix-blend-mode:normal;max-height:72svh}
+.afterword{max-width:none;background:var(--closing);padding:100px max(24px,calc((100vw - 772px)/2))}
+
+
+
+@media(max-width:700px){
+ .panel{padding:48px 28px 64px;gap:26px}
+ .scene .copy{max-width:460px}
+ .panel figure{max-width:460px}
+ #cover figure img,#scene-1 figure img,#scene-8 figure img{max-height:48svh}
+ #scene-7 figure img{max-height:52svh}
+ .afterword{padding:64px 28px}
+}
+
+
+/* A longer quiet beat in Mimo’s own voice. */
+
+
+/* Spoken words have a tail; thoughts use separated dots. */
+.bubble-art{position:relative;padding-top:88px}
+.speech-bubble,.thought-bubble{position:absolute;z-index:2;background:var(--paper);border:1.5px solid #a77c65;color:#594337;font-size:clamp(16px,1.5vw,21px);line-height:1.7;letter-spacing:.04em;padding:12px 22px;font-weight:500}
+.speech-bubble{border-radius:48% 46% 44% 42%}
+.speech-bubble::after{content:"";position:absolute;width:16px;height:20px;bottom:-13px;left:55%;background:var(--paper);border-right:1.5px solid #a77c65;border-bottom:1.5px solid #a77c65;transform:skewY(35deg) rotate(24deg)}
+.curious{top:24px;right:9%}
+.thought-bubble{border-radius:50%;padding:12px 20px}
+.thought-bubble::before,.thought-bubble::after{content:"";position:absolute;background:var(--paper);border:1.5px solid #a77c65;border-radius:50%}
+.thought-bubble::before{width:10px;height:8px;bottom:-15px;left:38%}
+.thought-bubble::after{width:5px;height:5px;bottom:-26px;left:32%}
+.thought-first{top:0;left:17%}
+.thought-second{top:66px;right:2%;font-size:clamp(14px,1.3vw,18px)}
+.bubble-art-7{padding-top:130px}
+.realization{top:4px;right:9%;padding:12px 28px}
+#scene-8 .bubble-art img{max-height:64svh}
+@media(max-width:700px){.bubble-art{padding-top:80px}.bubble-art-7{padding-top:130px}.thought-first{left:7%}.thought-second{right:3%;top:64px}.curious{right:5%;top:16px}.realization{right:11%;top:0}#scene-8 .bubble-art img{max-height:48svh}}
+
+/* Page links land directly, keeping speech and art in view together. */
+:root{scroll-behavior:auto}
+
+/* Keep artwork in the page flow, including when copy grows or stacks. */
+.panel{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}
+.copy{min-width:0;overflow-wrap:anywhere}
+.bubble-art{display:flex;flex-direction:column;align-items:center;gap:30px;padding-top:0}
+.bubble-art .speech-bubble,.bubble-art .thought-bubble{position:relative;inset:auto;max-width:100%;align-self:flex-end;margin-right:9%;font-size:clamp(16px,1.5vw,21px)}
+.bubble-art .thought-first{align-self:flex-start;margin-left:12%;margin-right:0}
+.bubble-art .thought-second{margin-right:2%;font-size:clamp(14px,1.3vw,18px)}
+.bubble-art img{flex:none}
+@media(max-width:700px){.bubble-art{padding-top:0}.bubble-art .thought-first{margin-left:7%}.bubble-art .speech-bubble{margin-right:5%}}

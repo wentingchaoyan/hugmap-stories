@@ -1,0 +1,50 @@
+{
+  "tool": "built-in image_gen",
+  "palette": {
+    "body": {
+      "name": "蒲公英色",
+      "hex": "#FED304",
+      "source": "https://icd-color.com/color-dict/#list-item14"
+    },
+    "shirt": "#F4F1F0"
+  },
+  "reference": "User-approved pale-gray Mimo trial (2026-10-20)",
+  "images": [
+    {
+      "file": "assets/mimo-hello.png",
+      "prompt": "Use case: precise-object-edit. Recolor input 1 ONLY, preserving its exact scene, pose, character scale, composition, line art, book/props, people and every gesture. Input 2 is APPROVED COLOR REFERENCE ONLY, do not copy its pose or speech bubbles. Change Mimo chick's head, crest, wings and exposed belly to vivid dandelion yellow sRGB #FED304, visually matching the yellow in reference 2. Change ONLY Mimo's shirt fill to very pale warm gray #F4F1F0. Keep orange collar/beak/emblem and original line colors. Human figures stay unfilled white coral-outline as input1. Preserve all props' existing colors, facial expressions, framing and background. No gradients or shaded yellow/olive cast: flat uniform bright yellow and pale gray. No added words, no new bubbles, no new elements. Preserve transparent background. Clean transparent cutout with no glow, no dark backdrop, no halo; preserve the full character and props."
+    },
+    {
+      "file": "assets/mimo-choice-response.png",
+      "prompt": "Use case: precise-object-edit. Recolor input 1 ONLY, preserving its exact scene, pose, character scale, composition, line art, book/props, people and every gesture. Input 2 is APPROVED COLOR REFERENCE ONLY, do not copy its pose or speech bubbles. Change Mimo chick's head, crest, wings and exposed belly to vivid dandelion yellow sRGB #FED304, visually matching the yellow in reference 2. Change ONLY Mimo's shirt fill to very pale warm gray #F4F1F0. Keep orange collar/beak/emblem and original line colors. Human figures stay unfilled white coral-outline as input1. Preserve all props' existing colors, facial expressions, framing and background. No gradients or shaded yellow/olive cast: flat uniform bright yellow and pale gray. No added words, no new bubbles, no new elements. Preserve original white background."
+    },
+    {
+      "file": "assets/mimo-experience-feeling.png",
+      "prompt": "Use case: precise-object-edit. Recolor input 1 ONLY, preserving its exact scene, pose, character scale, composition, line art, book/props, people and every gesture. Input 2 is APPROVED COLOR REFERENCE ONLY, do not copy its pose or speech bubbles. Change Mimo chick's head, crest, wings and exposed belly to vivid dandelion yellow sRGB #FED304, visually matching the yellow in reference 2. Change ONLY Mimo's shirt fill to very pale warm gray #F4F1F0. Keep orange collar/beak/emblem and original line colors. Human figures stay unfilled white coral-outline as input1. Preserve all props' existing colors, facial expressions, framing and background. No gradients or shaded yellow/olive cast: flat uniform bright yellow and pale gray. No added words, no new bubbles, no new elements. Preserve original white background."
+    },
+    {
+      "file": "assets/mimo-imitation-arms-up.png",
+      "prompt": "Use case: precise-object-edit. Recolor input 1 ONLY, preserving its exact scene, pose, character scale, composition, line art, book/props, people and every gesture. Input 2 is APPROVED COLOR REFERENCE ONLY, do not copy its pose or speech bubbles. Change Mimo chick's head, crest, wings and exposed belly to vivid dandelion yellow sRGB #FED304, visually matching the yellow in reference 2. Change ONLY Mimo's shirt fill to very pale warm gray #F4F1F0. Keep orange collar/beak/emblem and original line colors. Human figures stay unfilled white coral-outline as input1. Preserve all props' existing colors, facial expressions, framing and background. No gradients or shaded yellow/olive cast: flat uniform bright yellow and pale gray. No added words, no new bubbles, no new elements. Preserve original white background."
+    },
+    {
+      "file": "assets/mimo-notice.png",
+      "prompt": "Use case: precise-object-edit. Recolor input 1 ONLY, preserving its exact scene, pose, character scale, composition, line art, book/props, people and every gesture. Input 2 is APPROVED COLOR REFERENCE ONLY, do not copy its pose or speech bubbles. Change Mimo chick's head, crest, wings and exposed belly to vivid dandelion yellow sRGB #FED304, visually matching the yellow in reference 2. Change ONLY Mimo's shirt fill to very pale warm gray #F4F1F0. Keep orange collar/beak/emblem and original line colors. Human figures stay unfilled white coral-outline as input1. Preserve all props' existing colors, facial expressions, framing and background. No gradients or shaded yellow/olive cast: flat uniform bright yellow and pale gray. No added words, no new bubbles, no new elements. Preserve transparent background. Clean transparent cutout with no glow, no dark backdrop, no halo; preserve the full character and props."
+    },
+    {
+      "file": "assets/mimo-shared-pointing.png",
+      "prompt": "Use case: precise-object-edit. Recolor input 1 ONLY, preserving its exact scene, pose, character scale, composition, line art, book/props, people and every gesture. Input 2 is APPROVED COLOR REFERENCE ONLY, do not copy its pose or speech bubbles. Change Mimo chick's head, crest, wings and exposed belly to vivid dandelion yellow sRGB #FED304, visually matching the yellow in reference 2. Change ONLY Mimo's shirt fill to very pale warm gray #F4F1F0. Keep orange collar/beak/emblem and original line colors. Human figures stay unfilled white coral-outline as input1. Preserve all props' existing colors, facial expressions, framing and background. No gradients or shaded yellow/olive cast: flat uniform bright yellow and pale gray. No added words, no new bubbles, no new elements. Preserve original white background."
+    },
+    {
+      "file": "assets/mimo-shared-reading.png",
+      "prompt": "Use case: precise-object-edit. Recolor input 1 ONLY, preserving its exact scene, pose, character scale, composition, line art, book/props, people and every gesture. Input 2 is APPROVED COLOR REFERENCE ONLY, do not copy its pose or speech bubbles. Change Mimo chick's head, crest, wings and exposed belly to vivid dandelion yellow sRGB #FED304, visually matching the yellow in reference 2. Change ONLY Mimo's shirt fill to very pale warm gray #F4F1F0. Keep orange collar/beak/emblem and original line colors. Human figures stay unfilled white coral-outline as input1. Preserve all props' existing colors, facial expressions, framing and background. No gradients or shaded yellow/olive cast: flat uniform bright yellow and pale gray. No added words, no new bubbles, no new elements. Preserve original white background."
+    },
+    {
+      "file": "assets/mimo-voice-pingpong.png",
+      "prompt": "Use case: precise-object-edit. Recolor input 1 ONLY, preserving its exact scene, pose, character scale, composition, line art, book/props, people and every gesture. Input 2 is APPROVED COLOR REFERENCE ONLY, do not copy its pose or speech bubbles. Change Mimo chick's head, crest, wings and exposed belly to vivid dandelion yellow sRGB #FED304, visually matching the yellow in reference 2. Change ONLY Mimo's shirt fill to very pale warm gray #F4F1F0. Keep orange collar/beak/emblem and original line colors. Human figures stay unfilled white coral-outline as input1. Preserve all props' existing colors, facial expressions, framing and background. No gradients or shaded yellow/olive cast: flat uniform bright yellow and pale gray. No added words, no new bubbles, no new elements. Preserve original white background."
+    },
+    {
+      "file": "assets/mimo-wait-too-long.png",
+      "prompt": "Use case: precise-object-edit. Recolor input 1 ONLY, preserving its exact scene, pose, character scale, composition, line art, book/props, people and every gesture. Input 2 is APPROVED COLOR REFERENCE ONLY, do not copy its pose or speech bubbles. Change Mimo chick's head, crest, wings and exposed belly to vivid dandelion yellow sRGB #FED304, visually matching the yellow in reference 2. Change ONLY Mimo's shirt fill to very pale warm gray #F4F1F0. Keep orange collar/beak/emblem and original line colors. Human figures stay unfilled white coral-outline as input1. Preserve all props' existing colors, facial expressions, framing and background. No gradients or shaded yellow/olive cast: flat uniform bright yellow and pale gray. No added words, no new bubbles, no new elements. Preserve transparent background. Clean transparent cutout with no glow, no dark backdrop, no halo; preserve the full character and props."
+    }
+  ]
+}

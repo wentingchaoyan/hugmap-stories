@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Replace the OLD owl in image 1 with the approved adult LEFT owl from image 2. Image 1 is the edit target: preserve the functional full-body pose holding a horizontal white three-panel explanation card in front of the lower torso. Preserve the card's exact three pictograms and order: left child with stacking rings, center upset crying child with orange emphasis, right calm child with comforting hand and yellow heart; arrows connecting left to right. Image 2 LEFT ADULT is the character identity and proportions master. No child owl. New LUMI has small rounded distinct head, subtle outward ear tufts, gray #DCD5D2 plumage, white two-lobed facial mask and belly, perfectly HORIZONTAL half-lidded sleepy eyes (no sad tilt, no glasses, no blush), small golden beak, lavender #9974B8 sleeveless vest with two pockets, solid burgundy #7D2741 bow tie, orange #FF511B U with two dots on viewer-right upper chest (visible above board), short golden bird legs and feet. Head width 48.8% and head height including tufts 40.9% of whole owl ear-tip-to-toe height. Do not let head grow to fill composition. Keep torso clearly separate, scale as image 2 adult. Wings gently hold both ends of card with simple feather tips, not human hands. Card occupies lower torso, below bow and upper chest emblem, feet and white lower belly remain visible. Remove old heart badge, cardigan ribbing and belly smile/logo. Fine warm brown rounded outline compatible with image 2, clean flat colors without texture or gradients. Transparent background with real alpha, no checkerboard baked in, no ground shadow, no text. Square asset, single full-body owl centered, comfortably inside frame.",
+  "reference": "lumi-parent-child-color.png: left adult",
+  "outputs": [
+    "shared/characters/fukurou.png",
+    "stories/mouikkai/assets/fukurou.png"
+  ],
+  "batch": 1
+}

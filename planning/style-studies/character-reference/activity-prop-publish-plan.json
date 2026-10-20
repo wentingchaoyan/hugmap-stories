@@ -1,0 +1,398 @@
+{
+  "environment": "development",
+  "projectRef": "dltohjfxawjonomvxfsd",
+  "checkedAt": "2026-10-02T08:55:54.976Z",
+  "assets": [
+    {
+      "slug": "dough-roller",
+      "path": "assets/fine-motor-props/dough-roller.png",
+      "sha256": "a0f0eb9dba240d0fef2aa6e68f49b587a600251bf50bc260983823c1b15d0ea6",
+      "object": "public-assets/activity_media/prop-dough-roller.png",
+      "url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-dough-roller.png",
+      "exists": false
+    },
+    {
+      "slug": "clothespins",
+      "path": "assets/fine-motor-props/clothespins.png",
+      "sha256": "45adbcf2ab7d2a8db60fe98e27d68204f52fa20f35782f4b4400d8b97a90df9f",
+      "object": "public-assets/activity_media/prop-clothespins.png",
+      "url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-clothespins.png",
+      "exists": false
+    },
+    {
+      "slug": "threading-beads",
+      "path": "assets/fine-motor-props/threading-beads.png",
+      "sha256": "5576371515424fd30f6533559930e84aa84e988e4f50e867e436972857c54317",
+      "object": "public-assets/activity_media/prop-threading-beads.png",
+      "url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-threading-beads.png",
+      "exists": false
+    },
+    {
+      "slug": "tongs-pompoms",
+      "path": "assets/fine-motor-props/tongs-pompoms.png",
+      "sha256": "c796d3e37f83942e98efe5141317bd126d6b3ac71790085d783669f8f870deb9",
+      "object": "public-assets/activity_media/prop-tongs-pompoms.png",
+      "url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-tongs-pompoms.png",
+      "exists": false
+    },
+    {
+      "slug": "pegboard",
+      "path": "assets/fine-motor-props/pegboard.png",
+      "sha256": "df0d38e0cb8f2a69be188dd0a31406250d1803f75ecb1779185527d99115c7f3",
+      "object": "public-assets/activity_media/prop-pegboard.png",
+      "url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-pegboard.png",
+      "exists": false
+    },
+    {
+      "slug": "scissors-paper",
+      "path": "assets/fine-motor-props/scissors-paper.png",
+      "sha256": "1924805f456f92d775bea7c839bf7e89e1c29690e57bbeed1ce1cd95314bc3ce",
+      "object": "public-assets/activity_media/prop-scissors-paper.png",
+      "url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-scissors-paper.png",
+      "exists": false
+    },
+    {
+      "slug": "dressing-board",
+      "path": "assets/fine-motor-props/dressing-board.png",
+      "sha256": "339d16e5e156d0847181765af6e007fc6a8c44335b2dd121d816ce0bb0528f30",
+      "object": "public-assets/activity_media/prop-dressing-board.png",
+      "url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-dressing-board.png",
+      "exists": false
+    },
+    {
+      "slug": "building-blocks",
+      "path": "assets/fine-motor-props/building-blocks.png",
+      "sha256": "7c2c84c42ab1b5e7b45c6feab707b70024b01d9455713d7a5ab0b2e384e53f16",
+      "object": "public-assets/activity_media/prop-building-blocks.png",
+      "url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-building-blocks.png",
+      "exists": false
+    },
+    {
+      "slug": "marbles",
+      "path": "assets/fine-motor-props/marbles.png",
+      "sha256": "abad68c2b0e06956ae3afb7c447c37fd28c14148772a46d8ef24b6b5ad0f757f",
+      "object": "public-assets/activity_media/prop-marbles.png",
+      "url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-marbles.png",
+      "exists": false
+    },
+    {
+      "slug": "cleaning-cloth",
+      "path": "assets/fine-motor-props/cleaning-cloth.png",
+      "sha256": "318efaa0c538820676b42aa5d35b3762135006c02cb1c958620c987854d5fe38",
+      "object": "public-assets/activity_media/prop-cleaning-cloth.png",
+      "url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-cleaning-cloth.png",
+      "exists": false
+    },
+    {
+      "slug": "finger-extension-band",
+      "path": "assets/fine-motor-props/finger-extension-band.png",
+      "sha256": "63a928f11e14651bde2dd4f26165a708b1a01059ce14935657f4e832be48d081",
+      "object": "public-assets/activity_media/prop-finger-extension-band.png",
+      "url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-finger-extension-band.png",
+      "exists": false
+    },
+    {
+      "slug": "child-scissors",
+      "path": "assets/fine-motor-props/child-scissors.png",
+      "sha256": "d3d3459504d686e5455738d720fb93389cf948c361c88a72028a121b2898ae36",
+      "object": "public-assets/activity_media/prop-child-scissors.png",
+      "url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-scissors.png",
+      "exists": false
+    },
+    {
+      "slug": "child-pencil",
+      "path": "assets/fine-motor-props/child-pencil.png",
+      "sha256": "5d685fc1c694261ca690ece287ca0e2e81c576c0f62036a64f23eed09322d5af",
+      "object": "public-assets/activity_media/prop-child-pencil.png",
+      "url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-pencil.png",
+      "exists": false
+    },
+    {
+      "slug": "spring-assisted-scissors",
+      "path": "assets/fine-motor-props/spring-assisted-scissors.png",
+      "sha256": "952cba20476b31d117cdb5fa8a9ac70851d0c41ba67f3a853fb7168de38d04fb",
+      "object": "public-assets/activity_media/prop-spring-assisted-scissors.png",
+      "url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-spring-assisted-scissors.png",
+      "exists": false
+    }
+  ],
+  "updates": [
+    {
+      "id": "6fe241be-9230-4d83-9ac8-15ecb54380c7",
+      "toy_code": "Y63",
+      "name_ja": "お絵かき",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-pencil.png",
+      "slug": "child-pencil"
+    },
+    {
+      "id": "03fcb729-f45a-4c23-a7da-fb2ecc28c2e5",
+      "toy_code": "A354",
+      "name_ja": "大きなブロック",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-building-blocks.png",
+      "slug": "building-blocks"
+    },
+    {
+      "id": "154dd56b-2745-4b1e-a57f-e7a73b748f20",
+      "toy_code": "A565",
+      "name_ja": "トング・おたま移し",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-tongs-pompoms.png",
+      "slug": "tongs-pompoms"
+    },
+    {
+      "id": "83765838-6c53-43a3-8702-da5feb5074c3",
+      "toy_code": "A075",
+      "name_ja": "ハサミの持ち方を覚える",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-scissors.png",
+      "slug": "child-scissors"
+    },
+    {
+      "id": "685dc844-83ed-47f3-8c1c-6e81aef79753",
+      "toy_code": "A233",
+      "name_ja": "粘土遊び",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-dough-roller.png",
+      "slug": "dough-roller"
+    },
+    {
+      "id": "2f9483bc-4caf-429a-baae-78aa5d45f886",
+      "toy_code": "A306",
+      "name_ja": "洗濯ばさみ",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-clothespins.png",
+      "slug": "clothespins"
+    },
+    {
+      "id": "b04d7575-fcca-45fe-b5f7-ac0ed10cd05d",
+      "toy_code": "A398",
+      "name_ja": "ファスナーを上げ下げする",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-dressing-board.png",
+      "slug": "dressing-board"
+    },
+    {
+      "id": "f2127ea3-72f3-4bd7-9ced-d8c24d1e40d9",
+      "toy_code": "A513",
+      "name_ja": "ペグさし",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-pegboard.png",
+      "slug": "pegboard"
+    },
+    {
+      "id": "b5a1e71e-eb03-4b35-90b7-42d9559369b2",
+      "toy_code": "A395",
+      "name_ja": "大きいボタンをはめる",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-dressing-board.png",
+      "slug": "dressing-board"
+    },
+    {
+      "id": "a790a263-ffe4-5625-a569-731ecfb66feb",
+      "toy_code": "SD20260929_SC1_1",
+      "name_ja": "持ち方を確かめる",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-scissors.png",
+      "slug": "child-scissors"
+    },
+    {
+      "id": "ad1e5ea7-f202-5e0c-8470-f8a18731817b",
+      "toy_code": "SD20260929_SC1_2",
+      "name_ja": "ゆっくり開閉する",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-spring-assisted-scissors.png",
+      "slug": "spring-assisted-scissors"
+    },
+    {
+      "id": "da6aa8a1-a4e7-5369-b8ee-61411259055f",
+      "toy_code": "SD20260929_SC1_3",
+      "name_ja": "動きをまねる",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-scissors.png",
+      "slug": "child-scissors"
+    },
+    {
+      "id": "313955b1-8393-5ac0-8c01-cecb9378d57b",
+      "toy_code": "SD20260929_SC2_1",
+      "name_ja": "紙に切れ目を入れる",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-scissors-paper.png",
+      "slug": "scissors-paper"
+    },
+    {
+      "id": "bdaf6832-0794-550e-81f2-66d9fa352169",
+      "toy_code": "SD20260929_SC2_2",
+      "name_ja": "細い紙を切る",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-scissors-paper.png",
+      "slug": "scissors-paper"
+    },
+    {
+      "id": "4e1c23c5-90bb-5dea-968c-c9befa3629c0",
+      "toy_code": "SD20260929_SC2_3",
+      "name_ja": "切った紙で飾る",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-scissors-paper.png",
+      "slug": "scissors-paper"
+    },
+    {
+      "id": "7403ca5a-bcb9-55b8-9234-79b9ee9d31ff",
+      "toy_code": "SD20260929_SC3_1",
+      "name_ja": "短い道を切る",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-scissors-paper.png",
+      "slug": "scissors-paper"
+    },
+    {
+      "id": "04756686-f99d-5637-8403-3bb6b9ed0269",
+      "toy_code": "SD20260929_SC3_2",
+      "name_ja": "ゆるいカーブを切る",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-scissors-paper.png",
+      "slug": "scissors-paper"
+    },
+    {
+      "id": "efedbd8d-0768-5d82-b2ee-3e0a14f4a4a8",
+      "toy_code": "SD20260929_SC3_3",
+      "name_ja": "紙を支えて切る",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-scissors-paper.png",
+      "slug": "scissors-paper"
+    },
+    {
+      "id": "e2aaaf27-6056-54ac-9fa9-11a089e1e445",
+      "toy_code": "SD20260929_SC4_1",
+      "name_ja": "大きな形を切る",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-scissors-paper.png",
+      "slug": "scissors-paper"
+    },
+    {
+      "id": "8822a728-e44c-5d44-b88d-bb25b4546940",
+      "toy_code": "SD20260929_SC4_2",
+      "name_ja": "紙を回して切る",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-scissors-paper.png",
+      "slug": "scissors-paper"
+    },
+    {
+      "id": "16c3ecb4-9565-5b20-a7a5-4b363acbff88",
+      "toy_code": "SD20260929_SC4_3",
+      "name_ja": "切り抜きを飾る",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-scissors-paper.png",
+      "slug": "scissors-paper"
+    },
+    {
+      "id": "22ac8e8a-8f6a-52bc-9326-75ff070180a9",
+      "toy_code": "SD20260929_DR1_1",
+      "name_ja": "ぐるぐる描く",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-pencil.png",
+      "slug": "child-pencil"
+    },
+    {
+      "id": "1d981157-61fb-512a-9257-564a8349b922",
+      "toy_code": "SD20260929_DR1_2",
+      "name_ja": "雨の線を描く",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-pencil.png",
+      "slug": "child-pencil"
+    },
+    {
+      "id": "87e9b432-2e80-5363-8278-e0d1833abb29",
+      "toy_code": "SD20260929_DR1_3",
+      "name_ja": "道を描く",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-pencil.png",
+      "slug": "child-pencil"
+    },
+    {
+      "id": "3279e089-ee49-460d-b1cb-33345a6a9b86",
+      "toy_code": "A514",
+      "name_ja": "棒やひもに通す",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-threading-beads.png",
+      "slug": "threading-beads"
+    },
+    {
+      "id": "a0777adb-bd89-5eed-ace4-baa31b96cf0d",
+      "toy_code": "SD20260929_DR2_1",
+      "name_ja": "丸をいっぱい描く",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-pencil.png",
+      "slug": "child-pencil"
+    },
+    {
+      "id": "fe0cd41c-a910-59c3-8d09-881ec19d8c6e",
+      "toy_code": "SD20260929_DR2_2",
+      "name_ja": "顔を描く",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-pencil.png",
+      "slug": "child-pencil"
+    },
+    {
+      "id": "4e1784e9-db3e-50a4-9f82-7d4ed32cf7f2",
+      "toy_code": "SD20260929_DR2_3",
+      "name_ja": "丸いもの探し",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-pencil.png",
+      "slug": "child-pencil"
+    },
+    {
+      "id": "947ead5d-777f-583d-9a55-14dc2e8ef1ef",
+      "toy_code": "SD20260929_DR3_1",
+      "name_ja": "十字の道を描く",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-pencil.png",
+      "slug": "child-pencil"
+    },
+    {
+      "id": "06e50e8a-844a-586f-86fe-f6e2be30061a",
+      "toy_code": "SD20260929_DR3_2",
+      "name_ja": "四角の窓を描く",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-pencil.png",
+      "slug": "child-pencil"
+    },
+    {
+      "id": "2882a502-373c-52b7-b722-61cd31948838",
+      "toy_code": "SD20260929_DR3_3",
+      "name_ja": "三角の屋根を描く",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-pencil.png",
+      "slug": "child-pencil"
+    },
+    {
+      "id": "d97414cb-828c-544b-ab94-90c193f8faf4",
+      "toy_code": "SD20260929_DR4_1",
+      "name_ja": "名前をまねる",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-pencil.png",
+      "slug": "child-pencil"
+    },
+    {
+      "id": "16b9aa04-49e0-5245-a013-42139e886cf1",
+      "toy_code": "SD20260929_DR4_2",
+      "name_ja": "看板を作る",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-pencil.png",
+      "slug": "child-pencil"
+    },
+    {
+      "id": "d124d293-2199-5cc6-8b18-692ff56e88df",
+      "toy_code": "SD20260929_DR4_3",
+      "name_ja": "数字の札を作る",
+      "previous_image_url": null,
+      "new_image_url": "https://dltohjfxawjonomvxfsd.supabase.co/storage/v1/object/public/public-assets/activity_media/prop-child-pencil.png",
+      "slug": "child-pencil"
+    }
+  ],
+  "unlinked_props": [
+    "marbles",
+    "cleaning-cloth",
+    "finger-extension-band"
+  ]
+}

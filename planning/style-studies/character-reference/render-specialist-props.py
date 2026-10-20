@@ -35,10 +35,10 @@ def render():
         block = f'''<!-- specialist-props:{cid}:start -->
 <div class="specialisttools">
 <div class="toolrailhead"><p>{esc(group['role'])}</p>
-<div class="toolrailcontrols"><span class="toolposition" aria-live="polite">1 / 10</span>
+<div class="toolrailcontrols"><span class="toolposition" aria-live="polite">1 / {len(group["items"])}</span>
 <button type="button" data-tool-direction="-1" aria-controls="tools-{cid}" aria-label="{esc(group['name'])}の前の道具" disabled>←</button>
 <button type="button" data-tool-direction="1" aria-controls="tools-{cid}" aria-label="{esc(group['name'])}の次の道具">→</button></div></div>
-<div class="toolgrid" id="tools-{cid}" tabindex="0" role="region" aria-label="{esc(group['name'])}の道具10点。左右にスクロールできます">{''.join(cards)}</div>
+<div class="toolgrid" id="tools-{cid}" tabindex="0" role="region" aria-label="{esc(group['name'])}の道具{len(group["items"])}点。左右にスクロールできます">{''.join(cards)}</div>
 </div>
 <!-- specialist-props:{cid}:end -->'''
         pattern = rf'<!-- specialist-props:{cid}:start -->.*?<!-- specialist-props:{cid}:end -->'

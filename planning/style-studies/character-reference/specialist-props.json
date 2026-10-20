@@ -316,40 +316,6 @@
       "role": "つまむ・つなぐ・描く。持ち方や道具の条件を一つずつ変える。",
       "items": [
         {
-          "id": "luke-tool-01",
-          "name": "大きなピンセット・トング",
-          "source": "busy",
-          "sourceFact": "Busy Boxに大型ピンセットが含まれる。",
-          "scene": "つかみにくい物に合わせて道具の開き幅を変える。",
-          "design": "先端の接点が見えるU字形。",
-          "context": "手先の遊び",
-          "photo": {
-            "path": "assets/specialist-props/tweezers-3e9f89d638.jpg",
-            "originalUrl": "https://www.therapro.com/THC55504_02.jpg",
-            "sourceUrl": "https://www.therapro.com/Tweezers.html",
-            "credit": "Therapro · 製品参考写真",
-            "alt": "大きなピンセット・トングの参考写真",
-            "kind": "参考写真"
-          }
-        },
-        {
-          "id": "luke-tool-02",
-          "name": "洗濯ばさみ",
-          "source": "busy",
-          "sourceFact": "Busy Boxに大小の洗濯ばさみが含まれる。",
-          "scene": "Lukeが台紙を支え、子どもが挟む位置を選ぶ。",
-          "design": "押す部分と挟む先を描き分ける。",
-          "context": "手先の遊び",
-          "photo": {
-            "path": "assets/specialist-props/clothespins-afa0400d0f.jpg",
-            "originalUrl": "https://spellbinderswholesale.com/cdn/shop/products/AC-0028-Jumbo-Wooden-Clothespins__44324.1539130912.1280.1280_1200x1200.jpg?v=1657214086",
-            "sourceUrl": "https://spellbinderswholesale.com/products/jumbo-wooden-clothespins",
-            "credit": "Spellbinders · 木製クリップ",
-            "alt": "洗濯ばさみの参考写真",
-            "kind": "参考写真"
-          }
-        },
-        {
           "id": "luke-tool-03",
           "name": "つなぐビーズ",
           "source": "busy",

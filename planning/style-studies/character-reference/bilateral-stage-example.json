@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-02",
+  "status": "proposal",
+  "tool": "built-in image_gen",
+  "stage_id": "660e8400-e29b-41d4-a716-446655440003",
+  "stage": "両手を一緒に使う",
+  "source_scene": "luke-frame-bead-threading",
+  "main_asset": "assets/stage-examples/bilateral-threading.png",
+  "source_output": "/Users/tingwen/.codex/generated_images/01a0ef90-8448-75f1-9b8a-386b97d5c371/exec-05884f29-ed5c-4d82-b79c-a1d308fbc818.png",
+  "prompt": "Create a warm educational illustration for a Japanese child-development stage explanation, one clear main scene of a child's TWO HUMAN HANDS threading a large wooden bead. Reference image is prop material and color reference only. Tight close-up from above of forearms entering naturally from bottom left and bottom right, simple cream sleeves, age-appropriate small human hands with believable five-finger anatomy. Left hand gently holds one large warm yellow rounded wooden bead from its bottom and far edge, leaving the central through-hole visible. The bead hole axis runs left-right, tilted slightly toward the viewer so the entry on the RIGHT is clearly visible. Right thumb and index finger pinch the stiff burgundy tip of a thick burgundy threading cord and insert its tip slightly into that hole from the right. Right hand remains outside the bead, cord trails naturally down to the right. Show the single instant of aligning and inserting, NOT pulling out. Both hands same scale, no extra fingers, no adult hands, no animals. One spare purple bead rests well away at upper left. A very pale warm wood tabletop patch grounds the scene, otherwise white background. Dark warm brown clean outlines, restrained flat warm colors, subtle toy wood shading matching reference, gentle skin tone, minimal detail. Hands and bead contact are the strongest contrast; table very light. No arrows, no labels, no text, no panels, no border, no unrelated objects. Wide landscape 3:2 composition with breathing room.",
+  "supplementary_assets": [
+    "assets/fine-motor-props/clothespins.png",
+    "assets/fine-motor-props/cleaning-cloth.png"
+  ],
+  "layout": "Desktop main scene 70%, supplementary column 30%; mobile main scene first, two small props below. Supplemental activities are alternatives, not sequential developmental stages."
+}

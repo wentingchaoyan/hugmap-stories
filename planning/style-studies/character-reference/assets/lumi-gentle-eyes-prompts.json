@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Precise local eye-only edit to IMAGE 1. IMAGE 2 is approved gentle sleepy EYE STYLE ONLY, not pose or proportions. In image 1 change every visible owl eye to a gentle sleepy half-open eye: upper lid nearly horizontal but subtly shallow curved with rounded ends (not stern rigid bar, not sad sloping), dark brown pupil with one tiny white highlight. Match image 2 eyes. Preserve exact eye size and center positions. Absolutely preserve canvas dimensions, all silhouettes, head and body proportions, feet positions, palette, line weight, clothing, all props and composition of image 1. Do NOT add a card from image 2. No eyebrows, glasses, blush on adults, new text. For child keep existing cheeks and highlights. For back view keep no eyes. White background stays white. Change only pixels around existing eyes; no global redraw or resizing.",
+  "outputs": [
+    "lumi-turnaround-white.png",
+    "lumi-parent-child-color.png",
+    "lumi-child-study.png"
+  ],
+  "note": "Eye-only revision; lumi-front-color.png retained as historical proportion comparison."
+}

@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "character": "gen",
+  "note": "旧TXTの原文。順序・成功を推定しない。現行promptへ自動合成しない。",
+  "records": {
+    "gen-ask-to-be-held-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "1fe8eaaac3451d20abd9c916158c97168bb29dadf2632c2d7270d18e9ddf0237",
+      "text": "Edit image1 carefully. Preserve Gen rabbit exact existing head body pose expression fur palette background props and scene composition. Change HUMAN silhouettes only and reposition existing orange U emblem where requested. References2/3 define child/adult anatomy and simple WHITE hair. Faces completely white blank no eyes brows mouth inside, small nose only silhouette. Child outlines soft pale salmon #F59B82, adult lighter #F7C6B3 and slightly thinner. White skin hair clothes. Smooth rounded contours, no jagged hair scallops, no long spike tufts. Keep hands/object contacts and original activity. No added decorations. U existing U plus two dots solid #FF511B on upper SCREENRIGHT chest garment (wearer's left) above midtorso, not center/arm/scarf, preserve shape; can be partially hidden by arm naturally. Square opaque image. Adult LEFT bending toward toddler: standard adult slender mature head with simple low pony whitehair, clear sideear neck white longsleeve shirt trousers, naturally bent elbows two open palms reaching child. Keep exact gap between adult and child hands. Child center reaching BOTH hands UP toward adult, toddler rounded head smaller ears short whitehair tee shorts rounded limbs. Keep feet pose. Rabbit right hands clasped chest; U stays on visible chest area naturally partialoccluded, not on hands.\n"
+    },
+    "gen-ask-to-be-held-repair-prompt.txt": {
+      "status": "recorded",
+      "sha256": "33bd7117e65ad255ecaf14bbb7e2f888b527818aa790863b88e62f61ba5bdb05",
+      "text": "ONLY recolor all outline strokes of the ADULT LEFT to pale peach #F7C6B3, visibly lighter than toddler salmon #F59B82. Keep adult white fill. All shapes and everything else identical. Fully opaque ivory background.\n"
+    },
+    "gen-balance-mirror-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "b868018cbb916a8632ef7d75b5b5d42205f2d18e94abdb83fd97c51f3e0dc76c",
+      "text": "Edit this existing illustration with an extremely narrow COLOR CORRECTION ONLY. Preserve every shape, pose, composition, rabbit, objects, background, white opaque canvas and line width exactly. Replace ALL child silhouette strokes including hair, fingers, clothes and feet with uniform muted pastel salmon #F59B82 (RGB 245,155,130). The existing strokes are too saturated orange. Visibly reduce saturation to 47%, with R245 G155 B130 as the solid stroke core. No vivid orange/red child lines. Retain white fill and faceless child. Do not change the rabbit or logo or shadows. Single finished image, original dimensions.\n"
+    },
+    "gen-balance-mirror-hands-prompt.txt": {
+      "status": "recorded",
+      "sha256": "c7ef0430a6addaa2785e20c43acd3e9ea9df06e1316af7b62e1b7dad6a061b98",
+      "text": "Precise local edit of IMAGE1: ONLY the rabbit Gen's hands/paws. IMAGE2 second row GEN is authoritative anatomy. Keep shoulders, arms poses, sleeve ends and entire body/head/ears EXACTLY unchanged. Replace featureless oval or paddle ends with short rounded rabbit paws continuous with forearm, subtle thumb bulge and two short curved fingertip separators like the front Gen turnaround. No human long fingers, no mitten gloves, no cuff lines. Both hands anatomically consistent, not circles attached to sticks. Preserve ALL child geometry/outlines, background, props and all U logos positions, composition. Rabbit line warm brown #A77C65. In push-car rabbit small distant scale unchanged. Fully opaque warmwhite image.\n"
+    },
+    "gen-ball-exchange-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "44c7fb1e63240fa5020f3c845133e72c0fa9148555b28c65489b1b21afc7e775",
+      "text": "Edit image1 carefully. Preserve Gen rabbit exact existing head body pose expression fur palette background props and scene composition. Change HUMAN silhouettes only and reposition existing orange U emblem where requested. References2/3 define child/adult anatomy and simple WHITE hair. Faces completely white blank no eyes brows mouth inside, small nose only silhouette. Child outlines soft pale salmon #F59B82, adult lighter #F7C6B3 and slightly thinner. White skin hair clothes. Smooth rounded contours, no jagged hair scallops, no long spike tufts. Keep hands/object contacts and original activity. No added decorations. U existing U plus two dots solid #FF511B on upper SCREENRIGHT chest garment (wearer's left) above midtorso, not center/arm/scarf, preserve shape; can be partially hidden by arm naturally. Square opaque image. Child LEFT kicks yellow ball to rabbit, preserve football contact and supporting foot position. Toddler simple short whitehair sideear, small nose rightprofile looking down atball, shortneck tee shorts. Round relaxed hand visible behind rather than mittenstub. Rabbit pose unchanged. Shift existing U off chest CENTER to upper screenright chest garment, not onto sleeve.\n"
+    },
+    "gen-ball-roll-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "2673a9e91e98414dd41a89a68b12c4e741ec5d14bc146e04d02a0d0f9c279842",
+      "text": "Precise-object-edit of image1. References image2 Gen SECOND ROW shape only; image3 child shape only. Seated toddler rolling ball: short smooth white hair, ear, white tee shorts, soft head profile. Preserve extended hands and ball. Rabbit seated paws short rounded with small finger separators. Move centered U to upper screenright chest. Preserve original composition, background, props, pose and character scales. Gen canonical one upright ear one folded, rounded cheeks and head/body ratios unchanged. Critical colors: ALL child outline #F59B82 (RGB245,155,130), all Gen outline #A77C65 (RGB167,124,101), eyesnose #6B5143. Uniform opaque strokes, no pale gray washedout animal outlines, no bright red/orange human outlines. Outer4 inner3 detail2.5 at1536x1024 scale coherently. White bodies and human hair. Humans have NO eyes mouth facial marks or logos. U ONLY Gen #FF511B. Rabbit yellow scarf flat solid with NO border or internal line. Soft existing background kept opaque. No new objects or sheet. Deliver same square.\n"
+    },
+    "gen-ball-roll-repair-prompt.txt": {
+      "status": "invalid",
+      "sha256": "770c2d18aa4ec3159f46da461ef452972949942ff4f6a9771044485faa146398",
+      "text": "undefined\n"
+    },
+    "gen-child-leads-rabbit-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "b868018cbb916a8632ef7d75b5b5d42205f2d18e94abdb83fd97c51f3e0dc76c",
+      "text": "Edit this existing illustration with an extremely narrow COLOR CORRECTION ONLY. Preserve every shape, pose, composition, rabbit, objects, background, white opaque canvas and line width exactly. Replace ALL child silhouette strokes including hair, fingers, clothes and feet with uniform muted pastel salmon #F59B82 (RGB 245,155,130). The existing strokes are too saturated orange. Visibly reduce saturation to 47%, with R245 G155 B130 as the solid stroke core. No vivid orange/red child lines. Retain white fill and faceless child. Do not change the rabbit or logo or shadows. Single finished image, original dimensions.\n"
+    },
+    "gen-children-repair-together-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "b3b377619d4e448388af4c954ade4b6d9b0f948a36a8a1255b278366cd9aa46b",
+      "text": "Edit image1 carefully. Preserve Gen rabbit exact existing head body pose expression fur palette background props and scene composition. Change HUMAN silhouettes only and reposition existing orange U emblem where requested. References2/3 define child/adult anatomy and simple WHITE hair. Faces completely white blank no eyes brows mouth inside, small nose only silhouette. Child outlines soft pale salmon #F59B82, adult lighter #F7C6B3 and slightly thinner. White skin hair clothes. Smooth rounded contours, no jagged hair scallops, no long spike tufts. Keep hands/object contacts and original activity. No added decorations. U existing U plus two dots solid #FF511B on upper SCREENRIGHT chest garment (wearer's left) above midtorso, not center/arm/scarf, preserve shape; can be partially hidden by arm naturally. Square opaque image. IMPORTANT both humans are TODDLER PEERS same approximate age, NOT adult. Seated toddler center reaches right to other child while left palm supports floor. Add short whitehair tee shorts rounded toddler face in rightprofile. Standing bent toddler RIGHT offers openhand: reduce height/body to plausible same-age toddler compared seated child, big rounded toddlerhead short limbs, simple white bobgirlhair, tee shorts. Preserve gap between their offered hands, they haven't grasped. Rabbit left waits crouched hands together, unchanged. Move U from center onto upper screenright chest shirt, partialocclusion by forearm allowed.\n"
+    },
+    "gen-children-repair-together-repair-prompt.txt": {
+      "status": "recorded",
+      "sha256": "9135a07f38667bb0b0cda67a913b803db311ae58c4d6adc5e82bba4b6afa66da",
+      "text": "Remove orange U from GIRL RIGHT shirt, pure white shirt no marks. BOTH children outline SAME pale salmon #F59B82; rightgirl currently too pale. Add tiny orange U plus two dots ONLY to RABBIT LEFT upper screenRIGHT chest garment just below scarf, above clasped paws, partially hidden by forearm if needed. Not on arm or scarf. Everything else identical. Opaque background.\n"
+    },
+    "gen-crawling-chase-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "f7847768c2c61e4ac403f78f8f7d0b51ad51383f21af3d363891258d0dbd682d",
+      "text": "Precise-object-edit of image1. References image2 Gen SECOND ROW shape only; image3 child shape only. Crawling BABY remains bald round head short limbs, no toddler hair. Smooth silhouette and add minimal white romper seams. Preserve palms and knees on ground and rabbit looking back crawling. U stays center of BACK shirt, rotated with torso plane. Preserve original composition, background, props, pose and character scales. Gen canonical one upright ear one folded, rounded cheeks and head/body ratios unchanged. Critical colors: ALL child outline #F59B82 (RGB245,155,130), all Gen outline #A77C65 (RGB167,124,101), eyesnose #6B5143. Uniform opaque strokes, no pale gray washedout animal outlines, no bright red/orange human outlines. Outer4 inner3 detail2.5 at1536x1024 scale coherently. White bodies and human hair. Humans have NO eyes mouth facial marks or logos. U ONLY Gen #FF511B. Rabbit yellow scarf flat solid with NO border or internal line. Soft existing background kept opaque. No new objects or sheet. Deliver same square.\n"
+    },
+    "gen-crawling-chase-repair-prompt.txt": {
+      "status": "invalid",
+      "sha256": "770c2d18aa4ec3159f46da461ef452972949942ff4f6a9771044485faa146398",
+      "text": "undefined\n"
+    },
+    "gen-descend-stairs-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "b868018cbb916a8632ef7d75b5b5d42205f2d18e94abdb83fd97c51f3e0dc76c",
+      "text": "Edit this existing illustration with an extremely narrow COLOR CORRECTION ONLY. Preserve every shape, pose, composition, rabbit, objects, background, white opaque canvas and line width exactly. Replace ALL child silhouette strokes including hair, fingers, clothes and feet with uniform muted pastel salmon #F59B82 (RGB 245,155,130). The existing strokes are too saturated orange. Visibly reduce saturation to 47%, with R245 G155 B130 as the solid stroke core. No vivid orange/red child lines. Retain white fill and faceless child. Do not change the rabbit or logo or shadows. Single finished image, original dimensions.\n"
+    },
+    "gen-descend-stairs-repair-prompt.txt": {
+      "status": "invalid",
+      "sha256": "770c2d18aa4ec3159f46da461ef452972949942ff4f6a9771044485faa146398",
+      "text": "undefined\n"
+    },
+    "gen-dressing-sleeve-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "b868018cbb916a8632ef7d75b5b5d42205f2d18e94abdb83fd97c51f3e0dc76c",
+      "text": "Edit this existing illustration with an extremely narrow COLOR CORRECTION ONLY. Preserve every shape, pose, composition, rabbit, objects, background, white opaque canvas and line width exactly. Replace ALL child silhouette strokes including hair, fingers, clothes and feet with uniform muted pastel salmon #F59B82 (RGB 245,155,130). The existing strokes are too saturated orange. Visibly reduce saturation to 47%, with R245 G155 B130 as the solid stroke core. No vivid orange/red child lines. Retain white fill and faceless child. Do not change the rabbit or logo or shadows. Single finished image, original dimensions.\n"
+    },
+    "gen-dressing-sleeve-repair-prompt.txt": {
+      "status": "invalid",
+      "sha256": "770c2d18aa4ec3159f46da461ef452972949942ff4f6a9771044485faa146398",
+      "text": "undefined\n"
+    },
+    "gen-follow-running-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "b868018cbb916a8632ef7d75b5b5d42205f2d18e94abdb83fd97c51f3e0dc76c",
+      "text": "Edit this existing illustration with an extremely narrow COLOR CORRECTION ONLY. Preserve every shape, pose, composition, rabbit, objects, background, white opaque canvas and line width exactly. Replace ALL child silhouette strokes including hair, fingers, clothes and feet with uniform muted pastel salmon #F59B82 (RGB 245,155,130). The existing strokes are too saturated orange. Visibly reduce saturation to 47%, with R245 G155 B130 as the solid stroke core. No vivid orange/red child lines. Retain white fill and faceless child. Do not change the rabbit or logo or shadows. Single finished image, original dimensions.\n"
+    },
+    "gen-follow-running-repair-prompt.txt": {
+      "status": "invalid",
+      "sha256": "770c2d18aa4ec3159f46da461ef452972949942ff4f6a9771044485faa146398",
+      "text": "undefined\n"
+    },
+    "gen-follow-stairs-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "c601c42b8457c7b57dd70ac79368f9cc7f76525062f01d402cee52f5aa8085b9",
+      "text": "Edit image1 only; image2 rabbit GEN second row is canonical SHAPE; image3 human shape reference. BACK VIEW child climbing stairs: add smooth short hair outer silhouette and low nape only, NO interior bangs at top. Add white tee shorts boundaries and rounded ears. Preserve handrail grasp and feet on different steps. Rabbit BACK view center back U. Keep composition/background/props and all poses. Child #F59B82 RGB245155130 uniform opaque outline, not vividorange. Gen #A77C65 RGB167124101 uniform warmbrown outline, not darkgray or washedout tan. Whitefills and whitehair; all humans blank faces, NO logos. Rabbit #6B5143 eyesnose, yellow scarf #D7C862 flat without borders or internal lines. Gen head oneupright onefoldedear roundedcheeks smallovaleyes little nose frontteeth. U + TWO DOTS #FF511B only on rabbit correct garmentplane. Outer4 inner3 detail2.5px at1536x1024 scale together. Smooth natural curves. Preserve opaque warmwhite square.\n"
+    },
+    "gen-follow-walking-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "9c334ab65adc1fda6f416fa7330e02a6f7c20248b668d8116e18c03b946c4c36",
+      "text": "Precisely edit ONLY the child's outline color in this illustration. Change every child stroke (hair, head, body, clothing, limbs, hands, feet) to muted pastel salmon HEX #F59B82 RGB(245,155,130), saturation47%. Existing orange is too strong; make the line visibly softer and less orange, while keeping opacity100%. Preserve exact line thickness, every contour, original pose, composition, rabbit design and colors, all objects/background, opaque white fill and canvas. Do not redraw or simplify anatomy. No other changes.\n"
+    },
+    "gen-hide-and-seek-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "20f6d4e8609c8f31ae2d0ec218c8de5ea4348cd4da0e6180ff977d8bb330d732",
+      "text": "Edit image1 only; image2 rabbit GEN second row is canonical SHAPE; image3 human shape reference. Child peeking behind wall: add simple BOB white hair and white tee shorts only in visible portion, preserve wall occlusion and gripping hand. Blank face no features. Rabbit BACK view looking away hand to cheek, retain pose. Back center U. Keep composition/background/props and all poses. Child #F59B82 RGB245155130 uniform opaque outline, not vividorange. Gen #A77C65 RGB167124101 uniform warmbrown outline, not darkgray or washedout tan. Whitefills and whitehair; all humans blank faces, NO logos. Rabbit #6B5143 eyesnose, yellow scarf #D7C862 flat without borders or internal lines. Gen head oneupright onefoldedear roundedcheeks smallovaleyes little nose frontteeth. U + TWO DOTS #FF511B only on rabbit correct garmentplane. Outer4 inner3 detail2.5px at1536x1024 scale together. Smooth natural curves. Preserve opaque warmwhite square.\n"
+    },
+    "gen-horizontal-bar-hang-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "9c334ab65adc1fda6f416fa7330e02a6f7c20248b668d8116e18c03b946c4c36",
+      "text": "Precisely edit ONLY the child's outline color in this illustration. Change every child stroke (hair, head, body, clothing, limbs, hands, feet) to muted pastel salmon HEX #F59B82 RGB(245,155,130), saturation47%. Existing orange is too strong; make the line visibly softer and less orange, while keeping opacity100%. Preserve exact line thickness, every contour, original pose, composition, rabbit design and colors, all objects/background, opaque white fill and canvas. Do not redraw or simplify anatomy. No other changes.\n"
+    },
+    "gen-oral-exploration-teether-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "0ae00bd71de8b8206b9e1340fdac783e0c23dcc79db2826dec66da76b292bef7",
+      "text": "Edit image1 carefully. Preserve Gen rabbit exact existing head body pose expression fur palette background props and scene composition. Change HUMAN silhouettes only and reposition existing orange U emblem where requested. References2/3 define child/adult anatomy and simple WHITE hair. Faces completely white blank no eyes brows mouth inside, small nose only silhouette. Child outlines soft pale salmon #F59B82, adult lighter #F7C6B3 and slightly thinner. White skin hair clothes. Smooth rounded contours, no jagged hair scallops, no long spike tufts. Keep hands/object contacts and original activity. No added decorations. U existing U plus two dots solid #FF511B on upper SCREENRIGHT chest garment (wearer's left) above midtorso, not center/arm/scarf, preserve shape; can be partially hidden by arm naturally. Square opaque image. Baby LEFT sitting holding yellow teether to mouth exactly same contacts. Keep BABY head/body proportions and hairless head (tiny original tuft optional), no toddler hairstyle. Smooth grainy broken baby contour and round hands/feet. Adult CENTER seated crosslegged: standard mature adult head/neck/shoulders, simple white bob with clear sideear and minimal fringe, face oriented downleft toward baby. White longsleeve top trousers, clarify forearms and crossedlegs without changing pose. Rabbit lower right preserved; U place upper screenright torso clear of sleeve, natural occlusion. Keep teether whole.\n"
+    },
+    "gen-oral-exploration-teether-repair-prompt.txt": {
+      "status": "recorded",
+      "sha256": "a989d1b6ccca3d3a02806f185632c53d3b718513b89cb4521b6171f488d5957e",
+      "text": "Remove orange U from ADULT woman's shirt completely, pure white no marks. Keep rabbit U only, on visible upper chest garment. Preserve all other pixels, shapes and poses, teether hand mouth contacts and background.\n"
+    },
+    "gen-parent-first-step-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "c7d8b2b8a2e9ca77678f2a46bf9f312447f68f21d6f7168358879ef884000b96",
+      "text": "Edit image1 carefully. Preserve Gen rabbit exact existing head body pose expression fur palette background props and scene composition. Change HUMAN silhouettes only and reposition existing orange U emblem where requested. References2/3 define child/adult anatomy and simple WHITE hair. Faces completely white blank no eyes brows mouth inside, small nose only silhouette. Child outlines soft pale salmon #F59B82, adult lighter #F7C6B3 and slightly thinner. White skin hair clothes. Smooth rounded contours, no jagged hair scallops, no long spike tufts. Keep hands/object contacts and original activity. No added decorations. U existing U plus two dots solid #FF511B on upper SCREENRIGHT chest garment (wearer's left) above midtorso, not center/arm/scarf, preserve shape; can be partially hidden by arm naturally. Square opaque image. Toddler LEFT walking RIGHT toward crouched adult, keep step pose and outstretched hands and golden stepping marks. Add simple WHITE short hair sideear shortneck tee shorts, roundcheeks small rightprofile nose. Adult RIGHT crouched with hands reaching: mature adult proportions clear neck sideear, simple WHITE short hair, long sleeve shirt trousers; shorten stretched forearms moderately but preserve reaching direction and gap. Preserve rabbit left following exact pose. U on side shirt currently near waist must be removed there; only show if upper chest garment plane actually visible, don't put on sleeve or flank.\n"
+    },
+    "gen-parent-first-step-repair-prompt.txt": {
+      "status": "recorded",
+      "sha256": "a6e52e5146c1e0287110aba9a65ce38721af288b0b554031dc2c9cf3f4fcaa40",
+      "text": "Remove orange U from ADULT man's shirt completely, pure white. Remove LOW orange U on RABBIT LEFT near waist: this sideview hides correct upperchest behind its arm, so NO visible U here. Do not add another logo elsewhere. Keep all shapes poses and entire background unchanged.\n"
+    },
+    "gen-park-slide-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "99051132521bf5ffe5ba3f5f9bff3ac9a81d1d74f0d10853eb552f383ba78838",
+      "text": "Precisely edit ONLY the child's outline color in this illustration. Change every child stroke (hair, head, body, clothing, limbs, hands, feet) to muted pastel salmon HEX #F59B82 RGB(245,155,130), saturation47%. Existing orange is too strong; make the line visibly softer and less orange, while keeping opacity100%. Preserve exact line thickness, every contour, original pose, composition, rabbit design and colors, all objects/background, opaque white fill and canvas. Do not redraw or simplify anatomy. No other changes.\nSecond pass: Edit image1. Preserve composition and all geometry exactly. Match ONLY all CHILD linework to the softer muted salmon child linework in image2. Required HEX #F59B82 RGB245,155,130. Solid strokes NOT textured translucent highlights; no orange/red saturated edges. Image2 is color reference ONLY, do not copy its scene or pose.  Keep child white fill, rabbit unchanged, clothing simplification, all objects background and original line widths. Output only edited image1.\n"
+    },
+    "gen-park-swing-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "99051132521bf5ffe5ba3f5f9bff3ac9a81d1d74f0d10853eb552f383ba78838",
+      "text": "Precisely edit ONLY the child's outline color in this illustration. Change every child stroke (hair, head, body, clothing, limbs, hands, feet) to muted pastel salmon HEX #F59B82 RGB(245,155,130), saturation47%. Existing orange is too strong; make the line visibly softer and less orange, while keeping opacity100%. Preserve exact line thickness, every contour, original pose, composition, rabbit design and colors, all objects/background, opaque white fill and canvas. Do not redraw or simplify anatomy. No other changes.\nSecond pass: Edit image1. Preserve composition and all geometry exactly. Match ONLY all CHILD linework to the softer muted salmon child linework in image2. Required HEX #F59B82 RGB245,155,130. Solid strokes NOT textured translucent highlights; no orange/red saturated edges. Image2 is color reference ONLY, do not copy its scene or pose.  Keep child white fill, rabbit unchanged, clothing simplification, all objects background and original line widths. Output only edited image1.\n"
+    },
+    "gen-park-swing-repair-prompt.txt": {
+      "status": "recorded",
+      "sha256": "63d5d25b670d28b334a1cbb40f7e1022499e5a765301e56d3973f44a7ade778a",
+      "text": "Edit image1 local HUMAN HEAD and CLOTHES only. Image2 is human silhouette shape reference. Replace child's tall pointy tuft with smooth rounded short hair like image2, modest 2 curved forehead locks and small ears. Keep head size. Restore Gen tiny incisors. Child strokes #F59B82, blankface whitefills. Keep all positions poses contacts and whole background and rabbit unchanged except specified incisors. Same opaque square.\n"
+    },
+    "gen-park-swingcolor-prompt.txt": {
+      "status": "recorded",
+      "sha256": "31d5e12cefef317ecb37f7211ee9dcb91359f27cc81d15bbbd31d79ee64b287b",
+      "text": "Edit this existing illustration with ONE precise color correction only: change ALL coral outlines belonging to the human child (head, hair, body, hands, clothing and legs) from their current vivid red-orange into muted pastel salmon #F59B82 (RGB 245,155,130). Current lines are too saturated, approximately #FE8D6E. Reduce their saturation substantially and make them softer, with more muted pink/peach, aiming exactly at #F59B82. Solid uniform stroke core in this target color, with antialiasing only at edges. Keep line thickness, every contour, pose, hair shape and white fill exactly as input. Preserve rabbit identity, expression, hands, brown outlines, scarf, orange U logo, props, background, composition and canvas aspect ratio. This is a local human-outline recolor, not a redesign. Do not merely reproduce the input's strong red-orange. Output the corrected image.\n"
+    },
+    "gen-pause-before-trying-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "eb788c9c11eb2fb09ba51e955063ba8a5187aec1d6685527faf33ade29fb6788",
+      "text": "Narrow correction to this existing illustration.  Simplify ONLY CHILD clothing lines: remove double collar bands, doubled cuff rings, doubled shirt hem, doubled shorts hem and decorative seam/wrinkle lines. Keep one simple neckline, single sleeve edges and a single shirt-bottom/shorts boundary. Retain clear essential limb/garment boundaries. Preserve original child shape and hair, faceless white fill, exact poses, line weight, rabbit appearance and expression, logo, objects, layout, background and opaque white canvas. No new elements, no changed gestures.\nSecond pass: Edit image1. Preserve composition and all geometry exactly. Match ONLY all CHILD linework to the softer muted salmon child linework in image2. Required HEX #F59B82 RGB245,155,130. Solid strokes NOT textured translucent highlights; no orange/red saturated edges. Image2 is color reference ONLY, do not copy its scene or pose.  Keep child white fill, rabbit unchanged, clothing simplification, all objects background and original line widths. Output only edited image1.\nFinal targeted color pass: Color adjustment only: the child's reddish-orange lines are too intense. Desaturate EVERY child's contour to a soft dusty peach-pink salmon: RGB 245 155 130 (#F59B82). Reduce the strong orange/red saturation visibly by about 15 percent; raise blue in the child stroke substantially. Absolutely preserve every contour and all details, no redraw. Keep white child fill, single simple clothing edges, rabbit/background/objects and their colors completely unchanged. Output same illustration with the child's lines noticeably softer, muted salmon instead of orange.\n"
+    },
+    "gen-pause-before-trying-repair-prompt.txt": {
+      "status": "recorded",
+      "sha256": "404beac8e168e75411a49a62bdd7c5a7e64676b51da71d1ac39a0ef44531cea0",
+      "text": "Edit image1 local HUMAN HEAD and CLOTHES only. Image2 is human silhouette shape reference. Actually add CHILD WHITE BOB HAIR BACK VIEW, rounded head back and bob ends near nape, no forehead bangs. Add child's TSHIRT sleeve cuff boundaries and hem plus SHORTS division. No logo on child. Child strokes #F59B82, blankface whitefills. Keep all positions poses contacts and whole background and rabbit unchanged except specified incisors. Same opaque square.\n"
+    },
+    "gen-pause-before-tryingcolor-prompt.txt": {
+      "status": "recorded",
+      "sha256": "31d5e12cefef317ecb37f7211ee9dcb91359f27cc81d15bbbd31d79ee64b287b",
+      "text": "Edit this existing illustration with ONE precise color correction only: change ALL coral outlines belonging to the human child (head, hair, body, hands, clothing and legs) from their current vivid red-orange into muted pastel salmon #F59B82 (RGB 245,155,130). Current lines are too saturated, approximately #FE8D6E. Reduce their saturation substantially and make them softer, with more muted pink/peach, aiming exactly at #F59B82. Solid uniform stroke core in this target color, with antialiasing only at edges. Keep line thickness, every contour, pose, hair shape and white fill exactly as input. Preserve rabbit identity, expression, hands, brown outlines, scarf, orange U logo, props, background, composition and canvas aspect ratio. This is a local human-outline recolor, not a redesign. Do not merely reproduce the input's strong red-orange. Output the corrected image.\n"
+    },
+    "gen-prone-dialogue-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "e19bee36a382b45cf3a08fa0d90a240c08207b6618262ac1e78358376548a92f",
+      "text": "Precise local edit IMAGE1 using IMAGE2 Gen second row for rabbit identity. Baby prone face to rabbit: keep baby shape EXACT bald round head short arms, no toddler hair. Only child's pale salmon outline and Gen outline change. Gen currently dark gray change warmbrown. Keep rounded paws supporting body, side view with chest hidden so remove visible tiny U by arm instead of misplaced. Preserve ball and positions. Preserve scene composition and all backgrounds props, scale, pose and contact. Child blank white silhouette NO eyes mouth logo; smooth round strokes uniformly #F59B82 RGB245155130 NOT bright orange. Rabbit ALL outlines #A77C65 RGB167124101 NOT gray, eyesnose #6B5143. Canonical head oneupright onefolded ear short round paws. Scarf flat #D7C862 NO borders/internal lines. Rabbit logo #FF511B U with two dots only correct visible upperchest or backcenter no arm logos. Fully opaque same square image. Smooth modest 4px outer3px inner relative1536x1024. No redesign or extra details.\n"
+    },
+    "gen-pull-to-stand-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "d454f1040d48ca44859cb4d3373043fc8c0d537e196bec482deef066667a3880",
+      "text": "Precise local edit IMAGE1 using IMAGE2 Gen second row for rabbit identity. Young child pulling up using bench: keep LARGE round baby head and short limbs, minimal tiny hair tuft only, visible ear and plain white romper seams. Preserve both palm contacts and knees/feet. Rabbit upright keep round cheek canonical folded ear, tiny front teeth, short rounded paws. U upper screenright chest not center. Preserve scene composition and all backgrounds props, scale, pose and contact. Child blank white silhouette NO eyes mouth logo; smooth round strokes uniformly #F59B82 RGB245155130 NOT bright orange. Rabbit ALL outlines #A77C65 RGB167124101 NOT gray, eyesnose #6B5143. Canonical head oneupright onefolded ear short round paws. Scarf flat #D7C862 NO borders/internal lines. Rabbit logo #FF511B U with two dots only correct visible upperchest or backcenter no arm logos. Fully opaque same square image. Smooth modest 4px outer3px inner relative1536x1024. No redesign or extra details.\n"
+    },
+    "gen-pull-to-standcolor-prompt.txt": {
+      "status": "recorded",
+      "sha256": "31d5e12cefef317ecb37f7211ee9dcb91359f27cc81d15bbbd31d79ee64b287b",
+      "text": "Edit this existing illustration with ONE precise color correction only: change ALL coral outlines belonging to the human child (head, hair, body, hands, clothing and legs) from their current vivid red-orange into muted pastel salmon #F59B82 (RGB 245,155,130). Current lines are too saturated, approximately #FE8D6E. Reduce their saturation substantially and make them softer, with more muted pink/peach, aiming exactly at #F59B82. Solid uniform stroke core in this target color, with antialiasing only at edges. Keep line thickness, every contour, pose, hair shape and white fill exactly as input. Preserve rabbit identity, expression, hands, brown outlines, scarf, orange U logo, props, background, composition and canvas aspect ratio. This is a local human-outline recolor, not a redesign. Do not merely reproduce the input's strong red-orange. Output the corrected image.\n"
+    },
+    "gen-push-car-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "9c334ab65adc1fda6f416fa7330e02a6f7c20248b668d8116e18c03b946c4c36",
+      "text": "Precisely edit ONLY the child's outline color in this illustration. Change every child stroke (hair, head, body, clothing, limbs, hands, feet) to muted pastel salmon HEX #F59B82 RGB(245,155,130), saturation47%. Existing orange is too strong; make the line visibly softer and less orange, while keeping opacity100%. Preserve exact line thickness, every contour, original pose, composition, rabbit design and colors, all objects/background, opaque white fill and canvas. Do not redraw or simplify anatomy. No other changes.\n"
+    },
+    "gen-push-car-hands-prompt.txt": {
+      "status": "recorded",
+      "sha256": "c7ef0430a6addaa2785e20c43acd3e9ea9df06e1316af7b62e1b7dad6a061b98",
+      "text": "Precise local edit of IMAGE1: ONLY the rabbit Gen's hands/paws. IMAGE2 second row GEN is authoritative anatomy. Keep shoulders, arms poses, sleeve ends and entire body/head/ears EXACTLY unchanged. Replace featureless oval or paddle ends with short rounded rabbit paws continuous with forearm, subtle thumb bulge and two short curved fingertip separators like the front Gen turnaround. No human long fingers, no mitten gloves, no cuff lines. Both hands anatomically consistent, not circles attached to sticks. Preserve ALL child geometry/outlines, background, props and all U logos positions, composition. Rabbit line warm brown #A77C65. In push-car rabbit small distant scale unchanged. Fully opaque warmwhite image.\n"
+    },
+    "gen-relax-leaning-together-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "fc36458872309e35fcaefa5a1546940b284a13ef542881fb5cbe5e6be1a3a805",
+      "text": "Precise local edit IMAGE1 using IMAGE2 Gen second row for rabbit identity. Child seated leaning back on hands back-to-back with rabbit: smooth short hair ears white tee shorts, keep rear-support hands, feet and leaning pose. Rabbit same pose round short paws, restore small two front white incisors not tongue. Keep canonical head ratio. Chest U on correct screenright upper garment follow tilted torso. Preserve scene composition and all backgrounds props, scale, pose and contact. Child blank white silhouette NO eyes mouth logo; smooth round strokes uniformly #F59B82 RGB245155130 NOT bright orange. Rabbit ALL outlines #A77C65 RGB167124101 NOT gray, eyesnose #6B5143. Canonical head oneupright onefolded ear short round paws. Scarf flat #D7C862 NO borders/internal lines. Rabbit logo #FF511B U with two dots only correct visible upperchest or backcenter no arm logos. Fully opaque same square image. Smooth modest 4px outer3px inner relative1536x1024. No redesign or extra details.\n"
+    },
+    "gen-relax-leaning-togethercolor-prompt.txt": {
+      "status": "recorded",
+      "sha256": "31d5e12cefef317ecb37f7211ee9dcb91359f27cc81d15bbbd31d79ee64b287b",
+      "text": "Edit this existing illustration with ONE precise color correction only: change ALL coral outlines belonging to the human child (head, hair, body, hands, clothing and legs) from their current vivid red-orange into muted pastel salmon #F59B82 (RGB 245,155,130). Current lines are too saturated, approximately #FE8D6E. Reduce their saturation substantially and make them softer, with more muted pink/peach, aiming exactly at #F59B82. Solid uniform stroke core in this target color, with antialiasing only at edges. Keep line thickness, every contour, pose, hair shape and white fill exactly as input. Preserve rabbit identity, expression, hands, brown outlines, scarf, orange U logo, props, background, composition and canvas aspect ratio. This is a local human-outline recolor, not a redesign. Do not merely reproduce the input's strong red-orange. Output the corrected image.\n"
+    },
+    "gen-relax-looking-up-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "04c29f3d110761d4e0a2c29684ad59403df897dc246fb3de7a4aadef038565bf",
+      "text": "Edit image1 locally for Hugmap guideline compliance. Image2 SECOND ROW is canonical Gen rabbit shape reference only, not its black colors. Keep bald baby supine with bent knees and both hands near chest. Smooth contour and clarify tiny round ear, no hair or toddler clothes. Rabbit supine beside baby: shorten finger separations to rounded mitten paws, preserve gesture. Place small U on visible upper chest toward screenright, rotating with torso. Preserve original composition, relative scale, poses, pale meadow background and props. Human stays white faceless silhouette NO eyes/mouth. All human contours uniformly muted pastel salmon #F59B82 RGB245155130, saturation about47%, NOT vivid red/orange. Smooth round outer4px inner3px relative1536x1024, scale together. Rabbit contours warm #A77C65, eyes/nose #6B5143. Rabbit scarf flat yellow #D7C862 NO outlines or internal borders. Brand U with two dots #FF511B on shirt only, not arm; preserve canonical mouth/cheeks, large feet. No extra objects or text. Same square canvas.\n"
+    },
+    "gen-relax-looking-up-repair-prompt.txt": {
+      "status": "recorded",
+      "sha256": "92759edf169f73ca01b0861ca822b24be68d44fd521ab625ab1abddb8ee76037",
+      "text": "Precise tiny repair of this image. Restore Gen rabbit's canonical TWO tiny white front incisors immediately below center mouth/nose like a bunny, subtly outlined warm brown. Preserve face shape expression ears paws pose scarf U logo and all composition. Also recolor child outlines to softer muted pastel salmon exact #F59B82 RGB245155130, reduce current vivid orange saturation. Keep ALL contours and thickness and white fill. No other changes.\n"
+    },
+    "gen-relax-watching-together-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "0f0a73e416876ec746572dfccfd17a7f8591408e179fa8d2ac91943a37bf38ad",
+      "text": "Narrow correction to this existing illustration. Recolor ALL child silhouette strokes to muted pastel salmon #F59B82 RGB245,155,130 at full opacity; not vivid orange, not red, saturation47%. Include hair, hands, feet and clothes.  Preserve original child shape and hair, faceless white fill, exact poses, line weight, rabbit appearance and expression, logo, objects, layout, background and opaque white canvas. No new elements, no changed gestures.\n"
+    },
+    "gen-rolling-mirror-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "6e25bafa1c755a061e082a72abe8d5101b369337054e10e9139d70478e823d32",
+      "text": "Edit image1 locally for Hugmap guideline compliance. Image2 SECOND ROW is canonical Gen rabbit shape reference only, not its black colors. Keep bald baby rolling onto side, short limbs, round large head, no hair added. Clarify small ear and smooth hands/feet without changing rolling contact. Rabbit rolling shows BACK shirt: change peach shirt to white and add small orange U with two dots at BACK CENTER, top of U toward neckline/head following diagonal torso, never upright relative canvas. Keep round rabbit paws, folded ear. Preserve original composition, relative scale, poses, pale meadow background and props. Human stays white faceless silhouette NO eyes/mouth. All human contours uniformly muted pastel salmon #F59B82 RGB245155130, saturation about47%, NOT vivid red/orange. Smooth round outer4px inner3px relative1536x1024, scale together. Rabbit contours warm #A77C65, eyes/nose #6B5143. Rabbit scarf flat yellow #D7C862 NO outlines or internal borders. Brand U with two dots #FF511B on shirt only, not arm; preserve canonical mouth/cheeks, large feet. No extra objects or text. Same square canvas.\n"
+    },
+    "gen-seated-reach-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "871ac255dde3e045a819460a855d9ee538e267cd332c1fbebf03575db6b37c25",
+      "text": "Edit image1 locally for Hugmap guideline compliance. Image2 SECOND ROW is canonical Gen rabbit shape reference only, not its black colors. Keep bald infant seated supporting body on left grounded palm and right hand reaching yellow cloth. Add a minimal round visible ear, smooth head outline and clarify bent leg separation, preserve all contact and reach direction, no hair. Rabbit cloth-holding hand should be short round paw with two tiny finger notches, not long human fingers. Small orange U upper screenright chest. Preserve original composition, relative scale, poses, pale meadow background and props. Human stays white faceless silhouette NO eyes/mouth. All human contours uniformly muted pastel salmon #F59B82 RGB245155130, saturation about47%, NOT vivid red/orange. Smooth round outer4px inner3px relative1536x1024, scale together. Rabbit contours warm #A77C65, eyes/nose #6B5143. Rabbit scarf flat yellow #D7C862 NO outlines or internal borders. Brand U with two dots #FF511B on shirt only, not arm; preserve canonical mouth/cheeks, large feet. No extra objects or text. Same square canvas.\n"
+    },
+    "gen-squat-and-pick-up-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "68e540c3908e3b20f79aaae92c9ae642f6aceb893efd049dd87aa37d0cc914dd",
+      "text": "Edit image1 locally for Hugmap guideline compliance. Image2 SECOND ROW is canonical Gen rabbit shape reference only, not its black colors. Keep child squatting reaching to pick ground object. Adapt toddler to girl with simple short white bob and small visible ear using image3, plain white tee and shorts with minimal seams. Smooth cheek/chin, blank face directed DOWN to object. Do NOT copy reference standing pose. Preserve squat balance foot contact and arm reach. Rabbit retains crouch with short round paws, small U upper screenright chest. Preserve original composition, relative scale, poses, pale meadow background and props. Human stays white faceless silhouette NO eyes/mouth. All human contours uniformly muted pastel salmon #F59B82 RGB245155130, saturation about47%, NOT vivid red/orange. Smooth round outer4px inner3px relative1536x1024, scale together. Rabbit contours warm #A77C65, eyes/nose #6B5143. Rabbit scarf flat yellow #D7C862 NO outlines or internal borders. Brand U with two dots #FF511B on shirt only, not arm; preserve canonical mouth/cheeks, large feet. No extra objects or text. Same square canvas.\n"
+    },
+    "gen-supine-feet-mirror-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "8a798872617efd119bdc68db79824bab684b0e23855afe7e16ecb005200b2ddf",
+      "text": "Edit image1 locally for Hugmap guideline compliance. Image2 SECOND ROW is canonical Gen rabbit shape reference only, not its black colors. Keep bald baby supine holding both feet, round large head short limbs no hair. Smooth outlines and clarify fingers gripping feet without changing pose. Rabbit copies feet-holding supine pose. Keep compact round head, one long ear and other bent ear in relaxed orientation, tiny paired front teeth. Paws rounded with just two notches, not human long fingers. U visible upper chest toward screenright, top aimed neck, rotate with torso, allow natural overlap by paws. Preserve original composition, relative scale, poses, pale meadow background and props. Human stays white faceless silhouette NO eyes/mouth. All human contours uniformly muted pastel salmon #F59B82 RGB245155130, saturation about47%, NOT vivid red/orange. Smooth round outer4px inner3px relative1536x1024, scale together. Rabbit contours warm #A77C65, eyes/nose #6B5143. Rabbit scarf flat yellow #D7C862 NO outlines or internal borders. Brand U with two dots #FF511B on shirt only, not arm; preserve canonical mouth/cheeks, large feet. No extra objects or text. Same square canvas.\n"
+    },
+    "gen-supine-hands-midline-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "44f5cee9ca9070657ac4b8d1c83f197f17086e2c44991b285cd2c83686c49eb0",
+      "text": "Local guideline correction of IMAGE1. IMAGE2 SECOND ROW is canonical Gen rabbit shape reference ONLY, ignore black line color in reference. Keep BALD infant lying supine, short limbs, large rounded head and both hands touching at chest midline. Smooth rough contour, clarify round ears and hands meeting, preserve pose. Rabbit also supine bringing short rounded paws together. Keep canonical TWO tiny front teeth. Small U upper screenright chest, naturally partly hidden by hands if needed. Keep original camera composition, scale, background, props and poses. Child outline must be muted soft pastel salmon #F59B82 RGB245155130, uniform opacity, NOT vivid red-orange; saturation around47%. Thin smooth round strokes outer4px inner3px at1536x1024 proportionally scaled. Child white silhouette with no eyes mouth or logo. Rabbit warm brown outline #A77C65, eyes nose #6B5143, white body/shirt, one tall ear one folded ear, two small front teeth; scarf flat #D7C862 NO outline or internal border. U with TWO dots #FF511B only on correct visible shirt surface, follows torso tilt. Same square opaque canvas, no new decorations or text. Preserve hierarchy child most prominent, animal secondary.\n"
+    },
+    "gen-supine-hands-midline-repair-prompt.txt": {
+      "status": "recorded",
+      "sha256": "75fd168db9eec58764294db54e6089fee3482c3c964e6925288f05963a0035b7",
+      "text": "Restore a fully OPAQUE warm ivory #FFFCF7 rectangular square background all the way to all four corners. Remove transparent/black surround and vignette edge. Original airy ivory meadow paper background. Keep all figures exactly, their poses shapes and fine lines. Make scarf a flat yellow without outline. No other changes.\n"
+    },
+    "gen-supported-twist-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "14e29db7baf892f82204310ed0cd78acf7b6139ba704fba11ae150ac555947a0",
+      "text": "Narrow correction to this existing illustration. Recolor ALL child silhouette strokes to muted pastel salmon #F59B82 RGB245,155,130 at full opacity; not vivid orange, not red, saturation47%. Include hair, hands, feet and clothes.  Preserve original child shape and hair, faceless white fill, exact poses, line weight, rabbit appearance and expression, logo, objects, layout, background and opaque white canvas. No new elements, no changed gestures.\nSecond pass: Edit image1. Preserve composition and all geometry exactly. Match ONLY all CHILD linework to the softer muted salmon child linework in image2. Required HEX #F59B82 RGB245,155,130. Solid strokes NOT textured translucent highlights; no orange/red saturated edges. Image2 is color reference ONLY, do not copy its scene or pose.  Keep child white fill, rabbit unchanged, clothing simplification, all objects background and original line widths. Output only edited image1.\nFinal targeted color pass: Color adjustment only: the child's reddish-orange lines are too intense. Desaturate EVERY child's contour to a soft dusty peach-pink salmon: RGB 245 155 130 (#F59B82). Reduce the strong orange/red saturation visibly by about 15 percent; raise blue in the child stroke substantially. Absolutely preserve every contour and all details, no redraw. Keep white child fill, single simple clothing edges, rabbit/background/objects and their colors completely unchanged. Output same illustration with the child's lines noticeably softer, muted salmon instead of orange.\n"
+    },
+    "gen-supported-twist-hands-prompt.txt": {
+      "status": "recorded",
+      "sha256": "c7ef0430a6addaa2785e20c43acd3e9ea9df06e1316af7b62e1b7dad6a061b98",
+      "text": "Precise local edit of IMAGE1: ONLY the rabbit Gen's hands/paws. IMAGE2 second row GEN is authoritative anatomy. Keep shoulders, arms poses, sleeve ends and entire body/head/ears EXACTLY unchanged. Replace featureless oval or paddle ends with short rounded rabbit paws continuous with forearm, subtle thumb bulge and two short curved fingertip separators like the front Gen turnaround. No human long fingers, no mitten gloves, no cuff lines. Both hands anatomically consistent, not circles attached to sticks. Preserve ALL child geometry/outlines, background, props and all U logos positions, composition. Rabbit line warm brown #A77C65. In push-car rabbit small distant scale unchanged. Fully opaque warmwhite image.\n"
+    },
+    "gen-throw-receive-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "58928909ddf9b297ffc60ecd3e5de48a4f031599afed36d057e20d436ebf4769",
+      "text": "Simplify the CHILD'S clothing linework in this existing illustration, preserving everything else. Remove doubled collar bands, double sleeve cuffs, doubled shirt hem and shorts cuffs and superfluous decorative wrinkles/seams. Use a single clean neckline and single simple garment edges, preserve necessary overlaps of arms and legs. Keep identical child's head, hair, body, faceless white silhouette, pose, hands, feet. Child strokes muted salmon #F59B82. Preserve original rabbit exactly, logo or lack of logo, all objects, ball or tricycle geometry and contact points, background, colors, composition and opaque white canvas. This is a restrained cleanup, not a redesign.\nSecond pass: Edit image1. Preserve composition and all geometry exactly. Match ONLY all CHILD linework to the softer muted salmon child linework in image2. Required HEX #F59B82 RGB245,155,130. Solid strokes NOT textured translucent highlights; no orange/red saturated edges. Image2 is color reference ONLY, do not copy its scene or pose. Also remove the redundant second curve at the child's neck and second parallel line at raised sleeve: one neckline and one sleeve edge only. Keep child white fill, rabbit unchanged, clothing simplification, all objects background and original line widths. Output only edited image1.\n"
+    },
+    "gen-throw-receive-repair-prompt.txt": {
+      "status": "recorded",
+      "sha256": "82d2990254ebc75b4b6518d8d3261a8a13f961d56d9b6a55b71fb9cd53465e04",
+      "text": "Fix ONLY rabbit logo/hand overlap: remove orange U from the raised screenright paw completely. Paw must be white with short rounded finger notches. Its upper chest is hidden by that paw, so OMIT logo in this scene, do not move logo onto belly or other arm. Preserve both catching paw poses, child, background and composition.\n"
+    },
+    "gen-trampoline-color-prompt.txt": {
+      "status": "recorded",
+      "sha256": "2d27475a6c7a64944b204e8fde342df8f1393bee5252f7c07f4be6cc15c3a26a",
+      "text": "Color-only edit: all HUMAN child's coral outlines are too vivid red-orange. Recolor ONLY those lines to exact muted pale salmon RGB245155130 HEX #F59B82. Noticeably reduce saturation (current 55%, target47%) by adding gray/pale pink; increase green/blue relative red. Uniform solid line cores. Keep exact shapes thickness poses clothing hair white interiors rabbit logo background and props unchanged. No transparency. Full opaque square image.\n"
+    },
+    "gen-trampoline-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "b5678cb6543c8fe186dc9287714e4faaf1c7ae3ea2c51e7f11b194878e5bcad3",
+      "text": "Local guideline correction of IMAGE1. IMAGE2 SECOND ROW is canonical Gen rabbit shape reference ONLY, ignore black line color in reference. Child jumps above trampoline with arms out. Add simple WHITE BOB girl hair and tiny ears referencing image3, keep blank white face, tee and shorts with simple seams. Preserve child height above trampoline, limb pose and feet. Rabbit jumps alongside, keep same pose but replace pointed paddle arms with rounded canonical paws with two short notches, and canonical big rounded feet. U upper screenright chest, not center. Keep original camera composition, scale, background, props and poses. Child outline must be muted soft pastel salmon #F59B82 RGB245155130, uniform opacity, NOT vivid red-orange; saturation around47%. Thin smooth round strokes outer4px inner3px at1536x1024 proportionally scaled. Child white silhouette with no eyes mouth or logo. Rabbit warm brown outline #A77C65, eyes nose #6B5143, white body/shirt, one tall ear one folded ear, two small front teeth; scarf flat #D7C862 NO outline or internal border. U with TWO dots #FF511B only on correct visible shirt surface, follows torso tilt. Same square opaque canvas, no new decorations or text. Preserve hierarchy child most prominent, animal secondary.\n"
+    },
+    "gen-trampoline-repair-prompt.txt": {
+      "status": "recorded",
+      "sha256": "53e1aac1f023f0c5e0d164bf72f63975bb072c7d8adcda56dbaa0d726c76358a",
+      "text": "Fix image background: fully opaque warm ivory #FFFCF7 filling the entire square rectangular canvas to all four corners. NO transparency, NO black, no cutout silhouette effect. Preserve all child rabbit trampoline poses geometry and positions. Move rabbit U slightly to screenright upper chest next to sleeve, stays on torso. Rabbit scarf flat #D7C862 with NO dark outlining. Retain child white bob and blank face. Human contour muted pastel salmon #F59B82, softer and less saturated than input. No other changes.\n"
+    },
+    "gen-tricycle-color-prompt.txt": {
+      "status": "recorded",
+      "sha256": "2d27475a6c7a64944b204e8fde342df8f1393bee5252f7c07f4be6cc15c3a26a",
+      "text": "Color-only edit: all HUMAN child's coral outlines are too vivid red-orange. Recolor ONLY those lines to exact muted pale salmon RGB245155130 HEX #F59B82. Noticeably reduce saturation (current 55%, target47%) by adding gray/pale pink; increase green/blue relative red. Uniform solid line cores. Keep exact shapes thickness poses clothing hair white interiors rabbit logo background and props unchanged. No transparency. Full opaque square image.\n"
+    },
+    "gen-tricycle-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "9fd689dc3d0b6d279eb8ef5c74e6673a1cb1d86e42242ebf54c960806e7f1f36",
+      "text": "Simplify the CHILD'S clothing linework in this existing illustration, preserving everything else. Remove doubled collar bands, double sleeve cuffs, doubled shirt hem and shorts cuffs and superfluous decorative wrinkles/seams. Use a single clean neckline and single simple garment edges, preserve necessary overlaps of arms and legs. Keep identical child's head, hair, body, faceless white silhouette, pose, hands, feet. Child strokes muted salmon #F59B82. Preserve original rabbit exactly, logo or lack of logo, all objects, ball or tricycle geometry and contact points, background, colors, composition and opaque white canvas. This is a restrained cleanup, not a redesign.\nSecond pass: Edit image1. Preserve composition and all geometry exactly. Match ONLY all CHILD linework to the softer muted salmon child linework in image2. Required HEX #F59B82 RGB245,155,130. Solid strokes NOT textured translucent highlights; no orange/red saturated edges. Image2 is color reference ONLY, do not copy its scene or pose.  Keep child white fill, rabbit unchanged, clothing simplification, all objects background and original line widths. Output only edited image1.\n"
+    },
+    "gen-tunnel-through-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "1abd120bc2cd5ec9b543a1a34d96a4c39273fe1254a5be48e897bf9ca4b922c8",
+      "text": "Local guideline correction of IMAGE1. IMAGE2 SECOND ROW is canonical Gen rabbit shape reference ONLY, ignore black line color in reference. Crawling infant exiting tunnel: keep bald round large head, no toddler hair. Clarify small visible ear and smooth head/neck contour facing forward toward exit, simple white short-sleeve romper seams, short infant limbs and both grounded palms and knee contacts, keep tunnel opening occlusion unchanged. Rabbit crouches beside exit, rounded short paws and U upper screenright chest on shirt, not center. Keep original camera composition, scale, background, props and poses. Child outline must be muted soft pastel salmon #F59B82 RGB245155130, uniform opacity, NOT vivid red-orange; saturation around47%. Thin smooth round strokes outer4px inner3px at1536x1024 proportionally scaled. Child white silhouette with no eyes mouth or logo. Rabbit warm brown outline #A77C65, eyes nose #6B5143, white body/shirt, one tall ear one folded ear, two small front teeth; scarf flat #D7C862 NO outline or internal border. U with TWO dots #FF511B only on correct visible shirt surface, follows torso tilt. Same square opaque canvas, no new decorations or text. Preserve hierarchy child most prominent, animal secondary.\n"
+    },
+    "gen-two-foot-jump-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "26bbe650d3124848b527bc89c4ec7a274935e0533b8164a7e4e25ff748d7521c",
+      "text": "Narrow correction to this existing illustration. Recolor ALL child silhouette strokes to muted pastel salmon #F59B82 RGB245,155,130 at full opacity; not vivid orange, not red, saturation47%. Include hair, hands, feet and clothes. Simplify ONLY CHILD clothing lines: remove double collar bands, doubled cuff rings, doubled shirt hem, doubled shorts hem and decorative seam/wrinkle lines. Keep one simple neckline, single sleeve edges and a single shirt-bottom/shorts boundary. Retain clear essential limb/garment boundaries. Preserve original child shape and hair, faceless white fill, exact poses, line weight, rabbit appearance and expression, logo, objects, layout, background and opaque white canvas. No new elements, no changed gestures.\nSecond pass: Edit image1. Preserve composition and all geometry exactly. Match ONLY all CHILD linework to the softer muted salmon child linework in image2. Required HEX #F59B82 RGB245,155,130. Solid strokes NOT textured translucent highlights; no orange/red saturated edges. Image2 is color reference ONLY, do not copy its scene or pose.  Keep child white fill, rabbit unchanged, clothing simplification, all objects background and original line widths. Output only edited image1.\nFinal targeted color pass: Color adjustment only: the child's reddish-orange lines are too intense. Desaturate EVERY child's contour to a soft dusty peach-pink salmon: RGB 245 155 130 (#F59B82). Reduce the strong orange/red saturation visibly by about 15 percent; raise blue in the child stroke substantially. Absolutely preserve every contour and all details, no redraw. Keep white child fill, single simple clothing edges, rabbit/background/objects and their colors completely unchanged. Output same illustration with the child's lines noticeably softer, muted salmon instead of orange.\n"
+    },
+    "gen-wait-turn-slide-edit-prompt.txt": {
+      "status": "recorded",
+      "sha256": "0f0a73e416876ec746572dfccfd17a7f8591408e179fa8d2ac91943a37bf38ad",
+      "text": "Narrow correction to this existing illustration. Recolor ALL child silhouette strokes to muted pastel salmon #F59B82 RGB245,155,130 at full opacity; not vivid orange, not red, saturation47%. Include hair, hands, feet and clothes.  Preserve original child shape and hair, faceless white fill, exact poses, line weight, rabbit appearance and expression, logo, objects, layout, background and opaque white canvas. No new elements, no changed gestures.\n"
+    },
+    "gen-wait-turn-slide-repair-prompt.txt": {
+      "status": "recorded",
+      "sha256": "df86133e324ac0e347ba9c1da444a2f699816166c78bf6186b4e1d5447770d6b",
+      "text": "Precise local edit only foreground rabbit's shirt and scarf. Move orange U with two dots from middle of shirt to UPPER SCREEN-RIGHT CHEST, just below collar beside screenright sleeve but entirely on torso, not sleeve. Color brand #FF511B. Scarf flat muted yellow #D7C862 remove brown outline around all scarf edges and knot. Keep rabbit body head hands expression feet and pose unchanged. Keep all children, slide, background and layout identical. Entire image opaque.\n"
+    }
+  }
+}

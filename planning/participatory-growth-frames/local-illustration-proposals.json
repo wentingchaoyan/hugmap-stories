@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "environment": "development",
+  "status": "registered-in-development",
+  "tables": {
+    "illustration": [
+      {
+        "id": "6b75ac6f-ebd5-54a5-b79b-8c12a940d9fc",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440036",
+        "code": "mimo-frame-two-word-found-mom",
+        "asset_key": "mimo-frame-two-word-found-mom.png",
+        "title_ja": "ママ、いた。見つけたことを伝える",
+        "alt_text_ja": "ママ、いた。見つけたことを伝える",
+        "display_order": 1,
+        "local_proposal": true,
+        "proposal_note": ""
+      },
+      {
+        "id": "b21aa262-24b1-5f77-a6f5-dc2caaa18914",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440036",
+        "code": "mimo-frame-possessive-dads-shoes",
+        "asset_key": "mimo-frame-possessive-dads-shoes.png",
+        "title_ja": "パパの、くつ。持ち主へ届ける",
+        "alt_text_ja": "パパの、くつ。持ち主へ届ける",
+        "display_order": 2,
+        "local_proposal": true,
+        "proposal_note": ""
+      },
+      {
+        "id": "ab572058-9eef-584b-8d56-57849e3224bb",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440036",
+        "code": "mimo-frame-object-action-kick-ball",
+        "asset_key": "mimo-frame-object-action-kick-ball.png",
+        "title_ja": "ボール、ける。やりたいことを伝える",
+        "alt_text_ja": "ボール、ける。やりたいことを伝える",
+        "display_order": 3,
+        "local_proposal": true,
+        "proposal_note": ""
+      },
+      {
+        "id": "d93c6758-14f2-5ad4-a47d-adfb5b4be728",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440036",
+        "code": "mimo-frame-location-up-there",
+        "asset_key": "mimo-frame-location-up-there.png",
+        "title_ja": "上に、ある。場所をいっしょに確かめる",
+        "alt_text_ja": "上に、ある。場所をいっしょに確かめる",
+        "display_order": 4,
+        "local_proposal": true,
+        "proposal_note": ""
+      },
+      {
+        "id": "76b73fdb-9841-5c4c-acf9-e18fd4c38216",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440036",
+        "code": "mimo-frame-word-sound-picture-play",
+        "asset_key": "mimo-frame-word-sound-picture-play.png",
+        "title_ja": "絵と身ぶりで、ことばをつなぐ",
+        "alt_text_ja": "絵と身ぶりで、ことばをつなぐ",
+        "display_order": 5,
+        "local_proposal": true,
+        "proposal_note": "「かさ・はこ・ぞう」などの命名や音遊びの場面。発音の達成判定を示すものではありません。"
+      },
+      {
+        "id": "0c9e224c-39a2-52da-8c46-bf2a1bb1a6e5",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440001",
+        "code": "luke-frame-visual-tracking-cloth",
+        "asset_key": "luke-frame-visual-tracking-cloth.png",
+        "title_ja": "ふわり、目で追いかけた",
+        "alt_text_ja": "動くものを目で追う：ふわり、目で追いかけた",
+        "display_order": 1,
+        "local_proposal": true,
+        "proposal_note": ""
+      },
+      {
+        "id": "a459ffd3-f717-5c11-8f0b-2f9bb7b29bcf",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440012",
+        "code": "luke-frame-look-and-reach-both-hands",
+        "asset_key": "luke-frame-look-and-reach-both-hands.png",
+        "title_ja": "見つけて、両手がのびた",
+        "alt_text_ja": "見ながら手を伸ばす：見つけて、両手がのびた",
+        "display_order": 1,
+        "local_proposal": true,
+        "proposal_note": ""
+      },
+      {
+        "id": "1dc6ab7c-adc6-5ede-bd06-add61f01ac19",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440003",
+        "code": "luke-frame-watch-spinning-toy",
+        "asset_key": "luke-frame-watch-spinning-toy.png",
+        "title_ja": "くるくる、気になるね",
+        "alt_text_ja": "気になるものを見つめる：くるくる、気になるね",
+        "display_order": 1,
+        "local_proposal": true,
+        "proposal_note": "興味を向けて遊びに参加する場面の提案。集中の持続時間を絵で判定するものではありません。"
+      },
+      {
+        "id": "a9824ea6-1f8a-5c4f-9960-23bcfa021cdb",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440043",
+        "code": "luke-frame-remember-hidden-toy",
+        "asset_key": "luke-frame-remember-hidden-toy.png",
+        "title_ja": "さっきの場所に、あった",
+        "alt_text_ja": "覚えて、思い出す：さっきの場所に、あった",
+        "display_order": 1,
+        "local_proposal": true,
+        "proposal_note": ""
+      },
+      {
+        "id": "7a4b9ec1-910d-5606-ab4e-464574f1268e",
+        "category_stage_id": "550e8400-e29b-41d4-a716-446655440002",
+        "code": "mimo-frame-notice-gentle-sound",
+        "asset_key": "mimo-frame-notice-gentle-sound.png",
+        "title_ja": "あれ、音のするほうへ",
+        "alt_text_ja": "声や音に気づく：あれ、音のするほうへ",
+        "display_order": 1,
+        "local_proposal": true,
+        "proposal_note": ""
+      }
+    ],
+    "illustration_development_item": [
+      {
+        "id": "12d01bea-9eda-55ed-94c2-63bc8fd53fc9",
+        "illustration_id": "6b75ac6f-ebd5-54a5-b79b-8c12a940d9fc",
+        "development_item_id": "d1bf266b-46d4-4f81-a6cf-e37b272c1f3a",
+        "local_proposal": true
+      },
+      {
+        "id": "0c5092c2-2448-5153-a77e-24f4088ee835",
+        "illustration_id": "b21aa262-24b1-5f77-a6f5-dc2caaa18914",
+        "development_item_id": "d8a6e7d6-923a-4617-b1d6-539d7377bc70",
+        "local_proposal": true
+      },
+      {
+        "id": "5e92d41b-1fb2-5a4d-856d-0ee15452d7a9",
+        "illustration_id": "ab572058-9eef-584b-8d56-57849e3224bb",
+        "development_item_id": "76541fb2-99de-4be4-813b-3443acbd60c9",
+        "local_proposal": true
+      },
+      {
+        "id": "8455f741-c665-578f-a699-285d0394de1c",
+        "illustration_id": "ab572058-9eef-584b-8d56-57849e3224bb",
+        "development_item_id": "48ccd3a7-3e63-dbe3-3a3d-a7ee92a19b30",
+        "local_proposal": true
+      },
+      {
+        "id": "7490e9cd-37e0-5e2b-a709-5f4cab633e73",
+        "illustration_id": "d93c6758-14f2-5ad4-a47d-adfb5b4be728",
+        "development_item_id": "e4b00712-7d3b-4d32-9f72-fd49a03a31d6",
+        "local_proposal": true
+      },
+      {
+        "id": "dc656610-beb2-5577-95aa-102702eaa4cd",
+        "illustration_id": "76b73fdb-9841-5c4c-acf9-e18fd4c38216",
+        "development_item_id": "48ccd3a7-3e63-dbe3-3a3d-a7ee92a19b30",
+        "local_proposal": true
+      },
+      {
+        "id": "4c398e34-67c8-5de7-bd44-00e3ee6092b5",
+        "illustration_id": "76b73fdb-9841-5c4c-acf9-e18fd4c38216",
+        "development_item_id": "347de6e9-8d11-4487-92b1-a58666d43d6a",
+        "local_proposal": true
+      },
+      {
+        "id": "05595e4f-e5e5-58dc-b293-2c70600efc30",
+        "illustration_id": "76b73fdb-9841-5c4c-acf9-e18fd4c38216",
+        "development_item_id": "a631850a-2faf-4b89-9a83-78a5faa02e7b",
+        "local_proposal": true
+      },
+      {
+        "id": "78b3f498-d67a-5920-9ec8-628c23c04354",
+        "illustration_id": "0c9e224c-39a2-52da-8c46-bf2a1bb1a6e5",
+        "development_item_id": "c5d54cb8-10a2-47ef-bcd2-d2625e70fbd2",
+        "local_proposal": true
+      },
+      {
+        "id": "b8385ee8-80ce-571e-afe6-a2c8fa2f879c",
+        "illustration_id": "0c9e224c-39a2-52da-8c46-bf2a1bb1a6e5",
+        "development_item_id": "8e7d2aac-d59f-489f-bf2c-cbc188123cac",
+        "local_proposal": true
+      },
+      {
+        "id": "5f7f626a-5558-5e08-9298-0b3e57b0436f",
+        "illustration_id": "a459ffd3-f717-5c11-8f0b-2f9bb7b29bcf",
+        "development_item_id": "eb3e9c8c-7c1b-49c0-8d26-b38c2885df55",
+        "local_proposal": true
+      },
+      {
+        "id": "09e568f3-5452-5349-9b62-5fd1a402508d",
+        "illustration_id": "a459ffd3-f717-5c11-8f0b-2f9bb7b29bcf",
+        "development_item_id": "c28833e8-6d3b-4990-8d59-cd3c467fe60a",
+        "local_proposal": true
+      },
+      {
+        "id": "9a28b7a3-f457-5d15-a834-4a20145d3258",
+        "illustration_id": "1dc6ab7c-adc6-5ede-bd06-add61f01ac19",
+        "development_item_id": "8a702cfc-d5cd-46b2-bd6a-0642cc69d415",
+        "local_proposal": true
+      },
+      {
+        "id": "6247c8be-8bbc-5725-af10-751274cd51f7",
+        "illustration_id": "a9824ea6-1f8a-5c4f-9960-23bcfa021cdb",
+        "development_item_id": "4891c484-4364-441b-9753-9325abf6d295",
+        "local_proposal": true
+      },
+      {
+        "id": "65cb112d-2178-58cd-96dd-bfd4a3c211e7",
+        "illustration_id": "7a4b9ec1-910d-5606-ab4e-464574f1268e",
+        "development_item_id": "06150ab9-c40e-46dc-a829-0b80a65dcbb5",
+        "local_proposal": true
+      }
+    ]
+  }
+}

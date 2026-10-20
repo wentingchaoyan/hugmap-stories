@@ -1,0 +1,58 @@
+{
+  "environment": "development",
+  "projectRef": "dltohjfxawjonomvxfsd",
+  "verifiedAt": "2026-09-25T04:39:41.583Z",
+  "illustrations": [
+    {
+      "id": "6b75ac6f-ebd5-54a5-b79b-8c12a940d9fc",
+      "asset_key": "mimo-frame-two-word-found-mom.png",
+      "sha256": "49a7bf6f15bed35c61aea89dacadf09563f5be59f09e5cef261ce2569cac4ff8"
+    },
+    {
+      "id": "b21aa262-24b1-5f77-a6f5-dc2caaa18914",
+      "asset_key": "mimo-frame-possessive-dads-shoes.png",
+      "sha256": "cd9270761d3f3d8430c61bac0e9c7591c90e638e7ea14c410376772f65147b5d"
+    },
+    {
+      "id": "ab572058-9eef-584b-8d56-57849e3224bb",
+      "asset_key": "mimo-frame-object-action-kick-ball.png",
+      "sha256": "a5731af3897b2e9711a038c660769663cae75165da2e884d33033f5f2bcb660d"
+    },
+    {
+      "id": "d93c6758-14f2-5ad4-a47d-adfb5b4be728",
+      "asset_key": "mimo-frame-location-up-there.png",
+      "sha256": "238899d9ff8a06510fc5356aadc5b95549942e6fddea797aa3bcb4da067888f1"
+    },
+    {
+      "id": "76b73fdb-9841-5c4c-acf9-e18fd4c38216",
+      "asset_key": "mimo-frame-word-sound-picture-play.png",
+      "sha256": "7d38a6f8710bc1f6e326c3d421dbb2a68d34371b54df0c861a9483b85f497185"
+    },
+    {
+      "id": "0c9e224c-39a2-52da-8c46-bf2a1bb1a6e5",
+      "asset_key": "luke-frame-visual-tracking-cloth.png",
+      "sha256": "65ecb030f7db3c7b83275e47af8bbc1b89e58e2358b66f901b3f927275044262"
+    },
+    {
+      "id": "a459ffd3-f717-5c11-8f0b-2f9bb7b29bcf",
+      "asset_key": "luke-frame-look-and-reach-both-hands.png",
+      "sha256": "4f8a07048b2a0bf5c4b4aab93bf84480eff17b8972567300ba80e832825011c5"
+    },
+    {
+      "id": "1dc6ab7c-adc6-5ede-bd06-add61f01ac19",
+      "asset_key": "luke-frame-watch-spinning-toy.png",
+      "sha256": "da08cacbbb4a25dd132668f50bab8a85cfb53f1830fd4967c26807eba3ed1175"
+    },
+    {
+      "id": "a9824ea6-1f8a-5c4f-9960-23bcfa021cdb",
+      "asset_key": "luke-frame-remember-hidden-toy.png",
+      "sha256": "4281a503e5a2f132b6eff0a735c92f8ba570dbfc23caead134475b7289d15fa9"
+    },
+    {
+      "id": "7a4b9ec1-910d-5606-ab4e-464574f1268e",
+      "asset_key": "mimo-frame-notice-gentle-sound.png",
+      "sha256": "98dc574059f089c1742851149fc8271e64ba710d8f9fbfbfd481b8a1a4ee2f00"
+    }
+  ],
+  "mappingCount": 15
+}

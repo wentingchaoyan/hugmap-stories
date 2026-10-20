@@ -1,0 +1,17 @@
+{
+  "mode": "built-in image_gen",
+  "filename": "social-help-friend.png",
+  "source": "/Users/tingwen/.codex/generated_images/01a0d12e-b8dd-7833-b397-b01d69a90dd1/exec-e512fabb-311a-45a0-b5b5-7b97a5bb55f3.png",
+  "prompt": "Use case: illustration-story. Create ONE square illustration for a child development observation: a child alerts an adult to help a sad friend. Match attached reference children's identities, warm dark brown outlines, grey-brown hair, pale cream skin, peach cheeks, simple eyes, muted pastel fills. White background and full white margins, anatomically natural heads and hands. THREE people only: on left, short-haired preschool friend in muted mustard shirt sits on floor beside a fallen small tower of yellow and pale-blue wooden blocks, looking sad with ONE small tear, no injury. In center, preschool child with grey-brown bob and light grey clothes stands between friend and adult: one hand gently touches adult's sleeve to get attention, other arm points toward the friend and fallen blocks. On right, adult in muted beige top kneels to child's height, turns attentively toward friend, ready to help. Show clear triangular relationship: child NOT asking help for own toy but alerting adult about friend. No speech or thought bubbles, no text, no arrows. All figures and blocks fully inside canvas, heads relatively small, gesture is main focus. Avoid oversized adult, forced smiles, touching sad child, extra fingers or arms.",
+  "status": "uploaded and linked in development DB",
+  "item": "4b127872-260b-5e85-bb5c-3e423d5ce433",
+  "key": "social-help-friend",
+  "publication": {
+    "folder": "Social Skills",
+    "before_bytes": 1589305,
+    "after_bytes": 689331,
+    "dimensions": "1254 1254",
+    "method": "quality97-png",
+    "normalized_rmse": 0.00439284
+  }
+}

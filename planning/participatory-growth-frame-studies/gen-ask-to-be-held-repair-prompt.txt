@@ -1,1 +1,0 @@
-ONLY recolor all outline strokes of the ADULT LEFT to pale peach #F7C6B3, visibly lighter than toddler salmon #F59B82. Keep adult white fill. All shapes and everything else identical. Fully opaque ivory background.

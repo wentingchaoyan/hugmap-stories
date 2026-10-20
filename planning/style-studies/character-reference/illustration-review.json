@@ -69,8 +69,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "大人の髪・耳・首・服と幼児の短髪・服を整理。両者の手の間隔を保持し、大人の輪郭を子供より淡く調整。",
           "tool": "built-in image_gen",
-          "prompt": "gen-ask-to-be-held-edit-prompt.txt",
-          "repairPrompt": "gen-ask-to-be-held-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-ask-to-be-held-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-ask-to-be-held-repair-prompt.txt"
         }
       }
     },
@@ -149,7 +149,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE8463 → 修正後 #F99B81。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-balance-mirror-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-balance-mirror-edit-prompt.txt"
         },
         "genShapeReview": {
           "date": "2026-09-20",
@@ -252,7 +252,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の短髪・耳・Tシャツ・短パンを整理し、ボールと足の接点を保持。GenのUを上部の胸面へ調整。",
           "tool": "built-in image_gen",
-          "prompt": "gen-ball-exchange-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-ball-exchange-edit-prompt.txt"
         }
       }
     },
@@ -356,8 +356,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "座位とボールへ伸ばす手を保ち、幼児の髪・耳・服を整理。Genの前歯を復元。子供の短パンの一部に茶色線が残る。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FD9678（指定 #F59B82）、Gen #B1866B（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。",
           "tool": "built-in image_gen",
-          "prompt": "gen-ball-roll-edit-prompt.txt",
-          "repairPrompt": "gen-ball-roll-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-ball-roll-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-ball-roll-repair-prompt.txt"
         }
       }
     },
@@ -436,7 +436,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE9270 → 修正後 #FE9E7E。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-child-leads-rabbit-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-child-leads-rabbit-edit-prompt.txt"
         },
         "genShapeReview": {
           "date": "2026-09-20",
@@ -538,8 +538,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "子供同士の場面として、座った短髪の子と手を差し出すボブの女の子を整理。両者を子供用の線色に統一。人物のUを除去し、Genの胸に復元。",
           "tool": "built-in image_gen",
-          "prompt": "gen-children-repair-together-edit-prompt.txt",
-          "repairPrompt": "gen-children-repair-together-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-children-repair-together-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-children-repair-together-repair-prompt.txt"
         }
       }
     },
@@ -642,8 +642,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "乳児の丸い頭と短い四肢を保ち、服と接地を整理。Genの四つ這い姿勢・振り向きと背中のUを保持。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FBA185（指定 #F59B82）、Gen #B98F77（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。",
           "tool": "built-in image_gen",
-          "prompt": "gen-crawling-chase-edit-prompt.txt",
-          "repairPrompt": "gen-crawling-chase-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-crawling-chase-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-crawling-chase-repair-prompt.txt"
         }
       }
     },
@@ -750,7 +750,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE906E → 修正後 #FBA18B。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-descend-stairs-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-descend-stairs-edit-prompt.txt"
         }
       }
     },
@@ -857,7 +857,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FD9273 → 修正後 #FB9C83。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-dressing-sleeve-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-dressing-sleeve-edit-prompt.txt"
         }
       }
     },
@@ -964,7 +964,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FC9775 → 修正後 #F99F81。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-follow-running-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-follow-running-edit-prompt.txt"
         }
       }
     },
@@ -1068,7 +1068,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "後頭部・襟足・耳と服を整理。手すりの握りと段差を保持。Genの背中Uと手先を確認。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FE9473（指定 #F59B82）、Gen #A87A63（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。",
           "tool": "built-in image_gen",
-          "prompt": "gen-follow-stairs-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-follow-stairs-edit-prompt.txt"
         }
       }
     },
@@ -1175,7 +1175,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE8363 → 修正後 #FD9E7E。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-follow-walking-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-follow-walking-edit-prompt.txt"
         }
       }
     },
@@ -1279,7 +1279,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "壁からのぞく女の子のボブ・服を整理。壁の遮蔽と手の接点を保持。Genは後ろ向きの動作と背中Uを保持。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FD9F80（指定 #F59B82）、Gen #9E7254（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。",
           "tool": "built-in image_gen",
-          "prompt": "gen-hide-and-seek-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-hide-and-seek-edit-prompt.txt"
         }
       }
     },
@@ -1387,7 +1387,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE896B → 修正後 #F9A588。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-horizontal-bar-hang-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-horizontal-bar-hang-edit-prompt.txt"
         }
       }
     },
@@ -1458,8 +1458,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "乳児の丸い頭・短い手足と歯固めの接点を保持。大人の髪・耳・首・服・座位を整理し、人物に追加されたUを除去。Genの胸のUは保持。",
           "tool": "built-in image_gen",
-          "prompt": "gen-oral-exploration-teether-edit-prompt.txt",
-          "repairPrompt": "gen-oral-exploration-teether-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-oral-exploration-teether-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-oral-exploration-teether-repair-prompt.txt"
         }
       }
     },
@@ -1530,8 +1530,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "大人と幼児の髪・服・手足を整理し、一歩踏み出す姿勢を保持。人物のUとGenの腰寄りのUを除去。横向きのGenは上胸が腕で隠れるためUを表示しない。",
           "tool": "built-in image_gen",
-          "prompt": "gen-parent-first-step-edit-prompt.txt",
-          "repairPrompt": "gen-parent-first-step-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-parent-first-step-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-parent-first-step-repair-prompt.txt"
         }
       }
     },
@@ -1638,7 +1638,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE9776 → 修正後 #FEA58A。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-park-slide-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-park-slide-edit-prompt.txt"
         }
       }
     },
@@ -1750,7 +1750,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FCA482 → 修正後 #F9A484。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-park-swing-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-park-swing-edit-prompt.txt"
         }
       }
     },
@@ -1861,7 +1861,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "服の襟・袖・裾の二重線と細かなシワを整理。線色も確認。線中心候補の参考中央値：修正前 #FD9B7A → 修正後 #F8A78D。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-pause-before-trying-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-pause-before-trying-edit-prompt.txt"
         }
       }
     },
@@ -1964,7 +1964,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "乳児の丸い頭・短い四肢と腹ばいを保持。Genの暗い灰色の線を茶系へ調整。Uは残っており服面・向きの再確認対象。 領域内で指定色からRGB距離60未満の画素の最頻色を参考採色。子供 #FC9C84（指定 #F59B82）、Gen #9D6B52（指定 #A77C65）。色むら・アンチエイリアスを含み、線中心の完全な分離ではない。指定HEXへの厳密一致は未達。",
           "tool": "built-in image_gen",
-          "prompt": "gen-prone-dialogue-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-prone-dialogue-edit-prompt.txt"
         }
       }
     },
@@ -2061,8 +2061,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "乳児の大きい頭と短い手足、台への支持を保持。輪郭を整理しGenの胸のUを上胸へ調整。 子供の線の赤みを抑える色調整を同名反映。ROI内の線候補を3×3収縮して中心画素を参考採色：中央値 #FE9676 → #FA9E80、彩度 48.8%（指定 #F59B82 は46.9%）。構図・ポーズに大きな変化なし。指定色への厳密一致は未達。",
           "tool": "built-in image_gen",
-          "prompt": "gen-pull-to-stand-edit-prompt.txt",
-          "colorPrompt": "gen-pull-to-standcolor-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-pull-to-stand-edit-prompt.txt",
+          "colorPrompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-pull-to-standcolor-prompt.txt"
         }
       }
     },
@@ -2141,7 +2141,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE896A → 修正後 #FDA487。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-push-car-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-push-car-edit-prompt.txt"
         },
         "genShapeReview": {
           "date": "2026-09-20",
@@ -2270,8 +2270,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "背中を合わせて休む姿勢を保ち、子供の服と接地する手を整理。Genの前歯と丸い指先を確認。 子供の線の赤みを抑える色調整を同名反映。ROI内の線候補を3×3収縮して中心画素を参考採色：中央値 #FD9475 → #FA9577、彩度 52.4%（指定 #F59B82 は46.9%）。構図・ポーズに大きな変化なし。指定色への厳密一致は未達。",
           "tool": "built-in image_gen",
-          "prompt": "gen-relax-leaning-together-edit-prompt.txt",
-          "colorPrompt": "gen-relax-leaning-togethercolor-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-relax-leaning-together-edit-prompt.txt",
+          "colorPrompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-relax-leaning-togethercolor-prompt.txt"
         }
       }
     },
@@ -2362,7 +2362,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "乳児の仰向け姿勢を保持し、輪郭の粗さ・耳・四肢の区切りを整理。Genの丸い手と前歯を追加確認。前歯は細く、縮小表示で要確認。 子供の線中心候補の参考中央値 #FD9476、彩度53.4%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。",
           "tool": "built-in image_gen",
-          "prompt": "gen-relax-looking-up-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-relax-looking-up-edit-prompt.txt"
         }
       }
     },
@@ -2441,7 +2441,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE8D71 → 修正後 #F7997E。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-relax-watching-together-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-relax-watching-together-edit-prompt.txt"
         },
         "genShapeReview": {
           "date": "2026-09-20",
@@ -2565,7 +2565,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "乳児の寝返り姿勢を保持。Genの服を白へ統一し、背中中央に胴体に沿うUを追加。 子供の線中心候補の参考中央値 #FD9877、彩度53.0%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。",
           "tool": "built-in image_gen",
-          "prompt": "gen-rolling-mirror-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-rolling-mirror-edit-prompt.txt"
         }
       }
     },
@@ -2657,7 +2657,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "乳児の耳と脚の区切りを整理。支持する手と布をつかむ手の接点を保持し、Genの握る手を丸い形へ調整。 子供の線中心候補の参考中央値 #FEA183、彩度48.4%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。",
           "tool": "built-in image_gen",
-          "prompt": "gen-seated-reach-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-seated-reach-edit-prompt.txt"
         }
       }
     },
@@ -2749,7 +2749,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児を簡潔なボブの女の子へ。白いTシャツ・短パンの区切り、耳と顎を整理し、しゃがんで拾う動作を保持。 子供の線中心候補の参考中央値 #FE9D7F、彩度50.0%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。",
           "tool": "built-in image_gen",
-          "prompt": "gen-squat-and-pick-up-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-squat-and-pick-up-edit-prompt.txt"
         }
       }
     },
@@ -2841,7 +2841,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "足を持つ乳児の姿勢を保持。Genの耳・頬・前歯を三面図に寄せ、手足と胸Uを整理。スカーフの境界線は残るため要追加確認。 子供の線中心候補の参考中央値 #FE9778、彩度52.8%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。",
           "tool": "built-in image_gen",
-          "prompt": "gen-supine-feet-mirror-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-supine-feet-mirror-edit-prompt.txt"
         }
       }
     },
@@ -2936,7 +2936,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "乳児の胸前で合わせる両手・仰向け姿勢を保持し輪郭を整理。Genの手と胸Uを確認。生成で透過した背景を不透明の淡い背景へ修復。 子供の線中心候補の参考中央値 #FE896E、彩度56.7%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。",
           "tool": "built-in image_gen",
-          "prompt": "gen-supine-hands-midline-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-supine-hands-midline-edit-prompt.txt"
         }
       }
     },
@@ -3015,7 +3015,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE7E5C → 修正後 #FD9F83。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-supported-twist-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-supported-twist-edit-prompt.txt"
         },
         "genShapeReview": {
           "date": "2026-09-20",
@@ -3158,7 +3158,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "服の襟・袖・裾の二重線と細かなシワを整理。線色も確認。線中心候補の参考中央値：修正前 #FD9D81 → 修正後 #FC977A。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-throw-receive-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-throw-receive-edit-prompt.txt"
         }
       }
     },
@@ -3253,7 +3253,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "跳躍する幼児を白いボブの女の子に整理。ウサギの丸い足・手と胸Uを調整。生成で透過した背景を不透明へ修復。スカーフ境界線は残り再確認対象。 子供の線中心候補の参考中央値 #F6A387、彩度45.1%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。",
           "tool": "built-in image_gen",
-          "prompt": "gen-trampoline-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-trampoline-edit-prompt.txt"
         }
       }
     },
@@ -3365,7 +3365,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "服の襟・袖・裾の二重線と細かなシワを整理。線色も確認。線中心候補の参考中央値：修正前 #FC9575 → 修正後 #F89678。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-tricycle-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-tricycle-edit-prompt.txt"
         }
       }
     },
@@ -3461,7 +3461,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "乳児の四つ這いを維持し耳・頭から首・袖を整理。手と膝、トンネル出口の重なりを保持。Genの胸Uを移動。 子供の線中心候補の参考中央値 #FCA586、彩度46.8%（指定 #F59B82、46.9%）。厳密な色一致・線幅は未確認。",
           "tool": "built-in image_gen",
-          "prompt": "gen-tunnel-through-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-tunnel-through-edit-prompt.txt"
         }
       }
     },
@@ -3568,7 +3568,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "服の襟・袖・裾の二重線と細かなシワを整理。子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FE9577 → 修正後 #FD9983。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-two-foot-jump-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-two-foot-jump-edit-prompt.txt"
         }
       }
     },
@@ -3675,7 +3675,7 @@
           "status": "同名更新・色の厳密一致は未完了",
           "note": "子供の輪郭線を淡いサーモン色へ調整。線中心候補の参考中央値：修正前 #FB9D7F → 修正後 #FB9D7F。指定 #F59B82 との完全一致には至っていません。",
           "tool": "built-in image_gen",
-          "prompt": "gen-wait-turn-slide-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/gen.json#/records/gen-wait-turn-slide-edit-prompt.txt"
         }
       }
     },
@@ -3728,9 +3728,9 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "積み木を並べる接点を保ち、幼児の髪・耳・服とLukeの胸上Uを追加。スカーフの縁取りを除去。 線色・線幅の数値適合と縮小時の視認性は未検証。 顔の前縁にあった耳状の突起を修正。耳を頭の側面へ移し、積み木へ向く小さな鼻・丸い頬と顎・短い首の横顔に整理。膝立ちと積み木への両手の接点を保持。",
           "tool": "built-in image_gen",
-          "prompt": "luke-arrange-pretend-train-edit-prompt.txt",
-          "repairPrompt": "luke-arrange-pretend-train-flat-color-prompt.txt",
-          "headRepairPrompt": "luke-arrange-pretend-train-head-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-arrange-pretend-train-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-arrange-pretend-train-flat-color-prompt.txt",
+          "headRepairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-arrange-pretend-train-head-prompt.txt"
         }
       }
     },
@@ -3784,9 +3784,9 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の横顔・耳・髪・服を整理。ひもとビーズへの両手の接点、Lukeのうつぶせで見守る姿勢を保持。背面Uを追加。スカーフの縁取り・内部線は残課題。 線色・線幅の数値適合は未検証。 うつぶせの胴体に合わせて背面Uを回転。2点と開口側が頭・肩の方向を向くよう修正。",
           "tool": "built-in image_gen",
-          "prompt": "luke-bead-threading-edit-prompt.txt",
-          "repairPrompt": "luke-bead-threading-final-repair-prompt.txt",
-          "orientationPrompt": "luke-bead-threading-u-orientation-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-bead-threading-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-bead-threading-final-repair-prompt.txt",
+          "orientationPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-bead-threading-u-orientation-prompt.txt"
         }
       }
     },
@@ -3835,8 +3835,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の横顔・耳・髪・服を整理。指先で押す動作とLukeの耳に手を添える姿勢を保持。Uを胸上へ移動し、スカーフを平坦化。大きな床の楕円を短い接地影に変更。 線色・線幅の数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-button-sound-edit-prompt.txt",
-          "repairPrompt": "luke-button-sound-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-button-sound-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-button-sound-repair-prompt.txt"
         }
       }
     },
@@ -3890,10 +3890,10 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "粘土を両手で押す動作を保ち、幼児の髪・耳・服とLukeの胸上Uを調整。机・椅子・足台を淡い木色と角丸形に統一し、大きな床影を除去。スカーフの縁取りが残るため継続修正。 線色・線幅の数値適合と縮小時の視認性は未検証。 右上に小さな作品棚と淡い粘土作品2点を追加。幼児に既存ガイドの女の子ボブ髪型を適用し、体格・服装・粘土を押す動作は共通仕様を保持。",
           "tool": "built-in image_gen",
-          "prompt": "luke-clay-press-edit-prompt.txt",
-          "repairPrompt": "luke-clay-press-flat-color-prompt.txt",
-          "decorationPrompt": "luke-clay-press-subtle-decor-prompt.txt",
-          "hairVariantPrompt": "luke-clay-press-girl-pattern-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-clay-press-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-clay-press-flat-color-prompt.txt",
+          "decorationPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-clay-press-subtle-decor-prompt.txt",
+          "hairVariantPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-clay-press-girl-pattern-prompt.txt"
         }
       }
     },
@@ -3942,8 +3942,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の横顔・耳・髪・服を整理し、鼻先のループを除去。積み木と収納箱への接点、Lukeの運ぶ姿勢を保持。背面Uとスカーフを調整。生成途中の不要な子供のスカーフは除去。 線色・線幅の数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-clean-up-edit-prompt.txt",
-          "repairPrompt": "luke-clean-up-final-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-clean-up-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-clean-up-final-repair-prompt.txt"
         }
       }
     },
@@ -3993,8 +3993,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の頭・耳・髪と服を整理。服を引いて洗濯ばさみを扱う接点を保持。Lukeの胸上Uを移動し、スカーフの内部線を除去。 線色・線幅の数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-clothespin-edit-prompt.txt",
-          "repairPrompt": "luke-clothespin-scarf-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-clothespin-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-clothespin-scarf-prompt.txt"
         }
       }
     },
@@ -4043,8 +4043,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の右向きの横顔・耳・髪・服を整理。黄色の球を持つ手と3色の器、Lukeの座位を保持。胸上Uを調整。スカーフの内部線・縁取りは残課題。 線色・線幅の数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-color-sort-edit-prompt.txt",
-          "repairPrompt": "luke-color-sort-scarf-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-color-sort-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-color-sort-scarf-prompt.txt"
         }
       }
     },
@@ -4098,9 +4098,9 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の頭・耳・髪・服を整理。クレヨンと紙の接点を保持。Luke胸上Uを追加、スカーフを平坦化。机・椅子・足台を淡い木色に統一し、大きな床影を短い接地影へ変更。 線色・線幅の数値適合は未検証。 左上の余白へ淡い子供の絵2枚を追加。人物・道具の周囲に余白を保持。",
           "tool": "built-in image_gen",
-          "prompt": "luke-coloring-edit-prompt.txt",
-          "repairPrompt": "luke-coloring-scarf-prompt.txt",
-          "decorationPrompt": "luke-coloring-subtle-decor-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-coloring-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-coloring-scarf-prompt.txt",
+          "decorationPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-coloring-subtle-decor-prompt.txt"
         }
       }
     },
@@ -4149,8 +4149,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の髪・耳・服と首元を整理。4への指差しと1〜5の数字を保持。Luke胸上Uを追加しスカーフを平坦化。大きな床影を除去。 線色・線幅の数値適合と最終縮小確認は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-counting-numerals-edit-prompt.txt",
-          "repairPrompt": "luke-counting-numerals-neck-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-counting-numerals-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-counting-numerals-neck-prompt.txt"
         }
       }
     },
@@ -4200,7 +4200,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の髪・耳・服を整理。青いカップの口元と持ち手の接点を保持。Lukeの交差した足と見守る姿勢を保持し、Uを胸上へ移動。円卓と椅子を淡い木色に整理。 線色・線幅の数値適合と最終縮小確認は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-drinking-independently-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-drinking-independently-edit-prompt.txt"
         }
       }
     },
@@ -4254,8 +4254,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の顔の向き・耳・髪・服を整理し、食べ物を口へ運ぶ接点を保持。Luke胸上Uを追加、スカーフを平坦化。机・椅子・足台の色と接地影を統一。 線色・線幅の数値適合と最終縮小確認は未検証。 左上の余白へ淡い葉の紙飾り2点を追加。人物・食べ物・机を優先した控えめな装飾。",
           "tool": "built-in image_gen",
-          "prompt": "luke-eating-independently-edit-prompt.txt",
-          "decorationPrompt": "luke-eating-independently-subtle-decor-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-eating-independently-edit-prompt.txt",
+          "decorationPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-eating-independently-subtle-decor-prompt.txt"
         }
       }
     },
@@ -4304,7 +4304,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児を低い結び髪の女の子の例へ。左向きの横顔・耳・服を整理し、靴下カードを持つ動作と床の3枚を保持。Luke胸上Uを追加、淡い葉飾りを左上へ。 線色・線幅の数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-find-pair-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-find-pair-edit-prompt.txt"
         }
       }
     },
@@ -4354,8 +4354,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の髪・耳・丸い頭を整理。積み木を片手からもう片手へ持ち替える接点を保持。LukeのUを小さな胸上マークへ、スカーフを簡潔な首帯と2本の垂れへ修正。手元優先で装飾は追加せず。 線色・線幅の数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-hand-to-hand-transfer-edit-prompt.txt",
-          "repairPrompt": "luke-hand-to-hand-transfer-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-hand-to-hand-transfer-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-hand-to-hand-transfer-repair-prompt.txt"
         }
       }
     },
@@ -4405,8 +4405,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の横顔・耳・髪と服を整理。両手と流水、両足と足台の接点を保持。Lukeの胸上Uをオレンジに補正し、壁へ淡いタオルを追加。広い床影を縮小。スカーフ内部線は残課題。 線色・線幅の数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-handwashing-independently-edit-prompt.txt",
-          "repairPrompt": "luke-handwashing-independently-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-handwashing-independently-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-handwashing-independently-repair-prompt.txt"
         }
       }
     },
@@ -4455,9 +4455,9 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の髪・耳・横顔と服を整理。両手で最後のピースを持つ動作とLukeの考える姿勢を保持。胸上のUを追加。スカーフ内部の線は残課題。 線色・線幅の数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-jigsaw-last-piece-edit-prompt.txt",
-          "repairPrompt": "luke-jigsaw-last-piece-repair-prompt.txt",
-          "finalRepairPrompt": "luke-jigsaw-last-piece-final-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-jigsaw-last-piece-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-jigsaw-last-piece-repair-prompt.txt",
+          "finalRepairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-jigsaw-last-piece-final-repair-prompt.txt"
         }
       }
     },
@@ -4507,9 +4507,9 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "ボブ髪の女の子を採用し、首元の垂れた曲線を整理。ボールを持つしゃがみ姿勢とLukeの両手を開く姿勢を保持。胸上Uと輪郭線なしのスカーフを反映。 線色・線幅の数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-lift-large-ball-edit-prompt.txt",
-          "repairPrompt": "luke-lift-large-ball-repair-prompt.txt",
-          "finalRepairPrompt": "luke-lift-large-ball-final-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-lift-large-ball-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-lift-large-ball-repair-prompt.txt",
+          "finalRepairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-lift-large-ball-final-repair-prompt.txt"
         }
       }
     },
@@ -4560,8 +4560,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の髪・耳、はさみと紙の接点、足台への接地を確認。淡い木色の机・椅子・足台と小さな紙の作品飾りに整理。Lukeの胸上Uと輪郭線なしのスカーフを反映。 線色・線幅の数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-one-snip-edit-prompt.txt",
-          "repairPrompt": "luke-one-snip-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-one-snip-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-one-snip-repair-prompt.txt"
         }
       }
     },
@@ -4611,8 +4611,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の髪・側面の耳・服を追加。ページをつまむ指と反対の手、本の薄い線を保持。Lukeの白い体と胸上Uを反映。 スカーフの内部線・色むらは残課題。首元の輪郭と線色・線幅の数値適合は継続確認。",
           "tool": "built-in image_gen",
-          "prompt": "luke-page-turn-edit-prompt.txt",
-          "repairPrompt": "luke-page-turn-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-page-turn-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-page-turn-repair-prompt.txt"
         }
       }
     },
@@ -4662,8 +4662,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の髪・耳を整理し、糊と貼る紙の接点を保持。Lukeの白い体・胸上U・前に垂れるスカーフを反映。家具を淡い木色に統一し、小さな紙の作品を追加。 スカーフの内部線・色むらは残課題。首元の輪郭と線色・線幅の数値適合は継続確認。",
           "tool": "built-in image_gen",
-          "prompt": "luke-paper-collage-edit-prompt.txt",
-          "repairPrompt": "luke-paper-collage-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-paper-collage-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-paper-collage-repair-prompt.txt"
         }
       }
     },
@@ -4713,8 +4713,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "低い結び髪の女の子を採用。両者が折り目を押す姿勢と足台を保持。Lukeの白い体と胸上Uを反映。淡い木色の家具と小さな紙の葉飾りに整理。 スカーフの内部線・色むらは残課題。首元の輪郭と線色・線幅の数値適合は継続確認。",
           "tool": "built-in image_gen",
-          "prompt": "luke-paper-fold-edit-prompt.txt",
-          "repairPrompt": "luke-paper-fold-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-paper-fold-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-paper-fold-repair-prompt.txt"
         }
       }
     },
@@ -4765,7 +4765,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の髪・耳・服を整理し、紙を裂く両手を保持。Lukeの胸上U、淡い家具、小さな紙飾りを反映。スカーフ内部線とLukeの縮尺は継続確認。 数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-paper-tear-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-paper-tear-edit-prompt.txt"
         }
       }
     },
@@ -4814,8 +4814,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "子供が大人を向く座位とLukeの両手を膝に置く姿勢を保持。人物の髪・耳・服を整理し、大人の線を淡く調整。Lukeの胸上Uを追加し、スカーフを平坦化。 線色・線幅の数値適合と縮小時の視認性は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-potty-learning-edit-prompt.txt",
-          "repairPrompt": "luke-potty-learning-flat-color-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-potty-learning-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-potty-learning-flat-color-prompt.txt"
         }
       }
     },
@@ -4865,8 +4865,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "短髪とボブ髪の二人の幼児に整理。掃除機・ブラシ・ちりとりの接点とLukeの喜ぶ姿勢を保持。胸上U・線なしスカーフ・不透明背景を反映。 数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-pretend-cleaning-edit-prompt.txt",
-          "repairPrompt": "luke-pretend-cleaning-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-pretend-cleaning-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-pretend-cleaning-repair-prompt.txt"
         }
       }
     },
@@ -4916,8 +4916,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の髪・耳・服を追加。箱の穴と積み木の落下軌道、Lukeがのぞく姿勢を保持。胸上U・線なしスカーフ・不透明背景を反映。 数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-put-in-look-edit-prompt.txt",
-          "repairPrompt": "luke-put-in-look-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-put-in-look-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-put-in-look-repair-prompt.txt"
         }
       }
     },
@@ -4966,8 +4966,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "ボブ髪の女の子を採用。坂の上に添える手、二つの球による連続表現、Lukeの待つ姿勢を保持。胸上U・線なしスカーフ・不透明背景を反映。 数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-ramp-roll-edit-prompt.txt",
-          "repairPrompt": "luke-ramp-roll-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-ramp-roll-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-ramp-roll-repair-prompt.txt"
         }
       }
     },
@@ -5024,12 +5024,12 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "赤ちゃんの支える手と伸ばす手を保持。幼児の髪は追加せず、おむつの輪郭を整理。Lukeの胸上U・白い体と背景を反映。線が濃く見えるため線色・線幅は再確認。 数値適合は未検証。 腕とベストの境界を追加し、腕上に見えていたポケットを除去。Uを腕から分離した胸の布面に配置。ポーズ・赤ちゃん・玩具は保持。 濃い子供のオレンジ線とLukeの茶線を、ガイドラインの淡いサーモン・暖色ブラウンへ近づける色修正を実施。形・腕とベストの分離を維持。生成画像のHEX厳密一致は未達・未認証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-reach-for-toy-edit-prompt.txt",
-          "repairPrompt": "luke-reach-for-toy-repair-prompt.txt",
-          "vestRepairPrompt": "luke-reach-for-toy-vest-repair-prompt.txt",
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-reach-for-toy-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-reach-for-toy-repair-prompt.txt",
+          "vestRepairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-reach-for-toy-vest-repair-prompt.txt",
           "colorPrompts": [
-            "luke-reach-for-toy-line-color-prompt.txt",
-            "luke-reach-for-toy-line-color-final-prompt.txt"
+            "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-reach-for-toy-line-color-prompt.txt",
+            "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-reach-for-toy-line-color-final-prompt.txt"
           ]
         }
       }
@@ -5080,8 +5080,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の髪・耳・服を整理。開いた指、球の落下軌道と透明な管を保持。胸上Uと線なしスカーフを反映。 線色は指定色を目標に調整。厳密なHEX・線幅適合は未認証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-release-drop-edit-prompt.txt",
-          "repairPrompt": "luke-release-drop-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-release-drop-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-release-drop-repair-prompt.txt"
         }
       }
     },
@@ -5131,8 +5131,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "ボブ髪の女の子を採用。砂を落とす手と支える手を保持。Lukeの背中中央Uを服の角度に合わせ、背中の不要なポケットを除去。スカーフを線なしに整理。 線色は指定色を目標に調整。厳密なHEX・線幅適合は未認証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-sand-texture-edit-prompt.txt",
-          "repairPrompt": "luke-sand-texture-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-sand-texture-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-sand-texture-repair-prompt.txt"
         }
       }
     },
@@ -5181,8 +5181,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "短髪・耳・服を追加。玩具の握りと耳に手を添えるLukeの姿勢を保持。胸上Uと線なしスカーフを反映。 線色は指定色を目標に調整。厳密なHEX・線幅適合は未認証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-shake-sound-edit-prompt.txt",
-          "repairPrompt": "luke-shake-sound-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-shake-sound-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-shake-sound-repair-prompt.txt"
         }
       }
     },
@@ -5232,8 +5232,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "結び髪の女の子を採用。丸いピースと穴、支える手を保持。LukeのUを画面右胸へ移動し、小さな作品飾りと線なしスカーフを反映。 線色は指定色を目標に調整。厳密なHEX・線幅適合は未認証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-shape-sorter-edit-prompt.txt",
-          "repairPrompt": "luke-shape-sorter-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-shape-sorter-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-shape-sorter-repair-prompt.txt"
         }
       }
     },
@@ -5282,8 +5282,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "短髪・耳・服を追加。積み木を置く手とLukeが待つ座位を保持。胸の布面へUを追加し、スカーフの輪郭線を除去。 線色は指定色を目標に調整。厳密なHEX・線幅適合は未認証。",
           "tool": "built-in image_gen",
-          "prompt": "luke-shared-build-edit-prompt.txt",
-          "repairPrompt": "luke-shared-build-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-shared-build-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-shared-build-repair-prompt.txt"
         }
       }
     },
@@ -5333,8 +5333,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "うつ伏せの後頭部を整理。両者のペンと共有する線の接点を保持。Uを腕から胸の布面へ移動。 線色・線幅の厳密な数値適合と縮小表示を確認。スカーフの二本の先端の分離を再確認。",
           "tool": "built-in image_gen",
-          "prompt": "luke-shared-line-edit-prompt.txt",
-          "repairPrompt": "luke-shared-line-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-shared-line-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-shared-line-repair-prompt.txt"
         }
       }
     },
@@ -5387,7 +5387,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "スカーフの輪郭・内部線を除去。人物と5個・2個の数量を保持。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。",
           "tool": "built-in image_gen",
-          "prompt": "luke-frame-size-quantity-compare-followup-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-frame-size-quantity-compare-followup-prompt.txt"
         }
       }
     },
@@ -5436,9 +5436,9 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "後頭部と襟足を整理。台上の立方体への手と台下の球を保持。スカーフの内部線を除去。 線色・線幅の厳密な数値適合と縮小表示を確認。",
           "tool": "built-in image_gen",
-          "prompt": "luke-spatial-position-edit-prompt.txt",
-          "repairPrompt": "luke-spatial-position-repair-prompt.txt",
-          "scarfPrompt": "luke-spatial-position-scarf-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-spatial-position-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-spatial-position-repair-prompt.txt",
+          "scarfPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-spatial-position-scarf-prompt.txt"
         }
       }
     },
@@ -5492,7 +5492,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "スカーフの輪郭・内部線を除去。操作と台を支える接点を保持。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。",
           "tool": "built-in image_gen",
-          "prompt": "luke-frame-spiral-turning-toy-followup-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-frame-spiral-turning-toy-followup-prompt.txt"
         }
       }
     },
@@ -5546,7 +5546,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "スカーフの輪郭・内部線を除去。手・紙・シールと足台を保持。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。",
           "tool": "built-in image_gen",
-          "prompt": "luke-frame-sticker-paste-followup-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-frame-sticker-paste-followup-prompt.txt"
         }
       }
     },
@@ -5600,8 +5600,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の右向きの頭・髪・耳・服を整理し、虫眼鏡を見る構図とLukeが保持する接点を維持。胸のUと淡い接地影を調整。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。 ユーザー指定の後頭部の丸い凹凸を除去し、滑らかな弧と小さな襟足へ整理。右向きの顔・虫眼鏡・指先の構図を保持。",
           "tool": "built-in image_gen",
-          "prompt": "luke-frame-tiny-discovery-edit-prompt.txt",
-          "repairPrompt": "luke-frame-tiny-discovery-hair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-frame-tiny-discovery-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-frame-tiny-discovery-hair-prompt.txt"
         }
       }
     },
@@ -5651,7 +5651,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "後頭部の髪・耳を整理。片足を踏み台に置き手を便座へ添える動作と3枚の手順図を保持。胸のUを追加。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。",
           "tool": "built-in image_gen",
-          "prompt": "luke-frame-toilet-independently-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-frame-toilet-independently-edit-prompt.txt"
         }
       }
     },
@@ -5701,8 +5701,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "右下を向く幼児の髪・服を追加。手と車、Lukeとトンネルの接点を保持。道を淡いベージュへ調整し胸のUを追加。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。スカーフの結び目・内部線が残り再調整対象。",
           "tool": "built-in image_gen",
-          "prompt": "luke-frame-toy-car-road-edit-prompt.txt",
-          "repairPrompt": "luke-frame-toy-car-road-scarf-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-frame-toy-car-road-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-frame-toy-car-road-scarf-prompt.txt"
         }
       }
     },
@@ -5753,7 +5753,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "ボブの女の子の例へ調整。両手の容器・水流・盆の接点と紙船を保持。植物を片側の小さな一群へ整理し胸のUを調整。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。",
           "tool": "built-in image_gen",
-          "prompt": "luke-frame-water-pour-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/luke-frame-water-pour-edit-prompt.txt"
         }
       }
     },
@@ -5815,8 +5815,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "大人のボブ・膝を折った座位を見本へ照合。服の裾と脚の重なりを補い、胴と脚の一体化を修正。子供の指さしとカード・クッキーへの接点を維持。 小鳥のU・眉・ポーズも目視確認。線色・線幅の数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "aac-one-word-edit-prompt.txt",
-          "humanShapePrompt": "aac-one-word-human-shape-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/aac-one-word-edit-prompt.txt",
+          "humanShapePrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/aac-one-word-human-shape-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -5886,7 +5886,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "子どもが頭、大人が肩、小鳥が頭を触る元の身振りを保持。三面図の側面を参照し、髪と小鳥の輪郭を調整。背景透過の失敗案は不採用。 原寸目視済み。三面図との厳密な寸法一致、指定HEX・線幅は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "body-parts-song-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/body-parts-song-edit-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -5957,8 +5957,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "シャボン玉の棒と口、容器を持つ手、泡の配置を保持。小鳥の側面形と輪郭、幼児の髪を調整。 原寸目視済み。三面図との厳密な寸法一致、指定HEX・線幅は未検証。 胸の見える面に橙のU＋2点を復元（ユーザー指定）。ポーズ・表情を目視確認。厳密な色・寸法は未認証。",
           "tool": "built-in image_gen",
-          "prompt": "bubble-play-edit-prompt.txt",
-          "brandMarkPrompt": "mimo-u-mark-restoration-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/bubble-play-edit-prompt.txt",
+          "brandMarkPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/mimo-u-mark-restoration-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -6020,8 +6020,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "長い筒状の手足・靴の境界を修正。幼児見本の丸い頭、簡潔な前髪、厚みのある脚、裸足の連続した輪郭へ調整。片脚と両腕の模倣動作を維持。 線色・線幅の数値適合と最終サイズは未検証。",
           "tool": "built-in image_gen",
-          "prompt": "child-leads-imitation-edit-prompt.txt",
-          "humanShapePrompt": "child-leads-imitation-human-shape-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/child-leads-imitation-edit-prompt.txt",
+          "humanShapePrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/child-leads-imitation-human-shape-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -6082,7 +6082,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "本とボールの二択、指差しと大人の手を保持。人物の髪と小鳥の頭・輪郭を調整。小鳥の目線は正面寄りのため残課題。 原寸目視済み。三面図との厳密な寸法一致・指定色・線幅は未認証。",
           "tool": "built-in image_gen",
-          "prompt": "choice-response-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/choice-response-edit-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -6144,7 +6144,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "カード4枚と指先の接点、見守る大人を保持。人物の髪、小鳥の輪郭と頭、机の色面を調整。 原寸目視済み。三面図との厳密な寸法一致・指定色・線幅は未認証。",
           "tool": "built-in image_gen",
-          "prompt": "choice-with-reason-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/choice-with-reason-edit-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -6206,7 +6206,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "聴診器と胸・耳の接点、座る小鳥を保持。頭の輪郭・線色と幼児の髪を調整。眉が省略されているため表情の再確認が残る。 原寸目視済み。三面図の寸法・指定HEX・線幅の厳密適合は未認証。",
           "tool": "built-in image_gen",
-          "prompt": "doctor-pretend-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/doctor-pretend-edit-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -6272,7 +6272,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "上段3表情と胸に手を置く動作を保持。4つの頭の形と輪郭を調整。幼児の髪の量は簡潔な見本との再確認が残る。 原寸目視済み。三面図の寸法・指定HEX・線幅の厳密適合は未認証。",
           "tool": "built-in image_gen",
-          "prompt": "emotion-expression-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/emotion-expression-edit-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -6334,7 +6334,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "写真を指す手と気持ちカードを保持。小鳥の側面、人物の髪、机と写真の描写を調整。 原寸目視済み。三面図の寸法・指定HEX・線幅の厳密適合は未認証。",
           "tool": "built-in image_gen",
-          "prompt": "experience-feeling-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/experience-feeling-edit-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -6405,10 +6405,10 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "茶色の髪線を人物と同系色へ変更し、幼児見本の前髪・耳・脚へ調整。靴下・靴に見える足首の境界線を除去。停止姿勢と合図を維持。 線色・線幅の数値適合と最終サイズは未検証。",
           "tool": "built-in image_gen",
-          "prompt": "freeze-notice-edit-prompt.txt",
-          "expressionPrompt": "freeze-notice-expression-prompt.txt",
-          "brandMarkPrompt": "mimo-u-mark-restoration-prompt.txt",
-          "humanShapePrompt": "freeze-notice-human-shape-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/freeze-notice-edit-prompt.txt",
+          "expressionPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/freeze-notice-expression-prompt.txt",
+          "brandMarkPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/mimo-u-mark-restoration-prompt.txt",
+          "humanShapePrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/freeze-notice-human-shape-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -6478,9 +6478,9 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "布を持ち上げる接点と小鳥の位置を保持。背景光・床の描写を整理し、小鳥の輪郭とスカーフを調整。赤ちゃんの髪は追加せず。小鳥の頬の張り出しは再確認が残る。 原寸目視済み。寸法・指定色・線幅の厳密適合は未認証。 表情再調整：両眉を復元し、笑い目で見つけてもらった喜びを表現。 眉の表示を目視確認。 笑い目が大きすぎるという指摘に合わせ、両目の弧を小さく細く再調整。眉は保持。",
           "tool": "built-in image_gen",
-          "prompt": "hidden-find-edit-prompt.txt",
-          "expressionPrompt": "hidden-find-expression-prompt.txt",
-          "smilePrompt": "hidden-find-smile-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/hidden-find-edit-prompt.txt",
+          "expressionPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/hidden-find-expression-prompt.txt",
+          "smilePrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/hidden-find-smile-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -6550,9 +6550,9 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "細い腕と細分化された指を、丸みのある腕と簡潔な手へ調整。前髪と耳を幼児見本へ寄せ、ばんざいの動作を維持。 小鳥のU・眉・ポーズも目視確認。線色・線幅の数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "imitation-arms-up-edit-prompt.txt",
-          "expressionPrompt": "imitation-arms-up-expression-prompt.txt",
-          "humanShapePrompt": "imitation-arms-up-human-shape-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/imitation-arms-up-edit-prompt.txt",
+          "expressionPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/imitation-arms-up-expression-prompt.txt",
+          "humanShapePrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/imitation-arms-up-human-shape-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -6642,7 +6642,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "髪の簡略化、頭の光の除去、輪郭の整理を実施。手とカードの関係は保持。小鳥の頭・胴比率、厳密な線色・線幅、スカーフの単色性は再確認が必要。元画像は保持。",
           "tool": "built-in image_gen",
-          "prompt": "noticing-letters-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/noticing-letters-edit-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -6726,12 +6726,12 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児見本と大人のボブ・膝立ち見本を参照。服の裾と折り曲げた脚の重なりを補い、胴から脚まで一続きだった形を修正。指さし・シャボン玉棒・小鳥のUを維持。 線色・線幅の数値適合と最終サイズは未検証。",
           "tool": "built-in image_gen",
-          "prompt": "one-word-more-edit-prompt.txt",
-          "geometryPrompt": "one-word-more-geometry-prompt.txt",
-          "expressionPrompt": "one-word-more-scene-expression-prompt.txt",
-          "headColorPrompt": "one-word-more-head-color-prompt.txt",
-          "brandMarkPrompt": "mimo-u-mark-restoration-prompt.txt",
-          "humanShapePrompt": "one-word-more-human-shape-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/one-word-more-edit-prompt.txt",
+          "geometryPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/one-word-more-geometry-prompt.txt",
+          "expressionPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/one-word-more-scene-expression-prompt.txt",
+          "headColorPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/one-word-more-head-color-prompt.txt",
+          "brandMarkPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/mimo-u-mark-restoration-prompt.txt",
+          "humanShapePrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/one-word-more-human-shape-prompt.txt"
         },
         "colorSampleCheck": {
           "method": "Pillow RGB, region-filtered most frequent pixels; antialiased raster, not uniform base-color certification",
@@ -6818,10 +6818,10 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "食材を置く手元を見守る場面として、頭を左下に傾け、控えめな前傾と好奇心のある眉・小さい開眼へ調整。袖口を補い、襟を単色化。食材の接点を保持。足元と机の重なり、袖の形・人物線の数値適合は再確認が必要。 胸の見える面に橙のU＋2点を復元（ユーザー指定）。ポーズ・表情を目視確認。厳密な色・寸法は未認証。",
           "tool": "built-in image_gen",
-          "prompt": "parent-child-pretend-meal-edit-prompt.txt",
-          "geometryPrompt": "parent-child-pretend-meal-geometry-prompt.txt",
-          "expressionPrompt": "parent-child-pretend-meal-scene-expression-prompt.txt",
-          "brandMarkPrompt": "mimo-u-mark-restoration-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/parent-child-pretend-meal-edit-prompt.txt",
+          "geometryPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/parent-child-pretend-meal-geometry-prompt.txt",
+          "expressionPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/parent-child-pretend-meal-scene-expression-prompt.txt",
+          "brandMarkPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/mimo-u-mark-restoration-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -6888,9 +6888,9 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児見本の前髪・ふくらはぎ・裸足の連続した輪郭へ調整。ピースの2本指は動作に必要なため維持。 小鳥のU・眉・ポーズも目視確認。線色・線幅の数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "peace-sign-edit-prompt.txt",
-          "hairPrompt": "peace-sign-hair-edit-prompt.txt",
-          "humanShapePrompt": "peace-sign-human-shape-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/peace-sign-edit-prompt.txt",
+          "hairPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/peace-sign-hair-edit-prompt.txt",
+          "humanShapePrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/peace-sign-human-shape-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -6968,9 +6968,9 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児B見本を画像参照に追加。頭・耳・簡潔な前髪を見本に寄せ、二重袖口を除去。膝立ち、鍋を混ぜる手、差し出す皿を保持。 小鳥の表情・姿勢とUマークの保持を目視確認。線色・線幅の数値適合、頭身の厳密計測は未完了。 料理を小鳥へ渡す場面に合わせ、子供の顔を正面から小鳥に向けた横向きへ修正。鍋を見下ろす向きにしない。顔の内部は白いまま、手・皿・鍋・小鳥のUを維持。",
           "tool": "built-in image_gen",
-          "prompt": "pretend-cooking-edit-prompt.txt",
-          "childShapePrompt": "pretend-cooking-child-shape-prompt.txt",
-          "faceDirectionPrompt": "pretend-cooking-face-direction-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/pretend-cooking-edit-prompt.txt",
+          "childShapePrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/pretend-cooking-child-shape-prompt.txt",
+          "faceDirectionPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/pretend-cooking-face-direction-prompt.txt"
         },
         "detailedPlan": [
           {
@@ -7054,8 +7054,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児B見本を画像参照に追加し、座位へ展開。胴・腕・膝を分け、器を支える手を明瞭化。簡潔な髪と服を追加し、スプーンの接点を保持。 小鳥の表情・姿勢とUマークの保持を目視確認。線色・線幅の数値適合、頭身の厳密計測は未完了。",
           "tool": "built-in image_gen",
-          "prompt": "pretend-feeding-edit-prompt.txt",
-          "childShapePrompt": "pretend-feeding-child-shape-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/pretend-feeding-edit-prompt.txt",
+          "childShapePrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/pretend-feeding-child-shape-prompt.txt"
         },
         "detailedPlan": [
           {
@@ -7139,8 +7139,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児B見本を画像参照に追加。頭頂の突起を小さくし、前髪・耳・丸みのある腕と下腿・足へ修正。二重袖口と靴状の足首境界を除去。受話器との接点を保持。 小鳥の表情・姿勢とUマークの保持を目視確認。線色・線幅の数値適合、頭身の厳密計測は未完了。",
           "tool": "built-in image_gen",
-          "prompt": "pretend-phone-edit-prompt.txt",
-          "childShapePrompt": "pretend-phone-child-shape-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/pretend-phone-edit-prompt.txt",
+          "childShapePrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/pretend-phone-child-shape-prompt.txt"
         },
         "detailedPlan": [
           {
@@ -7209,8 +7209,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "袋の持ち手・底と受け取る手を保持。幼児の横向きの髪、大人のボブと淡い線、小鳥の頭・眉・袖・裾・Uを調整。光の輪と強い紙質感を除去。 線色・線幅の数値適合と最終掲載サイズは未検証。",
           "tool": "built-in image_gen",
-          "prompt": "pretend-shop-edit-prompt.txt",
-          "repairPrompt": "pretend-shop-shirt-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/pretend-shop-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/pretend-shop-shirt-repair-prompt.txt"
         }
       }
     },
@@ -7260,7 +7260,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "拒否する両手と左向きの顔を維持。幼児の髪・膝、小鳥の頭と短い翼・服・眉を調整。紫の効果線を減らし、子供の意思を受け止める表情へ。 線色・線幅の数値適合と最終掲載サイズは未検証。",
           "tool": "built-in image_gen",
-          "prompt": "refusal-boundary-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/refusal-boundary-edit-prompt.txt"
         }
       }
     },
@@ -7310,7 +7310,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "両手を差し出すサインと小鳥へ向く顔を維持。幼児の髪・腕、小鳥の横向きの頭・翼・胴・脚を再構成し、胸のUを復元。 線色・線幅の数値適合と最終掲載サイズは未検証。",
           "tool": "built-in image_gen",
-          "prompt": "request-sign-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/request-sign-edit-prompt.txt"
         }
       }
     },
@@ -7361,8 +7361,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "太鼓への手の接点を維持し、幼児の髪・座位と小鳥の頭・眉・翼・Uを調整。スカーフの縁取り、光の輪、床ハッチを除去。袖の境界の読みやすさは継続確認。 線色・線幅の数値適合と最終掲載サイズは未検証。",
           "tool": "built-in image_gen",
-          "prompt": "rhythm-copy-edit-prompt.txt",
-          "repairPrompt": "rhythm-copy-final-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/rhythm-copy-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/rhythm-copy-final-repair-prompt.txt"
         }
       }
     },
@@ -7417,9 +7417,9 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "三面図正面を拡大参照し、頬の張り出しを抑えて卵形の頭へ修正。小さい笑い目・眉・Uを保持。生成で濃くなった大人の線を淡色へ戻した。襟の形と線色の厳密一致は引き続き再確認対象。",
           "tool": "built-in image_gen",
-          "prompt": "routine-shoe-message-edit-prompt.txt",
-          "shapeCorrectionPrompt": "routine-shoe-message-front-reference-prompt.txt",
-          "colorRestorePrompt": "routine-shoe-message-human-color-restore-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/routine-shoe-message-edit-prompt.txt",
+          "shapeCorrectionPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/routine-shoe-message-front-reference-prompt.txt",
+          "colorRestorePrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/routine-shoe-message-human-color-restore-prompt.txt"
         }
       }
     },
@@ -7469,8 +7469,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "子供と小鳥が左上の同じ対象を見る向きへ調整。子供の横顔を追加修正し、前髪・裸足・脚を整理。小鳥の頭・眉・翼・Uを調整し、頭を横切る長い点線を除去。 線色・線幅の数値適合と最終掲載サイズは未検証。",
           "tool": "built-in image_gen",
-          "prompt": "shared-pointing-edit-prompt.txt",
-          "repairPrompt": "shared-pointing-head-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/shared-pointing-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/shared-pointing-head-repair-prompt.txt"
         }
       }
     },
@@ -7529,9 +7529,9 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "三面図の横向きを直接参照し、片目・小さなくちばし・頭と胴の比率を再構成。本へ向く顔と本を示す翼を維持。 三面図との完全一致・線色線幅の数値適合は未認証。",
           "tool": "built-in image_gen",
-          "prompt": "shared-reading-edit-prompt.txt",
-          "geometryPrompt": "shared-reading-mimo-geometry-prompt.txt",
-          "modelLockPrompt": "shared-reading-mimo-model-lock-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/shared-reading-edit-prompt.txt",
+          "geometryPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/shared-reading-mimo-geometry-prompt.txt",
+          "modelLockPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/shared-reading-mimo-model-lock-prompt.txt"
         }
       }
     },
@@ -7594,10 +7594,10 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "三面図側面を参照し、頭・冠羽・顔のパーツをまとめて縮小して胴との比率を調整。星へ向く姿勢、翼とUを保持。子供の袖の二重線など残存項目は別途確認対象。",
           "tool": "built-in image_gen",
-          "prompt": "show-and-receive-edit-prompt.txt",
-          "geometryPrompt": "show-and-receive-mimo-geometry-prompt.txt",
-          "modelLockPrompt": "show-and-receive-mimo-model-lock-prompt.txt",
-          "shapeCorrectionPrompt": "show-and-receive-proportion-lock-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/show-and-receive-edit-prompt.txt",
+          "geometryPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/show-and-receive-mimo-geometry-prompt.txt",
+          "modelLockPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/show-and-receive-mimo-model-lock-prompt.txt",
+          "shapeCorrectionPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/show-and-receive-proportion-lock-prompt.txt"
         }
       }
     },
@@ -7668,13 +7668,13 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "ユーザー指定により両翼の先を地面につけて支える座り姿へ変更。足を前に出して軽く後傾するリラックスした姿勢。右手前の位置、微笑みと背中Uを保持。姿勢・足の細部は最終承認待ち。",
           "tool": "built-in image_gen",
-          "prompt": "social-referencing-edit-prompt.txt",
-          "repairPrompt": "social-referencing-shirt-repair-prompt.txt",
-          "geometryPrompt": "social-referencing-mimo-geometry-prompt.txt",
-          "modelLockPrompt": "social-referencing-mimo-model-lock-prompt.txt",
-          "posePrompt": "social-referencing-seated-back-prompt.txt",
-          "feetPrompt": "social-referencing-seated-feet-prompt.txt",
-          "relaxedPosePrompt": "social-referencing-relaxed-lean-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/social-referencing-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/social-referencing-shirt-repair-prompt.txt",
+          "geometryPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/social-referencing-mimo-geometry-prompt.txt",
+          "modelLockPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/social-referencing-mimo-model-lock-prompt.txt",
+          "posePrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/social-referencing-seated-back-prompt.txt",
+          "feetPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/social-referencing-seated-feet-prompt.txt",
+          "relaxedPosePrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/social-referencing-relaxed-lean-prompt.txt"
         }
       }
     },
@@ -7725,8 +7725,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "3枚の写真を保持し、棚・植物・光を削除。子供の髪・手・衣服を整理、大人の線を淡色化。小鳥の翼を短くし袖と裾を補完。頭と胴の厳密比率、くちばし細部は再確認対象。",
           "tool": "built-in image_gen",
-          "prompt": "three-photo-story-edit-prompt.txt",
-          "repairPrompt": "three-photo-story-shirt-color-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/three-photo-story-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/three-photo-story-shirt-color-prompt.txt"
         }
       }
     },
@@ -7777,8 +7777,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "かばん・服・靴の動作を保持。幼児の髪・耳・衣服・足を見本に寄せ、光の輪を除去。小鳥を側面型へ調整しシャツ裾を補完。人物の手と配色の数値一致は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "three-step-entry-edit-prompt.txt",
-          "repairPrompt": "three-step-entry-detail-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/three-step-entry-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/three-step-entry-detail-prompt.txt"
         }
       }
     },
@@ -7877,7 +7877,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "三面図を参照して頭の頬の張り出しを再修正し、人物線を子どもは強く・大人は淡く調整。飲みながら子どもを見る動作を保持。色実測では子どもの頭付近の頻出色RGB(251,129,92)、大人RGB(252,189,164)で、指定#F59B82/#F7C6B3とは不一致。線幅も未認証。見た目の修正案であり仕様適合完了ではない。",
           "tool": "built-in image_gen",
-          "prompt": "turn-taking-cards-human-lines-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/turn-taking-cards-human-lines-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -7940,9 +7940,9 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "ユーザー指定により小鳥の元のポーズを復元。片翼を右側の台へ置き、頭と胴を傾け、足を軽く交差する構図。直立座位への変更を撤回。子供の髪・衣服と背景整理は保持。最終適合は再確認待ち。",
           "tool": "built-in image_gen",
-          "prompt": "two-picture-schedule-edit-prompt.txt",
-          "repairPrompt": "two-picture-schedule-seat-prompt.txt",
-          "poseRestorePrompt": "two-picture-schedule-original-pose-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/two-picture-schedule-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/two-picture-schedule-seat-prompt.txt",
+          "poseRestorePrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/two-picture-schedule-original-pose-prompt.txt"
         }
       }
     },
@@ -7994,7 +7994,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "声を交わす向きと口元の翼を保持。幼児の耳・髪と小鳥の裾・胴を調整。光を除去。頭身・袖・線色は再確認対象。",
           "tool": "built-in image_gen",
-          "prompt": "voice-pingpong-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/voice-pingpong-edit-prompt.txt"
         }
       }
     },
@@ -8045,8 +8045,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "手振りと片足を上げる元ポーズを保持。幼児の髪・素足、小鳥の暖色線を調整。眉と小さい笑い目を保持。透過背景は修復。数値適合は未検証。",
           "tool": "built-in image_gen",
-          "prompt": "wave-response-edit-prompt.txt",
-          "repairPrompt": "wave-response-background-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/wave-response-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/wave-response-background-prompt.txt"
         }
       }
     },
@@ -8095,7 +8095,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "短髪とボブの二人が手元を向く造形へ調整。積み木と両者の手を保持。Lukeを奥に保ち胸のUを追加。長い床影を個別の淡い接地影へ整理。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズでの判読を継続確認。スカーフの結び目・内部線が残り再調整対象。",
           "tool": "built-in image_gen",
-          "prompt": "relationship-frame-children-build-together-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/relationship-frame-children-build-together-edit-prompt.txt"
         }
       }
     },
@@ -8146,8 +8146,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "受け渡す手と小鳥の座位を保持。人物の髪・耳・衣服、小鳥の頭輪郭・袖・裾・足を修正。背景整理。線色と目線は最終確認対象。",
           "tool": "built-in image_gen",
-          "prompt": "children-offer-and-wait-edit-prompt.txt",
-          "repairPrompt": "children-offer-and-wait-background-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/children-offer-and-wait-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/children-offer-and-wait-background-prompt.txt"
         }
       }
     },
@@ -8197,8 +8197,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の髪・服を整理。別々に遊ぶ手の接点を保持し、目を除去。Uを胸へ追加。砂場の木枠とスカーフ先端は再確認。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。",
           "tool": "built-in image_gen",
-          "prompt": "relationship-frame-children-parallel-sand-followup-prompt.txt",
-          "repairPrompt": "relationship-frame-children-parallel-sand-repair-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/relationship-frame-children-parallel-sand-followup-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/relationship-frame-children-parallel-sand-repair-prompt.txt"
         }
       }
     },
@@ -8249,8 +8249,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "お腹に手を添える親子と小鳥の元ポーズを保持。人物の簡潔な髪・耳・衣服を追加。小鳥の袖・裾とスカーフを整理し光を除去。頬輪郭・くちばし色と人物線の数値適合は再確認対象。",
           "tool": "built-in image_gen",
-          "prompt": "deep-breath-edit-prompt.txt",
-          "repairPrompt": "deep-breath-detail-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/deep-breath-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/deep-breath-detail-prompt.txt"
         }
       }
     },
@@ -8329,7 +8329,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "支える手と赤ちゃんの姿勢を保持し、人物線の強弱と背景光を調整。小鳥の脚・胴比率、スカーフの縁、人物の線幅の厳密適合は再確認が必要。",
           "tool": "built-in image_gen",
-          "prompt": "lift-play-edit-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/lift-play-edit-prompt.txt"
         },
         "humanShapeAudit": {
           "date": "2026-09-20",
@@ -8388,8 +8388,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "親子の手遊び、小鳥の拍手ポーズを保持。幼児の短髪、大人のボブと衣服を整理。小鳥の眉と小さい笑い目を維持しスカーフの茶色線を除去。色面の縁・袖と線幅は未認証。",
           "tool": "built-in image_gen",
-          "prompt": "parent-hand-play-edit-prompt.txt",
-          "repairPrompt": "parent-hand-play-scarf-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/parent-hand-play-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/parent-hand-play-scarf-prompt.txt"
         }
       }
     },
@@ -8441,8 +8441,8 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "両手をつないで回る接点と小鳥の両翼・片足を上げるポーズを保持。人物の髪・耳と小鳥の眉・小さい笑い目を調整。光を除去しスカーフの線を整理。生成で入った人物の塗りは白抜きへ戻した。頭輪郭の厳密一致と配色は再確認対象。",
           "tool": "built-in image_gen",
-          "prompt": "spin-together-edit-prompt.txt",
-          "repairPrompt": "spin-together-white-fill-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/spin-together-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/spin-together-white-fill-prompt.txt"
         }
       }
     },
@@ -8494,9 +8494,9 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "元のくすぐりを止める手の位置、子供の仰向け応答、小鳥の両翼を寄せる姿勢を保持。人物の髪・耳と衣服、小鳥の頭輪郭を調整。光の輪と大きなマット線を除去。スカーフの濃い縁は修正生成でも残存し、未解消として記録。線色・線幅の数値適合も未確認。",
           "tool": "built-in image_gen",
-          "prompt": "tickle-pause-edit-prompt.txt",
-          "repairPrompt": "tickle-pause-detail-prompt.txt",
-          "rejectedScarfAttempt": "tickle-pause-scarf-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/tickle-pause-edit-prompt.txt",
+          "repairPrompt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/tickle-pause-detail-prompt.txt",
+          "rejectedScarfAttempt": "../../participatory-growth-frame-studies/prompts/history/mimo.json#/records/tickle-pause-scarf-prompt.txt"
         }
       }
     },
@@ -8546,7 +8546,7 @@
           "status": "元ファイルへ反映・再確認待ち",
           "note": "幼児の前髪と大人の体格を整理。食具の接点を保持。大人の足を床へ接地、子供の足台を保持。Uを追加し灰色床影を除去。口元の線とスカーフ内部線は再確認。 線色・線幅の厳密な数値適合、三面図との重ね合わせ、掲載サイズの確認は未完了。",
           "tool": "built-in image_gen",
-          "prompt": "together-frame-self-feeding-table-followup-prompt.txt"
+          "prompt": "../../participatory-growth-frame-studies/prompts/history/luke.json#/records/together-frame-self-feeding-table-followup-prompt.txt"
         }
       }
     }

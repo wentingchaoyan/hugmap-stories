@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "lumi-parent-child-color.png",
+  "prompts": {
+    "card": "IMAGE 1 precise edit target. IMAGE 2 LEFT ADULT is approved EYE reference only. Change ONLY the owl's two eyes in image 1 to match the gentle sleepy eyes of adult in image 2: shallow curved upper eyelids with both ends and outer corners slightly down, half-open dark brown pupils, single tiny white highlight each. Keep eye spacing and sizes unchanged. Preserve absolutely everything else in image 1, including body proportions and outline, clothing and all three card pictograms (do not change those children's faces), hands wings feet colors and composition. Real transparent background preserved. No eyebrows or glasses or blush. Same square canvas.",
+    "receiving_emotion": "Create updated transparent full-body LUMI illustration for the receiving-emotion/listening role, replacing old character in image 1. Image 2 LEFT ADULT is the exact approved character design, anatomy, proportions, colors and gentle sleepy eyes to follow. Ignore child on right. Preserve the old asset's simple front standing composition but completely replace obsolete anatomy, glasses and cream plumage. New adult head separate from torso, modest outward feather tufts, gray #DCD5D2 outer feathers, white two-lobed facial mask and belly, gentle half-open eyes with upper lids softly arched and ends/outer corners lowered, small white pupil highlights, no eyebrows, no blush, NO glasses. Head width 48.8% of full ear-tip-to-toe height and head height 40.9% as image 2 adult. Lavender #9974B8 sleeveless vest with two pockets, solid burgundy #7D2741 bow with no outline, orange #FF511B U plus two dots on viewer-right upper chest. Small golden beak and golden bird legs and feet. Listening pose: stand quietly facing viewer, wings relaxed and gently curved inward toward lower torso as if ready to receive feelings, without covering chest emblem, no human fingers, no objects or cards. Soft attentive sleepy kindness, not sadness or sternness. Fine warm brown rounded outlines and flat fills matching reference. One full body only, centered portrait 2:3 canvas with comfortable margins at ears and toes, TRANSPARENT real alpha background no ground shadow. Maintain reference proportions rather than old image 1 elongated head-body form."
+  },
+  "outputs": [
+    "shared/characters/fukurou.png",
+    "stories/mouikkai/assets/fukurou.png",
+    "planning/style-studies/outputs/characters/cutouts/fukurou-receiving-emotion.png"
+  ]
+}

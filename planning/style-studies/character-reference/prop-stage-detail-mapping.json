@@ -1,0 +1,579 @@
+{
+  "createdAt": "2026-10-02",
+  "status": "proposal-not-applied",
+  "source_file": "../../participatory-growth-frames/stage-illustration-inventory-review.html",
+  "source_snapshot_at": "2026-09-25T04:40:33.366Z",
+  "source_counts": {
+    "category": 6,
+    "sub_domain": 26,
+    "category_stage": 66,
+    "development_item": 346,
+    "illustration": 147,
+    "illustration_development_item": 299
+  },
+  "terminology": "この提案ではscene_label_jaとillustrationを既存の細かい場面候補として扱い、development_itemの原文・IDで照合する。独立したstage_detailテーブルを確認したものではない。",
+  "scope": "今回の透過小物21種類。年齢・難易度順の新規設定やDB更新は含まない。",
+  "mappings": [
+    {
+      "prop_slug": "dough-roller",
+      "prop_name": "粘土・ローラー",
+      "character": "Luke",
+      "asset_path": "assets/fine-motor-props/dough-roller.png",
+      "status": "既存場面に採用",
+      "priority": "P1",
+      "existing_scene": {
+        "id": "2df1d999-6087-7192-32a0-ed4e58ffdb2e",
+        "code": "luke-frame-clay-press",
+        "label": "触り方を自分で選ぶ（感覚遊び）",
+        "title": "むぎゅっ、形がかわった",
+        "stage_id": "550e8400-e29b-41d4-a716-446655440038",
+        "stage": "触り方や感じ方を自分で選ぶ"
+      },
+      "selected_existing_items": [
+        {
+          "id": "759cc6fc-8435-4fde-ac6a-81e58c4df90f",
+          "text": "砂・水・粘土など感覚遊びを楽しむ"
+        },
+        {
+          "id": "e76d30ce-f5c1-4d8c-a675-2bd5e4f3e238",
+          "text": "様々な質感のものに触れて遊ぶ"
+        }
+      ],
+      "proposed_scene": "粘土を指で押す／手のひらで押す。ローラーは別の小場面にする。",
+      "visual_focus": "手元。触れる場所と粘土の変形を見せる。",
+      "review_note": "素材を確かめる場面と、道具で伸ばす活動を分ける。ローラー使用をこのdetailの到達条件にしない。"
+    },
+    {
+      "prop_slug": "clothespins",
+      "prop_name": "洗濯ばさみ",
+      "character": "Luke",
+      "asset_path": "assets/fine-motor-props/clothespins.png",
+      "status": "既存場面に採用",
+      "priority": "P1",
+      "existing_scene": {
+        "id": "06fd0772-eaac-542c-c396-59324a81e1d2",
+        "code": "luke-frame-clothespin",
+        "label": "小さな違いへ目と指を合わせる（つまむ）",
+        "title": "つまんで、はずす",
+        "stage_id": "550e8400-e29b-41d4-a716-446655440013",
+        "stage": "にぎる・指でつまむ"
+      },
+      "selected_existing_items": [
+        {
+          "id": "d6cf86da-2d96-bac5-5ecc-ea6955f5bb6d",
+          "text": "小さな物へ目と指を合わせ、指先でつまむ"
+        }
+      ],
+      "proposed_scene": "片手で台紙を支え、もう片方で開く・はさむ・離す。",
+      "visual_focus": "指先のアップ。押す場所とばねの開閉。",
+      "review_note": "素手のはさみつまみと、抵抗のある道具操作は同一ではない。既存のはさみつまみitemとの対応は要見直し。"
+    },
+    {
+      "prop_slug": "threading-beads",
+      "prop_name": "大きなビーズ・ひも",
+      "character": "Luke",
+      "asset_path": "assets/fine-motor-props/threading-beads.png",
+      "status": "既存場面に採用",
+      "priority": "P1",
+      "existing_scene": {
+        "id": "a04e9985-0e9e-f463-f7c1-3c19c59805c9",
+        "code": "luke-frame-bead-threading",
+        "label": "両手を使って動かす",
+        "title": "ひもに、すーっと通せた",
+        "stage_id": "660e8400-e29b-41d4-a716-446655440003",
+        "stage": "両手を一緒に使う"
+      },
+      "selected_existing_items": [
+        {
+          "id": "205d7095-4669-40c2-aa97-4ef9e876b8c8",
+          "text": "大きなビーズをスティックや紐に通す"
+        },
+        {
+          "id": "6055a949-1779-90e2-c680-48c4cc9e6663",
+          "text": "片手で支えながら、もう一方の手で通す、回すなど、両手を一緒に使う"
+        }
+      ],
+      "proposed_scene": "穴へ先を合わせる／通った先を反対の手で引く。",
+      "visual_focus": "両手のアップ。支える手・通す手・紐の出口。",
+      "review_note": "硬いスティックと柔らかい紐は活動の条件差として示す。自動で前後段階にしない。"
+    },
+    {
+      "prop_slug": "tongs-pompoms",
+      "prop_name": "トング・ポンポン",
+      "character": "Luke",
+      "asset_path": "assets/fine-motor-props/tongs-pompoms.png",
+      "status": "activityへ配置",
+      "priority": "P2",
+      "existing_scene": {
+        "id": "109c2e3c-408c-0429-a747-345533367e07",
+        "code": "luke-frame-put-in-look",
+        "label": "中へ入れて、取り出す",
+        "title": "いれた先を、のぞこう",
+        "stage_id": "550e8400-e29b-41d4-a716-446655440015",
+        "stage": "運ぶ・離す・容器に入れる"
+      },
+      "selected_existing_items": [
+        {
+          "id": "491943c5-8489-fa59-8e00-06ae0c5a116e",
+          "text": "物を入れる、取り出す、注ぐ、手を離す動きを試す"
+        }
+      ],
+      "proposed_scene": "トングでつかむ→容器まで運ぶ→開いて離す。",
+      "visual_focus": "手元と二つの容器。先端の接点。",
+      "review_note": "detailは入れる・離す動作が主。素手の代表絵をトングに置換せず、道具を使う活動例にする。"
+    },
+    {
+      "prop_slug": "pegboard",
+      "prop_name": "ペグボード",
+      "character": "Luke",
+      "asset_path": "assets/fine-motor-props/pegboard.png",
+      "status": "場面分割を提案",
+      "priority": "P1",
+      "existing_scene": {
+        "id": "7835cb5b-80f0-adbf-1ad3-58456bc43b3f",
+        "code": "luke-frame-jigsaw-last-piece-carry-release",
+        "label": "パズルを外す・はめる",
+        "title": "さいごの一枚、ここかな",
+        "stage_id": "550e8400-e29b-41d4-a716-446655440015",
+        "stage": "運ぶ・離す・容器に入れる"
+      },
+      "selected_existing_items": [
+        {
+          "id": "95a263b9-f4d1-44ca-acd6-fc235b5aa16a",
+          "text": "ペグやパズルピースを外す／丸いパズルをはめる"
+        }
+      ],
+      "proposed_scene": "大きなペグを抜く／穴に合わせて差すを別小場面に。",
+      "visual_focus": "手元。抜く方向、穴と軸の位置。",
+      "review_note": "現itemはペグと丸いパズルを一文に含む。抜く動作には直結するが、ペグを差す場面は新規提案として扱う。"
+    },
+    {
+      "prop_slug": "scissors-paper",
+      "prop_name": "はさみ・色紙",
+      "character": "Luke",
+      "asset_path": "assets/fine-motor-props/scissors-paper.png",
+      "status": "場面分割を提案",
+      "priority": "P1",
+      "existing_scene": {
+        "id": "2af6f5ac-769a-5665-41e5-99e8d3383bde",
+        "code": "luke-frame-one-snip",
+        "label": "切る・貼る・紙で作る",
+        "title": "ちょきん、ここまで",
+        "stage_id": "550e8400-e29b-41d4-a716-446655440017",
+        "stage": "切る・貼る・紙で作る"
+      },
+      "selected_existing_items": [
+        {
+          "id": "195a394d-4e59-4524-9957-c21b00500db6",
+          "text": "子ども用のはさみで紙に切れ目を入れる"
+        },
+        {
+          "id": "842f1d7a-18f5-4903-bed9-e7b1ccf04c52",
+          "text": "ハサミを開いたり閉じたりする"
+        },
+        {
+          "id": "d434cc11-d4ab-ea7c-23e3-861e1dff0606",
+          "text": "はさみを開閉し、紙へ切れ目を入れる"
+        },
+        {
+          "id": "53cdb253-84ad-45ad-b7e8-d19f7bb4bd62",
+          "text": "ハサミを正しい持ち方で持つ"
+        },
+        {
+          "id": "f7802ef2-3e96-65ab-6f44-0feebdd767aa",
+          "text": "紙をちぎる、折る、貼る、切るなどして形を作る"
+        },
+        {
+          "id": "549b0a65-714d-4fb7-8519-583fcf81164f",
+          "text": "太い直線に沿って連続して切る"
+        },
+        {
+          "id": "65226e95-a40f-4fbc-a8f4-8f541fd40b19",
+          "text": "紙を持つ手を動かしながら切る"
+        },
+        {
+          "id": "c77e1812-71fc-46a7-a238-9f4c15bedee0",
+          "text": "ジグザグ線に沿って切る"
+        },
+        {
+          "id": "ef2f9692-eb67-460b-b182-52109f017926",
+          "text": "曲線や波線に沿って切る"
+        },
+        {
+          "id": "4599255f-d68f-4f65-9c9c-75a847889d30",
+          "text": "丸い形を切り抜く"
+        },
+        {
+          "id": "8e0df467-4d71-4afb-8c14-6ec3dd7df451",
+          "text": "四角や複雑な形を切り抜く"
+        }
+      ],
+      "proposed_scene": "①持つ・開閉 ②一回切り ③直線を連続切り ④紙を回し曲線・形を切る。",
+      "visual_focus": "子どもの両手のアップ。指穴・刃・紙を支える手。",
+      "review_note": "現在は一回切りのdetailへ11項目が集約。段階差が読める4候補に分け、紙の幅と切る線も描き分ける。"
+    },
+    {
+      "prop_slug": "dressing-board",
+      "prop_name": "ボタン・ファスナーの練習布",
+      "character": "Luke",
+      "asset_path": "assets/fine-motor-props/dressing-board.png",
+      "status": "場面分割を提案",
+      "priority": "P1",
+      "existing_scene": {
+        "id": "4849246e-62f1-b912-367c-8e2420695012",
+        "code": "gen-frame-dressing-sleeve",
+        "label": "自分で着る・留める",
+        "title": "おてて、でてきた",
+        "stage_id": "550e8400-e29b-41d4-a716-446655440051",
+        "stage": "服や靴の着替えに参加する"
+      },
+      "selected_existing_items": [
+        {
+          "id": "1ebeb464-b7ae-4b90-8b0d-797dd3fd903a",
+          "text": "大きいボタンを外したり留めたりする"
+        },
+        {
+          "id": "51bce31f-0364-4186-a923-85a0618b2405",
+          "text": "ファスナーを上げ下げする"
+        },
+        {
+          "id": "aaf5cefe-e08a-4e30-842e-4e2400403c6a",
+          "text": "小さいボタンやスナップを留められる"
+        }
+      ],
+      "proposed_scene": "①大きいボタンを外す・留める ②ファスナーを上下する ③小さい留め具。",
+      "visual_focus": "手元。布を支える手と留め具を動かす指。",
+      "review_note": "腕を袖へ通す既存絵では留め具操作を説明しきれない。練習布はactivity、detail代表は実際の服での参加を優先。"
+    },
+    {
+      "prop_slug": "building-blocks",
+      "prop_name": "大きな組み立てブロック",
+      "character": "Luke",
+      "asset_path": "assets/fine-motor-props/building-blocks.png",
+      "status": "既存場面に採用",
+      "priority": "P1",
+      "existing_scene": {
+        "id": "a0d66d56-5182-67db-44e5-f3d65107d95d",
+        "code": "luke-frame-shared-build-hand-use",
+        "label": "積み木を持つ・離す・合わせる",
+        "title": "持って、離して、もう一度",
+        "stage_id": "550e8400-e29b-41d4-a716-446655440016",
+        "stage": "積む・はめる・形を作る"
+      },
+      "selected_existing_items": [
+        {
+          "id": "50d26766-510a-410d-f430-6c82006b6934",
+          "text": "積み木を持つ、離す、向きを変えるなど、手の動きを調整する"
+        },
+        {
+          "id": "6fc48987-1fac-4556-923b-5aad825ec5ad",
+          "text": "ものを正確に配置する"
+        }
+      ],
+      "proposed_scene": "向きを合わせる／押して接続する／両手で外す。",
+      "visual_focus": "手元と2〜3個のブロック。接続面。",
+      "review_note": "生成品は接続ブロック。置くだけの積み木タワーとは違うため、接続・分離は追加場面案。積む絵を全置換しない。"
+    },
+    {
+      "prop_slug": "marbles",
+      "prop_name": "ビー玉",
+      "character": "Luke",
+      "asset_path": "assets/fine-motor-props/marbles.png",
+      "status": "activityへ配置",
+      "priority": "P3",
+      "existing_scene": {
+        "id": "bfdcc7d4-d86f-86d9-8acf-b1e4a6717bfa",
+        "code": "luke-frame-ramp-roll",
+        "label": "こうしたら、どうなる？（原因と結果）",
+        "title": "ころがした先で、待ってる",
+        "stage_id": "550e8400-e29b-41d4-a716-446655440039",
+        "stage": "こうしたらどうなるか試す"
+      },
+      "selected_existing_items": [
+        {
+          "id": "39641d90-4f45-eac2-5b19-a1716bdaa56b",
+          "text": "押す、転がすなどの動きを繰り返し、起きることを確かめる"
+        }
+      ],
+      "proposed_scene": "短い囲い付きの坂で転がし、止まる場所を見る。",
+      "visual_focus": "手元と坂の終点。動きの前後。",
+      "review_note": "小さい球をつまむ乳幼児detailの標準道具にしない。扱う場面が適切な場合の活動例に限定し、代表絵は大きい球で示せる。"
+    },
+    {
+      "prop_slug": "cleaning-cloth",
+      "prop_name": "雑巾",
+      "character": "Luke",
+      "asset_path": "assets/fine-motor-props/cleaning-cloth.png",
+      "status": "既存場面に採用",
+      "priority": "P1",
+      "existing_scene": {
+        "id": "b5a5cb59-03ea-3a34-a473-56a858e59923",
+        "code": "luke-frame-pretend-cleaning",
+        "label": "身近な役割を手伝う",
+        "title": "いっしょに、おそうじ",
+        "stage_id": "660e8400-e29b-41d4-a716-446655440009",
+        "stage": "身近な役割に参加する"
+      },
+      "selected_existing_items": [
+        {
+          "id": "56b7d76e-e684-2d0d-80a4-1bb6d8df3fdb",
+          "text": "運ぶ、渡す、しまうなど、できる部分から役割に加わる"
+        },
+        {
+          "id": "6442ca58-540d-a741-d544-fccc914e977a",
+          "text": "見本や写真を見ながら、役割の一手順を行う"
+        }
+      ],
+      "proposed_scene": "机の一区画を拭く／雑巾を渡す・しまう。",
+      "visual_focus": "上半身と机。手の接触面と拭く範囲。",
+      "review_note": "絞る動作は現在のitemに明記なし。両手の分担を見せるactivity候補として別扱い。手洗い用タオルとは区別する。"
+    },
+    {
+      "prop_slug": "finger-extension-band",
+      "prop_name": "フィンガーエクステンションバンド",
+      "character": "Luke",
+      "asset_path": "assets/fine-motor-props/finger-extension-band.png",
+      "status": "保留",
+      "priority": "P3",
+      "existing_scene": null,
+      "selected_existing_items": [],
+      "proposed_scene": "現時点でstage detailへ直接割り当てない。",
+      "visual_focus": "採用検討時は手指とバンドの装着位置を別途確認。",
+      "review_note": "指を広げる抵抗運動に直接一致する既存itemがない。つまむ・離す能力の代用として結びつけず、専門家向けactivity候補に留める。"
+    },
+    {
+      "prop_slug": "therapy-ball",
+      "prop_name": "大きなセラピーボール",
+      "character": "Gen",
+      "asset_path": "assets/gen-movement-props/therapy-ball.png",
+      "status": "activityへ配置",
+      "priority": "P2",
+      "existing_scene": {
+        "id": "f822bd3f-72cb-f5b6-409f-c43c7a141237",
+        "code": "gen-frame-ball-roll-ball-play",
+        "label": "ボール・乗り物",
+        "title": "ころころ、そっちへ",
+        "stage_id": "660e8400-e29b-41d4-a716-446655440015",
+        "stage": "ボール・乗り物・遊具で遊ぶ"
+      },
+      "selected_existing_items": [
+        {
+          "id": "669d9c85-3971-8e3f-fa81-f745f5b63f73",
+          "text": "ボールを転がす、投げる、受ける、乗り物をこぐ動きを試す"
+        }
+      ],
+      "proposed_scene": "床の上で大きな球を相手へ転がす。",
+      "visual_focus": "全身と球の接地。手が触れる位置。",
+      "review_note": "大きなセラピーボールは投げる・受ける・蹴る絵へ一律転用しない。既存の小さい球を残す。"
+    },
+    {
+      "prop_slug": "peanut-ball",
+      "prop_name": "ピーナッツボール",
+      "character": "Gen",
+      "asset_path": "assets/gen-movement-props/peanut-ball.png",
+      "status": "保留",
+      "priority": "P3",
+      "existing_scene": null,
+      "selected_existing_items": [],
+      "proposed_scene": "既存の座位detailへ自動配置しない。",
+      "visual_focus": "採用検討時は支える部位・接地・道具の大きさを明示。",
+      "review_note": "不安定な球へ座ることと一人座りは別条件。専門家が使用場面を定めたactivityの候補。"
+    },
+    {
+      "prop_slug": "stepping-stones",
+      "prop_name": "飛び石",
+      "character": "Gen",
+      "asset_path": "assets/gen-movement-props/stepping-stones.png",
+      "status": "場面分割を提案",
+      "priority": "P1",
+      "existing_scene": {
+        "id": "50d75ab7-cf47-6671-634b-1ec13a3f3fcf",
+        "code": "gen-frame-squat-and-pick-up",
+        "label": "しゃがむ・段差を進む",
+        "title": "しゃがんだ先に、みつけた",
+        "stage_id": "550e8400-e29b-41d4-a716-446655440011",
+        "stage": "高さを変えて進む"
+      },
+      "selected_existing_items": [
+        {
+          "id": "326af47a-bb84-8ed3-6ec2-a3b7cf6b254b",
+          "text": "しゃがんで立ち上がったり、段差を上り下りしたりする"
+        }
+      ],
+      "proposed_scene": "①低い一段へ上がる・下りる ②足場から次の足場へ移る。",
+      "visual_focus": "全身と足元。接地する足、足場の高さと間隔。",
+      "review_note": "しゃがむ代表絵だけでは段差移動を示せない。左右交互の階段itemを飛び石で代用しない。"
+    },
+    {
+      "prop_slug": "balance-beam",
+      "prop_name": "低い平均台",
+      "character": "Gen",
+      "asset_path": "assets/gen-movement-props/balance-beam.png",
+      "status": "activityへ配置",
+      "priority": "P2",
+      "existing_scene": {
+        "id": "105b433c-4d79-5c8f-eaa5-731fb28312fe",
+        "code": "gen-frame-balance-mirror",
+        "label": "走る・跳ぶ・バランス",
+        "title": "おなじ傾き",
+        "stage_id": "550e8400-e29b-41d4-a716-446655440011",
+        "stage": "高さを変えて進む"
+      },
+      "selected_existing_items": [
+        {
+          "id": "cee79369-390c-8f0c-9ed3-8e4ecc140b2f",
+          "text": "走る、両足で跳ぶ、傾きを戻すなど、動きの中でバランスを取る"
+        }
+      ],
+      "proposed_scene": "低い細道を一歩ずつ進み、足を置き直す。",
+      "visual_focus": "全身と両足の接地。細道の幅。",
+      "review_note": "既存の汎用バランスitemの活動例。片足跳び・台から飛び降りるitemには対応させない。"
+    },
+    {
+      "prop_slug": "scooter-board",
+      "prop_name": "スクーターボード",
+      "character": "Gen",
+      "asset_path": "assets/gen-movement-props/scooter-board.png",
+      "status": "activityへ配置",
+      "priority": "P2",
+      "existing_scene": {
+        "id": "f6fe4d0e-1cae-ab7f-f701-d9f74bfa07f2",
+        "code": "gen-frame-ball-exchange",
+        "label": "ボール・乗り物",
+        "title": "そっちへ、どうぞ",
+        "stage_id": "660e8400-e29b-41d4-a716-446655440015",
+        "stage": "ボール・乗り物・遊具で遊ぶ"
+      },
+      "selected_existing_items": [
+        {
+          "id": "669d9c85-3971-8e3f-fa81-f745f5b63f73",
+          "text": "ボールを転がす、投げる、受ける、乗り物をこぐ動きを試す"
+        }
+      ],
+      "proposed_scene": "座って足で押して進む等、実際の使用姿勢を決めて描く。",
+      "visual_focus": "全身。手足と床・車輪の位置。",
+      "review_note": "三輪車をこぐことと同じ観察項目ではない。既存のボール・乗り物detailの補助活動候補。姿勢別の内容確認後に採用。"
+    },
+    {
+      "prop_slug": "play-tunnel",
+      "prop_name": "くぐるトンネル",
+      "character": "Gen",
+      "asset_path": "assets/gen-movement-props/play-tunnel.png",
+      "status": "既存場面に採用",
+      "priority": "P1",
+      "existing_scene": {
+        "id": "60c13955-a86f-35ee-5c69-9121a0f11934",
+        "code": "gen-frame-tunnel-through",
+        "label": "手足で支えて進む",
+        "title": "むこうまで、くぐった",
+        "stage_id": "660e8400-e29b-41d4-a716-446655440002",
+        "stage": "床で向きを変え、移動する"
+      },
+      "selected_existing_items": [
+        {
+          "id": "0f56139e-5916-b2b7-ea53-fe53ee3a33b7",
+          "text": "手や膝、足などで体を支え、前へ進む"
+        },
+        {
+          "id": "f68942a5-3cbd-7716-31d1-0a317c278e38",
+          "text": "気になる人や物を見つけ、そこへ近づく"
+        }
+      ],
+      "proposed_scene": "入口を見る→中を進む→出口へ出る。",
+      "visual_focus": "横からの全身。入口・出口と手膝の接地。",
+      "review_note": "トンネル自体で体が隠れない構図に。床移動が主役で、トンネル通過を必須条件にしない。"
+    },
+    {
+      "prop_slug": "activity-mats",
+      "prop_name": "活動用マット",
+      "character": "Gen",
+      "asset_path": "assets/gen-movement-props/activity-mats.png",
+      "status": "背景・支持面",
+      "priority": "P1",
+      "existing_scene": {
+        "id": "db1b78fc-8845-82fa-a1db-2f69800599a6",
+        "code": "gen-frame-rolling-mirror",
+        "label": "向きを変える（寝返り）",
+        "title": "ころん、をいっしょに",
+        "stage_id": "660e8400-e29b-41d4-a716-446655440002",
+        "stage": "床で向きを変え、移動する"
+      },
+      "selected_existing_items": [
+        {
+          "id": "f65aa258-f219-ec87-28a5-76f552d89ebb",
+          "text": "横向きになり、あおむけやうつぶせへ姿勢を変える"
+        },
+        {
+          "id": "311e15dc-c2f0-6553-f163-8b75ab95328d",
+          "text": "気になる物や声の方へ、顔と体をひねる"
+        }
+      ],
+      "proposed_scene": "床面として置き、横向き・寝返りの体の接点を示す。",
+      "visual_focus": "全身。肩・骨盤と支持面。",
+      "review_note": "立体物の追加より床の読みやすさを優先。大きな厚みの絵をそのまま敷かず、場面に合う寸法で描き直す。"
+    },
+    {
+      "prop_slug": "rocker-board",
+      "prop_name": "木製バランスボード",
+      "character": "Gen",
+      "asset_path": "assets/gen-movement-props/rocker-board.png",
+      "status": "activityへ配置",
+      "priority": "P2",
+      "existing_scene": {
+        "id": "c39ed117-1a52-2cda-815b-2261e363989a",
+        "code": "gen-frame-park-swing",
+        "label": "遊具（揺れ・高さ・重力）",
+        "title": "ゆれる形を、となりで",
+        "stage_id": "660e8400-e29b-41d4-a716-446655440015",
+        "stage": "ボール・乗り物・遊具で遊ぶ"
+      },
+      "selected_existing_items": [
+        {
+          "id": "928153af-3fce-5af2-71a5-953c82f6d90b",
+          "text": "滑る、揺れる、ぶら下がる、跳ねる感覚を遊具で確かめる"
+        }
+      ],
+      "proposed_scene": "揺れる板に乗る場面はブランコと別の活動例として描く。",
+      "visual_focus": "全身と板の接地。傾く方向。",
+      "review_note": "同じ揺れるdetailの関連活動だが、支え・乗り方が違うためブランコ絵の道具だけを置換しない。"
+    },
+    {
+      "prop_slug": "trampoline",
+      "prop_name": "トランポリン",
+      "character": "Gen",
+      "asset_path": "assets/gen-movement-props/trampoline.png",
+      "status": "既存場面に採用",
+      "priority": "P1",
+      "existing_scene": {
+        "id": "ba96e6da-0e31-98d0-e1eb-45793c37235a",
+        "code": "gen-frame-trampoline",
+        "label": "遊具（揺れ・高さ・重力）",
+        "title": "しずんで、ぽん",
+        "stage_id": "660e8400-e29b-41d4-a716-446655440015",
+        "stage": "ボール・乗り物・遊具で遊ぶ"
+      },
+      "selected_existing_items": [
+        {
+          "id": "928153af-3fce-5af2-71a5-953c82f6d90b",
+          "text": "滑る、揺れる、ぶら下がる、跳ねる感覚を遊具で確かめる"
+        }
+      ],
+      "proposed_scene": "沈む／戻る／跳ねるの差を1枚の小場面で示す。",
+      "visual_focus": "全身。足と跳躍面、持ち手を使う場合の手。",
+      "review_note": "床上の両足跳びとは面の弾性が違う。gen-frame-two-foot-jumpの代替にしない。"
+    },
+    {
+      "prop_slug": "wobble-cushion",
+      "prop_name": "バランスクッション",
+      "character": "Gen",
+      "asset_path": "assets/gen-movement-props/wobble-cushion.png",
+      "status": "保留",
+      "priority": "P3",
+      "existing_scene": null,
+      "selected_existing_items": [],
+      "proposed_scene": "座位の代表絵へ直接差し込まず、道具を比較するactivity候補にする。",
+      "visual_focus": "採用時は座面・足底・骨盤の位置を見せる。",
+      "review_note": "支えあり座位のクッションと異なる道具。座る時間や集中の改善を前提に紐づけない。"
+    }
+  ]
+}

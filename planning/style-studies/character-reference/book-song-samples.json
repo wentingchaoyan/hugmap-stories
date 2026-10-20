@@ -1,0 +1,27 @@
+{
+  "tool": "built-in image_gen",
+  "status": "partially-published-to-development",
+  "items": [
+    {
+      "slug": "book-turn-page",
+      "prompt": "Use case illustration-story. Create one square educational activity illustration, matching reference child and parent style: white skin, gray-brown bob hair, dark brown rounded outlines, simple oval eyes and peach cheeks, child light gray clothes, parent mustard top. White background with generous 12% margins on ALL sides, no clipped body parts. Simple clear scene, no text, no watermark. Reference is style only, create the following scene: Close view of toddler's two small white hands and an open thick board picture book on low table. One hand steadies left page, other hand pinches upper outer corner of right page and turns it toward left; single stiff curved page mid-turn with clearly visible thickness and separate remaining pages. Simple rabbit illustration visible, no text. Naturally formed hands, wrists entering from bottom; margins around all objects.",
+      "source": "/Users/tingwen/.codex/generated_images/01a0d12e-b8dd-7833-b397-b01d69a90dd1/exec-e5242dc0-cf6a-44c5-94ea-1615eeb7d8ca.png",
+      "activity_id": "4df79a40-5840-481c-94bc-029a05248f40",
+      "title": "絵本のページをめくろう",
+      "path": "assets/learning-scenes/book-turn-page.png",
+      "sha256": "f62062992144ce40ef8791480278bc0a6518b95a6f4ec41f509a87e5368af926"
+    },
+    {
+      "slug": "song-lap-bus",
+      "prompt": "Use case illustration-story. Create one square educational activity illustration, matching reference child and parent style: white skin, gray-brown bob hair, dark brown rounded outlines, simple oval eyes and peach cheeks, child light gray clothes, parent mustard top. White background with generous 12% margins on ALL sides, no clipped body parts. Simple clear scene, no text, no watermark. Reference is style only, create the following scene: Parent seated safely on floor with legs extended and toddler sitting securely on parent's thighs facing same direction. Parent gently supports toddler around waist with both hands. Toddler pretends to steer bus with empty hands in front and smiles. Full parent and toddler bodies visible, side three-quarter view, small musical notes above, subtle curved movement marks at hands; NO actual bus, no steering wheel toy, no airborne bouncing. Warm lap bus pretend singing game.",
+      "source": "/Users/tingwen/.codex/generated_images/01a0d12e-b8dd-7833-b397-b01d69a90dd1/exec-8c0ac2c2-1138-4756-9027-b11f1db03293.png",
+      "activity_id": "2f4eec75-2c96-441c-9e57-e32b772484b1",
+      "title": "おひざでバスごっこ",
+      "path": "assets/learning-scenes/song-lap-bus.png",
+      "sha256": "9725d27cc8f1ac6bdb34d91af677edf5c3fd17e6390d5212279ed92132432f0b",
+      "status": "published-to-development",
+      "storage_path": "public-assets/activity_media/song-lap-bus.png",
+      "project_ref": "dltohjfxawjonomvxfsd"
+    }
+  ]
+}
