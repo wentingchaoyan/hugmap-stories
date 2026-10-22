@@ -26,11 +26,12 @@ const css = `
 .webtoon[data-buddy="gen"] .panel figure.bubble-art{display:grid!important;grid-template-columns:1fr 1fr!important;gap:18px 10px!important}
 .webtoon[data-buddy="gen"] .panel .bubble-art>.bubble,.webtoon[data-buddy="gen"] .panel .bubble-art .observation-thoughts{position:relative!important;inset:auto!important;transform:none!important;grid-row:1!important;width:100%!important;align-self:end!important}
 .webtoon[data-buddy="gen"] .panel .bubble-art>img{grid-row:2!important;grid-column:1 / -1!important}
+.webtoon #scene-more-wishes figure.vignette-art img{height:auto!important;max-height:none!important}
 .export-header{position:absolute;top:23px;left:38px;right:38px;height:16px;display:flex;justify-content:space-between;align-items:center;font:10px/16px Arial,sans-serif;letter-spacing:.12em;color:#927d6f}
 .export-number{font-variant-numeric:tabular-nums;letter-spacing:.08em}
 `;
 const closing = {
- mimo:['ことばになる前の「伝えたい」も、<br>いっしょに。','声も、視線も、しぐさも。<br>その子の気持ちに出会う入り口です。','今日の小さなやりとりを、<br>いっしょに楽しんでいこう。'],
+ mimo:['いろんな「伝えたい」に、<br>耳をすませる。','声も、視線も、しぐさも。<br>その子の気持ちに出会う入り口です。','今日の小さなやりとりを、<br>いっしょに楽しんでいこう。'],
  luke:['きみの「やってみたい」を、<br>いっしょに。','道具や環境を、少し工夫して。<br>その子に合う方法を探します。','「できた！」のうれしさを、<br>いっしょに分かち合おう。'],
  gen:['その子の「行きたい」を、<br>いっしょに。','支えを借りても、途中で休んでも。<br>その子に合う方法を探します。','「今日は、ここまで来られたね」。<br>そんな喜びを、いっしょに。']
 };
@@ -48,6 +49,8 @@ for(const buddy of ['mimo','luke','gen']){
  await page.addStyleTag({content:css});
  await page.evaluate(c=>{document.querySelector('.afterword').innerHTML=`<h2>${c[0]}</h2><p>${c[1]}</p><p>${c[2]}</p>`;},closing[buddy]);
  const ids=await page.locator('main>section').evaluateAll(es=>es.map(e=>e.id));
+ const names=new Set(ids.map((id,i)=>`${String(i+1).padStart(2,'0')}-${id}.png`));
+ for(const name of fs.readdirSync(dir)){if(/^\d{2}-.*\.png$/.test(name)&&!names.has(name))fs.unlinkSync(path.join(dir,name));}
  for(let i=0;i<ids.length;i++){
   const result=await page.evaluate(({id,i,n,buddy})=>{
    document.querySelectorAll('.export-slide').forEach(e=>e.classList.remove('export-slide'));
