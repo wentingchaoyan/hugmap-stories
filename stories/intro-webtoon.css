@@ -175,3 +175,6 @@ body.webtoon{background:#eee9e3}
 }
 
 @media(max-width:600px){.webtoon[data-buddy="gen"] #scene-stairs figure,.webtoon[data-buddy="gen"] #scene-observe figure{--gen-y:37%}}
+
+/* A quiet role line introduces each buddy without repeating the opening scene. */
+.webtoon .cover .buddy-role{font-size:clamp(15px,2.5vw,17px);line-height:1.85;font-weight:400;letter-spacing:.02em;max-width:32em;margin:20px auto 0;text-wrap:balance;color:#776356}
