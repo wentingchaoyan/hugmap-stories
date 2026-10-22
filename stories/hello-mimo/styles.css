@@ -54,3 +54,21 @@
 .bubble-art .thought-second{margin-right:2%;font-size:clamp(14px,1.3vw,18px)}
 .bubble-art img{flex:none}
 @media(max-width:700px){.bubble-art{padding-top:0}.bubble-art .thought-first{margin-left:7%}.bubble-art .speech-bubble{margin-right:5%}}
+
+/* Keep the wash behind the illustration and speech bubbles. */
+.panel figure{position:relative;isolation:isolate}
+.panel figure::before{content:"";position:absolute;z-index:-1;pointer-events:none}
+#scene-7 figure::before{opacity:.65}
+
+/* Uneven pigment and feathered edges, like a wash on absorbent paper. */
+.panel figure::before{
+ left:-7%;bottom:-3%;width:114%;height:min(53vw,68svh);
+ border-radius:0;
+ background:url("assets/orange-watercolor-wash.svg") center / 100% 100% no-repeat;
+ filter:none;
+}
+/* Preserve solid white within the artwork. */
+.panel figure img{mix-blend-mode:normal}
+@media(max-width:700px){
+ .panel figure::before{height:min(94vw,54svh);filter:none}
+}

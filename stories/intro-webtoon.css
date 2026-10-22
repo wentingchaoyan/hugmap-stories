@@ -1,0 +1,180 @@
+/* Shared vertical-comic reading layout for the three buddy introductions. */
+body.webtoon{background:#eee9e3}
+.webtoon main{max-width:760px;margin:0 auto;background:var(--paper,#fffdf9);overflow:hidden}
+.webtoon .story-header{height:54px;padding-inline:max(18px,calc((100vw - 720px)/2));gap:12px}
+.webtoon .progress{top:54px;height:28px;padding-inline:max(18px,calc((100vw - 720px)/2))}
+.webtoon .panel,.webtoon.large-text .panel{
+ display:flex;flex-direction:column;align-items:center;justify-content:flex-start;
+ min-height:0;height:auto;gap:30px;padding:64px 36px 100px;scroll-margin-top:98px;
+}
+.webtoon .panel.cover{padding-top:64px;padding-bottom:110px;gap:24px;text-align:center}
+.webtoon .panel .copy{width:100%;max-width:490px;padding:0;grid-column:auto;grid-row:auto}
+.webtoon .cover .copy{max-width:580px}
+.webtoon .scene .eyebrow{font-size:10px;letter-spacing:.15em;margin-bottom:18px;opacity:.7}
+.webtoon h1{font-size:clamp(36px,6vw,52px);line-height:1.5}
+.webtoon h2{font-size:clamp(25px,4vw,32px);line-height:1.65}
+.webtoon .lead{font-size:20px;line-height:1.9;margin-top:18px}
+.webtoon .story-text{font-size:19px;line-height:2;margin-top:24px}
+.webtoon .start{margin-top:20px}
+.webtoon .panel figure{width:100%;max-width:580px;grid-column:auto;grid-row:auto;flex:none}
+.webtoon .panel figure img{height:auto;width:100%;max-height:none;object-fit:contain}
+.webtoon .panel figure img[width="1024"][height="1536"]{width:68%;margin-inline:auto}
+.webtoon .panel .bubble-art{display:flex;flex-direction:column;align-items:center;padding-top:0;gap:26px}
+.webtoon .bubble-art .bubble,.webtoon .bubble-art .speech-bubble,.webtoon .bubble-art .thought-bubble{
+ position:relative;inset:auto;align-self:center;max-width:90%;margin:0;font-size:17px;line-height:1.6;
+}
+.webtoon .bubble-art .thought-first{align-self:flex-start;margin-left:10%}
+.webtoon .bubble-art .thought-second{align-self:flex-end;margin-right:8%}
+.webtoon .observation-thoughts{display:flex;flex-wrap:wrap;justify-content:center;gap:28px 18px;margin:0 0 8px;width:100%}
+.webtoon .observation-thoughts .bubble.thought{font-size:15px;margin:0;padding:12px 20px}
+.webtoon .panel .next{display:none}
+.webtoon #scene-7{padding-bottom:140px}
+.webtoon .afterword{max-width:none;padding:70px 48px 85px;scroll-margin-top:98px}
+.webtoon .afterword h2{font-size:25px}
+.webtoon .afterword>p:not(.eyebrow){font-size:15px;line-height:2}
+.webtoon .end-links{gap:18px 28px;margin-top:20px}
+.webtoon.large-text .story-text{font-size:24px}
+.webtoon:lang(en) h1,.webtoon:lang(en) h2{line-height:1.35}
+.webtoon:lang(en) .story-text{line-height:1.8}
+.webtoon .panel figure::before{height:86%;bottom:0}
+@media(max-width:600px){
+ body.webtoon{background:var(--paper,#fffdf9)}
+ .webtoon .panel,.webtoon.large-text .panel{padding:42px 24px 78px;gap:26px}
+ .webtoon .panel.cover{padding:46px 24px 80px}
+ .webtoon .story-text{font-size:18px}
+ .webtoon .lead{font-size:18px}
+ .webtoon .afterword{padding:58px 26px 70px}
+ .webtoon .story-header button{font-size:11px;padding:5px 10px}
+ .webtoon .brand{font-size:14px}
+ .webtoon .panel figure img[width="1024"][height="1536"]{width:75%}
+ .webtoon .bubble-art .bubble,.webtoon .bubble-art .speech-bubble,.webtoon .bubble-art .thought-bubble{font-size:16px}
+}
+@media print{
+ body.webtoon{background:white}
+ .webtoon main{max-width:none}
+ .webtoon .panel{break-after:page;padding:30px;gap:20px}
+ .webtoon .panel figure img{max-height:55vh;width:auto;max-width:100%;margin:auto}
+}
+
+/* Story beats: setup, picture, response; selected turns reveal the picture first. */
+.webtoon .story-beat{width:100%;max-width:490px;padding-top:4px}
+.webtoon .story-beat .story-text{margin-top:0}
+.webtoon .rhythm-after .copy{padding-bottom:2px}
+.webtoon .rhythm-reveal{gap:34px}
+.webtoon .rhythm-reveal .copy .eyebrow{display:none}
+.webtoon .rhythm-reveal .copy h2{margin-bottom:0}
+.webtoon .rhythm-pause .story-beat{padding-top:58px}
+.webtoon #scene-one-bite{padding-bottom:110px}
+.webtoon #scene-support .story-beat{padding-top:14px}
+@media(max-width:600px){
+ .webtoon .rhythm-pause .story-beat{padding-top:38px}
+ .webtoon .rhythm-reveal{gap:26px}
+ .webtoon #scene-one-bite{padding-bottom:86px}
+}
+
+/* Reserve a speech row above the art so text cannot cover faces or props. */
+.webtoon .panel figure.bubble-art{display:grid;grid-template-columns:1fr 1fr;align-items:end;gap:30px 16px;padding-top:0;position:relative;container-type:inline-size}
+.webtoon .panel .bubble-art>img{grid-column:1 / -1;grid-row:2}
+.webtoon .panel .bubble-art>.bubble,
+.webtoon .panel .bubble-art>.speech-bubble,
+.webtoon .panel .bubble-art>.thought-bubble{
+ position:relative;inset:auto;grid-row:1;grid-column:1;justify-self:start;align-self:end;
+ width:100%;max-width:250px;margin:0;padding:10px 14px;
+ font-size:clamp(13px,2.8cqi,16px);line-height:1.55;text-align:center;box-sizing:border-box;
+}
+.webtoon[data-buddy="gen"] .panel .bubble-art>.bubble,
+.webtoon[data-buddy="mimo"] .panel .bubble-art>.speech-bubble{grid-column:2;justify-self:end}
+.webtoon[data-buddy="gen"] #scene-stairs .bubble-art>.bubble{grid-column:1;justify-self:start}
+.webtoon .panel .bubble-art>.thought-first{grid-column:1}
+.webtoon .panel .bubble-art>.thought-second{grid-column:2;justify-self:end}
+.webtoon .bubble-art .speech::after,.webtoon .bubble-art .speech-bubble::after{left:50%}
+.webtoon .bubble-art .thought::before,.webtoon .bubble-art .thought-bubble::before{left:55%}
+.webtoon .bubble-art .thought::after,.webtoon .bubble-art .thought-bubble::after{left:59%}
+.webtoon .panel .bubble-art .observation-thoughts{
+ position:relative;inset:auto;grid-row:1;grid-column:1;justify-self:start;
+ width:100%;max-width:250px;box-sizing:border-box;display:flex;flex-direction:column;gap:10px;
+ padding:14px 18px;margin:0;border:1.5px solid #a77c65;border-radius:34%;background:var(--paper,#fffdf9);
+}
+.webtoon .observation-thoughts::before,.webtoon .observation-thoughts::after{
+ content:"";position:absolute;left:62%;bottom:-15px;width:9px;height:7px;
+ border:1.5px solid #a77c65;border-radius:50%;background:var(--paper,#fffdf9);
+}
+.webtoon .observation-thoughts::after{left:66%;bottom:-27px;width:5px;height:4px}
+.webtoon .observation-thoughts .bubble.thought{
+ position:static;inset:auto;width:100%;max-width:none;border:0;border-radius:0;background:transparent;
+ padding:0;margin:0;font-size:clamp(13px,2.6cqi,15px);
+}
+.webtoon .observation-thoughts .bubble.thought::before,.webtoon .observation-thoughts .bubble.thought::after{display:none}
+@media(max-width:600px){
+ .webtoon .panel figure.bubble-art{column-gap:12px}
+ .webtoon .panel .bubble-art>.bubble,.webtoon .panel .bubble-art>.speech-bubble,.webtoon .panel .bubble-art>.thought-bubble{padding:8px 10px}
+ .webtoon .panel .bubble-art .observation-thoughts{padding:10px 12px}
+}
+
+/* Opaque artwork with only its outer paper margin blended by paper-edges.js. */
+.webtoon[data-buddy="luke"] .panel figure img,
+.webtoon[data-buddy="gen"] .panel figure img{mix-blend-mode:normal}
+.webtoon[data-buddy="luke"] #scene-one-bite,
+.webtoon[data-buddy="luke"] #scene-comfort{background:#fcfaf6}
+.webtoon[data-buddy="gen"] #scene-rest{background:#fff}
+
+/* A quiet scroll cue on the cover; retain a labelled, touch-friendly link. */
+.webtoon .cover .cover-arrow{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0;margin-top:12px;border:0;font-size:20px;line-height:1}
+.webtoon .cover .cover-arrow span{color:var(--ink);opacity:.6}
+.webtoon .cover .cover-arrow:hover span{opacity:1}
+.webtoon .cover .cover-arrow:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:50%}
+
+/* Gen artwork uses white paper: avoid a warm rectangular surround. */
+.webtoon[data-buddy="gen"] .panel:not(#scene-rest){background:#fff}
+.webtoon[data-buddy="gen"] #scene-rest{background:#fff}
+
+/* Luke: elliptical frames with a reserved row and generous text-safe insets. */
+.webtoon[data-buddy="luke"] .panel .bubble-art>.bubble,
+.webtoon[data-buddy="luke"] .panel .bubble-art .observation-thoughts{
+ border:1.5px solid #a77c65;border-radius:50%;background:var(--paper,#fffdf9);
+ grid-column:1 / -1;width:min(86%,300px);max-width:300px;
+ padding:20px 30px;box-sizing:border-box;overflow-wrap:break-word;
+}
+.webtoon[data-buddy="luke"] .panel .observation-thoughts .bubble.thought{
+ border:0;border-radius:0;padding:0;background:transparent;
+ font-size:clamp(13px,2.8cqi,16px);line-height:1.55;
+}
+
+.webtoon[data-buddy="luke"] .panel .bubble-art .observation-thoughts{width:min(94%,340px);max-width:340px;padding:26px 38px;gap:12px}
+
+/* A shared watercolor cushion, behind opaque people, buddies and scenery. */
+.webtoon[data-buddy="luke"] .panel figure,
+.webtoon[data-buddy="gen"] .panel figure{position:relative;isolation:isolate}
+.webtoon[data-buddy="luke"] .panel figure::before,
+.webtoon[data-buddy="gen"] .panel figure::before{
+ content:"";position:absolute;z-index:-1;pointer-events:none;
+ left:-7%;bottom:0;width:114%;height:86%;
+ background:url("hello-mimo/assets/orange-watercolor-wash.svg") center / 100% 100% no-repeat;
+}
+
+/* Gen's bubbles sit beside his position in each illustration. */
+.webtoon[data-buddy="gen"] .panel figure.bubble-art{display:block;margin-top:70px}
+.webtoon[data-buddy="gen"] .panel .bubble-art>.bubble,
+.webtoon[data-buddy="gen"] .panel .bubble-art .observation-thoughts{
+ position:absolute;z-index:2;inset:auto;left:var(--gen-x,58%);top:var(--gen-y,25%);
+ transform:translateY(-100%);width:var(--gen-w,42%);max-width:none;
+ margin:0;padding:16px 22px;box-sizing:border-box;border:1.5px solid #a77c65;
+ border-radius:50%;background:var(--paper,#fffdf9);font-size:clamp(13px,2.8cqi,16px);line-height:1.55;
+}
+.webtoon[data-buddy="gen"] #scene-hello figure{--gen-x:58%;--gen-y:26%;--gen-w:42%}
+.webtoon[data-buddy="gen"] #scene-stairs figure{--gen-x:0%;--gen-y:43%;--gen-w:42%}
+.webtoon[data-buddy="gen"] #scene-observe figure{--gen-x:0%;--gen-y:43%;--gen-w:44%}
+.webtoon[data-buddy="gen"] #scene-support figure{--gen-x:57%;--gen-y:18%;--gen-w:43%}
+.webtoon[data-buddy="gen"] #scene-rest figure{--gen-x:57%;--gen-y:29%;--gen-w:43%}
+.webtoon[data-buddy="gen"] .panel .bubble-art .observation-thoughts{padding:22px 24px;gap:12px}
+.webtoon[data-buddy="gen"] .panel .observation-thoughts .bubble.thought{font-size:clamp(13px,2.6cqi,15px);line-height:1.55}
+@media(max-width:600px){
+ .webtoon[data-buddy="gen"] .panel figure.bubble-art{margin-top:90px}
+ .webtoon[data-buddy="gen"] .panel .bubble-art>.bubble{padding:13px 15px}
+ .webtoon[data-buddy="gen"] .panel .bubble-art .observation-thoughts{padding:20px 17px;gap:10px}
+}
+
+@media(max-width:600px){.webtoon[data-buddy="gen"] #scene-stairs figure,.webtoon[data-buddy="gen"] #scene-observe figure{--gen-y:37%}}
+
+/* A quiet role line introduces each buddy without repeating the opening scene. */
+.webtoon .cover .buddy-role{font-size:clamp(15px,2.5vw,17px);line-height:1.85;font-weight:400;letter-spacing:.02em;max-width:32em;margin:20px auto 0;text-wrap:balance;color:#776356}
