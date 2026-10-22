@@ -12,19 +12,31 @@ for (const img of document.querySelectorAll('.panel figure img')) {
     const frame = ctx.getImageData(0, 0, canvas.width, canvas.height);
     const {data} = frame;
     const w = canvas.width, h = canvas.height;
+    const croppedChild = img.src.includes('mimo-voice-pingpong');
+    const childEdge = new Int32Array(h).fill(-1);
+    if (croppedChild) {
+      for(let y=Math.floor(h*.24);y<h;y++) {
+        for(let x=0;x<Math.floor(w*.49);x++) {
+          const i=(y*w+x)*4;
+          if(data[i]>180 && data[i]-data[i+1]>45 && data[i+1]-data[i+2]>10) childEdge[y]=x;
+        }
+      }
+    }
     const seen = new Uint8Array(w*h);
     const queue = new Int32Array(w*h);
     let head = 0, tail = 0;
     const visit = (p) => {
-      if (seen[p]) return;
+      if (seen[p] || (croppedChild && p%w<=childEdge[Math.floor(p/w)])) return;
       seen[p] = 1;
       const i = p*4;
       const lo = Math.min(data[i],data[i+1],data[i+2]);
       const hi = Math.max(data[i],data[i+1],data[i+2]);
       if (data[i+3] < 8 || (lo > 224 && hi-lo < 24)) queue[tail++] = p;
     };
-    for (let x=0;x<w;x++) {visit(x);visit((h-1)*w+x);}
-    for (let y=0;y<h;y++) {visit(y*w);visit(y*w+w-1);}
+    // The close-up child is cropped at the left and lower edges.
+    // Those edges are inside the silhouette, not exterior paper.
+    for (let x=0;x<w;x++) {visit(x);if (!croppedChild || x>w*.5) visit((h-1)*w+x);}
+    for (let y=0;y<h;y++) {if (!croppedChild) visit(y*w);visit(y*w+w-1);}
     while (head < tail) {
       const p = queue[head++];
       data[p*4+3] = 0;
