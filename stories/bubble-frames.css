@@ -1,0 +1,13 @@
+/* Soft pencil contours are drawn behind the existing, selectable text. */
+.webtoon .panel .bubble-art>.bubble,
+.webtoon .panel .bubble-art>.speech-bubble,
+.webtoon .panel .bubble-art>.thought-bubble,
+.webtoon .panel .bubble-art .observation-thoughts{
+ border:0!important;background:transparent!important;border-radius:0!important;
+ padding:18px 27px;isolation:isolate;overflow:visible;
+}
+.webtoon .bubble-art>.bubble::before,.webtoon .bubble-art>.bubble::after,
+.webtoon .bubble-art>.speech-bubble::before,.webtoon .bubble-art>.speech-bubble::after,
+.webtoon .bubble-art>.thought-bubble::before,.webtoon .bubble-art>.thought-bubble::after,
+.webtoon .bubble-art .observation-thoughts::before,.webtoon .bubble-art .observation-thoughts::after{display:none!important}
+.story-bubble-frame{position:absolute;left:-38px;top:-38px;width:calc(100% + 76px);height:calc(100% + 76px);max-width:none;overflow:visible;z-index:-1;pointer-events:none}
