@@ -1,0 +1,24 @@
+/* Watercolor sits behind opaque artwork. No blend modes or alpha processing. */
+.webtoon .panel[data-wash]{
+ --wash-image:url('assets/wash-warm.svg?05de3d004a');--wash-opacity:1;
+ --wash-width:120%;--wash-height:98%;--wash-bottom:-2%;
+}
+.webtoon .panel[data-wash] figure{position:relative;isolation:isolate}
+.webtoon .panel[data-wash] figure::before{
+ content:"";position:absolute;pointer-events:none;z-index:-1;
+ left:calc((100% - var(--wash-width))/2)!important;bottom:var(--wash-bottom)!important;
+ width:var(--wash-width)!important;height:var(--wash-height)!important;
+ background:var(--wash-image) center/100% 100% no-repeat!important;
+ opacity:var(--wash-opacity)!important;transform:none!important;
+ filter:none!important;border-radius:0;
+}
+.webtoon .panel[data-wash] figure img{mix-blend-mode:normal!important;opacity:1;filter:none}
+.webtoon .panel[data-wash="beige"]{
+ --wash-image:url('assets/wash-quiet.svg?b50c95ec62');
+ --wash-width:124%;--wash-height:78%;--wash-bottom:-3%;
+}
+.webtoon .panel[data-wash="none"] figure::before{content:none!important;display:none!important}
+/* Preserve the visible side pools and low footing approved in the comparison. */
+.webtoon[data-buddy="mimo"] #scene-7{--wash-width:116%;--wash-height:62%;--wash-bottom:9%}
+.webtoon[data-buddy="luke"] #scene-one-bite{--wash-width:126%;--wash-height:98%}
+.webtoon[data-buddy="gen"] #scene-rest{--wash-width:122%;--wash-height:68%;--wash-bottom:0%}

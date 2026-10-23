@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="640" viewBox="0 0 800 640">
+<defs>
+<radialGradient id="wash"><stop stop-color="#edaa70" stop-opacity=".52"/><stop offset=".58" stop-color="#f6c496" stop-opacity=".30"/><stop offset="1" stop-color="#ffe2c6" stop-opacity="0"/></radialGradient>
+<radialGradient id="pool"><stop stop-color="#edaa70" stop-opacity=".27"/><stop offset=".55" stop-color="#f6c496" stop-opacity=".11"/><stop offset="1" stop-color="#ffe2c6" stop-opacity="0"/></radialGradient>
+<filter id="bleed" x="-25%" y="-25%" width="150%" height="150%"><feTurbulence type="fractalNoise" baseFrequency=".016 .023" numOctaves="3" seed="12" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="52" xChannelSelector="R" yChannelSelector="G"/><feGaussianBlur stdDeviation="1.4"/></filter>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".075" numOctaves="3" seed="5" result="paper"/><feColorMatrix in="paper" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 .45 0 0 .5" result="alpha"/><feComposite in="SourceGraphic" in2="alpha" operator="in"/></filter>
+</defs><g filter="url(#bleed)"><ellipse cx="400" cy="335" rx="370" ry="240" fill="url(#wash)" filter="url(#grain)"/><ellipse cx="205" cy="350" rx="185" ry="170" fill="url(#pool)" transform="rotate(-12 205 350)"/><ellipse cx="600" cy="345" rx="175" ry="165" fill="url(#pool)"/><ellipse cx="440" cy="405" rx="220" ry="115" fill="url(#pool)" opacity=".45"/></g></svg>
