@@ -1,0 +1,89 @@
+{
+  "title": "予定表に、わたしがいない",
+  "status": "local-prototype",
+  "style_reference": "../../planning/style-studies/character-reference/index.html#webtoon",
+  "style": "既存3冊と同じ白い不透明の人物、柔らかいコーラルの輪郭。顔の描き込みを抑え、姿勢と手の動きで感情を伝える。",
+  "assets": [
+    {
+      "file": "assets/calendar-closeup.png",
+      "usage": "story illustration",
+      "method": "Built-in image_gen edit: scene-appropriate phone/laptop props",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-7773d213-259a-4264-8851-5204872691b5.png",
+      "prompt": "Edit this existing HugMap picturebook image. Keep composition, people identities (boy younger brother, girl older sister), face directions, head positions and sizes, all background whitespace and clean style unchanged. Only change specified work/scheduling props and hands needed to use them. Adults contours PALE PEACH #F7C6B3, children muted coral #F59B82; solid opaque WHITE interiors. No vivid red/orange human contours, no grain or dirty watercolor. Devices matte soft light gray with thin warm gray lines, simple plausible anatomy and perspective. Screens symbolic flat UI only, no legible text/brand/logo. Keep 1536x1024. Top-down closeup. Replace large central paper planner and pencil with a single clearly visible smartphone calendar held by left adult hand, right index finger hovering over screen. Smartphone large enough to read simple calendar rows and pastel appointment blocks. Replace open notebook upper left with partially visible open slim laptop showing simple work document/chart; remove old separate phone on right and extra sticky notes. Keep cup at upper right and subtle pale tabletop. Device screens face the mother at bottom of image (not upside down). Focus on the busy phone schedule, laptop secondary."
+    },
+    {
+      "file": "assets/everyone-has-a-day.png",
+      "usage": "story illustration",
+      "method": "Built-in image_gen edit: scene-appropriate phone/laptop props",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-8aa46038-69e0-4cb2-86e5-4b3595eca8f6.png",
+      "prompt": "Edit this existing HugMap picturebook image. Keep composition, people identities (boy younger brother, girl older sister), face directions, head positions and sizes, all background whitespace and clean style unchanged. Only change specified work/scheduling props and hands needed to use them. Adults contours PALE PEACH #F7C6B3, children muted coral #F59B82; solid opaque WHITE interiors. No vivid red/orange human contours, no grain or dirty watercolor. Devices matte soft light gray with thin warm gray lines, simple plausible anatomy and perspective. Screens symbolic flat UI only, no legible text/brand/logo. Keep 1536x1024. Remove all THREE adults' notebooks/planner and pencils on table. Put ONE small smartphone face-down at far left near mother, leaving open table space. Preserve child drawing on paper and older sister holding paper picture, crayons and cup. Adults face children and each other, hands naturally resting or gesturing. Family conversation about day, screens put away, no laptop at dinner."
+    },
+    {
+      "file": "assets/her-meeting.png",
+      "usage": "story illustration",
+      "method": "Built-in image_gen edit: scene-appropriate phone/laptop props",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-29679308-5ffd-4e00-bc85-75ac12b25707.png",
+      "prompt": "Precise local edit of laptop only. Laptop is opened toward the mother behind it, so VIEWER sees the BACK of its upright screen panel. Replace the entire visible presentation/chart on upright panel with plain matte light-gray exterior lid with NO graphics, NO display, NO logo. Keep existing laptop hinge, base keyboard, perspective and all other image elements unchanged. Mother is using the real screen on the hidden opposite side. Don't add another laptop. Preserve all people poses colors geometry background opaque white fills exactly."
+    },
+    {
+      "file": "assets/leaving-together.png",
+      "usage": "story illustration",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-5a15c534-641e-4b1b-a6de-d48ba44aac39.png",
+      "prompt": "EDIT image1 to match the clean picturebook finish of image2 (style reference only). Preserve image1's exact characters, their poses, count, locations, scale, face directions and meaningful held objects. Keep main and interacting people solid OPAQUE WHITE skin/hair/clothes with softly handdrawn pale coral contours; preserve any animal mascot's exact design and colors. Remove ALL mottled paper grain, watercolor speckles, stains, dirty textures, full-frame wash. Clean warmwhite #FFFDF9 background with ample blank space. Simplify environmental objects to clean light muted color planes and sparse soft outlines, small grounding shadows only. No generic decorative plants, no gratuitous furniture. Do not introduce text, balloons, animals or extra people. Not glossy CG. Do not crop or move characters (HTML speech anchors must still match). Human interiors never transparent. 1536x1024.  Precise recoloring edit only. Preserve composition, all poses, outlines geometry, scale, object positions and existing clean white background exactly. Change ONLY human contour colors to HugMap guideline: children's contours soft muted coral #F59B82 (RGB245,155,130); every adult's contours noticeably paler peach #F7C6B3 (RGB247,198,179). No vivid orange/red contours remaining on people. Keep interiors of skin, hair, clothing fully OPAQUE WHITE #FFFFFF, never translucent. Keep incidental gray people pale gray #E5E3E1 and opaque (no background visible through them). Keep all objects, animals and their colors unchanged. Preserve hand-drawn line variation, no extra texture, no text or palette swatches. Output same 1536x1024 framing. Apply these human contour colors as final higher priority than reference orange. Scene: Keep mother watching father and child packing book tote, simple doorway/threshold. Remove extra shoes bench and rug clutter."
+    },
+    {
+      "file": "assets/listening-at-table.png",
+      "usage": "story illustration",
+      "method": "Built-in image_gen edit: scene-appropriate phone/laptop props",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-574985b8-e67f-4d67-9e44-79476d661c8f.png",
+      "prompt": "Edit this existing HugMap picturebook image. Keep composition, people identities (boy younger brother, girl older sister), face directions, head positions and sizes, all background whitespace and clean style unchanged. Only change specified work/scheduling props and hands needed to use them. Adults contours PALE PEACH #F7C6B3, children muted coral #F59B82; solid opaque WHITE interiors. No vivid red/orange human contours, no grain or dirty watercolor. Devices matte soft light gray with thin warm gray lines, simple plausible anatomy and perspective. Screens symbolic flat UI only, no legible text/brand/logo. Keep 1536x1024. Replace open blank notebook between parents with ONE smartphone lying face-up on tabletop with subdued calendar blocks, mother resting her right hand beside it. Remove notebook fully. Preserve mother head leaning on other hand and father's attentive listening face/pose, both mugs. Their attention is on each other, not staring at phone."
+    },
+    {
+      "file": "assets/look-at-my-drawing.png",
+      "usage": "story illustration",
+      "method": "Built-in image_gen edit: scene-appropriate phone/laptop props",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-82cd5753-a4cd-47a0-a87f-5dc2eb880d87.png",
+      "prompt": "Edit this existing HugMap picturebook image. Keep composition, people identities (boy younger brother, girl older sister), face directions, head positions and sizes, all background whitespace and clean style unchanged. Only change specified work/scheduling props and hands needed to use them. Adults contours PALE PEACH #F7C6B3, children muted coral #F59B82; solid opaque WHITE interiors. No vivid red/orange human contours, no grain or dirty watercolor. Devices matte soft light gray with thin warm gray lines, simple plausible anatomy and perspective. Screens symbolic flat UI only, no legible text/brand/logo. Keep 1536x1024. Replace mother's paper planner and pencil with a smartphone held low in her hands above the same table area, gaze still down to phone schedule while body slightly turns toward daughter. Remove stack of notebooks on left, keep cup. Daughter showing PAPER drawing remains exactly unchanged, including ponytail. Do not add laptop here."
+    },
+    {
+      "file": "assets/sharing-the-planner.png",
+      "usage": "story illustration",
+      "method": "Built-in image_gen edit: scene-appropriate phone/laptop props",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-11ad3fb6-6061-4671-a07c-0cde4161528a.png",
+      "prompt": "Edit this existing HugMap picturebook image. Keep composition, people identities (boy younger brother, girl older sister), face directions, head positions and sizes, all background whitespace and clean style unchanged. Only change specified work/scheduling props and hands needed to use them. Adults contours PALE PEACH #F7C6B3, children muted coral #F59B82; solid opaque WHITE interiors. No vivid red/orange human contours, no grain or dirty watercolor. Devices matte soft light gray with thin warm gray lines, simple plausible anatomy and perspective. Screens symbolic flat UI only, no legible text/brand/logo. Keep 1536x1024. Replace paper planner, pencil and side notebook with ONE smartphone held low in father's left hand above center table and his right index finger tapping calendar screen. Mother watches him register appointment; hands anatomically natural. Preserve younger short-haired boy packing PAPER picturebook into cloth bag at right exactly. Small device, not tablet, no second device."
+    },
+    {
+      "file": "assets/luke-putting-away.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-36f4adca-3453-4370-9051-b895b5f5f0bd.png",
+      "purpose": "FAQ-inspired fictional support scene",
+      "method": "Built-in image_gen local edit: protagonist boy continuity",
+      "prompt": "Precise local character continuity edit of IMAGE1. The child protagonist must be the SAME YOUNGER BROTHER BOY as the small child in IMAGE2 (image2 is character reference only). Replace ONLY image1 child's hair/head design with image2 boy's short gently tousled hair, small uneven bangs, visible ear, short nape, rounded child head. Remove bob haircut/ponytail completely. Keep child's face direction and blank silhouette face, EXACT pose, hands, gestures, body size, clothes, location. Preserve mother/father, squirrel if present, ALL objects and background unchanged. Child line soft coral #F59B82, adults pale peach #F7C6B3; all human skin hair clothes OPAQUE WHITE. Keep clean finish and 1536x1024 layout, no text, no extra people. The child remains same age and scale as source, do not make older or taller."
+    },
+    {
+      "file": "assets/long-way-there.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-3ea3a485-d155-4c8f-8157-02a6cd3ffbca.png",
+      "purpose": "Fictional scene adapted from author note; not documentary depiction",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "prompt": "EDIT image1 to match the clean picturebook finish of image2 (style reference only). Preserve image1's exact characters, their poses, count, locations, scale, face directions and meaningful held objects. Keep main and interacting people solid OPAQUE WHITE skin/hair/clothes with softly handdrawn pale coral contours; preserve any animal mascot's exact design and colors. Remove ALL mottled paper grain, watercolor speckles, stains, dirty textures, full-frame wash. Clean warmwhite #FFFDF9 background with ample blank space. Simplify environmental objects to clean light muted color planes and sparse soft outlines, small grounding shadows only. No generic decorative plants, no gratuitous furniture. Do not introduce text, balloons, animals or extra people. Not glossy CG. Do not crop or move characters (HTML speech anchors must still match). Human interiors never transparent. 1536x1024.  Precise recoloring edit only. Preserve composition, all poses, outlines geometry, scale, object positions and existing clean white background exactly. Change ONLY human contour colors to HugMap guideline: children's contours soft muted coral #F59B82 (RGB245,155,130); every adult's contours noticeably paler peach #F7C6B3 (RGB247,198,179). No vivid orange/red contours remaining on people. Keep interiors of skin, hair, clothing fully OPAQUE WHITE #FFFFFF, never translucent. Keep incidental gray people pale gray #E5E3E1 and opaque (no background visible through them). Keep all objects, animals and their colors unchanged. Preserve hand-drawn line variation, no extra texture, no text or palette swatches. Output same 1536x1024 framing. Apply these human contour colors as final higher priority than reference orange. Scene: Keep mother bicycle child helmet/harness raincover hospital entrance and cross; retain few rain strokes and small pale blue puddle. Remove plants city detail reflections."
+    },
+    {
+      "file": "assets/asleep-on-arrival.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-5a9a531d-93ee-4388-b163-38e1c8030cc9.png",
+      "purpose": "Fictional scene adapted from author note; not documentary depiction",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "prompt": "EDIT image1 to match the clean picturebook finish of image2 (style reference only). Preserve image1's exact characters, their poses, count, locations, scale, face directions and meaningful held objects. Keep main and interacting people solid OPAQUE WHITE skin/hair/clothes with softly handdrawn pale coral contours; preserve any animal mascot's exact design and colors. Remove ALL mottled paper grain, watercolor speckles, stains, dirty textures, full-frame wash. Clean warmwhite #FFFDF9 background with ample blank space. Simplify environmental objects to clean light muted color planes and sparse soft outlines, small grounding shadows only. No generic decorative plants, no gratuitous furniture. Do not introduce text, balloons, animals or extra people. Not glossy CG. Do not crop or move characters (HTML speech anchors must still match). Human interiors never transparent. 1536x1024.  Precise recoloring edit only. Preserve composition, all poses, outlines geometry, scale, object positions and existing clean white background exactly. Change ONLY human contour colors to HugMap guideline: children's contours soft muted coral #F59B82 (RGB245,155,130); every adult's contours noticeably paler peach #F7C6B3 (RGB247,198,179). No vivid orange/red contours remaining on people. Keep interiors of skin, hair, clothing fully OPAQUE WHITE #FFFFFF, never translucent. Keep incidental gray people pale gray #E5E3E1 and opaque (no background visible through them). Keep all objects, animals and their colors unchanged. Preserve hand-drawn line variation, no extra texture, no text or palette swatches. Output same 1536x1024 framing. Apply these human contour colors as final higher priority than reference orange. Scene: Keep mother holding paper, child asleep on lap, occupied chairs, clock and bag. Remove plant picture extra seats. Small beige ground shadow."
+    }
+  ],
+  "series": {
+    "name": "家族の絵物語",
+    "number": 4,
+    "theme": "ケアする私と、私の生活"
+  },
+  "human_colors": {
+    "child": "#F59B82",
+    "adult": "#F7C6B3",
+    "fill": "#FFFFFF",
+    "incidental_people": "#E5E3E1"
+  }
+}

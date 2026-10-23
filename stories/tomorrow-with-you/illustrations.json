@@ -1,0 +1,67 @@
+{
+  "style_reference": "../a-place-for-me/assets/everyone-has-a-day.png",
+  "method": "AI-generated using established opaque white silhouette reference",
+  "assets": [
+    {
+      "file": "assets/first-meeting.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-da62385f-c176-44b5-a9b4-b27a3df4e258.png",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "prompt": "Precise recoloring edit only. Preserve composition, all poses, outlines geometry, scale, object positions and existing clean white background exactly. Change ONLY human contour colors to HugMap guideline: children's contours soft muted coral #F59B82 (RGB245,155,130); every adult's contours noticeably paler peach #F7C6B3 (RGB247,198,179). No vivid orange/red contours remaining on people. Keep interiors of skin, hair, clothing fully OPAQUE WHITE #FFFFFF, never translucent. Keep incidental gray people pale gray #E5E3E1 and opaque (no background visible through them). Keep all objects, animals and their colors unchanged. Preserve hand-drawn line variation, no extra texture, no text or palette swatches. Output same 1536x1024 framing. Both parents adult, newborn infant child."
+    },
+    {
+      "file": "assets/hospital-apart.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-cbfb0dc7-efe2-435b-a6ff-6a00a42ee3df.png",
+      "purpose": "Fictional scene adapted from author note; not documentary depiction",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "prompt": "Precise recoloring edit only. Preserve composition, all poses, outlines geometry, scale, object positions and existing clean white background exactly. Change ONLY human contour colors to HugMap guideline: children's contours soft muted coral #F59B82 (RGB245,155,130); every adult's contours noticeably paler peach #F7C6B3 (RGB247,198,179). No vivid orange/red contours remaining on people. Keep interiors of skin, hair, clothing fully OPAQUE WHITE #FFFFFF, never translucent. Keep incidental gray people pale gray #E5E3E1 and opaque (no background visible through them). Keep all objects, animals and their colors unchanged. Preserve hand-drawn line variation, no extra texture, no text or palette swatches. Output same 1536x1024 framing."
+    },
+    {
+      "file": "assets/both-uncertain.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-efccabb5-6b3c-4019-a6c5-77011d324f99.png",
+      "purpose": "Fictional scene adapted from author note; not documentary depiction",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "prompt": "This is a strict color correction, not a redraw. ALL people in this image are ADULTS, including the mother and father. ALL contour lines on ALL people must be the SAME PALE PEACH #F7C6B3 RGB247,198,179. Currently some people have brighter orange contours; replace those completely with pale peach. No dark orange or coral line anywhere on people. Fill people opaque white. Keep all shapes positions composition objects background and proportions exactly unchanged. No children are pictured here, so do NOT use the child color. Same size 1536x1024."
+    },
+    {
+      "file": "assets/night-blog-search.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-6e4846ec-150a-45df-b6df-d6d5e30eac00.png",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "prompt": "Precise recoloring edit only. Preserve composition, all poses, outlines geometry, scale, object positions and existing clean white background exactly. Change ONLY human contour colors to HugMap guideline: children's contours soft muted coral #F59B82 (RGB245,155,130); every adult's contours noticeably paler peach #F7C6B3 (RGB247,198,179). No vivid orange/red contours remaining on people. Keep interiors of skin, hair, clothing fully OPAQUE WHITE #FFFFFF, never translucent. Keep incidental gray people pale gray #E5E3E1 and opaque (no background visible through them). Keep all objects, animals and their colors unchanged. Preserve hand-drawn line variation, no extra texture, no text or palette swatches. Output same 1536x1024 framing.",
+      "reference": "assets/both-uncertain.png"
+    },
+    {
+      "file": "assets/waiting-with-small-clothes.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-e1ba5f63-9bc6-4b36-b06a-c0f2cf21a1c0.png",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "prompt": "This is a strict color correction, not a redraw. ALL people in this image are ADULTS, including the mother and father. ALL contour lines on ALL people must be the SAME PALE PEACH #F7C6B3 RGB247,198,179. Currently some people have brighter orange contours; replace those completely with pale peach. No dark orange or coral line anywhere on people. Fill people opaque white. Keep all shapes positions composition objects background and proportions exactly unchanged. No children are pictured here, so do NOT use the child color. Same size 1536x1024.",
+      "reference": "../tomorrow-with-you/assets/first-meeting.png"
+    },
+    {
+      "file": "assets/newborn-consultation.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-66365bd4-bea7-4dab-b1ba-b9cdbe561835.png",
+      "reference": "../tomorrow-with-you/assets/questions-on-paper.png",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "prompt": "This is a strict color correction, not a redraw. ALL people in this image are ADULTS, including the mother and father. ALL contour lines on ALL people must be the SAME PALE PEACH #F7C6B3 RGB247,198,179. Currently some people have brighter orange contours; replace those completely with pale peach. No dark orange or coral line anywhere on people. Fill people opaque white. Keep all shapes positions composition objects background and proportions exactly unchanged. No children are pictured here, so do NOT use the child color. Same size 1536x1024."
+    },
+    {
+      "file": "assets/milk-handoff-detail.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-4e15fd12-6881-4e10-ab75-09ef0d7c459e.png",
+      "reference": "../tomorrow-with-you/assets/delivering-milk.png",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "prompt": "This is a strict color correction, not a redraw. ALL people in this image are ADULTS, including the mother and father. ALL contour lines on ALL people must be the SAME PALE PEACH #F7C6B3 RGB247,198,179. Currently some people have brighter orange contours; replace those completely with pale peach. No dark orange or coral line anywhere on people. Fill people opaque white. Keep all shapes positions composition objects background and proportions exactly unchanged. No children are pictured here, so do NOT use the child color. Same size 1536x1024."
+    },
+    {
+      "file": "assets/kangaroo-care.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-1d963b61-d5ad-423a-956c-746e7dc54b8d.png",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "purpose": "User-described NICU visit: mother holding newborn skin-to-skin for approximately five minutes. Opaque white people, pale coral linework, sparse NICU background.",
+      "prompt": "Precise recoloring edit only. Preserve composition, all poses, outlines geometry, scale, object positions and existing clean white background exactly. Change ONLY human contour colors to HugMap guideline: children's contours soft muted coral #F59B82 (RGB245,155,130); every adult's contours noticeably paler peach #F7C6B3 (RGB247,198,179). No vivid orange/red contours remaining on people. Keep interiors of skin, hair, clothing fully OPAQUE WHITE #FFFFFF, never translucent. Keep incidental gray people pale gray #E5E3E1 and opaque (no background visible through them). Keep all objects, animals and their colors unchanged. Preserve hand-drawn line variation, no extra texture, no text or palette swatches. Output same 1536x1024 framing."
+    }
+  ],
+  "human_colors": {
+    "child": "#F59B82",
+    "adult": "#F7C6B3",
+    "fill": "#FFFFFF",
+    "incidental_people": "#E5E3E1"
+  }
+}

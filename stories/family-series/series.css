@@ -1,0 +1,41 @@
+.words-only{padding-top:75px;padding-bottom:110px}.words-only .beat{margin-top:38px}.dialogue{max-width:490px;margin:0 auto 35px;padding:12px 20px;border-left:2px solid #dfc3b0;font-size:19px;line-height:1.9}.dialogue small{font-size:12px;color:var(--muted)}.dialogue p{margin:6px 0}.large-text .dialogue{font-size:23px}@media(max-width:600px){.words-only{padding-top:60px;padding-bottom:85px}.dialogue{font-size:17px}.large-text .dialogue{font-size:20px}}
+/* Leave space around spoken replies when they precede the illustration. */
+.scene > .copy + .dialogue{margin-top:28px}.scene > .dialogue + .art{margin-top:24px}.scene > .copy + .beat{margin-top:32px}
+
+.chapter-wisdom{max-width:490px;margin:62px auto 0;padding-top:25px;border-top:1px solid #ddd0c2}.wisdom-source{font-size:12px;line-height:1.8;color:var(--muted);margin:0 0 14px}.wisdom-text{font-size:22px;line-height:1.95;letter-spacing:.025em;margin:0;font-weight:500}.large-text .wisdom-text{font-size:25px}@media(max-width:600px){.chapter-wisdom{margin-top:45px;padding-top:22px}.wisdom-text{font-size:19px}.large-text .wisdom-text{font-size:22px}}
+
+/* Narrative, inner voice, and spoken replies have different visual rhythms. */
+.expression-art .expression-band{display:flex;width:100%;padding:0 3% 36px;position:relative;z-index:2;box-sizing:border-box}
+.expression-band.align-left{justify-content:flex-start}.expression-band.align-right{justify-content:flex-end}
+.expression{position:relative;isolation:isolate;width:max-content;max-width:86%;padding:20px 30px 23px;text-align:center;font-size:18px;line-height:1.8;box-sizing:border-box;color:#685044;--frame:#a88b77}
+.expression svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible;z-index:-1;pointer-events:none}
+.expression svg path,.expression svg circle{fill:#fffdf9;stroke:var(--frame);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.expression-speaker{display:block;font-size:11px;line-height:1.6;color:#8e7b6f;margin-bottom:5px}
+.expression-text{display:block;overflow-wrap:anywhere}.expression.thought{font-size:17px;color:#77716d}
+.expression-art[data-mood="worry"] .expression{--frame:#a4a09b}.expression-art[data-mood="warm"] .expression{--frame:#b78e68}
+.expression-art[data-mood="warm"] .expression svg path{fill:#fffcf5}
+.expression-art[data-mood="worry"] + .beat{margin-top:12px}
+.expression-art[data-mood="warm"] + .beat{margin-top:16px}
+.large-text .expression{font-size:21px}.large-text .expression.thought{font-size:20px}
+@media(max-width:600px){.expression{font-size:15px;max-width:94%;padding:18px 23px 21px}.expression.thought{font-size:15px}.expression-speaker{font-size:10px}.expression-art .expression-band{padding:0 1% 30px}.large-text .expression,.large-text .expression.thought{font-size:18px}}
+
+/* Reserve the full text height above the artwork, including enlarged type.
+   Paired replies stay in reading order without routing a tail through a reply. */
+.expression-layout{display:grid;gap:16px;width:100%;padding-bottom:38px}
+.expression-art .expression-layout .expression-band{padding:0 2%;align-self:start}
+.expression-layout.paired{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;align-items:start}
+.expression-layout.paired .expression-band{min-width:0;padding:0}
+.expression-layout.paired .expression{max-width:100%;width:100%;padding-inline:20px}
+.expression-layout .expression[data-tail="none"]{--frame:#a4a09b}
+@media(max-width:600px){
+ .expression-layout{padding-bottom:34px}
+ .expression-layout.paired{gap:12px}
+ .expression-layout.paired .expression{padding:16px 12px 20px;font-size:14px}
+ .large-text .expression-layout.paired .expression{font-size:17px}
+}
+
+/* The daughter speaks first on the right; mother's reply follows on the left. */
+.expression-layout.paired.reply-from-right{display:flex;flex-direction:column;gap:38px}
+.expression-layout.paired.reply-from-right .expression-band{width:72%}
+.expression-layout.reply-from-right .align-right{align-self:flex-end}
+.expression-layout.reply-from-right .align-left{align-self:flex-start}

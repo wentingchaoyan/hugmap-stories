@@ -1,0 +1,64 @@
+{
+  "style_reference": "../a-place-for-me/assets/everyone-has-a-day.png",
+  "method": "AI-generated using established opaque white silhouette reference",
+  "assets": [
+    {
+      "file": "assets/before-sending.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-3cfb72ac-b661-4a61-b9b0-81e070b6460e.png",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "prompt": "Precise recoloring edit only. Preserve composition, all poses, outlines geometry, scale, object positions and existing clean white background exactly. Change ONLY human contour colors to HugMap guideline: children's contours soft muted coral #F59B82 (RGB245,155,130); every adult's contours noticeably paler peach #F7C6B3 (RGB247,198,179). No vivid orange/red contours remaining on people. Keep interiors of skin, hair, clothing fully OPAQUE WHITE #FFFFFF, never translucent. Keep incidental gray people pale gray #E5E3E1 and opaque (no background visible through them). Keep all objects, animals and their colors unchanged. Preserve hand-drawn line variation, no extra texture, no text or palette swatches. Output same 1536x1024 framing."
+    },
+    {
+      "file": "assets/remembered-your-favorite.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-9a399693-b1e3-424d-8114-8579b35b252b.png",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "prompt": "Precise recoloring edit only. Preserve composition, all poses, outlines geometry, scale, object positions and existing clean white background exactly. Change ONLY human contour colors to HugMap guideline: children's contours soft muted coral #F59B82 (RGB245,155,130); every adult's contours noticeably paler peach #F7C6B3 (RGB247,198,179). No vivid orange/red contours remaining on people. Keep interiors of skin, hair, clothing fully OPAQUE WHITE #FFFFFF, never translucent. Keep incidental gray people pale gray #E5E3E1 and opaque (no background visible through them). Keep all objects, animals and their colors unchanged. Preserve hand-drawn line variation, no extra texture, no text or palette swatches. Output same 1536x1024 framing."
+    },
+    {
+      "file": "assets/sports-day.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-d2522d7e-367e-49e0-a475-59612fe641b1.png",
+      "art_direction": "Muted coral human outlines; opaque white figures; restrained neutral setting, cool blue-gray carriage for train scene.",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "prompt": "Precise recoloring edit only. Preserve composition, all poses, outlines geometry, scale, object positions and existing clean white background exactly. Change ONLY human contour colors to HugMap guideline: children's contours soft muted coral #F59B82 (RGB245,155,130); every adult's contours noticeably paler peach #F7C6B3 (RGB247,198,179). No vivid orange/red contours remaining on people. Keep interiors of skin, hair, clothing fully OPAQUE WHITE #FFFFFF, never translucent. Keep incidental gray people pale gray #E5E3E1 and opaque (no background visible through them). Keep all objects, animals and their colors unchanged. Preserve hand-drawn line variation, no extra texture, no text or palette swatches. Output same 1536x1024 framing."
+    },
+    {
+      "file": "assets/questions-at-the-park.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-6fa66181-3879-4d4e-82ca-466395f86486.png",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "prompt": "Precise recoloring edit only. Preserve composition, all poses, outlines geometry, scale, object positions and existing clean white background exactly. Change ONLY human contour colors to HugMap guideline: children's contours soft muted coral #F59B82 (RGB245,155,130); every adult's contours noticeably paler peach #F7C6B3 (RGB247,198,179). No vivid orange/red contours remaining on people. Keep interiors of skin, hair, clothing fully OPAQUE WHITE #FFFFFF, never translucent. Keep incidental gray people pale gray #E5E3E1 and opaque (no background visible through them). Keep all objects, animals and their colors unchanged. Preserve hand-drawn line variation, no extra texture, no text or palette swatches. Output same 1536x1024 framing.",
+      "reference": "../talking-about-you/assets/remembered-your-favorite.png"
+    },
+    {
+      "file": "assets/you-lead-the-way.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-937d3120-4165-4f39-ae1f-a625ec1cdcd1.png",
+      "method": "Built-in image_gen local edit: protagonist boy continuity",
+      "prompt": "Precise local character continuity edit of IMAGE1. The child protagonist must be the SAME YOUNGER BROTHER BOY as the small child in IMAGE2 (image2 is character reference only). Replace ONLY image1 child's hair/head design with image2 boy's short gently tousled hair, small uneven bangs, visible ear, short nape, rounded child head. Remove bob haircut/ponytail completely. Keep child's face direction and blank silhouette face, EXACT pose, hands, gestures, body size, clothes, location. Preserve mother/father, squirrel if present, ALL objects and background unchanged. Child line soft coral #F59B82, adults pale peach #F7C6B3; all human skin hair clothes OPAQUE WHITE. Keep clean finish and 1536x1024 layout, no text, no extra people. The child remains same age and scale as source, do not make older or taller."
+    },
+    {
+      "file": "assets/arms-up-for-a-hug.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-c22d57de-5115-4411-8fb9-9235b7680fec.png",
+      "method": "Built-in image_gen local edit: protagonist boy continuity",
+      "prompt": "Precise local character continuity edit of IMAGE1. The child protagonist must be the SAME YOUNGER BROTHER BOY as the small child in IMAGE2 (image2 is character reference only). Replace ONLY image1 child's hair/head design with image2 boy's short gently tousled hair, small uneven bangs, visible ear, short nape, rounded child head. Remove bob haircut/ponytail completely. Keep child's face direction and blank silhouette face, EXACT pose, hands, gestures, body size, clothes, location. Preserve mother/father, squirrel if present, ALL objects and background unchanged. Child line soft coral #F59B82, adults pale peach #F7C6B3; all human skin hair clothes OPAQUE WHITE. Keep clean finish and 1536x1024 layout, no text, no extra people. The child remains same age and scale as source, do not make older or taller.",
+      "reference": "../talking-about-you/assets/you-lead-the-way.png"
+    },
+    {
+      "file": "assets/teacher-shares-a-discovery.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-cbae4d43-0a14-42db-be3e-ccfbe9ec9e0e.png",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "prompt": "Precise recoloring edit only. Preserve composition, all poses, outlines geometry, scale, object positions and existing clean white background exactly. Change ONLY human contour colors to HugMap guideline: children's contours soft muted coral #F59B82 (RGB245,155,130); every adult's contours noticeably paler peach #F7C6B3 (RGB247,198,179). No vivid orange/red contours remaining on people. Keep interiors of skin, hair, clothing fully OPAQUE WHITE #FFFFFF, never translucent. Keep incidental gray people pale gray #E5E3E1 and opaque (no background visible through them). Keep all objects, animals and their colors unchanged. Preserve hand-drawn line variation, no extra texture, no text or palette swatches. Output same 1536x1024 framing."
+    },
+    {
+      "file": "assets/paper-cup-discovery.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-1fa0f36b-a3cf-4099-8cea-849558c8b90c.png",
+      "reference": "../talking-about-you/assets/sharing-new-play.png",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "prompt": "Precise recoloring edit only. Preserve composition, all poses, outlines geometry, scale, object positions and existing clean white background exactly. Change ONLY human contour colors to HugMap guideline: children's contours soft muted coral #F59B82 (RGB245,155,130); every adult's contours noticeably paler peach #F7C6B3 (RGB247,198,179). No vivid orange/red contours remaining on people. Keep interiors of skin, hair, clothing fully OPAQUE WHITE #FFFFFF, never translucent. Keep incidental gray people pale gray #E5E3E1 and opaque (no background visible through them). Keep all objects, animals and their colors unchanged. Preserve hand-drawn line variation, no extra texture, no text or palette swatches. Output same 1536x1024 framing."
+    }
+  ],
+  "human_colors": {
+    "child": "#F59B82",
+    "adult": "#F7C6B3",
+    "fill": "#FFFFFF",
+    "incidental_people": "#E5E3E1"
+  }
+}

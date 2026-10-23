@@ -1,0 +1,163 @@
+{
+  "slug": "tomorrow-with-you",
+  "number": 1,
+  "title": "まだ知らない、きみと明日",
+  "theme": "待ち望む・出会う・先が見えなくなる",
+  "cover": "first-meeting",
+  "pages": [
+    {
+      "before": "会える日を、待っていた。",
+      "after": "もうすぐ、これを着るんだね。\n何度も、小さな服を広げた。",
+      "asset": "waiting-with-small-clothes",
+      "voice": "",
+      "who": ""
+    },
+    {
+      "before": "生まれて、まもなく。\nきみは、NICUへ。",
+      "after": "抱くはずだった腕を、ひざに戻した。",
+      "asset": "hospital-apart",
+      "voice": "",
+      "who": "",
+      "expression": {
+        "text": "抱っこ、\nしたかったな。",
+        "kind": "thought",
+        "side": "left",
+        "x": 27,
+        "y": 31,
+        "speaker": "わたしの心の声",
+        "mood": "worry",
+        "showSpeaker": false
+      }
+    },
+    {
+      "before": "搾った母乳を、凍らせて。",
+      "after": "小さな袋を、看護師さんへ。",
+      "asset": "milk-handoff-detail",
+      "voice": "",
+      "who": "",
+      "framing": "detail",
+      "expression": {
+        "text": "少しだけですけど……お願いします。",
+        "speaker": "わたし",
+        "side": "left",
+        "x": 0,
+        "y": 0,
+        "kind": "speech",
+        "mood": "quiet",
+        "anchor": "off-panel speaker; face outside detail crop",
+        "showSpeaker": false
+      }
+    },
+    {
+      "before": "NICUで、カンガルーケア。\n五分ほど、胸に抱いた。",
+      "after": "ああ、あったかい。\nミルクは、まだうまく飲めない。\nもう少し、こうしていたかった。",
+      "asset": "kangaroo-care",
+      "voice": "",
+      "who": ""
+    },
+    {
+      "before": "合併症。知的障害。\n不安がこみ上げて、思わず聞いた。",
+      "after": "まだ、抱いた時間も短いのに。\nわたしの頭は、遠い先までいっぱいだった。",
+      "asset": "newborn-consultation",
+      "voice": "",
+      "who": "",
+      "order": [
+        "before",
+        "asset",
+        "after"
+      ],
+      "expressions": [
+        {
+          "text": "仕事は、できるんですか？\n結婚は……？",
+          "kind": "speech",
+          "side": "left",
+          "x": 26,
+          "y": 46,
+          "speaker": "わたし",
+          "mood": "worry",
+          "showSpeaker": false
+        },
+        {
+          "text": "結婚は、おそらく難しいでしょう。",
+          "kind": "speech",
+          "side": "right",
+          "x": 75,
+          "y": 43,
+          "speaker": "医師",
+          "mood": "worry",
+          "showSpeaker": false
+        }
+      ]
+    },
+    {
+      "before": "その夜も、画面を開いた。",
+      "after": "「乗り越えられない試練は、ない」\n自分を励ましても、涙は止まらない。\n夜中、同じ診断の子のブログを探した。",
+      "asset": "night-blog-search",
+      "voice": "",
+      "who": "",
+      "expression": {
+        "text": "どうか、\nこの子を守って。",
+        "kind": "thought",
+        "side": "left",
+        "x": 43,
+        "y": 30,
+        "speaker": "わたしの祈り",
+        "mood": "worry",
+        "showSpeaker": false
+      }
+    },
+    {
+      "before": "少し日がたって、\n新しい健康の心配が分かった。",
+      "after": "また、心配が増えるの？\nパパも黙った。\n何か言ってほしくて、顔を見た。",
+      "asset": "both-uncertain",
+      "voice": "",
+      "who": ""
+    },
+    {
+      "before": "次の診察で、もう一度。",
+      "after": "聞きたいことを、家で書いてきた。\n紙を見ながら、一つずつ。",
+      "asset": "newborn-consultation",
+      "voice": "",
+      "who": "わたし",
+      "order": [
+        "before",
+        "voice",
+        "asset",
+        "after"
+      ],
+      "expression": {
+        "text": "怖くて、頭に入らなくて。\nもう一度、聞いてもいいですか。",
+        "kind": "speech",
+        "side": "left",
+        "x": 26,
+        "y": 46,
+        "speaker": "わたし",
+        "mood": "quiet",
+        "showSpeaker": false
+      }
+    },
+    {
+      "before": "次の面会の日。",
+      "after": "先のことは、まだ怖い。\n今日は二人で、きみの顔を見よう。",
+      "asset": "first-meeting",
+      "voice": "",
+      "who": "パパ",
+      "expression": {
+        "text": "ぼくも、怖いよ。\nでも、一緒に考えたい。",
+        "kind": "speech",
+        "side": "left",
+        "x": 49,
+        "y": 39,
+        "speaker": "パパ",
+        "mood": "warm",
+        "showSpeaker": false
+      }
+    }
+  ],
+  "afterTitle": "答えのない日にも、\nきみとの時間はある。",
+  "after": "未来を知りたい気持ちと、目の前の子に会いたい気持ち。その間を行き来する、出産後の日々です。気持ちが整理できる前にも、母乳を届け、抱き、もう一度説明を聞く時間がありました。\n\n告知は、その時に親が受け取った言葉を描いたものです。障害のある人の結婚や将来の可能性を、一律に決めるものではありません。",
+  "wisdom": {
+    "from": "パパとのやりとりから",
+    "text": "今は、悩んでいてもいい。\n答えを、ひとりで出さなくていい。"
+  }
+}

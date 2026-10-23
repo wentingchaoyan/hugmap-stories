@@ -1,0 +1,13 @@
+{
+  "assets": [
+    {
+      "file": "assets/listening-to-sister.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-5d82e4ed-c1ce-47d1-8b98-51c752b7a178.png",
+      "purpose": "Mother listens to sister without assuming her answer"
+    },
+    {
+      "reference": "../a-place-for-you/illustrations.json",
+      "purpose": "Three existing sister scenes reused without duplicating image files"
+    }
+  ]
+}

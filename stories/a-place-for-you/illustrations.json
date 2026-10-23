@@ -1,0 +1,84 @@
+{
+  "style_reference": "../a-place-for-me/assets/everyone-has-a-day.png",
+  "method": "AI-generated using established opaque white silhouette reference",
+  "assets": [
+    {
+      "file": "assets/at-the-door.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-7e8adfe2-6d74-4435-95d3-152dadde541d.png",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "prompt": "Precise recoloring edit only. Preserve composition, all poses, outlines geometry, scale, object positions and existing clean white background exactly. Change ONLY human contour colors to HugMap guideline: children's contours soft muted coral #F59B82 (RGB245,155,130); every adult's contours noticeably paler peach #F7C6B3 (RGB247,198,179). No vivid orange/red contours remaining on people. Keep interiors of skin, hair, clothing fully OPAQUE WHITE #FFFFFF, never translucent. Keep incidental gray people pale gray #E5E3E1 and opaque (no background visible through them). Keep all objects, animals and their colors unchanged. Preserve hand-drawn line variation, no extra texture, no text or palette swatches. Output same 1536x1024 framing."
+    },
+    {
+      "file": "assets/sister-asks-about-school.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-36ba23d1-12c8-4095-9c10-96bff61e661a.png",
+      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "purpose": "Older sister asks mother whether her own younger brother can go to elementary school, after seeing a neighbor two years younger than herself manage independently. Shoe dressing is an illustrative adaptation. Exactly mother, sister, brother and neighbor child. Opaque white figures with coral outlines.",
+      "prompt": "Precise recoloring edit only. Preserve composition, all poses, outlines geometry, scale, object positions and existing clean white background exactly. Change ONLY human contour colors to HugMap guideline: children's contours soft muted coral #F59B82 (RGB245,155,130); every adult's contours noticeably paler peach #F7C6B3 (RGB247,198,179). No vivid orange/red contours remaining on people. Keep interiors of skin, hair, clothing fully OPAQUE WHITE #FFFFFF, never translucent. Keep incidental gray people pale gray #E5E3E1 and opaque (no background visible through them). Keep all objects, animals and their colors unchanged. Preserve hand-drawn line variation, no extra texture, no text or palette swatches. Output same 1536x1024 framing. FIX far-left gray child's opacity: bench must NOT show through body. Solid palegray silhouette."
+    },
+    {
+      "file": "assets/quiet-classroom.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-25180131-a18b-474c-8dbd-793fde822e2d.png",
+      "prompt": "Create a new scene in EXACT same HugMap picturebook visual language as attached references. Same mother: chin-length bob, plain long-sleeve top, wide trousers, shoulder bag. Same younger brother BOY: short softly tousled hair, visible ears/short nape, preschool proportions, white shirt and trousers. All main humans SOLID OPAQUE WHITE skin/hair/clothes with PALE adult #F7C6B3 contours, soft child #F59B82 contours; no drawn eyes except blank side-profile nose contour as references. Incidental schoolchildren opaque very pale gray #E5E3E1 silhouettes without detailed faces; never show background through bodies. Clean white #FFFDF9 negative space, few essential furnishings, soft small contact shadows. No dirty watercolor/grain, no strong orange outlines, no text or balloons, no labels. Horizontal1536x1024. Leave upper fifth airy. Wide classroom observation. Mother left at x25%, shoulder relaxed, small son beside at x39%, viewing a calm classroom. On right two incidental gray children sitting at low table, female teacher in pale peach outlines kneeling nearby. Simple pale wood table, one pale-blue window suggestion. NOT rows of passive children; one looking at a cup, one resting hands. Mother's softened posture is focus. No animals.",
+      "method": "Built-in image_gen with established family-series references",
+      "purpose": "Fictional reconstruction of school-visit reflection, not a documentary scene"
+    },
+    {
+      "file": "assets/relief-and-doubt.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-c592078d-9df4-495b-bd64-164095c9b054.png",
+      "prompt": "Create a new scene in EXACT same HugMap picturebook visual language as attached references. Same mother: chin-length bob, plain long-sleeve top, wide trousers, shoulder bag. Same younger brother BOY: short softly tousled hair, visible ears/short nape, preschool proportions, white shirt and trousers. All main humans SOLID OPAQUE WHITE skin/hair/clothes with PALE adult #F7C6B3 contours, soft child #F59B82 contours; no drawn eyes except blank side-profile nose contour as references. Incidental schoolchildren opaque very pale gray #E5E3E1 silhouettes without detailed faces; never show background through bodies. Clean white #FFFDF9 negative space, few essential furnishings, soft small contact shadows. No dirty watercolor/grain, no strong orange outlines, no text or balloons, no labels. Horizontal1536x1024. Leave upper fifth airy. Medium close side view of same mother in left-center x42%, facing right, hand holding shoulder-bag strap near chest. Her posture both relieved and hesitant, head slightly down. Far right small sparse pale-gray classroom child seated at a table, blurred only by minimal lines not grain. No protagonist son needed in crop. White backdrop mostly. Focus mother's quiet inner conflict without smile or tears.",
+      "method": "Built-in image_gen with established family-series references",
+      "purpose": "Fictional reconstruction of school-visit reflection, not a documentary scene"
+    },
+    {
+      "file": "assets/my-own-measure.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-0eef88fb-f1a3-4dbc-ba8a-86d045a45c32.png",
+      "prompt": "Create a new scene in EXACT same HugMap picturebook visual language as attached references. Same mother: chin-length bob, plain long-sleeve top, wide trousers, shoulder bag. Same younger brother BOY: short softly tousled hair, visible ears/short nape, preschool proportions, white shirt and trousers. All main humans SOLID OPAQUE WHITE skin/hair/clothes with PALE adult #F7C6B3 contours, soft child #F59B82 contours; no drawn eyes except blank side-profile nose contour as references. Incidental schoolchildren opaque very pale gray #E5E3E1 silhouettes without detailed faces; never show background through bodies. Clean white #FFFDF9 negative space, few essential furnishings, soft small contact shadows. No dirty watercolor/grain, no strong orange outlines, no text or balloons, no labels. Horizontal1536x1024. Leave upper fifth airy. Intimate detail composition: mother seated, crop from just below nose to lap, lightly clenched hand holding bag strap loosening into open hand resting on other palm. Her chin-length hair ends identifiable, white sleeves, her lap and bag only. Suggest reflection through hands, not text. No room or other people, ample white space. Soft pale peach adult outline. No objects symbolizing measuring/rulers.",
+      "method": "Built-in image_gen with established family-series references",
+      "purpose": "Fictional reconstruction of school-visit reflection, not a documentary scene"
+    },
+    {
+      "file": "assets/teacher-keeps-trying.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-d2aa6b75-510f-48c8-9a80-11600e9d3a34.png",
+      "prompt": "Create a new scene in EXACT same HugMap picturebook visual language as attached references. Same mother: chin-length bob, plain long-sleeve top, wide trousers, shoulder bag. Same younger brother BOY: short softly tousled hair, visible ears/short nape, preschool proportions, white shirt and trousers. All main humans SOLID OPAQUE WHITE skin/hair/clothes with PALE adult #F7C6B3 contours, soft child #F59B82 contours; no drawn eyes except blank side-profile nose contour as references. Incidental schoolchildren opaque very pale gray #E5E3E1 silhouettes without detailed faces; never show background through bodies. Clean white #FFFDF9 negative space, few essential furnishings, soft small contact shadows. No dirty watercolor/grain, no strong orange outlines, no text or balloons, no labels. Horizontal1536x1024. Leave upper fifth airy. Main mother at far left x17% observes. Short-haired boy seated center x46% at small table hands resting, not yet reaching/performing. Female teacher from first reference at right x74% crouches to his eye level, gently turns a small yellow cup and blue ball in her open hands to offer another way to notice. Luke squirrel from second reference sits smaller near table at x62%, passing an extra cup quietly, exact squirrel orange fur/glasses/gray vest/yellow scarf. Teacher and child are focus, Luke supporting small. No cheering or instant success. No father. No earmuffs. White background and small table only.",
+      "method": "Built-in image_gen with established family-series references",
+      "purpose": "Fictional reconstruction of school-visit reflection, not a documentary scene"
+    },
+    {
+      "file": "assets/watching-for-a-spark.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-f1d88a72-10a9-4d64-9b1f-1a4d361c948c.png",
+      "prompt": "Create a new scene in EXACT same HugMap picturebook visual language as attached references. Same mother: chin-length bob, plain long-sleeve top, wide trousers, shoulder bag. Same younger brother BOY: short softly tousled hair, visible ears/short nape, preschool proportions, white shirt and trousers. All main humans SOLID OPAQUE WHITE skin/hair/clothes with PALE adult #F7C6B3 contours, soft child #F59B82 contours; no drawn eyes except blank side-profile nose contour as references. Incidental schoolchildren opaque very pale gray #E5E3E1 silhouettes without detailed faces; never show background through bodies. Clean white #FFFDF9 negative space, few essential furnishings, soft small contact shadows. No dirty watercolor/grain, no strong orange outlines, no text or balloons, no labels. Horizontal1536x1024. Leave upper fifth airy. Mother crouches on left x25% watching short-haired son x48% sitting calmly at small table, his head turned toward right where two pale-gray schoolchild silhouettes are exploring a blue ball together. Not a forced participation or success scene: boy only looking, hands relaxed on lap. Main people white opaque, other children solid opaque pale gray. No animals or teacher necessary. Few props, white backdrop, room hint minimal. Mother unsure but attentive.",
+      "method": "Built-in image_gen with established family-series references",
+      "purpose": "Fictional reconstruction of school-visit reflection, not a documentary scene"
+    },
+    {
+      "file": "assets/walking-home-together.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-782ec273-e5b3-4f63-8975-58a59a492b3f.png",
+      "prompt": "Create a new scene in EXACT same HugMap picturebook visual language as attached references. Same mother: chin-length bob, plain long-sleeve top, wide trousers, shoulder bag. Same younger brother BOY: short softly tousled hair, visible ears/short nape, preschool proportions, white shirt and trousers. All main humans SOLID OPAQUE WHITE skin/hair/clothes with PALE adult #F7C6B3 contours, soft child #F59B82 contours; no drawn eyes except blank side-profile nose contour as references. Incidental schoolchildren opaque very pale gray #E5E3E1 silhouettes without detailed faces; never show background through bodies. Clean white #FFFDF9 negative space, few essential furnishings, soft small contact shadows. No dirty watercolor/grain, no strong orange outlines, no text or balloons, no labels. Horizontal1536x1024. Leave upper fifth airy. Quiet final scene: mother and short-haired younger son walking hand in hand away from school, side/rear three-quarter view toward right. Mother on left x42% glances gently down at son x62%; child same short hair and preschool scale. Minimal pale beige path fragment and distant school doorway hint far left, lots of white space. No sunset orange wash, no triumphant posture, no other people, no animals. Ending with openness, uncertainty and companionship.",
+      "method": "Built-in image_gen edit",
+      "purpose": "Correct head, neck, torso and foot directions to a coherent three-quarter front walking pose; retain quiet hand-in-hand return from school."
+    },
+    {
+      "file": "assets/sister-asks-at-mealtime.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-94fde800-0f34-49eb-9aed-d0b29c3776c4.png",
+      "method": "Built-in image_gen using sister-asks-about-school.png as character reference",
+      "purpose": "Match the sister’s question about independent eating: mother pauses spoon-feeding to listen, sister leans forward with worried impatience. All people opaque white; minimal furniture."
+    },
+    {
+      "file": "assets/sister-asks-about-stroller.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-5cbccfb8-b4e0-4e76-a91b-5ec0629050c1.png",
+      "method": "Built-in image_gen with sister-asks-about-school.png character reference",
+      "purpose": "Boy grips stroller and lifts a foot to climb; older sister stands immediately beside him supporting his back and side while quietly muttering."
+    },
+    {
+      "file": "assets/imagining-local-school.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-7802cf13-9077-4a01-a067-4b75bf97ddd8.png",
+      "purpose": "Explicitly imagined local school participation supported by teacher and peers"
+    }
+  ],
+  "human_colors": {
+    "child": "#F59B82",
+    "adult": "#F7C6B3",
+    "fill": "#FFFFFF",
+    "incidental_people": "#E5E3E1"
+  }
+}

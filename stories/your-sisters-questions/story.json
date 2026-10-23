@@ -1,0 +1,84 @@
+{
+  "slug": "your-sisters-questions",
+  "number": 5,
+  "title": "お姉ちゃんの「いつ？」",
+  "theme": "きょうだいの気持ちに、耳をすます",
+  "cover": "../a-place-for-you/assets/sister-asks-about-stroller.png",
+  "pages": [
+    {
+      "before": "少し歩こうと、手を差し出した。\nきみはベビーカーに手をかけて、\nよいしょ、と足を上げた。",
+      "after": "娘は、きみの背中を支えながら\nぽつんと、つぶやいた。\nわたしは、すぐには答えられなかった。",
+      "asset": "sister-asks-about-stroller",
+      "voice": "",
+      "who": "",
+      "expression": {
+        "text": "健くん、いつ\nベビーカー卒業するのかな。",
+        "kind": "speech",
+        "side": "right",
+        "x": 65,
+        "y": 37,
+        "speaker": "娘",
+        "showSpeaker": false,
+        "mood": "quiet"
+      },
+      "image": "../a-place-for-you/assets/sister-asks-about-stroller.png"
+    },
+    {
+      "before": "別の日、ごはんの時間。\nわたしが健くんの口へ、スプーンを運ぶと。",
+      "after": "お話しできる日も、気になるらしい。\n娘の「いつ？」は、日々増えていった。",
+      "asset": "sister-asks-at-mealtime",
+      "voice": "",
+      "who": "",
+      "expression": {
+        "text": "健くん、いつになったら\n自分でごはん、食べられるの？",
+        "kind": "speech",
+        "side": "right",
+        "x": 70,
+        "y": 46,
+        "speaker": "娘",
+        "showSpeaker": false,
+        "mood": "quiet"
+      },
+      "image": "../a-place-for-you/assets/sister-asks-at-mealtime.png"
+    },
+    {
+      "before": "そんなある日。\n娘より二つ年下の、近所の子が、\nひとりで靴をはいていた。\n隣で、健くんは手伝いを待っていた。",
+      "after": "いつもより、少し強い声。\nわたしも心配で、すぐには答えられなかった。",
+      "asset": "sister-asks-about-school",
+      "voice": "",
+      "who": "",
+      "expression": {
+        "text": "ねえ、もうすぐ小学生だよ。\n健くん、ほんとに大丈夫なの？",
+        "kind": "speech",
+        "side": "right",
+        "x": 67,
+        "y": 29,
+        "speaker": "娘",
+        "mood": "worry",
+        "showSpeaker": false
+      },
+      "image": "../a-place-for-you/assets/sister-asks-about-school.png"
+    },
+    {
+      "before": "その夜、娘のほうを向いて座った。",
+      "asset": "listening-to-sister",
+      "after": "先のことを答えようとして、\n娘の気持ちを、聞きそびれていた。",
+      "voice": "",
+      "who": "",
+      "expression": {
+        "text": "ママにも、まだ分からないんだ。\nどんなことが、気になってる？",
+        "x": 47,
+        "y": 28,
+        "speaker": "母",
+        "kind": "speech",
+        "side": "left",
+        "showSpeaker": false,
+        "mood": "quiet"
+      }
+    }
+  ],
+  "afterTitle": "弟のことを聞く、その子の気持ちも。",
+  "after": "弟を支える手と、焦りや心配の混じる言葉。お姉ちゃんの中にも、いくつもの気持ちがありました。\n\n答えを急ぐ前に、その子が何を感じているのか聞いてみたい。手助けを当然の役割にせず、姉自身の話に耳を向ける時間も大切にしたいと思います。",
+  "sources": [],
+  "adaptation": "著者が語った姉の日々の問いをもとに構成。最後の母娘の対話は、実際の発言や姉の内心を断定しない創作。"
+}
