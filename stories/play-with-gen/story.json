@@ -1,5 +1,5 @@
 {
-  "title": "きみの「もういっかい」みつけた。",
+  "title": "ぎゅっ、ごろん。からだで あそぼう。",
   "narrator": "Gen",
   "scenes": [
     {
@@ -96,5 +96,6 @@
   "cover": {
     "image": "../assets/gen-play/gen-cover.png",
     "alt": "子どもと読者を遊びに誘うGen"
-  }
+  },
+  "subtitle": "Genと、からだの形・力・向きを感じる遊び"
 }

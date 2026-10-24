@@ -1,0 +1,34 @@
+{
+  "assets": [
+    {
+      "file": "gen-rhythm-march.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-0c3a01fa-4168-4096-92ca-ce8f6e0bd908.png",
+      "prompt": "Precise local correction to the CHILD'S HANDS ONLY. Keep all other image geometry, Gen rabbit character, colors, clothing, face, props, composition, existing transparent background and opaque white bodies exactly unchanged. The human child currently has animal-paw/mitten shaped hands. Replace ONLY child's hands with anatomically readable simplified human child hands: narrow natural wrist, small palm, separately opposed thumb, four slender rounded fingers of graduated lengths, five digits total where visible, natural finger overlap. No paws, no toe-like lobes, no pads, no claws, no oversized hands. Retain white opaque fill and original fine coral outline. Raised hand is a gently curled HUMAN fist with thumb crossing bent fingers, lower hand a relaxed human hand. No new text. Do not redesign Gen."
+    },
+    {
+      "file": "gen-rhythm-touch.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-e36979ab-77b2-49e2-b15c-c593d9fe8240.png",
+      "prompt": "Precise local correction to the CHILD'S HANDS ONLY. Keep all other image geometry, Gen rabbit character, colors, clothing, face, props, composition, existing transparent background and opaque white bodies exactly unchanged. The human child currently has animal-paw/mitten shaped hands. Replace ONLY child's hands with anatomically readable simplified human child hands: narrow natural wrist, small palm, separately opposed thumb, four slender rounded fingers of graduated lengths, five digits total where visible, natural finger overlap. No paws, no toe-like lobes, no pads, no claws, no oversized hands. Retain white opaque fill and original fine coral outline. Hands remain palm-to-palm with Gen at existing contact points; child's fingers together with subtle finger division and anatomically placed thumb. No new text. Do not redesign Gen."
+    },
+    {
+      "file": "gen-ball-target.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-294d32b5-498b-4f4b-80d3-3657f960842e.png",
+      "prompt": "Precise local correction to the CHILD'S HANDS ONLY. Keep all other image geometry, Gen rabbit character, colors, clothing, face, props, composition, existing transparent background and opaque white bodies exactly unchanged. The human child currently has animal-paw/mitten shaped hands. Replace ONLY child's hands with anatomically readable simplified human child hands: narrow natural wrist, small palm, separately opposed thumb, four slender rounded fingers of graduated lengths, five digits total where visible, natural finger overlap. No paws, no toe-like lobes, no pads, no claws, no oversized hands. Retain white opaque fill and original fine coral outline. Child's two hands curve around ball with human fingers and thumbs, preserve ball size. No new text. Do not redesign Gen."
+    },
+    {
+      "file": "gen-cover.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-275d68d8-cb7a-414d-98b0-be7d49cfcbd7.png",
+      "prompt": "Precise local correction to the CHILD'S HANDS ONLY. Keep all other image geometry, Gen rabbit character, colors, clothing, face, props, composition, existing transparent background and opaque white bodies exactly unchanged. The human child currently has animal-paw/mitten shaped hands. Replace ONLY child's hands with anatomically readable simplified human child hands: narrow natural wrist, small palm, separately opposed thumb, four slender rounded fingers of graduated lengths, five digits total where visible, natural finger overlap. No paws, no toe-like lobes, no pads, no claws, no oversized hands. Retain white opaque fill and original fine coral outline. Preserve original gesture and arm positions; human finger shapes instead of scalloped paw silhouettes. No new text. Do not redesign Gen."
+    },
+    {
+      "file": "gen-big.png",
+      "source": "built-in imagegen image_url (saved directly)",
+      "prompt": "Precise local correction to the CHILD'S HANDS ONLY. Keep all other image geometry, Gen rabbit character, colors, clothing, face, props, composition, existing transparent background and opaque white bodies exactly unchanged. The human child currently has animal-paw/mitten shaped hands. Replace ONLY child's hands with anatomically readable simplified human child hands: narrow natural wrist, small palm, separately opposed thumb, four slender rounded fingers of graduated lengths, five digits total where visible, natural finger overlap. No paws, no toe-like lobes, no pads, no claws, no oversized hands. Retain white opaque fill and original fine coral outline. Preserve original gesture and arm positions; human finger shapes instead of scalloped paw silhouettes. No new text. Do not redesign Gen."
+    },
+    {
+      "file": "gen-ball-catch.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-94144a78-05bb-462a-bddb-16cbc44638c2.png",
+      "prompt": "Precise local correction to the CHILD'S HANDS ONLY. Keep all other image geometry, Gen rabbit character, colors, clothing, face, props, composition, existing transparent background and opaque white bodies exactly unchanged. The human child currently has animal-paw/mitten shaped hands. Replace ONLY child's hands with anatomically readable simplified human child hands: narrow natural wrist, small palm, separately opposed thumb, four slender rounded fingers of graduated lengths, five digits total where visible, natural finger overlap. No paws, no toe-like lobes, no pads, no claws, no oversized hands. Retain white opaque fill and original fine coral outline. Preserve original gesture and arm positions; human finger shapes instead of scalloped paw silhouettes. No new text. Do not redesign Gen."
+    }
+  ]
+}
