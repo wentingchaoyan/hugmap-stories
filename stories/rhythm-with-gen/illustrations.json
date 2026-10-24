@@ -1,0 +1,27 @@
+{
+  "assets": [
+    {
+      "file": "../assets/gen-play/gen-drum-echo.png",
+      "source": "exec-03805db6-2701-48cc-8e2c-1a8939a746f6.png",
+      "scene": "Child and Gen seated playing separate low hand drums, Gen echoes child; opaque subjects, transparent outside."
+    },
+    {
+      "file": "../assets/gen-play/gen-rhythm-touch.png",
+      "method": "shared illustration"
+    },
+    {
+      "file": "../assets/gen-play/gen-rhythm-march.png",
+      "method": "shared illustration"
+    },
+    {
+      "file": "../assets/gen-play/gen-freeze-pose.png",
+      "method": "shared illustration"
+    },
+    {
+      "file": "../assets/gen-play/gen-big.png",
+      "method": "shared illustration"
+    }
+  ],
+  "sharedLibrary": "../assets/gen-play/",
+  "note": "Each shared image is stored once. New ball and rhythm image prompts are recorded in the shared library."
+}

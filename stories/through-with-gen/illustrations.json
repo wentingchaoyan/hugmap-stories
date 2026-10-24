@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "file": "../assets/gen-play/gen-approach.png",
+      "method": "shared illustration"
+    },
+    {
+      "file": "../assets/gen-play/gen-around.png",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-e31af6f6-8451-448d-b593-3c82d515c56c.png",
+      "prompt": "Use case illustration-story. Edit/reference attached art; preserve EXACT child/Gen design, proportions, colors, props, clean hand drawn style. Child white opaque silhouette with coral #F59B82 contour; Gen white rabbit wine shirt mustard scarf orange U one bent ear. All figures opaque, transparent background outside small soft apricot floor patch. No text no arrows no CGI no watercolor haze. Child WALKING AROUND OUTSIDE the same short beige play tunnel, approaching Gen standing beside far end. Child is fully outside tunnel and upright, small forward step, one hand reaching greeting. Gen waves greeting. Clearly visible open route beside tunnel, empty tunnel. No arrows."
+    },
+    {
+      "file": "../assets/gen-play/gen-tunnel.png",
+      "method": "shared illustration"
+    }
+  ],
+  "sharedLibrary": "../assets/gen-play/",
+  "note": "Each shared image is stored once. New ball and rhythm image prompts are recorded in the shared library."
+}

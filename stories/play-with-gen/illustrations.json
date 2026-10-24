@@ -6,42 +6,42 @@
   "geometryCorrection": "直前の画像へ復元。細長くしすぎた体型修正版は不採用。造形の基準は引き続きGenの三面図とし、数値だけで胴や脚を引き伸ばさない。",
   "assets": [
     {
-      "file": "assets/gen-small.png",
+      "file": "../assets/gen-play/gen-small.png",
       "scene": "膝を抱えて小さく丸くなる子どもと、隣で同じように座るGen",
       "source": "exec-4a88963e-4b99-4d8e-9145-a8ce411ecdc4.png"
     },
     {
-      "file": "assets/gen-big.png",
+      "file": "../assets/gen-play/gen-big.png",
       "scene": "手足を大きく広げる子どもと、細身のGenが並んで同じポーズをする",
       "source": "exec-57730ff5-b985-41fc-a020-fdc71a438869.png"
     },
     {
-      "file": "assets/gen-roll.png",
+      "file": "../assets/gen-play/gen-roll.png",
       "scene": "床で横向きに寝ころび、体の向きを変えて遊ぶ子どもとGen",
       "source": "exec-48c7c85c-afd9-4405-86b1-075c2c3cb178.png"
     },
     {
-      "file": "assets/gen-approach.png",
+      "file": "../assets/gen-play/gen-approach.png",
       "scene": "トンネルの入口をのぞく子どもと、反対側で手を膝に置いて待つGen",
       "source": "exec-65f33a55-2769-4abb-a220-8d2050188291.png"
     },
     {
-      "file": "assets/gen-tunnel.png",
+      "file": "../assets/gen-play/gen-tunnel.png",
       "scene": "頭を低くしてトンネルから這い出る子どもを、Genが出口の脇で迎える",
       "source": "exec-19af188c-2fa7-4048-a690-36296edaff7a.png"
     },
     {
-      "file": "assets/gen-rest.png",
+      "file": "../assets/gen-play/gen-rest.png",
       "scene": "足を前に伸ばし、隣り合って穏やかに休む子どもとGen",
       "source": "exec-a1cce9bb-3220-48c8-8fdc-c4ce0e04f287.png"
     },
     {
-      "file": "assets/gen-cover.png",
+      "file": "../assets/gen-play/gen-cover.png",
       "source": "exec-cfc65ef2-ce0a-4628-ab26-22686823d117.png",
       "scene": "Dedicated inviting cover, not a repeated exercise scene"
     },
     {
-      "file": "assets/gen-turn.png",
+      "file": "../assets/gen-play/gen-turn.png",
       "source": "exec-2eac420a-591e-49e4-96f9-0caf706ded00.png",
       "scene": "大人が子どもの脇の下から胸と胴を支えて近くに抱き、ゆっくり向きを変える様子をGenが見守る"
     }

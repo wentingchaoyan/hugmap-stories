@@ -1,0 +1,26 @@
+{
+  "assets": [
+    {
+      "file": "../assets/gen-play/gen-ball-exchange.png",
+      "method": "shared illustration"
+    },
+    {
+      "file": "../assets/gen-play/gen-reach-up.png",
+      "method": "shared illustration"
+    },
+    {
+      "file": "../assets/gen-play/gen-ball-target.png",
+      "method": "shared illustration"
+    },
+    {
+      "file": "../assets/gen-play/gen-ball-toss.png",
+      "method": "shared illustration"
+    },
+    {
+      "file": "../assets/gen-play/gen-ball-catch.png",
+      "method": "shared illustration"
+    }
+  ],
+  "sharedLibrary": "../assets/gen-play/",
+  "note": "Each shared image is stored once. New ball and rhythm image prompts are recorded in the shared library."
+}

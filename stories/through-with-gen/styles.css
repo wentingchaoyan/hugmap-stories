@@ -1,0 +1,2 @@
+@import url("../delivery-with-gen/styles.css");
+.tunnel-play .scene-tip{width:min(100%,560px);margin:25px auto 0;padding:14px 18px;border-top:1px solid #dfd6cb;font-size:14px;line-height:1.9;color:#786b60}.tunnel-play .aims{margin:35px 0;padding:22px;background:#f6f1e9;border-radius:16px}.tunnel-play .cover figure{max-width:640px}.tunnel-play #scene-wait figure{max-width:440px}.tunnel-play #scene-through figure{max-width:660px}.tunnel-play .cover h1{font-size:clamp(34px,6vw,58px)}

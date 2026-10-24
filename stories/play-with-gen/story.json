@@ -7,7 +7,7 @@
       "title": "いっしょに、あそぼう。",
       "before": "ぼくは、からだを 動かすのが だいすき。",
       "after": "……きみは、すわっている。\nなにして あそぼうかな。",
-      "image": "assets/gen-small.png",
+      "image": "../assets/gen-play/gen-small.png",
       "alt": "膝を抱えて座る子どもに寄せた絵",
       "layout": "quiet focus-child"
     },
@@ -16,7 +16,7 @@
       "title": "ちいさく、ぎゅっ。",
       "before": "きみが おひざを、かかえた。",
       "after": "ぼくも となりで、まあるく。\nふたりで、ちいさな おだんご。",
-      "image": "assets/gen-small.png",
+      "image": "../assets/gen-play/gen-small.png",
       "alt": "膝を抱えて座る子どもと、隣で小さくなるGen",
       "layout": ""
     },
@@ -25,7 +25,7 @@
       "title": "てのひら、ぴたっ。",
       "before": "おうちの人が、てを 出した。\nきみも、ぴたっ。",
       "after": "おっ。おしてきたね。\nきみの ちから、つたわった！",
-      "image": "poses/assets/gen-palm-push.png",
+      "image": "../assets/gen-play/gen-palm-push.png",
       "alt": "大人と手のひらを合わせて押す子どもをGenが見守る",
       "layout": ""
     },
@@ -34,7 +34,7 @@
       "title": "ごろん。\nきみも、ごろん。",
       "before": "こんどは、ゆかで。",
       "after": "ごろん、ごろん。\nぼくは、もういっかい！",
-      "image": "assets/gen-roll.png",
+      "image": "../assets/gen-play/gen-roll.png",
       "alt": "横向きに寝ころんで遊ぶ子どもとGen",
       "layout": ""
     },
@@ -43,7 +43,7 @@
       "title": "……あれ？",
       "before": "きみは、あっちを 見ている。",
       "after": "トンネルが、きになる？\nぼくも、ころがるのを やめた。",
-      "image": "assets/gen-approach.png",
+      "image": "../assets/gen-play/gen-approach.png",
       "alt": "トンネルの入口に近づく子ども",
       "layout": "focus-tunnel"
     },
@@ -52,7 +52,7 @@
       "title": "のぞいてる。",
       "before": "すぐには、はいらないんだね。",
       "after": "ぼくは、こっちで 待ってみよう。",
-      "image": "assets/gen-approach.png",
+      "image": "../assets/gen-play/gen-approach.png",
       "alt": "トンネルをのぞく子どもを反対側で待つGen",
       "layout": "quiet"
     },
@@ -61,7 +61,7 @@
       "title": "ひょい。\nするん。",
       "before": "あたまを さげて。\nてを ついて。",
       "after": "でてきた！\nこんにちは！",
-      "image": "assets/gen-tunnel.png",
+      "image": "../assets/gen-play/gen-tunnel.png",
       "alt": "頭を低くしてトンネルから出てくる子どもをGenが迎える",
       "layout": ""
     },
@@ -70,7 +70,7 @@
       "title": "ひこうき、とぶよ。",
       "before": "こんどは、おうちの人に\n両手を、ぱっ。",
       "after": "ゆっくり、ふわり。\nぼくの ところへ、こんにちは！\n\nぴたっ。",
-      "image": "assets/gen-turn.png",
+      "image": "../assets/gen-play/gen-turn.png",
       "alt": "大人が胸と胴を支えて子どもを近くに抱きゆっくり向きを変え、Genが見守る",
       "layout": ""
     },
@@ -79,7 +79,7 @@
       "title": "ふう。",
       "before": "きみが 座ったから、ぼくも 座る。",
       "after": "あしを のばして。\nとなりで、ひとやすみ。",
-      "image": "assets/gen-rest.png",
+      "image": "../assets/gen-play/gen-rest.png",
       "alt": "足を前に伸ばして隣り合って休む子どもとGen",
       "layout": "quiet"
     },
@@ -88,13 +88,13 @@
       "title": "あっ。また、てが あがった。",
       "before": "もういっかい、あそぶ？",
       "after": "きみの「もういっかい」は、\nどの あそび？",
-      "image": "assets/gen-cover.png",
+      "image": "../assets/gen-play/gen-cover.png",
       "alt": "手を上げる子どもと遊びに誘うGen",
       "layout": "ending"
     }
   ],
   "cover": {
-    "image": "assets/gen-cover.png",
+    "image": "../assets/gen-play/gen-cover.png",
     "alt": "子どもと読者を遊びに誘うGen"
   }
 }
