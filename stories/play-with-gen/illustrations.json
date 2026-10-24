@@ -1,0 +1,50 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "../../planning/style-studies/character-reference/assets/user-approved-turnaround.png",
+  "styleReference": "../hello-gen/assets/gen-rest.png",
+  "prompt": "Create one illustration for a Japanese children's picture-book, no text or speech bubbles. Reference image is style/character reference only. Match this EXACT Gen rabbit: white slender rabbit with a rounded-square head; use the authoritative Gen turnaround, not previous story images, for anatomy, one upright ear and one flopped ear, warm brown hand-drawn contours, wine-red shirt #7D2741, mustard yellow neck scarf #D7C862, small orange U with two dots at upper chest. Child is same bob-haired child in reference with WHITE OPAQUE skin/hair/clothes, soft coral outline #F59B82, minimal blank face profile, short sleeves and shorts. Child slightly taller than rabbit, childlike body. Gentle hand-drawn colored-pencil line variation, clean white opaque subjects, no photorealism or CGI, no dense watercolor textures, generous empty space, no text. Transparent background outside subjects and ground patch; NEVER transparent inside people or rabbit. Full bodies no cropping. ",
+  "geometryCorrection": "直前の画像へ復元。細長くしすぎた体型修正版は不採用。造形の基準は引き続きGenの三面図とし、数値だけで胴や脚を引き伸ばさない。",
+  "assets": [
+    {
+      "file": "assets/gen-small.png",
+      "scene": "膝を抱えて小さく丸くなる子どもと、隣で同じように座るGen",
+      "source": "exec-4a88963e-4b99-4d8e-9145-a8ce411ecdc4.png"
+    },
+    {
+      "file": "assets/gen-big.png",
+      "scene": "手足を大きく広げる子どもと、細身のGenが並んで同じポーズをする",
+      "source": "exec-57730ff5-b985-41fc-a020-fdc71a438869.png"
+    },
+    {
+      "file": "assets/gen-roll.png",
+      "scene": "床で横向きに寝ころび、体の向きを変えて遊ぶ子どもとGen",
+      "source": "exec-48c7c85c-afd9-4405-86b1-075c2c3cb178.png"
+    },
+    {
+      "file": "assets/gen-approach.png",
+      "scene": "トンネルの入口をのぞく子どもと、反対側で手を膝に置いて待つGen",
+      "source": "exec-65f33a55-2769-4abb-a220-8d2050188291.png"
+    },
+    {
+      "file": "assets/gen-tunnel.png",
+      "scene": "頭を低くしてトンネルから這い出る子どもを、Genが出口の脇で迎える",
+      "source": "exec-19af188c-2fa7-4048-a690-36296edaff7a.png"
+    },
+    {
+      "file": "assets/gen-rest.png",
+      "scene": "足を前に伸ばし、隣り合って穏やかに休む子どもとGen",
+      "source": "exec-a1cce9bb-3220-48c8-8fdc-c4ce0e04f287.png"
+    },
+    {
+      "file": "assets/gen-cover.png",
+      "source": "exec-cfc65ef2-ce0a-4628-ab26-22686823d117.png",
+      "scene": "Dedicated inviting cover, not a repeated exercise scene"
+    },
+    {
+      "file": "assets/gen-turn.png",
+      "source": "exec-2eac420a-591e-49e4-96f9-0caf706ded00.png",
+      "scene": "大人が子どもの脇の下から胸と胴を支えて近くに抱き、ゆっくり向きを変える様子をGenが見守る"
+    }
+  ],
+  "revisionNote": "ユーザーの比較により、全8枚を体型修正前へ戻した。"
+}

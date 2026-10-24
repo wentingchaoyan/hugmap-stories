@@ -1,0 +1,54 @@
+{
+  "common": "Use case illustration-story. Create a single clean gentle hand-drawn Japanese picture book scene. References are STYLE AND CHARACTER MODEL ONLY. Match Gen EXACTLY as in image1: same head-to-body ratio, compact body, same legs not elongated, white rabbit one upright ear and one folded ear, fitted wine #7D2741 shirt, flat mustard #D7C862 scarf, orange U with 2 dots upper chest. NO anatomy redesign. Child same bob hair, plain t shirt shorts, soft coral #F59B82 outline, white opaque hair skin clothes, minimal blank face. Adult if requested same mother as image2, pale peach #F7C6B3 lines white opaque fill. Animal brown #A77C65 outline. Rounded subtle hand-drawn lines, flat quiet colors, no CG shading. Transparent exterior with only small soft apricot grounding below feet, NEVER transparent human or rabbit interiors. Full bodies visible generous clear space, no text, no speech bubbles, no labels. ",
+  "jobs": [
+    {
+      "id": "palm-push",
+      "title": "手のひら、押しっこ",
+      "caption": "ぐーっ。きみの ちから、つたわったね。",
+      "prompt": "Mother at left seated comfortably on floor facing child center right seated on floor. They press both open palms together at child's chest height, fingers visible, gentle mutual contact not grabbing or pushing child over. Gen at far right seated watching the contact with warm smile, paws together in own lap. All three full bodies. Clearly two pairs palms contacting.",
+      "file": "assets/gen-palm-push.png",
+      "source": "exec-0fc70efe-2f88-4463-a479-e0cac9e0bdcd.png"
+    },
+    {
+      "id": "step-over",
+      "title": "クッションを、またごう",
+      "caption": "よいしょ。うしろの あしも。",
+      "prompt": "Child at left/center stepping over one very LOW flat light gray cushion on floor. One foot firmly grounded behind cushion, other raised just over it, knee bent, arms out gently for balance. Gen right beside but clear of landing area watching feet, one encouraging open paw, no pulling. Low obstacle not jumping or balancing on cushion.",
+      "file": "assets/gen-step-over.png",
+      "source": "exec-a483de0b-d84a-49bd-badf-776bc1e28443.png"
+    },
+    {
+      "id": "reach-up",
+      "title": "しゃがんで、ぐーん",
+      "caption": "ちいさくなって。ぐーんと、とどけ！",
+      "prompt": "One image with TWO small sequential vignettes left to right separated by ample whitespace, no frames or arrows: LEFT child squats knees bent heels near floor to pick up a large soft ball; RIGHT same child stands reaching ball into a shallow basket on a stable low waist-high shelf, no tiptoe or climbing. Gen at far right watching. Only relevant shelf and objects no room. Two child instances intentional sequence, same scale.",
+      "file": "assets/gen-reach-up.png",
+      "source": "exec-88fe2bac-1db5-411c-9d43-e7009adc034e.png"
+    },
+    {
+      "id": "animal-crawl",
+      "title": "どうぶつ歩き",
+      "caption": "のっし、のっし。どこへ いこう？",
+      "prompt": "Child at left and Gen at right crawl parallel toward viewer-left in side three-quarter view. BOTH palms and knees supported on floor, one hand slightly reaching forward. Genuine hands-and-knees quadruped, not bear walk feet and hands, not lying flat. Gen same proportions with torso horizontal, scarf and fitted shirt. Show four limbs readable, space between bodies.",
+      "file": "assets/gen-animal-crawl.png",
+      "source": "exec-4e42f14c-6dbe-464a-8a66-01c2850b36ac.png"
+    },
+    {
+      "id": "body-touch",
+      "title": "からだタッチ",
+      "caption": "おひざ、どこ？ ここ、ここ。",
+      "prompt": "Child at left seated on a very low stable stool feet firmly on floor, leaning slightly forward placing BOTH palms directly on own knees. Gen right seated similarly on low stool, paws touching own knees, looking toward child as a playful model. Child matches reference blank face and white silhouette. Small simple gray stools. Clear hands-to-knees contact.",
+      "file": "assets/gen-body-touch.png",
+      "source": "exec-4794152f-cc91-451f-94d3-e074b6045bc6.png"
+    },
+    {
+      "id": "freeze-pose",
+      "title": "まねっこ、ぴたっ",
+      "caption": "きみの ポーズ、ぼくも やってみよう。",
+      "prompt": "Child left chooses a playful asymmetric pose: left arm bent with open palm beside head, other arm straight sideways, BOTH feet on floor. Gen right mirrors same pose looking toward child. Stable pose not one-leg balance, not same both-arms-raised star as reference. Maintain exact Gen head/body ratio from ref. Full bodies, fun simple visual correspondence.",
+      "file": "assets/gen-freeze-pose.png",
+      "source": "exec-aca4b5e9-9c2f-4c90-b227-232ffeec7ca8.png"
+    }
+  ],
+  "tool": "built-in image_gen"
+}

@@ -24,10 +24,11 @@
     },
     {
       "file": "assets/night-blog-search.png",
-      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-6e4846ec-150a-45df-b6df-d6d5e30eac00.png",
-      "method": "Built-in image_gen edit: simplified background and guideline human contours",
+      "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-0f762c42-04b2-48b5-857c-5419b1c44c78.png",
+      "method": "Built-in image_gen edit",
       "prompt": "Precise recoloring edit only. Preserve composition, all poses, outlines geometry, scale, object positions and existing clean white background exactly. Change ONLY human contour colors to HugMap guideline: children's contours soft muted coral #F59B82 (RGB245,155,130); every adult's contours noticeably paler peach #F7C6B3 (RGB247,198,179). No vivid orange/red contours remaining on people. Keep interiors of skin, hair, clothing fully OPAQUE WHITE #FFFFFF, never translucent. Keep incidental gray people pale gray #E5E3E1 and opaque (no background visible through them). Keep all objects, animals and their colors unchanged. Preserve hand-drawn line variation, no extra texture, no text or palette swatches. Output same 1536x1024 framing.",
-      "reference": "assets/both-uncertain.png"
+      "reference": "assets/both-uncertain.png",
+      "purpose": "Mother lying on her side in bed at night, tearful and continuing to scroll blogs. Opaque white figures and bedding, restrained night window."
     },
     {
       "file": "assets/waiting-with-small-clothes.png",

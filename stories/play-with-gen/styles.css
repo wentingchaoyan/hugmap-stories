@@ -1,0 +1,22 @@
+/* Same paper, typography and vertical reading rhythm as Gen's introduction. */
+.gen-play .panel figure img{mix-blend-mode:normal;opacity:1}
+.gen-play .panel figure::before,.gen-play .panel figure::after{display:none}
+.gen-play .cover figure{max-width:450px}
+.gen-play .scene figure{max-width:580px}
+.gen-play #scene-small figure,.gen-play #scene-big figure,.gen-play #scene-rest figure{max-width:510px}
+.gen-play .quiet{padding-top:90px;padding-bottom:125px}
+.gen-play #scene-rest{background:var(--paper)}
+.gen-play .quiet .story-beat{padding-top:25px}
+.gen-play .play-note{margin-top:30px;border-top:1px solid #e8ddd0;padding-top:18px;font-size:14px;line-height:2}
+.gen-play .play-note summary{cursor:pointer}
+.gen-play .play-note p{margin-top:16px}
+.gen-play .cover-arrow{border:0}
+@media(max-width:600px){.gen-play .quiet{padding-top:65px;padding-bottom:90px}.gen-play .panel figure{width:100%}.gen-play .cover figure{width:90%}}
+/* Reuse a detail, then reveal the full illustration on the next beat. */
+.gen-play .focus-child figure{max-width:300px;aspect-ratio:.6;overflow:hidden}
+.gen-play .focus-child figure img{width:241%;max-width:none;transform:translate(-14%,-20%)}
+.gen-play .focus-tunnel figure{max-width:430px}
+
+.gen-play .more-play{margin:40px 0;padding:25px 0;border-top:1px solid #e8ddd0;border-bottom:1px solid #e8ddd0}
+.gen-play .more-play h3{font-size:23px;font-weight:500}
+.gen-play .ending .story-beat{padding-top:32px}
