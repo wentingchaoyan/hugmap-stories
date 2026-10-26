@@ -11,5 +11,29 @@
       "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-9b851d61-2ef5-469b-af37-41252ad4df84.png",
       "prompt": "Create one HugMap picture book play illustration. FIRST image is binding Gen character turnaround geometry; SECOND is binding colored clothing example. Match Gen EXACTLY: small rounded slightly tall head with gentle lower cheeks, small dark oval eyes WITHOUT white highlights, tiny oval nose, little buck tooth smile, long one upright one folded ear, substantial rounded upright torso, short straight legs, mittenlike hands WITHOUT fingers. Do not make a giant head, tapered skinny body, disney eyes or wide open mouth. Gen outline #A77C65 thin organic smooth 4px at1536x1024, inner3px; eyes/nose #6B5143. White opaque body, flat wine shirt #7D2741, mustard scarf #D7C862 WITHOUT outline/internal lines/shading. Small orange #FF511B U+2dots upper LEFT chest (viewer right). Flat colors no CGI gradient no gloss. Child left bobhaired, faceless white opaque silhouette, coral #F59B82 fine outline, opaque white shirt shorts. Gen about 80 percent child height including ears when standing. Child left kneeling upright rolls a small plain pale yellow ball into a low cardboard box lying on side in center, opening facing child. Gen stands upright right beside box, one hand steadying it, other at side. Preserve exact standing proportions of reference. Lots of empty space. One clean very light apricot ground oval only, exterior transparent. People animals opaque. No text no arrows.\nEdit this illustration minimally: preserve exactly character geometry poses colors composition and opaque white human/animal interiors. Remove ALL glowing halo around figures and objects, completely transparent clean exterior. Retain ONLY the low pale apricot ground oval underneath feet/knees, no light aura, no fog. Thin Gen outline to soft brown #A77C65, child outline #F59B82. Flat colors. Do not change characters. No background glow."
     }
-  ]
+  ],
+  "background_repair": {
+    "date": "2026-10-27",
+    "tool": "built-in image_gen",
+    "reason": "Remove dark smoke and checker-like background artifacts visible in the Webtoon.",
+    "prompt": "Replace the entire dark/glowing background with opaque warm white #FFFDF9. Keep the original composition, child, Gen, props and clothing, with opaque white interiors. Retain only a pale apricot ground oval; no halo, fog or checkerboard.",
+    "assets": [
+      {
+        "file": "gen-ball-catch.png",
+        "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-0756df3b-3552-41b9-92fc-79c8ff6629c8.png"
+      },
+      {
+        "file": "gen-ball-target.png",
+        "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-df0f7523-0455-4b96-8f84-3d94e1a22fdb.png"
+      },
+      {
+        "file": "gen-ball-exchange.png",
+        "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-09cebe10-4d0a-4cb9-8e4b-61dde41dd212.png"
+      },
+      {
+        "file": "gen-ball-toss.png",
+        "source": "/Users/tingwen/.codex/generated_images/01a153b7-8ba0-7432-b64d-aad1542e18c0/exec-be244af4-4ebf-4314-8265-549f103b0740.png"
+      }
+    ]
+  }
 }
